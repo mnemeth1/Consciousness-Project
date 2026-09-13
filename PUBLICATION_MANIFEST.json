@@ -12,8 +12,8 @@
     },
     {
       "path": ".github/workflows/paper.yml",
-      "sha256": "a7fb1880a9cd596eb49817b97b94a91f17200e190a0bd6a52f550f2fac1286d7",
-      "bytes": 4592,
+      "sha256": "bc43dc31e53a1ea748a4d32d91ca1919e110864fc0296bb0d345c926b0acb8da",
+      "bytes": 4604,
       "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/.github/workflows/paper.yml",
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
