@@ -11,4 +11,4 @@
 
 The public snapshot includes accepted Phase 2 domain contributions, whose final cumulative review remains outstanding.
 
-The [research article](paper/paper.html), **Consciousness, Existence, and the Grounds of Significance**, is the authorized working draft (version 0.4.0), with [release notes](paper/CHANGELOG.md). It presents the substantive philosophical argument from the research available so far, together with a [plain-language companion overview](paper/companion.html) and a [landing page](paper/landing.html). Publication of this draft does not complete P2R20 or P2G2.
+The [research article](paper/paper.html), **Consciousness, Existence, and the Grounds of Significance**, is the authorized working draft (version 0.4.1), with [release notes](paper/CHANGELOG.md). It presents the substantive philosophical argument from the research available so far, together with a [plain-language companion overview](paper/companion.html) and a [landing page](paper/landing.html). Publication of this draft does not complete P2R20 or P2G2.

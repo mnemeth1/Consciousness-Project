@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "status": "authorized-draft",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "date": "2026-09-13",
-  "html_sha256": "7e353aa5883abd65ceb1f980b10a93aae758de1163fbd57ddb5695e4bfe92e16",
-  "renderer_sha256": "63b374a7d8dee2110559d9e1c8f27fd678c6f8dab22facd85c016340e31d84b6",
+  "html_sha256": "d31eab14ead977930fe47b46e6fd253df0da0b7fdf6a49391943ab1e5952a277",
+  "renderer_sha256": "8390b01fa0a468bf1dfa4d2109e36760dc67d685bda2dd27b2989a7cabe1822f",
   "fixture": false,
   "scientific_acceptance": false,
   "pending_reviews": [
@@ -15,7 +15,7 @@
   "publication_authorized_by": "Michael Nemeth",
   "authorization": "Prior authorization to publish and continue, followed by the request for a finished research paper based on existing research, with arguments and evidence refined in subsequent versions.",
   "presentation": "research-article",
-  "landing_html_sha256": "a363dd8a51c707de287b0211395e5e611ccd9f3d464c7688f9810528eeba85a7",
-  "companion_html_sha256": "91bc571372012fa552b88cb64c50336d458f9dfabecad8d901d8858facc1f2e8",
-  "crosswalk_sha256": "9c290206ca3ea0729771da405feee21fe418749333c67318dc7a2853f9fd6a27"
+  "landing_html_sha256": "c85055bf078f9aeb7f1837ee88b98ddbfc972a32e7a945e582cee6422bf0f48c",
+  "companion_html_sha256": "253b2975d03334d34250748cd053caf82684baec0b493592cf59cb5c3ed8e8b9",
+  "crosswalk_sha256": "d3751879cdf07491f7438c9681fffc45029e21eebf4f82c829561fad4e9c1258"
 }

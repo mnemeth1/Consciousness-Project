@@ -10,6 +10,7 @@ const C = require('./common.cjs');
 const dep = process.env.PAPER_NODE_MODULES
   ? createRequire(path.join(process.env.PAPER_NODE_MODULES, '__paper__.cjs')) : require;
 const normalize = text => text.normalize('NFKC').replace(/[\s\u00ad\u200b]+/gu, '');
+const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'paper.pdf', 'release.json'];
 function validateMetadata(meta) {
   assert(C.SEMVER.test(meta.version), 'Stable semantic paper-version required (e.g. 2.0.0)');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(meta.date) &&
@@ -20,7 +21,7 @@ async function inspectHTML(page, html) {
   assert(!/<meta\b[^>]*\bhttp-equiv\b/i.test(html), 'No meta http-equiv navigation or refresh');
   await page.setContent(html, {waitUntil: 'load'});
   await page.evaluate(() => document.fonts.ready);
-  const info = await page.evaluate(requiredIDs => {
+  const info = await page.evaluate(({requiredIDs, artifactFiles}) => {
     const errors = [];
     const error = (condition, message) => { if (!condition) errors.push(message); };
     const all = [...document.querySelectorAll('*')];
@@ -73,9 +74,12 @@ async function inspectHTML(page, html) {
       if (href.startsWith('#')) {
         error(!!document.getElementById(decodeURIComponent(href.slice(1))), `Broken citation/section ${href}`);
         if (paper?.contains(a)) internal.push(decodeURIComponent(href.slice(1)));
-      } else {
-        error(/^https:\/\//.test(href), `Only HTTPS or internal reference links: ${href}`);
+      } else if (/^https:\/\//.test(href)) {
         if (paper?.contains(a)) external.push(href);
+      } else {
+        error(!paper?.contains(a), `Relative artifact links must sit outside main: ${href}`);
+        const file = href.split('#')[0];
+        error(artifactFiles.includes(file), `Only HTTPS, internal, or artifact-relative links: ${href}`);
       }
     }
     const chunks = paper ? [...paper.querySelectorAll('h1,h2,h3,h4,p,li,caption,th,td,figcaption')]
@@ -85,13 +89,11 @@ async function inspectHTML(page, html) {
     return {errors, title: document.title.trim(), author: meta('author'), version: meta('paper-version'),
       date: meta('paper-date'), stage: meta('paper-stage'), ...(presentation ? {presentation} : {}), fixture: meta('paper-fixture') === 'true', chunks,
       external: [...new Set(external)], internal, ids};
-  }, C.requiredIDs);
+  }, {requiredIDs: C.requiredIDs, artifactFiles: ARTIFACT_FILES});
   assert.deepEqual(info.errors, [], 'HTML contract errors: ' + info.errors.join('; '));
   validateMetadata(info);
   return info;
 }
-// Artifact files the landing/companion pages may reference relative to the site root.
-const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'paper.pdf', 'release.json'];
 async function inspectAuxiliary(page, html, name, paperInfo) {
   assert(!/<meta\b[^>]*\bhttp-equiv\b/i.test(html), `${name}: no meta http-equiv navigation or refresh`);
   await page.setContent(html, {waitUntil: 'load'});

@@ -1,5 +1,9 @@
 # Paper versions
 
+## 0.4.1 - 2026-09-13
+
+Adds companion-style top navigation on the research article page: start page, plain-language overview, and PDF download. The article argument is unchanged. Pending-review status (P2R20/P2G2) remains recorded in release records.
+
 ## 0.4.0 - 2026-09-13
 
 Adds a public landing page and a plain-language companion overview, published together with the article as one versioned artifact. The site root becomes a reader chooser; the research article moves to `paper.html` with an unchanged argument (version metadata only). The companion summarizes the article for general readers and is bound to it by a build-validated crosswalk (`paper/lay_crosswalk.json`) mapping every companion claim block to the article paragraphs it summarizes. The release pipeline, artifact validators and release records now bind the landing, companion and crosswalk hashes alongside the existing HTML/PDF pair.
