@@ -82,6 +82,13 @@
       "source_sha256": "f38e1582e7646e6e5b547fc5326b17a4a442448af23c2e8f6993e13dc56d2195"
     },
     {
+      "path": "docs/COMPANION_OUTLINE.md",
+      "sha256": "f1134ce0b73219abfb5f8a437dd9661ce38bd85cc6c885c8baf5099f20db4def",
+      "bytes": 4037,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "docs/PAPER_RELEASE.md",
       "sha256": "3d9fffdbee0e18bb901569c221bc327f4588364f92f9325e8c44770da7e332e3",
       "bytes": 12039,
