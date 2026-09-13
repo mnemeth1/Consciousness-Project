@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "status": "authorized-draft",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "date": "2026-09-13",
-  "html_sha256": "ee68004634184cbd8f36507f712f32d0c5269ab7a7c39ec747ecdeabea4e7b54",
-  "renderer_sha256": "008694c4c6ad5c98a442dc17ab614c8500f785d09451b2afc3e0bd3199acdf95",
+  "html_sha256": "f8ce685a6c47c59ace9481c7ee7c3325dcc6de771a9d203cca4cf07c024fcb89",
+  "renderer_sha256": "f0aaee189e7126f7cada93d68586907abf7819bb0d2f2e3931e1d866bed0f130",
   "fixture": false,
   "scientific_acceptance": false,
   "pending_reviews": [
@@ -13,5 +13,6 @@
   ],
   "author": "Consciousness Project; AI-assisted draft authored by a separate synthesis context",
   "publication_authorized_by": "Michael Nemeth",
-  "authorization": "I'm running out of inference, get the CI/CD working and a phase 2 release draft published that can be improved later"
+  "authorization": "Prior authorization to publish and continue, followed by the request for a finished research paper based on existing research, with arguments and evidence refined in subsequent versions.",
+  "presentation": "research-article"
 }

@@ -24,7 +24,13 @@ def validate(directory):
         assert manifest['stage']=='draft' and manifest['scientific_acceptance'] is False
         assert manifest['draft']['status']=='authorized-draft' and manifest['draft']['pending_reviews']==['P2R20','P2G2']
         assert manifest['review_sha256'] is None and manifest['review'] is None
-        assert re.match(r'^Phase 2 working draft(?:[: -]|$)',manifest['title'])
+        presentation=manifest.get('presentation')
+        assert presentation in {None,'research-article'}, 'Unsupported paper presentation'
+        assert presentation==manifest['draft'].get('presentation'), 'Draft presentation authorization mismatch'
+        if presentation=='research-article':
+            assert manifest['title'].strip() and not re.search(r'P2R20|P2G2|Phase\s*2\s*working\s*draft',manifest['title'],re.I), 'Ordinary scholarly title required'
+        else:
+            assert re.match(r'^Phase 2 working draft(?:[: -]|$)',manifest['title'])
     for file, field in [('index.html', 'html_sha256'), ('paper.pdf', 'pdf_sha256')]:
         assert hashlib.sha256((root/file).read_bytes()).hexdigest() == manifest[field], 'Stale or changed pair: ' + file
     assert (root/'paper.pdf').read_bytes().startswith(b'%PDF-'), 'Generated paper PDF required'

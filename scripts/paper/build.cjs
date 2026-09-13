@@ -56,7 +56,14 @@ async function inspectHTML(page, html) {
     error(document.getElementById('paper-version')?.textContent.trim() === meta('paper-version'), 'Visible version differs');
     error(document.getElementById('paper-date')?.textContent.trim() === meta('paper-date'), 'Visible date differs');
     error(['draft', 'reviewed'].includes(meta('paper-stage')), 'paper-stage must be draft or reviewed');
-    const statusText = meta('paper-stage') === 'draft' ? 'Draft: P2R20 and P2G2 pending' : 'Reviewed research synthesis';
+    const presentation = meta('paper-presentation');
+    error(['', 'research-article'].includes(presentation), 'Unsupported paper presentation');
+    if (presentation === 'research-article') {
+      error(meta('paper-stage') === 'draft', 'Article presentation retains internal draft stage');
+      error(!/P2R20|P2G2|Phase\s*2\s*working\s*draft/i.test(document.title), 'Research article requires an ordinary scholarly title');
+    }
+    const statusText = presentation === 'research-article' ? 'Research article'
+      : meta('paper-stage') === 'draft' ? 'Draft: P2R20 and P2G2 pending' : 'Reviewed research synthesis';
     error(document.getElementById('publication-status')?.textContent.trim() === statusText, 'Visible publication status differs');
     const external = [];
     const internal = [];
@@ -76,7 +83,7 @@ async function inspectHTML(page, html) {
       .map(el => el.textContent.trim()).filter(Boolean) : [];
     error(chunks.length >= 10, 'Substantive sections need semantic text blocks');
     return {errors, title: document.title.trim(), author: meta('author'), version: meta('paper-version'),
-      date: meta('paper-date'), stage: meta('paper-stage'), fixture: meta('paper-fixture') === 'true', chunks,
+      date: meta('paper-date'), stage: meta('paper-stage'), ...(presentation ? {presentation} : {}), fixture: meta('paper-fixture') === 'true', chunks,
       external: [...new Set(external)], internal};
   }, C.requiredIDs);
   assert.deepEqual(info.errors, [], 'HTML contract errors: ' + info.errors.join('; '));
@@ -198,12 +205,13 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     if (mode === 'release') assert.equal(C.sha(pdfBytes), review.pdf_sha256, 'Generated PDF differs from the reviewed Linux PDF');
   } finally { await browser.close(); }
   const manifest = {schema: 1, version: info.version, date: info.date, title: info.title, stage: info.stage,
+    ...(info.presentation ? {presentation: info.presentation} : {}),
     mode, fixture, source_commit: commit, html_sha256: htmlHash, pdf_sha256: C.sha(pdfBytes),
     renderer_sha256: rendererHash, review_sha256: review ? C.sha(C.regular(path.join(root, 'paper/reviewed-release.json'))) : null,
     draft_authorization_sha256: draft ? C.sha(C.regular(path.join(root, 'paper/draft-release.json'))) : null,
     ...(draft ? {scientific_acceptance: false, draft: {status: draft.status, author: draft.author,
       publication_authorized_by: draft.publication_authorized_by, authorization: draft.authorization,
-      pending_reviews: draft.pending_reviews}} : {}),
+      pending_reviews: draft.pending_reviews, ...(draft.presentation ? {presentation: draft.presentation} : {})}} : {}),
     toolchain: {...toolchain, actual_browser: browserVersion, actual_platform: process.platform + '-' + process.arch,
       actual_node: process.versions.node}, verification,
     review: review ? {review_id: review.review_id, reviewer: review.reviewer, gate_id: review.gate_id,
@@ -235,7 +243,7 @@ function validatePair(directory, {allowPreview = false} = {}) {
       assert.equal(manifest.stage, 'draft');
       assert.equal(manifest.review_sha256, null); assert.equal(manifest.review, null);
       assert.deepEqual(manifest.draft.pending_reviews, ['P2R20', 'P2G2']);
-      assert(/^Phase 2 working draft(?:[: -]|$)/.test(manifest.title), 'Working-draft label required');
+      C.validateDraftPresentation(manifest, manifest.draft.presentation);
     }
   }
   return manifest;

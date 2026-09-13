@@ -60,7 +60,7 @@ function validateDraft(root, meta, htmlHash, rendererHash) {
   assert.equal(draft.scientific_acceptance, false, 'Working draft must not claim scientific acceptance');
   assert.deepEqual(draft.pending_reviews, ['P2R20', 'P2G2'], 'Final review and release adjudication remain pending');
   assert.equal(meta.stage, 'draft', 'Working draft must retain draft stage');
-  assert(/^Phase 2 working draft(?:[: -]|$)/.test(meta.title), 'Title must conspicuously identify Phase 2 working draft');
+  validateDraftPresentation(meta, draft.presentation);
   assert.equal(draft.version, meta.version, 'Draft version mismatch');
   assert(SEMVER.test(draft.version), 'Stable numeric semantic draft version required');
   assert.equal(draft.date, meta.date, 'Draft date mismatch');
@@ -70,6 +70,17 @@ function validateDraft(root, meta, htmlHash, rendererHash) {
   assert(draft.authorization?.trim().length >= 20, 'Record the actual user publication authorization');
   validateChangelog(root, meta);
   return draft;
+}
+function validateDraftPresentation(meta, authorizedPresentation) {
+  const presentation = meta.presentation ?? null;
+  assert([null, 'research-article'].includes(presentation), 'Unsupported paper presentation');
+  assert.equal(authorizedPresentation ?? null, presentation, 'Draft presentation authorization mismatch');
+  if (presentation === 'research-article') {
+    assert(typeof meta.title === 'string' && meta.title.trim() && !/P2R20|P2G2|Phase\s*2\s*working\s*draft/i.test(meta.title),
+      'Research article requires an ordinary scholarly title');
+  } else {
+    assert(/^Phase 2 working draft(?:[: -]|$)/.test(meta.title), 'Title must conspicuously identify Phase 2 working draft; Working-draft label required');
+  }
 }
 function validateReview(root, meta, htmlHash, rendererHash) {
   assert(!fs.existsSync(path.join(root, 'paper/draft-release.json')), 'Draft and reviewed release records cannot coexist');
@@ -117,11 +128,11 @@ function validateReview(root, meta, htmlHash, rendererHash) {
 }
 function assertSameRelease(previous, next) {
   for (const key of ['schema', 'version', 'date', 'title', 'fixture', 'mode', 'html_sha256',
-    'pdf_sha256', 'renderer_sha256', 'review_sha256', 'draft_authorization_sha256']) {
+    'pdf_sha256', 'renderer_sha256', 'review_sha256', 'draft_authorization_sha256', 'presentation']) {
     assert.deepEqual(previous[key], next[key], `Released version cannot be reused with different ${key}`);
   }
   assert(['release', 'draft-release'].includes(next.mode));
   assert.equal(next.fixture, false);
 }
 module.exports = {ROOT, sha, readJSON, writeJSON, SEMVER, HASH, COMMIT, requiredIDs, inside,
-  regular, recipe, status, validateReview, validateDraft, assertSameRelease};
+  regular, recipe, status, validateReview, validateDraft, validateDraftPresentation, assertSameRelease};

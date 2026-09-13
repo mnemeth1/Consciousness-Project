@@ -284,3 +284,57 @@ test('authorized working draft publishes as a labelled prerelease and preserves 
   C.writeJSON(path.join(directory,'release.json'),unlabelled);
   assert.throws(() => B.validatePair(directory), /Working-draft label/);
 });
+function articleRoot(name) {
+  const original=draftRoot(name), {root}=original;
+  const title='Consciousness and Existence: A Comparative Synthesis';
+  const html=fs.readFileSync(path.join(root,'paper/paper.html'),'utf8')
+    .replaceAll(original.meta.title,title).replaceAll('0.2.0','0.3.0')
+    .replace('name="paper-stage" content="draft"','name="paper-stage" content="draft"><meta name="paper-presentation" content="research-article"')
+    .replace('Draft: P2R20 and P2G2 pending','Research article');
+  fs.writeFileSync(path.join(root,'paper/paper.html'),html);
+  const meta={...original.meta,title,version:'0.3.0',presentation:'research-article'};
+  const draft={...original.draft,version:meta.version,html_sha256:C.sha(html),presentation:meta.presentation};
+  C.writeJSON(path.join(root,'paper/draft-release.json'),draft);
+  fs.writeFileSync(path.join(root,'paper/CHANGELOG.md'),'## 0.3.0 - 2026-09-13\n\nSynthetic scholarly-presentation extension test.\n');
+  return {root,meta,draft,html};
+}
+test('research-article HTML uses a scholarly title and badge while stage stays draft', async () => {
+  const {html}=articleRoot('article-html');
+  const info=await B.inspectHTML(page,html);
+  assert.equal(info.presentation,'research-article');assert.equal(info.stage,'draft');
+  assert.equal(info.title,'Consciousness and Existence: A Comparative Synthesis');
+  await assert.rejects(B.inspectHTML(page,html.replace('>Research article<','>Reviewed research synthesis<')),/Visible publication status/);
+  await assert.rejects(B.inspectHTML(page,html.replace('content="research-article"','content="unapproved-format"')),/Unsupported paper presentation/);
+  await assert.rejects(B.inspectHTML(page,html.replace('name="paper-stage" content="draft"','name="paper-stage" content="reviewed"')),/internal draft stage/);
+});
+test('article presentation requires matching authorization and cannot bypass reviewed gates', () => {
+  const {root,meta,draft}=articleRoot('article-auth');
+  assert.equal(C.validateDraft(root,meta,draft.html_sha256,draft.renderer_sha256).scientific_acceptance,false);
+  const missing={...draft};delete missing.presentation;
+  C.writeJSON(path.join(root,'paper/draft-release.json'),missing);
+  assert.throws(()=>C.validateDraft(root,meta,draft.html_sha256,draft.renderer_sha256),/presentation authorization mismatch/);
+  C.writeJSON(path.join(root,'paper/draft-release.json'),draft);
+  assert.throws(()=>C.validateDraft(root,{...meta,presentation:undefined},draft.html_sha256,draft.renderer_sha256),/presentation authorization mismatch/);
+  assert.throws(()=>C.validateDraft(root,meta,hash,draft.renderer_sha256),/HTML hash/);
+  assert.throws(()=>C.validateDraft(root,{...meta,version:'0.3.1'},draft.html_sha256,draft.renderer_sha256),/version/);
+  const final=reviewRoot('article-cannot-self-approve');
+  assert.throws(()=>C.validateReview(final.root,{...final.review,stage:'draft',presentation:'research-article'},hash,hash),/reviewed presentation status/);
+  assert.equal(C.validateReview(final.root,final.review,hash,hash).status,'approved');
+});
+test('article manifest and prerelease preserve truthful review records and immutability', async () => {
+  const {root}=articleRoot('article-pair');
+  const manifest=await B.build({root,source:'paper/paper.html',out:'site',mode:'preview',commit});
+  assert.equal(manifest.presentation,'research-article');assert.equal(manifest.draft.presentation,'research-article');
+  assert.equal(manifest.stage,'draft');assert.equal(manifest.scientific_acceptance,false);
+  assert.deepEqual(manifest.draft.pending_reviews,['P2R20','P2G2']);assert.equal(manifest.review,null);
+  const directory=path.join(root,'site'),release={...manifest,mode:'draft-release'};
+  C.writeJSON(path.join(directory,'release.json'),release);
+  const mock=mockGitHub();await publishPair({directory,api:mock.api,commit});
+  assert.equal(mock.releases[0].name,'Research article 0.3.0');assert.equal(mock.releases[0].prerelease,true);
+  assert.match(mock.releases[0].body,/versioned manuscript/);assert.match(mock.releases[0].body,/No external peer review is claimed/);
+  assert.match(mock.releases[0].body,/P2R20 and P2G2 remain pending in release records/);
+  assert.throws(()=>C.assertSameRelease(release,{...release,presentation:null}),/cannot be reused.*presentation/);
+  C.writeJSON(path.join(directory,'release.json'),{...release,draft:{...release.draft,presentation:null}});
+  assert.throws(()=>B.validatePair(directory),/presentation authorization mismatch/);
+  C.writeJSON(path.join(directory,'release.json'),release);
+});

@@ -18,13 +18,14 @@
   "source_archive_included": false,
   "automatic_background_execution": false,
   "current_public_draft": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "stage": "draft",
     "scientific_acceptance": false,
     "pending_reviews": [
       "P2R20",
       "P2G2"
     ],
-    "task": "PHASE2_PUBLIC_DRAFT_20260913"
+    "task": "PHILOSOPHICAL_PAPER_20260913",
+    "presentation": "research-article"
   }
 }

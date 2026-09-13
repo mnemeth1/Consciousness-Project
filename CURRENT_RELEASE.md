@@ -11,4 +11,4 @@
 
 The public snapshot includes accepted Phase 2 domain contributions, whose final cumulative review remains outstanding.
 
-A newer [Phase 2 working draft](paper/paper.html) is available as [prerelease 0.2.0](https://github.com/mnemeth1/Consciousness-Project/releases/tag/paper-v0.2.0), with [release notes](paper/CHANGELOG.md). It does not replace Version 1 as the current reviewed synthesis.
+The latest [research article](paper/paper.html), **Consciousness, Existence, and the Grounds of Significance**, is available as [version 0.3.0](https://github.com/mnemeth1/Consciousness-Project/releases/tag/paper-v0.3.0), with [release notes](paper/CHANGELOG.md). It presents the substantive philosophical argument from the research available so far. Version 1 remains the current synthesis that completed the project's full internal review sequence.

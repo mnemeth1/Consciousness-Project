@@ -64,12 +64,22 @@
     },
     {
       "path": "CURRENT_RELEASE.md",
-      "sha256": "f769a1fa03270c011b6afc8fa60e07fc09eab44d73c8627c74ebf7352a9d5d86",
-      "bytes": 829,
+      "sha256": "a36c77d13eec98706f9e3d748e8e09ee0ef705d99e32efbe99615024e644ed37",
+      "bytes": 1010,
       "source": null,
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ]
+    },
+    {
+      "path": "docs/ARTICLE_PRESENTATION.md",
+      "sha256": "f38e1582e7646e6e5b547fc5326b17a4a442448af23c2e8f6993e13dc56d2195",
+      "bytes": 1534,
+      "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/docs/ARTICLE_PRESENTATION.md",
+      "transformations": [
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
+      ],
+      "source_sha256": "f38e1582e7646e6e5b547fc5326b17a4a442448af23c2e8f6993e13dc56d2195"
     },
     {
       "path": "docs/PAPER_RELEASE.md",
@@ -112,41 +122,41 @@
     },
     {
       "path": "paper/CHANGELOG.md",
-      "sha256": "48e38e6eb888851885c76031f350055f0d8689c10790aca4fbbe3098ef71b3f3",
-      "bytes": 671,
+      "sha256": "86da504fc4f9877eb38f942788e12157a8c1aba43ff0b8c66e01f1d570f79a96",
+      "bytes": 1417,
       "source": null,
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ]
     },
     {
       "path": "paper/draft-release.json",
-      "sha256": "937933ec351a4f6ae9c8bbd342fd1080e9b9890217029eb5314504b61717e0fe",
-      "bytes": 661,
+      "sha256": "8468bf2789e6b0153c8db4c6dddcfb530c9d3c62f723b663cafbd85f7734f5e8",
+      "bytes": 769,
       "source": null,
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ]
     },
     {
       "path": "paper/paper.html",
-      "sha256": "ee68004634184cbd8f36507f712f32d0c5269ab7a7c39ec747ecdeabea4e7b54",
-      "bytes": 20771,
-      "source": "work/PHASE2_PUBLIC_DRAFT_20260913/paper.html",
+      "sha256": "f8ce685a6c47c59ace9481c7ee7c3325dcc6de771a9d203cca4cf07c024fcb89",
+      "bytes": 52724,
+      "source": "work/PHILOSOPHICAL_PAPER_20260913/paper.html",
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ],
-      "source_sha256": "ee68004634184cbd8f36507f712f32d0c5269ab7a7c39ec747ecdeabea4e7b54"
+      "source_sha256": "c8a19da66ad75bbfe303981c90dc6ff9df4e4acae93b0f064d079b057ef3c5ef"
     },
     {
       "path": "paper/source-crosswalk.json",
-      "sha256": "c5d55e62d7ed7c72d008476b7f2a562772f9385a6d3c156151c7864b155c2b47",
-      "bytes": 2175017,
-      "source": "work/PHASE2_PUBLIC_DRAFT_20260913/crosswalk.json",
+      "sha256": "11e0ca4e7c98467597a86164674d823f228243a4d52d0505f8e2f870fd392e94",
+      "bytes": 240476,
+      "source": "work/PHILOSOPHICAL_PAPER_20260913/source-crosswalk.json",
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ],
-      "source_sha256": "9c3596512dcc2bd2a881c88ce0df4611b4ad5f82f935b32be2a3a4b5df292d40"
+      "source_sha256": "24252a163857d9a404af93c4bfb4874748827f7718818fbbb40b0b1cdc16161e"
     },
     {
       "path": "phase2/amendments/001-readiness.md",
@@ -301,11 +311,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "828ac75faeb2a7cd8f581d3e56a492d8329760018ec441cd75c0a6f37e4b6c54",
-      "bytes": 4310,
+      "sha256": "ca9884467745afb7d35ce774406b9a314ef57dfad490e68039f4c9efd08e278e",
+      "bytes": 4434,
       "source": null,
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ]
     },
     {
@@ -575,13 +585,13 @@
     },
     {
       "path": "scripts/paper/build.cjs",
-      "sha256": "a7641139b18c2a8f6a975a1657432f874b4110acd70935dba4742c9b07ac1456",
-      "bytes": 17277,
-      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/build.cjs",
+      "sha256": "00e4c3d9cc08dd739fe0dfd044007f633b1e0eb824dc95ad7be59188d749a5c8",
+      "bytes": 17923,
+      "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/build.cjs",
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ],
-      "source_sha256": "a7641139b18c2a8f6a975a1657432f874b4110acd70935dba4742c9b07ac1456"
+      "source_sha256": "00e4c3d9cc08dd739fe0dfd044007f633b1e0eb824dc95ad7be59188d749a5c8"
     },
     {
       "path": "scripts/paper/cli.cjs",
@@ -595,23 +605,23 @@
     },
     {
       "path": "scripts/paper/common.cjs",
-      "sha256": "d19fb82af7cdd801a2b58a3a1f3d3e0b9a9a85737eab0c62fe87343ee227b729",
-      "bytes": 8493,
-      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/common.cjs",
+      "sha256": "755617fff843be6663994d992c50f5a771aaa75b0b6d93f05a02a6cad6b56df6",
+      "bytes": 9195,
+      "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/common.cjs",
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ],
-      "source_sha256": "d19fb82af7cdd801a2b58a3a1f3d3e0b9a9a85737eab0c62fe87343ee227b729"
+      "source_sha256": "755617fff843be6663994d992c50f5a771aaa75b0b6d93f05a02a6cad6b56df6"
     },
     {
       "path": "scripts/paper/release.cjs",
-      "sha256": "10ea724ccb676c392c7be07b5ca323858bf192f70a3464185cc23c299ae256c9",
-      "bytes": 8550,
-      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/release.cjs",
+      "sha256": "b51e57144bfa80f00f8dd5814e751be45526f839fe72b244d638d658ff4ec7d9",
+      "bytes": 8937,
+      "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/release.cjs",
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ],
-      "source_sha256": "10ea724ccb676c392c7be07b5ca323858bf192f70a3464185cc23c299ae256c9"
+      "source_sha256": "b51e57144bfa80f00f8dd5814e751be45526f839fe72b244d638d658ff4ec7d9"
     },
     {
       "path": "scripts/paper/toolchain.json",
@@ -625,13 +635,13 @@
     },
     {
       "path": "scripts/validate_paper_artifact.py",
-      "sha256": "d52501c097106dd98fa32a963cbf98d40b0213968f3aefba7526e156e2b4a33c",
-      "bytes": 2344,
-      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/validate_paper_artifact.py",
+      "sha256": "e5b3c0a301fb56be5fdef4a181db80524b700423bd9e3cbfabfc8bed8c6f7a59",
+      "bytes": 2826,
+      "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/validate_paper_artifact.py",
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ],
-      "source_sha256": "d52501c097106dd98fa32a963cbf98d40b0213968f3aefba7526e156e2b4a33c"
+      "source_sha256": "e5b3c0a301fb56be5fdef4a181db80524b700423bd9e3cbfabfc8bed8c6f7a59"
     },
     {
       "path": "scripts/validate_public_snapshot.py",
@@ -652,11 +662,11 @@
     },
     {
       "path": "state/public_status.json",
-      "sha256": "73f29a0d62d664848bf500b59a80b0391f91f91eda437f2181453becb05e5da0",
-      "bytes": 1072,
+      "sha256": "24392f2a145f8f8c7fdb0a9d5cd7ce207fc7794f931c3da369cb0017bf049fb3",
+      "bytes": 1112,
       "source": null,
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ]
     },
     {
@@ -670,11 +680,11 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "18e1950a20581d89159ef980f0c4eddfb4828aa97396c4ccff8e1b7bd9b2bc58",
-      "bytes": 1599,
+      "sha256": "c98c8c048913a1d1887c717c759e297bd059c2a854ff60f283250ee4c6b4280b",
+      "bytes": 1584,
       "source": null,
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ]
     },
     {
@@ -755,13 +765,13 @@
     },
     {
       "path": "tests/paper.test.cjs",
-      "sha256": "eadc8a54e6271b9224e576b16bfccd0cb495deb8ee569b0b632978d8ab293cca",
-      "bytes": 20110,
-      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/tests/paper.test.cjs",
+      "sha256": "45009df6dee96ab07f1b255a2e452edb33b7bca153d317ea86ebd16a438fb63d",
+      "bytes": 24670,
+      "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/tests/paper.test.cjs",
       "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+        "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ],
-      "source_sha256": "eadc8a54e6271b9224e576b16bfccd0cb495deb8ee569b0b632978d8ab293cca"
+      "source_sha256": "45009df6dee96ab07f1b255a2e452edb33b7bca153d317ea86ebd16a438fb63d"
     },
     {
       "path": "work/G0/gate_decision.md",

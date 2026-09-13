@@ -42,6 +42,7 @@ async function tagCommit(api, tag) {
 async function publishPair({directory, api, commit}) {
   const next = validatePair(directory);
   const isDraft = next.mode === 'draft-release';
+  const isArticle = next.presentation === 'research-article';
   assert.equal(next.source_commit, commit, 'Build source commit mismatch');
   await assertCurrentMain(api, commit);
   const tag = `paper-v${next.version}`;
@@ -72,11 +73,13 @@ async function publishPair({directory, api, commit}) {
     else assert(release.draft, 'Published release tag missing');
   } else {
     assert(!target, 'Version tag already exists without release; refuse to reuse');
-    const description = isDraft
+    const description = isDraft && isArticle
+      ? `Research article ${next.version} (${next.date}). This is a versioned manuscript. Publication is authorized; scientific acceptance is false. P2R20 and P2G2 remain pending in release records. No external peer review is claimed.`
+      : isDraft
       ? `Phase 2 working draft ${next.version} (${next.date}). Publication is authorized; scientific acceptance is false. P2R20 and P2G2 remain pending. This draft can be improved in later versions.`
       : `Reviewed paper ${next.version} (${next.date}).`;
     release = await api('POST', '/releases', {tag_name: tag, target_commitish: commit,
-      name: isDraft ? `Phase 2 working draft ${next.version}` : `Research paper ${next.version}`,
+      name: isDraft && isArticle ? `Research article ${next.version}` : isDraft ? `Phase 2 working draft ${next.version}` : `Research paper ${next.version}`,
       draft: true, prerelease: isDraft,
       body: `${description} HTML and PDF are one versioned pair.\n\nSource commit: ${commit}\nHTML SHA-256: ${next.html_sha256}\nPDF SHA-256: ${next.pdf_sha256}\n\nSee release.json for renderer and publication provenance.`});
   }
