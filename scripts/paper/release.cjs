@@ -5,7 +5,9 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const C = require('./common.cjs');
 const {validatePair} = require('./build.cjs');
-const assetNames = ['index.html', 'paper.pdf', 'release.json'];
+const artifactNames = manifest => manifest.landing_html_sha256
+  ? ['index.html', 'paper.html', 'companion.html', 'paper.pdf', 'release.json']
+  : ['index.html', 'paper.pdf', 'release.json'];
 function compareVersion(a, b) {
   const x = a.split('.').map(BigInt), y = b.split('.').map(BigInt);
   for (let i = 0; i < 3; i++) if (x[i] !== y[i]) return x[i] < y[i] ? -1 : 1;
@@ -87,11 +89,12 @@ async function publishPair({directory, api, commit}) {
   const wanted = {...next, ...(previous ? {source_commit: previous.source_commit} : {})};
   const manifestBytes = previous ? Buffer.from(JSON.stringify(previous, null, 2) + '\n')
     : C.regular(path.join(directory, 'release.json'));
-  const expected = {'index.html': C.regular(path.join(directory, 'index.html')),
-    'paper.pdf': C.regular(path.join(directory, 'paper.pdf')), 'release.json': manifestBytes};
+  const assetNames = artifactNames(next);
+  const expected = Object.fromEntries(assetNames.map(name =>
+    [name, name === 'release.json' ? manifestBytes : C.regular(path.join(directory, name))]));
   assert(release.assets.every(x => assetNames.includes(x.name)), 'Unexpected release assets; do not mutate');
   assert.equal(new Set(release.assets.map(x => x.name)).size, release.assets.length, 'Duplicate release asset');
-  for (const name of ['release.json', 'index.html', 'paper.pdf']) {
+  for (const name of ['release.json', ...assetNames.filter(name => name !== 'release.json')]) {
     let asset = release.assets.find(x => x.name === name);
     if (asset) {
       const bytes = await api('GET', asset.url, undefined, true);
@@ -125,6 +128,12 @@ async function main() {
   const manifest = validatePair(directory);
   assert.equal(C.sha(C.regular(path.join(C.ROOT, 'paper/paper.html'))), manifest.html_sha256, 'Canonical source changed after build');
   assert.equal(C.recipe(), manifest.renderer_sha256, 'Renderer changed after build');
+  if (manifest.landing_html_sha256) {
+    for (const [field, file] of Object.entries(C.AUX_SOURCES))
+      assert.equal(C.sha(C.regular(path.join(C.ROOT, file))), manifest[field], `Canonical ${file} changed after build`);
+  } else {
+    assert(!C.auxPresent(C.ROOT), 'Landing/companion sources exist but the artifact omits them');
+  }
   if (manifest.mode === 'release') {
     const review = C.validateReview(C.ROOT, manifest, manifest.html_sha256, manifest.renderer_sha256);
     assert.equal(C.sha(C.regular(path.join(C.ROOT, 'paper/reviewed-release.json'))), manifest.review_sha256);

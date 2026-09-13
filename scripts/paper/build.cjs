@@ -84,11 +84,89 @@ async function inspectHTML(page, html) {
     error(chunks.length >= 10, 'Substantive sections need semantic text blocks');
     return {errors, title: document.title.trim(), author: meta('author'), version: meta('paper-version'),
       date: meta('paper-date'), stage: meta('paper-stage'), ...(presentation ? {presentation} : {}), fixture: meta('paper-fixture') === 'true', chunks,
-      external: [...new Set(external)], internal};
+      external: [...new Set(external)], internal, ids};
   }, C.requiredIDs);
   assert.deepEqual(info.errors, [], 'HTML contract errors: ' + info.errors.join('; '));
   validateMetadata(info);
   return info;
+}
+// Artifact files the landing/companion pages may reference relative to the site root.
+const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'paper.pdf', 'release.json'];
+async function inspectAuxiliary(page, html, name, paperInfo) {
+  assert(!/<meta\b[^>]*\bhttp-equiv\b/i.test(html), `${name}: no meta http-equiv navigation or refresh`);
+  await page.setContent(html, {waitUntil: 'load'});
+  await page.evaluate(() => document.fonts.ready);
+  const info = await page.evaluate(artifactFiles => {
+    const errors = [];
+    const error = (condition, message) => { if (!condition) errors.push(message); };
+    const all = [...document.querySelectorAll('*')];
+    const meta = name => document.querySelector(`meta[name="${name}"]`)?.content || '';
+    const ids = all.map(x => x.id).filter(Boolean);
+    error(new Set(ids).size === ids.length, 'Duplicate HTML IDs');
+    error(document.documentElement.lang === 'en', 'Set html lang=en');
+    error(meta('viewport').includes('width=device-width'), 'Responsive viewport required');
+    error(!document.querySelector('script, iframe, object, embed, form, base, link, audio, video, svg, math'), 'No active, vector, or external document resources');
+    error(!document.querySelector('meta[http-equiv]'), 'No meta refresh, including delayed redirects');
+    error(!all.some(el => [...el.attributes].some(a => /(^|:)href$/i.test(a.name) &&
+      !(el.tagName === 'A' && a.name === 'href'))), 'Only ordinary HTML anchor href attributes');
+    error(!all.some(el => [...el.attributes].some(a => /^on/i.test(a.name))), 'No event handlers');
+    error(!all.some(el => el.hasAttribute('srcset')), 'No external source sets');
+    const css = [...document.querySelectorAll('style')].map(x => x.textContent).join('\n');
+    error(!/@import/i.test(css), 'No CSS imports');
+    const allCSS = css + all.map(x => x.getAttribute('style') || '').join('\n');
+    for (const match of allCSS.matchAll(/url\(\s*['"]?([^)'"\s]+)/gi)) error(match[1].startsWith('data:'), 'Only embedded CSS resources');
+    for (const el of all.filter(x => x.hasAttribute('src'))) {
+      error(el.tagName === 'IMG' && /^data:image\/(png|jpeg|webp);base64,/.test(el.getAttribute('src')), 'Only embedded raster images');
+      error(!!el.getAttribute('alt'), 'Images require meaningful alt text');
+    }
+    const notice = document.getElementById('version-notice');
+    error(!!notice, 'Auxiliary page requires #version-notice');
+    error(document.getElementById('paper-version')?.textContent.trim() === meta('paper-version'), 'Visible version differs');
+    error(document.getElementById('paper-date')?.textContent.trim() === meta('paper-date'), 'Visible date differs');
+    const relative = [], paperFragments = [];
+    for (const a of document.querySelectorAll('a[href]')) {
+      const href = a.getAttribute('href');
+      if (href.startsWith('#')) {
+        error(!!document.getElementById(decodeURIComponent(href.slice(1))), `Broken local anchor ${href}`);
+      } else if (/^https:\/\//.test(href)) {
+        continue;
+      } else {
+        const [file, fragment] = href.split('#');
+        error(artifactFiles.includes(file), `Only artifact-relative or HTTPS links: ${href}`);
+        relative.push(file);
+        if (file === 'paper.html' && fragment) paperFragments.push(decodeURIComponent(fragment));
+      }
+    }
+    return {errors, ids, version: meta('paper-version'), date: meta('paper-date'),
+      relative: [...new Set(relative)], paperFragments: [...new Set(paperFragments)]};
+  }, ARTIFACT_FILES);
+  assert.deepEqual(info.errors, [], `${name} contract errors: ` + info.errors.join('; '));
+  assert.equal(info.version, paperInfo.version, `${name} must state the paper version`);
+  assert.equal(info.date, paperInfo.date, `${name} must state the paper date`);
+  for (const fragment of info.paperFragments)
+    assert(paperInfo.ids.includes(fragment), `${name} links to missing paper section #${fragment}`);
+  return info;
+}
+// Every claim-bearing companion block must trace to existing paper paragraphs.
+const CLAIM_ID = /^lay-(\d{3}|v\d+)$/;
+function validateCrosswalk(root, paperInfo, companionInfo) {
+  const crosswalk = C.readJSON(path.join(root, 'paper/lay_crosswalk.json'));
+  assert.equal(crosswalk.schema, 1, 'Crosswalk schema');
+  assert.equal(crosswalk.paper_version, paperInfo.version, 'Crosswalk describes a different paper version');
+  const mapped = new Set();
+  for (const entry of crosswalk.entries) {
+    assert(CLAIM_ID.test(entry.companion_id), `Crosswalk id must be a claim block: ${entry.companion_id}`);
+    assert(!mapped.has(entry.companion_id), `Duplicate crosswalk entry: ${entry.companion_id}`);
+    mapped.add(entry.companion_id);
+    assert(companionInfo.ids.includes(entry.companion_id), `Crosswalk names missing companion block ${entry.companion_id}`);
+    assert(Array.isArray(entry.paper_ids) && entry.paper_ids.length, `Crosswalk entry needs paper paragraphs: ${entry.companion_id}`);
+    for (const id of entry.paper_ids)
+      assert(paperInfo.ids.includes(id), `Crosswalk targets missing paper paragraph ${id}`);
+  }
+  for (const id of companionInfo.ids.filter(x => CLAIM_ID.test(x)))
+    assert(mapped.has(id), `Companion claim block ${id} lacks a crosswalk entry`);
+  return {companion_claims_checked: mapped.size,
+    companion_paper_targets_checked: new Set(crosswalk.entries.flatMap(e => e.paper_ids)).size};
 }
 async function extractPDF(bytes) {
   const pdfjs = await import(pathToFileURL(dep.resolve('pdfjs-dist/legacy/build/pdf.mjs')).href);
@@ -166,7 +244,12 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
   assert(!fs.existsSync(target) || fs.readdirSync(target).length === 0, 'Output must be fresh and empty; never reuse a stale PDF');
   const browser = await dep('playwright').chromium.launch({headless: true,
     executablePath: process.env.PAPER_BROWSER_EXECUTABLE || undefined});
-  let info, review, draft, pdfBytes, verification, browserVersion;
+  // Auxiliary pages accompany only the canonical paper; fixtures and portable previews stay a pair.
+  const aux = source === 'paper/paper.html' && C.auxPresent(root) ? {
+    landing: C.regular(C.inside(root, 'paper/landing.html')),
+    companion: C.regular(C.inside(root, 'paper/companion.html')),
+    crosswalk: C.regular(C.inside(root, 'paper/lay_crosswalk.json'))} : null;
+  let info, review, draft, pdfBytes, verification, browserVersion, crosswalkStats;
   try {
     browserVersion = browser.version();
     const context = await browser.newContext({javaScriptEnabled: false, locale: 'en-US', timezoneId: 'UTC',
@@ -176,6 +259,17 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     const page = await context.newPage();
     info = await inspectHTML(page, html.toString('utf8'));
     assert.equal(info.fixture, fixture, 'Fixture flag mismatch');
+    if (aux) {
+      const auxPage = await context.newPage();
+      const landingInfo = await inspectAuxiliary(auxPage, aux.landing.toString('utf8'), 'Landing page', info);
+      for (const file of ['paper.html', 'companion.html', 'paper.pdf'])
+        assert(landingInfo.relative.includes(file), `Landing page must link ${file}`);
+      const companionInfo = await inspectAuxiliary(auxPage, aux.companion.toString('utf8'), 'Companion page', info);
+      for (const file of ['paper.html', 'paper.pdf'])
+        assert(companionInfo.relative.includes(file), `Companion page must link ${file}`);
+      crosswalkStats = validateCrosswalk(root, info, companionInfo);
+      await auxPage.close();
+    }
     // PR previews validate an existing draft authorization without acquiring publication permissions.
     if (source === 'paper/paper.html' && C.status(root).state === 'draft-candidate')
       draft = C.validateDraft(root, info, htmlHash, rendererHash);
@@ -207,28 +301,50 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
   const manifest = {schema: 1, version: info.version, date: info.date, title: info.title, stage: info.stage,
     ...(info.presentation ? {presentation: info.presentation} : {}),
     mode, fixture, source_commit: commit, html_sha256: htmlHash, pdf_sha256: C.sha(pdfBytes),
+    ...(aux ? {landing_html_sha256: C.sha(aux.landing), companion_html_sha256: C.sha(aux.companion),
+      crosswalk_sha256: C.sha(aux.crosswalk)} : {}),
     renderer_sha256: rendererHash, review_sha256: review ? C.sha(C.regular(path.join(root, 'paper/reviewed-release.json'))) : null,
     draft_authorization_sha256: draft ? C.sha(C.regular(path.join(root, 'paper/draft-release.json'))) : null,
     ...(draft ? {scientific_acceptance: false, draft: {status: draft.status, author: draft.author,
       publication_authorized_by: draft.publication_authorized_by, authorization: draft.authorization,
       pending_reviews: draft.pending_reviews, ...(draft.presentation ? {presentation: draft.presentation} : {})}} : {}),
     toolchain: {...toolchain, actual_browser: browserVersion, actual_platform: process.platform + '-' + process.arch,
-      actual_node: process.versions.node}, verification,
+      actual_node: process.versions.node}, verification: {...verification, ...(crosswalkStats ?? {})},
     review: review ? {review_id: review.review_id, reviewer: review.reviewer, gate_id: review.gate_id,
       adjudicator: review.adjudicator, reviewed_at: review.reviewed_at, records: review.records} : null};
   fs.mkdirSync(target, {recursive: true});
-  fs.writeFileSync(path.join(target, 'index.html'), html);
+  if (aux) {
+    fs.writeFileSync(path.join(target, 'index.html'), aux.landing);
+    fs.writeFileSync(path.join(target, 'paper.html'), html);
+    fs.writeFileSync(path.join(target, 'companion.html'), aux.companion);
+  } else {
+    fs.writeFileSync(path.join(target, 'index.html'), html);
+  }
   fs.writeFileSync(path.join(target, 'paper.pdf'), pdfBytes);
   C.writeJSON(path.join(target, 'release.json'), manifest);
   validatePair(target, {allowPreview: mode === 'preview'});
   return manifest;
 }
 function validatePair(directory, {allowPreview = false} = {}) {
-  assert.deepEqual(fs.readdirSync(directory).sort(), ['index.html', 'paper.pdf', 'release.json'], 'Publish exactly the paired paper and manifest; no source library');
   const manifest = C.readJSON(path.join(directory, 'release.json'));
+  const auxFields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256'];
+  const bound = auxFields.filter(field => manifest[field] !== undefined);
+  assert(bound.length === 0 || bound.length === auxFields.length, 'Landing, companion and crosswalk hashes bind together');
+  const extended = bound.length === auxFields.length;
+  if (extended) for (const field of auxFields) assert(C.HASH.test(manifest[field]), `Manifest ${field} invalid`);
+  assert.deepEqual(fs.readdirSync(directory).sort(),
+    extended ? ['companion.html', 'index.html', 'paper.html', 'paper.pdf', 'release.json']
+      : ['index.html', 'paper.pdf', 'release.json'],
+    'Publish exactly the versioned paper set and manifest; no source library');
   assert.equal(manifest.schema, 1);
   assert(C.SEMVER.test(manifest.version) && C.COMMIT.test(manifest.source_commit), 'Manifest identity invalid');
-  assert.equal(C.sha(C.regular(path.join(directory, 'index.html'))), manifest.html_sha256, 'HTML/manifest hash mismatch');
+  if (extended) {
+    assert.equal(C.sha(C.regular(path.join(directory, 'index.html'))), manifest.landing_html_sha256, 'Landing/manifest hash mismatch');
+    assert.equal(C.sha(C.regular(path.join(directory, 'paper.html'))), manifest.html_sha256, 'HTML/manifest hash mismatch');
+    assert.equal(C.sha(C.regular(path.join(directory, 'companion.html'))), manifest.companion_html_sha256, 'Companion/manifest hash mismatch');
+  } else {
+    assert.equal(C.sha(C.regular(path.join(directory, 'index.html'))), manifest.html_sha256, 'HTML/manifest hash mismatch');
+  }
   assert.equal(C.sha(C.regular(path.join(directory, 'paper.pdf'))), manifest.pdf_sha256, 'Stale or corrupted PDF');
   assert(C.regular(path.join(directory, 'paper.pdf')).subarray(0, 5).equals(Buffer.from('%PDF-')), 'Expected generated PDF');
   if (!allowPreview) {
@@ -248,4 +364,5 @@ function validatePair(directory, {allowPreview = false} = {}) {
   }
   return manifest;
 }
-module.exports = {build, validatePair, validateMetadata, inspectHTML, verifyPDF, extractPDF};
+module.exports = {build, validatePair, validateMetadata, inspectHTML, inspectAuxiliary,
+  validateCrosswalk, verifyPDF, extractPDF};

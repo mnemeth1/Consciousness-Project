@@ -1,15 +1,6 @@
 # Companion page outline
 
-A locked skeleton for a future plain-language companion to the research article. It fixes structure, principles and sync policy in advance so the companion can be written quickly once the main article stabilizes. **This outline contains no claims.** All verdicts, summaries and analogies are written later, from the paper version current at writing time, and must not assert anything the paper does not.
-
-## Trigger for writing the companion
-
-Prose is written only when one of these holds:
-
-1. The paper passes P2R20 review and P2G2 adjudication and its badge changes to reviewed; or
-2. The maintainer declares an expansion milestone complete: every evidence category intended for the paper is represented in a published version.
-
-Until then this outline is the only companion artifact.
+The design record for the plain-language companion to the research article. **Status: implemented as of paper version 0.4.0** — `paper/companion.html` (overview), `paper/landing.html` (site chooser) and `paper/lay_crosswalk.json` ship inside the versioned release artifact. The maintainer chose to write the companion early as a full process dry run while the main article continues to expand; each article expansion updates the companion in the same version.
 
 ## Purpose and principles
 
@@ -33,11 +24,11 @@ Until then this outline is the only companion artifact.
 
 One companion paragraph per paper section, in paper order, keyed to the paper's stable section anchors (`#phenomenal`, `#existence`, `#empirical`, `#continuity`, `#value`, `#goodness`, `#discussion`, `#conclusion`). A paper section without a companion paragraph, or the reverse, is a sync defect.
 
-## Sync policy
+## Sync policy (as implemented)
 
-- The companion is a distinct page, not part of the versioned paper pair. It states plainly which paper version it describes.
-- A `lay_crosswalk.json` maps every companion claim to the paper paragraph IDs (`p-001` style) it summarizes. A future CI check verifies each referenced ID still exists and flags companion sections whose underlying paragraphs changed since the described version.
-- Cadence: the companion is rewritten for major paper versions, reviewed for minor versions, and left unchanged for patch versions. If it lags, its version notice must say so; a stale companion that admits staleness is acceptable, a silently wrong one is not.
+- The companion publishes inside the same versioned artifact as the paper, so they are synced by construction: one version, one release, no independent drift. Its `#version-notice` states the described version and date, which the build requires to match the paper exactly.
+- `paper/lay_crosswalk.json` maps every claim-bearing companion block (`lay-NNN` and `lay-vN` ids) to the paper paragraph IDs (`p-001` style) it summarizes. The build fails if a mapped ID is missing on either side, if any claim block lacks an entry, or if the crosswalk names a different paper version.
+- Cadence: every paper version that changes argument content must revisit the companion in the same change; the build's crosswalk check catches removed or renamed paragraphs but not silently changed meaning, so the companion text is reviewed whenever mapped paragraphs are edited.
 
 ## Rule for paper expansion (applies now)
 

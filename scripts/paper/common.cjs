@@ -44,6 +44,24 @@ function status(root = ROOT) {
   if (draft) return {state: 'draft-candidate', reason: 'Explicit working-draft publication authorization requires validation.'};
   return {state: review ? 'candidate' : 'draft', reason: review ? 'Review record requires validation.' : 'Draft may be built, never published.'};
 }
+// Landing/companion/crosswalk publish only as one bound set; a release record must pin their exact bytes.
+const AUX_SOURCES = {landing_html_sha256: 'paper/landing.html',
+  companion_html_sha256: 'paper/companion.html', crosswalk_sha256: 'paper/lay_crosswalk.json'};
+function auxPresent(root) {
+  const present = Object.values(AUX_SOURCES).filter(file => fs.existsSync(path.join(root, file)));
+  assert(present.length === 0 || present.length === 3, 'Landing, companion and crosswalk must ship together or not at all');
+  return present.length === 3;
+}
+function validateAuxBinding(root, record, recordName) {
+  if (!auxPresent(root)) {
+    for (const field of Object.keys(AUX_SOURCES))
+      assert(record[field] === undefined || record[field] === null, `${recordName} binds ${field} without its source file`);
+    return false;
+  }
+  for (const [field, file] of Object.entries(AUX_SOURCES))
+    assert.equal(record[field], sha(regular(inside(root, file))), `${recordName} ${field} mismatch`);
+  return true;
+}
 function validateChangelog(root, meta) {
   const changelog = regular(path.join(root, 'paper/CHANGELOG.md')).toString('utf8');
   const marker = `## ${meta.version} - ${meta.date}`;
@@ -68,6 +86,7 @@ function validateDraft(root, meta, htmlHash, rendererHash) {
   assert.equal(draft.renderer_sha256, rendererHash, 'Authorized draft renderer hash mismatch');
   assert(draft.author?.trim() && draft.publication_authorized_by?.trim(), 'Draft author and publication authorizer required');
   assert(draft.authorization?.trim().length >= 20, 'Record the actual user publication authorization');
+  validateAuxBinding(root, draft, 'Authorized draft');
   validateChangelog(root, meta);
   return draft;
 }
@@ -109,6 +128,7 @@ function validateReview(root, meta, htmlHash, rendererHash) {
   assert.equal(review.gate_id, 'P2G2', 'Release adjudication ID required');
   assert.equal(review.gate_status, 'accepted', 'Release gate must actually be accepted');
   assert(/^\d{4}-\d{2}-\d{2}T/.test(review.reviewed_at) && Number.isFinite(Date.parse(review.reviewed_at)), 'Review timestamp required');
+  validateAuxBinding(root, review, 'Reviewed release');
   assert.equal(review.records?.length, 2, 'Require public review and gate summaries');
   assert.deepEqual(new Set(review.records.map(x => x.id)), new Set(['P2R20', 'P2G2']));
   for (const record of review.records) {
@@ -128,11 +148,13 @@ function validateReview(root, meta, htmlHash, rendererHash) {
 }
 function assertSameRelease(previous, next) {
   for (const key of ['schema', 'version', 'date', 'title', 'fixture', 'mode', 'html_sha256',
-    'pdf_sha256', 'renderer_sha256', 'review_sha256', 'draft_authorization_sha256', 'presentation']) {
+    'pdf_sha256', 'renderer_sha256', 'review_sha256', 'draft_authorization_sha256', 'presentation',
+    'landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256']) {
     assert.deepEqual(previous[key], next[key], `Released version cannot be reused with different ${key}`);
   }
   assert(['release', 'draft-release'].includes(next.mode));
   assert.equal(next.fixture, false);
 }
 module.exports = {ROOT, sha, readJSON, writeJSON, SEMVER, HASH, COMMIT, requiredIDs, inside,
-  regular, recipe, status, validateReview, validateDraft, validateDraftPresentation, assertSameRelease};
+  regular, recipe, status, validateReview, validateDraft, validateDraftPresentation, assertSameRelease,
+  AUX_SOURCES, auxPresent, validateAuxBinding};

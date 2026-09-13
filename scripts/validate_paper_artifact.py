@@ -8,10 +8,16 @@ import sys
 def validate(directory):
     root = Path(directory)
     assert root.is_dir() and not root.is_symlink(), 'Expected an artifact directory'
-    assert {p.name for p in root.iterdir()} == {'index.html', 'paper.pdf', 'release.json'}, 'Publish exactly the generated pair and manifest'
+    manifest = json.loads((root/'release.json').read_text(encoding='utf-8'))
+    aux_fields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256']
+    bound = [f for f in aux_fields if manifest.get(f) is not None]
+    assert bound in ([], aux_fields), 'Landing, companion and crosswalk hashes bind together'
+    extended = bound == aux_fields
+    expected = {'index.html', 'paper.html', 'companion.html', 'paper.pdf', 'release.json'} if extended \
+        else {'index.html', 'paper.pdf', 'release.json'}
+    assert {p.name for p in root.iterdir()} == expected, 'Publish exactly the versioned paper set and manifest'
     for p in root.iterdir():
         assert p.is_file() and not p.is_symlink(), 'Only regular generated files'
-    manifest = json.loads((root/'release.json').read_text(encoding='utf-8'))
     assert manifest['schema'] == 1 and manifest['mode'] in {'release','draft-release'} and manifest['fixture'] is False, 'No ordinary preview/fixture publication'
     assert re.fullmatch(r'(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)', manifest['version'])
     assert re.fullmatch(r'[a-f0-9]{40}', manifest['source_commit'])
@@ -31,7 +37,11 @@ def validate(directory):
             assert manifest['title'].strip() and not re.search(r'P2R20|P2G2|Phase\s*2\s*working\s*draft',manifest['title'],re.I), 'Ordinary scholarly title required'
         else:
             assert re.match(r'^Phase 2 working draft(?:[: -]|$)',manifest['title'])
-    for file, field in [('index.html', 'html_sha256'), ('paper.pdf', 'pdf_sha256')]:
+    pairs = [('index.html', 'landing_html_sha256'), ('paper.html', 'html_sha256'),
+             ('companion.html', 'companion_html_sha256'), ('paper.pdf', 'pdf_sha256')] if extended \
+        else [('index.html', 'html_sha256'), ('paper.pdf', 'pdf_sha256')]
+    for file, field in pairs:
+        assert re.fullmatch(r'[a-f0-9]{64}', manifest[field]), 'Hash required: ' + field
         assert hashlib.sha256((root/file).read_bytes()).hexdigest() == manifest[field], 'Stale or changed pair: ' + file
     assert (root/'paper.pdf').read_bytes().startswith(b'%PDF-'), 'Generated paper PDF required'
     print('Validated the sole permitted generated publication PDF and exact HTML pair. Scientific review is a separate gate.')

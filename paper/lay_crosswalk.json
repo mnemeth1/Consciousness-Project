@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "paper_version": "0.4.0",
+  "description": "Maps every claim-bearing companion block (ids lay-NNN and lay-vN) to the research article paragraphs it summarizes. Validated at build time: the described version, every companion id and every paper paragraph id must exist, and every claim-bearing companion block must have an entry.",
+  "entries": [
+    {"companion_id": "lay-001", "paper_ids": ["p-005", "p-022"]},
+    {"companion_id": "lay-002", "paper_ids": ["p-023", "p-029"]},
+    {"companion_id": "lay-003", "paper_ids": ["p-024", "p-029"]},
+    {"companion_id": "lay-004", "paper_ids": ["p-025", "p-026", "p-027", "p-028"]},
+    {"companion_id": "lay-005", "paper_ids": ["p-002", "p-008"]},
+    {"companion_id": "lay-006", "paper_ids": ["p-003", "p-004"]},
+    {"companion_id": "lay-007", "paper_ids": ["p-035", "p-036"]},
+    {"companion_id": "lay-008", "paper_ids": ["p-037", "p-038"]},
+    {"companion_id": "lay-009", "paper_ids": ["p-002", "p-003", "p-051"]},
+    {"companion_id": "lay-v1", "paper_ids": ["p-008", "p-009", "p-012", "p-015"]},
+    {"companion_id": "lay-v2", "paper_ids": ["p-016", "p-017", "p-018"]},
+    {"companion_id": "lay-v3", "paper_ids": ["p-019", "p-020", "p-021"]},
+    {"companion_id": "lay-v4", "paper_ids": ["p-022", "p-023"]},
+    {"companion_id": "lay-v5", "paper_ids": ["p-024", "p-026", "p-027", "p-028", "p-029"]},
+    {"companion_id": "lay-v6", "paper_ids": ["p-030", "p-033", "p-034"]},
+    {"companion_id": "lay-v7", "paper_ids": ["p-031", "p-032", "p-033"]},
+    {"companion_id": "lay-v8", "paper_ids": ["p-035", "p-036", "p-037", "p-038"]},
+    {"companion_id": "lay-v9", "paper_ids": ["p-039", "p-040", "p-041", "p-042"]},
+    {"companion_id": "lay-v10", "paper_ids": ["p-043", "p-044", "p-045", "p-046"]},
+    {"companion_id": "lay-010", "paper_ids": ["p-024", "p-048", "p-049"]},
+    {"companion_id": "lay-011", "paper_ids": ["p-051", "p-052"]},
+    {"companion_id": "lay-012", "paper_ids": ["p-001"]}
+  ]
+}

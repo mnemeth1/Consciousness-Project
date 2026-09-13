@@ -321,6 +321,75 @@ test('article presentation requires matching authorization and cannot bypass rev
   assert.throws(()=>C.validateReview(final.root,{...final.review,stage:'draft',presentation:'research-article'},hash,hash),/reviewed presentation status/);
   assert.equal(C.validateReview(final.root,final.review,hash,hash).status,'approved');
 });
+function auxSources(version) {
+  const head = `<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="paper-version" content="${version}"><meta name="paper-date" content="2026-09-13">`;
+  const notice = `<p id="version-notice">Version <span id="paper-version">${version}</span> · <span id="paper-date">2026-09-13</span></p>`;
+  return {
+    landing: `<!doctype html><html lang="en"><head>${head}<title>Fixture landing</title></head><body><main><h1>Fixture landing</h1>${notice}<p><a href="paper.html">Article</a> <a href="companion.html">Overview</a> <a href="paper.pdf">PDF</a></p></main></body></html>`,
+    companion: `<!doctype html><html lang="en"><head>${head}<title>Fixture overview</title></head><body><main><h1>Fixture overview</h1>${notice}<p id="lay-001">Synthetic summary of <a href="paper.html#abstract">the fixture abstract</a>.</p><p><a href="index.html">Start</a> <a href="paper.pdf">PDF</a></p></main></body></html>`,
+    crosswalk: {schema: 1, paper_version: version, entries: [{companion_id: 'lay-001', paper_ids: ['abstract']}]}};
+}
+function auxRoot(name) {
+  const article = articleRoot(name), {root} = article;
+  const sources = auxSources(article.meta.version);
+  fs.writeFileSync(path.join(root, 'paper/landing.html'), sources.landing);
+  fs.writeFileSync(path.join(root, 'paper/companion.html'), sources.companion);
+  C.writeJSON(path.join(root, 'paper/lay_crosswalk.json'), sources.crosswalk);
+  const draft = {...article.draft,
+    landing_html_sha256: C.sha(fs.readFileSync(path.join(root, 'paper/landing.html'))),
+    companion_html_sha256: C.sha(fs.readFileSync(path.join(root, 'paper/companion.html'))),
+    crosswalk_sha256: C.sha(fs.readFileSync(path.join(root, 'paper/lay_crosswalk.json')))};
+  C.writeJSON(path.join(root, 'paper/draft-release.json'), draft);
+  return {...article, draft};
+}
+test('landing and companion build one bound five-file artifact and publish five assets', async () => {
+  const {root} = auxRoot('aux-pair');
+  const manifest = await B.build({root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit});
+  const directory = path.join(root, 'site');
+  assert.deepEqual(fs.readdirSync(directory).sort(), ['companion.html', 'index.html', 'paper.html', 'paper.pdf', 'release.json']);
+  assert.equal(C.sha(fs.readFileSync(path.join(directory, 'index.html'))), manifest.landing_html_sha256);
+  assert.equal(C.sha(fs.readFileSync(path.join(directory, 'paper.html'))), manifest.html_sha256);
+  assert.equal(C.sha(fs.readFileSync(path.join(directory, 'companion.html'))), manifest.companion_html_sha256);
+  assert.equal(manifest.verification.companion_claims_checked, 1);
+  C.writeJSON(path.join(directory, 'release.json'), {...manifest, mode: 'draft-release'});
+  const mock = mockGitHub();
+  await publishPair({directory, api: mock.api, commit});
+  assert.equal(mock.releases[0].assets.length, 5);
+  assert.deepEqual(new Set(mock.releases[0].assets.map(x => x.name)),
+    new Set(['index.html', 'paper.html', 'companion.html', 'paper.pdf', 'release.json']));
+  fs.appendFileSync(path.join(directory, 'companion.html'), '\nchanged');
+  const changed = C.readJSON(path.join(directory, 'release.json'));
+  changed.companion_html_sha256 = C.sha(fs.readFileSync(path.join(directory, 'companion.html')));
+  C.writeJSON(path.join(directory, 'release.json'), changed);
+  await assert.rejects(publishPair({directory, api: mock.api, commit}), /cannot be reused.*companion/);
+});
+test('companion claims must trace to existing paper paragraphs', async () => {
+  const {root} = auxRoot('aux-broken-crosswalk');
+  const crosswalk = C.readJSON(path.join(root, 'paper/lay_crosswalk.json'));
+  crosswalk.entries[0].paper_ids = ['p-absent'];
+  C.writeJSON(path.join(root, 'paper/lay_crosswalk.json'), crosswalk);
+  await assert.rejects(B.build({root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit}),
+    /missing paper paragraph/);
+});
+test('an unmapped companion claim block fails the crosswalk', async () => {
+  const {root} = auxRoot('aux-unmapped');
+  const file = path.join(root, 'paper/companion.html');
+  fs.writeFileSync(file, fs.readFileSync(file, 'utf8').replace('</main>', '<p id="lay-002">Unmapped claim.</p></main>'));
+  await assert.rejects(B.build({root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit}),
+    /lacks a crosswalk entry/);
+});
+test('landing, companion and crosswalk ship together and bind to the draft authorization', async () => {
+  const partial = auxRoot('aux-partial');
+  fs.rmSync(path.join(partial.root, 'paper/landing.html'));
+  await assert.rejects(B.build({root: partial.root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit}),
+    /ship together/);
+  const unbound = auxRoot('aux-unbound');
+  const draft = C.readJSON(path.join(unbound.root, 'paper/draft-release.json'));
+  delete draft.companion_html_sha256; delete draft.landing_html_sha256; delete draft.crosswalk_sha256;
+  C.writeJSON(path.join(unbound.root, 'paper/draft-release.json'), draft);
+  await assert.rejects(B.build({root: unbound.root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit}),
+    /landing_html_sha256 mismatch/);
+});
 test('article manifest and prerelease preserve truthful review records and immutability', async () => {
   const {root}=articleRoot('article-pair');
   const manifest=await B.build({root,source:'paper/paper.html',out:'site',mode:'preview',commit});
