@@ -11,11 +11,24 @@
       "transformations": []
     },
     {
+      "path": ".github/workflows/paper.yml",
+      "sha256": "a7fb1880a9cd596eb49817b97b94a91f17200e190a0bd6a52f550f2fac1286d7",
+      "bytes": 4592,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/.github/workflows/paper.yml",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "a7fb1880a9cd596eb49817b97b94a91f17200e190a0bd6a52f550f2fac1286d7"
+    },
+    {
       "path": ".gitignore",
-      "sha256": "2e96506e4e781dcc33f9ebe5e08e393fdff0acd2fed267aeafc77e8efcd53ca4",
-      "bytes": 497,
-      "source": null,
-      "transformations": []
+      "sha256": "881d9eeb7f29e60f1604eebd9e7bf6b0761338507c4167ed0fdb8ec790d62288",
+      "bytes": 645,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/.gitignore",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "15916178154bfb150ccfac202b3f595849378f7c6e3f6b7359d9e3880154c93c"
     },
     {
       "path": "AGENTS.md",
@@ -51,10 +64,32 @@
     },
     {
       "path": "CURRENT_RELEASE.md",
-      "sha256": "74d67ed9ca1feb21723957fa87e98ce5fb4355f5c914bc981ac7c93f9e384038",
-      "bytes": 558,
+      "sha256": "f769a1fa03270c011b6afc8fa60e07fc09eab44d73c8627c74ebf7352a9d5d86",
+      "bytes": 829,
       "source": null,
-      "transformations": []
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ]
+    },
+    {
+      "path": "docs/PAPER_RELEASE.md",
+      "sha256": "3d9fffdbee0e18bb901569c221bc327f4588364f92f9325e8c44770da7e332e3",
+      "bytes": 12039,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/docs/PAPER_RELEASE.md",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "3d9fffdbee0e18bb901569c221bc327f4588364f92f9325e8c44770da7e332e3"
+    },
+    {
+      "path": "docs/s03_integration_contract.json",
+      "sha256": "fdd027aa1edcdcb7cdaf40596e7daf51968af6f9ad8c937228e560f0cffcf2b3",
+      "bytes": 8646,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/docs/s03_integration_contract.json",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "fdd027aa1edcdcb7cdaf40596e7daf51968af6f9ad8c937228e560f0cffcf2b3"
     },
     {
       "path": "LICENSE",
@@ -66,61 +101,52 @@
       ]
     },
     {
-      "path": "PUBLICATION_NOTES.md",
-      "sha256": "a84cf6c98fe300e8de10597b7255292b32f929b76a45f56917cb0ba0630a8266",
-      "bytes": 2848,
-      "source": null,
-      "transformations": []
-    },
-    {
-      "path": "README.md",
-      "sha256": "eaa10fce73553c1222e46f3091a59a441ec1e707d7d3f3837057ee364dd8090f",
-      "bytes": 3858,
-      "source": null,
-      "transformations": []
-    },
-    {
-      "path": "REPORTS.md",
-      "sha256": "d0adedd6a4963154d3395a6d842f9e19f7897c525af4c9ac4b21b2631690b9b0",
-      "bytes": 5995,
-      "source": null,
-      "transformations": []
-    },
-    {
-      "path": "Research_Plan.md",
-      "sha256": "f3332d518c20f70c76c33c246f04f7aa7280296486ea891931002bee3b3fd28b",
-      "bytes": 22939,
-      "source": "Research_Plan.md",
+      "path": "package.json",
+      "sha256": "470cf84b10c9e6d6e6ffd30b26e6a73cb1684f6eec46524c0f6c97a04091b673",
+      "bytes": 596,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/package.json",
       "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
       ],
-      "source_sha256": "f3332d518c20f70c76c33c246f04f7aa7280296486ea891931002bee3b3fd28b",
-      "byte_identical_to_source": true
+      "source_sha256": "470cf84b10c9e6d6e6ffd30b26e6a73cb1684f6eec46524c0f6c97a04091b673"
     },
     {
-      "path": "START_HERE.md",
-      "sha256": "0d36a708586fabd60f6468fb5da28ce6252398c7c7ef3f9ecaa4a5473faeb9dc",
-      "bytes": 1388,
+      "path": "paper/CHANGELOG.md",
+      "sha256": "48e38e6eb888851885c76031f350055f0d8689c10790aca4fbbe3098ef71b3f3",
+      "bytes": 671,
       "source": null,
-      "transformations": []
-    },
-    {
-      "path": "STATUS.md",
-      "sha256": "9804b3747ec7ee9d64ab2d2915b3dad6444b42a80da13dddcfa183e6a68b257c",
-      "bytes": 2018,
-      "source": null,
-      "transformations": []
-    },
-    {
-      "path": "phase2/Phase_2_Execution_Plan.md",
-      "sha256": "89c6145d09f85db11fb40afdb3b16bd04a595de436e4dd031e0b6b40043b7593",
-      "bytes": 14717,
-      "source": "phase2/Phase_2_Execution_Plan.md",
       "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ]
+    },
+    {
+      "path": "paper/draft-release.json",
+      "sha256": "937933ec351a4f6ae9c8bbd342fd1080e9b9890217029eb5314504b61717e0fe",
+      "bytes": 661,
+      "source": null,
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ]
+    },
+    {
+      "path": "paper/paper.html",
+      "sha256": "ee68004634184cbd8f36507f712f32d0c5269ab7a7c39ec747ecdeabea4e7b54",
+      "bytes": 20771,
+      "source": "work/PHASE2_PUBLIC_DRAFT_20260913/paper.html",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
       ],
-      "source_sha256": "29a8dc54eb65ea0c3d4ef93ca5fbc19bbae7c726026db61179333681edd91547",
-      "byte_identical_to_source": false
+      "source_sha256": "ee68004634184cbd8f36507f712f32d0c5269ab7a7c39ec747ecdeabea4e7b54"
+    },
+    {
+      "path": "paper/source-crosswalk.json",
+      "sha256": "c5d55e62d7ed7c72d008476b7f2a562772f9385a6d3c156151c7864b155c2b47",
+      "bytes": 2175017,
+      "source": "work/PHASE2_PUBLIC_DRAFT_20260913/crosswalk.json",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "9c3596512dcc2bd2a881c88ce0df4611b4ad5f82f935b32be2a3a4b5df292d40"
     },
     {
       "path": "phase2/amendments/001-readiness.md",
@@ -156,6 +182,17 @@
       "byte_identical_to_source": true
     },
     {
+      "path": "phase2/Phase_2_Execution_Plan.md",
+      "sha256": "89c6145d09f85db11fb40afdb3b16bd04a595de436e4dd031e0b6b40043b7593",
+      "bytes": 14717,
+      "source": "phase2/Phase_2_Execution_Plan.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "29a8dc54eb65ea0c3d4ef93ca5fbc19bbae7c726026db61179333681edd91547",
+      "byte_identical_to_source": false
+    },
+    {
       "path": "phase2/scheduling_policy.json",
       "sha256": "f83c6752f9df64dff021ddbd0fffbd3e96b119a002ed8b97b241ffb8c00216b0",
       "bytes": 4108,
@@ -176,6 +213,16 @@
       ],
       "source_sha256": "3544ce64945c0f2f187cf533fb312358b4d6217413babb95cadc7418c9df5b2c",
       "byte_identical_to_source": false
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "86ad8668547c789de2c5effa9ca7efc5bbc2c19fdeadae4accf8540561021f1d",
+      "bytes": 6896,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/pnpm-lock.yaml",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "86ad8668547c789de2c5effa9ca7efc5bbc2c19fdeadae4accf8540561021f1d"
     },
     {
       "path": "prompts/domain_lead.md",
@@ -244,11 +291,22 @@
       "byte_identical_to_source": true
     },
     {
-      "path": "records/README.md",
-      "sha256": "33bcbb3abd0381455de95399877ff61462f280435e9f4ab3eed46f59b95f880d",
-      "bytes": 1129,
+      "path": "PUBLICATION_NOTES.md",
+      "sha256": "4c46ab7c481f3b5ae7a1942ea060f283b755f1c81274cf50fb7638926464f89d",
+      "bytes": 3292,
       "source": null,
-      "transformations": []
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ]
+    },
+    {
+      "path": "README.md",
+      "sha256": "828ac75faeb2a7cd8f581d3e56a492d8329760018ec441cd75c0a6f37e4b6c54",
+      "bytes": 4310,
+      "source": null,
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ]
     },
     {
       "path": "records/arguments.json",
@@ -284,6 +342,13 @@
       "byte_identical_to_source": false
     },
     {
+      "path": "records/README.md",
+      "sha256": "33bcbb3abd0381455de95399877ff61462f280435e9f4ab3eed46f59b95f880d",
+      "bytes": 1129,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "records/review_summaries.json",
       "sha256": "4e0567c5f7639a996ed785a7ca8e94010928975e6602cfc97ec7c686edd01ff6",
       "bytes": 30251,
@@ -304,39 +369,6 @@
       ],
       "source_sha256": "4ff78ef91581922453b281a6103b0e3d5435c62140e1405326604562b49be2fa",
       "byte_identical_to_source": false
-    },
-    {
-      "path": "release/v1/Consciousness_and_Existence_Synthesis.md",
-      "sha256": "5c362e83bf89d4c35e9ae53a8ac5f0c93dd5edd01069eadf78c0110856d1a2da",
-      "bytes": 40831,
-      "source": "release/v1/Consciousness_and_Existence_Synthesis.md",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "5c362e83bf89d4c35e9ae53a8ac5f0c93dd5edd01069eadf78c0110856d1a2da",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/Executive_Summary.md",
-      "sha256": "f283f06da3b33ba2bc053e6f5e681d2c9401f201766550c92bcc74d69b479446",
-      "bytes": 3843,
-      "source": "release/v1/Executive_Summary.md",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "f283f06da3b33ba2bc053e6f5e681d2c9401f201766550c92bcc74d69b479446",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/Open_Questions_and_Next_Research.md",
-      "sha256": "25bacf60dc88f9545a7c4c10ba81d1fad129abe5f124b37bb80274c4b1a2f55f",
-      "bytes": 3687,
-      "source": "release/v1/Open_Questions_and_Next_Research.md",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "25bacf60dc88f9545a7c4c10ba81d1fad129abe5f124b37bb80274c4b1a2f55f",
-      "byte_identical_to_source": true
     },
     {
       "path": "release/v1/alternatives_matrix.json",
@@ -394,6 +426,17 @@
       "byte_identical_to_source": true
     },
     {
+      "path": "release/v1/Consciousness_and_Existence_Synthesis.md",
+      "sha256": "5c362e83bf89d4c35e9ae53a8ac5f0c93dd5edd01069eadf78c0110856d1a2da",
+      "bytes": 40831,
+      "source": "release/v1/Consciousness_and_Existence_Synthesis.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5c362e83bf89d4c35e9ae53a8ac5f0c93dd5edd01069eadf78c0110856d1a2da",
+      "byte_identical_to_source": true
+    },
+    {
       "path": "release/v1/dependency_map.json",
       "sha256": "5ff6cb63ec4c6dfeded9d634fcda853e2498a35260291a1b6e0be2d0d57ca212",
       "bytes": 451746,
@@ -405,6 +448,17 @@
       "byte_identical_to_source": true
     },
     {
+      "path": "release/v1/Executive_Summary.md",
+      "sha256": "f283f06da3b33ba2bc053e6f5e681d2c9401f201766550c92bcc74d69b479446",
+      "bytes": 3843,
+      "source": "release/v1/Executive_Summary.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "f283f06da3b33ba2bc053e6f5e681d2c9401f201766550c92bcc74d69b479446",
+      "byte_identical_to_source": true
+    },
+    {
       "path": "release/v1/open_questions.json",
       "sha256": "6b78d249d774823bcbc6b677ffbb9e7c051c930854f7c02ffcbdce9e94c03c31",
       "bytes": 23301,
@@ -413,6 +467,17 @@
         "UTF-8/LF normalization; host-specific paths redacted when present."
       ],
       "source_sha256": "6b78d249d774823bcbc6b677ffbb9e7c051c930854f7c02ffcbdce9e94c03c31",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/Open_Questions_and_Next_Research.md",
+      "sha256": "25bacf60dc88f9545a7c4c10ba81d1fad129abe5f124b37bb80274c4b1a2f55f",
+      "bytes": 3687,
+      "source": "release/v1/Open_Questions_and_Next_Research.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "25bacf60dc88f9545a7c4c10ba81d1fad129abe5f124b37bb80274c4b1a2f55f",
       "byte_identical_to_source": true
     },
     {
@@ -471,29 +536,146 @@
       "byte_identical_to_source": true
     },
     {
+      "path": "reports/P2S01/report.md",
+      "sha256": "f50d91a3c0bb9cd09b996c948a772c665832b4bbe77178568585fc0cf4e1af58",
+      "bytes": 16401,
+      "source": "work/P2S01/report.md",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "60a342b24b96a35245321e75d44ba9e7ccf6c9e5e1a23f49c4d8a650eab464c7"
+    },
+    {
+      "path": "reports/P2S02/report.md",
+      "sha256": "ffe046012683edb3dc003886b126762f6c21fc88f0c29a097e833d55b193aa63",
+      "bytes": 19005,
+      "source": "work/P2S02/report.md",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "ffe046012683edb3dc003886b126762f6c21fc88f0c29a097e833d55b193aa63"
+    },
+    {
+      "path": "REPORTS.md",
+      "sha256": "d0adedd6a4963154d3395a6d842f9e19f7897c525af4c9ac4b21b2631690b9b0",
+      "bytes": 5995,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "Research_Plan.md",
+      "sha256": "f3332d518c20f70c76c33c246f04f7aa7280296486ea891931002bee3b3fd28b",
+      "bytes": 22939,
+      "source": "Research_Plan.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "f3332d518c20f70c76c33c246f04f7aa7280296486ea891931002bee3b3fd28b",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "scripts/paper/build.cjs",
+      "sha256": "a7641139b18c2a8f6a975a1657432f874b4110acd70935dba4742c9b07ac1456",
+      "bytes": 17277,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/build.cjs",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "a7641139b18c2a8f6a975a1657432f874b4110acd70935dba4742c9b07ac1456"
+    },
+    {
+      "path": "scripts/paper/cli.cjs",
+      "sha256": "28026d3bafb251c5d359b9cfa79a1520f7d4fbb07c53bb0f811efe19569df734",
+      "bytes": 1267,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/cli.cjs",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "28026d3bafb251c5d359b9cfa79a1520f7d4fbb07c53bb0f811efe19569df734"
+    },
+    {
+      "path": "scripts/paper/common.cjs",
+      "sha256": "d19fb82af7cdd801a2b58a3a1f3d3e0b9a9a85737eab0c62fe87343ee227b729",
+      "bytes": 8493,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/common.cjs",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "d19fb82af7cdd801a2b58a3a1f3d3e0b9a9a85737eab0c62fe87343ee227b729"
+    },
+    {
+      "path": "scripts/paper/release.cjs",
+      "sha256": "10ea724ccb676c392c7be07b5ca323858bf192f70a3464185cc23c299ae256c9",
+      "bytes": 8550,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/release.cjs",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "10ea724ccb676c392c7be07b5ca323858bf192f70a3464185cc23c299ae256c9"
+    },
+    {
+      "path": "scripts/paper/toolchain.json",
+      "sha256": "1981b946724bde440aafd173f0a4a2484784651b4ae69e1ee2b7dfd6656aebb4",
+      "bytes": 525,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/toolchain.json",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "1981b946724bde440aafd173f0a4a2484784651b4ae69e1ee2b7dfd6656aebb4"
+    },
+    {
+      "path": "scripts/validate_paper_artifact.py",
+      "sha256": "d52501c097106dd98fa32a963cbf98d40b0213968f3aefba7526e156e2b4a33c",
+      "bytes": 2344,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/validate_paper_artifact.py",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "d52501c097106dd98fa32a963cbf98d40b0213968f3aefba7526e156e2b4a33c"
+    },
+    {
       "path": "scripts/validate_public_snapshot.py",
-      "sha256": "63e3055aa1c8a6ce23b4ea3e5bafae7d7412e3a3d3a857f7c5a0f55665ce108b",
-      "bytes": 5082,
+      "sha256": "588809fc24d4e55b85ae5ededa9059264a1a1dae13df826b5ecb863b23e5d98f",
+      "bytes": 5416,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/validate_public_snapshot.py",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "12aa570d33ba87291eb0f0abfc51bbc24229f9940e9e1f110209c1582ed4beea"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "0d36a708586fabd60f6468fb5da28ce6252398c7c7ef3f9ecaa4a5473faeb9dc",
+      "bytes": 1388,
       "source": null,
       "transformations": []
     },
     {
       "path": "state/public_status.json",
-      "sha256": "7bab5dbbcaf13e56c9a86933e9f9ec84249e7e2c41ce65007842157974ec50f5",
-      "bytes": 796,
+      "sha256": "73f29a0d62d664848bf500b59a80b0391f91f91eda437f2181453becb05e5da0",
+      "bytes": 1072,
       "source": null,
-      "transformations": []
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ]
     },
     {
       "path": "state/tasks.json",
-      "sha256": "8e1ad1ec32248a4c53fa252330043dd495d6f00399bd3fb9c8562dbd390eec78",
-      "bytes": 94063,
-      "source": "state/tasks.json",
+      "sha256": "f7507334199104c2cf8ff8c709856e53fba1d8c42318513fe55912a51ded0d4e",
+      "bytes": 94057,
+      "source": null,
       "transformations": [
-        "Public status snapshot; live agent IDs omitted."
-      ],
-      "source_sha256": "039f82e60de2eb57db5f490697e726e6cdf7ddd109e7fcc0ed7d7856119cf566",
-      "byte_identical_to_source": false
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ]
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "18e1950a20581d89159ef980f0c4eddfb4828aa97396c4ccff8e1b7bd9b2bc58",
+      "bytes": 1599,
+      "source": null,
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ]
     },
     {
       "path": "templates/Argument_Map.md",
@@ -560,6 +742,26 @@
       ],
       "source_sha256": "1409651f07c0c615f0d90abb69ad85d3187a08e4762d418c2da1668a0b44f76d",
       "byte_identical_to_source": true
+    },
+    {
+      "path": "tests/fixtures/pipeline.html",
+      "sha256": "bd8e24fa57880b7ba53717c83d18f3c358f4c11284bcd342f19439e8d4fc7540",
+      "bytes": 4430,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/tests/fixtures/pipeline.html",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "bd8e24fa57880b7ba53717c83d18f3c358f4c11284bcd342f19439e8d4fc7540"
+    },
+    {
+      "path": "tests/paper.test.cjs",
+      "sha256": "eadc8a54e6271b9224e576b16bfccd0cb495deb8ee569b0b632978d8ab293cca",
+      "bytes": 20110,
+      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/tests/paper.test.cjs",
+      "transformations": [
+        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
+      ],
+      "source_sha256": "eadc8a54e6271b9224e576b16bfccd0cb495deb8ee569b0b632978d8ab293cca"
     },
     {
       "path": "work/G0/gate_decision.md",

@@ -42,3 +42,10 @@ __pycache__/
 Thumbs.db
 .codex/
 .agents/
+
+# Reproducible paper build dependencies and generated preview/artifact output
+node_modules/
+/.paper-build/
+/.pnpm-store/
+/.pnpm-cache/
+/.browsers/

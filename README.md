@@ -4,6 +4,8 @@ An open research project investigating consciousness, existence, personal identi
 
 **Current reviewed release: Version 1. Phase 2 is in progress (41 of 46 assignments accepted as of 13 September 2026).** Phase 2's cumulative synthesis and final independent review are unfinished. Acceptance refers to this project's review process, not journal peer review or proof that a hypothesis is true.
 
+**Phase 2 working draft 0.2.0:** [read the HTML paper](https://mnemeth1.github.io/Consciousness-Project/), [download the matching PDF](https://mnemeth1.github.io/Consciousness-Project/paper.pdf), or [view the versioned prerelease](https://github.com/mnemeth1/Consciousness-Project/releases/tag/paper-v0.2.0). This is a provisional draft; the final review remains pending. [Release procedure](docs/PAPER_RELEASE.md) · [Changelog](paper/CHANGELOG.md).
+
 Start with the [executive summary](release/v1/Executive_Summary.md), [full synthesis](release/v1/Consciousness_and_Existence_Synthesis.md), and [open questions](release/v1/Open_Questions_and_Next_Research.md). The [source appendix](release/v1/source_appendix.md) supplies citations and locators. Read [STATUS.md](STATUS.md) for the current Phase 2 correction and remaining work.
 
 The investigation separates nine questions: fundamentality, a universal conscious ground, brain independence, personal survival, timelessness, preservation, intention, goodness and moral authority. Evidence for one does not automatically establish the others. Reports of experiences, observed events, philosophical premises and project inferences are recorded separately. Shared sources and overlapping samples are tracked; source counts are not treated as independent evidence or probability estimates.

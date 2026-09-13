@@ -1,0 +1,128 @@
+name: Paper build and release
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# A PR may execute build/test code, but cannot publish or acquire write permissions.
+permissions:
+  contents: read
+
+# Serialize main builds through deployment; a new commit also fails the main-head guard.
+concurrency:
+  group: paper-${{ github.event_name == 'push' && 'main' || github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    container: mcr.microsoft.com/playwright:v1.62.1-noble
+    permissions:
+      contents: read
+    outputs:
+      state: ${{ steps.paper.outputs.state }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24.19.0
+          package-manager-cache: false
+      - name: Install exact locked renderer
+        run: |
+          npm install --global pnpm@11.19.0
+          pnpm install --frozen-lockfile --ignore-scripts
+      - name: Test isolated synthetic fixture and release controls
+        run: pnpm test
+      - name: Determine paper readiness
+        id: paper
+        run: node scripts/paper/cli.cjs status
+      - name: Explicit waiting state
+        if: steps.paper.outputs.state == 'waiting'
+        run: echo 'Final paper absent. Fixture passed; no Pages artifact or release will be published.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Render a draft preview only
+        if: steps.paper.outputs.state == 'draft'
+        env:
+          PAPER_COMMIT: ${{ github.sha }}
+        run: node scripts/paper/cli.cjs build --mode preview --commit "$PAPER_COMMIT"
+      - name: Render and verify reviewed candidate
+        if: steps.paper.outputs.state == 'candidate'
+        env:
+          PAPER_COMMIT: ${{ github.sha }}
+        run: node scripts/paper/cli.cjs build --mode release --commit "$PAPER_COMMIT"
+      - name: Preview explicitly authorized working draft on PRs
+        if: steps.paper.outputs.state == 'draft-candidate' && github.event_name == 'pull_request'
+        env:
+          PAPER_COMMIT: ${{ github.sha }}
+        run: node scripts/paper/cli.cjs build --mode preview --commit "$PAPER_COMMIT"
+      - name: Build explicitly authorized working-draft release on main
+        if: steps.paper.outputs.state == 'draft-candidate' && github.event_name == 'push'
+        env:
+          PAPER_COMMIT: ${{ github.sha }}
+        run: node scripts/paper/cli.cjs build --mode draft-release --commit "$PAPER_COMMIT"
+      - name: Retain preview or release candidate for review
+        if: steps.paper.outputs.state != 'waiting'
+        uses: actions/upload-artifact@v7
+        with:
+          name: paper-pair
+          path: .paper-build/site/
+          if-no-files-found: error
+          include-hidden-files: true
+          retention-days: 14
+
+  release:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && (needs.build.outputs.state == 'candidate' || needs.build.outputs.state == 'draft-candidate')
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24.19.0
+          package-manager-cache: false
+      - uses: actions/download-artifact@v8
+        with:
+          name: paper-pair
+          path: .paper-build/site/
+      - name: Publish immutable versioned pair using only GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/paper/release.cjs publish
+      - name: Upload only the verified release pair for Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .paper-build/site/
+
+  deploy:
+    needs: release
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24.19.0
+          package-manager-cache: false
+      - name: Refuse an obsolete main run
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/paper/release.cjs verify-main
+      - uses: actions/configure-pages@v5
+      - name: Deploy the paired artifact atomically
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -2718,7 +2718,7 @@
     "dependency_conditions": {
       "P2S01": "submitted"
     },
-    "status": "revision_needed",
+    "status": "submitted",
     "output_directory": "work/P2S02/",
     "deliverables": [
       "report.md",

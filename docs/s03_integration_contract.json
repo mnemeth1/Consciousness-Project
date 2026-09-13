@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "id": "S03_HTML_PDF_CONTRACT_02",
+  "status": "proposed_for_independent_engineering_review",
+  "scientific_acceptance": false,
+  "canonical_public_source": "paper/paper.html",
+  "s03_source": "work/P2S03/paper.html",
+  "source_format": "One self-contained UTF-8 HTML file; no separate citation or style input can drift from this source.",
+  "required_head": {
+    "html_lang": "en",
+    "charset": "utf-8",
+    "title": "Exact same text as the single h1#paper-title; begin Phase 2 working draft for the authorized provisional release",
+    "meta_author": "Accurate accountable authorship; repeat visibly in #authors",
+    "meta_viewport": "width=device-width, initial-scale=1",
+    "meta_paper-version": "0.2.0 for the first authorized Phase 2 working draft; subsequent releases use a new documented stable semantic version",
+    "meta_paper-date": "Valid YYYY-MM-DD, repeated exactly in #paper-date",
+    "meta_paper-stage": "draft while S03 is submitted, P2R20/P2G2 pending",
+    "meta_paper-fixture": "Omit or set false for the actual research draft. Never true."
+  },
+  "required_ids": ["paper", "paper-title", "authors", "ai-disclosure", "publication-status", "paper-version", "paper-date", "abstract", "introduction", "methods", "findings", "discussion", "limitations", "conclusion", "references", "download-pdf"],
+  "structure": {
+    "main": "main#paper contains all substantive paper text, title, authorship/disclosure, version/date and publication status.",
+    "publication_status_draft": "Draft: P2R20 and P2G2 pending",
+    "publication_status_reviewed": "Reviewed research synthesis",
+    "download": "A visible a#download-pdf with href=paper.pdf and download attribute; place outside main in a .screen-only navigation block.",
+    "citations": "Unique stable reference IDs, ordinary internal #ref-ID anchors and HTTPS source links. Every distinct expected internal target in main must have a named PDF link annotation resolving to an actual page. Final print output is checked, so default or print-only styles losing a target fail. Repeated anchor occurrences and annotation geometry are not claimed equivalent. Include exact source versions and locators in readable reference text/crosswalk.",
+    "semantics": "Use headings and p, li, caption, th, td, figcaption blocks for visible text. Automated PDF verification checks every semantic leaf block in main. Do not put substantive text in CSS-generated content or unlabelled images.",
+    "tables": "Use semantic headings/captions; fit page width, repeat table headers and avoid splitting short rows. Long tables need explicit final visual review.",
+    "images": "Only embedded base64 PNG/JPEG/WebP with meaningful alt text. Inline SVG and MathML are excluded by this bounded renderer contract; use ordinary semantic HTML/text/table layouts."
+  },
+  "style": {
+    "embedded": "Use internal style element with @page and @media print. No external styles, fonts or scripts.",
+    "print": "A4; recommended margins top20mm, sides19mm, bottom22mm. Readable 10.5-11pt body, sensible heading and reference hierarchy, widows/orphans and page-break rules. Renderer adds Page N of M footer.",
+    "screen": "Responsive viewport and text, visible matching-PDF link, accessible contrast and link text.",
+    "avoid": "No .screen-only or hidden substantive content inside main; no long unbreakable cells, clipped overflow, full-page background images or generated text standing in for findings."
+  },
+  "security": "JavaScript disabled. All subresource requests aborted. Reject script, iframe, object, embed, form, base, external link/style elements, audio/video, inline SVG/MathML, event attributes, source sets, CSS imports, non-data CSS resources, meta http-equiv including delayed refresh, and href/xlink:href on anything other than an ordinary HTML anchor. Links are HTTPS or validated internal fragments, except the exact PDF download link.",
+  "portable_preview": {
+    "command": "node PATH_TO_IMPLEMENTATION/scripts/paper/cli.cjs build --root work/P2S03 --source paper.html --out paper-render --mode preview",
+    "working_directory": "Project root; alternatively provide an absolute S03 --root.",
+    "write_scope": "Only the selected --root/output directory. Code/lock/toolchain are read from the renderer implementation directory. Use a fresh output directory for each render.",
+    "dependencies": "Renderer implementation has pnpm-installed locked packages. Set PLAYWRIGHT_BROWSERS_PATH to the installed matching browser directory locally if needed; CI uses the pinned Linux image.",
+    "output": ["paper-render/index.html", "paper-render/paper.pdf", "paper-render/release.json"],
+    "copy_to_s03_deliverable": "Copy the generated PDF bytes to work/P2S03/paper.pdf; do not author a separate PDF. Keep the HTML hash and manifest in pdf_validation.json.",
+    "preview_note": "mode=preview and zero source commit are explicitly not a publishable release. No review record is needed for a draft."
+  },
+  "required_s03_checks": [
+    "Supply html_paper_crosswalk.json tracing scientific prose to the exact reviewed synthesis claims, arguments, sources, versions, locators and retained limits.",
+    "Supply pdf_validation.json with HTML/PDF hashes, exact renderer manifest/version, actual pages/text/link checks, and actual page-render visual inspection outcomes.",
+    "Use the PDF skill marker once before first fixture/paper creation in a task; do not claim root/source intake is original-reading or layout-review credit.",
+    "Inspect every final PDF page plus mobile/desktop HTML. Preserve all nine components, twelve withheld gates, disagreements, gap boundaries and actual S02 scenario qualifications.",
+    "Do not invent external peer review, new empirical data, exhaustive systematic search, meta-analysis or successful research acceptance."
+  ],
+  "draft_to_release": {
+    "responsibility": "S03 submits the draft. Root is the P2R20 independent final reviewer and P2G2 adjudicator, distinct from the S03 author. Root controls the review record after those actual outcomes. The separate engineering reviewer assesses this pipeline and grants no scientific acceptance.",
+    "mechanical_change": "If changing paper-stage and #publication-status after the scientific text was reviewed, preserve scientifically_reviewed_html_sha256 and published_html_sha256, exact change_summary and distinct reviewer approved_by in the release presentation record. The reviewer approves the before/after change and both public summaries bind the final HTML hash.",
+    "no_silent_substitution": "Substantive changes require renewed scientific review. Any changed released bytes, recipe or review record need a new documented semantic release version.",
+    "linux_pdf_review": "Before merge, inspect the actual paper-pair PR artifact built in the pinned Linux image. Build the final presentation in preview mode before adding the release approval record; after inspection record its exact pdf_sha256. The candidate/main build must match that hash. A Windows preview does not establish cross-platform byte identity. Publication jobs and Pages artifact upload stay skipped on PRs.",
+    "publish_boundary": "This describes the later final reviewed-release path. The separate authorized working-draft path below may publish before P2R20/P2G2. Both paths generate fresh paired artifacts and retain immutable versions."
+  },
+  "authorized_working_draft": {
+    "user_intent": "Publish an improvable Phase 2 working draft now; do not claim scientific completion.",
+    "initial_version": "0.2.0",
+    "title_and_body": "Title and h1 begin Phase 2 working draft; paper-stage remains draft and the visible P2R20/P2G2 pending badge remains. Disclose unfinished sections, gaps and limitations.",
+    "record": "Root records paper/draft-release.json: schema1, status authorized-draft, exact version/date/html_sha256/renderer_sha256, fixture false, scientific_acceptance false, pending_reviews [P2R20,P2G2], author, publication_authorized_by and actual authorization text. Require matching changelog; reject coexistence with reviewed-release.json.",
+    "execution": "PRs build preview artifacts only. Main validates the authorization, builds mode draft-release, publishes a conspicuous GitHub prerelease and deploys the fresh HTML/PDF pair. No pre-reviewed Linux PDF or fake scientific acceptance is required for this explicitly authorized draft.",
+    "subsequent_check": "Root checks actual Linux output and deployed hashes after execution. New content or renderer/authorization changes require a new documented version. Full scientific completion remains later work."
+  }
+}

@@ -6,15 +6,25 @@
   "phase2_completed": false,
   "remaining_tasks": {
     "P2S01": "submitted, not accepted",
-    "P2S02": "revision needed",
+    "P2S02": "correction submitted; bounded root check passed, full final review pending",
     "P2S03": "paused pending corrected inputs",
     "P2R20": "planned independent final review",
     "P2G2": "planned final release gate"
   },
-  "known_issue": "S02 original-source eligibility mask includes unavailable bindings; correction and explicit dependent-input rebase required.",
+  "known_issue": "S02 eligibility correction received; final synthesis input rebase, full independent review and adjudication remain pending.",
   "withheld_conclusion_gates": 12,
   "gap_groups": 35,
   "task_acceptance_meaning": "Methodological acceptance within scope, not metaphysical truth or journal peer review.",
   "source_archive_included": false,
-  "automatic_background_execution": false
+  "automatic_background_execution": false,
+  "current_public_draft": {
+    "version": "0.2.0",
+    "stage": "draft",
+    "scientific_acceptance": false,
+    "pending_reviews": [
+      "P2R20",
+      "P2G2"
+    ],
+    "task": "PHASE2_PUBLIC_DRAFT_20260913"
+  }
 }

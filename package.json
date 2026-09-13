@@ -1,0 +1,19 @@
+{
+  "name": "consciousness-project-paper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reviewed HTML to versioned PDF and Pages release tooling; contains no paper.",
+  "packageManager": "pnpm@11.19.0",
+  "engines": { "node": "24.19.0" },
+  "scripts": {
+    "test": "node --test tests/paper.test.cjs",
+    "paper:status": "node scripts/paper/cli.cjs status",
+    "paper:build": "node scripts/paper/cli.cjs build",
+    "paper:recipe": "node scripts/paper/cli.cjs recipe"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "5.6.205",
+    "playwright": "1.62.1"
+  }
+}

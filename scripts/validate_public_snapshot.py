@@ -13,7 +13,8 @@ def validate():
     entries = {e['path']: e for e in manifest['files']}
     assert len(entries) == len(manifest['files']), 'Duplicate manifest path'
     actual = {p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*')
-              if p.is_file() and '.git' not in p.parts and '__pycache__' not in p.parts}
+              if p.is_file() and not ({'.git', '__pycache__', 'node_modules'} & set(p.parts))
+              and p.relative_to(ROOT).parts[0] not in {'.paper-build', '.pnpm-store', '.pnpm-cache', '.browsers'}}
     assert actual == set(entries) | {'PUBLICATION_MANIFEST.json'}, 'File inventory differs from the public manifest'
     forbidden_extensions = {'.pdf', '.epub', '.djvu', '.mobi', '.mp3', '.mp4', '.wav',
         '.png', '.jpg', '.jpeg', '.webp', '.zip', '.7z', '.sqlite', '.db', '.pem', '.key'}
@@ -68,7 +69,10 @@ def validate():
     assert sum(t['status'] == 'accepted' for t in p2) == status['phase2_accepted_tasks']
     assert status['current_reviewed_release'] == 'v1'
     assert status['phase2_completed'] is False
-    assert by_id['P2S02']['status'] == 'revision_needed'
+    assert by_id['P2S02']['status'] == 'submitted'
+    assert status['current_public_draft']['stage'] == 'draft'
+    assert status['current_public_draft']['scientific_acceptance'] is False
+    assert status['current_public_draft']['pending_reviews'] == ['P2R20', 'P2G2']
     assert by_id['P2S03']['status'] == 'blocked'
     # Historical reports intentionally retain links to omitted audit/source files.
     # New public entry points must link to material present in this snapshot.
