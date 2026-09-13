@@ -1,6 +1,6 @@
 # Accepted task reports
 
-Historical reports retain their task scope. The current cumulative release is Version 1; Phase 2 domain acceptance does not complete its final synthesis.
+Historical reports retain their task scope. The public manuscript is the working draft in `paper/`; Phase 2 domain acceptance does not complete its final synthesis.
 
 - [T01 — Define hypothesis components and glossary](work/T01/report.md)
 - [T02 — Specify evidence, search and inclusion protocol](work/T02/report.md)

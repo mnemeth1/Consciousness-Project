@@ -67,7 +67,7 @@ def validate():
     p2 = [t for t in tasks if t['id'].startswith('P2')]
     assert len(p2) == status['phase2_total_tasks']
     assert sum(t['status'] == 'accepted' for t in p2) == status['phase2_accepted_tasks']
-    assert status['current_reviewed_release'] == 'v1'
+    assert status['current_reviewed_release'] == 'retired'
     assert status['phase2_completed'] is False
     assert by_id['P2S02']['status'] == 'submitted'
     assert status['current_public_draft']['stage'] == 'draft'
@@ -86,7 +86,7 @@ def validate():
     print(f'Validated {len(actual)} public files, {len(tasks)} tasks, '
           f'{len(sets["sources"])} sources, {len(sets["claims"])} claims, '
           f'{len(sets["arguments"])} arguments and {len(sets["cases"])} cases.')
-    print('Version 1 is current; Phase 2 final synthesis and review remain unfinished.')
+    print('Working draft in paper/ is the public manuscript; former Version 1 files are retired.')
     print('This is a structural and publication-boundary check, not scientific verification.')
 
 if __name__ == '__main__':

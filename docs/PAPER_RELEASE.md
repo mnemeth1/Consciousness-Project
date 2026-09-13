@@ -1,6 +1,6 @@
 # Paper release pipeline
 
-The repository currently contains the v1 research snapshot. Installing this tooling does not release a v2 paper. With no `paper/paper.html`, CI reports **waiting** and creates no Pages artifact, tag, or release. The synthetic fixture is only a software test.
+The canonical public manuscript is `paper/paper.html`. The former Version 1 synthesis directory has been retired and is not a working draft. Installing this tooling does not complete scientific review. With no `paper/paper.html`, CI reports **waiting** and creates no Pages artifact, tag, or release. The synthetic fixture is only a software test.
 
 ## One source, one paired release
 

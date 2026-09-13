@@ -2,23 +2,23 @@
 
 An open research project investigating consciousness, existence, personal identity, time, meaning, purpose and morality. It examines whether fundamental or enduring consciousness provides a warranted explanation, alongside physicalist, emergentist, dualist, panpsychist and idealist alternatives. The aim is a defensible assessment with explicit uncertainty.
 
-**Current reviewed release: Version 1. Phase 2 is in progress (41 of 46 assignments accepted as of 13 September 2026).** Phase 2's cumulative synthesis and final independent review are unfinished. Acceptance refers to this project's review process, not journal peer review or proof that a hypothesis is true.
+**Current public manuscript: the working draft in `paper/`.** Phase 2 is in progress (41 of 46 assignments accepted as of 13 September 2026). Phase 2's cumulative synthesis and final independent review are unfinished. Acceptance refers to this project's review process, not journal peer review or proof that a hypothesis is true. The former Version 1 synthesis files have been retired; they were a historical internal-review snapshot, not this paper's working draft.
 
-**Research article 0.4.0 — Consciousness, Existence, and the Grounds of Significance:** [start here](https://mnemeth1.github.io/Consciousness-Project/) to choose between the [plain-language overview](https://mnemeth1.github.io/Consciousness-Project/companion.html) and the [full research article](https://mnemeth1.github.io/Consciousness-Project/paper.html), [download the matching PDF](https://mnemeth1.github.io/Consciousness-Project/paper.pdf), or [view the versioned release](https://github.com/mnemeth1/Consciousness-Project/releases/tag/paper-v0.4.0). A complete philosophical manuscript based on the research available so far; later versions will refine arguments and supporting evidence. [Release procedure](docs/PAPER_RELEASE.md) · [Changelog](paper/CHANGELOG.md).
+**Research article 0.4.0 — Consciousness, Existence, and the Grounds of Significance:** [start here](https://mnemeth1.github.io/Consciousness-Project/) to choose between the [plain-language overview](https://mnemeth1.github.io/Consciousness-Project/companion.html) and the [full research article](https://mnemeth1.github.io/Consciousness-Project/paper.html), [download the matching PDF](https://mnemeth1.github.io/Consciousness-Project/paper.pdf), or [view the versioned release](https://github.com/mnemeth1/Consciousness-Project/releases/tag/paper-v0.4.0). A working-draft philosophical manuscript based on the research available so far; later versions will continue to integrate supporting evidence. [Release procedure](docs/PAPER_RELEASE.md) · [Changelog](paper/CHANGELOG.md).
 
-Start with the [executive summary](release/v1/Executive_Summary.md), [full synthesis](release/v1/Consciousness_and_Existence_Synthesis.md), and [open questions](release/v1/Open_Questions_and_Next_Research.md). The [source appendix](release/v1/source_appendix.md) supplies citations and locators. Read [STATUS.md](STATUS.md) for the current Phase 2 correction and remaining work.
+Start with the [research article](paper/paper.html) and [plain-language companion](paper/companion.html). Read [STATUS.md](STATUS.md) for the current Phase 2 correction and remaining work.
 
 The investigation separates nine questions: fundamentality, a universal conscious ground, brain independence, personal survival, timelessness, preservation, intention, goodness and moral authority. Evidence for one does not automatically establish the others. Reports of experiences, observed events, philosophical premises and project inferences are recorded separately. Shared sources and overlapping samples are tracked; source counts are not treated as independent evidence or probability estimates.
 
 ## What is included
 
 - [Research plan](Research_Plan.md) and [execution framework](AI_Execution_Framework.md).
-- [Version 1 reports and structured analyses](release/v1/) and [accepted task reports](REPORTS.md).
+- [Accepted task reports](REPORTS.md).
 - [Evidence ledgers](records/README.md): 173 sources, 717 claims, 124 arguments and 23 case/study records, including accepted Phase 2 contributions.
 - [Phase 2 plan](phase2/Phase_2_Execution_Plan.md), [task status snapshot](state/tasks.json), reusable [role prompts](prompts/) and [record templates](templates/).
 - A standard-library Python validator for the public snapshot.
 
-This repository is a curated research snapshot. Downloaded books, papers, transcripts, source screenshots, full-text extracts and private operational files are excluded. Relative references to omitted source files remain provenance locators; they are not download links. The current ledgers include Phase 2 findings that have not yet been integrated into a reviewed Version 2 synthesis. See [publication notes](PUBLICATION_NOTES.md) for scope and reproducibility limits.
+This repository is a curated research snapshot. Downloaded books, papers, transcripts, source screenshots, full-text extracts and private operational files are excluded. Relative references to omitted source files remain provenance locators; they are not download links. The current ledgers include Phase 2 findings that the working paper is still integrating; final independent review remains outstanding. See [publication notes](PUBLICATION_NOTES.md) for scope and reproducibility limits.
 
 ## Check the public snapshot
 

@@ -64,8 +64,8 @@
     },
     {
       "path": "CURRENT_RELEASE.md",
-      "sha256": "59b5af67bb3ae7280ed3cee01cce766d17359d04f515708645fd91108c11944c",
-      "bytes": 1167,
+      "sha256": "940ab009d7fd873b9f92495567e7c0afea53a832e6f0d16d08ded599797247f1",
+      "bytes": 997,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -90,8 +90,8 @@
     },
     {
       "path": "docs/PAPER_RELEASE.md",
-      "sha256": "34aaef5bab604429340f1ff7c6452befebef827f00c0088a8ad7d3bf09dd6bb6",
-      "bytes": 13155,
+      "sha256": "38937c00bbb7c9c61dee1da040b8208813e3b4df90033d4a7dbce4ce520c231b",
+      "bytes": 13244,
       "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/docs/PAPER_RELEASE.md",
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
@@ -330,8 +330,8 @@
     },
     {
       "path": "PUBLICATION_NOTES.md",
-      "sha256": "4c46ab7c481f3b5ae7a1942ea060f283b755f1c81274cf50fb7638926464f89d",
-      "bytes": 3292,
+      "sha256": "a4e7252c5b4b1f2dbc8447feb770707ca385af8db98a96fe753b5678559942c2",
+      "bytes": 3374,
       "source": null,
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
@@ -339,8 +339,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "c9f7edbc22c83fe1460579a73fd0c6765f3a8c37c4ab81911b99108e328ef453",
-      "bytes": 4636,
+      "sha256": "a987c83d4c49b806692645159ec2157b76fa62927b3248c74b0e3d5a42bc601e",
+      "bytes": 4569,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -381,8 +381,8 @@
     },
     {
       "path": "records/README.md",
-      "sha256": "33bcbb3abd0381455de95399877ff61462f280435e9f4ab3eed46f59b95f880d",
-      "bytes": 1129,
+      "sha256": "8dd3bbfa4f800a4c1a939e706e406a6b80167c14914bfd3e29fe336600432574",
+      "bytes": 1226,
       "source": null,
       "transformations": []
     },
@@ -409,171 +409,6 @@
       "byte_identical_to_source": false
     },
     {
-      "path": "release/v1/alternatives_matrix.json",
-      "sha256": "4194b87449a3e89c115b5bde78d12f43e3d987d39d36591cb03bd4a92c9f3846",
-      "bytes": 29399,
-      "source": "release/v1/alternatives_matrix.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "838fc1ccf48cf9b40b0d20d6f9dc63d38ae846582a2e9b8fdac0fc8abe061b19",
-      "byte_identical_to_source": false
-    },
-    {
-      "path": "release/v1/baseline_assessment.json",
-      "sha256": "f9fea92a8644c4fb6a2b4218e0eca9ef991d351bc24bc9c578716cecd68cf203",
-      "bytes": 14739,
-      "source": "release/v1/baseline_assessment.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "f9fea92a8644c4fb6a2b4218e0eca9ef991d351bc24bc9c578716cecd68cf203",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/component_routes.json",
-      "sha256": "59074f77358c2081f34cff72aa042133f0a8d21924b5cfa07a00fc3045a2f95d",
-      "bytes": 46629,
-      "source": "release/v1/component_routes.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "59074f77358c2081f34cff72aa042133f0a8d21924b5cfa07a00fc3045a2f95d",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/conclusion_crosswalk.json",
-      "sha256": "9dde5052817e02b51687932790265e6217c5daed84eb7352505431a01703c814",
-      "bytes": 1025479,
-      "source": "release/v1/conclusion_crosswalk.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "0379b041da01fa8a73718753515272d90d814e2d7ca83135bd83bec560f38f01",
-      "byte_identical_to_source": false
-    },
-    {
-      "path": "release/v1/conclusion_gate_map.json",
-      "sha256": "e817236191a54166656e03653346854e345c8cbd8eeb3a7d19e37bb715a77c11",
-      "bytes": 10849,
-      "source": "release/v1/conclusion_gate_map.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "e817236191a54166656e03653346854e345c8cbd8eeb3a7d19e37bb715a77c11",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/Consciousness_and_Existence_Synthesis.md",
-      "sha256": "5c362e83bf89d4c35e9ae53a8ac5f0c93dd5edd01069eadf78c0110856d1a2da",
-      "bytes": 40831,
-      "source": "release/v1/Consciousness_and_Existence_Synthesis.md",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "5c362e83bf89d4c35e9ae53a8ac5f0c93dd5edd01069eadf78c0110856d1a2da",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/dependency_map.json",
-      "sha256": "5ff6cb63ec4c6dfeded9d634fcda853e2498a35260291a1b6e0be2d0d57ca212",
-      "bytes": 451746,
-      "source": "release/v1/dependency_map.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "5ff6cb63ec4c6dfeded9d634fcda853e2498a35260291a1b6e0be2d0d57ca212",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/Executive_Summary.md",
-      "sha256": "f283f06da3b33ba2bc053e6f5e681d2c9401f201766550c92bcc74d69b479446",
-      "bytes": 3843,
-      "source": "release/v1/Executive_Summary.md",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "f283f06da3b33ba2bc053e6f5e681d2c9401f201766550c92bcc74d69b479446",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/open_questions.json",
-      "sha256": "6b78d249d774823bcbc6b677ffbb9e7c051c930854f7c02ffcbdce9e94c03c31",
-      "bytes": 23301,
-      "source": "release/v1/open_questions.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "6b78d249d774823bcbc6b677ffbb9e7c051c930854f7c02ffcbdce9e94c03c31",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/Open_Questions_and_Next_Research.md",
-      "sha256": "25bacf60dc88f9545a7c4c10ba81d1fad129abe5f124b37bb80274c4b1a2f55f",
-      "bytes": 3687,
-      "source": "release/v1/Open_Questions_and_Next_Research.md",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "25bacf60dc88f9545a7c4c10ba81d1fad129abe5f124b37bb80274c4b1a2f55f",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/release_provenance.json",
-      "sha256": "3d4068349ae8ab510d394a65edb3b1dcb3efd1dbf6b6fde62e4693eac0ff4866",
-      "bytes": 4000,
-      "source": "release/v1/release_provenance.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "3d4068349ae8ab510d394a65edb3b1dcb3efd1dbf6b6fde62e4693eac0ff4866",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/route_impact.json",
-      "sha256": "fa19a584564c92891651acd17c566859b7c8eadfad601bce3bfaddf1c0879dc2",
-      "bytes": 420261,
-      "source": "release/v1/route_impact.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "fa19a584564c92891651acd17c566859b7c8eadfad601bce3bfaddf1c0879dc2",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/scenario_operations.json",
-      "sha256": "ed521cd14c8987cdf0f79299d8633c9f8f113d2d4fa31adb57335fafb3583886",
-      "bytes": 102091,
-      "source": "release/v1/scenario_operations.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "ed521cd14c8987cdf0f79299d8633c9f8f113d2d4fa31adb57335fafb3583886",
-      "byte_identical_to_source": true
-    },
-    {
-      "path": "release/v1/sensitivity_results.json",
-      "sha256": "dbfe53a325656784077cc3c17c6a7b1fd8df098fa291b6b37fca28202c8b38f5",
-      "bytes": 171223,
-      "source": "release/v1/sensitivity_results.json",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "07859ea62cc72a9dc8955988ddc76c508a9e6c2654f2f83489c28f63d69bb077",
-      "byte_identical_to_source": false
-    },
-    {
-      "path": "release/v1/source_appendix.md",
-      "sha256": "682daa628dd6a06a0c307c88b2bcb6da3a85028f2980bbd001ccf0d687541f64",
-      "bytes": 93146,
-      "source": "release/v1/source_appendix.md",
-      "transformations": [
-        "UTF-8/LF normalization; host-specific paths redacted when present."
-      ],
-      "source_sha256": "682daa628dd6a06a0c307c88b2bcb6da3a85028f2980bbd001ccf0d687541f64",
-      "byte_identical_to_source": true
-    },
-    {
       "path": "reports/P2S01/report.md",
       "sha256": "f50d91a3c0bb9cd09b996c948a772c665832b4bbe77178568585fc0cf4e1af58",
       "bytes": 16401,
@@ -595,8 +430,8 @@
     },
     {
       "path": "REPORTS.md",
-      "sha256": "d0adedd6a4963154d3395a6d842f9e19f7897c525af4c9ac4b21b2631690b9b0",
-      "bytes": 5995,
+      "sha256": "b437514cb7d21faef0f12fb43b7af5b6c458edeec8e12fc0052c06f5a39440c5",
+      "bytes": 6006,
       "source": null,
       "transformations": []
     },
@@ -673,8 +508,8 @@
     },
     {
       "path": "scripts/validate_public_snapshot.py",
-      "sha256": "588809fc24d4e55b85ae5ededa9059264a1a1dae13df826b5ecb863b23e5d98f",
-      "bytes": 5416,
+      "sha256": "acf2464866b103cb3dfbe780c82389c617535ffaaff8f8c8cf9a19580e0bf0d1",
+      "bytes": 5431,
       "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/validate_public_snapshot.py",
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
@@ -690,8 +525,8 @@
     },
     {
       "path": "state/public_status.json",
-      "sha256": "24392f2a145f8f8c7fdb0a9d5cd7ce207fc7794f931c3da369cb0017bf049fb3",
-      "bytes": 1112,
+      "sha256": "570871a9a8e46de69fed583ce107937616fbc93d9c347fa16eaefb62fbb167a3",
+      "bytes": 1117,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -708,8 +543,8 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "c98c8c048913a1d1887c717c759e297bd059c2a854ff60f283250ee4c6b4280b",
-      "bytes": 1584,
+      "sha256": "11c61fe9a0c21bad740eec549254dec088d9183f0d839a5bdb50ef4512144ed3",
+      "bytes": 1576,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."

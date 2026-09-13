@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-09-13",
-  "current_reviewed_release": "v1",
+  "current_reviewed_release": "retired",
   "phase2_total_tasks": 46,
   "phase2_accepted_tasks": 41,
   "phase2_completed": false,
@@ -18,7 +18,7 @@
   "source_archive_included": false,
   "automatic_background_execution": false,
   "current_public_draft": {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "stage": "draft",
     "scientific_acceptance": false,
     "pending_reviews": [
