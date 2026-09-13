@@ -242,13 +242,14 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
   assert.equal(dep('pdfjs-dist/package.json').version, toolchain.pdfjs_dist, 'PDF parser pin mismatch');
   const target = C.inside(root, out);
   assert(!fs.existsSync(target) || fs.readdirSync(target).length === 0, 'Output must be fresh and empty; never reuse a stale PDF');
-  const browser = await dep('playwright').chromium.launch({headless: true,
-    executablePath: process.env.PAPER_BROWSER_EXECUTABLE || undefined});
   // Auxiliary pages accompany only the canonical paper; fixtures and portable previews stay a pair.
+  // Read them before launching the browser so a validation throw cannot leak the browser process.
   const aux = source === 'paper/paper.html' && C.auxPresent(root) ? {
     landing: C.regular(C.inside(root, 'paper/landing.html')),
     companion: C.regular(C.inside(root, 'paper/companion.html')),
     crosswalk: C.regular(C.inside(root, 'paper/lay_crosswalk.json'))} : null;
+  const browser = await dep('playwright').chromium.launch({headless: true,
+    executablePath: process.env.PAPER_BROWSER_EXECUTABLE || undefined});
   let info, review, draft, pdfBytes, verification, browserVersion, crosswalkStats;
   try {
     browserVersion = browser.version();

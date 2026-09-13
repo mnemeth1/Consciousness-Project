@@ -145,7 +145,7 @@
     },
     {
       "path": "paper/draft-release.json",
-      "sha256": "163dc1d586e92d975c09e17b84796d08e8a23f69c572e8716d3b78ff2ff1cef0",
+      "sha256": "4e9b48c37ea1580ebbd6e0f918fb4086e6e88eaa26367bff69e42827d237a707",
       "bytes": 1047,
       "source": null,
       "transformations": [
@@ -613,8 +613,8 @@
     },
     {
       "path": "scripts/paper/build.cjs",
-      "sha256": "509c6969eed8cc0999e0c56585b3df5d6a4827e67a8220a64f4059e49291b6c1",
-      "bytes": 25891,
+      "sha256": "d41c59d1cac2baa6acc27aca11e6fdecd18c309c6df9a4e961f9c21c8e2f05e2",
+      "bytes": 25990,
       "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/build.cjs",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
