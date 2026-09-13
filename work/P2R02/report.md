@@ -1,0 +1,19 @@
+# P2R02 independent review of P2T02
+
+Recommend **accept** for the bounded research packet. There are no material corrections. This approves its method and qualified attributions, not the truth of dualism, physical completeness, or the proposed causal relations. Root retains adjudication authority.
+
+I did not author P2T02. All 48 frozen inputs matched before review; all 11 sealed author deliverables and 21 supporting files also matched. I independently reopened the three decisive originals. The claim-level matrix in `source_checks.json` covers all 11 claims, three arguments and eight proposed v1 changes.
+
+Lowe’s article supports the distinct-bearer and conditional causal reconstruction. Its model does not require disembodiment. Note 15 makes its closure grant conditional, and the packet correctly avoids adopting its empirical assertions as verified findings. The replacement argument includes a bionic-body possibility, so its modal identity premises remain substantive burdens. [Lowe, pp. 5–10, 12–21](https://metaphysicist.com/articles/Lowe_Dualism.pdf)
+
+Engelhardt directly criticizes Lowe, then changes the causal proposal. His alternative sacrifices the independent causal-power requirement identified in note 12; it therefore supplies no retrospective vindication of every Lowe commitment. Property sharing and embodiment still require explanation. The author-linked HTML was accessible, but its equivalence to final publisher bytes remains unverified. [Engelhardt, §§1–3](https://www.academia.edu/75561408/Interactive_Inclusive_Substance_Dualism)
+
+Bennett is an independently inspected external critic. Her counterfactual conditions are necessary, not sufficient, and physical completeness remains a separate premise. Section 6.2 concedes the relevant solution to a coherent, motivated necessitation account, while questioning whether dualism supplies one. These qualifications are retained. I rendered and read all 14 available PDF pages: cover plus printed 280–305. Conclusion and references are present; pages 306/307 were not inspected. [Bennett, pp. 280–305](https://www.karenbennett.org/_files/ugd/4d77f7_cfd57f52556749a09b2426217af88725.pdf)
+
+Claims 001–008 use `philosophical_premise`, but their epistemic-role, record-reliability and inference fields explicitly restrict verification to author attribution. That distinction is adequate in the submitted records. Root may normalize their type to `philosophical_argument_attribution` for clearer indexing; relabeling is not required to repair a substantive misstatement. No inference should treat these premises as established merely because the authors state them.
+
+The search audit matches all 160 exposed occurrences and 153 screened entries to the nine raw responses in exact order, including the seven Q002 entries beyond the first-20 window. Separate backward and forward passes exist for each original. The initial selection and Bennett annex disclose their sequence and acquired-version changes. These retained files support the audit trail; they cannot independently prove every historical action time.
+
+The v1 changes add a concrete comparator and refine the causal dispute. They preserve the animalist, simple-subject, memory, branching and interruption qualifications in the frozen ledger. Identity declarations and causal compatibility arguments establish no actual postmortem event or timeless subject. All 12 conclusion gates and all component-score restrictions remain. Wider dualist branches and later external replies are still coverage gaps, so this review cannot close the strongest-family comparison.
+
+Review budget: one query and six successful source/version inspections (three originals and three metadata pages). Failed resolver/publisher attempts are recorded separately. No manual paper request is needed for this bounded review. No canonical or author files were changed.

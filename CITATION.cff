@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the specific commit and distinguish the Version 1 release from unfinished Phase 2 work."
+title: "Consciousness and Existence Project"
+type: software
+authors:
+  - family-names: Nemeth
+    given-names: Michael
+repository-code: "https://github.com/mnemeth1/Consciousness-Project"
+url: "https://github.com/mnemeth1/Consciousness-Project"
+license: Unlicense
+date-released: 2026-09-13
+version: "public-snapshot-2026-09-13"
+abstract: "AI-assisted, source-linked research on consciousness and existence. Version 1 is a scoped provisional release; Phase 2 final synthesis and independent review remain unfinished."

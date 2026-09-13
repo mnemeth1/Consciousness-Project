@@ -1,0 +1,1132 @@
+{
+  "task_id": "G2",
+  "interpretation": "Open means unfulfilled; scoped acceptance does not close it. P1 must be repaired before the named stronger claim, or that claim must be withheld explicitly. Missing private measurements do not preclude honest conditional discussion.",
+  "g1_reconciliation": [
+    {
+      "gap_id": "G1-GAP-01",
+      "origin": [
+        "T04",
+        "R04"
+      ],
+      "status": "open_partly_publicly_repairable",
+      "missing_item": "Earliest complete Neal memoir/account and dated first disclosures remain absent. Later tasks did not inspect them.",
+      "consequence": "Blocks historical priority and direct original attribution; does not erase present attributed testimony.",
+      "closure_condition": "Inspect exact earliest available edition and disclosure evidence, compare dates; if unavailable retain priority unknown.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-05"
+    },
+    {
+      "gap_id": "G1-GAP-02",
+      "origin": [
+        "T04",
+        "R04"
+      ],
+      "status": "open_access_constrained",
+      "missing_item": "Independent rescue statements and measured physiological chronology absent; no private access authorized.",
+      "consequence": "Blocks independent medical reconstruction and exclusion of ordinary information/timing routes.",
+      "closure_condition": "Public original independently dated witness/medical documentation, if it exists; do not demand unauthorized private records to discuss conditionals.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-05"
+    },
+    {
+      "gap_id": "G1-GAP-03",
+      "origin": [
+        "T04",
+        "R04"
+      ],
+      "status": "open_potentially_unrecoverable",
+      "missing_item": "No independently dated prefulfillment prediction, prespecified scoring or complete prediction set.",
+      "consequence": "Blocks verified foreknowledge and calibrated odds; retrospective assertion remains testimony.",
+      "closure_condition": "Recover genuine prefulfillment record and comparison set; new retelling cannot retroactively supply advance dating.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-05"
+    },
+    {
+      "gap_id": "G1-GAP-04",
+      "origin": [
+        "T04",
+        "R04"
+      ],
+      "status": "open_repairable",
+      "missing_item": "Direct Neal critic/reply chain and separate original forward passes still incomplete. General Mays debate is not case corroboration.",
+      "consequence": "Blocks complete Neal audit and claim serious direct objections have all been checked.",
+      "closure_condition": "Bounded primary critic/reply retrieval and separately logged source passes; preserve historical missed passes.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-05"
+    },
+    {
+      "gap_id": "G1-GAP-05",
+      "origin": [
+        "T05",
+        "R05",
+        "T12",
+        "R12"
+      ],
+      "status": "partly_resolved",
+      "missing_item": "T12 adds combination/idealism originals and separate source passes, but shares three Chalmers texts; direct strong-emergentist/substance/plural-idealist and external reply coverage incomplete. T05 historical shared OR query remains unfulfilled.",
+      "consequence": "Allows selected argument comparison, blocks representative mind-model ranking and closure of original pilot audit defect.",
+      "closure_condition": "Target underrepresented original defenders/challenges/replies; new searches do not reconstruct lost pilot ranks.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-02"
+    },
+    {
+      "gap_id": "G1-GAP-06",
+      "origin": [
+        "T06",
+        "R06"
+      ],
+      "status": "partly_resolved",
+      "missing_item": "Alexander transcript, clinical publication, critic and reply inspected; raw charts, source recording/audio, first disclosures and pre-photo descriptions remain absent.",
+      "consequence": "Substantive named-case audit achieved; source identity, event timing and independent acquisition remain unresolved.",
+      "closure_condition": "Exact recording identification/alignment, earliest accessible original and independently timed records if available.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-05"
+    },
+    {
+      "gap_id": "G1-GAP-07",
+      "origin": [
+        "T19",
+        "R19"
+      ],
+      "status": "selection_duty_resolved_evidence_gaps_open",
+      "missing_item": "Moorjani screened using same documentary criteria and deferred; recovery/perception/interpretation separated. Recording and clinical documentation not verified.",
+      "consequence": "Meets candidate-selection duty, not full Moorjani case verification or evidence against her account.",
+      "closure_condition": "For a later full dossier obtain source recording, earliest account, independently inspectable treatment/prognosis timeline and direct critic/reply; no inference of spontaneous remission from interview.",
+      "priority": "P3",
+      "repair_id": "REPAIR-G2-05"
+    },
+    {
+      "gap_id": "G1-GAP-08",
+      "origin": [
+        "T07",
+        "T08",
+        "T13",
+        "R07",
+        "R08",
+        "R13"
+      ],
+      "status": "minimum_strata_representation_resolved_breadth_open",
+      "missing_item": "Prospective, retrospective, cultural/historical, distressing/conflicting and comparison-state originals now represented, narrowly and purposively.",
+      "consequence": "Allows bounded comparison of observed/report patterns; blocks global prevalence, universality, representative antiquity and pooled likelihood claims.",
+      "closure_condition": "Wider preregistered/documented sampling and primary translations with dependence/denominators, if broader claim is wanted.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-06"
+    }
+  ],
+  "later_gap_groups": [
+    {
+      "gap_id": "G2-GAP-09",
+      "origin": [
+        "T03",
+        "T04",
+        "T05",
+        "R04",
+        "R05",
+        "G1"
+      ],
+      "status": "historical_audit_loss",
+      "missing_item": "Lost T03 work, pilot mixed batches/missing per-query ranks and T05 OR forward query cannot be reconstructed as historical facts.",
+      "consequence": "Blocks full historical search reproducibility and saturation claims, not independently reopened narrow sources.",
+      "closure_condition": "Retain immutable limits; any replacement search has a new timestamp and cannot repair historical capture.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-07"
+    },
+    {
+      "gap_id": "G2-GAP-10",
+      "origin": [
+        "T06",
+        "R06"
+      ],
+      "status": "open_public_originals",
+      "missing_item": "AANS2012 first account, full memoir/Appendix A, Sacks original/comparator clinical papers and later citation chains uninspected.",
+      "consequence": "Blocks earliest-account priority and claims of full critic/clinical comparison; source-specific attributions remain within actual access.",
+      "closure_condition": "Retrieve bounded earliest-account and direct critic/reply originals; separate clinical comparison from chart access.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-05"
+    },
+    {
+      "gap_id": "G2-GAP-11",
+      "origin": [
+        "T07",
+        "R07"
+      ],
+      "status": "open_repairable",
+      "missing_item": "AWARE II direct author reply and Martial dedicated forward pass absent.",
+      "consequence": "Blocks complete challenge/reply assessment; original article limitations cannot stand in for the later reply.",
+      "closure_condition": "Inspect actual reply, its cited evidence and separate bounded citation pass, independently review additions.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-03"
+    },
+    {
+      "gap_id": "G2-GAP-12",
+      "origin": [
+        "T07",
+        "R07"
+      ],
+      "status": "open_repairable",
+      "missing_item": "AWARE I final flow/version, AWARE II supplements and Dutch erratum absent.",
+      "consequence": "Blocks silently resolved numerical discrepancies and any pooled/precise corrected rate relying on them.",
+      "closure_condition": "Obtain exact final/corrected versions and supplement; preserve historical discrepancy and update affected extraction only after review.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-03"
+    },
+    {
+      "gap_id": "G2-GAP-13",
+      "origin": [
+        "T07",
+        "R07"
+      ],
+      "status": "measurement_not_identified",
+      "missing_item": "Actual target opportunity, interviewed exposed/monitored sets, content-specific timing and participant-linked physiological exclusions remain incomplete.",
+      "consequence": "Blocks treating all arrests as target trials, calibrated anomaly likelihoods, or reported RED episodes as time-locked to aggregate rhythms.",
+      "closure_condition": "Source data with defined trial opportunities and linked timing; if unavailable retain unknown rather than zero.",
+      "priority": "P1",
+      "repair_id": null
+    },
+    {
+      "gap_id": "G2-GAP-14",
+      "origin": [
+        "T07",
+        "R07"
+      ],
+      "status": "open_breadth",
+      "missing_item": "Other early prospective originals, feasibility/oximetry and comparator citations deferred.",
+      "consequence": "Blocks representative prospective literature coverage and unverified independence or replication claims.",
+      "closure_condition": "Bounded selection of additional early/null/comparison originals and cohort overlap audit.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-06"
+    },
+    {
+      "gap_id": "G2-GAP-15",
+      "origin": [
+        "T08",
+        "R08"
+      ],
+      "status": "open_breadth_and_translation",
+      "missing_item": "One medieval Christian text, selected northern Indian collection and Japanese reanalysis do not cover Asian historical, African/Melanesian/Indigenous/Muslim originals; original Japanese interviews absent.",
+      "consequence": "Blocks universal motifs, global prevalence, cross-cultural invariance and equal ascertainment assumptions.",
+      "closure_condition": "Broaden primary historical/cultural strata with checked translations and elicitation metadata; otherwise retain narrow comparison.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-06"
+    },
+    {
+      "gap_id": "G2-GAP-16",
+      "origin": [
+        "T08",
+        "R08"
+      ],
+      "status": "open_repairable",
+      "missing_item": "Tunnels critique and direct independent critic/reply chains incomplete.",
+      "consequence": "Blocks claims selected authors have withstood the full direct critique; internal limitations remain useful but are not substitutes.",
+      "closure_condition": "Inspect actual critique and strongest direct reply within bounded source cap.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-06"
+    },
+    {
+      "gap_id": "G2-GAP-17",
+      "origin": [
+        "T08",
+        "T13",
+        "R08",
+        "R13"
+      ],
+      "status": "unknown_overlap_and_measurement",
+      "missing_item": "Shared IANDS/Liège recruitment, missing person-episode mapping, response-category data/actual administered time wording and comparator overlap unresolved.",
+      "consequence": "Blocks pooled participant counts, temporal-ontology prevalence and treating scale thresholds or null differences as equivalence.",
+      "closure_condition": "Recover participant/episode overlap and item-level administration/response information, or present non-additively.",
+      "priority": "P1",
+      "repair_id": null
+    },
+    {
+      "gap_id": "G2-GAP-18",
+      "origin": [
+        "T09",
+        "R09"
+      ],
+      "status": "open_repairable_methods",
+      "missing_item": "Complete OSF original/amendment history, analysis/code audit, Tasserie supplementary runs/exclusions and Scheinin interview numerators unavailable in inspected packet.",
+      "consequence": "Blocks full independent replication, resolved omitted numerators, or unqualified claims of preregistration compliance.",
+      "closure_condition": "Retrieve specifically relevant supplements/amendments; independently audit only parameters needed for asserted conclusions.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-08"
+    },
+    {
+      "gap_id": "G2-GAP-19",
+      "origin": [
+        "T09",
+        "R09"
+      ],
+      "status": "open_theory_and_neural_breadth",
+      "missing_item": "Later consortium/IIT standalone replies and broader lesions, human DBS, split-brain, psychedelics and alternative theory evidence not comprehensively reviewed.",
+      "consequence": "Blocks declaring theory winner or exhaustive neural/metaphysical comparison; does not erase causal intervention constraints.",
+      "closure_condition": "Target strong original replies and underrepresented neural contexts before broad empirical comparison.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-08"
+    },
+    {
+      "gap_id": "G2-GAP-20",
+      "origin": [
+        "T10",
+        "R10"
+      ],
+      "status": "open_repairable_literature",
+      "missing_item": "Collins full edition/appendix, Sober body, White/Bradley/later Weisberg replies, modern PSR and direct Lennox critics missing.",
+      "consequence": "Blocks full fine-tuning/PSR literature ranking and attribution of unseen arguments; bounded classic argument maps remain usable.",
+      "closure_condition": "Obtain original stronger treatments and critic/reply chain before claiming consensus or comparative decisiveness.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-04"
+    },
+    {
+      "gap_id": "G2-GAP-21",
+      "origin": [
+        "T10",
+        "R10"
+      ],
+      "status": "unverified_empirical_premises",
+      "missing_item": "Physical constants, parameter measures, generator models and designer preference distributions not empirically established here.",
+      "consequence": "Blocks quantitative fine-tuning likelihood/posterior and claims of verified contemporary cosmology. Lack of numbers does not entail zero qualitative evidential force.",
+      "closure_condition": "Specify tested physical model and independently supported distribution/preference assumptions, then verify original technical sources.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-04"
+    },
+    {
+      "gap_id": "G2-GAP-22",
+      "origin": [
+        "T11",
+        "R11",
+        "T13",
+        "R13"
+      ],
+      "status": "partly_resolved_identity_handoff",
+      "missing_item": "T13 resolves the assigned model/identity separation; modern timeless defenders/replies (including Stump/Kretzmann, Leftow, Kvanvig, Wierenga), modern reductionism and full simple-subject defenses remain incomplete.",
+      "consequence": "Blocks comprehensive time/identity comparison and dismissing uninspected stronger versions; explicit M1–M4 conditionals remain usable.",
+      "closure_condition": "Inspect selected modern opposite positions with actual replies; identity variants must be fixed before survival scoring.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-04"
+    },
+    {
+      "gap_id": "G2-GAP-23",
+      "origin": [
+        "T11",
+        "R11"
+      ],
+      "status": "version_and_physics_scope",
+      "missing_item": "Craig journal/reprint dates, original languages, contemporary relativity tests and broader quantum-gravity/emergent-spacetime proposals unverified.",
+      "consequence": "Blocks exact final-edition priority or experimental confirmation claims beyond inspected formalism; no consciousness-from-geometry inference.",
+      "closure_condition": "Verify edition if materially cited and primary physics only if required for broader claim.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-04"
+    },
+    {
+      "gap_id": "G2-GAP-24",
+      "origin": [
+        "T12",
+        "R12"
+      ],
+      "status": "open_primary_defenders",
+      "missing_item": "Strawson access failed; direct strong-emergentist, developed substance-dualist and plural-idealist defender/reply chains and external panpsychist/Kastrup replies absent.",
+      "consequence": "Blocks source-verified strongest-version comparison across those variants; reconstructions must be labeled and cannot be scored as defeated author positions.",
+      "closure_condition": "Bounded primary defender/objection/reply repair for the variants actually used; avoid replacing whole families by one critic.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-02"
+    },
+    {
+      "gap_id": "G2-GAP-25",
+      "origin": [
+        "T12",
+        "R12"
+      ],
+      "status": "version_and_illustration_limits",
+      "missing_item": "Chalmers manuscript versions incomplete; Kastrup author-linked transcription lacks visually checked figures; clinical/physical premises unverified.",
+      "consequence": "Blocks treating diagrams or cited empirical illustrations as checked evidence and treating manuscripts as exact final editions.",
+      "closure_condition": "Version/figure verification if decisive; independent empirical papers required before illustrations become evidence.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-02"
+    },
+    {
+      "gap_id": "G2-GAP-26",
+      "origin": [
+        "T13",
+        "R13"
+      ],
+      "status": "inference_not_observed",
+      "missing_item": "No inspected observation establishes same-subject experience beyond irreversible death; time-scale scores do not isolate absence of succession.",
+      "consequence": "Blocks empirical certification of H-S/H-T. This is a present evidence limit, not proof of impossibility.",
+      "closure_condition": "Defensible independent beyond-death/identity evidence or decisive temporal test; conceptual redefinition alone does not close it.",
+      "priority": "P1",
+      "repair_id": null
+    },
+    {
+      "gap_id": "G2-GAP-27",
+      "origin": [
+        "T14",
+        "R14"
+      ],
+      "status": "specific_access_gap_resolved",
+      "missing_item": "Williams original supplied, completely inspected and independently reviewed; original dedicated forward query reused and new backward pass logged.",
+      "consequence": "Closes Williams firsthand-attribution gap only; leaves universality of argument contested.",
+      "closure_condition": "Closed for inspected 1973 chapter; later debate remains separate.",
+      "priority": "P3",
+      "repair_id": null
+    },
+    {
+      "gap_id": "G2-GAP-28",
+      "origin": [
+        "T14",
+        "R14"
+      ],
+      "status": "open_versions_and_replies",
+      "missing_item": "Metz2000 inaccessible (2015 reply inspected), Poettcker/Yoshizawa/later originals absent; Wolf final2010 and Fischer exact reprint edition not checked.",
+      "consequence": "Blocks final-edition/literature-wide claims, direct attribution to unseen critics, and debate closure; selected five-original comparison remains usable.",
+      "closure_condition": "Retrieve exact relevant original or version where it changes a decisive premise; retain 2015 substitution provenance.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-04"
+    },
+    {
+      "gap_id": "G2-GAP-29",
+      "origin": [
+        "T14",
+        "T15",
+        "R14",
+        "R15"
+      ],
+      "status": "unmeasured_cosmic_predictions",
+      "missing_item": "Conscious-life distribution, developmental opportunity, actual preservation/restoration, suffering/nonbelief populations and cosmic intention not measured.",
+      "consequence": "Blocks empirical confirmation of CF purpose variants, actual divine reasons or observed universal restoration; value and meaning bridges remain normative premises.",
+      "closure_condition": "Independently specified hypothesis and relevant observations with selection/missingness controls; do not tune purpose after each outcome.",
+      "priority": "P1",
+      "repair_id": null
+    },
+    {
+      "gap_id": "G2-GAP-30",
+      "origin": [
+        "T15",
+        "R15"
+      ],
+      "status": "open_primary_moral_families",
+      "missing_item": "Primary rational/constructivist and non-natural realist positive accounts absent; Craig independent critics and Railton modern critic/reply chain incomplete.",
+      "consequence": "Blocks full four-family moral-grounding verdict and inference physicalism entails nihilism by eliminated alternatives.",
+      "closure_condition": "Inspect at least one developed original per missing family, serious challenge and strongest reply, including source-appropriate standards of authority.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-01"
+    },
+    {
+      "gap_id": "G2-GAP-31",
+      "origin": [
+        "T15",
+        "R15"
+      ],
+      "status": "specific_access_gap_resolved",
+      "missing_item": "Howard-Snyder1996 original supplied, read and independently reviewed including note18 limitations.",
+      "consequence": "Closes direct-original serious hiddenness countercase gap; does not turn it into a direct reply to Schellenberg2025.",
+      "closure_condition": "Closed at exact inspected version; historical/later chain remains open.",
+      "priority": "P3",
+      "repair_id": null
+    },
+    {
+      "gap_id": "G2-GAP-32",
+      "origin": [
+        "T15",
+        "R15"
+      ],
+      "status": "open_theodicy_hiddenness_replies",
+      "missing_item": "Full free-will/soul-making/skeptical-theism originals, Adams later clarification and historical/later hiddenness replies absent; Railton publisher comparison open.",
+      "consequence": "Blocks strongest-version defeat across these traditions and complete reply-chain claim. Internal consistency defense is not actual restoration or justified permission.",
+      "closure_condition": "Bounded original reply coverage tied to exact conclusions; inspect earlier/later formulation rather than assume chronology implies refutation.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-01"
+    },
+    {
+      "gap_id": "G2-GAP-33",
+      "origin": [
+        "T19",
+        "R19"
+      ],
+      "status": "open_public_documents_and_private_records",
+      "missing_item": "Sabom1998 chapter, initial Reynolds account/charts/traces; dentures1991/1994 and original Dutch TG2008 documents/patient testimony absent.",
+      "consequence": "Blocks complete first-report chronology, independent physiological time-lock and exclusion of ordinary access. Published advocacy/criticism remains inspectable testimony/argument.",
+      "closure_condition": "Separate retrievable public chapter/documents from unavailable private records; request DOI only where real paper identity exists.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-05"
+    },
+    {
+      "gap_id": "G2-GAP-34",
+      "origin": [
+        "T19",
+        "R19"
+      ],
+      "status": "open_repairable_replies",
+      "missing_item": "Woerlee later2011 rejoinder and Smit2012 hearing-test letter uninspected; supplied transcript citation provenance unresolved despite Q12.",
+      "consequence": "Blocks complete hearing debate and verified experiment claims; a proposed test is not an executed patient-specific test.",
+      "closure_condition": "Retrieve actual later reply/test letter and assess methods; audio/source provenance needs exact recording, not a new social wrapper.",
+      "priority": "P1",
+      "repair_id": "REPAIR-G2-03"
+    },
+    {
+      "gap_id": "G2-GAP-35",
+      "origin": [
+        "T05",
+        "T09",
+        "T12",
+        "Research_Plan"
+      ],
+      "status": "underrepresented_alternative",
+      "missing_item": "Plan names illusionist accounts, but no developed primary illusionist defender/objection/reply dossier is represented in the selected source set.",
+      "consequence": "Blocks claiming every developed physicalist challenge to phenomenal premises was tested; Papineau identity account is not a substitute for illusionism.",
+      "closure_condition": "Include a developed illusionist account if broad physicalist-family comparison is intended, or label that subvariant unreviewed.",
+      "priority": "P2",
+      "repair_id": "REPAIR-G2-02"
+    }
+  ],
+  "unaltered_later_coverage_inputs_and_disposition_map": [
+    {
+      "task_id": "T06",
+      "coverage_input": "work/T06/coverage.json",
+      "coverage_input_sha256": "6a765259e665fab730cf94316b2eec64015dd5255772f2f4fe08d62b79ead988",
+      "original_coverage_record": {
+        "completion": "submitted_scoped_unresolved_audit",
+        "queries": 13,
+        "substantive_inspections": 7,
+        "metadata_only_inspections": 1,
+        "total_conservative_inspections": 8,
+        "decisive_sources": [
+          "S-T06-001",
+          "S-T06-002",
+          "S-T06-003",
+          "S-T06-004",
+          "S-T06-005",
+          "S-T06-006",
+          "S-T06-008"
+        ],
+        "context_source": [
+          "S-T06-007"
+        ],
+        "failed_access_attempts": 2,
+        "gaps": [
+          "Earliest AANS2012 original inaccessible; no proven earliest public disclosure",
+          "Original dated manuscript/pre-photo descriptions absent from inspected materials",
+          "Raw chart and original witness statements not inspected",
+          "No EEG or experience-linked continuous functional measurement in inspected clinical report",
+          "Supplied recording identity and audio fidelity unresolved",
+          "Citation passes partial for supplied transcript and incomplete book; later citing material largely uninspected",
+          "Sacks original and comparator clinical studies uninspected"
+        ],
+        "stopping_reason": "Approved query cap13 reached; return gaps rather than claim full coverage",
+        "population_inference": "None; one purposive named case plus related recovery phase"
+      },
+      "disposition_gap_ids": [
+        "G1-GAP-06",
+        "G2-GAP-10"
+      ]
+    },
+    {
+      "task_id": "T07",
+      "coverage_input": "work/T07/coverage_checklist.json",
+      "coverage_input_sha256": "94c261b5c472fe7aece8d8285714f66d889b82c891c1626bdc05a3d684efb509",
+      "original_coverage_record": {
+        "mandatory_AWARE_I": "Main text and table text inspected; original graphical Fig. 1 and final-version discrepancy remain open.",
+        "mandatory_AWARE_II": "Supplied full 12-page original read with visual figure checks; supplementary files not included.",
+        "early_prospective_context": "Dutch study inspected; erratum unresolved. Other early originals deferred.",
+        "exact_denominators": "Extracted with definitions, units and locators; unknowns null and contradictory printed values preserved.",
+        "targets": "Equipment installation/deployment distinguished from actual target exposure and interview opportunity.",
+        "physiology_linkage": "AWARE II subjects/images separated; exact two-interviewee EEG footnote preserved; content-specific timing absent.",
+        "overlap": "Separate AWARE II community ascertainment and Dutch follow-ups; no pooling or unverified disjointness.",
+        "criticism_reply": "Martial letter inspected; direct author reply unavailable. Original discussion offers limitations, not a substitute for the reply.",
+        "citation_passes": "Backward and bounded forward passes recorded for each included empirical original.",
+        "budget": "16 queries; 7 distinct inspected sources/access versions; one approved extension.",
+        "recommended_disposition": "Submit completed main-body audit with explicit remaining gaps for independent R07; acceptance is an overseer decision, not an author claim."
+      },
+      "disposition_gap_ids": [
+        "G1-GAP-08",
+        "G2-GAP-11",
+        "G2-GAP-12",
+        "G2-GAP-13",
+        "G2-GAP-14"
+      ]
+    },
+    {
+      "task_id": "T08",
+      "coverage_input": "work/T08/coverage_checklist.json",
+      "coverage_input_sha256": "db280ab2e535ba148f77c753b112b71ce7f72ee094f623dbd2edae7ae838e41c",
+      "original_coverage_record": {
+        "task_id": "T08",
+        "status": "bounded coverage complete with explicit gaps; independent review required",
+        "rows": [
+          {
+            "requirement": "Historical document and translation",
+            "status": "covered narrowly",
+            "evidence": "S001 andC001–003; one medieval Christian work, not representative antiquity survey"
+          },
+          {
+            "requirement": "Cultural collections",
+            "status": "covered narrowly",
+            "evidence": "S002 northernIndia, S003 Japanese interview reanalysis; English accessibility and source asymmetry"
+          },
+          {
+            "requirement": "Distressing/conflicting",
+            "status": "covered",
+            "evidence": "S004, Bede comparators and India narrative disagreements"
+          },
+          {
+            "requirement": "Outside medical crises",
+            "status": "covered",
+            "evidence": "S005 sleep/meditation etc, with uncontrolled retrospectiveclassification"
+          },
+          {
+            "requirement": "Non-NDE survivors",
+            "status": "covered with definition limits",
+            "evidence": "S006 self-label deniers;18/63 score≥7, not uniform clinical controls"
+          },
+          {
+            "requirement": "Motif recurrence/difference",
+            "status": "covered",
+            "evidence": "report matrix; counts remain source-specific"
+          },
+          {
+            "requirement": "Clarity/separation/review/time/unity/encounters/aftereffects",
+            "status": "covered or explicitly unknown by source",
+            "evidence": "No absence invented when unmeasured"
+          },
+          {
+            "requirement": "Original backward and separate forward passes",
+            "status": "executed bounded passes",
+            "evidence": "citation_passes.json for all6 originals; cited-by indexing not exhaustive"
+          },
+          {
+            "requirement": "Duplicate and sampling controls",
+            "status": "covered",
+            "evidence": "Source/reanalysis/episode units separated; IANDS overlap unknown and Figure1 reuse explicit"
+          },
+          {
+            "requirement": "Direct independent criticism/reply chain",
+            "status": "partial gap",
+            "evidence": "Tunnels critique inaccessible; inspected authors’ limitations and internal counterexamples retained, not substitute full critique/reply review"
+          },
+          {
+            "requirement": "Wider cultural/historical representativeness",
+            "status": "not established",
+            "evidence": "No global or universal cultural claim; Asian historical originals, African/Melanesian/Indigenous/Muslim collections deferred"
+          },
+          {
+            "requirement": "Metaphysical comparison and tests",
+            "status": "covered conditionally",
+            "evidence": "A-T08-001–002; no posterior or survival/timelessness inference"
+          }
+        ],
+        "stopping_reason": "Current bounded descriptive comparisons and six-source inference audit complete; no broader retrieval needed for scoped submission.11/12queries and9/10inspections; no extension used. Remaining broad representativeness and direct criticism gaps go to R08/G2 adjudication."
+      },
+      "disposition_gap_ids": [
+        "G1-GAP-08",
+        "G2-GAP-15",
+        "G2-GAP-16",
+        "G2-GAP-17"
+      ]
+    },
+    {
+      "task_id": "T09",
+      "coverage_input": "work/T09/coverage_checklist.json",
+      "coverage_input_sha256": "cee91d00d2a43f871bd26c7c8bb49d80569b1eec64d49bfa5905b13b1b73068f",
+      "original_coverage_record": {
+        "task_id": "T09",
+        "status": "scoped_submission",
+        "criteria": {
+          "two_intervention_state_contexts": "Human content stimulation, human anesthesia/sleep, macaque CT-DBS.",
+          "contemporary_explicit_test": "Nature2025 plus original2023 protocol and supplement.",
+          "countercase_and_replies": "GNWT2025 critique; original supplement IIT/GNWT voices and consortium interpretation.",
+          "units_controls_timing": "Preserved in report, cases and extraction; exact missing interview/run denominators remain unknown.",
+          "claim_argument_components": "20 claims,2 arguments,9 separate components.",
+          "citations": "Six standalone substantive original identities have individual forward searches and bounded backward passes; linked supplement/corrections are version family checks.",
+          "language_date_scope": "English originals through2026-09-11; no later claims integrated.",
+          "audit": "13 single queries normalized immediately; exact exposed titles/URLs/order/tool refs retained; no full result bodies in final packet."
+        },
+        "remaining_gaps": [
+          "No exhaustive lesion, human DBS, psychedelic, split-brain or alternate-theory survey.",
+          "OSF original and amendment files not independently audited.",
+          "Detailed Tasserie supplement/run exclusions and Scheinin interview numerators missing.",
+          "No separate later consortium reply or comprehensive IIT standalone-reply search.",
+          "No study datasets or model computations independently reanalyzed."
+        ],
+        "scope_effect": "Supports bounded inference/attribution and intervention comparison, not a completed systematic neural review or metaphysical verdict."
+      },
+      "disposition_gap_ids": [
+        "G2-GAP-18",
+        "G2-GAP-19",
+        "G2-GAP-35"
+      ]
+    },
+    {
+      "task_id": "T10",
+      "coverage_input": "work/T10/coverage_checklist.json",
+      "coverage_input_sha256": "7ba56a1c7a075557f6a818253318577875f489012a59aa0fa24840c125a23441",
+      "original_coverage_record": {
+        "task_id": "T10",
+        "author_status": "submitted_for_scoped_review",
+        "requirements": [
+          {
+            "item": "Lennox mechanism/agency and positive intelligibility",
+            "status": "covered",
+            "detail": "A001–002; original supplied essay; empirical reason-origin claims not adjudicated."
+          },
+          {
+            "item": "Contingency/PSR and necessary-to-mind bridge",
+            "status": "covered_conditionally",
+            "detail": "A003; Leibniz and Hume speaker-specific exchange; modern PSR literature deferred."
+          },
+          {
+            "item": "Fine-tuning positive argument and serious original objection/replies",
+            "status": "covered_with_access_limits",
+            "detail": "Collins 1999 excerpt, Weisberg 2012 original; author-expressed responses and our strongest reply; direct White/Bradley/Sober full originals missing."
+          },
+          {
+            "item": "Technical physical basis",
+            "status": "explicitly_deferred",
+            "detail": "No parameter values, current multiverse models, numerical likelihood or posterior asserted as verified."
+          },
+          {
+            "item": "Separate original citation passes",
+            "status": "covered_bounded",
+            "detail": "Five decisive originals individually backward/forward; partial Sober also searched. No exhaustive claim."
+          },
+          {
+            "item": "Nine component assessments",
+            "status": "covered",
+            "detail": "All nine individually specified, with dependence and sensitivity."
+          },
+          {
+            "item": "Alternative explanations and no dependence multiplication",
+            "status": "covered",
+            "detail": "Brute, necessary impersonal, deeper constraint, multiverse and agency compared conditionally."
+          },
+          {
+            "item": "Source access/metadata transparency",
+            "status": "covered",
+            "detail": "Seven inspections including partial/context; all exposed query ranks retained. Homepage metadata not aliased as exact documents."
+          }
+        ],
+        "remaining_gaps": [
+          "Collins full edition/probability appendix",
+          "Sober body and primary White/Bradley/later Weisberg replies",
+          "Modern PSR and contemporary direct Lennox critique breadth",
+          "Original-language/version comparison",
+          "Technical cosmological evidence and measures"
+        ],
+        "acceptance_boundary": "Methodological scoped argument audit only; R10 and overseer decide. G2 retains coverage duties."
+      },
+      "disposition_gap_ids": [
+        "G2-GAP-20",
+        "G2-GAP-21"
+      ]
+    },
+    {
+      "task_id": "T11",
+      "coverage_input": "work/T11/coverage_checklist.json",
+      "coverage_input_sha256": "6776870930f0347b3764cc8b57cd237360371ee1297bfd8448c12b93c09554e3",
+      "original_coverage_record": {
+        "inputs_verified": true,
+        "mathematics_physics_metaphysics_separated": true,
+        "relativity_original": true,
+        "bounded_timeless_formalism_original": true,
+        "positive_timeless_mind_original": true,
+        "original_objection": true,
+        "reply_or_temporal_alternative_original": true,
+        "M1_M2_M3_and_H_T_bearer": true,
+        "nine_components": true,
+        "identity_handoff_T13": true,
+        "backward_pass_each_decisive_original": true,
+        "separate_forward_query_each_decisive_original": true,
+        "poor_forward_result_followup": "Sole extension T11-E1 executed as Q-T11-009; relevant leads preserved without further inspection.",
+        "access_and_scope_gaps": [
+          "Exact Craig journal/reprint dates not verified; author-hosted text used.",
+          "Original-language texts, contemporary relativity experiments, other quantum-gravity/emergent-spacetime proposals not reviewed.",
+          "Stump/Kretzmann, Leftow, Kvanvig, Wierenga and additional original replies not inspected directly.",
+          "No complete citation index or exhaustive theological comparison.",
+          "T13 identity and temporal-report adjudication remain separate."
+        ],
+        "stop": "Bounded packet complete; independent review required. No further research or source expansion."
+      },
+      "disposition_gap_ids": [
+        "G2-GAP-22",
+        "G2-GAP-23"
+      ]
+    },
+    {
+      "task_id": "T12",
+      "coverage_input": "work/T12/coverage_checklist.json",
+      "coverage_input_sha256": "ebd4014400751facb744cec7bffe8582d4ded616c9697b1b1cd9b847ed22579f",
+      "original_coverage_record": {
+        "task_id": "T12",
+        "scope": "Five inspected originals; proposed scoped acceptance, not exhaustive literature review.",
+        "items": [
+          {
+            "requirement": "Four families with strongest selected model/objection/reply",
+            "status": "addressed_in_bounded_packet",
+            "artifacts": [
+              "report.md",
+              "proposed_records.json"
+            ]
+          },
+          {
+            "requirement": "Six common criteria and explicit ontology/bearer/laws/stopping point",
+            "status": "addressed_in_bounded_packet",
+            "artifacts": [
+              "comparison_matrix.json"
+            ]
+          },
+          {
+            "requirement": "Weak/strong emergence; subject/quality/structure combination; micro/whole direction",
+            "status": "addressed_in_bounded_packet",
+            "artifacts": [
+              "report.md",
+              "comparison_matrix.json"
+            ]
+          },
+          {
+            "requirement": "Closure/exclusion/epistemic limits; property/substance distinction",
+            "status": "addressed_in_bounded_packet",
+            "artifacts": [
+              "report.md",
+              "proposed_records.json"
+            ]
+          },
+          {
+            "requirement": "Shared lawful world, private perspectives and neural constraints",
+            "status": "addressed_in_bounded_packet",
+            "artifacts": [
+              "report.md",
+              "comparison_matrix.json"
+            ]
+          },
+          {
+            "requirement": "Nine components, dependencies and sensitivity",
+            "status": "addressed_in_bounded_packet",
+            "artifacts": [
+              "component_assessment.json"
+            ]
+          },
+          {
+            "requirement": "Exact exposed query/rank metadata; per-original citation passes",
+            "status": "addressed_in_bounded_packet",
+            "artifacts": [
+              "Q1.json",
+              "Q2.json",
+              "Q3.json",
+              "Q4.json",
+              "Q5.json",
+              "Q6.json",
+              "Q7.json",
+              "Q8.json",
+              "Q9.json",
+              "discovery_candidates.json",
+              "citation_passes.json"
+            ]
+          }
+        ],
+        "remaining_gaps": [
+          "Strawson original inaccessible after sole targeted extension; no Strawson-specific claims.",
+          "Five-original comparison is not broad/representative author coverage; three Chalmers texts share conceptual premises.",
+          "No direct original substance-dualist, strong-emergentist or plural-idealist defender/reply chain inspected; comparison variants explicitly scoped.",
+          "Later critics/replies discovered but not inspected; especially panpsychist and Kastrup2018 external reply coverage.",
+          "Chalmers author drafts have undated/version and final publication metadata gaps.",
+          "Kastrup author-linked transcription lacks visual figure verification; empirical and physics premises are unverified.",
+          "No new empirical test, posterior or cumulative project verdict."
+        ],
+        "budget_used": {
+          "search_queries": 9,
+          "source_inspections": 7,
+          "decisive_originals": 5,
+          "revision_cycles": 0
+        },
+        "extension": "T12-E1",
+        "case_count": 0
+      },
+      "disposition_gap_ids": [
+        "G1-GAP-05",
+        "G2-GAP-24",
+        "G2-GAP-25",
+        "G2-GAP-35"
+      ]
+    },
+    {
+      "task_id": "T13",
+      "coverage_input": "work/T13/coverage_checklist.json",
+      "coverage_input_sha256": "e679d20ccc77002f6c9fa2b32ad730d0e5705972b57af865f4ef952b4f42139d",
+      "original_coverage_record": {
+        "task_id": "T13",
+        "status": "bounded submission with explicit gaps",
+        "rows": [
+          {
+            "requirement": "Psychological, organism and simple-subject positive original",
+            "status": "met with narrowed scope",
+            "evidence": [
+              "S-T13-001",
+              "S-T13-002",
+              "S-T13-003"
+            ],
+            "limit": "Locke modernization and Swinburne short essay; no full modern reductionist dossier."
+          },
+          {
+            "requirement": "Serious objections and replies",
+            "status": "met as conditional reconstruction",
+            "evidence": [
+              "A-T13-001",
+              "A-T13-002",
+              "A-T13-003"
+            ],
+            "limit": "Olson/Locke directly inspectable objections; other project replies explicitly authored, not attributed to unseen authors."
+          },
+          {
+            "requirement": "M1–M4, interruption, fission, memory and enlarged-history boundary",
+            "status": "met",
+            "evidence": [
+              "identity_matrix.json",
+              "A-T13-004"
+            ]
+          },
+          {
+            "requirement": "Temporal instrument and comparator study",
+            "status": "met",
+            "evidence": [
+              "temporal_report_extraction.json",
+              "C-T13-001"
+            ],
+            "limit": "Actual response-category data in DMT sample not inspected; no literal timelessness frequency."
+          },
+          {
+            "requirement": "Nine components with assumptions/dependence/sensitivity",
+            "status": "met",
+            "evidence": [
+              "component_assessment.json"
+            ]
+          },
+          {
+            "requirement": "Separate forward/backward pass per included original",
+            "status": "bounded execution met; completeness unresolved",
+            "evidence": [
+              "citation_passes.json",
+              "query_occurrences.json"
+            ],
+            "limit": "Public web search, roots/near-title hits, not verified exhaustive citation index."
+          },
+          {
+            "requirement": "Original-source access gaps preserved",
+            "status": "met",
+            "evidence": [
+              "retrieval_log.json",
+              "discovery_candidates.json"
+            ]
+          },
+          {
+            "requirement": "No duplicate imported empirical case",
+            "status": "met",
+            "evidence": [
+              "Existing C-T06-001,C-T07-002,C-T08-008 referenced only; one new composite study C-T13-001."
+            ]
+          }
+        ],
+        "budget": {
+          "search_queries": 8,
+          "source_inspections": 8,
+          "extension_used": false
+        },
+        "narrowed_scope_authorization": "Root message approved five-original scope, required no Parfit-specific unseen findings and no further inspections.",
+        "remaining_gaps": [
+          "Modern psychological-continuity/reductionist original beyond Locke; Parfit access failed.",
+          "Full technical simple-subject defense and independently inspected external replies.",
+          "DMT participant-level time categories/actual administered option text; separately reported EEG outside scope.",
+          "Unknown DMT comparator overlap with prior Liège/IANDS samples; no pooling.",
+          "No observed subjectivity beyond irreversible bodily death and no decisive H-T instrument."
+        ]
+      },
+      "disposition_gap_ids": [
+        "G1-GAP-08",
+        "G2-GAP-17",
+        "G2-GAP-22",
+        "G2-GAP-26"
+      ]
+    },
+    {
+      "task_id": "T14",
+      "coverage_input": "work/T14/coverage_checklist.json",
+      "coverage_input_sha256": "426aa991abbc32b8a2b20f97659a5eb533c36e6b643f4bd83997f7a61bc0b12e",
+      "original_coverage_record": {
+        "task_id": "T14",
+        "status": "submitted_scoped_for_independent_review",
+        "original_goal": "5–6decisive originals",
+        "actual_decisive_originals": 5,
+        "inspection_units": 7,
+        "queries": 10,
+        "extension": "T14-E1",
+        "scope_decision": "Revision1 uses user-supplied Williams original within existing inspection cap; direct challenge/reply now inspected, without claiming later literature completeness.",
+        "covered": [
+          "Positive enduring/divine-purpose account",
+          "Finite value with cosmic remainder",
+          "Direct Williams original and Fischer reply, with source-specific categorical-desire and prospective-concern distinctions",
+          "Metz purpose critique with own non-conclusive qualification",
+          "Necessity/sufficiency/comparison and duration alternatives",
+          "Eight purpose variants, proposed discriminators, identity/time safeguards",
+          "Nine component/dependence/sensitivity cells",
+          "Five separately logged backward/forward passes; Williams reuses previously executed Q-T14-006"
+        ],
+        "remaining_gaps": [
+          "Metz2000original403/internal-error; substituted publisher2015reply with separate forward pass.",
+          "Poettcker/Yoshizawa and later critic/reply originals uninspected; no direct attribution beyond Metz’s response.",
+          "Wolf 2007–2008 draft has incomplete notes;2010 final version uninspected.",
+          "Fischer original argument inspected in third-party review-copy reprint; exact edition/date not established.",
+          "Cosmic distribution, total developmental opportunity and post-death preservation not measured."
+        ],
+        "completion_limit": "Argument reconstruction and scoped attribution, not exhaustive literature review or cosmic-purpose verdict.",
+        "resolved_gaps": [
+          {
+            "gap": "Williams original unavailable",
+            "resolution": "User supplied original; complete inspection revision1",
+            "source_id": "S-T14-007"
+          }
+        ]
+      },
+      "disposition_gap_ids": [
+        "G2-GAP-27",
+        "G2-GAP-28",
+        "G2-GAP-29"
+      ]
+    },
+    {
+      "task_id": "T15",
+      "coverage_input": "work/T15/coverage_checklist.json",
+      "coverage_input_sha256": "9618545a4258c2621a5be2ee2d8826cf4b85476b05f78fd8625438206e2f1465",
+      "original_coverage_record": {
+        "protocol": "protocol_v2",
+        "status": "bounded submission; primary comparison gaps remain explicit",
+        "requirements": [
+          {
+            "item": "Positive theistic values/obligations and serious objection/reply",
+            "status": "Craig own position plus project authority critique; quoted independent critics not inspected"
+          },
+          {
+            "item": "Positive secular original",
+            "status": "Railton inspected with categoricity, impartiality and reduction limitations"
+          },
+          {
+            "item": "All four moral-grounding families",
+            "status": "Conceptual matrix complete; rational/constructivist and non-natural realist original defenders missing"
+          },
+          {
+            "item": "Evil challenge and reply",
+            "status": "Rowe, Adams and Sutherland inspected; free-will/soul-making sketches and Adams epistemic reply covered, but fuller originals of those traditions not independently read"
+          },
+          {
+            "item": "Hiddenness challenge and original serious reply",
+            "status": "Schellenberg2025original and Howard-Snyder1996original inspected; shared premises compared without claiming direct response to2025"
+          },
+          {
+            "item": "Per-original backward and separate forward passes",
+            "status": "Seven included original contributions completed; later critics/replies mostly uninspected. Howard-Snyder user recovery followed by actual backward check."
+          },
+          {
+            "item": "Component boundaries/dependence/identity",
+            "status": "Nine components, causal-resistance qualification, victim identity and shared normative premises explicit"
+          },
+          {
+            "item": "Discovery and source separation",
+            "status": "109exposed occurrences;9source/access records;7original contributions in6documents;0cases"
+          },
+          {
+            "item": "Independent acceptance",
+            "status": "Not performed by author; R15 required"
+          }
+        ],
+        "what_cannot_be_concluded": [
+          "No full four-family original-literature verdict.",
+          "No claim that either hiddenness position defeats every later formulation or reply; exact earlier1993/1996exchange and later replies incompletely covered.",
+          "No empirical distribution of suffering/nonbelief, observed restoration, or measured cosmic moral intent.",
+          "No winner, equal support or numerical posterior."
+        ],
+        "suggested_G2_followups": [
+          "Direct historical and later hiddenness reply chain; actual cultural distribution and nonresistance evidence if used empirically.",
+          "Primary constructivist and non-natural realist positive accounts with direct challenges/replies.",
+          "Original free-will, soul-making and systematic skeptical-theism defenders/replies.",
+          "Adams later reply/clarification to Sutherland; no mere reassurance conflation.",
+          "Railton journal-hosted comparison and modern direct critic/reply."
+        ]
+      },
+      "disposition_gap_ids": [
+        "G2-GAP-29",
+        "G2-GAP-30",
+        "G2-GAP-31",
+        "G2-GAP-32"
+      ]
+    },
+    {
+      "task_id": "T19",
+      "coverage_input": "work/T19/coverage_checklist.json",
+      "coverage_input_sha256": "f84a5a5be38be46358167a7f487b1c4cee91491ca213113f37f141ead1368bd8",
+      "original_coverage_record": {
+        "task_id": "T19",
+        "status": "bounded submission; explicit gaps retained, not exhaustive case verification",
+        "criteria": [
+          {
+            "criterion": "Prespecified comparative selection",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "Advocate/critique/reply originals for selected cases",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "Individual dossiers and chronology",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "Specific claims versus ordinary routes",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "First reporting versus later corroboration",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "Witness/source/sample dependence",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "Recovery/treatment/causation separation",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "Nine hypothesis components",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "Exact search metadata and forward/backward passes",
+            "status": "addressed at stated source scope"
+          },
+          {
+            "criterion": "Input hash verification and temporary cleanup",
+            "status": "addressed at stated source scope"
+          }
+        ],
+        "qualification": "Supplied-transcript formal forward provenance unresolved despiteQ12; later reply chain remains incomplete. Acceptance would certify this scoped audit, not complete historical reconstruction.",
+        "open_gaps": [
+          "Sabom1998 full chapter and raw clinical/first-report records absent.",
+          "Original dentures1991/1994 documents, Dutch TG2008 originals and patient testimony absent.",
+          "Moorjani recording date/audio, direct critic/reply and treatment records unresolved; not full case-selected.",
+          "Later Woerlee2011 rejoinder and Smit2012 hearing-test letter deferred; no claim of complete debate closure.",
+          "No independent physiological time-lock for alleged extracerebral acquisition; no prospective target test in these dossiers."
+        ],
+        "budget_used": {
+          "search_queries": 12,
+          "source_inspections": 10,
+          "revision_cycles": 0
+        },
+        "search_occurrences": 102,
+        "selected_cases": 2,
+        "new_independent_cases_established": false,
+        "new_population_rate": null
+      },
+      "disposition_gap_ids": [
+        "G1-GAP-07",
+        "G2-GAP-33",
+        "G2-GAP-34"
+      ]
+    }
+  ]
+}

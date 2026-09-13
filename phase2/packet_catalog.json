@@ -1,0 +1,298 @@
+{
+  "phase": 2,
+  "research_packet_count": 19,
+  "packets": [
+    {
+      "task_id": "P2T01",
+      "review_task_id": "P2R01",
+      "title": "Strong emergence",
+      "scope": "One developed irreducible-emergent consciousness account, strongest causal/explanatory challenge, and direct reply where available; distinguish emergence from physical identity and fundamental experience.",
+      "repair_ids": [
+        "REPAIR-G2-02"
+      ],
+      "gap_ids": [
+        "G1-GAP-05",
+        "G2-GAP-24"
+      ],
+      "priority_order": 1,
+      "source_owner": "P2T01"
+    },
+    {
+      "task_id": "P2T02",
+      "review_task_id": "P2R02",
+      "title": "Substance dualism",
+      "scope": "One developed subject/interaction/persistence account, causal or epistemic challenge and reply; do not infer observed survival from a bearer theory.",
+      "repair_ids": [
+        "REPAIR-G2-02"
+      ],
+      "gap_ids": [
+        "G1-GAP-05",
+        "G2-GAP-24",
+        "G2-GAP-22"
+      ],
+      "priority_order": 2,
+      "source_owner": "P2T02"
+    },
+    {
+      "task_id": "P2T03",
+      "review_task_id": "P2R03",
+      "title": "Panpsychism and constitution",
+      "scope": "Selected original experiential-constitution defense, combination challenge and reply; recover exact missing Strawson text/version if relevant.",
+      "repair_ids": [
+        "REPAIR-G2-02"
+      ],
+      "gap_ids": [
+        "G1-GAP-05",
+        "G2-GAP-24"
+      ],
+      "priority_order": 7,
+      "source_owner": "P2T03"
+    },
+    {
+      "task_id": "P2T04",
+      "review_task_id": "P2R04",
+      "title": "Universal and plural idealism",
+      "scope": "One explicit universal-ground account and one contrasting plural-ground account, with selected direct critique/reply; check manuscript versions and cited illustration limits.",
+      "repair_ids": [
+        "REPAIR-G2-02"
+      ],
+      "gap_ids": [
+        "G1-GAP-05",
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ],
+      "priority_order": 8,
+      "source_owner": "P2T04"
+    },
+    {
+      "task_id": "P2T05",
+      "review_task_id": "P2R05",
+      "title": "Illusionism",
+      "scope": "One developed original illusionist account, direct strongest phenomenal-target objection and reply; distinguish denying phenomenal properties as conceived from denying reports or all conscious functions.",
+      "repair_ids": [
+        "REPAIR-G2-02"
+      ],
+      "gap_ids": [
+        "G2-GAP-35"
+      ],
+      "priority_order": 9,
+      "source_owner": "P2T05"
+    },
+    {
+      "task_id": "P2T06",
+      "review_task_id": "P2R06",
+      "title": "Moral constructivism and rational grounding",
+      "scope": "One developed positive constructivist/rational account, direct objection and reply; distinguish obligation, value and categorical reasons.",
+      "repair_ids": [
+        "REPAIR-G2-01"
+      ],
+      "gap_ids": [
+        "G2-GAP-30"
+      ],
+      "priority_order": 3,
+      "source_owner": "P2T06"
+    },
+    {
+      "task_id": "P2T07",
+      "review_task_id": "P2R07",
+      "title": "Non-natural moral realism",
+      "scope": "One developed positive non-natural realist account, direct objection and reply; compare exact Craig/Railton claims and identify unclosed reply branches.",
+      "repair_ids": [
+        "REPAIR-G2-01"
+      ],
+      "gap_ids": [
+        "G2-GAP-30",
+        "G2-GAP-32"
+      ],
+      "priority_order": 4,
+      "source_owner": "P2T07"
+    },
+    {
+      "task_id": "P2T08",
+      "review_task_id": "P2R08",
+      "title": "Theodicy and hiddenness replies",
+      "scope": "Select the defense most relevant to the v1 restoration/perfect-love argument; original defense, serious objection and reply. Screen other free-will/soul-making/skeptical-theism branches explicitly; no complete-theodicy claim.",
+      "repair_ids": [
+        "REPAIR-G2-01"
+      ],
+      "gap_ids": [
+        "G2-GAP-29",
+        "G2-GAP-32"
+      ],
+      "priority_order": 10,
+      "source_owner": "P2T08"
+    },
+    {
+      "task_id": "P2T09",
+      "review_task_id": "P2R09",
+      "title": "AWARE and Dutch versions and replies",
+      "scope": "Named AWARE II author reply, relevant main-paper/supplement/flow versions and Dutch correction; opportunity intersections and numerical/inferential effects. Reynolds replies belong to P2T16.",
+      "repair_ids": [
+        "REPAIR-G2-03"
+      ],
+      "gap_ids": [
+        "G2-GAP-11",
+        "G2-GAP-12",
+        "G2-GAP-13"
+      ],
+      "priority_order": 5,
+      "source_owner": "P2T09"
+    },
+    {
+      "task_id": "P2T10",
+      "review_task_id": "P2R10",
+      "title": "Sufficient reason and necessary foundation",
+      "scope": "One modern defended PSR/necessary-ground argument, direct critic and reply, with selected Lennox relevance; retain distinct foundation-to-mind bridge.",
+      "repair_ids": [
+        "REPAIR-G2-04"
+      ],
+      "gap_ids": [
+        "G2-GAP-20"
+      ],
+      "priority_order": 11,
+      "source_owner": "P2T10"
+    },
+    {
+      "task_id": "P2T11",
+      "review_task_id": "P2R11",
+      "title": "Fine-tuning and intention",
+      "scope": "One exact positive fine-tuning argument/version plus direct selection/probability critique and reply; separate mathematical assumptions from verified physical measures or designer preferences.",
+      "repair_ids": [
+        "REPAIR-G2-04"
+      ],
+      "gap_ids": [
+        "G2-GAP-20",
+        "G2-GAP-21"
+      ],
+      "priority_order": 12,
+      "source_owner": "P2T11"
+    },
+    {
+      "task_id": "P2T12",
+      "review_task_id": "P2R12",
+      "title": "Timeless ground and personal identity",
+      "scope": "One specified timeless-ground/temporal-persons model and identity objection/reply exchange; exact modern versions. Screen remaining time/identity/physics branches without whole-literature closure.",
+      "repair_ids": [
+        "REPAIR-G2-04"
+      ],
+      "gap_ids": [
+        "G2-GAP-22",
+        "G2-GAP-23",
+        "G2-GAP-26"
+      ],
+      "priority_order": 13,
+      "source_owner": "P2T12"
+    },
+    {
+      "task_id": "P2T13",
+      "review_task_id": "P2R13",
+      "title": "Endurance and meaning",
+      "scope": "Exact versions of the selected endurance/meaning argument and strongest necessity/enhancement objection/reply; prioritize Metz2000/Wolf/Fischer edition gaps as relevant. Williams already supplied and reviewed.",
+      "repair_ids": [
+        "REPAIR-G2-04"
+      ],
+      "gap_ids": [
+        "G2-GAP-27",
+        "G2-GAP-28",
+        "G2-GAP-29"
+      ],
+      "priority_order": 14,
+      "source_owner": "P2T13"
+    },
+    {
+      "task_id": "P2T14",
+      "review_task_id": "P2R14",
+      "title": "Neal public earliest documentation",
+      "scope": "One case: earliest accessible memoir/disclosure, dated prediction records, public rescue chronology and direct case critic/reply; audio-authentication limits separate. No private-record demand.",
+      "repair_ids": [
+        "REPAIR-G2-05"
+      ],
+      "gap_ids": [
+        "G1-GAP-01",
+        "G1-GAP-02",
+        "G1-GAP-03",
+        "G1-GAP-04"
+      ],
+      "priority_order": 15,
+      "source_owner": "P2T14"
+    },
+    {
+      "task_id": "P2T15",
+      "review_task_id": "P2R15",
+      "title": "Alexander public earliest documentation",
+      "scope": "One case: AANS/full memoir appendix and earliest disclosures plus selected direct critique/reply; distinguish publicly documented timing from inaccessible charts/audio.",
+      "repair_ids": [
+        "REPAIR-G2-05"
+      ],
+      "gap_ids": [
+        "G1-GAP-06",
+        "G2-GAP-10"
+      ],
+      "priority_order": 16,
+      "source_owner": "P2T15"
+    },
+    {
+      "task_id": "P2T16",
+      "review_task_id": "P2R16",
+      "title": "Reynolds earliest documents and later replies",
+      "scope": "One case: Sabom chapter/earliest account and later Woerlee rejoinder/Smit hearing-test letter; owns Reynolds reply chain, timing and technical-version comparison.",
+      "repair_ids": [
+        "REPAIR-G2-03",
+        "REPAIR-G2-05"
+      ],
+      "gap_ids": [
+        "G2-GAP-33",
+        "G2-GAP-34"
+      ],
+      "priority_order": 17,
+      "source_owner": "P2T16"
+    },
+    {
+      "task_id": "P2T17",
+      "review_task_id": "P2R17",
+      "title": "Dentures and TG public originals",
+      "scope": "One case: earliest 1991/1994 and Dutch TG2008 public texts or translations, witness-chain comparison and chronology; no inferred cohort membership or invented patient testimony.",
+      "repair_ids": [
+        "REPAIR-G2-05"
+      ],
+      "gap_ids": [
+        "G2-GAP-33"
+      ],
+      "priority_order": 18,
+      "source_owner": "P2T17"
+    },
+    {
+      "task_id": "P2T18",
+      "review_task_id": "P2R18",
+      "title": "Selected empirical breadth and dependence",
+      "scope": "One prespecified underrepresented historical/cultural corpus with translation check plus one early/null prospective original and selected direct criticism. Audit overlap/response wording in relevant comparisons. All other strata remain explicitly unassessed.",
+      "repair_ids": [
+        "REPAIR-G2-06"
+      ],
+      "gap_ids": [
+        "G1-GAP-08",
+        "G2-GAP-14",
+        "G2-GAP-15",
+        "G2-GAP-16",
+        "G2-GAP-17"
+      ],
+      "priority_order": 19,
+      "source_owner": "P2T18"
+    },
+    {
+      "task_id": "P2T19",
+      "review_task_id": "P2R19",
+      "title": "Neural protocols and replies",
+      "scope": "One relevant protocol/amendment and direct theory-reply chain plus targeted missing denominators from existing intervention packets; no full code reanalysis or whole-theory winner.",
+      "repair_ids": [
+        "REPAIR-G2-08"
+      ],
+      "gap_ids": [
+        "G2-GAP-18",
+        "G2-GAP-19"
+      ],
+      "priority_order": 6,
+      "source_owner": "P2T19"
+    }
+  ]
+}

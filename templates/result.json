@@ -1,0 +1,17 @@
+{
+  "task_id": "",
+  "status": "submitted",
+  "artifact_paths": [],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [],
+  "uncertainties": [],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "recommended_next_action": "",
+  "protocol_version": null,
+  "input_artifact_versions": {}
+}

@@ -1,0 +1,17 @@
+# R14 — Independent review of meaning and purpose
+
+**Verdict: accept T14 revision1 within the five-original scope.** No material correction is required. This final review supersedes the archived pre-supplement verdict. It covers20 claims, five argument maps, six meaning targets, three duration variants, eight purpose variants and nine component assessments. Acceptance concerns attribution and method, not the truth of the proposed metaphysics.
+
+Four original-source checks carry forward from the independently completed R14 v1 review. Williams’s complete user-supplied chapter was then independently read, including notes. Local visual checks of printed91,95 and100 confirm the decisive distinctions; the original PDF remains unchanged. Exact locators and provenance appear in [review.json](review.json).
+
+The added source strengthens the challenge: reasons to avoid death now can coexist with rejection of endless life; numerical identity differs from having a future appropriately related to present aims; and boredom can concern an impoverished relation to the world rather than merely an unpleasant feeling. Williams also considers cumulatively varied lives, retained in the revised argument. His universal necessity claim remains disputed. Fischer’s renewal response is directly compared without treating ownership or contentment alone as sufficient for worthwhile continuation.
+
+The positive enduring case preserves the same persons, worthwhile relations and further development under explicit identity and value assumptions. The finite-value countercase leaves intended cosmic purpose and lasting personal significance unanswered. Necessity, sufficiency and comparative enhancement remain distinct. Compulsory endless life, an exit option and stipulated worthwhile endlessness are separately evaluated.
+
+The purpose comparison keeps intended production apart from observed production, personal survival apart from faithful representation, and local design apart from cosmic intention. Proposed distribution, development and preservation checks are prospective conditional designs. Naming an intended role supplies neither empirical confirmation nor normative authority; T15 retains the moral-grounding and evil questions.
+
+The revision changes claim012 and argument003 and adds claims019–020 plus one source. The17 other claims, four other arguments and six prior source records are unchanged. All current contracted input and author-submission hashes match. All10 historical query files are byte-identical to their archive. Williams’s existing dedicated forward query006 is legitimately reused; the new backward pass is separately recorded. The author used10 queries and seven inspection units, of which five are decisive originals. The normalized87-occurrence query audit and two exact aliases carry forward.
+
+Williams’s original access gap is resolved. Broader original critics/replies, Wolf’s final version, Fischer’s exact reprint edition and the inaccessible Metz2000 source remain explicit limits. The inspected Metz source is the2015 reply. No cosmic distribution or post-death preservation test was performed here. Preserve these remaining gaps at G2.
+
+Cumulative reviewer budget: zero searches, five original-source inspections and one revision cycle. Temporary extraction and images were removed; the supplied PDF was preserved. See [audit.json](audit.json) for the full comparison. Recommended action: overseer integration and checkpoint.

@@ -1,0 +1,164 @@
+{
+  "task_id": "G2",
+  "constraints": [
+    {
+      "constraint_id": "SC-G2-01",
+      "title": "Scoped gate",
+      "rule": "Use accept_scoped only for a bounded reviewed-record dependency map and conditional synthesis. Preserve all open coverage groups.",
+      "gate_effect": "Unconditional coverage-complete certification prohibited."
+    },
+    {
+      "constraint_id": "SC-G2-02",
+      "title": "Source and model asymmetry",
+      "rule": "Mark each matrix cell as inspected original, secondary attribution, project reconstruction or uninspected variant; use same C1–C6 standards.",
+      "gate_effect": "No broad strongest-family ranking before P1 original-defender repair or an explicit narrower comparison."
+    },
+    {
+      "constraint_id": "SC-G2-03",
+      "title": "Nine components",
+      "rule": "Assess H-F/U/B/S/T/P/I/G/A separately with evidence IDs, bridge premises, scope and sensitivity. Task-local unresolved labels are not cumulative priors or equal support.",
+      "gate_effect": "Any collapsed worldview score or automatic transfer requires revision."
+    },
+    {
+      "constraint_id": "SC-G2-04",
+      "title": "Three judgments",
+      "rule": "Keep record reliability, inference strength and component confidence separate. Reliable reporting is not event verification; accurate philosophy attribution is not premise truth.",
+      "gate_effect": "Unmarked upgrade blocks acceptance."
+    },
+    {
+      "constraint_id": "SC-G2-05",
+      "title": "Common-foundation positive case",
+      "rule": "Construct the strongest proposal linking experience, existence, shared lawfulness, enduring personal significance and moral relations through stated grounding, identity, value and intention premises. Preserve possible unification gains.",
+      "gate_effect": "Do not dismiss cumulative explanatory value merely because likelihoods are uncalibrated; do not count shared premises repeatedly."
+    },
+    {
+      "constraint_id": "SC-G2-06",
+      "title": "Strongest countercase",
+      "rule": "Combine actual neural dependence, unresolved timing/access, selection/cultural variation and optional PSR/modal/value/authority bridges with developed impersonal and plural alternatives.",
+      "gate_effect": "Do not infer each case is explained by naming a possible mechanism, or that unknown likelihoods imply equal credibility."
+    },
+    {
+      "constraint_id": "SC-G2-07",
+      "title": "Quantitative restraint",
+      "rule": "Do not pool cases/samples or produce posterior numbers without defined denominators, disjointness, hypotheses, likelihoods and prior sensitivity. Qualitative unequal expectations need stated warrants too.",
+      "gate_effect": "Missing opportunities are unknown, never automatically failures or successes."
+    },
+    {
+      "constraint_id": "SC-G2-08",
+      "title": "Citation and search limits",
+      "rule": "Retain frozen cutoff2026-09-11, English/accessible-translation scope and actual public-web methods. Distinct title queries are bounded discovery, not complete cited-by indexes.",
+      "gate_effect": "No claim of exhaustive/systematic-review completion or historical reranking repair."
+    },
+    {
+      "constraint_id": "SC-G2-09",
+      "title": "Future version control",
+      "rule": "New original data or repaired claims need separate author/reviewer review; preserve accepted versions and mark affected dependent conclusions stale where changed.",
+      "gate_effect": "T16–T18 drafts remain subject to joint R18 and G3; G2 is not final synthesis approval."
+    },
+    {
+      "constraint_id": "SC-G2-10",
+      "title": "Repair triggers",
+      "rule": "At T16 contract map every stronger intended conclusion to the gap that blocks it. Before T17/T18 claim that conclusion, complete its repair with review or explicitly withhold it.",
+      "gate_effect": "Mandatory explicit adjudication; generic boilerplate caveats do not license a full comparison verdict."
+    }
+  ],
+  "component_requirements": [
+    {
+      "component_id": "H-F",
+      "label": "Conscious fundamentality",
+      "relevant_routes": "Explanatory-gap/grounding maps and existence/necessary-ground premises.",
+      "required_boundary": "Irreducibility or a necessary ground does not establish one universal subject; primitive ontology and actual dependence relation need argument."
+    },
+    {
+      "component_id": "H-U",
+      "label": "Universal conscious whole",
+      "relevant_routes": "Combination/decomposition and universal-mind selected models.",
+      "required_boundary": "Subject individuation and common-world mapping remain substantive; shared motifs or one designer do not establish numerical experiential unity."
+    },
+    {
+      "component_id": "H-B",
+      "label": "Brain independence",
+      "relevant_routes": "NDE timing/information proposals and neural intervention constraints.",
+      "required_boundary": "Brain influence is not the negation of every independence proposal; absent measurement is not absent processing. Need specified bearer/process and discriminating observations."
+    },
+    {
+      "component_id": "H-S",
+      "label": "Personal survival",
+      "relevant_routes": "Identity models and conditional anomalous/perception evidence.",
+      "required_boundary": "Same-subject subjectivity beyond irreversible bodily death is separate from resuscitation and record preservation. Do not weaken the endpoint or identity standard."
+    },
+    {
+      "component_id": "H-T",
+      "label": "Timelessness",
+      "relevant_routes": "Time/formalism/atemporal-personhood models and temporal phenomenology.",
+      "required_boundary": "Absence of external time parameter and reported altered duration do not establish absence of intrinsic succession in an actual bearer."
+    },
+    {
+      "component_id": "H-P",
+      "label": "Preservation",
+      "relevant_routes": "M1–M4 and meaning/recognition/restoration proposals.",
+      "required_boundary": "Specify what persists: record, value, relation or subject. Fidelity of record is not itself H-S."
+    },
+    {
+      "component_id": "H-I",
+      "label": "Intention",
+      "relevant_routes": "Existence/intelligibility and CF0–CF7 comparisons.",
+      "required_boundary": "Production is not intended production; specify prior ends, level of agent and comparative expectations. Local designer does not imply purpose of containing cosmos."
+    },
+    {
+      "component_id": "H-G",
+      "label": "Foundational goodness",
+      "relevant_routes": "Normative premises, suffering/hiddenness and possible restoration.",
+      "required_boundary": "Declared purposes can be indifferent or harmful; test exact goodness/love commitments. Compensation does not by itself justify permitting harm."
+    },
+    {
+      "component_id": "H-A",
+      "label": "Moral authority",
+      "relevant_routes": "Grounding matrix, divine nature/command, naturalist and reconstructed alternatives.",
+      "required_boundary": "Consciousness, unity, creation, power and endurance do not automatically supply binding reasons; absent primary rival defenders prohibits broad elimination claims."
+    }
+  ],
+  "required_sensitivity_tests": [
+    {
+      "test_id": "SENS-G2-01",
+      "remove": "Strongest disputed named NDE case, chosen explicitly by criterion in T16; show a second candidate if strength ordering ambiguous.",
+      "track": "All nine components; do not pick weakest case simply to protect conclusion."
+    },
+    {
+      "test_id": "SENS-G2-02",
+      "remove": "All retrospective cases/narratives, including retrospective community arm, retaining truly prospective observations at their real denominators.",
+      "track": "H-B/S direct empirical support versus independent conceptual H-F/I and neural constraints."
+    },
+    {
+      "test_id": "SENS-G2-03",
+      "remove": "Contributions whose sample/event dependence is uncertain.",
+      "track": "Whether any supposed convergence survives without IANDS/Liège and common-case multiplicity."
+    },
+    {
+      "test_id": "SENS-G2-04",
+      "vary": "Psychological, organism and simple-subject identity criteria; strict identity versus prudential continuity; M1–M4.",
+      "track": "H-S and H-P separately, plus meaning and victim-restoration consequences."
+    },
+    {
+      "test_id": "SENS-G2-05",
+      "remove": "Central endurance-required-for-value, unity-to-obligation and consciousness-to-authority bridge premises.",
+      "track": "H-A/G/I versus preserved finite or enduring value claims; no moral nihilism assumed."
+    },
+    {
+      "test_id": "SENS-G2-06",
+      "remove": "Global PSR, epistemic-to-metaphysical bridge and life-valuing designer preferences one at a time.",
+      "track": "Necessary-ground, H-F/U and H-I/G routes without erasing independent evidence."
+    },
+    {
+      "test_id": "SENS-G2-07",
+      "remove": "Strongest selected neural intervention or report-to-experience proxy; test independence model with actual predictive constraints retained.",
+      "track": "Symmetric sensitivity of countercase without concluding that weak measurement proves extracerebral experience."
+    },
+    {
+      "test_id": "SENS-G2-08",
+      "restrict": "Only directly inspected positive original defenders and direct replies; exclude project reconstructions from claims about authors.",
+      "track": "Coverage asymmetry and whether any ranking depends on unreviewed weaker rival formulations."
+    }
+  ],
+  "cumulative_status": "Not assessed by G2; no numerical posterior or metaphysical verdict."
+}

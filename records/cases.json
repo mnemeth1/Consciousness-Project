@@ -1,0 +1,2621 @@
+[
+  {
+    "case_id": "C-T04-001",
+    "name": "Mary Neal: reported1999 Chile kayaking episode",
+    "kind": "retrospective_case",
+    "underlying_event_or_sample": "One reported drowning/rescue episode and its later reporting chain; related_case_ids denotes shared narrator Mary Neal and the dependent crisis/recovery reporting chain with C-T04-002, not identity of the two episodes or two independent cases. Do not sum as independent observations.",
+    "event_date": "1999 (reported year only)",
+    "source_ids": [
+      "S-T04-001",
+      "S-T04-002",
+      "S-T04-003",
+      "S-T04-004",
+      "S-T04-009"
+    ],
+    "duplicate_group": "D-T04-Neal1999",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      {
+        "date": "1999",
+        "event": "Reported kayak crisis; exact-day documentation not inspected"
+      },
+      {
+        "date": "2012-05-23 /2012-05-29",
+        "event": "Publisher-listed ebook/paperback editions; interview first-publication date unknown"
+      },
+      {
+        "date": "2021-11-05",
+        "event": "Mays author manuscript uploaded; retelling not new observation"
+      },
+      {
+        "date": "reported initial episode, time unknown",
+        "event": "Alleged rescue-related perceptions and initial oldest-son foreknowledge; S00932:24–33:48"
+      },
+      {
+        "date": "postepisode years; dates unverified",
+        "event": "Reported reluctance to share, withheld details and later manuscript writing; S00941:07–42:20,50:16–54:55"
+      }
+    ],
+    "denominators": {
+      "population_rate": "not applicable",
+      "all_predictions": null,
+      "successful_predictions": null,
+      "unsuccessful_predictions": null
+    },
+    "access_gaps": [
+      "Original memoir/earliest narrative",
+      "Independent witnesses and information exposure history",
+      "Medical records and timestamped measurements",
+      "Prefulfillment prediction and complete denominator",
+      "Prognosis, interventions and durable recovery",
+      "Primary critic full text",
+      "Audio alignment of supplied transcript; historical transcript/publication priority"
+    ],
+    "related_case_ids": [
+      "C-T04-002"
+    ],
+    "reporting_dependency_group": "D-T04-Neal1999",
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T14",
+        "review_id": "P2R14",
+        "reinspection_claim_ids": [
+          "CL-P2T14-003",
+          "CL-P2T14-004",
+          "CL-P2T14-005",
+          "CL-P2T14-006",
+          "CL-P2T14-007",
+          "CL-P2T14-008",
+          "CL-P2T14-009",
+          "CL-P2T14-010",
+          "CL-P2T14-011",
+          "CL-P2T14-012",
+          "CL-P2T14-013",
+          "CL-P2T14-014",
+          "CL-P2T14-015",
+          "CL-P2T14-016",
+          "CL-P2T14-017",
+          "CL-P2T14-018",
+          "CL-P2T14-019",
+          "CL-P2T14-020",
+          "CL-P2T14-021",
+          "CL-P2T14-022",
+          "CL-P2T14-023",
+          "CL-P2T14-024",
+          "CL-P2T14-025",
+          "CL-P2T14-026",
+          "CL-P2T14-027",
+          "CL-P2T14-028",
+          "CL-P2T14-029",
+          "CL-P2T14-031",
+          "CL-P2T14-032",
+          "CL-P2T14-033",
+          "CL-P2T14-034",
+          "CL-P2T14-035",
+          "CL-P2T14-036"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json",
+        "operation": "accepted annex; all historical case fields retained"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T04-002",
+    "name": "Mary Neal: reported post-rescue ICU spiritual episode and recovery",
+    "kind": "retrospective_related_episode",
+    "underlying_event_or_sample": "Reported spiritual encounter during ICU recovery followingC-T04-001; distinct episode, same narrator and overlapping reporting chain; related_case_ids denotes shared narrator Mary Neal and the dependent crisis/recovery reporting chain with C-T04-001, not identity of the two episodes or two independent cases. Do not sum as independent observations.",
+    "event_date": "After reported1999 kayak crisis; precise date unknown",
+    "source_ids": [
+      "S-T04-009"
+    ],
+    "duplicate_group": "D-T04-Neal1999-recovery",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      {
+        "date": "first weeks after rescue, reported",
+        "event": "ICU encounter and repeated foreknowledge claim; S00935:57–44:11"
+      },
+      {
+        "date": "subsequent months, reported",
+        "event": "Pain, operations, rehabilitation and retrospective investigation; S00944:48–45:41"
+      }
+    ],
+    "denominators": {
+      "all_predictions": null
+    },
+    "access_gaps": [
+      "Independent ICU dates/charts",
+      "Medication word garbled",
+      "No independently dated prediction record",
+      "Audio unverified"
+    ],
+    "related_case_ids": [
+      "C-T04-001"
+    ],
+    "reporting_dependency_group": "D-T04-Neal1999",
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T14",
+        "review_id": "P2R14",
+        "reinspection_claim_ids": [
+          "CL-P2T14-014",
+          "CL-P2T14-017",
+          "CL-P2T14-018",
+          "CL-P2T14-019",
+          "CL-P2T14-022",
+          "CL-P2T14-023",
+          "CL-P2T14-024",
+          "CL-P2T14-025",
+          "CL-P2T14-026",
+          "CL-P2T14-030",
+          "CL-P2T14-031",
+          "CL-P2T14-032",
+          "CL-P2T14-033",
+          "CL-P2T14-034",
+          "CL-P2T14-035",
+          "CL-P2T14-036"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json",
+        "operation": "accepted annex; all historical case fields retained"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T06-001",
+    "name": "Eben Alexander2008 critical illness and reported NDE",
+    "kind": "retrospective_named_case",
+    "underlying_event_or_sample": "Single2008 illness/hospitalization; recalled spiritual phases and later recognition all belong to one reporting chain",
+    "event_date": "2008-11-10 onset",
+    "source_ids": [
+      "S-T06-001",
+      "S-T06-002",
+      "S-T06-003",
+      "S-T06-004",
+      "S-T06-005",
+      "S-T06-006",
+      "S-T06-008"
+    ],
+    "duplicate_group": "DG-T06-ALEXANDER-2008-illness",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      {
+        "time": "2008-11-10",
+        "event": "Illness onset per supplied testimony and memoir excerpt",
+        "source_ids": [
+          "S-T06-001",
+          "S-T06-006"
+        ]
+      },
+      {
+        "time": "hospital days1–5",
+        "event": "Published review describes severe impairment; retrospectively attributes perceived events to interval",
+        "source_ids": [
+          "S-T06-002"
+        ]
+      },
+      {
+        "time": "hospital day6/7",
+        "event": "Published review extubation day6/improvement day7 versus speaker awakening/extubation day7; exact day convention unresolved",
+        "source_ids": [
+          "S-T06-001",
+          "S-T06-002",
+          "S-T06-005"
+        ]
+      },
+      {
+        "time": "hospital day9",
+        "event": "Earliest disclosure reported retrospectively by2018 review, not an inspected contemporaneous note",
+        "source_ids": [
+          "S-T06-002"
+        ]
+      },
+      {
+        "time": "first6weeks afterhospital",
+        "event": "Author asserts written account; original draft unavailable",
+        "source_ids": [
+          "S-T06-005"
+        ]
+      },
+      {
+        "time": "approximately4months aftercoma",
+        "event": "Photo recognition claim with prior family knowledge and analogous reading context",
+        "source_ids": [
+          "S-T06-001",
+          "S-T06-004"
+        ]
+      },
+      {
+        "time": "2012-10-23 edition",
+        "event": "Earliest dated memoir excerpt inspected; earlier AANS2012 lead inaccessible",
+        "source_ids": [
+          "S-T06-006"
+        ]
+      }
+    ],
+    "denominators": {},
+    "access_gaps": [
+      "Original chart and interview recordings not inspected",
+      "Experience-to-measurement synchronization absent",
+      "Independent dated pre-photo description unavailable"
+    ],
+    "related_case_ids": [
+      "C-T06-002"
+    ],
+    "reporting_dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T15",
+        "review_id": "P2R15",
+        "reinspection_claim_ids": [
+          "CL-P2T15-001",
+          "CL-P2T15-002",
+          "CL-P2T15-003",
+          "CL-P2T15-004",
+          "CL-P2T15-005",
+          "CL-P2T15-006",
+          "CL-P2T15-007",
+          "CL-P2T15-008",
+          "CL-P2T15-009",
+          "CL-P2T15-010",
+          "CL-P2T15-011",
+          "CL-P2T15-012",
+          "CL-P2T15-013",
+          "CL-P2T15-014",
+          "CL-P2T15-015",
+          "CL-P2T15-016",
+          "CL-P2T15-017",
+          "CL-P2T15-018",
+          "CL-P2T15-019",
+          "CL-P2T15-020",
+          "CL-P2T15-021",
+          "CL-P2T15-022",
+          "CL-P2T15-023",
+          "CL-P2T15-024",
+          "CL-P2T15-025",
+          "CL-P2T15-026",
+          "CL-P2T15-027",
+          "CL-P2T15-028",
+          "CL-P2T15-030",
+          "CL-P2T15-031",
+          "CL-P2T15-032",
+          "CL-P2T15-033",
+          "CL-P2T15-034"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json",
+        "operation": "accepted annex; all historical case fields retained"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T06-002",
+    "name": "Eben Alexander post-awakening confusion",
+    "kind": "related_recovery_episode",
+    "underlying_event_or_sample": "Subsequent reported confused/delusional recovery phase; comparator, not second independent NDE",
+    "event_date": "2008-11; exact interval unresolved",
+    "source_ids": [
+      "S-T06-001",
+      "S-T06-002"
+    ],
+    "duplicate_group": "DG-T06-ALEXANDER-2008-recovery",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      {
+        "time": "awakening and ensuing recovery",
+        "event": "Speaker describes delusional confusion distinct in remembered quality from spiritual experience",
+        "source_ids": [
+          "S-T06-001"
+        ]
+      }
+    ],
+    "denominators": {},
+    "access_gaps": [
+      "Original chart and interview recordings not inspected",
+      "Experience-to-measurement synchronization absent",
+      "Independent dated pre-photo description unavailable"
+    ],
+    "related_case_ids": [
+      "C-T06-001"
+    ],
+    "reporting_dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T15",
+        "review_id": "P2R15",
+        "reinspection_claim_ids": [
+          "CL-P2T15-013",
+          "CL-P2T15-029"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json",
+        "operation": "accepted annex; all historical case fields retained"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T07-001",
+    "name": "AWARE I",
+    "kind": "study",
+    "underlying_event_or_sample": "15 hospitals US/UK/Austria; main enrollmentJuly2008–December2012; pilotJanuary2007–June2008 excluded from main sample",
+    "event_date": "2008-07/2012-12",
+    "source_ids": [
+      "S-T07-001"
+    ],
+    "duplicate_group": "C-T07-001",
+    "overlapping_sample_ids": [],
+    "chronology": [],
+    "denominators": {
+      "recorded_arrests": {
+        "value": 2060,
+        "unit": "arrest events",
+        "definition": "recorded main-study events",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/recorded_arrests/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "survivors_discharge": {
+        "value": 330,
+        "unit": "survivors",
+        "definition": "hospital discharge; source event-to-person conversion unexplained",
+        "denominator": 2060,
+        "source_reported_percent": 16,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/survivors_discharge/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "interview_eligible": {
+        "value": null,
+        "unit": "people",
+        "definition": "separate eligibility count unavailable",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "unresolved_in_final_layout_no_imputation",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/interview_eligible/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "approached": {
+        "value": null,
+        "unit": "people",
+        "definition": "not separately reported",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "unresolved_in_final_layout_no_imputation",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/approached/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "stage1": {
+        "value": 140,
+        "unit": "people",
+        "definition": "eligible consenting stage 1 completers",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/stage1/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "stage2": {
+        "value": 101,
+        "unit": "people",
+        "definition": "stage 2 completers",
+        "denominator": 140,
+        "source_reported_percent": 72,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/stage2/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "noncompletion_stage2": {
+        "value": 39,
+        "unit": "people",
+        "definition": "predominantly fatigue",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/noncompletion_stage2/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "memory_stage1": {
+        "value": 55,
+        "unit": "people",
+        "definition": "positive retrospective memory/awareness response",
+        "denominator": 140,
+        "source_reported_percent": 39,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/memory_stage1/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "no_memory_stage1": {
+        "value": 85,
+        "unit": "people",
+        "definition": "negative memory/awareness response",
+        "denominator": 140,
+        "source_reported_percent": 61,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/no_memory_stage1/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "no_memory_stage2": {
+        "value": 46,
+        "unit": "people",
+        "definition": "stage 2 negative",
+        "denominator": 101,
+        "source_reported_percent": 46,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/no_memory_stage2/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "nonNDE_memory_stage2": {
+        "value": 46,
+        "unit": "people",
+        "definition": "Greyson<7; no recall ofCAevents",
+        "denominator": 101,
+        "source_reported_percent": 46,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/nonNDE_memory_stage2/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "NDE_stage2": {
+        "value": 9,
+        "unit": "people",
+        "definition": "Greyson>=7, including 2 with eventrecall",
+        "denominator": 101,
+        "source_reported_percent": 9,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/NDE_stage2/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "event_recall": {
+        "value": 2,
+        "unit": "people",
+        "definition": "auditory/visual resuscitation recall",
+        "denominator": 101,
+        "source_reported_percent": 2,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/event_recall/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "event_followup": {
+        "value": 1,
+        "unit": "people",
+        "definition": "other candidate unavailable becauseillhealth",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed p. 1802 event-recall prose/Fig. 1; p. 1803 Table 2",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/event_followup/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "interview_inhospital": {
+        "value": 52,
+        "unit": "interviews",
+        "definition": "printed count; discrepancy unresolved",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed p. 1801 Results and Table 1 footnote",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/interview_inhospital/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "interview_postdischarge": {
+        "value": 90,
+        "unit": "interviews",
+        "definition": "printed count;52+90=142 vs 140",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed p. 1801 Results and Table 1 footnote",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/interview_postdischarge/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "refused": {
+        "value": 2,
+        "unit": "people",
+        "definition": "printed count",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/refused/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "other_noninterview": {
+        "value": 188,
+        "unit": "people",
+        "definition": "mixed exclusion/death/physician restriction/nonresponse",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-005, printed pp. 1801–1802 Results/Table 1 footnote/Fig. 1; definitions pp. 1800–1801",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/other_noninterview/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-005",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-001 pp3–4 Results; Table1footnote",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      }
+    },
+    "access_gaps": [
+      "Final V-P2T09-005 Fig. 1, printed p. 1802, was inspected in P2T09. The historical unexposed-graph statement applies only to the earlier T07 access version. Final flow does not resolve 140/142 or participant/target opportunity intersections; its combined 330 surviving/eligible label does not establish separate eligibility.",
+      "AWARE I prints 140 versus 142 interviewees; AWARE II p2 introduction instead cites 143 for the earlier study. None resolves the original discrepancy.",
+      "No participant-linked neural recording.",
+      "Interview timing: 3 days–4 weeks in hospital; 3 months–1 year by telephone.",
+      "No pooled rate."
+    ],
+    "related_case_ids": [],
+    "reporting_dependency_group": "C-T07-001",
+    "historical_access_gaps": {
+      "scope": "Historical T07 article-in-press access version; copied initial submission preserved at the archive path.",
+      "values": [
+        "Graphical Fig. 1 was not exposed in the accessed copy.",
+        "AWARE I prints 140 versus 142 interviewees; AWARE II p2 introduction instead cites 143 for the earlier study. None resolves the original discrepancy.",
+        "No participant-linked neural recording.",
+        "Interview timing: 3 days–4 weeks in hospital; 3 months–1 year by telephone.",
+        "No pooled rate."
+      ]
+    },
+    "historical_record_provenance": {
+      "baseline_record_path": "state/input_snapshots/phase2_start/cases.json",
+      "case_id": "C-T07-001",
+      "prior_submission_path": "work/P2T09/versions/before_revision_01/proposed_records.json",
+      "version_scope": "T07 article-in-press AWARE I layout with pp. 3–4 locators; historical inspection status only. No exact-byte identity with final V-P2T09-005 asserted.",
+      "values_policy": "Original source values, definitions, units and unresolved nulls retained. The historical case is not replaced or numerically corrected."
+    },
+    "reinspection_claim_ids": [
+      "CL-P2T09-007",
+      "CL-P2T09-008",
+      "CL-P2T09-009",
+      "CL-P2T09-010",
+      "CL-P2T09-020"
+    ],
+    "reinspection_claim_relationships": [
+      {
+        "claim_id": "CL-P2T09-007",
+        "case_id": "C-T07-001",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-008",
+        "case_id": "C-T07-001",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-009",
+        "case_id": "C-T07-001",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-010",
+        "case_id": "C-T07-001",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-020",
+        "case_id": "C-T07-001",
+        "relationship_type": "cross_study_inference_limit",
+        "scope": "Limitation on inferring absent neural processing; not a newly measured observation in this case."
+      }
+    ],
+    "reinspection_provenance": "work/P2T09/proposed_records.json source version_provenance",
+    "version_audit": {
+      "final_flow_inspected": true,
+      "first_stage_count_corrected": false,
+      "graph_locator": "Final p. 1802, Fig. 1",
+      "unresolved": [
+        "140/142",
+        "Top graph in-hospital label versus inclusion scope",
+        "Stage-three graph n=2 versus limited follow-up",
+        "Exposed-interviewed intersection"
+      ],
+      "current_field_mapping": "work/P2T09/current_case_version_mapping.json",
+      "historical_locators_explicitly_scoped": true
+    },
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T09",
+        "review_id": "R-P2R09",
+        "reinspection_claim_ids": [
+          "CL-P2T09-007",
+          "CL-P2T09-008",
+          "CL-P2T09-009",
+          "CL-P2T09-010",
+          "CL-P2T09-020"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T07-002",
+    "name": "AWARE II prospective arm",
+    "kind": "study",
+    "underlying_event_or_sample": "Feasibility April 2013–May 2015; five-site pilot May 2015–May 2017; 25-site phase May 2017–March 2020. Consecutive recruitment during approximately 08:00–17:00 weekdays.",
+    "event_date": "2013-04/2020-03",
+    "source_ids": [
+      "S-T07-002",
+      "S-T07-007",
+      "S-P2T09-001",
+      "S-P2T09-002",
+      "S-T07-003",
+      "S-P2T09-005"
+    ],
+    "duplicate_group": "C-T07-002",
+    "overlapping_sample_ids": [],
+    "chronology": [],
+    "denominators": {
+      "enrolled": {
+        "value": 567,
+        "unit": "people",
+        "definition": "Recruited subjects; initial screening total and repeat-event handling not separately reconciled.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "no_sustained_ROSC": {
+        "value": 354,
+        "unit": "people",
+        "definition": "No return of spontaneous circulation lasting at least 20 minutes.",
+        "denominator": 567,
+        "source_reported_percent": 62.4,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "sustained_ROSC": {
+        "value": 213,
+        "unit": "people",
+        "definition": "Return of spontaneous circulation lasting at least 20 minutes.",
+        "denominator": 567,
+        "source_reported_percent": 37.6,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "hospital_death_after_ROSC": {
+        "value": 160,
+        "unit": "people",
+        "definition": "Hospital deaths in the sustained ROSC branch.",
+        "denominator": 213,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "survivors_discharge": {
+        "value": 53,
+        "unit": "people",
+        "definition": "Survived to hospital discharge.",
+        "denominator": 567,
+        "source_reported_percent": 9.3,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "GOS_4_5": {
+        "value": 44,
+        "unit": "people",
+        "definition": "Favorable neurological outcome: moderate disability or good recovery.",
+        "denominator": 53,
+        "source_reported_percent": 83,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified",
+        "additional_source_reported_percent": {
+          "percent": 7.8,
+          "denominator": 567,
+          "locator": "S-T07-007 p6 Results"
+        }
+      },
+      "GOS_3": {
+        "value": 8,
+        "unit": "people",
+        "definition": "Severe cerebral disability.",
+        "denominator": 53,
+        "source_reported_percent": 15,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "GOS_2": {
+        "value": 1,
+        "unit": "people",
+        "definition": "Vegetative state.",
+        "denominator": 53,
+        "source_reported_percent": 2,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "completed_interviews": {
+        "value": 28,
+        "unit": "people",
+        "definition": "Survivors completing interviews, with AMTS greater than 6.",
+        "denominator": 53,
+        "source_reported_percent": 52.8,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "not_interviewed": {
+        "value": 25,
+        "unit": "people",
+        "definition": "Survivors not interviewed.",
+        "denominator": 53,
+        "source_reported_percent": 47.2,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "refused_interview": {
+        "value": 4,
+        "unit": "people",
+        "definition": "Subject/family refusal among survivors not interviewed.",
+        "denominator": 25,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "disabled_no_interview": {
+        "value": 7,
+        "unit": "people",
+        "definition": "Disabled, as labelled in Fig. 2.",
+        "denominator": 25,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "other_no_interview": {
+        "value": 3,
+        "unit": "people",
+        "definition": "Other reason, as labelled in Fig. 2.",
+        "denominator": 25,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "reason_not_reported": {
+        "value": 11,
+        "unit": "people",
+        "definition": "Reason not reported, as labelled in Fig. 2.",
+        "denominator": 25,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "memory_or_perception": {
+        "value": 11,
+        "unit": "people",
+        "definition": "Any reported memory or perception; categories below overlap.",
+        "denominator": 28,
+        "source_reported_percent": 39,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "no_memory": {
+        "value": 17,
+        "unit": "people",
+        "definition": "No memory reported.",
+        "denominator": 28,
+        "source_reported_percent": 61,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2; definitions p2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "initial_screened": {
+        "value": null,
+        "unit": "people",
+        "definition": "Separate count not provided in inspected main text.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 pp2,6–7",
+        "verification_status": "unknown_in_inspected_main_text"
+      },
+      "interview_eligible": {
+        "value": null,
+        "unit": "people",
+        "definition": "Separate count not provided in inspected main text.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 pp2,6–7",
+        "verification_status": "unknown_in_inspected_main_text"
+      },
+      "approached": {
+        "value": null,
+        "unit": "people",
+        "definition": "Separate count not provided in inspected main text.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 pp2,6–7",
+        "verification_status": "unknown_in_inspected_main_text"
+      },
+      "RED": {
+        "value": 6,
+        "unit": "people",
+        "definition": "Transcendent experience; 16-item Greyson scale at least 7.",
+        "denominator": 28,
+        "source_reported_percent": 21,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p6 Results; p7 Fig. 2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "CPRIC_recollection": {
+        "value": 2,
+        "unit": "people",
+        "definition": "Retrospective thematic category of emergence during CPR, not observed responsiveness.",
+        "denominator": 28,
+        "source_reported_percent": 7,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p6 Results; p7 Fig. 2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "post_resuscitation_recollection": {
+        "value": 2,
+        "unit": "people",
+        "definition": "Thematic category of emergence after resuscitation.",
+        "denominator": 28,
+        "source_reported_percent": 7,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p6 Results; p7 Fig. 2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "dreamlike": {
+        "value": 3,
+        "unit": "people",
+        "definition": "Dream or dream-like theme.",
+        "denominator": 28,
+        "source_reported_percent": 11,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p6 Results; p7 Fig. 2",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "near_death_scale_median": {
+        "value": 7,
+        "unit": "scale points",
+        "definition": "Median score among the six classified with transcendent experience.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p6 Results",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "near_death_scale_maximum": {
+        "value": 18,
+        "unit": "scale points",
+        "definition": "Highest score reported among these six.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p6 Results",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "equipment_deployed": {
+        "value": 365,
+        "unit": "people",
+        "definition": "Combined tablet/headphones deployment; not verified stimulus exposure.",
+        "denominator": 567,
+        "source_reported_percent": 64,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Explicit recall and implicit learning",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "EEG_captured_subjects": {
+        "value": 85,
+        "unit": "people",
+        "definition": "Subjects with EEG capture.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Real-time brain monitoring",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "EEG_interpretable_subjects": {
+        "value": 53,
+        "unit": "people",
+        "definition": "Subjects with interpretable EEG after artifact/equipment exclusions.",
+        "denominator": 85,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Real-time brain monitoring",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "EEG_and_rSO2_subjects": {
+        "value": 49,
+        "unit": "people",
+        "definition": "Subjects with interpretable EEG who also had rSO2.",
+        "denominator": 53,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Real-time brain monitoring",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "EEG_interviewed_subjects": {
+        "value": 2,
+        "unit": "people",
+        "definition": "Interviewees with EEG data; neither among those with explicit cognitive recall.",
+        "denominator": 28,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Fig. 2 footnote",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "EEG_captured_images": {
+        "value": 851,
+        "unit": "images",
+        "definition": "All captured EEG screenshots.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Real-time brain monitoring",
+        "verification_status": "main_text_or_figure_verified"
+      },
+      "EEG_interpretable_images": {
+        "value": 466,
+        "unit": "images",
+        "definition": "Interpretable screenshots.",
+        "denominator": 851,
+        "source_reported_percent": 55,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p7 Real-time brain monitoring",
+        "verification_status": "main_text_or_figure_verified"
+      }
+    },
+    "access_gaps": [
+      "Supplementary methods/results, Fig. S1, Fig. S2 A/B, Table S1A and Excel narratives not included in the supplied PDF.",
+      "Confirmed target exposure among interviewees remains unknown.",
+      "No participant/content/time linkage demonstrating experience during recorded absence of neural processing.",
+      "Exact category intersections and repeat-event handling unresolved.",
+      "Main text and EEG figure timing/cross-references do not fully align.",
+      "Supplementary material not inspected; between-arm overlap unknown.",
+      "Greyson109924→Parnia110080 and Martial109980→Parnia110205 inspected; broader2022/2025/2026chains remain uninspected. Neither inspected reply supplies missing participant/time or exposure data."
+    ],
+    "related_case_ids": [
+      "C-T07-003"
+    ],
+    "reporting_dependency_group": "AWARE-II-article-and-ancillary-narratives",
+    "overlap_status": "Between-arm overlap unknown, not asserted absent.",
+    "known_intersections": {
+      "EEG_and_interviewed": 2,
+      "explicit_cognitive_recall_among_those_two": 0,
+      "locator": "S-T07-007 p. 7 Fig. 2 footnote",
+      "caution": "Zero explicit recall is not zero consciousness."
+    },
+    "opportunity_intersections": {
+      "image_delivered_and_interviewed": null,
+      "audio_delivered_and_interviewed": null,
+      "target_identification_delivery_and_EEG_time": null,
+      "particular_recalled_content_and_participant_neural_state": null
+    },
+    "reinspection_claim_ids": [
+      "CL-P2T09-001",
+      "CL-P2T09-002",
+      "CL-P2T09-003",
+      "CL-P2T09-004",
+      "CL-P2T09-005",
+      "CL-P2T09-006",
+      "CL-P2T09-011",
+      "CL-P2T09-012",
+      "CL-P2T09-013",
+      "CL-P2T09-014",
+      "CL-P2T09-015",
+      "CL-P2T09-016",
+      "CL-P2T09-017",
+      "CL-P2T09-020",
+      "CL-P2T09-022",
+      "CL-P2T09-023",
+      "CL-P2T09-024",
+      "CL-P2T09-025"
+    ],
+    "reinspection_claim_relationships": [
+      {
+        "claim_id": "CL-P2T09-001",
+        "case_id": "C-T07-002",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-002",
+        "case_id": "C-T07-002",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-003",
+        "case_id": "C-T07-002",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-004",
+        "case_id": "C-T07-002",
+        "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+        "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+      },
+      {
+        "claim_id": "CL-P2T09-005",
+        "case_id": "C-T07-002",
+        "relationship_type": "shared_article_interpretive_context",
+        "scope": "Article/reply-level argument only; no arm-specific observation, mechanism or additional sample."
+      },
+      {
+        "claim_id": "CL-P2T09-006",
+        "case_id": "C-T07-002",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-011",
+        "case_id": "C-T07-002",
+        "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+        "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+      },
+      {
+        "claim_id": "CL-P2T09-012",
+        "case_id": "C-T07-002",
+        "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+        "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+      },
+      {
+        "claim_id": "CL-P2T09-013",
+        "case_id": "C-T07-002",
+        "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+        "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+      },
+      {
+        "claim_id": "CL-P2T09-014",
+        "case_id": "C-T07-002",
+        "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+        "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+      },
+      {
+        "claim_id": "CL-P2T09-015",
+        "case_id": "C-T07-002",
+        "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+        "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+      },
+      {
+        "claim_id": "CL-P2T09-016",
+        "case_id": "C-T07-002",
+        "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+        "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+      },
+      {
+        "claim_id": "CL-P2T09-017",
+        "case_id": "C-T07-002",
+        "relationship_type": "between_arm_or_ancillary_overlap_limitation",
+        "scope": "Unknown overlap with community/companion material; no community measurement assigned to the prospective arm."
+      },
+      {
+        "claim_id": "CL-P2T09-020",
+        "case_id": "C-T07-002",
+        "relationship_type": "cross_study_inference_limit",
+        "scope": "Limitation on inferring absent neural processing; not a newly measured observation in this case."
+      },
+      {
+        "claim_id": "CL-P2T09-022",
+        "case_id": "C-T07-002",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-023",
+        "case_id": "C-T07-002",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-024",
+        "case_id": "C-T07-002",
+        "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+        "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+      },
+      {
+        "claim_id": "CL-P2T09-025",
+        "case_id": "C-T07-002",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      }
+    ],
+    "reinspection_provenance": "work/P2T09/proposed_records.json source version_provenance",
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T09",
+        "review_id": "R-P2R09",
+        "reinspection_claim_ids": [
+          "CL-P2T09-001",
+          "CL-P2T09-002",
+          "CL-P2T09-003",
+          "CL-P2T09-004",
+          "CL-P2T09-005",
+          "CL-P2T09-006",
+          "CL-P2T09-011",
+          "CL-P2T09-012",
+          "CL-P2T09-013",
+          "CL-P2T09-014",
+          "CL-P2T09-015",
+          "CL-P2T09-016",
+          "CL-P2T09-017",
+          "CL-P2T09-020",
+          "CL-P2T09-022",
+          "CL-P2T09-023",
+          "CL-P2T09-024",
+          "CL-P2T09-025"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T07-003",
+    "name": "AWARE II ancillary cross-sectional community arm",
+    "kind": "study",
+    "underlying_event_or_sample": "Community survivors submitted narratives by mail or were identified from a public NDERF database using CPR/defibrillation history. Adult self-reported cardiac-arrest cognitive experience was an inclusion criterion. Grounded Theory coding and a recoded subset were used (p2).",
+    "event_date": null,
+    "source_ids": [
+      "S-T07-002",
+      "S-T07-007"
+    ],
+    "duplicate_group": "C-T07-003",
+    "overlapping_sample_ids": [],
+    "chronology": [],
+    "denominators": {
+      "enrolled": {
+        "value": 126,
+        "unit": "people",
+        "definition": "Selected community survivors with self-reported testimonies; no all-arrest sampling denominator.",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "S-T07-007 p6 Cross-sectional study",
+        "verification_status": "main_text_or_figure_verified"
+      }
+    },
+    "access_gaps": [
+      "Supplementary material not inspected; between-arm overlap unknown."
+    ],
+    "related_case_ids": [
+      "C-T07-002"
+    ],
+    "reporting_dependency_group": "AWARE-II-article-and-ancillary-narratives",
+    "overlap_status": "Between-arm overlap unknown, not asserted absent.",
+    "reinspection_claim_ids": [
+      "CL-P2T09-005",
+      "CL-P2T09-017",
+      "CL-P2T09-020"
+    ],
+    "reinspection_claim_relationships": [
+      {
+        "claim_id": "CL-P2T09-005",
+        "case_id": "C-T07-003",
+        "relationship_type": "shared_article_interpretive_context",
+        "scope": "Article/reply-level argument only; no arm-specific observation, mechanism or additional sample."
+      },
+      {
+        "claim_id": "CL-P2T09-017",
+        "case_id": "C-T07-003",
+        "relationship_type": "community_sample_attribution_and_overlap_limitation",
+        "scope": "126 selected retrospective narratives; overlap unresolved and no all-arrest rate."
+      },
+      {
+        "claim_id": "CL-P2T09-020",
+        "case_id": "C-T07-003",
+        "relationship_type": "cross_study_inference_limit",
+        "scope": "Limitation on inferring absent neural processing; not a newly measured observation in this case."
+      }
+    ],
+    "reinspection_provenance": "work/P2T09/proposed_records.json source version_provenance",
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T09",
+        "review_id": "R-P2R09",
+        "reinspection_claim_ids": [
+          "CL-P2T09-005",
+          "CL-P2T09-017",
+          "CL-P2T09-020"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T07-004",
+    "name": "Dutch prospective cohort",
+    "kind": "study",
+    "underlying_event_or_sample": "10Dutchhospitals1988–1992;4monthstonearly4years/site; consecutive successfullyresuscitated coronary-carepatients",
+    "event_date": "1988/1992",
+    "source_ids": [
+      "S-T07-004",
+      "S-P2T09-003"
+    ],
+    "duplicate_group": "C-T07-004",
+    "overlapping_sample_ids": [],
+    "chronology": [],
+    "denominators": {
+      "included_people": {
+        "value": 344,
+        "unit": "people",
+        "definition": "consecutive successfullyresuscitated participants",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed pp. 2039–2041 Methods/Results, Table 1 p. 2041",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/included_people/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-004 pp3–6 Methods/Results Tables1–3",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "successful_resuscitations": {
+        "value": 509,
+        "unit": "resuscitation episodes",
+        "definition": "repeatedCPR in 344 people",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed pp. 2039–2041 Methods/Results, Table 1 p. 2041",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/successful_resuscitations/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-004 pp3–6 Methods/Results Tables1–3",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "initial_arrests": {
+        "value": null,
+        "unit": "events",
+        "definition": "notreported",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed pp. 2039–2041 Methods/Results, Table 1 p. 2041",
+        "verification_status": "unresolved_in_final_layout_no_imputation",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/initial_arrests/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-004 pp3–6 Methods/Results Tables1–3",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "all_successfully_resuscitated_before_interview_selection": {
+        "value": null,
+        "unit": "people",
+        "definition": "separate pre-inclusioncount unavailable",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed pp. 2039–2041 Methods/Results, Table 1 p. 2041",
+        "verification_status": "unresolved_in_final_layout_no_imputation",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/all_successfully_resuscitated_before_interview_selection/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-004 pp3–6 Methods/Results Tables1–3",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "NDE": {
+        "value": 62,
+        "unit": "people",
+        "definition": "WCEI>=1 broad definition",
+        "denominator": 344,
+        "source_reported_percent": 18,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed pp. 2039–2041 Methods/Results, Table 1 p. 2041",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/NDE/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-004 pp3–6 Methods/Results Tables1–3",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "core_NDE": {
+        "value": 41,
+        "unit": "people",
+        "definition": "WCEI>=6 subset",
+        "denominator": 344,
+        "source_reported_percent": 12,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed pp. 2039–2041 Methods/Results, Table 1 p. 2041",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/core_NDE/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-004 pp3–6 Methods/Results Tables1–3",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "no_NDE": {
+        "value": 282,
+        "unit": "people",
+        "definition": "WCEI0",
+        "denominator": 344,
+        "source_reported_percent": 82,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed pp. 2039–2041 Methods/Results, Table 1 p. 2041",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/no_NDE/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-004 pp3–6 Methods/Results Tables1–3",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "within5days": {
+        "value": 248,
+        "unit": "people",
+        "definition": "printed 74% inconsistent with 344 denominator",
+        "denominator": null,
+        "source_reported_percent": 74,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed p. 2040 Results",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/within5days/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "S-T07-004 pp3–6 Methods/Results Tables1–3",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "year2_initialNDE_interviews": {
+        "value": 37,
+        "unit": "people",
+        "definition": "62 minus 19 deathsminus 6 refusals",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed p. 2041 longitudinal findings",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/year2_initialNDE_interviews/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "p 7 Longitudinal findings",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "year2_controls": {
+        "value": 37,
+        "unit": "people",
+        "definition": "selectedmatched controls from 75 contacted;not 282 followup",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed p. 2042 longitudinal findings and Tables 4/5; continuation p. 2043",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/year2_controls/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "p 7 Longitudinal findings",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "year2_reclassified_NDE": {
+        "value": 35,
+        "unit": "people",
+        "definition": "after 6 initialNDEremoved/4 controlsadded",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed p. 2042 longitudinal findings and Tables 4/5; continuation p. 2043",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/year2_reclassified_NDE/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "p 7 Longitudinal findings",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "year2_reclassified_noNDE": {
+        "value": 39,
+        "unit": "people",
+        "definition": "same 74 followup group",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed p. 2042 longitudinal findings and Tables 4/5; continuation p. 2043",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/year2_reclassified_noNDE/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "p 7 Longitudinal findings",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "year8_NDE": {
+        "value": 23,
+        "unit": "people",
+        "definition": "35 minus 11 deathsminus 1 unavailable",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed p. 2042 longitudinal findings and Tables 4/5; continuation p. 2043",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/year8_NDE/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "pp 8–9 Longitudinal findings",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      },
+      "year8_noNDE": {
+        "value": 15,
+        "unit": "people",
+        "definition": "39 minus 20 deathsminus 4 unavailable",
+        "denominator": null,
+        "source_reported_percent": null,
+        "project_calculated_percent": null,
+        "source_locator": "V-P2T09-006, printed p. 2042 longitudinal findings and Tables 4/5; continuation p. 2043",
+        "verification_status": "final_layout_source_attribution_independently_reviewed",
+        "current_mapping_basis": {
+          "review_task_id": "P2R09",
+          "review_artifact": "state/input_snapshots/phase2_revision_inputs/P2T09_cycle01/review/case_field_dispositions.json",
+          "reviewed_field_path": "/denominators/year8_noNDE/source_locator",
+          "revision_correction_id": "R-P2R09-C02",
+          "inference_limit": "Source-report attribution only. No independently measured fact, corrected count, or new eligibility/opportunity denominator follows."
+        },
+        "current_version_id": "V-P2T09-006",
+        "historical_version_provenance": {
+          "source_locator": "pp 8–9 Longitudinal findings",
+          "verification_status": "body_text_verified_provisional",
+          "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+          "status_scope": "Historical T07 source-attribution assessment; not the verification status of the current final-layout locator."
+        }
+      }
+    },
+    "access_gaps": [
+      "BroadWCEIdefinition differsfromGreyson>=7",
+      "Siteheterogeneity/possible selection acknowledged",
+      "Reclassifications andselectedfollowup preventsimple nestedNDEcountchain",
+      "Printed 248(74%)denominatorunclear; no manufactured correction"
+    ],
+    "related_case_ids": [
+      "C-T19-001"
+    ],
+    "reporting_dependency_group": "C-T07-004",
+    "historical_record_provenance": {
+      "baseline_record_path": "state/input_snapshots/phase2_start/cases.json",
+      "case_id": "C-T07-004",
+      "prior_submission_path": "work/P2T09/versions/before_revision_01/proposed_records.json",
+      "version_scope": "T07 Dutch author-reformatted layout with pp. 3–9 locators; historical inspection status only. No exact-byte identity with final V-P2T09-006 asserted.",
+      "values_policy": "Original source values, definitions, units and unresolved nulls retained. The historical case is not replaced or numerically corrected."
+    },
+    "reinspection_claim_ids": [
+      "CL-P2T09-018",
+      "CL-P2T09-019",
+      "CL-P2T09-020",
+      "CL-P2T09-021"
+    ],
+    "reinspection_claim_relationships": [
+      {
+        "claim_id": "CL-P2T09-018",
+        "case_id": "C-T07-004",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-019",
+        "case_id": "C-T07-004",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      },
+      {
+        "claim_id": "CL-P2T09-020",
+        "case_id": "C-T07-004",
+        "relationship_type": "cross_study_inference_limit",
+        "scope": "Limitation on inferring absent neural processing; not a newly measured observation in this case."
+      },
+      {
+        "claim_id": "CL-P2T09-021",
+        "case_id": "C-T07-004",
+        "relationship_type": "case_related_attribution_or_inference",
+        "scope": "Claim-level source and inference limits govern; this link does not create an independent observation."
+      }
+    ],
+    "reinspection_provenance": "work/P2T09/proposed_records.json source version_provenance",
+    "version_audit": {
+      "published_layout_inspected": true,
+      "baseline_numbers_corrected": false,
+      "erratum_inspected": true,
+      "erratum_effect": "psilocarpine→psilocybine in discussion p.2044; references28 and21 retained, no numerical correction.",
+      "exact_published_locators": "pp. 2039–2043; Table 5 repeated retained38 people; correction p.1254",
+      "current_field_mapping": "work/P2T09/current_case_version_mapping.json",
+      "historical_locators_explicitly_scoped": true
+    },
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T09",
+        "review_id": "R-P2R09",
+        "reinspection_claim_ids": [
+          "CL-P2T09-018",
+          "CL-P2T09-019",
+          "CL-P2T09-020",
+          "CL-P2T09-021"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T08-001",
+    "name": "Dryhthelm narrated return",
+    "kind": "historical_document_account",
+    "underlying_event_or_sample": "A selected return-from-apparent-death narrative in Bede V.12; episode history is narrated, not clinically established.",
+    "event_date": null,
+    "source_ids": [
+      "S-T08-001"
+    ],
+    "duplicate_group": "DG-T08-Bede-V",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      "V.12 editor heading circa696, uncertain event date",
+      "Narrative illness, apparent death overnight, revival at dawn",
+      "Repeated interviews by Haemgils transmitted to Bede; dates unknown",
+      "Bede circa731; revised English translation1907; digitized2011"
+    ],
+    "denominators": {
+      "inspected_account": 1,
+      "population_at_risk": null,
+      "clinical_cases_verified_by_project": 0
+    },
+    "access_gaps": [
+      "No contemporaneous clinical record or independently inspected witness statement",
+      "No original manuscript/Latin collation",
+      "Literary and religious selection"
+    ],
+    "reporting_dependency_group": "DG-T08-Bede-V",
+    "related_case_ids": [
+      "C-T08-002",
+      "C-T08-003"
+    ]
+  },
+  {
+    "case_id": "C-T08-002",
+    "name": "Mercian thegn narrated deathbed vision",
+    "kind": "historical_document_account",
+    "underlying_event_or_sample": "Bede V.13 selected fatal deathbed vision; not a surviving NDE interview.",
+    "event_date": null,
+    "source_ids": [
+      "S-T08-001"
+    ],
+    "duplicate_group": "DG-T08-Bede-V",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      "Editor heading704–709; date not independently established",
+      "Account attributed by Bede to Bishop Pechthelm",
+      "Same circa731 composition and1907 translation"
+    ],
+    "denominators": {
+      "inspected_account": 1,
+      "population_at_risk": null,
+      "clinical_cases_verified_by_project": 0
+    },
+    "access_gaps": [
+      "No contemporaneous clinical record or independently inspected witness statement",
+      "No original manuscript/Latin collation",
+      "Literary and religious selection"
+    ],
+    "reporting_dependency_group": "DG-T08-Bede-V",
+    "related_case_ids": [
+      "C-T08-001",
+      "C-T08-003"
+    ]
+  },
+  {
+    "case_id": "C-T08-003",
+    "name": "Unnamed monk narrated deathbed vision",
+    "kind": "historical_document_account",
+    "underlying_event_or_sample": "Bede V.14 selected fatal deathbed vision; Bede says he knew the monk, not that he independently observed all narrated events.",
+    "event_date": null,
+    "source_ids": [
+      "S-T08-001"
+    ],
+    "duplicate_group": "DG-T08-Bede-V",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      "Event described as recent; exact date unknown",
+      "Narrated fatal illness and report to brethren",
+      "Same circa731 composition and1907 translation"
+    ],
+    "denominators": {
+      "inspected_account": 1,
+      "population_at_risk": null,
+      "clinical_cases_verified_by_project": 0
+    },
+    "access_gaps": [
+      "No contemporaneous clinical record or independently inspected witness statement",
+      "No original manuscript/Latin collation",
+      "Literary and religious selection"
+    ],
+    "reporting_dependency_group": "DG-T08-Bede-V",
+    "related_case_ids": [
+      "C-T08-001",
+      "C-T08-002"
+    ]
+  },
+  {
+    "case_id": "C-T08-004",
+    "name": "North Indian incidental collection1986",
+    "kind": "retrospective_cultural_collection",
+    "underlying_event_or_sample": "16 included case reports from18 incidentally identified during reincarnation investigations; four are narrated in detail, not four additional cases.",
+    "event_date": null,
+    "source_ids": [
+      "S-T08-002"
+    ],
+    "duplicate_group": "DG-T08-India-1986",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      "Median first investigation delay approximately14years",
+      "Reported illness/experience and later accounts not synchronized with neurological measurements"
+    ],
+    "denominators": {
+      "identified_reports": 18,
+      "excluded_scant": 2,
+      "included_cases": 16,
+      "direct_subject_interviews": 10,
+      "firsthand_informant_cases_without_subject": 5,
+      "secondhand_informant_case": 1,
+      "subject_plus_other_informant_cases_subset": 4,
+      "male": 11,
+      "female": 5,
+      "age_known": 14,
+      "US_comparison_prior_cases": 78,
+      "US_comparison_two_rows_only": 106,
+      "population_or_invitation_frame": null
+    },
+    "access_gaps": [
+      "Hindi transcripts and bilingual translation audit unavailable",
+      "Asymmetric India/US prompting; no systematic content questions in India",
+      "US source cohorts not directly reopened",
+      "Purposive regional recruitment; no national prevalence"
+    ],
+    "reporting_dependency_group": "DG-T08-India-1986",
+    "related_case_ids": []
+  },
+  {
+    "case_id": "C-T08-005",
+    "name": "Japanese published-interview reanalysis2014",
+    "kind": "retrospective_content_analysis",
+    "underlying_event_or_sample": "22 selected Tachibana2003 interviews; original book has one additional excluded sailor hallucination interview. Preliminary273-case literature pool not added. Possible overlap among underlying books is unquantified.",
+    "event_date": null,
+    "source_ids": [
+      "S-T08-003"
+    ],
+    "duplicate_group": "DG-T08-Japan-Tachibana",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      "Underlying published Japanese interviews2003",
+      "Reanalysis2014"
+    ],
+    "denominators": {
+      "analyzed_interviews": 22,
+      "excluded_comparator_interview": 1,
+      "male": 14,
+      "female": 8,
+      "age_known": 21,
+      "preliminary_literature_cases_not_added": 273,
+      "recruitment_frame": null,
+      "reporting_delay_distribution": null
+    },
+    "access_gaps": [
+      "Tachibana original interviews and Western originals not inspected",
+      "No matched Western participant cohort for general motif comparison",
+      "Prompt coverage, coder agreement and independent translation validation not reported here"
+    ],
+    "reporting_dependency_group": "DG-T08-Japan-Tachibana",
+    "related_case_ids": []
+  },
+  {
+    "case_id": "C-T08-006",
+    "name": "Distressing correspondence collection1992",
+    "kind": "retrospective_distressing_collection",
+    "underlying_event_or_sample": "50 self-selected accounts arising from some30 spontaneous correspondents over ten years plus an IANDS newsletter request; paper does not provide a full person/episode crosswalk. One example describes two childbirth episodes for one woman.",
+    "event_date": null,
+    "source_ids": [
+      "S-T08-004"
+    ],
+    "duplicate_group": "DG-T08-IANDS-retrospective",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      "Spontaneous reports over preceding10years, then newsletter solicitation",
+      "Experience dates and reporting delays vary; no complete tabulation",
+      "Publication1992"
+    ],
+    "denominators": {
+      "accounts": 50,
+      "earlier_spontaneous_correspondents_approximate": 30,
+      "total_invited": null,
+      "unique_people": null,
+      "unique_episodes": null,
+      "typology_classes": 3,
+      "full_class_counts": null
+    },
+    "access_gaps": [
+      "Clinical documentation incomplete; no standardized sampling frame",
+      "No matched peaceful/non-NDE control arm",
+      "Prior-book overlap and participant independence unestablished"
+    ],
+    "reporting_dependency_group": "DG-T08-IANDS-retrospective",
+    "related_case_ids": [
+      "C-T08-007",
+      "C-T08-008"
+    ]
+  },
+  {
+    "case_id": "C-T08-007",
+    "name": "Non-life-threatening and coma comparison2014",
+    "kind": "retrospective_comparison",
+    "underlying_event_or_sample": "Voluntary IANDS France/Flanders and Liège web/media recruitment.190 scale-selected reports divided50 non-life-threatening and140 coma; historical prospective comparisons reuse earlier data.",
+    "event_date": null,
+    "source_ids": [
+      "S-T08-005"
+    ],
+    "duplicate_group": "DG-T08-IANDS-retrospective",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      "Mean interval since report-associated event24±15years",
+      "Self-reported coma defined unconsciousness>1hour; medically uncontrolled",
+      "Publication2014"
+    ],
+    "denominators": {
+      "submitted_reports": 215,
+      "excluded_score_below7": 25,
+      "included_reports": 190,
+      "nonlife_threatening": 50,
+      "nonlife_subgroups": {
+        "sleep": 13,
+        "syncope": 11,
+        "meditation": 5,
+        "drugs_alcohol": 3,
+        "other": 18
+      },
+      "coma": 140,
+      "coma_subgroups": {
+        "anoxic": 45,
+        "traumatic": 30,
+        "other": 65
+      },
+      "historical_prospective_NDE_reports_not_new": 42,
+      "historical_prospective_components": {
+        "Greyson2003": 27,
+        "Schwaninger2002": 11,
+        "Parnia2001": 4
+      },
+      "total_invited_or_all_survivors": null
+    },
+    "access_gaps": [
+      "Original clinical records, uniform translations and individual data not inspected",
+      "Abstract>7 versus methods exclude<7/Table2 minimum7",
+      "No prospective matched non-crisis cohort; no equivalence analysis"
+    ],
+    "reporting_dependency_group": "DG-T08-IANDS-retrospective",
+    "related_case_ids": [
+      "C-T08-006",
+      "C-T08-008"
+    ],
+    "analysis_reuse_of_sample_ids": [
+      "C-T08-008"
+    ],
+    "overlap_note": "Figure1 includes Greyson1990 data, hence explicit analytic reuse. No claim that the190 newly collected reports share participants with1990.",
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T18",
+        "review_id": "P2R18",
+        "reinspection_claim_ids": [
+          "CL-P2T18-012",
+          "CL-P2T18-022",
+          "CL-P2T18-023",
+          "CL-P2T18-024",
+          "CL-P2T18-025",
+          "CL-P2T18-026",
+          "CL-P2T18-027",
+          "CL-P2T18-029"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json",
+        "operation": "accepted annex; all historical case fields retained"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T08-008",
+    "name": "Self-described NDE and non-NDE comparison1990",
+    "kind": "retrospective_self_identification_comparison",
+    "underlying_event_or_sample": "246 IANDS-newsletter respondents to questionnaire invitation about close brushes with death:183 describe themselves as NDE experiencers,63 deny an NDE. These groups are not identical to scale-defined categories.",
+    "event_date": null,
+    "source_ids": [
+      "S-T08-006"
+    ],
+    "duplicate_group": "DG-T08-IANDS-retrospective",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      "Mean delay18.1years NDE self-label;22.3years non-NDE self-label",
+      "Retrospective questionnaire; time item broadened",
+      "Publication1990"
+    ],
+    "denominators": {
+      "respondents": 246,
+      "self_described_NDE": 183,
+      "self_described_nonNDE": 63,
+      "NDE_self_label_score_at_least7": 169,
+      "NDE_self_label_score_below7": 14,
+      "nonNDE_self_label_score_at_least7": 18,
+      "nonNDE_self_label_score_below7": 45,
+      "all_invited": null,
+      "random_clinical_population": null
+    },
+    "access_gaps": [
+      "No random all-survivor sampling or validated absence of experience",
+      "Possible overlap with other Greyson/IANDS collections",
+      "Cohort reused in Charland-Verville2014 Figure1"
+    ],
+    "reporting_dependency_group": "DG-T08-IANDS-retrospective",
+    "related_case_ids": [
+      "C-T08-006",
+      "C-T08-007"
+    ],
+    "reused_in_analysis_case_ids": [
+      "C-T08-007"
+    ],
+    "overlap_note": "Figure1 includes Greyson1990 data, hence explicit analytic reuse. No claim that the190 newly collected reports share participants with1990."
+  },
+  {
+    "case_id": "C-T09-001",
+    "name": "Cogitate suprathreshold visual experiment and associated protocol/discussion",
+    "kind": "empirical_study",
+    "underlying_event_or_sample": "Cogitate suprathreshold visual experiment and associated protocol/discussion",
+    "event_date": null,
+    "source_ids": [
+      "S-T09-001",
+      "S-T09-006",
+      "S-T09-007",
+      "S-T09-008",
+      "S-T09-009"
+    ],
+    "duplicate_group": "D-T09-001",
+    "overlapping_sample_ids": [],
+    "related_case_ids": [],
+    "reporting_dependency_group": "DG-T09-001",
+    "chronology": [
+      {
+        "date": "2023-02-10",
+        "event": "Published protocol; earlier planning and amendments described, not independently timestamp-audited."
+      },
+      {
+        "date": "2025-04-30",
+        "event": "Main article and supplement."
+      },
+      {
+        "date": "2025-10-09",
+        "event": "GNWT critique."
+      },
+      {
+        "date": "2026-05-01",
+        "event": "Critique author-name correction."
+      }
+    ],
+    "denominators": {
+      "recruited": {
+        "fMRI": 120,
+        "MEG": 102,
+        "iEEG": 34
+      },
+      "retained": {
+        "fMRI": 108,
+        "MEG": 97,
+        "iEEG": 32
+      },
+      "held_out": {
+        "fMRI": 73,
+        "MEG": 65
+      },
+      "optimization": {
+        "fMRI": 35,
+        "MEG": 32
+      },
+      "iEEG_specific": {
+        "activation": 31,
+        "decoding": 29,
+        "RSA": 28
+      },
+      "separate_memory_control": 39
+    },
+    "access_gaps": [
+      "OSF version history and analysis code uninspected.",
+      "No separate later direct consortium reply located by the bounded search."
+    ]
+  },
+  {
+    "case_id": "C-T09-002",
+    "name": "Tasserie macaque thalamic DBS",
+    "kind": "empirical_study",
+    "underlying_event_or_sample": "Tasserie macaque thalamic DBS",
+    "event_date": null,
+    "source_ids": [
+      "S-T09-002"
+    ],
+    "duplicate_group": "D-T09-002",
+    "overlapping_sample_ids": [],
+    "related_case_ids": [],
+    "reporting_dependency_group": "DG-T09-002",
+    "chronology": [],
+    "denominators": {
+      "male_rhesus_total": 5,
+      "DBS_animals": 2,
+      "awake_comparators": 3,
+      "independent_session_counts": null
+    },
+    "access_gaps": [
+      "Supplement run and exclusion details not inspected.",
+      "No direct animal experience reports.",
+      "No VL arm for the auditory paradigm."
+    ]
+  },
+  {
+    "case_id": "C-T09-003",
+    "name": "Scheinin shared-cohort anesthesia and sleep",
+    "kind": "empirical_study",
+    "underlying_event_or_sample": "Scheinin shared-cohort anesthesia and sleep",
+    "event_date": null,
+    "source_ids": [
+      "S-T09-003"
+    ],
+    "duplicate_group": "D-T09-003",
+    "overlapping_sample_ids": [],
+    "related_case_ids": [],
+    "reporting_dependency_group": "DG-T09-003",
+    "chronology": [
+      {
+        "date": null,
+        "event": "Dose-finding and PET anesthesia studies in the shared cohort."
+      },
+      {
+        "date": "Mean 18 weeks later",
+        "event": "Sleep study with 37 returners."
+      }
+    ],
+    "denominators": {
+      "recruited": 40,
+      "anesthesia": 39,
+      "propofol": 19,
+      "dexmedetomidine": 20,
+      "sleep_return": 37,
+      "PET_disconnection": {
+        "propofol": 19,
+        "dex": 14,
+        "sleep": 9
+      },
+      "PET_reconnection": {
+        "propofol": 9,
+        "dex": 16
+      },
+      "experience_report_rates": {
+        "anesthesia": "80% of interviews",
+        "sleep": "71% of interviews"
+      },
+      "experience_rate_counts": null
+    },
+    "access_gaps": [
+      "Exact interview denominators and raw reports not inspected.",
+      "No immediate interviews in deep unarousable states."
+    ]
+  },
+  {
+    "case_id": "C-T09-004",
+    "name": "Parvizi single-patient fusiform stimulation",
+    "kind": "empirical_study",
+    "underlying_event_or_sample": "Parvizi single-patient fusiform stimulation",
+    "event_date": null,
+    "source_ids": [
+      "S-T09-004",
+      "S-T09-005"
+    ],
+    "duplicate_group": "D-T09-004",
+    "overlapping_sample_ids": [],
+    "related_case_ids": [],
+    "reporting_dependency_group": "DG-T09-004",
+    "chronology": [],
+    "denominators": {
+      "participants": 1,
+      "age": 45,
+      "real_face_trials": 7,
+      "sham_face_trials": 4,
+      "control_pair_face_trials": 3,
+      "famous_faces": {
+        "real": 5,
+        "sham": 5
+      },
+      "famous_places": {
+        "real": 5,
+        "sham": 5
+      }
+    },
+    "access_gaps": [
+      "Video not independently viewed.",
+      "Randomization and assessor masking not established.",
+      "Small trial count and current spread limit inference."
+    ]
+  },
+  {
+    "case_id": "C-T13-001",
+    "name": "Timmermann2018 DMT and NDE-scale comparison",
+    "kind": "study_with_related_arms",
+    "underlying_event_or_sample": "13 healthy psychedelic-experienced volunteers measured after placebo and DMT; separate13-person retrospectively recruited NDE comparator.",
+    "event_date": null,
+    "source_ids": [
+      "S-T13-004"
+    ],
+    "duplicate_group": "DG-T13-DMT2018",
+    "overlapping_sample_ids": [],
+    "chronology": [
+      {
+        "stage": "experimental",
+        "detail": "Fixed placebo-first, DMT one week later; single blind; report after effects subsided."
+      },
+      {
+        "stage": "comparison",
+        "detail": "NDE questionnaire delay months–15years, mean7years; recruitment ComaScienceGroup/IANDSFrance/Flanders."
+      }
+    ],
+    "denominators": {
+      "experimental_people": 13,
+      "conditions_per_person": 2,
+      "DMT_scale_threshold_ge7": 13,
+      "placebo_scale_threshold_ge7": 1,
+      "NDE_comparator_people": 13,
+      "NDE_comparator_selection": "above standard threshold; paper uses above/≥7 language; no raw boundary-score list",
+      "doses_mg_counts": {
+        "7": 3,
+        "14": 4,
+        "18": 1,
+        "20": 5
+      },
+      "time_item_response_category_counts": null,
+      "eligible_or_approached_total": null
+    },
+    "access_gaps": [
+      "No participant-level data or separately reported EEG inspected.",
+      "Comparator overlap with C-T08-007 or other Liège/IANDS studies unestablished; do not add sample sizes.",
+      "Published comparator sex counts7female/6male differ from experimental6female/7male despite described age/gender matching; exact pair matching not supplied."
+    ],
+    "reporting_dependency_group": "DG-T13-DMT2018",
+    "possible_overlap_case_ids": [
+      "C-T08-007"
+    ],
+    "design_limits": [
+      "Small purposive sample, prior psychedelic exposure, fixed order, single blindness, expectancy/priming, variable dose, retrospective comparator selection and reporting delay.",
+      "No objective performance time-perception task; EEG results outside inspectedarticle."
+    ]
+  },
+  {
+    "case_id": "C-T19-001",
+    "name": "Dentures: patient B and nurse TG retrospective cardiac-arrest report",
+    "kind": "retrospective_case",
+    "underlying_event_or_sample": "One reported resuscitation at old Canisius Hospital near Nijmegen; TG-based narrative also printed in Dutch cohort article.",
+    "event_date": "late1979 as attributed in Woerlee2010; exact date unverified",
+    "source_ids": [
+      "S-T19-002",
+      "S-T19-003",
+      "S-T19-004"
+    ],
+    "duplicate_group": "dentures-patient-B-TG-event",
+    "overlapping_sample_ids": [],
+    "related_case_ids": [
+      "C-T07-004"
+    ],
+    "reporting_dependency_group": "T19-dentures-TG-chain",
+    "chronology": [
+      {
+        "stage": "reported medical event",
+        "date": "late1979 attributed",
+        "scope": "CL-T19-006; no original measurements"
+      },
+      {
+        "stage": "reported patient disclosure",
+        "date": "over a week after resuscitation in nurse retelling",
+        "scope": "CL-T19-007; no dated verbatim first account"
+      },
+      {
+        "stage": "earliest identified written source",
+        "date": "August1991 Meijers article",
+        "scope": "CL-T19-004; not directly inspected"
+      },
+      {
+        "stage": "interview",
+        "date": "February2,1994; transcript datedFebruary3",
+        "scope": "Smit2008 translated excerpts; full underlying note not inspected"
+      },
+      {
+        "stage": "later nurse interviews",
+        "date": "April2008 and subsequent2008 Rivas interview",
+        "scope": "CL-T19-005/008; same witness"
+      },
+      {
+        "stage": "accessible detailed investigation / dispute",
+        "date": "2008 / 2010",
+        "scope": "Smit, Woerlee, Smit/Rivas"
+      }
+    ],
+    "denominators": {},
+    "access_gaps": [
+      "No patient interview obtained in inspected investigation",
+      "No raw charts, EEG or independent dated perception/witness statements inspected",
+      "Unknown full information access and reporting contamination",
+      "Original1991 and1994 documents and Dutch2008 originals uninspected"
+    ],
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T17",
+        "review_id": "P2R17",
+        "reinspection_claim_ids": [
+          "CL-P2T17-001",
+          "CL-P2T17-002",
+          "CL-P2T17-003",
+          "CL-P2T17-004",
+          "CL-P2T17-005",
+          "CL-P2T17-006",
+          "CL-P2T17-007",
+          "CL-P2T17-008",
+          "CL-P2T17-009",
+          "CL-P2T17-010",
+          "CL-P2T17-011",
+          "CL-P2T17-012",
+          "CL-P2T17-013",
+          "CL-P2T17-014",
+          "CL-P2T17-015",
+          "CL-P2T17-016",
+          "CL-P2T17-019",
+          "CL-P2T17-020",
+          "CL-P2T17-021",
+          "CL-P2T17-022",
+          "CL-P2T17-023",
+          "CL-P2T17-025",
+          "CL-P2T17-026",
+          "CL-P2T17-027",
+          "CL-P2T17-028",
+          "CL-P2T17-029",
+          "CL-P2T17-030"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json",
+        "operation": "accepted annex; all historical case fields retained"
+      }
+    ]
+  },
+  {
+    "case_id": "C-T19-002",
+    "name": "Pam Reynolds1991 surgical NDE report",
+    "kind": "retrospective_case",
+    "underlying_event_or_sample": "One reported August1991 aneurysm surgery at Barrow, described via Sabom and later debate.",
+    "event_date": "1991-08; exact day unverified",
+    "source_ids": [
+      "S-T19-005",
+      "S-T19-006",
+      "S-T19-007"
+    ],
+    "duplicate_group": "pam-reynolds-1991-surgery",
+    "overlapping_sample_ids": [],
+    "related_case_ids": [],
+    "reporting_dependency_group": "T19-Reynolds-Sabom-chain",
+    "chronology": [
+      {
+        "stage": "operation",
+        "date": "August1991",
+        "scope": "Reported sequence in CL-T19-013; no original chart inspection"
+      },
+      {
+        "stage": "first reported disclosure",
+        "date": "several days later per Carter",
+        "scope": "CL-T19-016; exact wording/date unknown"
+      },
+      {
+        "stage": "Sabom contact",
+        "date": "1994 per Woerlee",
+        "scope": "Investigation date distinct from event and first disclosure"
+      },
+      {
+        "stage": "earliest identified detailed publication",
+        "date": "1998 Light & Death",
+        "scope": "Only identified quotations inspected via later authors; full chapter unavailable"
+      },
+      {
+        "stage": "documentary",
+        "date": "2002",
+        "scope": "Quotations via Carter; original recording uninspected"
+      },
+      {
+        "stage": "technical correspondence and debate",
+        "date": "2011",
+        "scope": "Woerlee, Hameroff, Carter; correspondence quoted not independently authenticated"
+      }
+    ],
+    "denominators": {},
+    "access_gaps": [
+      "Full Sabom1998 original chapter and1994 interview absent",
+      "No original operative/anesthesia chart, drug concentrations, EEG/BAEP time series inspected",
+      "No calibrated case-specific hearing experiment result inspected",
+      "No complete before-feedback list of correct and incorrect perceptions",
+      "Subsequent2011 rejoinder/2012 letter not inspected"
+    ],
+    "phase2_reinspections": [
+      {
+        "task_id": "P2T16",
+        "review_id": "P2R16",
+        "reinspection_claim_ids": [
+          "CL-P2T16-001",
+          "CL-P2T16-002",
+          "CL-P2T16-003",
+          "CL-P2T16-012",
+          "CL-P2T16-014",
+          "CL-P2T16-016",
+          "CL-P2T16-019",
+          "CL-P2T16-020",
+          "CL-P2T16-021",
+          "CL-P2T16-023",
+          "CL-P2T16-024",
+          "CL-P2T16-025",
+          "CL-P2T16-028"
+        ],
+        "disposition_record": "records/phase2_case_reinspections.json",
+        "operation": "accepted annex; all historical case fields retained"
+      }
+    ]
+  }
+]

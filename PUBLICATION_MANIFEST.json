@@ -1,0 +1,1467 @@
+{
+  "snapshot_date": "2026-09-13",
+  "source_archive_included": false,
+  "manifest_self_excluded": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2e96506e4e781dcc33f9ebe5e08e393fdff0acd2fed267aeafc77e8efcd53ca4",
+      "bytes": 497,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "b38682ee0e20f4a354fd2b1fe11d867c9e02b3e56fca39de62de34bbf5a05578",
+      "bytes": 2557,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "AI_Execution_Framework.md",
+      "sha256": "fd5d41f50b6cb03646c9dddb2a54ceb3691f8ab4ae14f492e29ec1d7a296ceaa",
+      "bytes": 16279,
+      "source": "AI_Execution_Framework.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "fd5d41f50b6cb03646c9dddb2a54ceb3691f8ab4ae14f492e29ec1d7a296ceaa",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "a8cee98c6bcbcf329d07480e0204fd6bb698c035793e5bf0d58691f553ba858a",
+      "bytes": 647,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "6c287df4a56b204d776ae7e810f2b5002f4727c97f73b75448db3d0268d063b2",
+      "bytes": 2099,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "CURRENT_RELEASE.md",
+      "sha256": "74d67ed9ca1feb21723957fa87e98ce5fb4355f5c914bc981ac7c93f9e384038",
+      "bytes": 558,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+      "bytes": 1211,
+      "source": null,
+      "transformations": [
+        "Exact existing repository license; preserved unchanged."
+      ]
+    },
+    {
+      "path": "PUBLICATION_NOTES.md",
+      "sha256": "a84cf6c98fe300e8de10597b7255292b32f929b76a45f56917cb0ba0630a8266",
+      "bytes": 2848,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "README.md",
+      "sha256": "eaa10fce73553c1222e46f3091a59a441ec1e707d7d3f3837057ee364dd8090f",
+      "bytes": 3858,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "REPORTS.md",
+      "sha256": "d0adedd6a4963154d3395a6d842f9e19f7897c525af4c9ac4b21b2631690b9b0",
+      "bytes": 5995,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "Research_Plan.md",
+      "sha256": "f3332d518c20f70c76c33c246f04f7aa7280296486ea891931002bee3b3fd28b",
+      "bytes": 22939,
+      "source": "Research_Plan.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "f3332d518c20f70c76c33c246f04f7aa7280296486ea891931002bee3b3fd28b",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "0d36a708586fabd60f6468fb5da28ce6252398c7c7ef3f9ecaa4a5473faeb9dc",
+      "bytes": 1388,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "9804b3747ec7ee9d64ab2d2915b3dad6444b42a80da13dddcfa183e6a68b257c",
+      "bytes": 2018,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "phase2/Phase_2_Execution_Plan.md",
+      "sha256": "89c6145d09f85db11fb40afdb3b16bd04a595de436e4dd031e0b6b40043b7593",
+      "bytes": 14717,
+      "source": "phase2/Phase_2_Execution_Plan.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "29a8dc54eb65ea0c3d4ef93ca5fbc19bbae7c726026db61179333681edd91547",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "phase2/amendments/001-readiness.md",
+      "sha256": "a2e94f3a5bbe98e72aaecac81897564587a0ace531bde4f34acb4b5a9ed47283",
+      "bytes": 2770,
+      "source": "phase2/amendments/001-readiness.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "a2e94f3a5bbe98e72aaecac81897564587a0ace531bde4f34acb4b5a9ed47283",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "phase2/gap_task_map.json",
+      "sha256": "a2608dbabbd2baf85208aa1fe1855026b88b181b5176fd55bc947897fc099d2c",
+      "bytes": 8986,
+      "source": "phase2/gap_task_map.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "a2608dbabbd2baf85208aa1fe1855026b88b181b5176fd55bc947897fc099d2c",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "phase2/packet_catalog.json",
+      "sha256": "2b16894af531580d6ecceb56886104e35a3936eb5f0d0a0cfdaf60b242c29cd4",
+      "bytes": 9778,
+      "source": "phase2/packet_catalog.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "2b16894af531580d6ecceb56886104e35a3936eb5f0d0a0cfdaf60b242c29cd4",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "phase2/scheduling_policy.json",
+      "sha256": "f83c6752f9df64dff021ddbd0fffbd3e96b119a002ed8b97b241ffb8c00216b0",
+      "bytes": 4108,
+      "source": "phase2/scheduling_policy.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "ff98fc5ee826e153a77ada0b157798a20423d73d5fb2514175081451a70f8f8a",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "phase2/task_graph.json",
+      "sha256": "2bbb1af2e3312597823cd03a83152b7d86fb06d9ecb342ba614ac175e803a80e",
+      "bytes": 67222,
+      "source": "phase2/task_graph.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "3544ce64945c0f2f187cf533fb312358b4d6217413babb95cadc7418c9df5b2c",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "prompts/domain_lead.md",
+      "sha256": "5a3580ff03546e775b95d0cb3e75509c5481706630d8054c69a64b3fefc5e6b2",
+      "bytes": 814,
+      "source": "prompts/domain_lead.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5a3580ff03546e775b95d0cb3e75509c5481706630d8054c69a64b3fefc5e6b2",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "prompts/methods_steward.md",
+      "sha256": "87aa9925192b08ff9217987e06b743dc95e4ebc38160c796de884cf00bf2d556",
+      "bytes": 809,
+      "source": "prompts/methods_steward.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "87aa9925192b08ff9217987e06b743dc95e4ebc38160c796de884cf00bf2d556",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "prompts/overseer.md",
+      "sha256": "95b1f27b28f3ed2b0112af8ea6f289e6e45a0937737d0c9518d7bfc9b085e97f",
+      "bytes": 968,
+      "source": "prompts/overseer.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "95b1f27b28f3ed2b0112af8ea6f289e6e45a0937737d0c9518d7bfc9b085e97f",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "prompts/researcher.md",
+      "sha256": "aa7ea8302c8bac9bb4ea727efdae7edec87c856fdaeafe8c8d30c165af6e11d1",
+      "bytes": 951,
+      "source": "prompts/researcher.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "aa7ea8302c8bac9bb4ea727efdae7edec87c856fdaeafe8c8d30c165af6e11d1",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "prompts/reviewer.md",
+      "sha256": "eab231ec9256be7bd5614d7f835a4c96abdf9713032f65c1a61d1326bfdf8092",
+      "bytes": 886,
+      "source": "prompts/reviewer.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "eab231ec9256be7bd5614d7f835a4c96abdf9713032f65c1a61d1326bfdf8092",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "prompts/synthesis_analyst.md",
+      "sha256": "9a3c84014d8d17121db84a6c869bdfcca2ba116f681a149417ddef237f6672c5",
+      "bytes": 864,
+      "source": "prompts/synthesis_analyst.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "9a3c84014d8d17121db84a6c869bdfcca2ba116f681a149417ddef237f6672c5",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "records/README.md",
+      "sha256": "33bcbb3abd0381455de95399877ff61462f280435e9f4ab3eed46f59b95f880d",
+      "bytes": 1129,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "records/arguments.json",
+      "sha256": "57cc7c509fb908ddf6b9d38af29f6a21556c4312383cbd38523b6b8223b773f0",
+      "bytes": 220179,
+      "source": "records/arguments.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "0ac0b588c50374ba85f340d2c7b76a2ba542ce89c0c4e658fc3146a893f2a202",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "records/cases.json",
+      "sha256": "f2e50de478bc29f718b9ca6fb261bb05a189f7f815a56d7285dcfdd5026d8e37",
+      "bytes": 116414,
+      "source": "records/cases.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "b6b63aad602943ee45c9b6836c515b23b005316786432feee0202f2300bfb308",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "records/claims.json",
+      "sha256": "489c976389a493d960282af326dca516b899ab700421e827924ce8c1f8703f18",
+      "bytes": 866569,
+      "source": "records/claims.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "6f5704ecc05fe444375109cd4a92647d6aa5c0d6cf0e08898494d9bc98f0d405",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "records/review_summaries.json",
+      "sha256": "4e0567c5f7639a996ed785a7ca8e94010928975e6602cfc97ec7c686edd01ff6",
+      "bytes": 30251,
+      "source": "records/reviews.json",
+      "transformations": [
+        "Selected review identity, verdict, scope, corrections and limitations; full internal audit maps omitted."
+      ],
+      "source_sha256": "d01b08b4435a63a18990df16de62291c59a3bea3ea89a0133d228472ac60db38",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "records/sources.json",
+      "sha256": "b1a1e85a0597b192555604b8224d542c1bc20f508d6105c20291974ebce5937c",
+      "bytes": 213343,
+      "source": "records/sources.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "4ff78ef91581922453b281a6103b0e3d5435c62140e1405326604562b49be2fa",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "release/v1/Consciousness_and_Existence_Synthesis.md",
+      "sha256": "5c362e83bf89d4c35e9ae53a8ac5f0c93dd5edd01069eadf78c0110856d1a2da",
+      "bytes": 40831,
+      "source": "release/v1/Consciousness_and_Existence_Synthesis.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5c362e83bf89d4c35e9ae53a8ac5f0c93dd5edd01069eadf78c0110856d1a2da",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/Executive_Summary.md",
+      "sha256": "f283f06da3b33ba2bc053e6f5e681d2c9401f201766550c92bcc74d69b479446",
+      "bytes": 3843,
+      "source": "release/v1/Executive_Summary.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "f283f06da3b33ba2bc053e6f5e681d2c9401f201766550c92bcc74d69b479446",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/Open_Questions_and_Next_Research.md",
+      "sha256": "25bacf60dc88f9545a7c4c10ba81d1fad129abe5f124b37bb80274c4b1a2f55f",
+      "bytes": 3687,
+      "source": "release/v1/Open_Questions_and_Next_Research.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "25bacf60dc88f9545a7c4c10ba81d1fad129abe5f124b37bb80274c4b1a2f55f",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/alternatives_matrix.json",
+      "sha256": "4194b87449a3e89c115b5bde78d12f43e3d987d39d36591cb03bd4a92c9f3846",
+      "bytes": 29399,
+      "source": "release/v1/alternatives_matrix.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "838fc1ccf48cf9b40b0d20d6f9dc63d38ae846582a2e9b8fdac0fc8abe061b19",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "release/v1/baseline_assessment.json",
+      "sha256": "f9fea92a8644c4fb6a2b4218e0eca9ef991d351bc24bc9c578716cecd68cf203",
+      "bytes": 14739,
+      "source": "release/v1/baseline_assessment.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "f9fea92a8644c4fb6a2b4218e0eca9ef991d351bc24bc9c578716cecd68cf203",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/component_routes.json",
+      "sha256": "59074f77358c2081f34cff72aa042133f0a8d21924b5cfa07a00fc3045a2f95d",
+      "bytes": 46629,
+      "source": "release/v1/component_routes.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "59074f77358c2081f34cff72aa042133f0a8d21924b5cfa07a00fc3045a2f95d",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/conclusion_crosswalk.json",
+      "sha256": "9dde5052817e02b51687932790265e6217c5daed84eb7352505431a01703c814",
+      "bytes": 1025479,
+      "source": "release/v1/conclusion_crosswalk.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "0379b041da01fa8a73718753515272d90d814e2d7ca83135bd83bec560f38f01",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "release/v1/conclusion_gate_map.json",
+      "sha256": "e817236191a54166656e03653346854e345c8cbd8eeb3a7d19e37bb715a77c11",
+      "bytes": 10849,
+      "source": "release/v1/conclusion_gate_map.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "e817236191a54166656e03653346854e345c8cbd8eeb3a7d19e37bb715a77c11",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/dependency_map.json",
+      "sha256": "5ff6cb63ec4c6dfeded9d634fcda853e2498a35260291a1b6e0be2d0d57ca212",
+      "bytes": 451746,
+      "source": "release/v1/dependency_map.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5ff6cb63ec4c6dfeded9d634fcda853e2498a35260291a1b6e0be2d0d57ca212",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/open_questions.json",
+      "sha256": "6b78d249d774823bcbc6b677ffbb9e7c051c930854f7c02ffcbdce9e94c03c31",
+      "bytes": 23301,
+      "source": "release/v1/open_questions.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "6b78d249d774823bcbc6b677ffbb9e7c051c930854f7c02ffcbdce9e94c03c31",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/release_provenance.json",
+      "sha256": "3d4068349ae8ab510d394a65edb3b1dcb3efd1dbf6b6fde62e4693eac0ff4866",
+      "bytes": 4000,
+      "source": "release/v1/release_provenance.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "3d4068349ae8ab510d394a65edb3b1dcb3efd1dbf6b6fde62e4693eac0ff4866",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/route_impact.json",
+      "sha256": "fa19a584564c92891651acd17c566859b7c8eadfad601bce3bfaddf1c0879dc2",
+      "bytes": 420261,
+      "source": "release/v1/route_impact.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "fa19a584564c92891651acd17c566859b7c8eadfad601bce3bfaddf1c0879dc2",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/scenario_operations.json",
+      "sha256": "ed521cd14c8987cdf0f79299d8633c9f8f113d2d4fa31adb57335fafb3583886",
+      "bytes": 102091,
+      "source": "release/v1/scenario_operations.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "ed521cd14c8987cdf0f79299d8633c9f8f113d2d4fa31adb57335fafb3583886",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "release/v1/sensitivity_results.json",
+      "sha256": "dbfe53a325656784077cc3c17c6a7b1fd8df098fa291b6b37fca28202c8b38f5",
+      "bytes": 171223,
+      "source": "release/v1/sensitivity_results.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "07859ea62cc72a9dc8955988ddc76c508a9e6c2654f2f83489c28f63d69bb077",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "release/v1/source_appendix.md",
+      "sha256": "682daa628dd6a06a0c307c88b2bcb6da3a85028f2980bbd001ccf0d687541f64",
+      "bytes": 93146,
+      "source": "release/v1/source_appendix.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "682daa628dd6a06a0c307c88b2bcb6da3a85028f2980bbd001ccf0d687541f64",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "scripts/validate_public_snapshot.py",
+      "sha256": "63e3055aa1c8a6ce23b4ea3e5bafae7d7412e3a3d3a857f7c5a0f55665ce108b",
+      "bytes": 5082,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "state/public_status.json",
+      "sha256": "7bab5dbbcaf13e56c9a86933e9f9ec84249e7e2c41ce65007842157974ec50f5",
+      "bytes": 796,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "state/tasks.json",
+      "sha256": "8e1ad1ec32248a4c53fa252330043dd495d6f00399bd3fb9c8562dbd390eec78",
+      "bytes": 94063,
+      "source": "state/tasks.json",
+      "transformations": [
+        "Public status snapshot; live agent IDs omitted."
+      ],
+      "source_sha256": "039f82e60de2eb57db5f490697e726e6cdf7ddd109e7fcc0ed7d7856119cf566",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "templates/Argument_Map.md",
+      "sha256": "af7dfef949640b64adbae5b517031c90a75d3a01d05d57061bfeed2ae1dacdc3",
+      "bytes": 972,
+      "source": "templates/Argument_Map.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "af7dfef949640b64adbae5b517031c90a75d3a01d05d57061bfeed2ae1dacdc3",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "templates/Case_Dossier.md",
+      "sha256": "73605c0fce607a3b2456c7d0221c7735cb5fd3e196b18f2b1579b53b0f8231e2",
+      "bytes": 1652,
+      "source": "templates/Case_Dossier.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "73605c0fce607a3b2456c7d0221c7735cb5fd3e196b18f2b1579b53b0f8231e2",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "templates/proposed_records.json",
+      "sha256": "6b9e6f93aa9cc5853d35b1e7851b50765ed9c01b736c6a75d667e09354dba660",
+      "bytes": 107,
+      "source": "templates/proposed_records.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "6b9e6f93aa9cc5853d35b1e7851b50765ed9c01b736c6a75d667e09354dba660",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "templates/records.json",
+      "sha256": "59e06d07adec0aeb2bdc64371a86dd63a87a675aab69c7719998f88c6bef5966",
+      "bytes": 2131,
+      "source": "templates/records.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "59e06d07adec0aeb2bdc64371a86dd63a87a675aab69c7719998f88c6bef5966",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "templates/result.json",
+      "sha256": "153c4e87c5be8d8c07ac319a04b4bee297758097342d4f83965e3329c3cdeaf9",
+      "bytes": 358,
+      "source": "templates/result.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "153c4e87c5be8d8c07ac319a04b4bee297758097342d4f83965e3329c3cdeaf9",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "templates/task_contract.json",
+      "sha256": "1409651f07c0c615f0d90abb69ad85d3187a08e4762d418c2da1668a0b44f76d",
+      "bytes": 656,
+      "source": "templates/task_contract.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "1409651f07c0c615f0d90abb69ad85d3187a08e4762d418c2da1668a0b44f76d",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/G0/gate_decision.md",
+      "sha256": "5abe6951900bb2ace8c9a333a8dcfd2727c00211de73ef6ce3d11d9fe96d346b",
+      "bytes": 2955,
+      "source": "work/G0/gate_decision.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5abe6951900bb2ace8c9a333a8dcfd2727c00211de73ef6ce3d11d9fe96d346b",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/G0/protocol_v1.md",
+      "sha256": "0be5706f79030a85ac7b2d761eae2012481b11b48a384c677045210b3b0e3904",
+      "bytes": 26673,
+      "source": "work/G0/protocol_v1.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "0be5706f79030a85ac7b2d761eae2012481b11b48a384c677045210b3b0e3904",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/G1/gate_decision.md",
+      "sha256": "d27e451dcbdf15f78295c9b93dd793538b21d64d75353f8cdaa1f0966446b5b9",
+      "bytes": 4686,
+      "source": "work/G1/gate_decision.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "d27e451dcbdf15f78295c9b93dd793538b21d64d75353f8cdaa1f0966446b5b9",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/G2/gap_register.json",
+      "sha256": "e0ec4771665d57b60a7253fcf5120aa4bdc56484a296be97ff02c23518365126",
+      "bytes": 54584,
+      "source": "work/G2/gap_register.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "e0ec4771665d57b60a7253fcf5120aa4bdc56484a296be97ff02c23518365126",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/G2/gate_decision.md",
+      "sha256": "c98c4edcc8429d10aa2f3642c068b027e8892f720e7a9d0dc6ec12e599e9c238",
+      "bytes": 10194,
+      "source": "work/G2/gate_decision.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "c98c4edcc8429d10aa2f3642c068b027e8892f720e7a9d0dc6ec12e599e9c238",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/G2/repair_backlog.json",
+      "sha256": "4e621d14808585eff67168b030f300d1ce16666044bf13f27d56de3dab4ff91e",
+      "bytes": 9151,
+      "source": "work/G2/repair_backlog.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "4e621d14808585eff67168b030f300d1ce16666044bf13f27d56de3dab4ff91e",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/G2/synthesis_constraints.json",
+      "sha256": "e6e23b4499ed261f67ace5ea6edfe1f7ee25580f9ca2c366a9340e8beaf4959e",
+      "bytes": 9538,
+      "source": "work/G2/synthesis_constraints.json",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "e6e23b4499ed261f67ace5ea6edfe1f7ee25580f9ca2c366a9340e8beaf4959e",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/G3/gate_decision.md",
+      "sha256": "5bd3730b80fcc72b7275cbf2f810256f92ff432fdf603463b2748230205c0f1a",
+      "bytes": 2492,
+      "source": "work/G3/gate_decision.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5bd3730b80fcc72b7275cbf2f810256f92ff432fdf603463b2748230205c0f1a",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2A01/report.md",
+      "sha256": "8b5b335c955f21e9c817d282a0606d0be3f0c316916414df4956587b6228fded",
+      "bytes": 13651,
+      "source": "work/P2A01/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "e6f0f30712d3899f5db18d55ef6a406bd668c7ae6be0a9f347ab8a190fffcaba",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2G1/gate_decision.md",
+      "sha256": "405cb93caf029912eb2cb292f903ca1f276d178341566903b3fa553ff4e53c4d",
+      "bytes": 3357,
+      "source": "work/P2G1/gate_decision.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "289f6a633875a2157b18c823439f62cb6644a0773903fa5fc1728ddb16210651",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2R01/report.md",
+      "sha256": "85f5567e8cc360ec0fe2d31269a827aff6bdcfeafba75a90b4bd7da0ccedb31c",
+      "bytes": 5804,
+      "source": "work/P2R01/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "6dbd7616afe2624ae176d704981bdb0d1e6671eec68248baee707b8dabdade70",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2R02/report.md",
+      "sha256": "20ef7e0eb9cd71f1dc9e68c54da426d5f3f09f167535eb16d85fb45c4755114f",
+      "bytes": 3891,
+      "source": "work/P2R02/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "c8f05ad976ede34ca6074c873c8fa6f946b55a2b5571f1d42aab07a5145e0518",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2R03/report.md",
+      "sha256": "e1cfbaa6550ccd7387676e7ea5b989594bbb7d2ac01f1933c721c6f29aa50733",
+      "bytes": 7296,
+      "source": "work/P2R03/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "e1cfbaa6550ccd7387676e7ea5b989594bbb7d2ac01f1933c721c6f29aa50733",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R04/report.md",
+      "sha256": "0cf00e0b8fea981404d1a1038cd55012fe51607a65d832c0ed4f01288cc0641d",
+      "bytes": 9597,
+      "source": "work/P2R04/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "0cf00e0b8fea981404d1a1038cd55012fe51607a65d832c0ed4f01288cc0641d",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R05/report.md",
+      "sha256": "ab40b5c0377740f54ac383c6675eb4dd6dcf58a9d2667c7bf368ca4ee7b3e213",
+      "bytes": 7869,
+      "source": "work/P2R05/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "ab40b5c0377740f54ac383c6675eb4dd6dcf58a9d2667c7bf368ca4ee7b3e213",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R06/report.md",
+      "sha256": "fd03ffbf9c553dfaab1d4bc7f2c74e8e3933a30e321448799bc1846828fefdc0",
+      "bytes": 5811,
+      "source": "work/P2R06/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "87be0e098b58f7d36282f97c283f380220104af3cb619235861c6cc64d8a2ea5",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2R07/report.md",
+      "sha256": "4923888a4104dc8bac76e63117b775b0d2069a3b975b2724a96d463e33aca395",
+      "bytes": 7681,
+      "source": "work/P2R07/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "4244e3ef802ee24f4f22e9bf2a967a6b3c3049ee7c9e461e6e2cff3344139a9f",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2R08/report.md",
+      "sha256": "b73552f23e8f157702540918789740721eaf4a8a0abb0fef90cd6407de5865c7",
+      "bytes": 7102,
+      "source": "work/P2R08/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "a9159b06f3252967f6c44b4569ba0c6613f549a8b1fd0bd8da7de37681e3a957",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2R09/report.md",
+      "sha256": "30961d52dcf82e0b3a134294a2961892310eef7e13567d6b8f6198243651be70",
+      "bytes": 9344,
+      "source": "work/P2R09/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "36d1032c91a585ef0b55464c4bc02293a90a9991b3275a79955d1112483f99b0",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2R10/report.md",
+      "sha256": "1c0ad80334beee56c17e164f13ae337ee6d6d20dd7e0a797e4ebdbd0d20c7529",
+      "bytes": 13136,
+      "source": "work/P2R10/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "1c0ad80334beee56c17e164f13ae337ee6d6d20dd7e0a797e4ebdbd0d20c7529",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R11/report.md",
+      "sha256": "80b8830f6ac372d617584b3db4d7d978fe2d8bd9f9b43770229a91d95b848799",
+      "bytes": 9183,
+      "source": "work/P2R11/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "af16b00ba354508b15f911ac35bb660200e1b05a65781559a4c42906e39022ff",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2R12/report.md",
+      "sha256": "169efb529b223d340004567383054a74035f62c962160c0cb93a3ae1f5af3e98",
+      "bytes": 14330,
+      "source": "work/P2R12/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "169efb529b223d340004567383054a74035f62c962160c0cb93a3ae1f5af3e98",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R13/report.md",
+      "sha256": "507b0270a91736eeb1d2ad1f3b1155ccc17852f8b7e948a8478227e30a07b27a",
+      "bytes": 8231,
+      "source": "work/P2R13/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "507b0270a91736eeb1d2ad1f3b1155ccc17852f8b7e948a8478227e30a07b27a",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R14/report.md",
+      "sha256": "68919f69b9a8dbba4855e1a76ef57a5a42cfba2b93c7b650719581c1105a2943",
+      "bytes": 10689,
+      "source": "work/P2R14/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "68919f69b9a8dbba4855e1a76ef57a5a42cfba2b93c7b650719581c1105a2943",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R15/report.md",
+      "sha256": "4683aefe908e032360c5494c27d6ba1e12f498dc5f8b8c57e946ba2158058cfb",
+      "bytes": 15905,
+      "source": "work/P2R15/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "4683aefe908e032360c5494c27d6ba1e12f498dc5f8b8c57e946ba2158058cfb",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R16/report.md",
+      "sha256": "628a5ed8c7a4c81d599f586e153ed5028c32bc809c27bf4ab724b1bf738d4ee4",
+      "bytes": 5742,
+      "source": "work/P2R16/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "628a5ed8c7a4c81d599f586e153ed5028c32bc809c27bf4ab724b1bf738d4ee4",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R17/report.md",
+      "sha256": "a0efeb1ff194894f274624ea4d1cc47ddb3e6dc76b9950c8e1d5a77a2d152b6f",
+      "bytes": 7337,
+      "source": "work/P2R17/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "a0efeb1ff194894f274624ea4d1cc47ddb3e6dc76b9950c8e1d5a77a2d152b6f",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R18/report.md",
+      "sha256": "5ec00b5bfea9b67a6ac50c680a28e8c6c67ba727d68085f36012f65305f0be7d",
+      "bytes": 10622,
+      "source": "work/P2R18/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5ec00b5bfea9b67a6ac50c680a28e8c6c67ba727d68085f36012f65305f0be7d",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2R19/report.md",
+      "sha256": "44b9f582f1477cd36ee1268f786b71ab7600f4b9b8bcc7cccc63429f399d3c68",
+      "bytes": 7223,
+      "source": "work/P2R19/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "44b9f582f1477cd36ee1268f786b71ab7600f4b9b8bcc7cccc63429f399d3c68",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2RA01/report.md",
+      "sha256": "0a0a701be351ef98266647856a3b17286fe162e0d66aa32814d42711fb3d5e1a",
+      "bytes": 7161,
+      "source": "work/P2RA01/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "d3055d9c5241a8475004e2093139515160a312cb906a5e9d307fa7e88680f3d1",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T01/report.md",
+      "sha256": "090b5d3d2828cc47b7a39de6f076217e9c2d3f146295c5c3a0289018b39eeef6",
+      "bytes": 14700,
+      "source": "work/P2T01/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "090b5d3d2828cc47b7a39de6f076217e9c2d3f146295c5c3a0289018b39eeef6",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2T02/report.md",
+      "sha256": "8bbdfb58923307ad9aa291cf94edf57995cc5928c5f93f2f36a7fa5905769817",
+      "bytes": 10037,
+      "source": "work/P2T02/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "9a50e63d847c06a29744adc6f1f85bc7666db54aff31499cf83a6e5378f84dc5",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T03/report.md",
+      "sha256": "a32265ac69edac3c35d482c826df38cb1ed1ecb40151860924713142df658bb2",
+      "bytes": 17656,
+      "source": "work/P2T03/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "a32265ac69edac3c35d482c826df38cb1ed1ecb40151860924713142df658bb2",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2T04/report.md",
+      "sha256": "151cf158b8451b046a5b960a740af3b56f64ce3c7cccaf1f8afa5d8229557252",
+      "bytes": 18412,
+      "source": "work/P2T04/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "151cf158b8451b046a5b960a740af3b56f64ce3c7cccaf1f8afa5d8229557252",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2T05/report.md",
+      "sha256": "575ac90e41ed84682ddd82db3adeca6f532910fa3b03abd95b3465b0004a4444",
+      "bytes": 12726,
+      "source": "work/P2T05/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "575ac90e41ed84682ddd82db3adeca6f532910fa3b03abd95b3465b0004a4444",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2T06/report.md",
+      "sha256": "77567e632cc13c4252ee3612f7ddc29f3feae0e1b1cc0ad850e77016abff459b",
+      "bytes": 12095,
+      "source": "work/P2T06/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "77567e632cc13c4252ee3612f7ddc29f3feae0e1b1cc0ad850e77016abff459b",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2T07/report.md",
+      "sha256": "7ce4c8dc58d80de7361783f3e07db263257583efef4a6c373ed64c3df1ab295a",
+      "bytes": 15831,
+      "source": "work/P2T07/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "7ce4c8dc58d80de7361783f3e07db263257583efef4a6c373ed64c3df1ab295a",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2T08/report.md",
+      "sha256": "fe5ee0de896c6c3244b3ecef0f381fc1b49a3b7574429d08a8a25ededbd18762",
+      "bytes": 20871,
+      "source": "work/P2T08/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "df8b2c6be195a6c6cbc42e32a27a5c1db413d56d7801e3a47d04e2736b999033",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T09/report.md",
+      "sha256": "0f87c3e6b229f63ca4bc4cc1644e87610fb8f14453ce9cbb30a6e352c59fe800",
+      "bytes": 19972,
+      "source": "work/P2T09/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5b7e97090d06d754d3af906dc055a0a8761ff5ef001f3b1b90fc14c1dbc07aab",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T10/report.md",
+      "sha256": "34381b39a9c40455d72805f47de3cf7792c99a97234d86e5da3ad20a30bd90ca",
+      "bytes": 11154,
+      "source": "work/P2T10/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "34381b39a9c40455d72805f47de3cf7792c99a97234d86e5da3ad20a30bd90ca",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2T11/report.md",
+      "sha256": "47714d78359aecc205f90f3e52a278107d9f17886b5497b6af35994e18e6ea86",
+      "bytes": 12436,
+      "source": "work/P2T11/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "3cd20ea2f92eb4239b2a2ccfaf82fdb83bf39320d0a2dcb6ecc50099ee887fce",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T12/report.md",
+      "sha256": "21c35c41f9277dc19a8b8f7998ea6c9d7949132f43c0cb142594a0f460b66871",
+      "bytes": 18714,
+      "source": "work/P2T12/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "ce29318ab937f1daf4610de84bfd74fab0845ba05ebcffae47e34360c4d5f490",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T13/report.md",
+      "sha256": "5936e39dd233c932c225f6e0fb6442373ffe3440e1b2264dbd0d6d26479b1441",
+      "bytes": 12126,
+      "source": "work/P2T13/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "2d42235290ded255e745a9c2edb81ccd1fcdfaa9b6f59ca781a076bfad8d32ad",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T14/report.md",
+      "sha256": "ebdee788503f815a1dbd0b431b5361c8ff15450617c511a232dc5529cbdb9f17",
+      "bytes": 12998,
+      "source": "work/P2T14/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "e171d4841d16d9523feaf4e44228157a8b90cb029e9664d4f97d9b054df3e88f",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T15/report.md",
+      "sha256": "c40c3add38ba28f8194743f63df929c3d072d232856f5c31a9b7c964f054472a",
+      "bytes": 15494,
+      "source": "work/P2T15/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "41f38e5890af084a7e0e152c47841751edeb59a4bf6e2a9ad69f7b4de3f2de85",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T16/report.md",
+      "sha256": "f1220d88ae30c980956a6e4fb5e7608613a831ac07ef159570402e769cf2fe57",
+      "bytes": 10619,
+      "source": "work/P2T16/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "85abab4f8293195165d527f64e11472673a9e7b031e1c000f9f995ac2d1425e9",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T17/report.md",
+      "sha256": "fcad6f1d9e78c9fa7786aa694267571ca729bc7f16ac645e560735f441f4e865",
+      "bytes": 17703,
+      "source": "work/P2T17/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "fcad6f1d9e78c9fa7786aa694267571ca729bc7f16ac645e560735f441f4e865",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/P2T18/report.md",
+      "sha256": "bc7177612ab89e5498cc83c48ea7f8f1612d628a1fa0b07c5b078606da68b38b",
+      "bytes": 9383,
+      "source": "work/P2T18/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "1e6a885824a009ca63a60bdedf0159b8dc76590f95e7581f7d6c8e615e94a026",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/P2T19/report.md",
+      "sha256": "56805ef98f4c8b44b5075cf271cf5429675444bf5ea0d3330f9bd49d83a870aa",
+      "bytes": 14117,
+      "source": "work/P2T19/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "2be5c38c6b0065f504be867a6cf6cb404af1751cdae7f0390654bd6ddd306b1d",
+      "byte_identical_to_source": false
+    },
+    {
+      "path": "work/R04/report.md",
+      "sha256": "a1522ecefca0097b5ab6c736b62c511833bd0489c81d4304b3ccd9542514816d",
+      "bytes": 5267,
+      "source": "work/R04/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "a1522ecefca0097b5ab6c736b62c511833bd0489c81d4304b3ccd9542514816d",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R05/report.md",
+      "sha256": "4d51c9877765328496452f7790c9196bcead7aefeb40f27ba4ce3c91b46dabf0",
+      "bytes": 2771,
+      "source": "work/R05/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "4d51c9877765328496452f7790c9196bcead7aefeb40f27ba4ce3c91b46dabf0",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R06/report.md",
+      "sha256": "1f931504f030c828c4669e5bf5e953af3e2dc50ab579543488b4cbd78c7879cc",
+      "bytes": 3277,
+      "source": "work/R06/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "1f931504f030c828c4669e5bf5e953af3e2dc50ab579543488b4cbd78c7879cc",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R07/report.md",
+      "sha256": "bcb97145029c4cdbdc5f3a05aa820ec2a65083b9c12f7ef28050976f19d06d2a",
+      "bytes": 5758,
+      "source": "work/R07/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "bcb97145029c4cdbdc5f3a05aa820ec2a65083b9c12f7ef28050976f19d06d2a",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R08/report.md",
+      "sha256": "b221b1fa144fbc549b9eb9905df6ff7bef0f5c453cc11fece69e44339460a5c2",
+      "bytes": 6709,
+      "source": "work/R08/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "b221b1fa144fbc549b9eb9905df6ff7bef0f5c453cc11fece69e44339460a5c2",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R09/report.md",
+      "sha256": "19ad92a8941ebad03b202c39a374bab8a1e2b3308741db851d44e238c8221b41",
+      "bytes": 5111,
+      "source": "work/R09/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "19ad92a8941ebad03b202c39a374bab8a1e2b3308741db851d44e238c8221b41",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R10/report.md",
+      "sha256": "25b91a841e081bd310052d083c9c22cae69308d147d865b34205f785ba42fcfb",
+      "bytes": 5252,
+      "source": "work/R10/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "25b91a841e081bd310052d083c9c22cae69308d147d865b34205f785ba42fcfb",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R11/report.md",
+      "sha256": "bf7bf0c473bd1b2a8f74aa613d8843f8a624133b3906d372c28097a9754d678a",
+      "bytes": 10224,
+      "source": "work/R11/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "bf7bf0c473bd1b2a8f74aa613d8843f8a624133b3906d372c28097a9754d678a",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R12/report.md",
+      "sha256": "de27e44c43256126b34bf6983b7063e42f4b6cf317f4f4e93d66f4832bcde45c",
+      "bytes": 6271,
+      "source": "work/R12/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "de27e44c43256126b34bf6983b7063e42f4b6cf317f4f4e93d66f4832bcde45c",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R13/report.md",
+      "sha256": "e3f61b79fc452b7cae44b2461b0d8e00938a7b8f6c10c7dbb43898a61cd8d2d7",
+      "bytes": 3880,
+      "source": "work/R13/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "e3f61b79fc452b7cae44b2461b0d8e00938a7b8f6c10c7dbb43898a61cd8d2d7",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R14/report.md",
+      "sha256": "5a7b84696a687572bc4363875e01d8090de90db13ab30947bd867f05c6aab5b0",
+      "bytes": 3477,
+      "source": "work/R14/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "5a7b84696a687572bc4363875e01d8090de90db13ab30947bd867f05c6aab5b0",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R15/report.md",
+      "sha256": "06d259140db6f2343dd3857e465a4e65228d13cd994c73a4c305f79f2d20593f",
+      "bytes": 4097,
+      "source": "work/R15/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "06d259140db6f2343dd3857e465a4e65228d13cd994c73a4c305f79f2d20593f",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R18/report.md",
+      "sha256": "8238a73b47b845512f1fd79c4376aa4fa4a39662ebd914f1b121cb1343add005",
+      "bytes": 8983,
+      "source": "work/R18/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "8238a73b47b845512f1fd79c4376aa4fa4a39662ebd914f1b121cb1343add005",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/R19/report.md",
+      "sha256": "dbba8d8c53514bac8e2b50676a6659772579dc25273047929e68671b531e1200",
+      "bytes": 5121,
+      "source": "work/R19/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "dbba8d8c53514bac8e2b50676a6659772579dc25273047929e68671b531e1200",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T01/report.md",
+      "sha256": "4eb2d9ab49b1686eb62423408db955bca6758d9849d7307979063a20727c4857",
+      "bytes": 26041,
+      "source": "work/T01/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "4eb2d9ab49b1686eb62423408db955bca6758d9849d7307979063a20727c4857",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T02/report.md",
+      "sha256": "75d89bdb816c4a3e8018eb43e869499a6f7b4d1bf24edabd705e312e8bffa2d7",
+      "bytes": 25778,
+      "source": "work/T02/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "75d89bdb816c4a3e8018eb43e869499a6f7b4d1bf24edabd705e312e8bffa2d7",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T03/report.md",
+      "sha256": "46c37168f2fedc7abe9fe6f6cade2cd7e925f92ffb630c7c808fe1c854c1131e",
+      "bytes": 17956,
+      "source": "work/T03/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "46c37168f2fedc7abe9fe6f6cade2cd7e925f92ffb630c7c808fe1c854c1131e",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T04/report.md",
+      "sha256": "ebb2183e7b5f503044e910db728141d4ce93caa75340a587d217d0a937eaf305",
+      "bytes": 20741,
+      "source": "work/T04/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "ebb2183e7b5f503044e910db728141d4ce93caa75340a587d217d0a937eaf305",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T05/report.md",
+      "sha256": "126d942622383ea87071ed7dedc394dccaa2200976a31618cdc251101452437f",
+      "bytes": 14921,
+      "source": "work/T05/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "126d942622383ea87071ed7dedc394dccaa2200976a31618cdc251101452437f",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T06/report.md",
+      "sha256": "86f480126f21f9905cb433038df55a7c241310619acdcd90c1b0e594030c6f5b",
+      "bytes": 17700,
+      "source": "work/T06/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "86f480126f21f9905cb433038df55a7c241310619acdcd90c1b0e594030c6f5b",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T07/report.md",
+      "sha256": "738805aa9982a1cdd0bc3174ed9333b0de101d6372f7422a78429cb55552339c",
+      "bytes": 15208,
+      "source": "work/T07/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "738805aa9982a1cdd0bc3174ed9333b0de101d6372f7422a78429cb55552339c",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T08/report.md",
+      "sha256": "967d9ed4cde6db1589143fb856f6858ec0ab31b669a3832cd8cb4b178975246f",
+      "bytes": 15112,
+      "source": "work/T08/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "967d9ed4cde6db1589143fb856f6858ec0ab31b669a3832cd8cb4b178975246f",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T09/report.md",
+      "sha256": "43b94646bf6b6f6d32b4780204ccf533321249b91bd409e548dba68fd50788d6",
+      "bytes": 16271,
+      "source": "work/T09/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "43b94646bf6b6f6d32b4780204ccf533321249b91bd409e548dba68fd50788d6",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T10/report.md",
+      "sha256": "bfeecf01ba354461b31e329516835b84a44789987a9af7062fc0d13752322616",
+      "bytes": 19886,
+      "source": "work/T10/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "bfeecf01ba354461b31e329516835b84a44789987a9af7062fc0d13752322616",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T11/report.md",
+      "sha256": "7760a4a7db868c898eb8a0cc995f4283971321d4f372b93eb873b90c92b51d58",
+      "bytes": 18213,
+      "source": "work/T11/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "7760a4a7db868c898eb8a0cc995f4283971321d4f372b93eb873b90c92b51d58",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T12/report.md",
+      "sha256": "8f48f09b8399e452cb68ca75ffccf6a13a2b74b94126a74085a1b92296cca8a4",
+      "bytes": 16616,
+      "source": "work/T12/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "8f48f09b8399e452cb68ca75ffccf6a13a2b74b94126a74085a1b92296cca8a4",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T13/report.md",
+      "sha256": "f091d7abf63f11d7491a245cb250b0ab955081051803a8bd004cd6e3f9fe503f",
+      "bytes": 10771,
+      "source": "work/T13/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "f091d7abf63f11d7491a245cb250b0ab955081051803a8bd004cd6e3f9fe503f",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T14/report.md",
+      "sha256": "c6296695e4688d7ec50b416fc5838b0a9c530d09592f6dbb01a061faf40f6dcb",
+      "bytes": 13096,
+      "source": "work/T14/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "c6296695e4688d7ec50b416fc5838b0a9c530d09592f6dbb01a061faf40f6dcb",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T15/report.md",
+      "sha256": "3be62468d5b7ba44c4e34731966421d951c85d1fc67c21fe04a12c67dcb620d5",
+      "bytes": 13141,
+      "source": "work/T15/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "3be62468d5b7ba44c4e34731966421d951c85d1fc67c21fe04a12c67dcb620d5",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T16/report.md",
+      "sha256": "ce40d535d6420ff4a2472c220e51d060ae5c9386ab2115957597e6daa36196e2",
+      "bytes": 14084,
+      "source": "work/T16/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "ce40d535d6420ff4a2472c220e51d060ae5c9386ab2115957597e6daa36196e2",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T17/report.md",
+      "sha256": "10a6733c2179893352846097f2ec1d1ba799cf4a5fe1e7366dc7dbdbe3bebc2a",
+      "bytes": 22270,
+      "source": "work/T17/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "10a6733c2179893352846097f2ec1d1ba799cf4a5fe1e7366dc7dbdbe3bebc2a",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T18/report.md",
+      "sha256": "e31204f7f1f4cd50629af32acc52f644fe5a142331c3f9be6fc429e8b6f6405f",
+      "bytes": 39852,
+      "source": "work/T18/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "e31204f7f1f4cd50629af32acc52f644fe5a142331c3f9be6fc429e8b6f6405f",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "work/T19/report.md",
+      "sha256": "fe599151b0abe37d8e5a40aabfa4a9cb03f7c94163567804d590b86e3253dc3a",
+      "bytes": 8246,
+      "source": "work/T19/report.md",
+      "transformations": [
+        "UTF-8/LF normalization; host-specific paths redacted when present."
+      ],
+      "source_sha256": "fe599151b0abe37d8e5a40aabfa4a9cb03f7c94163567804d590b86e3253dc3a",
+      "byte_identical_to_source": true
+    }
+  ]
+}

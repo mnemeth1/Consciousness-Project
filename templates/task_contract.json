@@ -1,0 +1,28 @@
+{
+  "task_id": "<backlog ID>",
+  "parent_id": null,
+  "role": "researcher",
+  "question": "",
+  "exclusions": [],
+  "input_artifacts": [],
+  "input_verification_status": {},
+  "writable_directory": "work/<task_id>/",
+  "deliverables": [],
+  "acceptance_criteria": [],
+  "budget": {
+    "search_queries": 12,
+    "source_inspections": 10,
+    "revision_cycles": 2
+  },
+  "spawning_allowed": false,
+  "allocated_slots": 0,
+  "stop_conditions": [
+    "completion",
+    "budget exhausted",
+    "decisive evidence inaccessible",
+    "scope change"
+  ],
+  "required_return": "templates/result.json",
+  "protocol_version": null,
+  "input_artifact_versions": {}
+}

@@ -1,0 +1,40 @@
+{
+  "max_live_agents_including_overseer": 4,
+  "max_depth": 2,
+  "default_allocation": {
+    "overseer": 1,
+    "researchers": 2,
+    "reviewers": 1
+  },
+  "review_backpressure_allocation": {
+    "overseer": 1,
+    "researchers": 1,
+    "reviewers": 2
+  },
+  "switch_to_review_backpressure_when": "Two or more submitted research packets await reviewer assignment. Reassign free slots only; no interruption of useful running work.",
+  "first_four": [
+    "P2T01",
+    "P2T02",
+    "P2T06",
+    "P2T07"
+  ],
+  "then": "Pick highest-priority unassigned eligible packet; after each two new author launches, oldest eligible unassigned packet gets priority. Assign review immediately when author submits and reviewer slot free.",
+  "no_self_review": "Author identity tracked across reusable workers; reviewer cannot assess any packet/synthesis they authored. Methods audit reviewer also distinct.",
+  "source_coordination": "Root maintains source_identity_registry and source_request queue; authors declare intended original/version early. Shared source acquisition may be reused with exact hashes; each independent reviewer reopens it. Cross-packet source disagreement preserved and reconciled by root; no double-counting.",
+  "single_writer": "Only root writes canonical state/records. Each worker writes own task directory. Freeze inputs at dispatch; merge only reviewed proposals atomically.",
+  "paper_wait_policy": "Try bounded public publisher/author/repository and existing-library routes. If needed full text cannot be found or accessed, promptly give the user the exact title and verified DOI/citation and ask for manual Sci-Hub retrieval. Do not repeatedly ask for browser/CDP troubleshooting or the same pending paper. If already readable in Chrome but no local PDF can be saved, ask for that existing PDF only when needed. Continue unrelated work; revisit on receipt and before P2G1. Independently review unresolved limitation dossiers and keep stronger claims withheld.",
+  "revisions": "At most2substantive cycles per task; then split conclusion or narrow with unresolved dispute and review. New scope needs explicit plan amendment, not hidden extra packet.",
+  "extensions": "One bounded +4queries/+4source inspections extension per author/review task when necessary, recorded by root. At P2G1 compute actual decisive inventory; final review240is provisional, with one recorded increase up to320if justified. Above320requires plan amendment or narrower explicitly reviewed conclusions. Never silently skip decisive originals.",
+  "persistence": "Checkpoint every submission/review/adjudication and before session end. Resume eligible queue after verifying manifest and agent liveness. No promise of unattended execution after the active session ends.",
+  "launch_policy": "Phase 2 remains unstarted. On research continuation, dispatch P2T01/P2T02, queue P2T06/P2T07, and pursue eligible work through P2G2 with independent review and no per-packet permission questions. A readiness review alone does not dispatch research.",
+  "stale_propagation": "New accepted changes produce claim/argument/route/component impact records. Affected concurrent packets require documented rebase; dependent synthesis blocked until reassessed. Preserve v1 snapshots and earlier acceptance hashes.",
+  "language_and_cutoff": "Retain protocolv2 English/accessible-translation methods and original2026-09-11 literature cutoff for this gap-repair campaign. Record each new search actualdate; later publications are separately logged leads requiring a dated supplement/amendment before use. Do not backdate searches.",
+  "project_ceiling_including_overseer": 7,
+  "first_dispatch": [
+    "P2T01",
+    "P2T02"
+  ],
+  "first_four_interpretation": "Priority queue, not four simultaneous authors. P2T06 and P2T07 follow as author slots free.",
+  "host_limit_policy": "Use min(project ceiling, current host live-agent limit), counting overseer. This saved allocation targets four. Reconcile actual free slots at dispatch; never exceed the current host limit.",
+  "operational_amendment": "phase2/amendments/001-readiness.md"
+}

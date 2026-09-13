@@ -1,0 +1,65 @@
+# T14 — Meaning, purpose and the consciousness-factory hypothesis
+
+Author submission,12 September 2026. Protocol v2; independent R14 review required.
+
+**Endurance can add significance if it preserves the same persons, worthwhile relationships and possibilities for growth. That conditional claim is stronger than saying duration alone helps, and weaker than saying nothing finite can matter.** A consciousness-producing cosmos could also be intended for conscious life. Establishing that explanation requires reasons for the proposed agent, end and constraints; the value of the outcome is not itself evidence of prior intention.
+
+## Inspected scope
+
+Five decisive originals are now inspected within ten queries and seven conservative inspection units, including two publisher navigation pages. The original four-source packet and review are archived. After earlier retrieval failures, the user supplied Williams’s complete chapter; revision1 adds its inspection within the existing cap and reuses the already executed Williams forward query. No new author search occurred. The Williams/Fischer argument comparison is now based on both originals; later critic/reply coverage remains incomplete.
+
+| Source | Directly inspected material |
+|---|---|
+| [S-T14-001: Craig](https://www.reasonablefaith.org/writings/popular-writings/existence-nature-of-god/the-absurdity-of-life-without-god/) | Author essay sections on ultimate meaning, purpose, Christian alternative and conclusion; notes. Current text undated. |
+| [S-T14-002: Wolf](https://philosophy.northwestern.edu/community/nustep/08/papers/Wolf.pdf) | 2007–2008 lecture draft, especially pp3–9,13–26,30–36 and footnotes. Not the2010 final book. |
+| [S-T14-003: Fischer](https://www.imtcoin.com/pdf/Why-immortality-is-not-so-bad.pdf) | Original argument in a third-party review-copy reprint, §§I–IV, pp224–238. Exact reprint edition unresolved. |
+| [S-T14-007: Williams](https://doi.org/10.1017/CBO9780511621253.008) | User-supplied Cambridge chapter, printed82–100, complete text and references inspected; decisive pages visually checked. |
+| [S-T14-004: Metz](https://www.philosophyoflife.org/jpl2015si14.pdf) | 2015 publisher reply, §§2.1,3.1–3.2 and references. Critics quoted there are not independently inspected originals. |
+
+Craig joins God with immortality for ultimate significance and rejects bare duration as sufficient. He presents resurrected fellowship positively and expressly stops short of having established Christianity’s truth. His behavioral assertions about atheists and moral generalizations are not verified findings here. **CL-T14-001–002.**
+
+Wolf’s model combines caring activity with worth independent of the participant’s preference. She leaves a satisfactory account of nonsubjective value unresolved (pp35–36). Her draft acknowledges that this need not answer the wish for lasting cosmic impact. We retain that limitation rather than use finite satisfaction to dismiss the project’s larger concern. **CL-T14-003–004.**
+
+Fischer’s positive reply permits varied activities, repeatable enjoyments and acceptable character change. He distinguishes attention absorbed in a project from disappearance of the subject who experiences it. His case concerns possible attractiveness, not proven immortality or its necessary goodness. **CL-T14-005–006.**
+
+Metz acknowledges the importance of losing imperfect goods. His purpose/perfection challenge is explicitly non-conclusive: he does not establish that timeless purpose is impossible or that only a timeless God could ground meaning. **CL-T14-007–008.**
+
+## Three endurance claims, with different burdens
+
+Argument maps are project-authored reconstructions of the inspected positions and reviewed T11/T13 distinctions. Source-specific attributions are identified separately; none is an additional observation of immortality.
+
+**Necessity:** no enduring consciousness, therefore no meaning. The strongest version asks whether a life can have ultimate significance when every subject, relationship, achievement and recognition is finally lost. It is not merely a complaint about boredom. Its central premise is that significance must be anchored in a reality that does not finally discard it. That is a substantive view of value and context, deserving argument. But final loss does not logically entail that relief, knowledge or love never benefited anyone. To eliminate *all* meaning requires a bridge from the absence of enduring goods to the worthlessness of finite ones. Merely defining “ultimate” as “enduring” cannot establish that broader conclusion. **A-T14-001; CL-T14-011.**
+
+**Sufficiency:** continuation guarantees meaning. An endless life confined to degrading repetition or suffering challenges this. The relevant inference fails because duration fixes neither content nor its worth. However, such a counterexample says nothing decisive against a different proposal guaranteeing worthwhile relationships and development. Compulsory endless existence, indefinite extension with an exit option, and guaranteed endless worthwhile life are separate models. Adding an exit option may preserve agency and reduce entrapment, but it no longer guarantees unending life. **A-T14-003; meaning_matrix.json.**
+
+**Comparative enhancement:** a worthwhile enduring life could have more significance than its finite counterpart. Here the positive case is concrete: the same people continue loving, understand more of their histories, repair unfinished relationships, and pursue projects death would prevent. Even imperfect goods could be worth retaining. Enduring conscious recognition can also provide a relation to a larger whole beyond anonymous causal effects. To assess this, specify whose goods persist, the identity relation, costs, accessibility and the comparison criterion. Infinite duration is not itself a numerical measure of meaning, and no total ranking of every finite and infinite life is assumed. This version remains a serious conditional possibility even if the necessity claim fails. **CL-T14-010.**
+
+## The finite-value countercase and its remainder
+
+Consider two finite lives differing in whether a child receives comfort during an otherwise painful hour. On the proposed non-erasure premise, the comfort can matter to that child even if nobody remembers it indefinitely. A finite act of understanding or care can also be good beyond the agent’s private satisfaction. A physicalist may combine its ontology with such value commitments; physicalism alone neither proves those commitments nor entails nihilism. Naturalistic and theistic accounts alike owe an account of value and its epistemic warrant. Neither receives a free explanatory primitive. **A-T14-002; CL-T14-009.**
+
+The strongest objection remains: a collection of local goods might lack a worthwhile ultimate context, and losing persons is a substantial loss rather than a minor recording problem. The finite-value account should acknowledge that it may supply meaning *within* life without intended cosmic purpose or enduring personal significance. Its reply is limited but relevant: missing further goods need not erase the goods that occurred. Whether finite and enduring goods form a better whole remains an evaluative question; neither side wins by choosing the vocabulary.
+
+## Exhaustion, change and the same person
+
+Williams does not simply argue that death is good. Categorical desires supply reasons to continue; losing that future can be bad without a later experience of deprivation. He nevertheless argues that endlessly continued human life would eventually lose the motivational relation that makes it worth continuing. He distinguishes being the same person from a future appropriately related to one’s present aims, even provisionally granting bodily identity across psychologically disjoint lives. His boredom challenge concerns recognition of a depleted relation to the world, not just discomfort that could be removed. An endless duty also raises the question of its purpose. **S-T14-007, pp85–96,100; CL-T14-012,019–020.**
+
+Our revised assessment therefore separates three issues: actual ownership, prospective concern and worthwhile engagement. Fischer’s ownership distinction addresses one issue, but ownership alone does not answer whether the future relates adequately to present reasons for surviving. His appeal to variety and renewable activities directly contests inevitable motivational exhaustion. Conversely, simply making an immortal person feel content does not establish that their condition is good, and finite repeatability does not prove unlimited renewal. Neither a fixed character nor total psychological disconnection exhausts every conceivable developmental model; the defender must specify an intermediate model and its identity relation. The challenge to necessarily desirable immortality is substantial, while a universal impossibility of worthwhile endurance remains disputed. **A-T14-003.**
+
+T13 prevents a shortcut: a future being with copied memories is not automatically the original person. Nor is perfect knowledge of a finite life by a universal mind automatically its continuation. Information, memory, relationships, effects, value, recognition and actual subjectivity must be evaluated separately. Under M1, persons can continue in time. Under M2, a timeless foundation grounds temporal persons without itself learning sequentially. M3’s enlarged history needs actual further first-person reality and an ownership relation; inclusion of a finite history alone supplies preservation. M4 retains records or value. None is silently substituted for another. **CL-T14-013–014.**
+
+## Making the consciousness-factory proposal explicit
+
+[purpose_hypotheses.json](purpose_hypotheses.json) distinguishes eight variants. CF0 says consciousness occurs. CF1 adds intended production; CF2 adds development; CF3 adds personal preservation; CF4 instead preserves histories or recognition. CF5 is impersonal teleology, and CF6 describes incidental production, and CF7 is constrained local agency. These are different explanations with different commitments, not mutually exclusive probability bins.
+
+The positive intentional explanation is that a worthy agent chooses or grounds a world in which persons realize goods unavailable without conscious life. It can explain why conscious development has a place in a larger reality, conditional on its agency, purposes and grounding relation. A coherent timeless intention might concern a complete ordered history; it need not be a decision preceded by deliberation. But intentions, normative worth and the actual cosmic relation each need warrant. Being created for a role does not by itself make the role good or morally binding. **A-T14-004.**
+
+A developmental model must declare whether it promises opportunities or successful development, for whom, with what constraints and permitted costs. Severe deprivation then presents a relevant challenge in that declared domain. Appeals to later growth cannot count as evidence of later growth; they need independent support. A preservation model must specify what is retained and whether persons continue. A production-only model does not predict universal welfare or personal survival. No abundance prediction follows from an unspecified creator who wants at least some consciousness.
+
+The proposed tests concern distribution, developmental opportunity and preservation. None was performed here. Unknown populations and cosmic conditions remain unknown. Our existence is also conditioned by observing as conscious beings, so observing consciousness cannot be treated as an unselected cosmic sample. Philosophical coherence and explanatory warrant matter alongside potential empirical discrimination; falsifiability is not the sole criterion. Nevertheless, hidden goals adjusted to accommodate every outcome earn little predictive credit. The same observation and value premise reused in several arguments cannot be counted as independent successes. **A-T14-005; CL-T14-015–018.**
+
+## Handoff
+
+The nine-component assessment remains conditional. This task establishes neither survival nor cosmic intention, and neither a metaphysical winner nor equal evidential support. Rejecting the non-loss necessity premise leaves finite value and comparative enhancement available; changing identity may change personal continuation into successor benefit; omitting retrospective NDE reports leaves these philosophical distinctions intact but supplies no new survival evidence.
+
+Each included original has a bounded backward-reference check and a separate forward query. Williams uses the unchanged historical Q-T14-006 query, followed by actual backward inspection of the recovered chapter. Later critics/replies, Wolf’s final version and Fischer’s exact reprint provenance remain explicit G2 gaps. T15 owns full moral grounding, evil and hiddenness analysis. R14 should supplement its previous four-source review with the recovered Williams original and changed records before canonical integration.

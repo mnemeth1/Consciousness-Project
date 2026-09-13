@@ -1,0 +1,3719 @@
+{
+  "task_id": "T17",
+  "status": "released_after_R18_G3_with_erratum",
+  "designs_executed": 8,
+  "scenario_count": 17,
+  "component_coverage": "Each scenario lists all nine components. Unchanged entries explicitly inherit T17-BASE-H-* with exact anchors; changed entries describe narrower/wider warrant without equating confidence labels to probabilities.",
+  "scenarios": [
+    {
+      "scenario_id": "T17-01A",
+      "test_id": "SENS-G2-01",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Reynolds-specific perception and technical hearing dispute are removed from positive and counterevidence use. Dentures, Alexander and prospective arms retain their own unestablished timing/exclusion chains. The positive named-case case is narrower; no baseline threshold is crossed.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-REYNOLDS",
+            "RT-T16-B-TIMING"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "explicit_change",
+          "assessment": "One resuscitation illustration is removed, while irreversible-death and same-person requirements remain independently supported. No weakening of the target definition.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [
+            "RT-T16-S-BOUNDARY"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "No Reynolds content can return through a reply or mixed T19 summary. C-T19-001 remains one TG witness chain.",
+      "surviving_routes_reference": "route_impact.json:T17-01A",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-01B",
+      "test_id": "SENS-G2-01",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Dentures-specific object-location warrant and its sensory counteraccount are removed. Reynolds, Alexander and prospective arms remain. The Dutch study remains a cohort, with the dentures anecdote omitted; no cohort participant count is changed.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-DENTURES",
+            "RT-T16-B-TIMING"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "explicit_change",
+          "assessment": "The removed illustrative case contributed no verified beyond-irreversible-death episode. Boundary requirement and other cases remain.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [
+            "RT-T16-S-BOUNDARY"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Distinctive nurse attribution is lost, not an independent cohort confirmation.",
+      "surviving_routes_reference": "route_impact.json:T17-01B",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-01C",
+      "test_id": "SENS-G2-01",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Both selected T19 routes lose case-specific evidential warrant. Alexander and prospective evidence remain constrained by timing and information access; the additional-case convergence is unavailable. Neural contribution evidence survives.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-REYNOLDS",
+            "RT-T16-B-DENTURES",
+            "RT-T16-B-TIMING"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "explicit_change",
+          "assessment": "Both T19 examples leave the assessment. Identity theory and the resuscitation/irreversible-death distinction survive, so H-S remains unestablished.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [
+            "RT-T16-S-BOUNDARY"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Removing both positive reports also removes their ordinary-mechanism disputes; a possible mechanism is never retained as an explanation of a removed case.",
+      "surviving_routes_reference": "route_impact.json:T17-01C",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-02",
+      "test_id": "SENS-G2-02",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "Narrative universality/motif appeals and contrary cultural case descriptions cannot be used from removed collections. Original universal-ground/individuation arguments remain; no empirical universality was established at baseline.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "All listed retrospective narratives and AWARE II ancillary arm are removed, including Neal and Moorjani outside explicit T16 support routes. AWARE I, AWARE II prospective and Dutch cohort remain with missing opportunity/timing constraints. Positive anomalous-detail material and retrospective selection/cultural counterevidence both shrink; no independently excluded-process acquisition emerges.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-REYNOLDS",
+            "RT-T16-B-DENTURES",
+            "RT-T16-B-ALEXANDER",
+            "RT-T16-B-TIMING"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "explicit_change",
+          "assessment": "Remaining resuscitated reports still do not cross the irreversible-death boundary. No empirical bridge to survival is gained by excluding retrospective reports.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [
+            "RT-T16-S-BOUNDARY"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "explicit_change",
+          "assessment": "Historical and selected NDE duration reports disappear from assessment. DMT within-person scale endorsement can remain, but the retrospective NDE comparator is removed. The conceptual distinction between phenomenology and ontology, and physics model limits, remain.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [
+            "RT-T16-T-PHYSICS"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "explicit_change",
+          "assessment": "Retrospective testimony to cosmic intention is excluded symmetrically with critical interpretation; order/selection and purpose-condition arguments remain uncalibrated.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "explicit_change",
+          "assessment": "Pleasant or distressing retrospective otherworld descriptions and attributed loving-core claims no longer enter the case. Suffering/hiddenness arguments and conditional restoration theory remain; eliminating distressing reports does not verify benevolent governance.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Retained prospective recruitment still yields recalled reports, not direct time-stamped experience. Dutch anecdote excluded; cohort denominators unchanged. DMT is 13 repeated-condition persons, not 26 people.",
+      "surviving_routes_reference": "route_impact.json:T17-02",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-03",
+      "test_id": "SENS-G2-03",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "No independent motif-convergence argument survives this withdrawal from the designated uncertain groups. Universal-ground theory remains conditional; known shared Bede source stays non-additive without being called one event.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Uncertain IANDS/Liège/shared-comparator convergence is withdrawn, reducing both cross-context recurrence appeal and any pooled comparison-based countercase. Remaining individual descriptive reports and independent prospective constraints do not establish extracerebral acquisition.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "explicit_change",
+          "assessment": "Cross-sample recurrence of time-item endorsements is no longer usable. Item ambiguity and within-person drug reporting still challenge a unique phenomenology-to-timelessness inference.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [
+            "RT-T16-T-PHYSICS"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Uncertain overlap is treated as uncertain: a conservative no-convergence-use operation, not an assertion that participants are duplicated.",
+      "surviving_routes_reference": "route_impact.json:T17-03",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-04",
+      "test_id": "SENS-G2-04",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Survival located without a functioning biological brain conditionally requires a brain-independent realization, but merely adopting a simple-subject criterion is no evidence that it occurs.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "explicit_change",
+          "assessment": "Identity criterion changes what would establish SAME; no variant supplies actual beyond-death subjectivity. Strict identity, nonbranching psychological continuity, organism persistence and independently warranted simple bearer remain distinct evidential demands. Successor concern changes target and cannot be relabeled H-S.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [
+            "RT-T16-S-CONTINUE",
+            "RT-T16-S-BOUNDARY"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "explicit_change",
+          "assessment": "M2 and enlarged M3 can place temporal persons under a non-successive foundation; choosing an identity theory neither establishes nor disproves that foundation.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "explicit_change",
+          "assessment": "M4 permits records/value preservation without H-S. M1/M2/enlarged M3 permit narrow subjectivity preservation only conditional on actual further experience and an adequate identity relation.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [
+            "RT-T16-P-RECORD",
+            "RT-T16-P-SUBJECT"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "explicit_change",
+          "assessment": "A preserving/developmental purpose changes adequacy conditions with the target: preserving records, successors or the same persons are different ends. None establishes an actual agent.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "explicit_change",
+          "assessment": "Victim-specific restoration requires the victim, not only a successor who resembles them. M4 and branching concern cannot automatically satisfy this condition; permission reasons remain separate even if restoration is granted.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [
+            "RT-T16-G-RESTORE"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "History and identity variants are evaluated in bounded tables, not a combinatorial confidence score. Meaning enhancement requires worthwhile continuation appropriately related to the subject, beyond bare identity.",
+      "surviving_routes_reference": "route_impact.json:T17-04",
+      "remaining_discriminating_question": "What independent evidence establishes the chosen numerical-identity relation and actual further subjectivity?"
+    },
+    {
+      "scenario_id": "T17-05A",
+      "test_id": "SENS-G2-05",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Reject BP-T16-NECESSITY: the added all-meaning-requires-endurance thesis loses its bridge. All nine components retain baseline because no original required-input edge uses this premise. Enhancement and finite value remain separate live conditional claims; preference for enduring significance is not evidence of its actuality.",
+      "surviving_routes_reference": "route_impact.json:T17-05A",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-05B",
+      "test_id": "SENS-G2-05",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "explicit_change",
+          "assessment": "The T17 unity-to-obligation extension is unavailable. RT-T16-A-UNITY remains a challenge identifying the needed bridge. Craig-style authority and Railton-style naturalist accounts remain conditional alternatives; no moral nihilism follows.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "No original T16 support edge is deleted by removing BP-T16-UNITYNORM. Descriptive universal subjecthood remains independently assessed, not denied.",
+      "surviving_routes_reference": "route_impact.json:T17-05B",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-05C",
+      "test_id": "SENS-G2-05",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "explicit_change",
+          "assessment": "The authority route is disabled without denying good nature or removing suffering/hiddenness/restoration arguments. Goodness cannot be inferred from commands once legitimate authority is rejected.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "explicit_change",
+          "assessment": "RT-T16-A-NATURE loses its necessary AUTH input and cannot ground binding authority on this route. Value/good-nature premises are not removed, and the naturalist alternative remains conditional. H-A is not disproved for every conceivable grounding account.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [
+            "RT-T16-A-NATURE"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Full-package authority support must remain unestablished; its H-A input is not activated or negated mechanically. Meaning and survival do not depend on AUTH.",
+      "surviving_routes_reference": "route_impact.json:T17-05C",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-06A",
+      "test_id": "SENS-G2-06",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "explicit_change",
+          "assessment": "The global explanation route F-GROUND is disabled without PSR. F-GAP remains conditional on PHEN/MODAL/FUND; no physical identity conclusion follows.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [
+            "RT-T16-F-GROUND"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "One proposed upstream motivation from necessary explanation to a mental foundation is lost. Conditional universal-ground coherence remains if H-F/GROUND/INDIV/NEURALMAP are independently supplied; it gains no truth warrant.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [
+            "RT-T16-U-GROUND"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "explicit_change",
+          "assessment": "Global-explanation pressure cannot be reused as creator support. Order-route candidate/preferences comparison remains a different conditional argument, still uncalibrated.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "X-T16-EX remains a conditional conscious-ground proposal, with no demand that the totality must have such an explanation under this scenario.",
+      "surviving_routes_reference": "route_impact.json:T17-06A",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-06B",
+      "test_id": "SENS-G2-06",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "explicit_change",
+          "assessment": "F-GAP is disabled: the phenomenal target remains, but ideal conceivability is not licensed to infer non-grounding. F-GROUND remains conditional on PSR/MENTAL/FUND, and identity still needs its own positive warrant.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [
+            "RT-T16-F-GAP"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "One indirect motivation for fundamental consciousness weakens; universality is still not entailed by fundamentality and its conditional grounding route is not mechanically deleted.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [
+            "RT-T16-U-GROUND"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Rejecting MODAL is not rejecting experience, nor proving all experiential facts physically grounded.",
+      "surviving_routes_reference": "route_impact.json:T17-06B",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-06C",
+      "test_id": "SENS-G2-06",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "explicit_change",
+          "assessment": "I-ORDER loses EXPECT, so observed order/life cannot support this specified differential designer-preference inference. Candidate and actual-agent grounding conditions can still be described, but no other defended differential expectation is supplied by this corpus.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [
+            "RT-T16-I-ORDER"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "explicit_change",
+          "assessment": "No life-valuing preference inferred via I-ORDER is available for a benevolent-designer story. Independent conditional goodness/evil/hiddenness arguments are unchanged; order did not establish goodness at baseline.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Observed life/order survives as explanandum. Failure of this abductive bridge does not prove no purpose or no agent.",
+      "surviving_routes_reference": "route_impact.json:T17-06C",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-07A",
+      "test_id": "SENS-G2-07",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "explicit_change",
+          "assessment": "Empirical fit of physical realization loses one content-manipulation example; Papineau conceptual identity defense remains. A weaker neural countercase is not evidence for fundamentality.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "One embodied mapping constraint is withdrawn; remaining state/association constraints still must be recovered by a universal interface account without unconstrained retrospective adjustment.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Remove human fusiform report-distortion contribution and its single-patient/control caveats from B-NEURAL. Macaque causal arousal, human anesthesia associations and visual encoding constraints remain. Human content-specific causal warrant becomes thinner, but extracerebral acquisition gains no positive evidence.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-NEURAL"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Only selected intervention contribution of CL-T09-019/020 is withdrawn; the aggregate is not discarded.",
+      "surviving_routes_reference": "route_impact.json:T17-07A",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-07B",
+      "test_id": "SENS-G2-07",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "explicit_change",
+          "assessment": "Identity remains a contested inference with retained human evidence; losing two-animal evidence does not resolve the phenomenal gap.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "Macaque state-mapping test is absent, but retained human constraints continue to burden embodiment accounts.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Remove central-thalamic macaque arousal/neural contribution. Human fusiform causal report manipulation and anesthesia/visual associations remain. Direct animal state-intervention warrant is lost without establishing brain independence.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-NEURAL"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Remove positive behavioral effect and awareness-proxy criticisms together for this case, not all neural evidence.",
+      "surviving_routes_reference": "route_impact.json:T17-07B",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-07CH",
+      "test_id": "SENS-G2-07",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "explicit_change",
+          "assessment": "Human neural/report correlations provide less direct evidence of phenomenal realization, while experiential-gap reasoning is not refuted. Neither physical identity nor fundamentality is established by proxy skepticism.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "An interface account must still predict behavior and report changes; weakened direct phenomenal measurement does not make an unconstrained universal account explanatory.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Observed human reports, responses and neural changes remain. Their inferential force for phenomenal modulation is reduced; they still constrain report/access models. Prospective and named NDE human reports must receive the same reduced proxy credit, not an asymmetric upgrade.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-PROSPECT",
+            "RT-T16-B-REYNOLDS",
+            "RT-T16-B-DENTURES",
+            "RT-T16-B-ALEXANDER",
+            "RT-T16-B-TIMING",
+            "RT-T16-B-NEURAL"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "explicit_change",
+          "assessment": "Reported continued subjectivity receives no enhanced credit when the human-report bridge is weakened. Beyond-death and identity requirements remain unmet.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "explicit_change",
+          "assessment": "DMT/NDE time reports give weaker warrant for the precise experience represented by the response; the experience-to-ontology step remains independently unsupported.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [
+            "RT-T16-T-PHYSICS"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Proxy change is global to human report interpretation, including NDEs, not only neural intervention outcomes. It does not erase evidence that reports were made.",
+      "surviving_routes_reference": "route_impact.json:T17-07CH",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-07CA",
+      "test_id": "SENS-G2-07",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "explicit_change",
+          "assessment": "Animal phenomenal interpretation offers less support to realization claims; conceptual identity and human intervention constraints remain contested as before.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "Retain behavioral/neural mapping demands while reducing claims to know macaque phenomenology. Universal mind does not gain affirmative support from measurement uncertainty.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Macaque behavioral arousal and neural effects remain documented; subjective awareness interpretation is reduced. Human-report evidence and its own stated limits remain.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-NEURAL"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "unchanged_from_baseline",
+          "assessment": "Baseline retained: this operation removes no independent warrant or required condition for this component; no indirect truth upgrade is licensed.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "Arousal is not stipulated equivalent to awareness; proxy weakening does not mean the animals lacked experience.",
+      "surviving_routes_reference": "route_impact.json:T17-07CA",
+      "remaining_discriminating_question": "Which removed contribution or bridge could gain independent warrant sufficient to change this specific inference, without counting the same event or premise twice?"
+    },
+    {
+      "scenario_id": "T17-08",
+      "test_id": "SENS-G2-08",
+      "execution_status": "executed_qualitative_counterfactual",
+      "record_reliability_change": "None: this is an evidential-use/assumption intervention, not a new reliability finding or revision of accepted records.",
+      "component_assessments": [
+        {
+          "component_id": "H-F",
+          "baseline_assessment_id": "T17-BASE-H-F",
+          "delta_kind": "explicit_change",
+          "assessment": "Only exact inspected Chalmers/Papineau attributions support their authored positions. Missing developed illusionism and strong emergence cannot be represented as defeated opponents; conditional reconstructions remain labeled analysis. Broad family ranking remains withheld.",
+          "retained_confidence_label": "Contested positive philosophical motivation; actuality unresolved",
+          "route_ids_affected": [
+            "RT-T16-F-GAP",
+            "RT-T16-F-GROUND",
+            "RT-T16-F-IDENTITY"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-07",
+            "GATE-T16-08",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-U",
+          "baseline_assessment_id": "T17-BASE-H-U",
+          "delta_kind": "explicit_change",
+          "assessment": "Kastrup inspected proposal and actual combination/decomposition objections remain; failed Strawson access, complete plural-idealist/dualism chains and uninspected clinical illustrations supply no original-author warrant.",
+          "retained_confidence_label": "Conditional explanatory proposal; no discriminating actuality warrant",
+          "route_ids_affected": [
+            "RT-T16-U-GROUND",
+            "RT-T16-U-INDIV"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-01",
+            "GATE-T16-06",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-B",
+          "baseline_assessment_id": "T17-BASE-H-B",
+          "delta_kind": "explicit_change",
+          "assessment": "Retain inspected study/case texts at their actual source level. No AWARE author reply, later Reynolds replies or quoted primary clinical records are promoted to directly inspected sources.",
+          "retained_confidence_label": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+          "route_ids_affected": [
+            "RT-T16-B-PROSPECT",
+            "RT-T16-B-REYNOLDS",
+            "RT-T16-B-DENTURES",
+            "RT-T16-B-ALEXANDER",
+            "RT-T16-B-TIMING",
+            "RT-T16-B-NEURAL"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-04",
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-07",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-S",
+          "baseline_assessment_id": "T17-BASE-H-S",
+          "delta_kind": "explicit_change",
+          "assessment": "Locke/Olson/Swinburne selected originals remain narrow identity arguments. Swinburne short original is not full substance-dualism coverage or observation of a surviving bearer.",
+          "retained_confidence_label": "Not established by this corpus; additional endpoint and identity gaps",
+          "route_ids_affected": [
+            "RT-T16-S-CONTINUE",
+            "RT-T16-S-BOUNDARY"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-03",
+            "GATE-T16-05",
+            "GATE-T16-09",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-T",
+          "baseline_assessment_id": "T17-BASE-H-T",
+          "delta_kind": "explicit_change",
+          "assessment": "Selected time arguments remain at their actual attribution and model scope; project M1–M4 comparisons remain explicit reconstructions rather than author conclusions.",
+          "retained_confidence_label": "Model coherence contested; actuality unestablished",
+          "route_ids_affected": [
+            "RT-T16-T-M2",
+            "RT-T16-T-NOW",
+            "RT-T16-T-PHYSICS"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-05",
+            "GATE-T16-06",
+            "GATE-T16-09",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-P",
+          "baseline_assessment_id": "T17-BASE-H-P",
+          "delta_kind": "explicit_change",
+          "assessment": "Preservation/subjectivity distinctions remain conditional reasoning, not falsely attributed to a complete literature consensus.",
+          "retained_confidence_label": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+          "route_ids_affected": [
+            "RT-T16-P-RECORD",
+            "RT-T16-P-SUBJECT",
+            "RT-T16-P-LOSS"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-10",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-I",
+          "baseline_assessment_id": "T17-BASE-H-I",
+          "delta_kind": "explicit_change",
+          "assessment": "Selected author arguments remain, but missing strongest PSR/fine-tuning chains prohibit broad comparative superiority. Project purpose variants remain possible targets, not established authored or actual purposes.",
+          "retained_confidence_label": "Conditional explanatory value; differential evidential support uncalibrated",
+          "route_ids_affected": [
+            "RT-T16-I-ORDER",
+            "RT-T16-I-SELECTION"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-08",
+            "GATE-T16-10",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-G",
+          "baseline_assessment_id": "T17-BASE-H-G",
+          "delta_kind": "explicit_change",
+          "assessment": "Adams and Sutherland retain separate contributions sharing one document; Howard-Snyder 1996 versus Schellenberg 2025 is an inspected-position comparison, not a direct reply sequence.",
+          "retained_confidence_label": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+          "route_ids_affected": [
+            "RT-T16-G-RESTORE",
+            "RT-T16-G-EVIL",
+            "RT-T16-G-HIDDEN"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        },
+        {
+          "component_id": "H-A",
+          "baseline_assessment_id": "T17-BASE-H-A",
+          "delta_kind": "explicit_change",
+          "assessment": "Craig and Railton remain positive originals. Missing constructivist/non-natural realist positive originals cannot be treated as eliminated; author-attributed moral exclusivity remains withheld.",
+          "retained_confidence_label": "Distinct normative warrant required; unique conscious grounding unsupported",
+          "route_ids_affected": [
+            "RT-T16-A-NATURE",
+            "RT-T16-A-UNITY",
+            "RT-T16-A-RIVAL"
+          ],
+          "conclusion_gate_ids": [
+            "GATE-T16-02",
+            "GATE-T16-11",
+            "GATE-T16-12"
+          ]
+        }
+      ],
+      "cross_component_and_meaning_delta": "No new ranking is calculated because access-restricted original selection is not representative. Valid labeled project reasoning is retained as reasoning, not used as evidence of author positions.",
+      "surviving_routes_reference": "route_impact.json:T17-08",
+      "remaining_discriminating_question": "Which missing exact original defender/reply would change a claimed comparison cell? Repair that cell before ranking."
+    }
+  ],
+  "identity_variants": [
+    {
+      "variant_id": "T17-ID-PSYCH",
+      "criterion": "Psychological causal continuity, with nonbranching or independently defended unique-branch rule",
+      "H_S_result": "Conditional only. Causal quasi-memory/continuity must not presuppose the identity being proved; actual further experience beyond bodily death remains needed.",
+      "branching": "Strict identity cannot identify two distinct successors with one predecessor. A unique-branch policy needs independent warrant, not convenience.",
+      "meaning_restoration": "Continuity relevant to present projects can support concern and enhancement, but memory resemblance alone does not identify the same victim.",
+      "claim_ids": [
+        "CL-T13-001",
+        "CL-T13-007",
+        "CL-T13-008",
+        "CL-T13-009",
+        "CL-T14-020"
+      ]
+    },
+    {
+      "variant_id": "T17-ID-ORGANISM",
+      "criterion": "Persistence of the same human animal, with explicit biological cessation boundary",
+      "H_S_result": "Under a cessation/no-resumption criterion, an irreversibly ceased organism cannot persist as the same animal. If a resurrection/restoration model is proposed, independently specify why the animal itself persists or returns; this corpus supplies no such observed case.",
+      "branching": "A psychological copy is not enough to show persistence of the animal. Do not call conceptual disagreement about the boundary empirical survival.",
+      "meaning_restoration": "Benefits to a successor or stored record are not automatically restoration of this animal-person.",
+      "claim_ids": [
+        "CL-T13-003",
+        "CL-T13-004",
+        "CL-T13-009",
+        "CL-T13-015"
+      ]
+    },
+    {
+      "variant_id": "T17-ID-SIMPLE",
+      "criterion": "Numerical identity of a simple subject or further-fact bearer",
+      "H_S_result": "Conditionally permits continuity through memory loss and biological death, but must independently warrant the bearer, its determinate identity and actual experience beyond death. Stipulating a soul is not observing one.",
+      "branching": "A further fact selecting one successor cannot be established merely because psychological evidence leaves two options.",
+      "meaning_restoration": "Can preserve the same victim in a model, yet worthwhile and appropriately related continuation still requires more than bare sameness.",
+      "claim_ids": [
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T13-009",
+        "CL-T14-020"
+      ]
+    },
+    {
+      "variant_id": "T17-ID-STRICT",
+      "criterion": "Strict numerical identity is the unchanged project target",
+      "H_S_result": "All candidate criteria must satisfy same-person subjectivity beyond irreversible bodily death; interrupted consciousness alone neither proves nor disproves identity.",
+      "branching": "Two distinct successors cannot both be strictly identical to one original.",
+      "meaning_restoration": "Bare numerical survival may fail present-aim relatedness or worthwhile continuation.",
+      "claim_ids": [
+        "CL-T13-007",
+        "CL-T13-009",
+        "CL-T13-015",
+        "CL-T14-020"
+      ]
+    },
+    {
+      "variant_id": "T17-ID-CONCERN",
+      "criterion": "Prudential psychological continuity or successor concern",
+      "H_S_result": "Renamed target X-T17-SUCCESSOR-CONCERN; it does not satisfy unchanged H-S merely by being valuable or allowing branching.",
+      "branching": "Concern can extend to multiple successors without making them one numerically identical person.",
+      "meaning_restoration": "May preserve projects and benefit successors; this differs from original-victim restoration and requires its own value judgment.",
+      "claim_ids": [
+        "CL-T13-007",
+        "CL-T13-018",
+        "CL-T14-010",
+        "CL-T15-009"
+      ]
+    }
+  ],
+  "history_models": [
+    {
+      "model": "M1 temporal continuation",
+      "H_S": "Possible if actual future subjectivity crosses the death boundary under an adequate same-person criterion; not evidenced just by model construction.",
+      "H_T": "Not required for the person or foundation.",
+      "H_P": "Narrow subjectivity preservation follows if H-S obtains.",
+      "meaning": "Worthwhile continuation can enhance significance; duration alone does not ensure worth."
+    },
+    {
+      "model": "M2 timeless foundation with temporal persons",
+      "H_S": "Requires actual personal continuation in addition to a timeless foundation; one does not entail the other.",
+      "H_T": "Foundation specified as non-successive; persons may have sequential experience without contradiction in the same bearer/respect.",
+      "H_P": "Could preserve records or subjects; target must be specified.",
+      "meaning": "Enduring benefit requires same-person temporal goods, not merely the foundation knowing finite lives."
+    },
+    {
+      "model": "M3 finite complete history inclusion",
+      "H_S": "Fails to supply the required additional subjectivity beyond the bodily-life boundary.",
+      "H_T": "Timeless inclusion does not extend the included subject-history.",
+      "H_P": "Can conditionally preserve a finite history or representation.",
+      "meaning": "Preserved significance of a finite life is not extra lived continuation."
+    },
+    {
+      "model": "M3 enlarged actual subject-history",
+      "H_S": "Can satisfy target if the enlarged history actually includes same-person subjectivity beyond death; that is a substantive assumption, not independent evidence.",
+      "H_T": "Non-successive foundation can conditionally include an ordered enlarged history.",
+      "H_P": "Narrow subjectivity preservation follows if enlarged same-person history is actual.",
+      "meaning": "Possible enhancement and victim restoration require worthwhile, appropriately related further experience."
+    },
+    {
+      "model": "M4 records/value without original continuation",
+      "H_S": "Does not satisfy same-person subjectivity target.",
+      "H_T": "No entailment; record bearer may be temporal or stipulated timeless.",
+      "H_P": "Can satisfy only specified record/value preservation, with actual bearer and persistence still needing warrant.",
+      "meaning": "Records or successors may matter, but compensation to others is not automatically original-victim restoration."
+    }
+  ],
+  "original_comparison_cells": [
+    {
+      "family_id": "M-T03-PH",
+      "criterion": "C1",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-003"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Different concepts can refer to one property; a positive identity warrant is needed, not merely absence of contradiction.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-35",
+        "G2-GAP-24"
+      ]
+    },
+    {
+      "family_id": "M-T03-PH",
+      "criterion": "C2",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-003"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Can unify embodiment and experience if realization succeeds; physics/laws remain a stopping point and cosmic intention/value are separate additions.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-35",
+        "G2-GAP-24"
+      ]
+    },
+    {
+      "family_id": "M-T03-PH",
+      "criterion": "C3",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-003"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Avoids extra basic experiential laws by stipulation, but owes a realization/identity account, subject boundaries and a justified causal-completeness premise if used.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-35",
+        "G2-GAP-24"
+      ]
+    },
+    {
+      "family_id": "M-T03-PH",
+      "criterion": "C4",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T07-016",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-001",
+        "CL-T12-003",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T07-016"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-003",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Fits selected causal neural contributions; no current accepted case establishes the process exclusion needed to refute a specified model. Phenomenal adequacy remains contested.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-35",
+        "G2-GAP-24"
+      ]
+    },
+    {
+      "family_id": "M-T03-PH",
+      "criterion": "C5",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T09-001",
+        "CL-T09-002",
+        "CL-T12-001",
+        "CL-T12-003",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T09-001"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T09-002",
+        "CL-T12-003",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Fix necessary realization conditions before testing excluded-process experience; content-specific interventions matter but report proxies must remain explicit.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-35",
+        "G2-GAP-24"
+      ]
+    },
+    {
+      "family_id": "M-T03-PH",
+      "criterion": "C6",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-003"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Why this organization is experiential remains disputed. Do not demand explanation of every conscious primitive while permitting physical primitives without comparison.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-35",
+        "G2-GAP-24"
+      ]
+    },
+    {
+      "family_id": "M-T03-PL",
+      "criterion": "C1",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T12-007",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-005",
+        "CL-T12-007"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Irreducible properties can lawfully depend on physical organization; closure plus causal mental relevance raises exclusion/epiphenomenal issues.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PL",
+      "criterion": "C2",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T12-007",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-005",
+        "CL-T12-007"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Addresses experiential properties and neural mapping while leaving basic laws and concrete existence unexplained; no detachable person follows.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PL",
+      "criterion": "C3",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T12-007",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-005",
+        "CL-T12-007"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Adds experiential primitives and law mappings. Economy depends on general constraints and successful application, not simply their being extra.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PL",
+      "criterion": "C4",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T07-016",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T12-007",
+        "CL-T12-008",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-005",
+        "CL-T12-007"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T07-016"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-006",
+        "CL-T12-008",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "PL1 can expect neural dependence; it is not refuted by interventions merely because experience is fundamental. Retrospective anomalies remain underdetermined.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PL",
+      "criterion": "C5",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T12-007",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-005",
+        "CL-T12-007"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Prespecified mappings across systems could discriminate law variants; arbitrary mappings fitted separately to every case earn no predictive credit.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PL",
+      "criterion": "C6",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T12-007",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-005",
+        "CL-T12-007"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Why these laws, bounded subjects, and reliable experience-based beliefs under closure remain burdens. Primitive laws receive the same stopping-rule test as PH/ID.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PA",
+      "criterion": "C1",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-012"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-012"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Experiential role-realizers may avoid an entirely nonexperiential origin, but many micro-subjects do not automatically constitute one macro-subject.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PA",
+      "criterion": "C2",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-012"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-012"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Can connect phenomenality and physical causal roles; ubiquity of experience alone does not explain existence, human survival or cosmic purpose.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PA",
+      "criterion": "C3",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-012"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-012"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Adds a constitutive/bonding relation with subject, quality and structure constraints. Whole-first variants exchange combination for decomposition.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PA",
+      "criterion": "C4",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T07-016",
+        "CL-T08-008",
+        "CL-T08-012",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-012",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T07-016",
+        "CL-T08-008"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T08-012",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-012",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Can recover neural effects through experiential realization of roles; specific mapping remains owed. Neither NDE motifs nor intervention facts select ubiquitous experience.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PA",
+      "criterion": "C5",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-012"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-012"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "An explicit rule predicting subject boundaries, integration and dissociation would constrain the proposal; access to micro-subjectivity remains difficult.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-PA",
+      "criterion": "C6",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-012"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-012"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Primitive experiential bases and constitution remain stopping points. PA3 overlaps ID2; protoexperience needs a new H-F assessment, not inherited credit.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-DU",
+      "criterion": "C1",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T13-005"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T13-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "A distinct bearer can model persistence, but interaction or one-way dependence needs explicit laws; epistemic underdetermination does not itself prove an immaterial entity.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-DU",
+      "criterion": "C2",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T13-005"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T13-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Offers a bearer for subject unity and possible survival; distinctness neither supplies actuality beyond death nor explains all physical existence.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-DU",
+      "criterion": "C3",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T13-005"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T13-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Adds individual subjects, interaction/dependence laws and persistence conditions. Emergent irreducible subjects need not satisfy H-F.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-DU",
+      "criterion": "C4",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T07-016",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-008",
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T13-005"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T07-016"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-008",
+        "CL-T13-006",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Neural dependence can be interface dependence if the interface has independently fixed constraints; neither generic possibility nor retelling establishes that account.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-DU",
+      "criterion": "C5",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T09-001",
+        "CL-T09-002",
+        "CL-T12-008",
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T13-005"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T09-001"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T09-002",
+        "CL-T12-008",
+        "CL-T13-006",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Prespecify when subject activity can proceed without specified neural processes and how content enters reports; assess timing and ordinary access before anomaly credit.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-DU",
+      "criterion": "C6",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T12-008"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T13-005"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T13-006",
+        "CL-T12-008"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Causal/epistemic fit and survival conditions remain open. Full original-family ranking is withheld rather than defeating a project straw version.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-ID",
+      "criterion": "C1",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-016",
+        "CL-T12-017"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-015",
+        "CL-T12-018"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Distinct finite perspectives can depend on one whole without all being identical to it; psychological dissociation analogy does not establish cosmic individuation.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-ID",
+      "criterion": "C2",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-016",
+        "CL-T12-017"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-015",
+        "CL-T12-018"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "One conscious basis could unify subjectivity, public lawfulness and concrete grounding; further survival, timelessness, intention and goodness are independent additions.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-ID",
+      "criterion": "C3",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-016",
+        "CL-T12-017"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-015",
+        "CL-T12-018"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Mental primitive plus grounding, appearance, law and individuation relations. Unification is valuable only if the same constraints do several jobs instead of renaming separate puzzles.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-ID",
+      "criterion": "C4",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T07-016",
+        "CL-T08-008",
+        "CL-T08-012",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-016",
+        "CL-T12-017"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T07-016",
+        "CL-T08-008"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T08-012",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T12-015",
+        "CL-T12-018",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Brain changes can be changes in mentally grounded relations; exact intervention mapping is still needed. Shared phenomenology does not by itself prove a universal subject.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-ID",
+      "criterion": "C5",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T09-001",
+        "CL-T09-002",
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-016",
+        "CL-T12-017"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T09-001"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T09-002",
+        "CL-T12-015",
+        "CL-T12-018",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Fix manifestation and individuation rules that could fail under neural/perceptual contrasts; an unconstrained appearance vocabulary cannot win by accommodating all outcomes.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-ID",
+      "criterion": "C6",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-016",
+        "CL-T12-017"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T12-015",
+        "CL-T12-018"
+      ],
+      "other_narrow_anchor_ids": [],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Why this concrete history/law and these private subjects remains. ID1 need not satisfy H-U; ID2 can, and nonintentional ID2 lacks H-I.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-24",
+        "G2-GAP-25"
+      ]
+    },
+    {
+      "family_id": "M-T03-TH",
+      "criterion": "C1",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [],
+      "other_narrow_anchor_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002"
+      ],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Timeless ground plus temporal persons is a conditional option; perfect knowledge under objective tense and good governance require separate coherent specifications.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-20",
+        "G2-GAP-22",
+        "G2-GAP-30",
+        "G2-GAP-32"
+      ]
+    },
+    {
+      "family_id": "M-T03-TH",
+      "criterion": "C2",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [],
+      "other_narrow_anchor_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002"
+      ],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Could unify existence, order, conscious value and cosmic purpose; created-person ontology may be PH, PL or DU. Survival requires an additional provision.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-20",
+        "G2-GAP-22",
+        "G2-GAP-30",
+        "G2-GAP-32"
+      ]
+    },
+    {
+      "family_id": "M-T03-TH",
+      "criterion": "C3",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [],
+      "other_narrow_anchor_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002"
+      ],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Adds agent preferences, actual grounding, good nature, authority and possibly restoration. Necessary existence and unlimited power/knowledge are not free properties of every TH variant.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-20",
+        "G2-GAP-22",
+        "G2-GAP-30",
+        "G2-GAP-32"
+      ]
+    },
+    {
+      "family_id": "M-T03-TH",
+      "criterion": "C4",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T07-016",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T10-018",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-006",
+        "CL-T15-013",
+        "CL-T15-023",
+        "CL-T15-024",
+        "CL-T19-021"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T15-006",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [
+        "CL-T07-016"
+      ],
+      "project_reasoning_anchor_ids": [
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T10-018",
+        "CL-T19-021"
+      ],
+      "other_narrow_anchor_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-013"
+      ],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Order/life may favor independently motivated intentions; suffering/hiddenness challenge specified perfect-power/love variants. Neural dependence of created persons is compatible.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-20",
+        "G2-GAP-22",
+        "G2-GAP-30",
+        "G2-GAP-32"
+      ]
+    },
+    {
+      "family_id": "M-T03-TH",
+      "criterion": "C5",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T14-015",
+        "CL-T14-017",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [
+        "CL-T14-015",
+        "CL-T14-017"
+      ],
+      "other_narrow_anchor_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002"
+      ],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Prespecify purpose, population, means and tradeoffs: CF0 is the descriptive occurrence of conscious life, with no purpose prediction; CF1 intentional production, CF2 development and CF3 preservation face different tests. Unrestricted hidden reasons weaken differential expectations.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-20",
+        "G2-GAP-22",
+        "G2-GAP-30",
+        "G2-GAP-32"
+      ]
+    },
+    {
+      "family_id": "M-T03-TH",
+      "criterion": "C6",
+      "original_cell_status": "project_reconstruction_retained_as_labeled_reasoning",
+      "claim_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "candidate_original_attribution_anchor_ids": [
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "reviewed_empirical_or_case_anchor_ids": [],
+      "project_reasoning_anchor_ids": [],
+      "other_narrow_anchor_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002"
+      ],
+      "exact_attribution_rule": "Only the statement/locator of each accepted anchor is retained as an author attribution. Source type alone is not certification that the whole T16 cell is an authored conclusion; no cell becomes direct original-author comparison evidence.",
+      "unchanged_conditional_assessment": "Why that agent/nature/intention and legitimate authority remains. Creator need not be numerically identical to persons; TH1 can satisfy T01 H-U in its created-subject domain.",
+      "excluded_upgrade": "Representative or strongest-family victory; missing variants remain uninspected.",
+      "gap_ids": [
+        "G2-GAP-20",
+        "G2-GAP-22",
+        "G2-GAP-30",
+        "G2-GAP-32"
+      ]
+    }
+  ],
+  "original_restriction_summary": {
+    "retained": "Papineau/Chalmers selected originals; Kastrup inspected proposal; selected identity/time originals; Craig/Railton and Adams/Sutherland; Wolf inspected draft, Williams supplied original and other T14 exact attributions within their version limits.",
+    "excluded": "Failed-access Strawson; missing developed illusionist, strong-emergentist, substance-dualist and plural-idealist chains; missing constructivist/non-natural-realist positive originals; uninspected underlying Kastrup clinical material; unseen AWARE and later Reynolds replies.",
+    "historical_pair_limit": "Howard-Snyder 1996 and Schellenberg 2025 are separate inspected positions, not a directly observed reply pair.",
+    "moral_overlay": "Craig nature/value versus commands/authority and Railton interests/impartiality versus categorical reasons remain separate. Neither position receives an exclusivity win from missing rivals."
+  }
+}

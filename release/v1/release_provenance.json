@@ -1,0 +1,78 @@
+{
+  "version": "1",
+  "date": "2026-09-12",
+  "accepted_review": "state/acceptance_R18.json",
+  "gate": "state/acceptance_G3.json",
+  "erratum_id": "ERR-R18-PURPOSE-01",
+  "erratum_sha256": "631264190ef514fb0bc957b6aa749628be3cc293aedc25b29eab4d97970e9f78",
+  "lineage": [
+    {
+      "source": "work/T18/report.md",
+      "source_sha256": "e31204f7f1f4cd50629af32acc52f644fe5a142331c3f9be6fc429e8b6f6405f",
+      "release_artifact": "release/v1/Consciousness_and_Existence_Synthesis.md",
+      "changes": "Apply reviewed CF0/CF1 corrected cell; update release/review status and annex navigation. Substantive assessment otherwise unchanged."
+    },
+    {
+      "source": "work/T16/alternatives_matrix.json",
+      "source_sha256": "d5be5eac4d44a839053bf2087fdb528bf75fd5aaade3a3651af36d91bbc16a5c",
+      "release_artifact": "release/v1/alternatives_matrix.json",
+      "changes": "Apply ERR-R18-PURPOSE-01 to creator C5; administrative release status."
+    },
+    {
+      "source": "work/T17/sensitivity_results.json",
+      "source_sha256": "f151bc80c34725ef21bbec49240c42913d3ff47f83fc53f75efe3f579f7b479b",
+      "release_artifact": "release/v1/sensitivity_results.json",
+      "changes": "Apply ERR-R18-PURPOSE-01 to carried creator C5; all scenario operations/results unchanged; administrative release status."
+    },
+    {
+      "source": "work/T18/conclusion_crosswalk.json",
+      "source_sha256": "f57eb0ad65950b090bfbb291e0efb15a5bcb334de83322f7df9bd75fc2df606e",
+      "release_artifact": "release/v1/conclusion_crosswalk.json",
+      "changes": "Apply reviewed creator C5 wording and authoritative release/erratum metadata; all copied accepted records unchanged."
+    },
+    {
+      "source": "work/T18/source_appendix.md",
+      "source_sha256": "682daa628dd6a06a0c307c88b2bcb6da3a85028f2980bbd001ccf0d687541f64",
+      "release_artifact": "release/v1/source_appendix.md",
+      "changes": "Unchanged accepted input copy; historical metadata retained."
+    },
+    {
+      "source": "work/T16/dependency_map.json",
+      "source_sha256": "5ff6cb63ec4c6dfeded9d634fcda853e2498a35260291a1b6e0be2d0d57ca212",
+      "release_artifact": "release/v1/dependency_map.json",
+      "changes": "Unchanged accepted input copy; historical metadata retained."
+    },
+    {
+      "source": "work/T16/component_routes.json",
+      "source_sha256": "59074f77358c2081f34cff72aa042133f0a8d21924b5cfa07a00fc3045a2f95d",
+      "release_artifact": "release/v1/component_routes.json",
+      "changes": "Unchanged accepted input copy; historical metadata retained."
+    },
+    {
+      "source": "work/T17/baseline_assessment.json",
+      "source_sha256": "f9fea92a8644c4fb6a2b4218e0eca9ef991d351bc24bc9c578716cecd68cf203",
+      "release_artifact": "release/v1/baseline_assessment.json",
+      "changes": "Unchanged accepted input copy; historical metadata retained."
+    },
+    {
+      "source": "work/T17/scenario_operations.json",
+      "source_sha256": "ed521cd14c8987cdf0f79299d8633c9f8f113d2d4fa31adb57335fafb3583886",
+      "release_artifact": "release/v1/scenario_operations.json",
+      "changes": "Unchanged accepted input copy; historical metadata retained."
+    },
+    {
+      "source": "work/T17/route_impact.json",
+      "source_sha256": "fa19a584564c92891651acd17c566859b7c8eadfad601bce3bfaddf1c0879dc2",
+      "release_artifact": "release/v1/route_impact.json",
+      "changes": "Unchanged accepted input copy; historical metadata retained."
+    },
+    {
+      "source": "work/T16/conclusion_gate_map.json",
+      "source_sha256": "e817236191a54166656e03653346854e345c8cbd8eeb3a7d19e37bb715a77c11",
+      "release_artifact": "release/v1/conclusion_gate_map.json",
+      "changes": "Unchanged accepted input copy; historical metadata retained."
+    }
+  ],
+  "new_research": false,
+  "historical_metadata_policy": "Copied historical assessment/status labels describe authoring time. R18 acceptance and G3 release govern current methodological disposition, with all scope restrictions retained."
+}

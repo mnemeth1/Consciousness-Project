@@ -1,0 +1,369 @@
+{
+  "task_id": "T17",
+  "status": "submitted",
+  "labels_policy": "Labels separate kinds of warrant, not ordinal probabilities; no equality follows from several unresolved actualities. Record acceptance is methodological, not acceptance of metaphysical truth.",
+  "component_assessments": [
+    {
+      "assessment_id": "T17-BASE-H-F",
+      "component_id": "H-F",
+      "record_reliability": "Selected Chalmers/Papineau attributions are reliable within inspected texts; they disagree about inference, not simply the existence of a debate.",
+      "inference_strength": "Modal/fundamentality and PSR/mental-ground routes are substantive conditional arguments, not two independent observations. Identity is a developed counterproposal, not established by intervention alone.",
+      "component_confidence": "Contested positive philosophical motivation; actuality unresolved",
+      "reason": "The phenomenal target is a serious explanatory demand. A modal gap-to-ontology bridge and the further choice of basic rather than strongly emergent experience remain disputed. A required ultimate explanation does not by itself identify an experiential ground.",
+      "claim_ids": [
+        "CL-T05-001",
+        "CL-T05-002",
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003",
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T10-004",
+        "CL-T10-017"
+      ],
+      "argument_ids": [
+        "A-T05-001",
+        "A-T05-002",
+        "A-T12-001",
+        "A-T10-003"
+      ],
+      "route_ids": [
+        "RT-T16-F-GAP",
+        "RT-T16-F-GROUND",
+        "RT-T16-F-IDENTITY"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-01",
+        "GATE-T16-07",
+        "GATE-T16-08",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    },
+    {
+      "assessment_id": "T17-BASE-H-U",
+      "component_id": "H-U",
+      "record_reliability": "Kastrup text and selected combination/decomposition arguments are supported attributions; underlying clinical illustrations and rival original chains are incomplete.",
+      "inference_strength": "RT-T16-U-GROUND contains a ground and individuation premise partly specifying the conclusion. Coherent unification is a potential explanatory gain, not independent confirmation of the universal subject.",
+      "component_confidence": "Conditional explanatory proposal; no discriminating actuality warrant",
+      "reason": "A common conscious ground could unify experience and shared lawfulness, but fundamentality does not identify one subject or conscious whole. Individuation and constrained neural mapping are additional burdens.",
+      "claim_ids": [
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018"
+      ],
+      "argument_ids": [
+        "A-T12-004"
+      ],
+      "route_ids": [
+        "RT-T16-U-GROUND",
+        "RT-T16-U-INDIV"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-01",
+        "GATE-T16-06",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    },
+    {
+      "assessment_id": "T17-BASE-H-B",
+      "component_id": "H-B",
+      "record_reliability": "Study counts and reported technical disputes are supported records; event truth and patient-specific absence of processing are not equivalently established. AWARE II target opportunity intersection remains unknown.",
+      "inference_strength": "No inspected named-case route establishes the full REPORTTRUE/TIMELOCK/EXCLUSION/BMAP chain. Neural manipulation gives positive support to local brain contributions under proxies, but brain influence is not the negation of every independence model.",
+      "component_confidence": "Unresolved extracerebral acquisition; positive evidence for embodied neural contribution",
+      "reason": "Specific reports merit investigation, but independently fixed acquisition time and relevant process/information exclusion are missing. Prospective recruitment improves ascertainment without making recollection a real-time neural measurement.",
+      "claim_ids": [
+        "CL-T07-003",
+        "CL-T07-004",
+        "CL-T07-013",
+        "CL-T07-014",
+        "CL-T07-016",
+        "CL-T07-017",
+        "CL-T19-015",
+        "CL-T19-021",
+        "CL-T09-001",
+        "CL-T09-006",
+        "CL-T09-008",
+        "CL-T09-019"
+      ],
+      "argument_ids": [
+        "A-T09-001",
+        "A-T09-002"
+      ],
+      "route_ids": [
+        "RT-T16-B-PROSPECT",
+        "RT-T16-B-REYNOLDS",
+        "RT-T16-B-DENTURES",
+        "RT-T16-B-ALEXANDER",
+        "RT-T16-B-TIMING",
+        "RT-T16-B-NEURAL"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-03",
+        "GATE-T16-04",
+        "GATE-T16-05",
+        "GATE-T16-06",
+        "GATE-T16-07",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    },
+    {
+      "assessment_id": "T17-BASE-H-S",
+      "component_id": "H-S",
+      "record_reliability": "Identity authors are inspected attributions and case reports retain their narrow reliability; neither is a verified beyond-death observation.",
+      "inference_strength": "DEATH plus SAME are conditions specifying much of the target. Their conjunction explains what must be shown; no independent empirical increment follows from assuming them.",
+      "component_confidence": "Not established by this corpus; additional endpoint and identity gaps",
+      "reason": "Even verified unusual acquisition in a resuscitated person would not establish same-person subjectivity beyond irreversible death. Identity criteria yield different required evidence.",
+      "claim_ids": [
+        "CL-T13-001",
+        "CL-T13-003",
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T13-007",
+        "CL-T13-015",
+        "CL-T13-017",
+        "CL-T19-022"
+      ],
+      "argument_ids": [
+        "A-T13-001",
+        "A-T13-002",
+        "A-T13-003",
+        "A-T13-004"
+      ],
+      "route_ids": [
+        "RT-T16-S-CONTINUE",
+        "RT-T16-S-BOUNDARY"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-03",
+        "GATE-T16-05",
+        "GATE-T16-09",
+        "GATE-T16-10",
+        "GATE-T16-11",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    },
+    {
+      "assessment_id": "T17-BASE-H-T",
+      "component_id": "H-T",
+      "record_reliability": "Time-model and philosophical attributions are supported at their limited domains; duration reports are reports of phenomenology.",
+      "inference_strength": "TIMELESS/GROUND/INDIV build a model rather than discover its actuality. The NOW challenge depends on objective changing presentness and what knowledge requires; it is not a contradiction in every timeless model.",
+      "component_confidence": "Model coherence contested; actuality unestablished",
+      "reason": "A non-successive foundation with temporal persons is conditionally intelligible. Tensed knowledge poses a conditional challenge; altered duration and physics models do not establish an actual timeless bearer.",
+      "claim_ids": [
+        "CL-T11-001",
+        "CL-T11-006",
+        "CL-T11-007",
+        "CL-T11-009",
+        "CL-T11-014",
+        "CL-T11-015",
+        "CL-T11-016",
+        "CL-T13-014",
+        "CL-T13-020"
+      ],
+      "argument_ids": [
+        "A-T11-001",
+        "A-T11-002",
+        "A-T13-004"
+      ],
+      "route_ids": [
+        "RT-T16-T-M2",
+        "RT-T16-T-NOW",
+        "RT-T16-T-PHYSICS"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-05",
+        "GATE-T16-06",
+        "GATE-T16-09",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    },
+    {
+      "assessment_id": "T17-BASE-H-P",
+      "component_id": "H-P",
+      "record_reliability": "The distinction is accepted conceptual analysis, not observation of a universal store.",
+      "inference_strength": "STORE states the needed bearer and actual persistence. H-S implies narrow H-P if established; reversing that implication is invalid.",
+      "component_confidence": "Preservation distinctions supported; cosmic preservation actuality unresolved",
+      "reason": "Records, value, relations and continued subjectivity are distinct targets. Same-person survival entails narrow preservation of that subjectivity, but finite records do not establish cosmic or permanent preservation.",
+      "claim_ids": [
+        "CL-T11-017",
+        "CL-T13-016",
+        "CL-T13-017",
+        "CL-T13-018",
+        "CL-T14-013"
+      ],
+      "argument_ids": [
+        "A-T13-004"
+      ],
+      "route_ids": [
+        "RT-T16-P-RECORD",
+        "RT-T16-P-SUBJECT",
+        "RT-T16-P-LOSS"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-10",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    },
+    {
+      "assessment_id": "T17-BASE-H-I",
+      "component_id": "H-I",
+      "record_reliability": "Selected order/selection and purpose arguments are accepted attributions/analysis; no measured likelihood of a designer choosing life is in the corpus.",
+      "inference_strength": "CANDIDATE plus EXPECT permits a conditional abductive comparison, not deductive agency. Defenders offer qualitative comparisons, but their preference and selection assumptions remain contested; no defensible quantitative prior/likelihood specification in this corpus supports a numerical posterior.",
+      "component_confidence": "Conditional explanatory value; differential evidential support uncalibrated",
+      "reason": "A specified intention can explain a cosmic role if an actual agent and grounding relation exist. Order and conscious life alone do not identify intention; preference and observation-selection assumptions do material work.",
+      "claim_ids": [
+        "CL-T10-002",
+        "CL-T10-008",
+        "CL-T10-009",
+        "CL-T10-010",
+        "CL-T10-012",
+        "CL-T10-013",
+        "CL-T10-018",
+        "CL-T14-015",
+        "CL-T14-016",
+        "CL-T14-017"
+      ],
+      "argument_ids": [
+        "A-T10-002",
+        "A-T14-004"
+      ],
+      "route_ids": [
+        "RT-T16-I-ORDER",
+        "RT-T16-I-SELECTION"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-08",
+        "GATE-T16-10",
+        "GATE-T16-11",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    },
+    {
+      "assessment_id": "T17-BASE-H-G",
+      "component_id": "H-G",
+      "record_reliability": "Rowe, Adams, Sutherland, Schellenberg and Howard-Snyder claims are inspected selected attributions. Howard-Snyder 1996 and Schellenberg 2025 are not a direct exchange.",
+      "inference_strength": "Evil/hiddenness are defeasible and attribute-sensitive challenges. GOOD/RESTORE in the defense assume rather than independently establish goodness/restoration. Unrestricted unknown-reasons defenses can also weaken positive recognition of goodness.",
+      "component_confidence": "Rich perfect-governance package faces substantive conditional challenges; bare goodness unresolved",
+      "reason": "Suffering and nonresistant nonbelief challenge specified power/knowledge/perfect-love packages. Restorative coherence addresses victims final loss only if actual same-person restorative goods occur, and does not alone justify permitting harm.",
+      "claim_ids": [
+        "CL-T15-006",
+        "CL-T15-007",
+        "CL-T15-008",
+        "CL-T15-009",
+        "CL-T15-010",
+        "CL-T15-011",
+        "CL-T15-012",
+        "CL-T15-013",
+        "CL-T15-015",
+        "CL-T15-020",
+        "CL-T15-022",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "argument_ids": [
+        "A-T15-003",
+        "A-T15-004",
+        "A-T15-005"
+      ],
+      "route_ids": [
+        "RT-T16-G-RESTORE",
+        "RT-T16-G-EVIL",
+        "RT-T16-G-HIDDEN"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-02",
+        "GATE-T16-11",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    },
+    {
+      "assessment_id": "T17-BASE-H-A",
+      "component_id": "H-A",
+      "record_reliability": "Selected author attributions and descriptive/normative distinctions are reliable; missing constructivist and non-naturalist originals block comprehensive elimination claims.",
+      "inference_strength": "AUTH partly specifies the target relation. Shared subjecthood, creator status, sanctions and power alone do not supply it. Rival explanatory availability challenges uniqueness, not logically every possible conscious authority.",
+      "component_confidence": "Distinct normative warrant required; unique conscious grounding unsupported",
+      "reason": "Conscious subjects make benefit and harm possible, but value, impartiality and authority require normative premises. Craig supplies a conditional nature/command account; Railton provides a developed naturalist rival without settling every categorical-reason question.",
+      "claim_ids": [
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-003",
+        "CL-T15-004",
+        "CL-T15-005",
+        "CL-T15-016",
+        "CL-T15-017",
+        "CL-T15-018",
+        "CL-T15-019"
+      ],
+      "argument_ids": [
+        "A-T15-001",
+        "A-T15-002",
+        "A-T15-006"
+      ],
+      "route_ids": [
+        "RT-T16-A-NATURE",
+        "RT-T16-A-UNITY",
+        "RT-T16-A-RIVAL"
+      ],
+      "conclusion_gate_ids": [
+        "GATE-T16-02",
+        "GATE-T16-11",
+        "GATE-T16-12"
+      ],
+      "status": "draft_pending_R18"
+    }
+  ],
+  "cross_component_assessments": [
+    {
+      "target": "X-T16-EX",
+      "assessment": "A conscious primitive plus a specified grounding relation could explain concrete order, but why that primitive/relation exists remains a stopping-point question. Neither consciousness nor impersonal laws get a free exemption.",
+      "claim_ids": [
+        "CL-T10-017",
+        "CL-T12-013",
+        "CL-T12-018"
+      ],
+      "route_ids": [
+        "RT-T16-EX-CONSCIOUS"
+      ]
+    },
+    {
+      "target": "X-T16-ENDURING",
+      "assessment": "Worthwhile continuation can add goods conditional on actual survival, identity and value; endless duration alone is neither sufficient for value nor shown necessary for all meaning.",
+      "claim_ids": [
+        "CL-T14-005",
+        "CL-T14-010",
+        "CL-T14-011",
+        "CL-T14-019",
+        "CL-T14-020"
+      ],
+      "route_ids": [
+        "RT-T16-MEAN-ENHANCE"
+      ]
+    },
+    {
+      "target": "X-T16-FINITE",
+      "assessment": "Finite benefits support finite meaning under an explicit value principle; this leaves enduring cosmic significance unanswered.",
+      "claim_ids": [
+        "CL-T14-003",
+        "CL-T14-004",
+        "CL-T14-009"
+      ],
+      "route_ids": [
+        "RT-T16-MEAN-FINITE"
+      ]
+    }
+  ]
+}

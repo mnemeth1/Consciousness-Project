@@ -1,0 +1,1319 @@
+{
+  "task_id": "T16",
+  "status": "submitted",
+  "routes": [
+    {
+      "route_id": "RT-T16-F-GAP",
+      "component_id": "H-F",
+      "direction": "support",
+      "label": "Phenomenal gap to basic experience",
+      "required_inputs": [
+        "BP-T16-PHEN",
+        "BP-T16-MODAL",
+        "BP-T16-FUND"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T05-001",
+        "CL-T05-002",
+        "CL-T12-005",
+        "CL-T12-006"
+      ],
+      "argument_ids": [
+        "A-T05-001",
+        "A-T05-002",
+        "A-T12-003"
+      ],
+      "bridge_ids": [
+        "BP-T16-PHEN",
+        "BP-T16-MODAL",
+        "BP-T16-FUND"
+      ],
+      "inference_mode": "conditional_philosophical_argument",
+      "inferential_limit": "Even irreducibility requires the extra basic-ontology premise; neither one subject nor survival follows.",
+      "dependency_cluster_ids": [
+        "DEP-G2-11"
+      ],
+      "counterroute_ids": [
+        "RT-T16-F-IDENTITY"
+      ],
+      "T17_use": "Separate independently argued earlier steps from ontological completion assumptions. FUND/MENTAL do not earn independent evidential credit merely by restating the proposed basic experiential outcome.",
+      "assumption_restating_target_ids": [
+        "BP-T16-FUND"
+      ]
+    },
+    {
+      "route_id": "RT-T16-F-GROUND",
+      "component_id": "H-F",
+      "direction": "support",
+      "label": "Necessary concrete ground to experiential ground",
+      "required_inputs": [
+        "BP-T16-PSR",
+        "BP-T16-MENTAL",
+        "BP-T16-FUND"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-007",
+        "CL-T10-017"
+      ],
+      "argument_ids": [
+        "A-T10-003"
+      ],
+      "bridge_ids": [
+        "BP-T16-PSR",
+        "BP-T16-MENTAL",
+        "BP-T16-FUND"
+      ],
+      "inference_mode": "conditional_philosophical_argument",
+      "inferential_limit": "PSR alone gives neither mentality nor one subject; MENTAL is the new bridge, not a Leibniz attribution.",
+      "dependency_cluster_ids": [
+        "DEP-G2-12"
+      ],
+      "counterroute_ids": [
+        "RT-T16-F-IDENTITY"
+      ],
+      "T17_use": "Separate independently argued earlier steps from ontological completion assumptions. FUND/MENTAL do not earn independent evidential credit merely by restating the proposed basic experiential outcome.",
+      "assumption_restating_target_ids": [
+        "BP-T16-MENTAL",
+        "BP-T16-FUND"
+      ]
+    },
+    {
+      "route_id": "RT-T16-F-IDENTITY",
+      "component_id": "H-F",
+      "direction": "challenge",
+      "label": "Concept difference need not be property difference",
+      "required_inputs": [
+        "BP-T16-IDENTITY"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003"
+      ],
+      "argument_ids": [
+        "A-T05-003",
+        "A-T05-004",
+        "A-T12-001"
+      ],
+      "bridge_ids": [
+        "BP-T16-IDENTITY"
+      ],
+      "inference_mode": "conditional_counterargument",
+      "inferential_limit": "Blocks an automatic gap-to-ontology inference; does not establish an actual complete physical identity account.",
+      "dependency_cluster_ids": [
+        "DEP-G2-11"
+      ],
+      "counterroute_ids": [
+        "RT-T16-F-GAP"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-U-GROUND",
+      "component_id": "H-U",
+      "direction": "support",
+      "label": "One conscious ground with distinct dependent subjects",
+      "required_inputs": [
+        "H-F",
+        "BP-T16-GROUND",
+        "BP-T16-INDIV",
+        "BP-T16-NEURALMAP"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-016",
+        "CL-T12-017"
+      ],
+      "argument_ids": [
+        "A-T12-004",
+        "A-T12-005"
+      ],
+      "bridge_ids": [
+        "BP-T16-GROUND",
+        "BP-T16-INDIV",
+        "BP-T16-NEURALMAP"
+      ],
+      "inference_mode": "conditional_explanatory_proposal",
+      "inferential_limit": "H-F is a prerequisite for this selected integrated route, not every logical H-U variant; numerical identity of persons with the whole is not assumed.",
+      "dependency_cluster_ids": [
+        "DEP-G2-14"
+      ],
+      "counterroute_ids": [
+        "RT-T16-U-INDIV"
+      ],
+      "T17_use": "Condition/coherence or grounding map only: at least one required input specifies the target or part of it. No independent evidential increment from that restatement. Independently warranted premises may later support conditional assessment.",
+      "assumption_restating_target_ids": [
+        "BP-T16-GROUND",
+        "BP-T16-INDIV"
+      ]
+    },
+    {
+      "route_id": "RT-T16-U-INDIV",
+      "component_id": "H-U",
+      "direction": "challenge",
+      "label": "Constitution and common-world burdens remain",
+      "required_inputs": [],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-015",
+        "CL-T12-018"
+      ],
+      "argument_ids": [
+        "A-T12-002",
+        "A-T12-005"
+      ],
+      "bridge_ids": [],
+      "inference_mode": "burden_not_refutation",
+      "inferential_limit": "Different private subjects require a relation beyond experiential sameness; unknown relation is not proven incoherence.",
+      "dependency_cluster_ids": [
+        "DEP-G2-11",
+        "DEP-G2-14"
+      ],
+      "counterroute_ids": [
+        "RT-T16-U-GROUND"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-B-PROSPECT",
+      "component_id": "H-B",
+      "direction": "support",
+      "label": "Prospective corroborated recall as conditional discriminator",
+      "required_inputs": [
+        "BP-T16-REPORTTRUE",
+        "BP-T16-TIMELOCK",
+        "BP-T16-EXCLUSION",
+        "BP-T16-BMAP"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T07-003",
+        "CL-T07-004",
+        "CL-T07-013",
+        "CL-T07-014",
+        "CL-T07-016",
+        "CL-T07-019"
+      ],
+      "argument_ids": [
+        "A-T07-001"
+      ],
+      "bridge_ids": [
+        "BP-T16-REPORTTRUE",
+        "BP-T16-TIMELOCK",
+        "BP-T16-EXCLUSION",
+        "BP-T16-BMAP"
+      ],
+      "inference_mode": "conditional_empirical_discrimination",
+      "inferential_limit": "Independent time-lock and excluded-process premises remain unmet; missing target opportunity is not a failed target trial.",
+      "dependency_cluster_ids": [
+        "DEP-G2-03"
+      ],
+      "counterroute_ids": [
+        "RT-T16-B-TIMING",
+        "RT-T16-B-NEURAL"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-B-REYNOLDS",
+      "component_id": "H-B",
+      "direction": "support",
+      "label": "Reynolds specific acquisition proposal",
+      "required_inputs": [
+        "BP-T16-REPORTTRUE",
+        "BP-T16-TIMELOCK",
+        "BP-T16-EXCLUSION",
+        "BP-T16-BMAP"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T19-013",
+        "CL-T19-014",
+        "CL-T19-015",
+        "CL-T19-016",
+        "CL-T19-017",
+        "CL-T19-018",
+        "CL-T19-019",
+        "CL-T19-020"
+      ],
+      "argument_ids": [
+        "A-T19-002"
+      ],
+      "bridge_ids": [
+        "BP-T16-REPORTTRUE",
+        "BP-T16-TIMELOCK",
+        "BP-T16-EXCLUSION",
+        "BP-T16-BMAP"
+      ],
+      "inference_mode": "conditional_empirical_discrimination",
+      "inferential_limit": "Checkable perceptions lie outside alleged standstill; monitoring/hearing replies and original chronology remain incomplete.",
+      "dependency_cluster_ids": [
+        "DEP-G2-10"
+      ],
+      "counterroute_ids": [
+        "RT-T16-B-TIMING",
+        "RT-T16-B-NEURAL"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-B-DENTURES",
+      "component_id": "H-B",
+      "direction": "support",
+      "label": "Dentures distinctive-object acquisition proposal",
+      "required_inputs": [
+        "BP-T16-REPORTTRUE",
+        "BP-T16-TIMELOCK",
+        "BP-T16-EXCLUSION",
+        "BP-T16-BMAP"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T19-004",
+        "CL-T19-005",
+        "CL-T19-007",
+        "CL-T19-009",
+        "CL-T19-010",
+        "CL-T19-011",
+        "CL-T19-012"
+      ],
+      "argument_ids": [
+        "A-T19-001"
+      ],
+      "bridge_ids": [
+        "BP-T16-REPORTTRUE",
+        "BP-T16-TIMELOCK",
+        "BP-T16-EXCLUSION",
+        "BP-T16-BMAP"
+      ],
+      "inference_mode": "conditional_empirical_discrimination",
+      "inferential_limit": "One TG witness chain and no direct patient interview/EEG; public replies do not close timing or information access.",
+      "dependency_cluster_ids": [
+        "DEP-G2-04",
+        "DEP-G2-10"
+      ],
+      "counterroute_ids": [
+        "RT-T16-B-TIMING",
+        "RT-T16-B-NEURAL"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-B-ALEXANDER",
+      "component_id": "H-B",
+      "direction": "support",
+      "label": "Alexander severe-illness acquisition proposal",
+      "required_inputs": [
+        "BP-T16-REPORTTRUE",
+        "BP-T16-TIMELOCK",
+        "BP-T16-EXCLUSION",
+        "BP-T16-BMAP"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T06-005",
+        "CL-T06-007",
+        "CL-T06-008",
+        "CL-T06-012",
+        "CL-T06-013",
+        "CL-T06-014",
+        "CL-T06-015",
+        "CL-T06-016"
+      ],
+      "argument_ids": [
+        "A-T06-001",
+        "A-T06-003"
+      ],
+      "bridge_ids": [
+        "BP-T16-REPORTTRUE",
+        "BP-T16-TIMELOCK",
+        "BP-T16-EXCLUSION",
+        "BP-T16-BMAP"
+      ],
+      "inference_mode": "conditional_empirical_discrimination",
+      "inferential_limit": "Illness severity is real in published record but complete inactivity and content timing not established; avoid solely drug-induced dismissal.",
+      "dependency_cluster_ids": [
+        "DEP-G2-02"
+      ],
+      "counterroute_ids": [
+        "RT-T16-B-TIMING",
+        "RT-T16-B-NEURAL"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-B-TIMING",
+      "component_id": "H-B",
+      "direction": "challenge",
+      "label": "Acquisition attribution does not time-lock experience",
+      "required_inputs": [],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T06-009",
+        "CL-T07-016",
+        "CL-T07-017",
+        "CL-T19-021",
+        "CL-T19-022"
+      ],
+      "argument_ids": [
+        "A-T06-002",
+        "A-T07-002",
+        "A-T19-003"
+      ],
+      "bridge_ids": [],
+      "inference_mode": "evidential_constraint",
+      "inferential_limit": "No unique cause inferred; generic ordinary alternatives are possibilities until established for the case.",
+      "dependency_cluster_ids": [
+        "DEP-G2-02",
+        "DEP-G2-03",
+        "DEP-G2-10"
+      ],
+      "counterroute_ids": [
+        "RT-T16-B-PROSPECT",
+        "RT-T16-B-REYNOLDS",
+        "RT-T16-B-DENTURES",
+        "RT-T16-B-ALEXANDER"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-B-NEURAL",
+      "component_id": "H-B",
+      "direction": "challenge",
+      "label": "Causal neural changes constrain embodied independence models",
+      "required_inputs": [
+        "BP-T16-PROXY"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T09-001",
+        "CL-T09-002",
+        "CL-T09-005",
+        "CL-T09-006",
+        "CL-T09-008",
+        "CL-T09-009",
+        "CL-T09-019"
+      ],
+      "argument_ids": [
+        "A-T09-001",
+        "A-T09-002"
+      ],
+      "bridge_ids": [
+        "BP-T16-PROXY"
+      ],
+      "inference_mode": "bounded_empirical_constraint",
+      "inferential_limit": "Challenges denial of neural contributions; does not negate every brain-independence model or prove metaphysical identity.",
+      "dependency_cluster_ids": [
+        "DEP-G2-08"
+      ],
+      "counterroute_ids": [
+        "RT-T16-B-PROSPECT",
+        "RT-T16-B-REYNOLDS"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-S-CONTINUE",
+      "component_id": "H-S",
+      "direction": "support",
+      "label": "Continued concrete subject beyond death",
+      "required_inputs": [
+        "BP-T16-DEATH",
+        "BP-T16-SAME"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T13-001",
+        "CL-T13-003",
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T13-007",
+        "CL-T13-009",
+        "CL-T13-017"
+      ],
+      "argument_ids": [
+        "A-T13-001",
+        "A-T13-002",
+        "A-T13-003",
+        "A-T13-004"
+      ],
+      "bridge_ids": [
+        "BP-T16-DEATH",
+        "BP-T16-SAME"
+      ],
+      "inference_mode": "conditional_identity_route",
+      "inferential_limit": "DEATH already assumes beyond-death subjectivity, so this is a condition map, not independent evidence for survival. H-B is not inserted as sufficient.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-S-BOUNDARY"
+      ],
+      "T17_use": "Condition/coherence or grounding map only: at least one required input specifies the target or part of it. No independent evidential increment from that restatement. Independently warranted premises may later support conditional assessment.",
+      "assumption_restating_target_ids": [
+        "BP-T16-DEATH"
+      ]
+    },
+    {
+      "route_id": "RT-T16-S-BOUNDARY",
+      "component_id": "H-S",
+      "direction": "challenge",
+      "label": "Death boundary and numerical identity remain unsupplied",
+      "required_inputs": [],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T13-008",
+        "CL-T13-015",
+        "CL-T13-018",
+        "CL-T19-022"
+      ],
+      "argument_ids": [
+        "A-T13-005",
+        "A-T19-003"
+      ],
+      "bridge_ids": [],
+      "inference_mode": "evidential_and_conceptual_constraint",
+      "inferential_limit": "Resuscitation and faithful record do not meet the survival criterion; absence of evidence here is not impossibility.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-S-CONTINUE"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-T-M2",
+      "component_id": "H-T",
+      "direction": "support",
+      "label": "Timeless ground with ordered temporal persons",
+      "required_inputs": [
+        "BP-T16-TIMELESS",
+        "BP-T16-GROUND",
+        "BP-T16-INDIV"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T11-007",
+        "CL-T11-008",
+        "CL-T11-011",
+        "CL-T11-012",
+        "CL-T11-014",
+        "CL-T11-016"
+      ],
+      "argument_ids": [
+        "A-T11-002",
+        "A-T11-004"
+      ],
+      "bridge_ids": [
+        "BP-T16-TIMELESS",
+        "BP-T16-GROUND",
+        "BP-T16-INDIV"
+      ],
+      "inference_mode": "conditional_coherence_route",
+      "inferential_limit": "No independent actuality inference; grounding and finite subjectivity cannot be inferred merely from non-successive representation.",
+      "dependency_cluster_ids": [
+        "DEP-G2-12"
+      ],
+      "counterroute_ids": [
+        "RT-T16-T-NOW",
+        "RT-T16-T-PHYSICS"
+      ],
+      "T17_use": "Condition/coherence or grounding map only: at least one required input specifies the target or part of it. No independent evidential increment from that restatement. Independently warranted premises may later support conditional assessment.",
+      "assumption_restating_target_ids": [
+        "BP-T16-TIMELESS",
+        "BP-T16-GROUND",
+        "BP-T16-INDIV"
+      ]
+    },
+    {
+      "route_id": "RT-T16-T-NOW",
+      "component_id": "H-T",
+      "direction": "challenge",
+      "label": "Changing presentness and perfect knowledge",
+      "required_inputs": [
+        "BP-T16-NOW"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T11-009",
+        "CL-T11-010",
+        "CL-T11-015"
+      ],
+      "argument_ids": [
+        "A-T11-003"
+      ],
+      "bridge_ids": [
+        "BP-T16-NOW"
+      ],
+      "inference_mode": "conditional_counterargument",
+      "inferential_limit": "Targets a perfect knower under objective tense; B-theory or defended non-successive access contests premise.",
+      "dependency_cluster_ids": [
+        "DEP-G2-12"
+      ],
+      "counterroute_ids": [
+        "RT-T16-T-M2"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-T-PHYSICS",
+      "component_id": "H-T",
+      "direction": "challenge",
+      "label": "Physical and reported time do not identify timeless bearer",
+      "required_inputs": [],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T11-001",
+        "CL-T11-002",
+        "CL-T11-004",
+        "CL-T11-005",
+        "CL-T11-006",
+        "CL-T13-010",
+        "CL-T13-013",
+        "CL-T13-014",
+        "CL-T13-020"
+      ],
+      "argument_ids": [
+        "A-T11-001",
+        "A-T13-005"
+      ],
+      "bridge_ids": [],
+      "inference_mode": "boundary_not_disproof",
+      "inferential_limit": "Neither relational formalism nor apparent stopped time proves absence of intrinsic succession.",
+      "dependency_cluster_ids": [
+        "DEP-G2-07",
+        "DEP-G2-12"
+      ],
+      "counterroute_ids": [
+        "RT-T16-T-M2"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-P-RECORD",
+      "component_id": "H-P",
+      "direction": "support",
+      "label": "Preserve specified records or values",
+      "required_inputs": [
+        "BP-T16-STORE"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T11-017",
+        "CL-T13-018",
+        "CL-T14-013"
+      ],
+      "argument_ids": [
+        "A-T11-005",
+        "A-T01-001"
+      ],
+      "bridge_ids": [
+        "BP-T16-STORE"
+      ],
+      "inference_mode": "conditional_item_preservation",
+      "inferential_limit": "M4 can meet this narrow H-P while subject ceases; does not prove a cosmic store exists.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-P-LOSS"
+      ],
+      "T17_use": "Condition/coherence or grounding map only: at least one required input specifies the target or part of it. No independent evidential increment from that restatement. Independently warranted premises may later support conditional assessment.",
+      "assumption_restating_target_ids": [
+        "BP-T16-STORE"
+      ]
+    },
+    {
+      "route_id": "RT-T16-P-SUBJECT",
+      "component_id": "H-P",
+      "direction": "support",
+      "label": "Survival entails narrow continuing subjectivity",
+      "required_inputs": [
+        "H-S"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T13-016",
+        "CL-T13-017"
+      ],
+      "argument_ids": [
+        "A-T13-004"
+      ],
+      "bridge_ids": [],
+      "inference_mode": "definition_limited_entailment",
+      "inferential_limit": "Only continuing subjectivity follows; not perfect memory, worthwhile content, intact relationships or permanent preservation.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-P-LOSS"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-P-LOSS",
+      "component_id": "H-P",
+      "direction": "challenge",
+      "label": "Fidelity, value and ownership are different targets",
+      "required_inputs": [],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T13-007",
+        "CL-T13-018",
+        "CL-T14-012",
+        "CL-T14-020"
+      ],
+      "argument_ids": [
+        "A-T01-001",
+        "A-T11-005",
+        "A-T14-003"
+      ],
+      "bridge_ids": [],
+      "inference_mode": "scope_constraint",
+      "inferential_limit": "A preserved representation may fail same-person or worthwhile-continuation requirements without refuting record preservation.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-P-RECORD",
+        "RT-T16-P-SUBJECT"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-I-ORDER",
+      "component_id": "H-I",
+      "direction": "support",
+      "label": "Independently constrained agency comparison",
+      "required_inputs": [
+        "BP-T16-CANDIDATE",
+        "BP-T16-EXPECT"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T10-002",
+        "CL-T10-009",
+        "CL-T10-010",
+        "CL-T10-012",
+        "CL-T10-018",
+        "CL-T14-017"
+      ],
+      "argument_ids": [
+        "A-T10-002",
+        "A-T10-004",
+        "A-T14-005"
+      ],
+      "bridge_ids": [
+        "BP-T16-CANDIDATE",
+        "BP-T16-EXPECT"
+      ],
+      "inference_mode": "conditional_abduction",
+      "inferential_limit": "Order/life can matter qualitatively if expectations are justified; compatibility alone and uncalibrated sensitivity do not select a designer.",
+      "dependency_cluster_ids": [
+        "DEP-G2-12",
+        "DEP-G2-14"
+      ],
+      "counterroute_ids": [
+        "RT-T16-I-SELECTION"
+      ],
+      "T17_use": "Conditional comparative support for the specified candidate: candidate existence is not assumed. EXPECT must warrant differing expectations; no overall posterior or actual agency conclusion follows solely from stating the model.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-I-SELECTION",
+      "component_id": "H-I",
+      "direction": "challenge",
+      "label": "Production and retrospective preferences underdetermine purpose",
+      "required_inputs": [],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T10-008",
+        "CL-T10-013",
+        "CL-T10-014",
+        "CL-T10-015",
+        "CL-T14-015",
+        "CL-T14-016"
+      ],
+      "argument_ids": [
+        "A-T10-001",
+        "A-T10-005",
+        "A-T14-004"
+      ],
+      "bridge_ids": [],
+      "inference_mode": "conditional_counterargument",
+      "inferential_limit": "Weisberg screening-off depends on matched distributions; no automatic dismissal of all design evidence or all purpose.",
+      "dependency_cluster_ids": [
+        "DEP-G2-12",
+        "DEP-G2-14"
+      ],
+      "counterroute_ids": [
+        "RT-T16-I-ORDER"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-G-RESTORE",
+      "component_id": "H-G",
+      "direction": "support",
+      "label": "Good foundation with justified permission and actual restoration",
+      "required_inputs": [
+        "BP-T16-VALUE",
+        "BP-T16-GOOD",
+        "BP-T16-PERMISSION",
+        "BP-T16-RESTORE",
+        "BP-T16-SAME"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T15-009",
+        "CL-T15-010",
+        "CL-T15-011",
+        "CL-T15-018",
+        "CL-T15-022"
+      ],
+      "argument_ids": [
+        "A-T15-004",
+        "A-T15-006"
+      ],
+      "bridge_ids": [
+        "BP-T16-VALUE",
+        "BP-T16-GOOD",
+        "BP-T16-PERMISSION",
+        "BP-T16-RESTORE",
+        "BP-T16-SAME"
+      ],
+      "inference_mode": "conditional_explanatory_defense",
+      "inferential_limit": "Assumed goodness/restoration can defend consistency or address final loss; they are not new evidence that either exists.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-G-EVIL",
+        "RT-T16-G-HIDDEN"
+      ],
+      "T17_use": "Condition/coherence or grounding map only: at least one required input specifies the target or part of it. No independent evidential increment from that restatement. Independently warranted premises may later support conditional assessment.",
+      "assumption_restating_target_ids": [
+        "BP-T16-GOOD",
+        "BP-T16-RESTORE"
+      ]
+    },
+    {
+      "route_id": "RT-T16-G-EVIL",
+      "component_id": "H-G",
+      "direction": "challenge",
+      "label": "Apparently unjustified suffering challenges perfect governance",
+      "required_inputs": [
+        "BP-T16-EVIL"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T15-006",
+        "CL-T15-007",
+        "CL-T15-008",
+        "CL-T15-012",
+        "CL-T15-020",
+        "CL-T15-022"
+      ],
+      "argument_ids": [
+        "A-T15-003",
+        "A-T15-004"
+      ],
+      "bridge_ids": [
+        "BP-T16-EVIL"
+      ],
+      "inference_mode": "conditional_evidential_challenge",
+      "inferential_limit": "Applies to stipulated power/knowledge/perfect-goodness package; insufficient known reasons need not establish absent reasons.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-G-RESTORE"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-G-HIDDEN",
+      "component_id": "H-G",
+      "direction": "challenge",
+      "label": "Nonresistant nonbelief challenges specified perfect love",
+      "required_inputs": [
+        "BP-T16-LOVE"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T15-013",
+        "CL-T15-014",
+        "CL-T15-015",
+        "CL-T15-021",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "argument_ids": [
+        "A-T15-005"
+      ],
+      "bridge_ids": [
+        "BP-T16-LOVE"
+      ],
+      "inference_mode": "conditional_philosophical_challenge",
+      "inferential_limit": "Howard-Snyder1996 temporary-delay reply and Schellenberg2025 are inspected selected positions, not a direct historical exchange; perfect love is added to bare H-G.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-G-RESTORE"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-A-NATURE",
+      "component_id": "H-A",
+      "direction": "support",
+      "label": "Good nature and legitimate authority relation",
+      "required_inputs": [
+        "BP-T16-VALUE",
+        "BP-T16-GOOD",
+        "BP-T16-AUTH"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-016",
+        "CL-T15-019"
+      ],
+      "argument_ids": [
+        "A-T15-001"
+      ],
+      "bridge_ids": [
+        "BP-T16-VALUE",
+        "BP-T16-GOOD",
+        "BP-T16-AUTH"
+      ],
+      "inference_mode": "conditional_normative_grounding",
+      "inferential_limit": "Craig nature/value and commands/duties remain distinct; consciousness itself does not establish the normative bridge.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-A-RIVAL",
+        "RT-T16-A-UNITY"
+      ],
+      "T17_use": "Condition/coherence or grounding map only: at least one required input specifies the target or part of it. No independent evidential increment from that restatement. Independently warranted premises may later support conditional assessment.",
+      "assumption_restating_target_ids": [
+        "BP-T16-GOOD",
+        "BP-T16-AUTH"
+      ]
+    },
+    {
+      "route_id": "RT-T16-A-UNITY",
+      "component_id": "H-A",
+      "direction": "challenge",
+      "label": "Shared subjecthood is not yet impartial obligation",
+      "required_inputs": [],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T15-017",
+        "CL-T15-018",
+        "CL-T15-019"
+      ],
+      "argument_ids": [
+        "A-T01-004",
+        "A-T15-006"
+      ],
+      "bridge_ids": [],
+      "inference_mode": "bridge_requirement",
+      "inferential_limit": "A defender may add BP-T16-UNITYNORM, but its warrant cannot be supplied by descriptive unity or sanctions alone.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-A-NATURE"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-A-RIVAL",
+      "component_id": "H-A",
+      "direction": "challenge",
+      "label": "Naturalist moral objectivity is a developed alternative",
+      "required_inputs": [
+        "BP-T16-NATURALNORM"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T15-003",
+        "CL-T15-004",
+        "CL-T15-005"
+      ],
+      "argument_ids": [
+        "A-T15-002"
+      ],
+      "bridge_ids": [
+        "BP-T16-NATURALNORM"
+      ],
+      "inference_mode": "conditional_alternative_not_negation",
+      "inferential_limit": "Challenges uniqueness of divine grounding; moral naturalism itself remains contested and Railton does not guarantee categorical reasons for every rational agent.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [
+        "RT-T16-A-NATURE"
+      ],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-EX-CONSCIOUS",
+      "component_id": "X-T16-EX",
+      "direction": "support",
+      "label": "One conscious foundation explains concrete reality",
+      "required_inputs": [
+        "H-F",
+        "BP-T16-GROUND"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T10-017",
+        "CL-T12-013",
+        "CL-T12-018"
+      ],
+      "argument_ids": [
+        "A-T10-003",
+        "A-T12-004"
+      ],
+      "bridge_ids": [
+        "BP-T16-GROUND"
+      ],
+      "inference_mode": "conditional_explanatory_proposal",
+      "inferential_limit": "Basic consciousness alone is not an account of why anything exists; primitive ground, laws and grounding relation remain stopping points.",
+      "dependency_cluster_ids": [
+        "DEP-G2-12",
+        "DEP-G2-14"
+      ],
+      "counterroute_ids": [],
+      "T17_use": "Condition/coherence or grounding map only: at least one required input specifies the target or part of it. No independent evidential increment from that restatement. Independently warranted premises may later support conditional assessment.",
+      "assumption_restating_target_ids": [
+        "BP-T16-GROUND"
+      ]
+    },
+    {
+      "route_id": "RT-T16-MEAN-ENHANCE",
+      "component_id": "X-T16-ENDURING",
+      "direction": "support",
+      "label": "Worthwhile continuation adds enduring significance",
+      "required_inputs": [
+        "H-S",
+        "BP-T16-VALUE",
+        "BP-T16-ENHANCE"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T14-001",
+        "CL-T14-002",
+        "CL-T14-005",
+        "CL-T14-007",
+        "CL-T14-010",
+        "CL-T14-019",
+        "CL-T14-020"
+      ],
+      "argument_ids": [
+        "A-T14-001",
+        "A-T14-003"
+      ],
+      "bridge_ids": [
+        "BP-T16-VALUE",
+        "BP-T16-ENHANCE"
+      ],
+      "inference_mode": "conditional_value_assessment",
+      "inferential_limit": "Enhancement under these conditions is distinct from BP-T16-NECESSITY and from actual survival; finite meaning may remain.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-MEAN-FINITE",
+      "component_id": "X-T16-FINITE",
+      "direction": "support",
+      "label": "Finite value can coexist with unanswered cosmic question",
+      "required_inputs": [
+        "BP-T16-VALUE",
+        "BP-T16-FINITE"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T14-003",
+        "CL-T14-004",
+        "CL-T14-009",
+        "CL-T14-011"
+      ],
+      "argument_ids": [
+        "A-T14-002"
+      ],
+      "bridge_ids": [
+        "BP-T16-VALUE",
+        "BP-T16-FINITE"
+      ],
+      "inference_mode": "conditional_value_assessment",
+      "inferential_limit": "This neither establishes enduring significance nor entails that the universe has no purpose.",
+      "dependency_cluster_ids": [
+        "DEP-G2-13"
+      ],
+      "counterroute_ids": [],
+      "T17_use": "Use only the stated inference mode and limits; required premises are unassessed and reviewed attribution alone is not their truth.",
+      "assumption_restating_target_ids": []
+    },
+    {
+      "route_id": "RT-T16-FULL",
+      "component_id": "X-T16-PACKAGE",
+      "direction": "support",
+      "label": "Strongest integrated common-foundation proposal",
+      "required_inputs": [
+        "H-F",
+        "H-U",
+        "H-B",
+        "H-S",
+        "H-T",
+        "H-P",
+        "H-I",
+        "H-G",
+        "H-A",
+        "BP-T16-GROUND",
+        "BP-T16-NEURALMAP",
+        "BP-T16-VALUE",
+        "BP-T16-ENHANCE",
+        "BP-T16-PERMISSION"
+      ],
+      "input_logic": "AND: necessary premises for this reconstruction, not individually sufficient; argument mode governs the joint inference",
+      "evidence_inputs": [
+        "CL-T10-020",
+        "CL-T12-019",
+        "CL-T13-019",
+        "CL-T14-018",
+        "CL-T15-016",
+        "CL-T15-019"
+      ],
+      "argument_ids": [
+        "A-T10-002",
+        "A-T11-002",
+        "A-T12-004",
+        "A-T13-004",
+        "A-T14-001",
+        "A-T15-001",
+        "A-T15-004"
+      ],
+      "bridge_ids": [
+        "BP-T16-GROUND",
+        "BP-T16-NEURALMAP",
+        "BP-T16-VALUE",
+        "BP-T16-ENHANCE",
+        "BP-T16-PERMISSION"
+      ],
+      "inference_mode": "conditional_conjunction_with_explanatory_unification",
+      "inferential_limit": "If separately warranted and mutually coherent, one foundation connects experience, laws, persons, enduring goods and obligations. Shared ontology can unify without furnishing nine independent confirmations.",
+      "dependency_cluster_ids": [
+        "DEP-G2-14"
+      ],
+      "counterroute_ids": [],
+      "T17_use": "Condition/coherence or grounding map only: at least one required input specifies the target or part of it. No independent evidential increment from that restatement. Independently warranted premises may later support conditional assessment.",
+      "assumption_restating_target_ids": [
+        "BP-T16-GROUND"
+      ]
+    }
+  ],
+  "component_index": [
+    {
+      "component_id": "H-F",
+      "support_route_ids": [
+        "RT-T16-F-GAP",
+        "RT-T16-F-GROUND"
+      ],
+      "counterroute_ids": [
+        "RT-T16-F-IDENTITY"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    },
+    {
+      "component_id": "H-U",
+      "support_route_ids": [
+        "RT-T16-U-GROUND"
+      ],
+      "counterroute_ids": [
+        "RT-T16-U-INDIV"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    },
+    {
+      "component_id": "H-B",
+      "support_route_ids": [
+        "RT-T16-B-PROSPECT",
+        "RT-T16-B-REYNOLDS",
+        "RT-T16-B-DENTURES",
+        "RT-T16-B-ALEXANDER"
+      ],
+      "counterroute_ids": [
+        "RT-T16-B-TIMING",
+        "RT-T16-B-NEURAL"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    },
+    {
+      "component_id": "H-S",
+      "support_route_ids": [
+        "RT-T16-S-CONTINUE"
+      ],
+      "counterroute_ids": [
+        "RT-T16-S-BOUNDARY"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    },
+    {
+      "component_id": "H-T",
+      "support_route_ids": [
+        "RT-T16-T-M2"
+      ],
+      "counterroute_ids": [
+        "RT-T16-T-NOW",
+        "RT-T16-T-PHYSICS"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    },
+    {
+      "component_id": "H-P",
+      "support_route_ids": [
+        "RT-T16-P-RECORD",
+        "RT-T16-P-SUBJECT"
+      ],
+      "counterroute_ids": [
+        "RT-T16-P-LOSS"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    },
+    {
+      "component_id": "H-I",
+      "support_route_ids": [
+        "RT-T16-I-ORDER"
+      ],
+      "counterroute_ids": [
+        "RT-T16-I-SELECTION"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    },
+    {
+      "component_id": "H-G",
+      "support_route_ids": [
+        "RT-T16-G-RESTORE"
+      ],
+      "counterroute_ids": [
+        "RT-T16-G-EVIL",
+        "RT-T16-G-HIDDEN"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    },
+    {
+      "component_id": "H-A",
+      "support_route_ids": [
+        "RT-T16-A-NATURE"
+      ],
+      "counterroute_ids": [
+        "RT-T16-A-UNITY",
+        "RT-T16-A-RIVAL"
+      ],
+      "route_combination": "Alternative conditional routes; do not sum or multiply; each route retains its own AND premises.",
+      "component_confidence": "reserved_for_T17_and_joint_R18_review"
+    }
+  ],
+  "cumulative_positive": {
+    "route_id": "RT-T16-FULL",
+    "genuine_mutual_support": "One constrained conscious grounding relation could explain experience and shared lawfulness; identity-preserving continuation could make intended developmental goods enduring; a defensible good-nature relation could connect value and obligations. These are mutually intelligible explanatory relations, not independent observations.",
+    "added_commitments": [
+      "BP-T16-GROUND",
+      "BP-T16-INDIV",
+      "BP-T16-NEURALMAP",
+      "BP-T16-DEATH",
+      "BP-T16-SAME",
+      "BP-T16-TIMELESS",
+      "BP-T16-AGENCY",
+      "BP-T16-EXPECT",
+      "BP-T16-VALUE",
+      "BP-T16-ENHANCE",
+      "BP-T16-GOOD",
+      "BP-T16-AUTH",
+      "BP-T16-PERMISSION"
+    ],
+    "circularity_prohibitions": [
+      "Do not assume restoration to defend goodness then cite defended goodness as independent evidence of survival.",
+      "Do not assume life-valuing designer preferences to interpret life evidence then count inferred designer as new proof of those same preferences.",
+      "Do not treat the desire for enduring significance as evidence that endurance occurs.",
+      "Do not reuse phenomenal-gap premise in fundamentality, unity and purpose as three observations."
+    ]
+  },
+  "cumulative_countercase": {
+    "route_ids": [
+      "RT-T16-F-IDENTITY",
+      "RT-T16-U-INDIV",
+      "RT-T16-B-TIMING",
+      "RT-T16-B-NEURAL",
+      "RT-T16-S-BOUNDARY",
+      "RT-T16-T-NOW",
+      "RT-T16-T-PHYSICS",
+      "RT-T16-I-SELECTION",
+      "RT-T16-G-EVIL",
+      "RT-T16-G-HIDDEN",
+      "RT-T16-A-RIVAL"
+    ],
+    "additional_claim_ids": [
+      "CL-T08-005",
+      "CL-T08-008",
+      "CL-T08-011",
+      "CL-T08-012",
+      "CL-T08-014",
+      "CL-T08-015",
+      "CL-T08-016",
+      "CL-T08-018",
+      "CL-T08-020",
+      "CL-T08-023"
+    ],
+    "summary": "Selected neural interventions constrain embodiment; retrospective timing/access, variable cultural and distressing content, selection, and repeated recruitment weaken simple testimony-to-afterlife inference. Independent conceptual, identity, intentional and normative bridges remain open. Physical identity, psychophysical laws, plural and impersonal stopping points remain competitors. This is not proof that every case has an established ordinary explanation, that finite meaning exhausts cosmic meaning, or that all alternatives are equally supported.",
+    "scope": "Claims about stronger missing original defenders/replies are withheld."
+  }
+}

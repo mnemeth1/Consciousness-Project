@@ -1,0 +1,499 @@
+[
+  {
+    "review_id": "G0",
+    "task_id": "T01–T03",
+    "verdict": "accept",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No substantive author/reviewer disagreement; acceptance is restricted to opening method adequacy."
+  },
+  {
+    "review_id": "R04",
+    "task_id": "T04",
+    "verdict": "accept",
+    "scope": "Explicitly scoped public-testimony and inference audit; no complete evidentiary audit or extraordinary-event/metaphysical truth acceptance."
+  },
+  {
+    "review_id": "R05",
+    "task_id": "T05",
+    "verdict": "accept",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No remaining material defect in scoped pilot. R05-D1 corrected. Metaphysical disagreement between authors remains unresolved; agreement between agents is not evidence."
+  },
+  {
+    "review_id": "R06",
+    "task_id": "T06",
+    "verdict": "accept",
+    "acceptance_scope": "Bounded textual-attribution, clinical-publication and conditional-argument audit with explicitly unresolved case verification and coverage. Not a complete medical audit or validation of any metaphysical conclusion.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material author-reviewer disagreement within this scope. Acceptance does not endorse the strongest conclusions of Alexander, Mays, Shermer or the clinical report.",
+    "unresolved_items": [
+      "Earliest AANS2012 original inaccessible; no proven earliest public disclosure",
+      "Original dated manuscript/pre-photo descriptions absent from inspected materials",
+      "Raw chart and original witness statements not inspected",
+      "No EEG or experience-linked continuous functional measurement in inspected clinical report",
+      "Supplied recording identity and audio fidelity unresolved",
+      "Citation passes partial for supplied transcript and incomplete book; later citing material largely uninspected",
+      "Sacks original and comparator clinical studies uninspected"
+    ]
+  },
+  {
+    "review_id": "R07",
+    "task_id": "R07",
+    "reviewed_task_id": "T07",
+    "verdict": "accept",
+    "acceptance_scope": "Scoped main-article extraction and conditional argument audit only, with existing access and coverage gaps carried forward; not an exhaustive systematic review or proof of a hypothesis.",
+    "material_defects": [],
+    "required_corrections": [],
+    "unresolved_issues": [
+      "AWARE II supplements, confirmed target-exposure/interview intersection, and participant-specific experience timing remain unresolved.",
+      "AWARE I final-version/flow and interview-count discrepancy remain unresolved.",
+      "Dutch erratum contents and wider early-study coverage remain unresolved.",
+      "Direct post-publication reply and dedicated forward pass for the critique remain uncompleted.",
+      "Original raw search bodies were removed before this review. Recorded hashes and retained metadata are mutually consistent, but the reviewer cannot independently rehash removed bytes or certify the body-to-metadata transformation."
+    ],
+    "disagreement": "No substantive disagreement on current narrow claims. Scope acceptance remains overseer adjudication."
+  },
+  {
+    "review_id": "R08",
+    "task_id": "R08",
+    "reviewed_task_id": "T08",
+    "verdict": "accept",
+    "acceptance_scope": "Bounded descriptive historical/cultural synthesis, source attribution, denominators and conditional inference audit; not exhaustive global coverage or metaphysical proof.",
+    "material_defects": [],
+    "required_corrections": [],
+    "unresolved_issues": [
+      "Original Latin/manuscript collation, Hindi interview records and Japanese source interviews/translation validation remain unavailable or outside scope.",
+      "Selected English-accessible cultural collections do not establish global prevalence or invariance; broader cultural/historical originals remain for G2 coverage audit.",
+      "Direct Indian tunnels criticism/reply and most underlying Western comparison publications remain uninspected; no independent assessment of their substantive contents.",
+      "Invitation denominators, participant/episode crosswalks, prior exposure, medical timing and unknown cohort overlap remain unresolved.",
+      "Search audit is limited to retained normalized metadata and crosswalks; unavailable raw query bodies cannot be rehashed or independently checked against initial capture. Public title/topic forward discovery is not an exhaustive citation-index search."
+    ],
+    "disagreement": "No substantive disagreement on scoped claims. Same-model review is a quality check, not independent empirical evidence."
+  },
+  {
+    "review_id": "R09",
+    "task_id": "T09",
+    "verdict": "accept",
+    "acceptance_scope": "Bounded neural-intervention and explicit-theory-test evidence/argument packet; no comprehensive literature or metaphysical verdict.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material author-reviewer disagreement. Preserve local critique wording caveat without rejecting its broader arguments.",
+    "remaining_gaps": [
+      "OSF amendment history/code uninspected",
+      "Exact interview numerators and macaque supplemental run details unavailable",
+      "No exhaustive broader neural literature or separate later reply coverage",
+      "No reanalysis of raw data"
+    ]
+  },
+  {
+    "review_id": "R10",
+    "task_id": "T10",
+    "verdict": "accept",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No unresolved author-reviewer material disagreement. Metaphysical premise truth and wider literature coverage remain unresolved; agreement is a methodological check only.",
+    "remaining_gaps": [
+      "Collins full edition/probability appendix",
+      "Sober body and primary White/Bradley/later Weisberg replies",
+      "Modern PSR and contemporary direct Lennox critique breadth",
+      "Original-language/version comparison",
+      "Technical cosmological evidence and measures",
+      "Normalized historical search metadata is internally verified; raw historical responses are absent."
+    ],
+    "acceptance_scope": "Focused argument attribution, conditional reconstruction and component/dependence audit. No cosmology validation, exhaustive literature review, numerical posterior or metaphysical proof."
+  },
+  {
+    "review_id": "R11",
+    "task_id": "T11",
+    "verdict": "accept",
+    "acceptance_scope": "Bounded source attribution and conditional argument/model assessment only; not actuality, exhaustive coverage, complete model coherence, survival or G2 completion.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material author/reviewer disagreement on this bounded packet. Substantive A/B-theory, knowledge, agency, grounding and identity disputes remain unresolved; same-model agreement is quality control only.",
+    "remaining_gaps": [
+      "Exact Craig journal/reprint dates remain unverified; author-hosted text used.",
+      "Original German/Latin and other original-language versions were not checked.",
+      "Modern defenders and reply chains beyond the inspected originals remain uninspected; Craig’s presentation is not their independent verification.",
+      "No contemporary experimental-relativity audit or broad quantum-gravity/emergence comparison.",
+      "T13 must adjudicate personal identity and beyond-death subjectivity; no new empirical survival evidence here.",
+      "Historical search ranks/capture timing were not independently replayed; normalized retained metadata internally verified."
+    ]
+  },
+  {
+    "review_id": "R12",
+    "task_id": "T12",
+    "verdict": "accept",
+    "acceptance_scope": "Bounded selected-model comparison and source attribution; not a comprehensive survey, empirical validation or metaphysical verdict.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material author/reviewer disagreement found. The limited source diversity and missing defender/reply chains remain substantive coverage gaps, not reasons to infer equal support.",
+    "remaining_gaps": [
+      "Strawson original inaccessible after sole targeted extension; no Strawson-specific claims.",
+      "Five-original comparison is not broad/representative author coverage; three Chalmers texts share conceptual premises.",
+      "No direct original substance-dualist, strong-emergentist or plural-idealist defender/reply chain inspected; comparison variants explicitly scoped.",
+      "Later critics/replies discovered but not inspected; especially panpsychist and Kastrup2018 external reply coverage.",
+      "Chalmers author drafts have undated/version and final publication metadata gaps.",
+      "Kastrup author-linked transcription lacks visual figure verification; empirical and physics premises are unverified.",
+      "No new empirical test, posterior or cumulative project verdict.",
+      "Stored normalized query metadata was crosschecked, not replayed as a historical search engine session.",
+      "Scoped acceptance does not close G2 literature diversity or direct defender/critic/reply coverage."
+    ]
+  },
+  {
+    "review_id": "R13",
+    "task_id": "T13",
+    "verdict": "accept",
+    "acceptance_scope": "Bounded attribution, empirical extraction, conditional identity/time comparison and audit consistency. Not metaphysical proof or completed G2 literature coverage.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material author/reviewer disagreement. Competing philosophical premises and incomplete coverage remain unresolved, not decided by reviewer agreement.",
+    "remaining_gaps": [
+      "Modern psychological-continuity/reductionist original beyond Locke and full technical simple-subject defender/reply coverage remain incomplete; Parfit is uninspected.",
+      "Forward searches are bounded public-web discovery, including root wrappers and near-title hits; external replies and completeness remain G2 duties.",
+      "DMT participant-level time categories, administered full response options, separate EEG results and comparator sample overlap remain unestablished; no pooling.",
+      "Source variants remain explicit: Locke modernization and Olson deposited version differ from diplomatic/published originals.",
+      "No present packet observation establishes subjectivity beyond irreversible bodily death or an intrinsically succession-free bearer; conditional enlarged-history ownership/extension remains to be defended.",
+      "Normalized search metadata is auditable internally, not independent authentication of every historical engine ranking."
+    ]
+  },
+  {
+    "review_id": "R14",
+    "task_id": "T14",
+    "verdict": "accept",
+    "acceptance_scope": "Five-original scoped attribution and conditional argument/model audit, including Williams original and Fischer reply. Not an exhaustive survey or metaphysical verdict.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material author/reviewer disagreement. Disputed value, survival, identity, agency and theological premises remain unresolved; review acceptance is not their endorsement.",
+    "remaining_gaps": [
+      "Metz2000original403/internal-error; substituted publisher2015reply with separate forward pass.",
+      "Poettcker/Yoshizawa and later critic/reply originals uninspected; no direct attribution beyond Metz’s response.",
+      "Wolf 2007–2008 draft has incomplete notes;2010 final version uninspected.",
+      "Fischer original argument inspected in third-party review-copy reprint; exact edition/date not established.",
+      "Cosmic distribution, total developmental opportunity and post-death preservation not measured."
+    ]
+  },
+  {
+    "review_id": "R15",
+    "task_id": "T15",
+    "verdict": "accept",
+    "acceptance_scope": "Bounded source attribution and conditional argument mapping of24claims,6arguments,grounding/evil-hiddenness matrices and9components. Not exhaustive literature coverage or acceptance of substantive metaphysical/normative premises.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material author/reviewer disagreement. Philosophical source disagreements remain explicit.",
+    "remaining_gaps": [
+      "No firsthand representative constructivist or non-theistic non-natural realist defender; four-family comparison remains conceptual and incomplete.",
+      "No complete earlier Schellenberg/Howard-Snyder exchange or later reply chain;1996and2025sources support premise comparison, not a direct completed exchange.",
+      "Fuller free-will, soul-making and systematic skeptical-theism originals and direct challenges/replies remain uninspected.",
+      "Adams later clarification/reply and fuller Railton critic/reply coverage remain open; Railton third-party footer irregularity and exact publisher-copy comparison unresolved.",
+      "No measured suffering or nonbelief distribution, verified restoration, categorical-authority proof, metaphysical winner, equal-support result or numerical posterior."
+    ]
+  },
+  {
+    "review_id": "R19",
+    "task_id": "T19",
+    "verdict": "accept",
+    "acceptance_scope": "Source attributions, explicit access limits, purposive selection, conditional inference and record provenance; not full case verification or metaphysical truth.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material disagreement; methodological agreement adds no empirical evidence."
+  },
+  {
+    "review_id": "R18",
+    "task_id": "T16–T18",
+    "reviewed_task_ids": [
+      "T16",
+      "T17",
+      "T18"
+    ],
+    "verdict": "accept",
+    "scope": "Methodological acceptance of conditional synthesis only, subject to authoritative ERR-R18-PURPOSE-01 and all12 G2/T16 withheld gates; G3 release remains pending.",
+    "material_defects": [
+      {
+        "defect_id": "R18-D01",
+        "severity": "bounded_cross_artifact_label_ambiguity",
+        "status": "resolved_by_independently_reviewed_erratum",
+        "description": "CF0/CF1 production shorthand drifts from T14 descriptive/intentional distinction.",
+        "resolution": "Accept ERR-R18-PURPOSE-01 as controlling affected readings; preserve frozen originals."
+      }
+    ],
+    "required_corrections": [
+      {
+        "correction_id": "R18-C01",
+        "status": "reviewed_resolution_ready_for_overseer_acceptance",
+        "action": "Record separately versioned acceptance of ERR-R18-PURPOSE-01; carry it into G3/release so contradictory historical shorthand is not read without correction."
+      }
+    ],
+    "disagreement": "No unresolved substantive disagreement on scoped conclusions. Conditional explanatory promise is not an achieved explanatory advantage."
+  },
+  {
+    "review_id": "P2R01",
+    "task_id": "P2T01",
+    "verdict": "accept",
+    "acceptance_scope": "Methodologically adequate bounded philosophical attribution and conditional comparison packet. Recommendation only; root adjudication is required. No metaphysical premise, actuality claim, whole-family victory or conclusion gate is approved.",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No substantive disagreement with the packet within its stated scope. The underlying authors disagree about property identity and causal dependence; that disagreement remains preserved."
+  },
+  {
+    "review_id": "R-P2R02",
+    "task_id": "P2T02",
+    "review_task_id": "P2R02",
+    "verdict": "accept",
+    "acceptance_scope": "Adequate bounded source method and attribution/inference separation for the exact inspected positions. No premise truth, ontology, complete reply coverage, hypothesis score or conclusion-gate closure is approved.",
+    "material_defects": [],
+    "required_corrections": [],
+    "retained_limitations": [
+      "Engelhardt HTML/draft-to-final equivalence remains unverified.",
+      "Bennett available scan covers printed 280–305; catalog extensions are not inspected.",
+      "Engelhardt revises Lowe; he is not Lowe replying, and no later original Lowe-defense rebuttal was inspected.",
+      "Complete family, pairing, later countercase and empirical bridge coverage remains open."
+    ],
+    "disagreement": "No material author/reviewer disagreement. The source authors disagree substantively; this remains represented as argument opposition rather than conflicting bibliographic facts."
+  },
+  {
+    "review_id": "R-P2R06",
+    "task_id": "P2T06",
+    "review_task_id": "P2R06",
+    "verdict": "accept",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "No material reviewer-author disagreement with the packet’s stated scope. Nagel/Korsgaard’s disagreement over explanatory direction and interpersonal authority remains unresolved; the reviewer endorses neither set of disputed premises as true.",
+    "acceptance_scope": "Adequate bounded source method, faithful attribution and qualified project inference. No premise-truth approval, conclusive derivation, family winner, gate closure or canonical merge."
+  },
+  {
+    "review_id": "R-P2R07",
+    "task_id": "P2T07",
+    "review_task_id": "P2R07",
+    "verdict": "accept",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "The prior held review identified no material author defect. It did not issue a final acceptance. Source-level Lenman/Enoch, naturalist/non-naturalist and Korsgaard/Nagel disagreements remain explicitly live; no votes or previous packet acceptance substitute for premise truth.",
+    "acceptance_scope": "Accept only the revised attribution/qualified-inference limitation dossier. The author's complete developed-positive-account criterion is NOT fully satisfied: chapter3 pp.53–83 remain unavailable. Its explicit limitation-dossier criterion permits return without closing that source gap or any conclusion gate. Root alone adjudicates."
+  },
+  {
+    "review_id": "P2R19",
+    "task_id": "P2T19",
+    "review_task_id": "P2R19",
+    "verdict": "accept",
+    "acceptance_scope": "Independent recommendation to accept the revised bounded methods and attribution dossier; this is not root acceptance, scientific validation, complete source-gap closure or a hypothesis conclusion.",
+    "required_corrections": [],
+    "material_defects": []
+  },
+  {
+    "review_id": "P2R03",
+    "task_id": "P2R03",
+    "reviewed_task_id": "P2T03",
+    "verdict": "accept",
+    "scope": "Recommend acceptance of bounded exact-source attribution and conditional comparison for the selected Strawson/Goff exchange; preserve the unavailable2006 lead and every gate. No premise truth, metaphysical actuality or whole-family ranking is approved.",
+    "required_corrections": []
+  },
+  {
+    "review_id": "R-P2R09",
+    "task_id": "P2T09",
+    "review_task_id": "P2R09",
+    "verdict": "accept",
+    "material_defects": [],
+    "required_corrections": [],
+    "disagreement": "The initial reviewer required four bounded record corrections while supporting the cautious substantive interpretation. The author implemented them without substantive dissent. The initial revise verdict and all correction text remain archived; their resolution does not erase them or the live source-level disputes.",
+    "scope": "Accept the corrected documentary/source-attribution and bounded-inference limitation dossier. Root must apply explicit fieldwise case patches, including review-status-only changes after adjudication, never whole-case replacement or new samples. Missing supplements, opportunity/time/overlap intersections and all twelve conclusion gates remain unresolved/withheld."
+  },
+  {
+    "task_id": "P2R04",
+    "review_id": "P2R04",
+    "reviewed_task_id": "P2T04",
+    "verdict": "accept",
+    "acceptance_scope": "Bounded source-attribution/version/plural-comparison repair with explicit unresolved limitation dossier; no scientific hypothesis, full-family winner, whole-original coverage or gate closure.",
+    "required_corrections": []
+  },
+  {
+    "review_id": "P2R05",
+    "task_id": "P2T05",
+    "verdict": "accept",
+    "material_defects": [],
+    "required_corrections": [],
+    "unresolved_issues": [
+      "Whether nonphenomenal representation adequately captures the intended experiential target and content/richness remains unresolved.",
+      "Immediate-awareness identity, representational mediation, causal closure and abductive adequacy remain contested premises.",
+      "No definitive 2016 print/reprint equivalence or intellectual revision date is established for the current author versions.",
+      "Nida’s full text was independently reopened through web PDF text; local original bytes and visual verification remain unavailable/unperformed.",
+      "Fuller foundations, other critic originals, implementations and whole-literature citation coverage remain uninspected.",
+      "Accepted v1 comparisons are derivative; no fresh Chalmers/Papineau source inspection or historical search reconstruction."
+    ],
+    "disagreement": "Underlying metaphysical and epistemic disagreement is preserved. No disagreement with the bounded source-attribution proposal; reviewer agreement is not evidence of premise truth."
+  },
+  {
+    "review_id": "P2R10",
+    "task_id": "P2T10",
+    "verdict": "accept",
+    "material_defects": [],
+    "required_corrections": [],
+    "unresolved_issues": [
+      {
+        "id": "L-P2T10-01",
+        "issue": "W-PSR, totality, explanation and modal warrant remain disputed.",
+        "effect": "No unconditional PSR truth, actuality or family winner."
+      },
+      {
+        "id": "L-P2T10-02",
+        "issue": "Personal/scientific exhaustiveness and privileged libertarian self-explanation are additional premises.",
+        "effect": "No necessary consciousness or agency from necessity alone."
+      },
+      {
+        "id": "L-P2T10-03",
+        "issue": "Teleology, creator preferences and actual benevolence are not validated.",
+        "effect": "No calibrated likelihood, goodness or omni-property conclusion."
+      },
+      {
+        "id": "L-P2T10-04",
+        "issue": "Oppy manuscript read through author-uploaded rendered text; original PDF and print345–353 not collated.",
+        "effect": "Attributions restricted to internal manuscript pages and saved web lines; no binary authentication or linear print mapping."
+      },
+      {
+        "id": "L-P2T10-05",
+        "issue": "Davey–Clifton, Gellman, Pruss1998/2001, Almeida–Judisch, Guigon and later totality/distribution originals remain uninspected.",
+        "effect": "No complete debate or strongest-literature ranking; reported criticism stays attributed to its inspected reporter."
+      },
+      {
+        "id": "L-P2T10-06",
+        "issue": "Lennox historical quotations and miracle assertions are uncorroborated.",
+        "effect": "No verified historical/clinical event or supernatural acquisition."
+      },
+      {
+        "id": "L-P2T10-07",
+        "issue": "Hume/Leibniz remain derivative v1 Bennett-modernization inputs.",
+        "effect": "No historical-original reinspection or collapsed dialogue-speaker attribution."
+      },
+      {
+        "id": "L-P2T10-08",
+        "issue": "Seven bounded public searches,25 occurrences outside screening windows, incidental preselection text and no complete citation index.",
+        "effect": "No systematic coverage or historic search reconstruction."
+      },
+      {
+        "id": "L-P2T10-09",
+        "issue": "A necessary creator and human persons are not connected by an identity, duration or preservation proof.",
+        "effect": "No same-person survival, timeless bearer or preserving cosmic purpose."
+      },
+      {
+        "id": "L-P2T10-10",
+        "issue": "Printed2002p91 modal wording andp97 repeated prose premise are retained; p96–97 implication signs visually verified.",
+        "effect": "No silent textual correction or formal validation based on the problematic wording."
+      }
+    ],
+    "disagreement": "No material author-reviewer disagreement about scoped attribution found. The disagreement between philosophers over premise warrant, explanation and attributes is preserved; methodological reviewer agreement is not evidence that either metaphysical side is true."
+  },
+  {
+    "review_id": "P2R08",
+    "task_id": "P2T08",
+    "verdict": "accept",
+    "acceptance_scope": "Recommend acceptance only of the bounded attribution, conditional argument mapping and reviewed limitation dossier. Criteria 1 and 6 retain an unresolved exact Adams 1990 print subrequirement under criterion 5. Root alone adjudicates; no hypotheses or premise truth are approved.",
+    "required_corrections": [],
+    "material_defects": [],
+    "remaining_gaps": [
+      "Exact Adams 1990 Oxford chapter pp.209–221 and equivalence of the revised reproduction remain unresolved; do not request the same missing chapter again.",
+      "Complete Schellenberg 1993 positive argument and a later Howard-Snyder retort are uninspected; the supplied 1996 reply closes only its specific body-access gap.",
+      "The supplied Adams 1999 monograph body and whole free-will, soul-making and skeptical-theism branches are outside the inspected scope.",
+      "Permission, actual restoration, continuity, goodness, authority and comparative developmental means remain contested premises or separate evidential burdens.",
+      "Accepted moral comparisons are derivative; Enoch printed 53–83 remains missing. No source verdict on a neighbor is supplied by this reviewer.",
+      "All 12 conclusion gates remain withheld; no observed-event verification, population denominator, metaphysical winner, numerical posterior or equal-support result."
+    ]
+  },
+  {
+    "review_id": "P2R13",
+    "task_id": "P2R13",
+    "reviewed_task_id": "P2T13",
+    "verdict": "accept",
+    "scope": "Bounded source/version and argument dossier only; author criteria 1 and 6 remain partial under criterion 5. Acceptance does not close the 2013 chapter gap, Fischer collation or any conclusion gate.",
+    "required_corrections": [],
+    "unresolved_items": [
+      {
+        "source_id": "S-P2T13-001",
+        "title": "Non-purposive Supernaturalism",
+        "year": 2013,
+        "doi": "10.1093/acprof:oso/9780199599318.003.0007",
+        "extent": "Meaning in Life: An Analytic Study, chapter 7, printed 119–138 and relevant notes/references",
+        "status": "metadata_only_unresolved_body_and_backward_pass",
+        "inspection_units": 0,
+        "not_substitutes": [
+          "Metz 2000 purpose article",
+          "Metz 2003 immortality article",
+          "Metz 2015 self-summary/reply",
+          "Yoshizawa 2015 account of the chapter",
+          "SEP Summer 2013 survey supplied as alternative"
+        ],
+        "route_evidence": "work/P2T13/retrieval_log.json; source_requests.json; contract root_review_focus",
+        "stronger_claim_withheld": "Complete original defender/critic/reply inspection; inaccessible original premise attribution cannot be independently certified."
+      },
+      "Fischer original journal and final anthology collation",
+      "Wolf second lecture/comments/reply, Affolter/Metz 2007, Poettcker/Tartaglia originals and later debate deferred",
+      "Objective value, indefinite repeatability, actual same-person survival, timeless bearer, creator purpose, goodness and moral authority not established"
+    ],
+    "scientific_approval_note": "Root adjudication remains separate. This review recommends adequate bounded method, not premise truth or a metaphysical winner."
+  },
+  {
+    "review_id": "P2R11",
+    "task_id": "P2R11",
+    "reviewed_task_id": "P2T11",
+    "verdict": "accept",
+    "scope": "Accept recommendation at the initial selected-version/conditional-inference scope after independently verifying RC-P2R11-001. No gap closure, premise-truth approval, physical likelihood estimate or component upgrade; root adjudication remains separate.",
+    "required_corrections": []
+  },
+  {
+    "review_id": "P2R12",
+    "task_id": "P2R12",
+    "reviewed_task_id": "P2T12",
+    "verdict": "accept",
+    "scope": "Bounded six-original timeless-ground/temporal-person and human-identity objection/reply packet. Acceptance of method, qualified attributions and non-entailment analysis, not metaphysical premise truth.",
+    "material_defects": [],
+    "required_corrections": []
+  },
+  {
+    "review_id": "P2R15",
+    "task_id": "P2R15",
+    "verdict": "accept",
+    "acceptance_scope": "Methodologically adequate bounded reinspection and limitation dossier; exactAANS/earliestauthentication/timing gaps unresolved. This recommendation is not scientific proof or root adjudication.",
+    "required_corrections": [],
+    "material_defects": []
+  },
+  {
+    "review_id": "P2R16",
+    "task_id": "P2R16",
+    "reviewed_task_id": "P2T16",
+    "acceptance_scope": "Bounded limitation dossier under author criterion5; criteria1/6 remain partial. No canonical acceptance or hypothesis confirmation.",
+    "material_defects": [],
+    "required_corrections": [],
+    "verdict": "accept"
+  },
+  {
+    "review_id": "P2R14",
+    "task_id": "P2R14",
+    "reviewed_task_id": "P2T14",
+    "verdict": "accept",
+    "required_corrections": [],
+    "acceptance_scope": "Bounded methodological packet and criterion 5 limitation dossier; criteria 1 and 6 remain partial. Root adjudication is separate."
+  },
+  {
+    "task_id": "P2R17",
+    "review_id": "P2R17",
+    "verdict": "accept",
+    "verdict_scope": "Bounded source-level packet and correction closure. Exact earliest originals, full underlying interview and later Woerlee2010 body remain unresolved; no scientific hypothesis or gate upgrade.",
+    "required_corrections": []
+  },
+  {
+    "review_id": "P2R18",
+    "task_id": "P2R18",
+    "verdict": "accept",
+    "recommendation_scope": "Accept the bounded source/limitation dossier only; author criteria1,2and6remain partial under explicit criterion5. Root alone adjudicates.",
+    "material_defects": [],
+    "required_corrections": []
+  },
+  {
+    "review_id": "RV-P2RA01-001",
+    "task_id": "P2RA01",
+    "reviewed_task_id": "P2A01",
+    "verdict": "accept",
+    "required_corrections": []
+  }
+]

@@ -1,0 +1,2840 @@
+[
+  {
+    "id": "T01",
+    "title": "Define hypothesis components and glossary",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [],
+    "status": "accepted",
+    "output_directory": "work/T01/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Separate all nine commitments and their non-entailments.",
+      "Resolve operational meanings of timelessness, survival, preservation and purpose; retain disputed definitions."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {}
+  },
+  {
+    "id": "T02",
+    "title": "Specify evidence, search and inclusion protocol",
+    "workstream": "methods",
+    "role": "methods_steward",
+    "kind": "research",
+    "dependencies": [],
+    "status": "accepted",
+    "output_directory": "work/T02/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Document empirical/philosophical search strategies, date/language scope and access limits.",
+      "Prespecify source/case deduplication, denominators, case selection and confidence rules."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {}
+  },
+  {
+    "id": "T03",
+    "title": "Specify strongest comparison models",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "T01"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T03/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Represent physicalism, psychophysical laws, panpsychism, dualism, idealism and theism fairly.",
+      "Record overlap and common assessment criteria; no unsupported exclusive probabilities."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T01": "submitted"
+    }
+  },
+  {
+    "id": "G0",
+    "title": "Review definitions and preregister the working protocol",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "gate",
+    "dependencies": [
+      "T01",
+      "T02",
+      "T03"
+    ],
+    "status": "accepted",
+    "output_directory": "work/G0/",
+    "deliverables": [
+      "gate_decision.md",
+      "result.json",
+      "protocol_v1.md",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Different reviewer checks all opening outputs.",
+      "Overseer freezes protocol v1 with declared assumptions and selection rules."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T01": "submitted",
+      "T02": "submitted",
+      "T03": "submitted"
+    }
+  },
+  {
+    "id": "T04",
+    "title": "Pilot: Mary Neal case dossier",
+    "workstream": "empirical",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G0"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T04/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Separate predictions, perceptions and recovery claims.",
+      "Document original-source access, medical/report chronology and corroboration gaps."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 10,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G0": "accepted"
+    }
+  },
+  {
+    "id": "T05",
+    "title": "Pilot: physical description and qualia argument",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G0"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T05/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Distinguish correlation, prediction, identity and explanation.",
+      "Map strongest explanatory-gap argument, physicalist response and disputed bridge premises."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G0": "accepted"
+    }
+  },
+  {
+    "id": "R04",
+    "title": "Independent review of T04",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T04"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R04/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Reopen decisive sources; verify inference boundaries and alternatives.",
+      "Return accept/revise/unresolved with specific corrections."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T04": "submitted"
+    }
+  },
+  {
+    "id": "R05",
+    "title": "Independent review of T05",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T05"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R05/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Reopen decisive sources; verify inference boundaries and alternatives.",
+      "Return accept/revise/unresolved with specific corrections."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T05": "submitted"
+    }
+  },
+  {
+    "id": "G1",
+    "title": "Adjudicate pilots and repair protocol",
+    "workstream": "methods",
+    "role": "overseer",
+    "kind": "gate",
+    "dependencies": [
+      "R04",
+      "R05"
+    ],
+    "status": "accepted",
+    "output_directory": "work/G1/",
+    "deliverables": [
+      "gate_decision.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Resolve or explicitly preserve review disagreements.",
+      "Validate templates and update protocol before expansion; pilot selection is not representative."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "R04": "accepted",
+      "R05": "accepted"
+    }
+  },
+  {
+    "id": "T06",
+    "title": "Eben Alexander case dossier",
+    "workstream": "empirical",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T06/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Separate documented medical facts, earliest testimony and later interpretation; audit specific claims and gaps.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 10,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R06",
+    "title": "Independent review of T06",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T06"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R06/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T06": "submitted"
+    }
+  },
+  {
+    "id": "T07",
+    "title": "Prospective NDE studies and AWARE evidence",
+    "workstream": "empirical",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T07/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect original studies; retain denominator cascade, target exposure, monitoring and sample overlap.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 10,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R07",
+    "title": "Independent review of T07",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T07"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R07/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T07": "submitted"
+    }
+  },
+  {
+    "id": "T08",
+    "title": "Historical and cross-cultural NDE synthesis",
+    "workstream": "empirical",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T08/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Apply logged inclusion criteria; assess motifs, recruitment, duplication, distressing reports and comparison groups.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 10,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R08",
+    "title": "Independent review of T08",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T08"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R08/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T08": "submitted"
+    }
+  },
+  {
+    "id": "T09",
+    "title": "Neural dependence and consciousness theories",
+    "workstream": "empirical",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T09/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Assess intervention evidence and theory tests; separate empirical performance from metaphysical identity.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 13,
+      "source_inspections": 10,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R09",
+    "title": "Independent review of T09",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T09"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R09/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T09": "submitted"
+    }
+  },
+  {
+    "id": "T10",
+    "title": "Existence, intelligibility and Lennox arguments",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T10/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Use primary arguments; map contingency/fine-tuning/agency inferences and the gap from foundation to mind.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 10,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R10",
+    "title": "Independent review of T10",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T10"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R10/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T10": "submitted"
+    }
+  },
+  {
+    "id": "T11",
+    "title": "Spacetime, timelessness and physical ontology",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T11/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Separate mathematical representation, physical interpretation and metaphysics; assess coherent timeless-mind models.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 9,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R11",
+    "title": "Independent review of T11",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T11"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R11/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T11": "submitted"
+    }
+  },
+  {
+    "id": "T12",
+    "title": "Emergence, panpsychism, dualism and idealism",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T12/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Compare explanatory gap, combination/decomposition and causal interaction challenges with strongest replies.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 9,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R12",
+    "title": "Independent review of T12",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T12"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R12/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T12": "submitted"
+    }
+  },
+  {
+    "id": "T13",
+    "title": "Personal identity, endurance and temporal reports",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1",
+      "R06",
+      "R07",
+      "R08",
+      "R11"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T13/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Separate altered time, absence of succession, survival, memory preservation and continuing subjectivity.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted",
+      "R06": "accepted",
+      "R07": "accepted",
+      "R08": "accepted",
+      "R11": "accepted"
+    }
+  },
+  {
+    "id": "R13",
+    "title": "Independent review of T13",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T13"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R13/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T13": "submitted"
+    }
+  },
+  {
+    "id": "T14",
+    "title": "Meaning, purpose and the consciousness-factory hypothesis",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T14/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Separate finite value, enduring significance, cosmic intention and independently specified predictions.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 10,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R14",
+    "title": "Independent review of T14",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T14"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R14/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T14": "submitted"
+    }
+  },
+  {
+    "id": "T15",
+    "title": "Moral grounding, suffering and hiddenness",
+    "workstream": "philosophy",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T15/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Compare theistic and secular grounding; distinguish behavior, obligation, accountability and value; include evil/hiddenness.",
+      "Provide source/claim/argument IDs, strongest countercase, access limits and result envelope."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G1": "accepted"
+    }
+  },
+  {
+    "id": "R15",
+    "title": "Independent review of T15",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T15"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R15/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Verify decisive sources and strongest reasonable alternatives.",
+      "Record corrections and unresolved disagreement; no self-review."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T15": "submitted"
+    }
+  },
+  {
+    "id": "T19",
+    "title": "Select and audit additional documentary-strength NDE cases",
+    "workstream": "empirical",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G1"
+    ],
+    "dependency_conditions": {
+      "G1": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/T19/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Select up to two additional cases from a logged candidate pool using the same documentary criteria, considering advocate and critical sources.",
+      "Provide individual dossiers or justify why no candidate meets the scope; disclose selection limits."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 10,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "R19",
+    "title": "Independent review of T19",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T19"
+    ],
+    "dependency_conditions": {
+      "T19": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/R19/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Check case-selection consistency and reopen decisive source passages.",
+      "Return accept/revise/unresolved; preserve access limitations."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "G2",
+    "title": "Audit domain coverage and shared evidence",
+    "workstream": "methods",
+    "role": "methods_steward",
+    "kind": "gate",
+    "dependencies": [
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R19"
+    ],
+    "status": "accepted",
+    "output_directory": "work/G2/",
+    "deliverables": [
+      "gate_decision.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Check protocol coverage, case duplication, overlapping samples and missing counterevidence.",
+      "List scoped limitations and close or adjudicate material method defects."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "R06": "accepted",
+      "R07": "accepted",
+      "R08": "accepted",
+      "R09": "accepted",
+      "R10": "accepted",
+      "R11": "accepted",
+      "R12": "accepted",
+      "R13": "accepted",
+      "R14": "accepted",
+      "R15": "accepted",
+      "R19": "accepted"
+    }
+  },
+  {
+    "id": "T16",
+    "title": "Build cumulative evidence and premise dependency map",
+    "workstream": "synthesis",
+    "role": "synthesis_analyst",
+    "kind": "research",
+    "dependencies": [
+      "G2"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T16/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Trace every component to reviewed claims and explicit bridge premises.",
+      "Distinguish independent support from reused assumptions; compare common foundation and added commitments.",
+      "Enforce G2 conditional scope and claim-triggered repair requirements; no broader coverage claim or ranking until relevant original defender/reply gaps are independently reviewed."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "G2": "accepted"
+    }
+  },
+  {
+    "id": "T17",
+    "title": "Assess confidence and sensitivity",
+    "workstream": "synthesis",
+    "role": "synthesis_analyst",
+    "kind": "research",
+    "dependencies": [
+      "T16"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T17/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Remove strongest disputed case and contested bridge premises; assess each hypothesis component separately.",
+      "Use numerical ranges only when assumptions and likelihoods are defensible; otherwise report qualitative underdetermination.",
+      "Enforce G2 conditional scope and claim-triggered repair requirements; no broader coverage claim or ranking until relevant original defender/reply gaps are independently reviewed."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T16": "submitted"
+    }
+  },
+  {
+    "id": "T18",
+    "title": "Draft source-linked final synthesis",
+    "workstream": "synthesis",
+    "role": "synthesis_analyst",
+    "kind": "research",
+    "dependencies": [
+      "T17"
+    ],
+    "status": "accepted",
+    "output_directory": "work/T18/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json"
+    ],
+    "acceptance_criteria": [
+      "Deliver best cumulative case and countercase, alternatives matrix, dependence map and open questions.",
+      "Trace substantive conclusions to reviewed records; disclose scope and access limits.",
+      "Enforce G2 conditional scope and claim-triggered repair requirements; no broader coverage claim or ranking until relevant original defender/reply gaps are independently reviewed."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T17": "submitted"
+    }
+  },
+  {
+    "id": "R18",
+    "title": "Adversarial review of cumulative assessment",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "T18"
+    ],
+    "status": "accepted",
+    "output_directory": "work/R18/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Review T16–T18 together; inspect decisive sources and inference chains.",
+      "Check sensitivity, omitted objections and probability assumptions.",
+      "Enforce G2 conditional scope and claim-triggered repair requirements; no broader coverage claim or ranking until relevant original defender/reply gaps are independently reviewed."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 90,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "T18": "submitted"
+    }
+  },
+  {
+    "id": "G3",
+    "title": "Adjudicate and release provisional synthesis",
+    "workstream": "synthesis",
+    "role": "overseer",
+    "kind": "gate",
+    "dependencies": [
+      "R18"
+    ],
+    "status": "accepted",
+    "output_directory": "work/G3/",
+    "deliverables": [
+      "gate_decision.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Resolve material citation errors and disclose remaining disputes.",
+      "Save final outputs, evidence records and exact next research questions.",
+      "Enforce G2 conditional scope and claim-triggered repair requirements; no broader coverage claim or ranking until relevant original defender/reply gaps are independently reviewed."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "dependency_conditions": {
+      "R18": "accepted"
+    }
+  },
+  {
+    "id": "P2T01",
+    "title": "Strong emergence",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T01/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One developed irreducible-emergent consciousness account, strongest causal/explanatory challenge, and direct reply where available; distinguish emergence from physical identity and fundamental experience."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R01",
+    "title": "Independent review: Strong emergence",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T01"
+    ],
+    "dependency_conditions": {
+      "P2T01": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R01/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T02",
+    "title": "Substance dualism",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T02/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One developed subject/interaction/persistence account, causal or epistemic challenge and reply; do not infer observed survival from a bearer theory."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R02",
+    "title": "Independent review: Substance dualism",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T02"
+    ],
+    "dependency_conditions": {
+      "P2T02": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R02/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T03",
+    "title": "Panpsychism and constitution",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T03/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "Selected original experiential-constitution defense, combination challenge and reply; recover exact missing Strawson text/version if relevant."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R03",
+    "title": "Independent review: Panpsychism and constitution",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T03"
+    ],
+    "dependency_conditions": {
+      "P2T03": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R03/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T04",
+    "title": "Universal and plural idealism",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T04/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One explicit universal-ground account and one contrasting plural-ground account, with selected direct critique/reply; check manuscript versions and cited illustration limits."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R04",
+    "title": "Independent review: Universal and plural idealism",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T04"
+    ],
+    "dependency_conditions": {
+      "P2T04": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R04/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T05",
+    "title": "Illusionism",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T05/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One developed original illusionist account, direct strongest phenomenal-target objection and reply; distinguish denying phenomenal properties as conceived from denying reports or all conscious functions."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R05",
+    "title": "Independent review: Illusionism",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T05"
+    ],
+    "dependency_conditions": {
+      "P2T05": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R05/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T06",
+    "title": "Moral constructivism and rational grounding",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T06/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One developed positive constructivist/rational account, direct objection and reply; distinguish obligation, value and categorical reasons."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R06",
+    "title": "Independent review: Moral constructivism and rational grounding",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T06"
+    ],
+    "dependency_conditions": {
+      "P2T06": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R06/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T07",
+    "title": "Non-natural moral realism",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T07/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One developed positive non-natural realist account, direct objection and reply; compare exact Craig/Railton claims and identify unclosed reply branches."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R07",
+    "title": "Independent review: Non-natural moral realism",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T07"
+    ],
+    "dependency_conditions": {
+      "P2T07": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R07/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T08",
+    "title": "Theodicy and hiddenness replies",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T08/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "Select the defense most relevant to the v1 restoration/perfect-love argument; original defense, serious objection and reply. Screen other free-will/soul-making/skeptical-theism branches explicitly; no complete-theodicy claim."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R08",
+    "title": "Independent review: Theodicy and hiddenness replies",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T08"
+    ],
+    "dependency_conditions": {
+      "P2T08": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R08/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T09",
+    "title": "AWARE and Dutch versions and replies",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T09/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "Named AWARE II author reply, relevant main-paper/supplement/flow versions and Dutch correction; opportunity intersections and numerical/inferential effects. Reynolds replies belong to P2T16."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R09",
+    "title": "Independent review: AWARE and Dutch versions and replies",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T09"
+    ],
+    "dependency_conditions": {
+      "P2T09": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R09/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T10",
+    "title": "Sufficient reason and necessary foundation",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T10/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One modern defended PSR/necessary-ground argument, direct critic and reply, with selected Lennox relevance; retain distinct foundation-to-mind bridge."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R10",
+    "title": "Independent review: Sufficient reason and necessary foundation",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T10"
+    ],
+    "dependency_conditions": {
+      "P2T10": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R10/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T11",
+    "title": "Fine-tuning and intention",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T11/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One exact positive fine-tuning argument/version plus direct selection/probability critique and reply; separate mathematical assumptions from verified physical measures or designer preferences."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R11",
+    "title": "Independent review: Fine-tuning and intention",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T11"
+    ],
+    "dependency_conditions": {
+      "P2T11": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R11/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T12",
+    "title": "Timeless ground and personal identity",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T12/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One specified timeless-ground/temporal-persons model and identity objection/reply exchange; exact modern versions. Screen remaining time/identity/physics branches without whole-literature closure."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R12",
+    "title": "Independent review: Timeless ground and personal identity",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T12"
+    ],
+    "dependency_conditions": {
+      "P2T12": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R12/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T13",
+    "title": "Endurance and meaning",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T13/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "Exact versions of the selected endurance/meaning argument and strongest necessity/enhancement objection/reply; prioritize Metz2000/Wolf/Fischer edition gaps as relevant. Williams already supplied and reviewed."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R13",
+    "title": "Independent review: Endurance and meaning",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T13"
+    ],
+    "dependency_conditions": {
+      "P2T13": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R13/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T14",
+    "title": "Neal public earliest documentation",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T14/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One case: earliest accessible memoir/disclosure, dated prediction records, public rescue chronology and direct case critic/reply; audio-authentication limits separate. No private-record demand."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R14",
+    "title": "Independent review: Neal public earliest documentation",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T14"
+    ],
+    "dependency_conditions": {
+      "P2T14": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R14/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T15",
+    "title": "Alexander public earliest documentation",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T15/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One case: AANS/full memoir appendix and earliest disclosures plus selected direct critique/reply; distinguish publicly documented timing from inaccessible charts/audio."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R15",
+    "title": "Independent review: Alexander public earliest documentation",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T15"
+    ],
+    "dependency_conditions": {
+      "P2T15": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R15/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T16",
+    "title": "Reynolds earliest documents and later replies",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T16/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One case: Sabom chapter/earliest account and later Woerlee rejoinder/Smit hearing-test letter; owns Reynolds reply chain, timing and technical-version comparison."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R16",
+    "title": "Independent review: Reynolds earliest documents and later replies",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T16"
+    ],
+    "dependency_conditions": {
+      "P2T16": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R16/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T17",
+    "title": "Dentures and TG public originals",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T17/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One case: earliest 1991/1994 and Dutch TG2008 public texts or translations, witness-chain comparison and chronology; no inferred cohort membership or invented patient testimony."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R17",
+    "title": "Independent review: Dentures and TG public originals",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T17"
+    ],
+    "dependency_conditions": {
+      "P2T17": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R17/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T18",
+    "title": "Selected empirical breadth and dependence",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T18/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One prespecified underrepresented historical/cultural corpus with translation check plus one early/null prospective original and selected direct criticism. Audit overlap/response wording in relevant comparisons. All other strata remain explicitly unassessed."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R18",
+    "title": "Independent review: Selected empirical breadth and dependence",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T18"
+    ],
+    "dependency_conditions": {
+      "P2T18": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R18/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2T19",
+    "title": "Neural protocols and replies",
+    "workstream": "research",
+    "role": "researcher",
+    "kind": "research",
+    "dependencies": [
+      "G3"
+    ],
+    "dependency_conditions": {
+      "G3": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2T19/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "proposed_records.json",
+      "coverage.json",
+      "citation_passes.json",
+      "v1_delta.json",
+      "source_requests.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Inspect selected original defender, serious challenge and available direct reply with exact version/locator; explicitly dispose of each inaccessible or omitted required source.",
+      "Execute and log separate backward and forward citation passes for included originals where feasible; capped/failed passes remain limitations.",
+      "Separate attribution, premise truth and inference; preserve dependence, strongest countercase and all G2 gates.",
+      "Deliver claim-level comparison to v1, source coverage/DOI access requests and proposed records. No canonical merge or conclusion upgrade before independent review.",
+      "If evidence remains inaccessible after bounded attempts, submit a reviewed limitation dossier; record gap unresolved and stronger claim withheld rather than claim source coverage achieved.",
+      "One relevant protocol/amendment and direct theory-reply chain plus targeted missing denominators from existing intervention packets; no full code reanalysis or whole-theory winner."
+    ],
+    "budget": {
+      "search_queries": 12,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2R19",
+    "title": "Independent review: Neural protocols and replies",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2T19"
+    ],
+    "dependency_conditions": {
+      "P2T19": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2R19/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "submission_hashes.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this packet; reopen every decisive original independently.",
+      "Verify exact v1 deltas, source versions, direct reply roles, strongest countercase and unresolved access disclosures.",
+      "Recommend accept/revise/unresolved; accepted limitation dossiers never count as closed source gaps or confirmed hypotheses."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2A01",
+    "title": "Coverage, provenance, dependence and gap disposition audit",
+    "workstream": "methods",
+    "role": "methods_steward",
+    "kind": "research",
+    "dependencies": [
+      "P2T01",
+      "P2R01",
+      "P2T02",
+      "P2R02",
+      "P2T03",
+      "P2R03",
+      "P2T04",
+      "P2R04",
+      "P2T05",
+      "P2R05",
+      "P2T06",
+      "P2R06",
+      "P2T07",
+      "P2R07",
+      "P2T08",
+      "P2R08",
+      "P2T09",
+      "P2R09",
+      "P2T10",
+      "P2R10",
+      "P2T11",
+      "P2R11",
+      "P2T12",
+      "P2R12",
+      "P2T13",
+      "P2R13",
+      "P2T14",
+      "P2R14",
+      "P2T15",
+      "P2R15",
+      "P2T16",
+      "P2R16",
+      "P2T17",
+      "P2R17",
+      "P2T18",
+      "P2R18",
+      "P2T19",
+      "P2R19"
+    ],
+    "dependency_conditions": {
+      "P2T01": "accepted",
+      "P2R01": "accepted",
+      "P2T02": "accepted",
+      "P2R02": "accepted",
+      "P2T03": "accepted",
+      "P2R03": "accepted",
+      "P2T04": "accepted",
+      "P2R04": "accepted",
+      "P2T05": "accepted",
+      "P2R05": "accepted",
+      "P2T06": "accepted",
+      "P2R06": "accepted",
+      "P2T07": "accepted",
+      "P2R07": "accepted",
+      "P2T08": "accepted",
+      "P2R08": "accepted",
+      "P2T09": "accepted",
+      "P2R09": "accepted",
+      "P2T10": "accepted",
+      "P2R10": "accepted",
+      "P2T11": "accepted",
+      "P2R11": "accepted",
+      "P2T12": "accepted",
+      "P2R12": "accepted",
+      "P2T13": "accepted",
+      "P2R13": "accepted",
+      "P2T14": "accepted",
+      "P2R14": "accepted",
+      "P2T15": "accepted",
+      "P2R15": "accepted",
+      "P2T16": "accepted",
+      "P2R16": "accepted",
+      "P2T17": "accepted",
+      "P2R17": "accepted",
+      "P2T18": "accepted",
+      "P2R18": "accepted",
+      "P2T19": "accepted",
+      "P2R19": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2A01/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "gap_dispositions.json",
+      "dependence_audit.json",
+      "stale_impact.json"
+    ],
+    "acceptance_criteria": [
+      "Audit all35 historical gap groups and any newly discovered material gaps. Assign resolved/partly addressed/access-unresolved/deferred-with-claim-withheld/already-resolved/persistent-audit-loss with evidence.",
+      "Check source overlap, all citation-pass obligations, finite source requests, accepted-ledger versions and stale-impact closure; retained old lost search records cannot be reconstructed.",
+      "Moorjani remains screened/deferred unless separately contracted. Verify completed Williams/Howard-Snyder gaps remain closed at exact scope."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2RA01",
+    "title": "Independent review of coverage and gap audit",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2A01"
+    ],
+    "dependency_conditions": {
+      "P2A01": "submitted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2RA01/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json"
+    ],
+    "acceptance_criteria": [
+      "Independent reviewer verifies every gap disposition and sample provenance checks; all decisive audit sources reopened. No administrative status closes an evidence gap."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2G1",
+    "title": "Adjudicate coverage and freeze synthesis inputs",
+    "workstream": "synthesis",
+    "role": "overseer",
+    "kind": "gate",
+    "dependencies": [
+      "P2A01",
+      "P2RA01"
+    ],
+    "dependency_conditions": {
+      "P2A01": "accepted",
+      "P2RA01": "accepted"
+    },
+    "status": "accepted",
+    "output_directory": "work/P2G1/",
+    "deliverables": [
+      "gate_decision.md",
+      "result.json",
+      "synthesis_handoff.json"
+    ],
+    "acceptance_criteria": [
+      "All19 packets and paired reviews adjudicated, with no unreviewed decisive claim entering synthesis.",
+      "Freeze v2 evidence snapshot and machine-readable allowed/withheld conclusions; gaps remain open where evidence lacking. Source-request checkpoint completed."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2S01",
+    "title": "Update dependence map and alternatives comparison",
+    "workstream": "synthesis",
+    "role": "synthesis_analyst",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "submitted",
+    "output_directory": "work/P2S01/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "dependency_map.json",
+      "alternatives_matrix.json",
+      "v1_delta.json"
+    ],
+    "acceptance_criteria": [
+      "Use frozen reviewed evidence; distinguish every changed cell/route from v1 and preserve unchanged reviewed inputs.",
+      "All9components and C1–C6; no source/route-count posterior or broad ranking without coverage."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2S02",
+    "title": "Recompute sensitivity and component assessment",
+    "workstream": "synthesis",
+    "role": "synthesis_analyst",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2S01"
+    ],
+    "dependency_conditions": {
+      "P2S01": "submitted"
+    },
+    "status": "revision_needed",
+    "output_directory": "work/P2S02/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "scenario_operations.json",
+      "sensitivity_results.json",
+      "component_assessment.json"
+    ],
+    "acceptance_criteria": [
+      "Execute inherited8sensitivity designs/17named scenarios against updated evidence, plus any newly decisive bridge test identified by P2G1.",
+      "Separate record reliability, inference and component confidence; show what changed and why; no Boolean truth by reachability."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "overseer_revision_reason": "PRE-P2R20-S02-001"
+  },
+  {
+    "id": "P2S03",
+    "title": "Draft source-linked version2 synthesis",
+    "workstream": "synthesis",
+    "role": "synthesis_analyst",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2S02"
+    ],
+    "dependency_conditions": {
+      "P2S02": "submitted"
+    },
+    "status": "blocked",
+    "output_directory": "work/P2S03/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "conclusion_crosswalk.json",
+      "review_handoff.json",
+      "open_questions.json"
+    ],
+    "acceptance_criteria": [
+      "Best cumulative case/countercase, all9components, existence/meaning/morality, fair comparisons, source links, unresolved disagreements and actual v1 changes.",
+      "Every substantive conclusion traced to reviewed evidence or labeled premise; G2/P2G1 constraints remain binding."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true,
+    "block_reason": "Author confirmed pause and saved partial progress; awaiting corrected S02 and an explicit frozen-input rebase."
+  },
+  {
+    "id": "P2R20",
+    "title": "Independent adversarial review of version2 sequence",
+    "workstream": "methods",
+    "role": "reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P2S03"
+    ],
+    "dependency_conditions": {
+      "P2S03": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P2R20/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "inference_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of P2S01–03; reopen all unique decisive original sources/versions from combined v1/new inventory, with supporting context sampled.",
+      "Check every decisive v1 delta, actual sensitivity execution, fairness, circular bridges and withheld conclusions. No silent source skipping.",
+      "240source/version budget is provisional. P2G1 computes actual decisive source/version inventory including author extensions. Root may authorize one recorded increase up to320 before review; greater scope requires a plan amendment. No numerical cap waives reopening every decisive source; unresolved dependent claims remain withheld."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 280,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P2G2",
+    "title": "Final adjudication and version2 release",
+    "workstream": "synthesis",
+    "role": "overseer",
+    "kind": "gate",
+    "dependencies": [
+      "P2R20"
+    ],
+    "dependency_conditions": {
+      "P2R20": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P2G2/",
+    "deliverables": [
+      "gate_decision.md",
+      "result.json",
+      "release_validation.json",
+      "release_manifest.json"
+    ],
+    "acceptance_criteria": [
+      "All required corrections resolved or affected conclusions explicitly withheld under independent review; no unreviewed decisive error remains.",
+      "Release v2 report, executive summary, source-linked annexes, v1 change log, complete gap/disagreement register and precise further-evidence conditions.",
+      "Verify hashes, freeze originals, save release and finish all46tasks. Completion is execution of fixed scope, not proof or exhaustive literature coverage."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  }
+]

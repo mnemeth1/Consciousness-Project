@@ -1,0 +1,326 @@
+{
+  "gap_count": 35,
+  "mapping": [
+    {
+      "gap_id": "G1-GAP-01",
+      "research_owners": [
+        "P2T14"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G1-GAP-02",
+      "research_owners": [
+        "P2T14"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G1-GAP-03",
+      "research_owners": [
+        "P2T14"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G1-GAP-04",
+      "research_owners": [
+        "P2T14"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G1-GAP-05",
+      "research_owners": [
+        "P2T01",
+        "P2T02",
+        "P2T03",
+        "P2T04"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G1-GAP-06",
+      "research_owners": [
+        "P2T15"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G1-GAP-07",
+      "research_owners": [],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Moorjani remains screened/deferred; no new case verification assignment."
+    },
+    {
+      "gap_id": "G1-GAP-08",
+      "research_owners": [
+        "P2T18"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-09",
+      "research_owners": [],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Historical audit loss permanent; preserve disclosure, new searches never reconstruct lost old searches."
+    },
+    {
+      "gap_id": "G2-GAP-10",
+      "research_owners": [
+        "P2T15"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-11",
+      "research_owners": [
+        "P2T09"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-12",
+      "research_owners": [
+        "P2T09"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-13",
+      "research_owners": [
+        "P2T09"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-14",
+      "research_owners": [
+        "P2T18"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-15",
+      "research_owners": [
+        "P2T18"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-16",
+      "research_owners": [
+        "P2T18"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-17",
+      "research_owners": [
+        "P2T18"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-18",
+      "research_owners": [
+        "P2T19"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-19",
+      "research_owners": [
+        "P2T19"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-20",
+      "research_owners": [
+        "P2T10",
+        "P2T11"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-21",
+      "research_owners": [
+        "P2T11"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-22",
+      "research_owners": [
+        "P2T02",
+        "P2T12"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-23",
+      "research_owners": [
+        "P2T12"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-24",
+      "research_owners": [
+        "P2T01",
+        "P2T02",
+        "P2T03",
+        "P2T04"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-25",
+      "research_owners": [
+        "P2T04"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-26",
+      "research_owners": [
+        "P2T12"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-27",
+      "research_owners": [
+        "P2T13"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Williams supplied original already reviewed; do not reopen access gap absent new version issue."
+    },
+    {
+      "gap_id": "G2-GAP-28",
+      "research_owners": [
+        "P2T13"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-29",
+      "research_owners": [
+        "P2T08",
+        "P2T13"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-30",
+      "research_owners": [
+        "P2T06",
+        "P2T07"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-31",
+      "research_owners": [],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Howard-Snyder supplied original already reviewed; wider debate distinct."
+    },
+    {
+      "gap_id": "G2-GAP-32",
+      "research_owners": [
+        "P2T07",
+        "P2T08"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-33",
+      "research_owners": [
+        "P2T16",
+        "P2T17"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-34",
+      "research_owners": [
+        "P2T16"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    },
+    {
+      "gap_id": "G2-GAP-35",
+      "research_owners": [
+        "P2T05"
+      ],
+      "disposition_owner": "P2A01",
+      "status": "unassessed_in_phase2",
+      "special_rule": "Task completion alone never closes this evidence gap."
+    }
+  ]
+}
