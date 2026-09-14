@@ -57,8 +57,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "sha256": "6c287df4a56b204d776ae7e810f2b5002f4727c97f73b75448db3d0268d063b2",
-      "bytes": 2099,
+      "sha256": "4f5efd577ee58b5944e84604b58ffa8f535a6360ac278bffa3f1e26f0be69f2e",
+      "bytes": 2098,
       "source": null,
       "transformations": []
     },
@@ -83,8 +83,8 @@
     },
     {
       "path": "PUBLICATION_NOTES.md",
-      "sha256": "f138ad6fced06ffaa52f6bf98109789daaa982b039f9d21a3231cf8deb399de2",
-      "bytes": 4048,
+      "sha256": "6221c6c96c8834b5631901be808e87b2c039d59ab3ce5d46c74b1158fd3aa164",
+      "bytes": 4049,
       "source": null,
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
@@ -92,8 +92,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "c592ff7023e92a05d3af2602a583733004745719f6b558a590c8a44123ec15b4",
-      "bytes": 5294,
+      "sha256": "7a4294e9502643466d73ad713d5cfa455fc3cdefd8a569ceeba418fc7833f5c6",
+      "bytes": 5293,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -505,8 +505,8 @@
     },
     {
       "path": "scripts/export_public_snapshot.cjs",
-      "sha256": "c116f47b00c8be380e830528aa5c93ca942ae3c40565f69a4ee24ee0faec7536",
-      "bytes": 5393,
+      "sha256": "8c38de5278d3a05c3d17670aa12a2e6884f1e326b11ce60960d1a49f327c5ccf",
+      "bytes": 4978,
       "source": null,
       "transformations": []
     },
@@ -587,15 +587,11 @@
       "source_sha256": "e5b3c0a301fb56be5fdef4a181db80524b700423bd9e3cbfabfc8bed8c6f7a59"
     },
     {
-      "path": "scripts/validate_public_snapshot.py",
-      "sha256": "3c5fa0e3f812f09a270b3c262c75826d30c0ee5916e967fb2a00aeae7344a58a",
-      "bytes": 9721,
-      "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/validate_public_snapshot.py",
-      "transformations": [
-        "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes.",
-        "Phase 3 thesis programme update (2026-09-13)."
-      ],
-      "source_sha256": "12aa570d33ba87291eb0f0abfc51bbc24229f9940e9e1f110209c1582ed4beea"
+      "path": "scripts/validate_public_snapshot.cjs",
+      "sha256": "52abf59823c096437e2801d7b9f6125b1f3964e05ee43bf9f3f5c23526250369",
+      "bytes": 11137,
+      "source": null,
+      "transformations": []
     },
     {
       "path": "state/public_status.json",

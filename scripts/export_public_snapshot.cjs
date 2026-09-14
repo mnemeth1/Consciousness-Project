@@ -6,7 +6,7 @@
 // it copies exactly the files the manifest allowlists into an export directory
 // (default .public-export/), verifies every byte against the manifest hash,
 // re-checks the forbidden-content screens, asserts the export inventory equals
-// the manifest, and then runs the canonical Python validator inside the export.
+// the manifest, and then runs the canonical validator inside the export.
 // Nothing is discovered from the filesystem; a file absent from the manifest
 // cannot reach the export. A working-tree file that differs from its manifest
 // entry fails the export until the manifest is deliberately refreshed
@@ -81,20 +81,13 @@ function exportSnapshot(target) {
 }
 
 function runValidator(target) {
-  for (const [cmd, pre] of [['py', ['-3']], ['python3', []], ['python', []]]) {
-    const run = spawnSync(cmd, [...pre, path.join('scripts', 'validate_public_snapshot.py')],
-      {cwd: target, encoding: 'utf8'});
-    // Skip missing launchers and the Windows Store python alias.
-    if (run.error || /Python was not found/i.test(run.stderr || '')) continue;
-    process.stdout.write(run.stdout || '');
-    process.stderr.write(run.stderr || '');
-    assert.equal(run.status, 0, `Canonical validator failed inside the export (${cmd})`);
-    console.log(`Canonical validator passed inside the export (${cmd}).`);
-    return true;
-  }
-  console.log('Python not found on this machine: the export is hash- and inventory-verified,');
-  console.log('but run scripts/validate_public_snapshot.py inside the export before publishing.');
-  return false;
+  // Run the export's own copy of the validator so it checks the export tree.
+  const run = spawnSync(process.execPath, [path.join(target, 'scripts', 'validate_public_snapshot.cjs')],
+    {encoding: 'utf8'});
+  process.stdout.write(run.stdout || '');
+  process.stderr.write(run.stderr || '');
+  assert.equal(run.status, 0, 'Canonical validator failed inside the export');
+  console.log('Canonical validator passed inside the export.');
 }
 
 if (require.main === module) {
