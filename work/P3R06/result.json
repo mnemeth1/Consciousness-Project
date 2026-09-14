@@ -1,0 +1,44 @@
+{
+  "task_id": "P3R06",
+  "status": "submitted",
+  "artifact_paths": [
+    "work/P3R06/report.md",
+    "work/P3R06/review.json",
+    "work/P3R06/source_checks.json",
+    "work/P3R06/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C06 submitted revision 1 (thesis/chapters/06-empirical.md, thesis/crosswalk/c06.json, work/P3C06/report.md, work/P3C06/result.json)",
+    "Accepted records of T04, T06, T07, T08, T09, T19, P2T09, P2T14, P2T15, P2T16, P2T17, P2T18, P2T19",
+    "paper/paper.html p-022 to p-029",
+    "work/G2/synthesis_constraints.json",
+    "derived/gap_gate_register.json",
+    "phase3/pilot_calibration.md",
+    "state/acceptance_P3C02.json",
+    "state/acceptance_P3C03.json"
+  ],
+  "uncertainties": [
+    "U1 (author): confirmed; PREMISE locators follow the accepted c02–c05 convention.",
+    "U2 (author): confirmed; S-P2T16-005 remains title-only uninspected_stopped_route.",
+    "U3 (author): confirmed within CL-P2T19-001/002 limits (v4 file, Version 4.5, 22 Dec 2022 internal date).",
+    "derived/evidence/c06.md and derived/manifest.json are stale on the revised chapter. Overseer should --sync-manifest at acceptance. Not a chapter-text defect.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C06 (revision 1) and P3R06. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/06-empirical.md": "bd180f8bd586e99486e4627609112f0fe348c7c45e1edd18222a41ad32927fb4",
+    "thesis/crosswalk/c06.json": "8e22d7428fef56eaf66c985c712b8ac3348f4b8120103d90b524d798ba81b6a3",
+    "work/P3C06/report.md": "25905ae347fea3024ff0caf52673770bb7f3514303232cd25247aeadd71bbea9",
+    "work/P3C06/result.json": "fbd956a76e2d8cafc71357a7b2deabf7ed5fe83787d124ece9a422ef03a1da89",
+    "paper/paper.html": "d31eab14ead977930fe47b46e6fd253df0da0b7fdf6a49391943ab1e5952a277",
+    "work/G0/protocol_v1.md": "0be5706f79030a85ac7b2d761eae2012481b11b48a384c677045210b3b0e3904"
+  }
+}

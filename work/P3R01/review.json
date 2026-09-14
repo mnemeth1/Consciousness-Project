@@ -1,0 +1,112 @@
+{
+  "task_id": "P3R01",
+  "chapter": "c01",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "checked_paragraphs": 27,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph_id": "c01-p022",
+      "closed": true,
+      "how": "Six families stated in c03-p001 wording; theism marked present mainly by stipulation per c03-p040; fairness rule is strongest-formulation-in-project-record, bounded to this record. Invented 'neutral' family gone.",
+      "required_repair": "none remaining"
+    },
+    {
+      "id": "M2",
+      "paragraph_id": "c01-p023",
+      "closed": true,
+      "how": "Crisis conjunction is now externally accurate content, a defensible interval of acquisition, and adequate information about the processes available during that interval (c06-p010 / article p-024). Homemade triad gone. Both-directions sentence kept. Prospective and historical corpus named (N11).",
+      "required_repair": "none remaining"
+    },
+    {
+      "id": "M3",
+      "paragraph_id": ["c01-p022", "c01-p024"],
+      "closed": true,
+      "how": "c05 sentence is existence, necessity, design, open foundation-to-mind bridge. Factory/B08 on the c08 sentence. A-T01-003 moved from p022 to p024.",
+      "required_repair": "none remaining"
+    }
+  ],
+  "minor_defects": [],
+  "minor_defects_closed_in_revision_1": [
+    "N1 c01-p010 A-T01-003 assumed-explanandum qualifier added",
+    "N2 front-matter p-001 abstract added to inputs",
+    "N3 c01-p017 H-B limits restored",
+    "N4 c01-p017 H-S limits restored",
+    "N5 c01-p009 B13 named and pointed at chapter 10",
+    "N6 c01-p025 weak-discrimination and precommitment verbs added",
+    "N7 c01-p022 bounded fairness-rule wording (with M1)",
+    "N8 c01-p026 accepted chapters state all twelve remain withheld",
+    "N9 c01-p003 expansion marked as a gloss",
+    "N10 c01-p012 B14 no longer holds the joint-theory concession; bridge-register ref removed",
+    "N11 c01-p023 prospective studies and historical/cross-cultural corpus named (with M2)",
+    "N12 c01-p026 appendices described as A–D"
+  ],
+  "editorial_notes": [
+    "E1 c01-p004 'each larger than the last' dropped",
+    "E2 c01-p007 article's 'each transition may be defensible' restored",
+    "E3 c01-p011 'seeks to earn'",
+    "E4 c01-p017 bodily/neural",
+    "E5 c01-p019 replacement-substrate sentence added"
+  ],
+  "residual_notes_not_blocking": [
+    "c01-p022 still says chapter 3 'builds' the families; c03-p001 says 'presents'",
+    "c01-p023 'that frame them' slightly demotes prospective/historical relative to c06-p001 'are assessed'",
+    "c01-p025 'unconstrained specification' is a gloss of c10-p024's 'specified benevolent foundation that predicts nothing'; recorded verbs are present",
+    "Crosswalk factory locator c08-p018 to p021; discrimination-design paragraph is c08-p022",
+    "Author-packet opening U1–U3 and first Artifacts hashes are first-draft; revision_cycles_used: 1 and Revision 1 hashes are honest",
+    "c01-p001 still says 'the whole work defends' (unchanged; E3 was p011)"
+  ],
+  "uncertainty_adjudications": {
+    "U1": "First-review: N1. Revision 1 adds the assumed-explanandum qualifier. Closed.",
+    "U2": "First-review: M1–M3. Revision 1 repairs the three roadmap failures. Remaining roadmap sentences still match. Closed.",
+    "U3": "First-review: N2. Revision 1 adds p-001 to front-matter inputs. Closed."
+  },
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "number_checks": {
+    "paragraphs": "pass_27",
+    "crosswalk_entries": "pass_27_one_per_paragraph",
+    "t01_ledger_prefix": "pass_four_arguments_zero_claims_cases_sources",
+    "twelve_withheld_gates": "pass_GATE-T16-01_through_12_all_withheld",
+    "c03_families": "pass_six_families_c03-p001_wording",
+    "c06_conjunction": "pass_c06-p010_and_p-024_triad",
+    "c06_both_directions": "pass_causal_constraint_not_ontology",
+    "c10_expected_world": "pass_constraint_plus_weak_discrimination_verbs"
+  },
+  "build_checks": {
+    "thesis_build_check": "pass",
+    "thesis_build_detail": "340 paragraphs, 128 citations, 331 crosswalk entries; c01 submitted; c02-c10 accepted; c11-c12 skeleton"
+  },
+  "sha256_verified": {
+    "thesis/chapters/01-introduction.md": "16b520ab454811ad7cf14405b6eab4e8aa296b6e3a6c1b6afe350584f1fa41e8",
+    "thesis/crosswalk/c01.json": "b927bbf8fe9a8c931b27ca36fc5feaf2c93d8618d68e3837ea1578ea5da6dd61",
+    "matches_author_packet": true
+  },
+  "new_text_verified": [
+    {
+      "claim": "Six families in c03-p001 wording, theism present mainly by stipulation, record-bounded fairness rule",
+      "paragraph_id": "c01-p022",
+      "against": "c03-p001, c03-p040, c03-p041",
+      "finding": "supported; M1 closed"
+    },
+    {
+      "claim": "Crisis conjunction of externally accurate content, defensible interval of acquisition, adequate process information",
+      "paragraph_id": "c01-p023",
+      "against": "c06-p001, c06-p010, c06-p045, paper/paper.html p-024",
+      "finding": "supported; wording matches p-024/c06-p010; M2 closed"
+    },
+    {
+      "claim": "c05 is existence, necessity, design, open foundation-to-mind bridge; factory/B08 on c08",
+      "paragraph_id": "c01-p022,c01-p024",
+      "against": "c05-p001; c08-p018 to c08-p022; A-T01-003 now at p024 only",
+      "finding": "supported; M3 closed"
+    }
+  ],
+  "corrections_required": [],
+  "summary": "Accept revision 1. M1–M3 and N1–N12 closed. E1–E5 applied. No new material defects. All twelve withheld gates remain closed. thesis/build.cjs --check passed.",
+  "recommended_next_action": "Overseer adjudication: accept P3C01 (revision 1) and P3R01. Revision cycle 2 unused. Sync derived manifest at acceptance."
+}

@@ -1,0 +1,45 @@
+{
+  "task_id": "P3R09",
+  "status": "done",
+  "artifact_paths": [
+    "work/P3R09/report.md",
+    "work/P3R09/review.json",
+    "work/P3R09/source_checks.json",
+    "work/P3R09/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C09 submitted revision 1 (thesis/chapters/09-morality.md, thesis/crosswalk/c09.json, work/P3C09/report.md, work/P3C09/result.json)",
+    "Accepted records of T15, P2T06 and P2T07",
+    "paper/paper.html p-039 to p-042",
+    "thesis/chapters/10-goodness.md front matter (evil/hiddenness scope)",
+    "work/G2/synthesis_constraints.json",
+    "derived/gap_gate_register.json",
+    "phase3/pilot_calibration.md",
+    "derived/evidence/c09.md"
+  ],
+  "uncertainties": [
+    "U1 (author): first-review not confirmed (that was M1). Revision 1 deletes the diachronic Nagel sentence and maps A-T15-001 with CL-T15-017/018. Now confirmed. M1 closed.",
+    "U2 (author): confirmed. Revision 1 removes the invented DG-P2T06 project inferences name. N10 closed.",
+    "U3 (author): first-review not confirmed (that was M2). Revision 1 uses narrows / not withdrawn / G2-GAP-30 remains partial and open. Now confirmed. M2 closed.",
+    "derived/evidence/c09.md and derived/manifest.json are stale on the revised chapter. Overseer should --sync-manifest at acceptance. Not a chapter-text defect.",
+    "c09-p026 PREMISE still lists the first-cycle gap set; new items live in the prose. Residual, not blocking.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0,
+    "sessions": 2
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C09 (revision 1) and P3R09. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/09-morality.md": "afc80054a4281015c9cd4bb42bc5330c6c382fb38cc7aff14cca0f9e869b4c89",
+    "thesis/crosswalk/c09.json": "f3aa63d7c5bea5a7152223a0229bc9ca3e9ec78864ce02b01112aecf99e27c2f",
+    "work/P3C09/report.md": "dfcd873fbd8cde16441ba7bac556bab547084a88476e100207eb7801ed2d0ae5",
+    "work/P3C09/result.json": "0c179a118f3a7b3f2e999b824f5cd18949bc3e91ed787c4dcf5e63782b28c923"
+  },
+  "summary": "Re-review of P3C09 revision 1. Verdict: accept. M1 and M2 closed; N1–N12 and E1–E5 closed; no new material defects. thesis/build.cjs --check passed (286 paragraphs, c09 submitted). Derived c09 pack remains stale."
+}

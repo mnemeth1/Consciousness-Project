@@ -9,11 +9,11 @@ def validate(directory):
     root = Path(directory)
     assert root.is_dir() and not root.is_symlink(), 'Expected an artifact directory'
     manifest = json.loads((root/'release.json').read_text(encoding='utf-8'))
-    aux_fields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256']
+    aux_fields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256']
     bound = [f for f in aux_fields if manifest.get(f) is not None]
-    assert bound in ([], aux_fields), 'Landing, companion and crosswalk hashes bind together'
+    assert bound in ([], aux_fields), 'Landing, companion, crosswalk and thesis hashes bind together'
     extended = bound == aux_fields
-    expected = {'index.html', 'paper.html', 'companion.html', 'paper.pdf', 'release.json'} if extended \
+    expected = {'index.html', 'paper.html', 'companion.html', 'thesis.html', 'paper.pdf', 'release.json'} if extended \
         else {'index.html', 'paper.pdf', 'release.json'}
     assert {p.name for p in root.iterdir()} == expected, 'Publish exactly the versioned paper set and manifest'
     for p in root.iterdir():
@@ -38,7 +38,8 @@ def validate(directory):
         else:
             assert re.match(r'^Phase 2 working draft(?:[: -]|$)',manifest['title'])
     pairs = [('index.html', 'landing_html_sha256'), ('paper.html', 'html_sha256'),
-             ('companion.html', 'companion_html_sha256'), ('paper.pdf', 'pdf_sha256')] if extended \
+             ('companion.html', 'companion_html_sha256'), ('thesis.html', 'thesis_html_sha256'),
+             ('paper.pdf', 'pdf_sha256')] if extended \
         else [('index.html', 'html_sha256'), ('paper.pdf', 'pdf_sha256')]
     for file, field in pairs:
         assert re.fullmatch(r'[a-f0-9]{64}', manifest[field]), 'Hash required: ' + field

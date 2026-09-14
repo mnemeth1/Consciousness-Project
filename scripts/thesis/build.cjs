@@ -190,9 +190,34 @@ function bibliography(cited, ctx) {
   return `<section id="references">\n<h2>References</h2>\n${body}\n</section>`;
 }
 
-const STYLE = '*{box-sizing:border-box}body{margin:0;background:#f1f2f1;color:#20262b;font:18px/1.65 Georgia,"Times New Roman",serif}main,nav{max-width:900px;margin:auto}main{padding:48px 60px 64px;background:white}nav{padding:18px 24px;font:15px/1.5 Arial,sans-serif}h1,h2,h3,h4{font-family:Arial,sans-serif;line-height:1.2;color:#203a49}h1{font-size:2.3rem;margin:0 0 24px}h2{font-size:1.4rem;margin:34px 0 16px}h3{font-size:1.1rem;margin:24px 0 14px}h4{font-size:1rem;margin:20px 0 12px}p{margin:0 0 17px}a{color:#075c75;text-underline-offset:.15em}.meta{font:14px/1.5 Arial,sans-serif;color:#48565f}#abstract{border-block:1px solid #bfcdd3;padding-bottom:8px}#references{font-size:.85em;overflow-wrap:anywhere}#references p{padding-left:1.4em;text-indent:-1.4em}em{font-style:italic}@media(max-width:640px){body{font-size:17px}main{padding:28px 23px 40px}h1{font-size:1.85rem}}@page{size:A4;margin:20mm 19mm 22mm}@media print{body{background:white;color:black;font-size:10.7pt;line-height:1.43}main{margin:0;padding:0;max-width:none}.screen-only{display:none}h1{font-size:23pt}h2{font-size:14pt;margin-top:20pt}h3{font-size:11.5pt}h4{font-size:10.5pt}h1,h2,h3,h4{break-after:avoid}p{orphans:3;widows:3}.meta{font-size:9pt}#references{font-size:9pt}#references p{break-inside:avoid}a{color:#163f52}}';
+const STYLE = '*{box-sizing:border-box}body{margin:0;background:#f1f2f1;color:#20262b;font:18px/1.65 Georgia,"Times New Roman",serif}main,nav{max-width:900px;margin:auto}main{padding:48px 60px 64px;background:white}nav{padding:18px 24px;font:15px/1.5 Arial,sans-serif}h1,h2,h3,h4{font-family:Arial,sans-serif;line-height:1.2;color:#203a49}h1{font-size:2.3rem;margin:0 0 24px}h2{font-size:1.4rem;margin:34px 0 16px}h3{font-size:1.1rem;margin:24px 0 14px}h4{font-size:1rem;margin:20px 0 12px}p{margin:0 0 17px}a{color:#075c75;text-underline-offset:.15em}.meta{font:14px/1.5 Arial,sans-serif;color:#48565f}.status{font:14px/1.6 Arial,sans-serif;color:#5a4a22;background:#faf5e6;border:1px solid #e3d5a8;border-radius:6px;padding:10px 14px;margin:16px 0 26px}#abstract{border-block:1px solid #bfcdd3;padding-bottom:8px}#references{font-size:.85em;overflow-wrap:anywhere}#references p{padding-left:1.4em;text-indent:-1.4em}em{font-style:italic}@media(max-width:640px){body{font-size:17px}main{padding:28px 23px 40px}h1{font-size:1.85rem}}@page{size:A4;margin:20mm 19mm 22mm}@media print{body{background:white;color:black;font-size:10.7pt;line-height:1.43}main{margin:0;padding:0;max-width:none}.screen-only{display:none}h1{font-size:23pt}h2{font-size:14pt;margin-top:20pt}h3{font-size:11.5pt}h4{font-size:10.5pt}h1,h2,h3,h4{break-after:avoid}p{orphans:3;widows:3}.meta,.status{font-size:9pt}#references{font-size:9pt}#references p{break-inside:avoid}a{color:#163f52}}';
 
-function build({check = false, out = '.paper-build/thesis'} = {}) {
+function readPaperMeta() {
+  const html = readText('paper/paper.html');
+  const version = html.match(/<meta name="paper-version" content="([^"]+)"/);
+  const date = html.match(/<meta name="paper-date" content="([^"]+)"/);
+  assert(version && date, 'paper/paper.html must declare paper-version and paper-date');
+  return {version: version[1], date: date[1]};
+}
+
+function remainingWorkBanner(front, numbered, appendices) {
+  const incomplete = [];
+  if (front.meta.status !== 'accepted') incomplete.push('front matter');
+  for (const c of numbered) {
+    if (c.meta.status !== 'accepted') incomplete.push(`chapter ${c.number} (${c.meta.title})`);
+  }
+  for (const a of appendices) {
+    if (a.meta.status !== 'accepted') {
+      incomplete.push(`Appendix ${a.meta.appendix}`);
+    }
+  }
+  if (!incomplete.length) return '';
+  const accepted = numbered.filter(c => c.meta.status === 'accepted').map(c => c.number);
+  const acceptedSpan = accepted.length ? `chapters ${accepted[0]}–${accepted.at(-1)}` : 'no numbered chapters';
+  return `<p class="status" id="remaining-work">This is an incomplete thesis working draft. It is not a finished manuscript, not a substitute for the <a href="paper.html">research article</a>, and not an externally peer-reviewed publication. ${acceptedSpan.charAt(0).toUpperCase()}${acceptedSpan.slice(1)} have been drafted, independently reviewed and accepted within project procedure. Still unwritten: ${esc(incomplete.join('; '))}. Coverage gate P3G1, whole-thesis review P3R20, and release adjudication P3G2 (which would close P2G2) have not been run; P2R20 remains pending. Chapter acceptance is methodological and does not establish a metaphysical result.</p>`;
+}
+
+function build({check = false, out = '.paper-build/thesis', publish = false} = {}) {
   const config = readJSON('thesis/thesis.json');
   assert.equal(config.schema, 1, 'thesis.json schema must be 1');
   assert(SEMVER.test(config.version), 'Stable semantic thesis version required');
@@ -295,30 +320,33 @@ function build({check = false, out = '.paper-build/thesis'} = {}) {
   const crosswalkEntries = validateCrosswalk(config, ctx, records,
     [...chapters.map(c => c.prefix), ...appendices.map(a => a.prefix)]);
 
+  const paperMeta = readPaperMeta();
+  const remaining = remainingWorkBanner(front, numbered, appendices);
   const html = `<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="${esc(config.authors)}">
-<meta name="paper-version" content="${esc(config.version)}">
-<meta name="paper-date" content="${esc(config.date)}">
+<meta name="paper-version" content="${esc(paperMeta.version)}">
+<meta name="paper-date" content="${esc(paperMeta.date)}">
 <meta name="paper-stage" content="draft">
 <meta name="paper-fixture" content="false">
 <title>${esc(config.title)}</title>
 <style>${STYLE}</style>
 </head>
 <body>
-<nav class="screen-only" aria-label="Thesis navigation"><a id="download-pdf" href="paper.pdf" download>Download the thesis PDF</a></nav>
+<nav class="screen-only" aria-label="Thesis navigation"><a href="index.html">Start page</a> · <a href="companion.html">Plain-language overview</a> · <a href="paper.html">Research article</a></nav>
 <main id="paper">
 <header>
 <h1 id="paper-title">${esc(config.title)}</h1>
 <p id="authors">${esc(config.authors)}</p>
 <p class="meta">Project direction: ${esc(config.project_direction)}</p>
 <p id="ai-disclosure" class="meta">${esc(config.ai_disclosure)}</p>
-<p class="meta">Version <span id="paper-version">${esc(config.version)}</span> · <span id="paper-date">${esc(config.date)}</span></p>
+<p id="version-notice" class="meta">Published with article version <span id="paper-version">${esc(paperMeta.version)}</span> · <span id="paper-date">${esc(paperMeta.date)}</span>. Thesis working draft ${esc(config.version)}.</p>
 <p id="publication-status" class="meta">Draft: P2R20 and P2G2 pending</p>
 </header>
+${remaining}
 
 ${bodySections}
 </main>
@@ -345,6 +373,10 @@ ${bodySections}
         `<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>${esc(title)}</title>\n<style>${STYLE}</style>\n</head>\n<body>\n<main>\n<p class="meta">Working preview of one thesis part (status: ${c.meta.status}). The stitched thesis.html is the validated artifact; anchors may resolve only there.</p>\n${section}\n</main>\n</body>\n</html>\n`);
     }
     stats.output = `${out}/thesis.html`;
+    if (publish) {
+      fs.writeFileSync(path.join(ROOT, 'paper/thesis.html'), html);
+      stats.published = 'paper/thesis.html';
+    }
   }
   return stats;
 }
@@ -352,9 +384,11 @@ ${bodySections}
 if (require.main === module) {
   const args = process.argv.slice(2);
   const check = args.includes('--check');
+  const publish = args.includes('--publish');
   const outIndex = args.indexOf('--out');
   try {
-    const stats = build({check, out: outIndex >= 0 ? args[outIndex + 1] : undefined});
+    assert(!(check && publish), 'Use --check or --publish, not both');
+    const stats = build({check, publish, out: outIndex >= 0 ? args[outIndex + 1] : undefined});
     console.log(JSON.stringify(stats, null, 2));
     console.log(check ? 'Thesis validation passed (no output written).' : 'Thesis build complete.');
   } catch (error) {

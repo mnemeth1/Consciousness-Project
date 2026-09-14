@@ -1,0 +1,106 @@
+{
+  "task_id": "P3R07",
+  "object": "P3C07",
+  "chapter": "c07",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph": "c07-p002",
+      "closed": true,
+      "how": "Six journal copies, stated as four (eternity-personhood) plus two (Lewis–Oaklander). Crosswalk still S-P2T12-001..006. p037 still names the same six.",
+      "description": "Closed. Homemade five-copy census removed.",
+      "required_repair": "none remaining"
+    }
+  ],
+  "minor_defects": [],
+  "minor_defects_closed_in_revision_1": [
+    "N1 c07-p033 Timmermann SDs 0.80/0.78, ≥7, no-raw-boundary-score list, 7F/6M vs 6F/7M",
+    "N2 c07-p013 Lewis 1984 volume 77 vs 1981 header 78",
+    "N3 c07-p002 H. R. James named at first use",
+    "N4 c07-p015 Hasker co-target and note 35",
+    "N5 c07-p032 A-T13-005 mapped",
+    "N6 c07-p038 1984 non-citation as inspection; Oaklander absence as search",
+    "N7 c07-p021 PREMISE:article:p-033 added",
+    "N8 c07-p026 Olson 2006 reference",
+    "N9 c07-p007 Rovelli body title date October 23, 2018",
+    "N10 c07-p029 Lewis 1986 concludes conditionally",
+    "N11 c07-p036 'real' dropped; documented and recurrent reports",
+    "N12 c07-p022 organism-criterion cost and relational 'beyond' named"
+  ],
+  "editorial_notes": [
+    "E1 c07-p015 ET-prime named",
+    "E2 c07-p038 'remains' replaces 'survives'",
+    "E3 c07-p005 leftover CL-T11-019/CL-T11-020 mappings removed",
+    "E4 c07-p010 'or that God must be eternal' restored",
+    "E5 c07-p003 A-T11-005 and G2 H-S PREMISE mapped"
+  ],
+  "residual_notes_not_blocking": [
+    "derived/evidence/c07.md and derived/manifest.json stale on the revised chapter; overseer should --sync-manifest at acceptance",
+    "c07-p038 PREMISE label still groups CL-P2T12-017 under 'bounded searches' after the prose split inspection from search",
+    "c07-p033 women/men vs C-T13-001 female/male",
+    "c07-p009 does not repeat H. R. James after p002 first use",
+    "Author-packet Uncertainties still first-draft U1–U3 wording, including the CL-T08-023 pointer; result.json hashes and revision_cycles_used: 1 are honest"
+  ],
+  "uncertainty_adjudications": {
+    "U1": "Confirmed. c07-p004 renderings of M1–M4 match CL-T11-017 and CL-T13-016..018. Unchanged in revision 1.",
+    "U2": "Confirmed. CL-P2T12-003 locator especially 443 pairs with article p-033's 1981 p. 443 quotation. Unchanged in revision 1.",
+    "U3": "Confirmed that chapter 6 met the 1990 comparison (c06-p038). Recruitment is CL-T08-021, not CL-T08-023. Unchanged in revision 1."
+  },
+  "checks_run": [
+    "thesis/build.cjs --check: pass (234 paragraphs, 107 citations, 221 crosswalk entries, c07 submitted)",
+    "derived/build.cjs --check: stale (derived/evidence/c07.md, derived/manifest.json); non-blocking",
+    "SHA-256 of revision-1 chapter and crosswalk match work/P3C07/result.json and the author report",
+    "lookup.cjs on M1 and N1–N12 load-bearing IDs (see source_checks.json re_review)",
+    "Touched paragraphs re-read for new defects: none material",
+    "Crosswalk: 38 entries, one per paragraph c07-p001–c07-p038; 111 ledger IDs; 0 missing; new refs resolve",
+    "derived/gap_gate_register.json: all 12 GATE-T16-* still withheld",
+    "work/G2/synthesis_constraints.json nine-component list matches c07-p038"
+  ],
+  "new_text_verified": [
+    {
+      "claim": "Six journal copies, four plus two",
+      "paragraph_id": "c07-p002",
+      "against": "S-P2T12-001..006; c07-p037",
+      "finding": "supported; five-copy census gone"
+    },
+    {
+      "claim": "Timmermann SDs, ≥7, sex counts, no raw boundary-score list",
+      "paragraph_id": "c07-p033",
+      "against": "CL-T13-012; C-T13-001",
+      "finding": "supported; women/men vs female/male residual"
+    },
+    {
+      "claim": "1984 volume 77 vs 1981 header 78",
+      "paragraph_id": "c07-p013",
+      "against": "CL-P2T12-026",
+      "finding": "supported"
+    },
+    {
+      "claim": "Hasker co-target and note 35; ET-prime named",
+      "paragraph_id": "c07-p015",
+      "against": "CL-P2T12-017; CL-P2T12-018",
+      "finding": "supported"
+    },
+    {
+      "claim": "Organism rejection and relational beyond costs; proposal remains conditional",
+      "paragraph_id": "c07-p022",
+      "against": "A-T13-004; CL-T13-017",
+      "finding": "supported; no actuality smuggle"
+    },
+    {
+      "claim": "1992/1984 non-citation is inspection; Oaklander absence is search",
+      "paragraph_id": "c07-p038",
+      "against": "CL-P2T12-017; CL-P2T12-036",
+      "finding": "supported in prose; PREMISE label leftover"
+    }
+  ],
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "corrections_required": [],
+  "recommended_next_action": "Overseer adjudication: accept P3C07 (revision 1) and P3R07. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance."
+}

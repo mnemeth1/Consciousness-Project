@@ -1,0 +1,28 @@
+{
+  "task_id": "P3R10",
+  "object": "P3C10",
+  "method": "First cycle: derived/evidence/c10.md plus lookup.cjs. Re-review: lookup.cjs on M1/N1/N2 IDs; touched paragraphs re-read. Derived files treated as non-canonical. Original-text reopenings not used.",
+  "re_review": [
+    {"record_id": "A-T14-005", "where_used": "c10-p003,c10-p024", "check": "consistent", "note": "Revision 1 p024: discriminates weakly; unable to face qualitative tests that precisely constrained variants can face until ends, population, means, constraints and tradeoffs are fixed. 'Removed' gone. p003 application unchanged and previously confirmed."},
+    {"record_id": "CL-T14-017", "where_used": "c10-p024", "check": "consistent", "note": "Revision 1 states the deprivation/opportunity/same-subject-preservation tests. 'Specification, not the family' is a gloss, residual."},
+    {"record_id": "A-T15-003", "where_used": "c10-p005,c10-p024", "check": "consistent", "note": "Revision 1 p005 restores the full strongest reply. p024 now maps the recorded dependence on A-T14-005."},
+    {"record_id": "A-P2T08-001", "where_used": "c10-p013,c10-p022", "check": "consistent", "note": "Revision 1 p022 mapped for continued same-person life and coherent intimacy. N1 closed."},
+    {"record_id": "CL-P2T08-005", "where_used": "c10-p010,c10-p022", "check": "consistent", "note": "Revision 1 p022 mapped for no verified survival / contested intimacy. N1 closed."},
+    {"record_id": "CL-P2T08-011", "where_used": "c10-p013,c10-p029", "check": "consistent", "note": "Revision 1: removed from p022. Remains three-burden adjudication at p013 and non-conclusions at p029."},
+    {"record_id": "CL-P2T08-024", "where_used": "c10-p029", "check": "consistent", "note": "Revision 1: unpadded from p026. N3 closed."},
+    {"record_id": "CL-T15-015", "where_used": "c10-p014,c10-p025,c10-p029", "check": "consistent", "note": "Revision 1: removed from p003. N9 closed."},
+    {"record_id": "CL-T15-007", "where_used": "c10-p004", "check": "consistent", "note": "Revision 1: unpadded from p005. N6 closed."},
+    {"record_id": "A-T15-005", "where_used": "c10-p014,c10-p015", "check": "consistent", "note": "Revision 1 p014 mapped for the conditional-form sentence. N12 closed."},
+    {"record_id": "CL-P2T08-010", "where_used": "c10-p012,c10-p028", "check": "consistent", "note": "Revision 1: visibly incomplete first proposition travels at p012 and in the p028 list. N11 closed."},
+    {"record_id": "CL-P2T08-013", "where_used": "c10-p016,c10-p028", "check": "consistent", "note": "Revision 1 p016 states the printed-439 premise-number anomaly at first use. N5 closed."},
+    {"record_id": "A-T15-006", "where_used": "c10-p001,c10-p007,c10-p022,c10-p023,c10-p025,c10-p026", "check": "consistent", "note": "p026 now maps this ID only. Survival rule at p022 still general; Adams side now mapped via A-P2T08-001."}
+  ],
+  "records": [
+    {"record_id": "A-T14-005", "where_used": "c10-p003,c10-p024", "check": "consistent", "note": "Re-review: p024 now consistent. First-cycle inconsistency on 'removed' is closed."},
+    {"record_id": "CL-T14-017", "where_used": "c10-p024", "check": "consistent", "note": "Re-review: tests now stated. First-cycle unused-pad inconsistency closed."},
+    {"record_id": "A-T15-003", "where_used": "c10-p005,c10-p024", "check": "consistent", "note": "Full reply at p005; dependence mapped at p024."},
+    {"record_id": "CL-P2T08-011", "where_used": "c10-p013,c10-p029", "check": "consistent", "note": "Re-review: no longer on p022."},
+    {"record_id": "A-P2T08-001", "where_used": "c10-p013,c10-p022", "check": "consistent", "note": "p022 Adams survival/intimacy sentence now mapped."},
+    {"record_id": "CL-P2T08-005", "where_used": "c10-p010,c10-p022", "check": "consistent", "note": "p022 mapped for unverified survival / contested intimacy."}
+  ]
+}

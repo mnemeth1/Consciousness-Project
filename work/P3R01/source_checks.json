@@ -1,0 +1,38 @@
+{
+  "task_id": "P3R01",
+  "object": "P3C01",
+  "method": "First cycle: article p-001–p-005, T01 report, lookup.cjs on A-T01-001..004, accepted c02–c10 closings and acceptance files. Re-review: hashes, touched paragraphs re-read against c03-p001/p040/p041, c06-p001/p010/p045, article p-024, c05-p001, c08-p018–p022, T01 s2 limits, A-T01-003 qualifier; unchanged paragraphs spot-checked; thesis/build.cjs --check.",
+  "re_review": [
+    {"record_id": "c03-p001 / c03-p040 / c03-p041", "where_used": "c01-p022", "check": "consistent", "note": "Six families in c03-p001 wording; theism present mainly by stipulation; record-bounded fairness rule. M1 and N7 closed."},
+    {"record_id": "paper/paper.html p-024", "where_used": "c01-p023", "check": "consistent", "note": "Triad matches p-024 / c06-p010 exactly. Homemade triad gone. M2 closed."},
+    {"record_id": "c06-p001 / c06-p010 / c06-p045", "where_used": "c01-p023", "check": "consistent", "note": "Conjunction and both-directions verdicts match. Prospective studies and historical corpus named. 'That frame them' is a residual understatement of c06-p001 'are assessed'."},
+    {"record_id": "c05-p001", "where_used": "c01-p022", "check": "consistent", "note": "Existence, necessity, design, open foundation-to-mind bridge. B08 gone from this sentence. M3 closed."},
+    {"record_id": "c08-p018 to c08-p022", "where_used": "c01-p024", "check": "consistent", "note": "Factory/production-to-purpose placed on c08. Crosswalk locator ends at p021; discrimination-design paragraph is p022. Residual locator tightness."},
+    {"record_id": "A-T01-003", "where_used": "c01-p010,c01-p024", "check": "consistent", "note": "p010 now carries the assumed-explanandum qualifier (N1). Removed from p022; mapped at p024. M3 closed."},
+    {"record_id": "A-T01-001", "where_used": "c01-p010,c01-p024", "check": "consistent", "note": "Unchanged compression; still on p024 with c07."},
+    {"record_id": "A-T01-002", "where_used": "c01-p010,c01-p024", "check": "consistent", "note": "Unchanged compression; still on p024 with c08."},
+    {"record_id": "A-T01-004", "where_used": "c01-p010,c01-p025", "check": "consistent", "note": "Unchanged. p025 now also carries weak-discrimination verbs (N6)."},
+    {"record_id": "work/T01/report.md s2 H-B H-S", "where_used": "c01-p017", "check": "consistent", "note": "Limits columns restored (N3/N4). bodily/neural restored (E4)."},
+    {"record_id": "work/T01/report.md s2 logical qualification", "where_used": "c01-p019", "check": "consistent", "note": "Replacement-substrate sentence added (E5)."},
+    {"record_id": "work/T01/report.md s6 B13", "where_used": "c01-p009", "check": "consistent", "note": "Purpose-to-goodness named and pointed at chapter 10 (N5)."},
+    {"record_id": "c10-p024", "where_used": "c01-p025", "check": "consistent", "note": "Expected-world constraint plus discriminates-weakly / ends-population-means-constraints-tradeoffs. N6 closed."},
+    {"record_id": "PREMISE:article:p-004-joint-theory", "where_used": "c01-p012", "check": "consistent", "note": "Bridge-register ref removed. Concession no longer assigned to B14. N10 closed."},
+    {"record_id": "PREMISE:structure:roadmap-c03-c05", "where_used": "c01-p022", "check": "consistent", "note": "A-T01-003 removed. Locator now names c03-p001 six families and fairness rule."},
+    {"record_id": "PREMISE:structure:roadmap-c07-c08", "where_used": "c01-p024", "check": "consistent", "note": "A-T01-003 added; factory locator c08-p018 to p021 named."},
+    {"record_id": "paper/paper.html p-001", "where_used": "c01-p002, front-matter inputs", "check": "consistent", "note": "p-001 added to inputs (N2). Still marked announced."},
+    {"record_id": "derived/gap_gate_register.json", "where_used": "c01-p026", "check": "consistent", "note": "Twelve gates remain withheld. N8 wording repaired."}
+  ],
+  "records": [
+    {"record_id": "A-T01-001", "where_used": "c01-p010,c01-p024", "check": "consistent", "note": "Re-review: unchanged and still correctly placed."},
+    {"record_id": "A-T01-002", "where_used": "c01-p010,c01-p024", "check": "consistent", "note": "Re-review: unchanged and still correctly placed."},
+    {"record_id": "A-T01-003", "where_used": "c01-p010,c01-p024", "check": "consistent", "note": "Re-review: qualifier at p010; moved off p022 onto p024. First-cycle inconsistency closed."},
+    {"record_id": "A-T01-004", "where_used": "c01-p010,c01-p025", "check": "consistent", "note": "Unchanged placement; p025 now also has N6 verbs."},
+    {"record_id": "paper/paper.html p-002", "where_used": "c01-p003,c01-p004", "check": "consistent", "note": "N9 gloss label and E1 drop applied."},
+    {"record_id": "paper/paper.html p-003", "where_used": "c01-p007,c01-p008", "check": "consistent", "note": "E2 article verb restored."},
+    {"record_id": "paper/paper.html p-004", "where_used": "c01-p011,c01-p012,c01-p013", "check": "consistent", "note": "E3 seeks-to-earn; N10 concession no longer assigned to B14."},
+    {"record_id": "paper/paper.html p-005", "where_used": "c01-p014", "check": "consistent", "note": "Unchanged; announced framing holds."},
+    {"record_id": "work/T01/report.md s1", "where_used": "c01-p001,c01-p002,c01-p005,c01-p006,c01-p027", "check": "consistent", "note": "Unchanged stipulation register."},
+    {"record_id": "work/T01/report.md s3", "where_used": "c01-p020", "check": "consistent", "note": "Unchanged package summary."},
+    {"record_id": "work/T01/report.md s6", "where_used": "c01-p009,c01-p013", "check": "consistent", "note": "B13 now named at p009; B14 objection remains at p013."}
+  ]
+}

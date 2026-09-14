@@ -10,7 +10,7 @@ const C = require('./common.cjs');
 const dep = process.env.PAPER_NODE_MODULES
   ? createRequire(path.join(process.env.PAPER_NODE_MODULES, '__paper__.cjs')) : require;
 const normalize = text => text.normalize('NFKC').replace(/[\s\u00ad\u200b]+/gu, '');
-const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'paper.pdf', 'release.json'];
+const ARTIFACT_FILES = C.ARTIFACT_FILES;
 function validateMetadata(meta) {
   assert(C.SEMVER.test(meta.version), 'Stable semantic paper-version required (e.g. 2.0.0)');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(meta.date) &&
@@ -249,6 +249,7 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
   const aux = source === 'paper/paper.html' && C.auxPresent(root) ? {
     landing: C.regular(C.inside(root, 'paper/landing.html')),
     companion: C.regular(C.inside(root, 'paper/companion.html')),
+    thesis: C.regular(C.inside(root, 'paper/thesis.html')),
     crosswalk: C.regular(C.inside(root, 'paper/lay_crosswalk.json'))} : null;
   const browser = await dep('playwright').chromium.launch({headless: true,
     executablePath: process.env.PAPER_BROWSER_EXECUTABLE || undefined});
@@ -265,11 +266,12 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     if (aux) {
       const auxPage = await context.newPage();
       const landingInfo = await inspectAuxiliary(auxPage, aux.landing.toString('utf8'), 'Landing page', info);
-      for (const file of ['paper.html', 'companion.html', 'paper.pdf'])
+      for (const file of ['paper.html', 'companion.html', 'thesis.html', 'paper.pdf'])
         assert(landingInfo.relative.includes(file), `Landing page must link ${file}`);
       const companionInfo = await inspectAuxiliary(auxPage, aux.companion.toString('utf8'), 'Companion page', info);
       for (const file of ['paper.html', 'paper.pdf'])
         assert(companionInfo.relative.includes(file), `Companion page must link ${file}`);
+      await inspectAuxiliary(auxPage, aux.thesis.toString('utf8'), 'Thesis page', info);
       crosswalkStats = validateCrosswalk(root, info, companionInfo);
       await auxPage.close();
     }
@@ -305,7 +307,7 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     ...(info.presentation ? {presentation: info.presentation} : {}),
     mode, fixture, source_commit: commit, html_sha256: htmlHash, pdf_sha256: C.sha(pdfBytes),
     ...(aux ? {landing_html_sha256: C.sha(aux.landing), companion_html_sha256: C.sha(aux.companion),
-      crosswalk_sha256: C.sha(aux.crosswalk)} : {}),
+      thesis_html_sha256: C.sha(aux.thesis), crosswalk_sha256: C.sha(aux.crosswalk)} : {}),
     renderer_sha256: rendererHash, review_sha256: review ? C.sha(C.regular(path.join(root, 'paper/reviewed-release.json'))) : null,
     draft_authorization_sha256: draft ? C.sha(C.regular(path.join(root, 'paper/draft-release.json'))) : null,
     ...(draft ? {scientific_acceptance: false, draft: {status: draft.status, author: draft.author,
@@ -320,6 +322,7 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     fs.writeFileSync(path.join(target, 'index.html'), aux.landing);
     fs.writeFileSync(path.join(target, 'paper.html'), html);
     fs.writeFileSync(path.join(target, 'companion.html'), aux.companion);
+    fs.writeFileSync(path.join(target, 'thesis.html'), aux.thesis);
   } else {
     fs.writeFileSync(path.join(target, 'index.html'), html);
   }
@@ -330,13 +333,13 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
 }
 function validatePair(directory, {allowPreview = false} = {}) {
   const manifest = C.readJSON(path.join(directory, 'release.json'));
-  const auxFields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256'];
+  const auxFields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256'];
   const bound = auxFields.filter(field => manifest[field] !== undefined);
-  assert(bound.length === 0 || bound.length === auxFields.length, 'Landing, companion and crosswalk hashes bind together');
+  assert(bound.length === 0 || bound.length === auxFields.length, 'Landing, companion, crosswalk and thesis hashes bind together');
   const extended = bound.length === auxFields.length;
   if (extended) for (const field of auxFields) assert(C.HASH.test(manifest[field]), `Manifest ${field} invalid`);
   assert.deepEqual(fs.readdirSync(directory).sort(),
-    extended ? ['companion.html', 'index.html', 'paper.html', 'paper.pdf', 'release.json']
+    extended ? ['companion.html', 'index.html', 'paper.html', 'paper.pdf', 'release.json', 'thesis.html']
       : ['index.html', 'paper.pdf', 'release.json'],
     'Publish exactly the versioned paper set and manifest; no source library');
   assert.equal(manifest.schema, 1);
@@ -345,6 +348,7 @@ function validatePair(directory, {allowPreview = false} = {}) {
     assert.equal(C.sha(C.regular(path.join(directory, 'index.html'))), manifest.landing_html_sha256, 'Landing/manifest hash mismatch');
     assert.equal(C.sha(C.regular(path.join(directory, 'paper.html'))), manifest.html_sha256, 'HTML/manifest hash mismatch');
     assert.equal(C.sha(C.regular(path.join(directory, 'companion.html'))), manifest.companion_html_sha256, 'Companion/manifest hash mismatch');
+    assert.equal(C.sha(C.regular(path.join(directory, 'thesis.html'))), manifest.thesis_html_sha256, 'Thesis/manifest hash mismatch');
   } else {
     assert.equal(C.sha(C.regular(path.join(directory, 'index.html'))), manifest.html_sha256, 'HTML/manifest hash mismatch');
   }

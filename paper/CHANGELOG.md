@@ -1,5 +1,9 @@
 # Paper versions
 
+## 0.4.2 - 2026-09-14
+
+Adds an incomplete thesis working draft (`thesis.html`) to the public site and a landing-page link to it. Chapters 1–10 of the thesis expansion are included as internally accepted text; front matter, chapters 11–12 and appendices A–D remain labeled skeletons. No thesis PDF is published. The article argument is unchanged apart from version/date metadata and a navigation link. Pending-review status (P2R20/P2G2) remains recorded in release records.
+
 ## 0.4.1 - 2026-09-13
 
 Adds companion-style top navigation on the research article page: start page, plain-language overview, and PDF download. The article argument is unchanged. Pending-review status (P2R20/P2G2) remains recorded in release records.

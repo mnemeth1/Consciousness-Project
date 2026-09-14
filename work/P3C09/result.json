@@ -1,0 +1,32 @@
+{
+  "task_id": "P3C09",
+  "status": "accepted",
+  "summary": "Drafted thesis chapter 9 (Moral Authority and Its Grounds) from skeleton to 27 paragraphs with a complete paragraph-level crosswalk. Covers the consciousness-grounding case and Craig attributions with the project's normative bridges, the Korsgaard-Nagel constructivism exchange, the Enoch-Lenman robust-realism exchange with Railton's naturalistic route, the unmet conscious-authority relation under component boundary H-A, and the article's comparative stopping-points conclusion, with dependence accounting, access gaps and explicit non-conclusions. T15's evil/hiddenness material deferred to c10 per the c10 skeleton scope.",
+  "artifacts": [
+    "thesis/chapters/09-morality.md",
+    "thesis/crosswalk/c09.json",
+    "work/P3C09/report.md",
+    "work/P3C09/result.json"
+  ],
+  "dependencies_used": [
+    "derived/evidence/c09.md",
+    "paper/paper.html section 7 (p-039 to p-042)",
+    "thesis/chapters/10-goodness.md front matter (scope boundary)",
+    "state/acceptance_P3C02.json calibration conventions"
+  ],
+  "uncertainties": [
+    "U1: c09-p021 unified-subject egoism formulation is a synthesis of CL-T15-017/018 and CL-P2T06-010; confirm it stays within the mapped records.",
+    "U2: c09-p025 one exchange-level group for the three 1996-volume texts (DG-P2T06-SOURCES-EXCHANGE); confirm against the ledger's distinct-author structure.",
+    "U3: c09-p024 'superseded by Phase 2 original inspections' framing for the T15 matrix reconstruction; confirm against A-T15-002's unresolved-issues note."
+  ],
+  "budget_used": {
+    "sessions": 2,
+    "source_inspections": 0,
+    "revision_cycles_used": 1
+  },
+  "recommended_next_action": "Accepted after re-review; residual editorial notes deferred to the pre-P3G1 consistency pass. Next: P3C10.",
+  "input_artifact_versions": {
+    "thesis/chapters/09-morality.md": "sha256:afc80054a4281015c9cd4bb42bc5330c6c382fb38cc7aff14cca0f9e869b4c89",
+    "thesis/crosswalk/c09.json": "sha256:f3aa63d7c5bea5a7152223a0229bc9ca3e9ec78864ce02b01112aecf99e27c2f"
+  }
+}

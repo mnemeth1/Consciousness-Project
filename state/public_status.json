@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-09-13",
+  "snapshot_date": "2026-09-14",
   "current_reviewed_release": "retired",
   "phase2_total_tasks": 46,
   "phase2_accepted_tasks": 41,
@@ -20,14 +20,14 @@
     "plan": "phase3/Thesis_Execution_Plan.md",
     "amendment": "phase2/amendments/002-thesis-rebase.md",
     "total_tasks": 27,
-    "accepted_tasks": 8,
-    "chapters_drafted": 4,
-    "note": "Thesis programme in execution. Chapters 2 (methodology), 3 (alternatives), 4 (phenomenal) and 5 (existence) drafted, independently reviewed (one revision cycle each) and accepted; see state/acceptance_P3C02.json through state/acceptance_P3C05.json. Other chapters remain skeletons. P2S03/P2R20/P2G2 remain pending and close only through P3 gates."
+    "accepted_tasks": 20,
+    "chapters_drafted": 10,
+    "note": "Thesis programme in execution. The full body-chapter batch is accepted: chapters 1 (introduction) through 10 (goodness), each drafted, independently reviewed (one revision cycle each) and accepted; see state/acceptance_P3C01.json through state/acceptance_P3C10.json. Chapters 11-12 and the appendices remain skeletons. An incomplete HTML snapshot is published as paper/thesis.html with the 0.4.2 article site. P2S03/P2R20/P2G2 remain pending and close only through P3 gates."
   },
   "source_archive_included": false,
   "automatic_background_execution": false,
   "current_public_draft": {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "stage": "draft",
     "scientific_acceptance": false,
     "pending_reviews": [

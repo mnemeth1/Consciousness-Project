@@ -1,0 +1,89 @@
+{
+  "task_id": "P3R09",
+  "object": "P3C09",
+  "chapter": "c09",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "checked_paragraphs": 27,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph": "c09-p021",
+      "closed": true,
+      "how": "Diachronic Nagel-inside-unity sentence deleted. CL-P2T06-010 removed from the entry. Self-harm point rests on A-T15-001's recorded objection (unity and sanctions can yield only self-interest), mapped, with CL-T15-017/018 for prudence/accountability. Verdict verb now 'recorded as insufficient'.",
+      "description": "Closed. Unrecorded Nagel unified-subject present-will application removed.",
+      "required_repair": "none remaining"
+    },
+    {
+      "id": "M2",
+      "paragraph": "c09-p024",
+      "closed": true,
+      "how": "'Superseded' gone. Reconstruction not withdrawn; Phase 2 inspections supply this chapter's constructivist and robust-realist attributions and narrow the v1 source gap (CL-P2T06-015 mapped). G2-GAP-30 remains partial and open. PREMISE renamed narrowed-reconstruction.",
+      "description": "Closed. Replacement status of T15 matrix reconstruction removed.",
+      "required_repair": "none remaining"
+    }
+  ],
+  "minor_defects": [],
+  "minor_defects_closed_in_revision_1": [
+    "N1 c09-p010 CL-P2T06-014 mapped on the recorded-adjudication sentence",
+    "N2 c09-p019 CL-T15-016 and CL-T15-017 mapped for the shared-subjecthood fork",
+    "N3 c09-p003 three named stopping points",
+    "N4 c09-p015 reply is not a substitute for pp. 53–83",
+    "N5 c09-p016 chapter-4 limits restored (cumulative-cost, chs 6–9, local expressivism, morality-not-the-source, non-refutation of Railton)",
+    "N6 c09-p008/p010 psychological-criterion and incomplete-reflection/nonmoral-obligation clauses",
+    "N7 c09-p018 a recorded secular alternative; other secular families retained",
+    "N8 c09-p007 authoritative requirements restored",
+    "N9 c09-p022 unpadded; reuse rule binds c09–c10; c08 endurance share named as a separate relation",
+    "N10 c09-p025 invented DG-P2T06 project inferences removed",
+    "N11 c09-p001 H-A as declared boundary the records leave unmet, not a world-theorem",
+    "N12 c09-p026 prose adds ch. 2, chs 6–9, §5.2, p.52 footnote, byte equivalence, Railton journal-hosted comparison"
+  ],
+  "editorial_notes": [
+    "E1 c09-p019 documented",
+    "E2 c09-p023 stands as recorded",
+    "E3 c09-p004 doubly qualified",
+    "E4 c09-p013 each step is contested in the exchange reported below",
+    "E5 c09-p021 recorded as insufficient"
+  ],
+  "residual_notes_not_blocking": [
+    "derived/evidence/c09.md and derived/manifest.json stale on the revised chapter; overseer should --sync-manifest at acceptance",
+    "c09-p026 PREMISE still lists the first-cycle gap set; new items live in the prose",
+    "Author-packet Uncertainties and the first 'Fidelity conventions' block still carry first-draft U1–U3 wording, including the withdrawn superseded framing; result.json hashes and revision_cycles_used: 1 are honest"
+  ],
+  "uncertainty_adjudications": {
+    "U1": "First-review: not confirmed; that was M1. Revision 1 deletes the diachronic Nagel sentence and maps A-T15-001 with CL-T15-017/018. Now confirmed against those records.",
+    "U2": "Confirmed. One exchange-level group matches DG-P2T06-SOURCES-EXCHANGE. Revision 1 removes the invented DG-P2T06 project inferences name. N10 closed.",
+    "U3": "First-review: not confirmed; that was M2. Revision 1 uses 'narrows' / not withdrawn / G2-GAP-30 remains partial and open. Now confirmed."
+  },
+  "checks_run": [
+    "thesis/build.cjs --check: pass (286 paragraphs, 122 citations, 275 crosswalk entries, c09 submitted)",
+    "derived/build.cjs --check: stale (derived/evidence/c09.md, derived/manifest.json); non-blocking",
+    "SHA-256 of revision-1 chapter and crosswalk match work/P3C09/result.json and the author report",
+    "lookup.cjs on M1/M2 load-bearing IDs (A-T15-001, CL-T15-017, CL-T15-018, CL-P2T06-015, A-T15-002); G2-GAP-30 still open",
+    "Touched paragraphs re-read for new defects: none material",
+    "Crosswalk: 27 entries, one per paragraph c09-p001–c09-p027; new refs resolve",
+    "derived/gap_gate_register.json: all 12 GATE-T16-* still withheld"
+  ],
+  "new_text_verified": [
+    {
+      "claim": "Prudential shortcut recorded as insufficient; unity and sanctions can yield only self-interest",
+      "paragraph_id": "c09-p021",
+      "against": "A-T15-001 strongest objection; CL-T15-017; CL-T15-018",
+      "finding": "supported; Nagel-inside-unity sentence gone; CL-P2T06-010 unmapped here"
+    },
+    {
+      "claim": "T15 matrix reconstruction not withdrawn; Phase 2 inspections narrow the source gap; G2-GAP-30 remains partial and open",
+      "paragraph_id": "c09-p024",
+      "against": "A-T15-002 unresolved-issues; CL-P2T06-015; derived/gap_gate_register.json G2-GAP-30",
+      "finding": "supported; superseded gone"
+    }
+  ],
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "corrections_required": [],
+  "summary": "Accept revision 1. M1 and M2 closed. N1–N12 and E1–E5 closed. No new material defects. All twelve withheld gates remain closed. thesis/build.cjs --check passed; derived layer stale on c09.",
+  "recommended_next_action": "Overseer adjudication: accept P3C09 (revision 1) and P3R09. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance."
+}

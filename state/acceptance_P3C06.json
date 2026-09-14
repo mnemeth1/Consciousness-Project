@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-13",
+  "adjudicator": "overseer (Claude Fable 5 session, project owner authorized 2026-09-13)",
+  "verdict": "accepted",
+  "accepted_tasks": [
+    "P3C06",
+    "P3R06"
+  ],
+  "author": "thesis-author context (Claude Fable 5)",
+  "independent_reviewers": {
+    "P3R06": "chapter-reviewer context (Grok 4.6 xhigh), distinct from author"
+  },
+  "review_history": [
+    "Initial P3R06 verdict: revise (3 material, 12 minor, 5 editorial defects). Worst: c06-p017 fusing Lam's October 11, 2011 publication-labeled research webpage with the Skeptiko interview whose November 22, 2011 date is archive-search metadata into a nonexistent hybrid source; also the February 1994 Addink interview mislabeled a television interview, and CL-T19-021's two-dossier finding (Reynolds, dentures) applied to all four retrospective dossiers.",
+    "Revision cycle 1 of 2: all material and minor corrections applied; crosswalk changes at p011 (A-P2T14-001, CL-P2T15-032 added), p017 (S-P2T15-002, S-P2T15-003, S-T06-005 mapped), p025 (CL-P2T17-010 added), p043 (study-level groups named with the P2T09 reinspection overlay separated), p044 (AANS gap remapped to S-P2T15-001/CL-P2T15-026).",
+    "Re-review verdict: accept; M1-M3, N1-N12, E1-E5 all verified repaired against the records; no new material defects; cycle 2 unused."
+  ],
+  "open_editorial_notes_non_blocking": [
+    "c06-p017 writes 'April 2014' where the record gives April 7, 2014; c06-p005 writes 'open-label' for the ledger's 'open'; c06-p025 maps CL-P2T17-010 without mentioning the reprint captions in that paragraph (they appear in c06-p026)",
+    "Note the chapter hash below supersedes the rev-1 hash in work/P3C06 packets: the only post-re-review change is the front-matter status flip to accepted"
+  ],
+  "disposition_of_editorial_notes": "Preserved here as reviewer notes; to be swept in the pre-P3G1 consistency pass rather than by post-acceptance edits to the reviewed text.",
+  "reviewed_artifact_hashes": {
+    "thesis/chapters/06-empirical.md": "1043d31590ff289eeadd581493ec3c1c97f8e6a0b26f6180b92d38f8c9884b36",
+    "thesis/crosswalk/c06.json": "8e22d7428fef56eaf66c985c712b8ac3348f4b8120103d90b524d798ba81b6a3",
+    "work/P3C06/report.md": "37c94b87fac29887cb86b3ce5210dffb297d49ec921b4b1a98b35c76572ba84a",
+    "work/P3C06/result.json": "ade335b8a0be0a6e53659eee3b6f992fc79fbfe692e7adef17435f62c5639a96",
+    "work/P3R06/report.md": "6754dd9ebb291242e3cc9453446d86638e9544e9767c7c852534f884c7f26e3c",
+    "work/P3R06/review.json": "539e1513235b152e75531260d8e1e29403a3f7d64cb34affb5f6f0ade37be19b",
+    "work/P3R06/source_checks.json": "8efc2b6ef0e7882e7034ca21a70f78cbb2818653133f9ad7d6aa96ad1d80c8bf",
+    "work/P3R06/result.json": "889586a08e7984ef6bdf0bc7accf20157b27c6997ff3deefd1e87436daf41995"
+  },
+  "scope": "Empirical chapter accepted as a faithful account of the controlled intervention stream (Parvizi, Tasserie, Scheinin, Cogitate with its protocol audit and critique chain), the conjunctive standard for crisis-report discrimination applied symmetrically, the four case dossiers (Neal, Alexander, Reynolds, dentures/TG) with their critic-and-reply chains, the three prospective studies with unit discipline and preserved nulls, the historical and cross-cultural corpus with its dependence audit, and the evidential asymmetry stated as a claim about who currently possesses discriminating observations. Acceptance asserts fidelity and honest limits; it asserts no brain independence, no demonstrated ordinary mechanism for any particular report, no physicalist identity, and no theory winner. All twelve withheld stronger-conclusion gates remain withheld.",
+  "budget_note": "P3C06 used 0 searches and 0 external inspections; 1 of 2 revision cycles. P3R06 verified fidelity against accepted ledger records via the derived layer, lookup.cjs and article p-022 to p-029.",
+  "next": "P3C07 per phase3/Thesis_Execution_Plan.md."
+}

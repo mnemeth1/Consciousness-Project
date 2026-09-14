@@ -1,0 +1,46 @@
+{
+  "task_id": "P3R10",
+  "status": "done",
+  "artifact_paths": [
+    "work/P3R10/report.md",
+    "work/P3R10/review.json",
+    "work/P3R10/source_checks.json",
+    "work/P3R10/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C10 submitted revision 1 (thesis/chapters/10-goodness.md, thesis/crosswalk/c10.json, work/P3C10/report.md, work/P3C10/result.json)",
+    "Accepted records of T15 (evil/hiddenness material) and P2T08",
+    "A-T14-005 and CL-T14-017 (c08 factory-design records reused)",
+    "paper/paper.html p-043 to p-046",
+    "state/acceptance_P3C09.json deferral continuity",
+    "work/G2/synthesis_constraints.json",
+    "derived/gap_gate_register.json",
+    "phase3/pilot_calibration.md",
+    "derived/evidence/c10.md"
+  ],
+  "uncertainties": [
+    "U1 (author): first-review p003 confirmed; p024 'removed' was M1. Revision 1 uses discriminate weakly / unable to face qualitative tests until precommitted. Now confirmed. M1 closed.",
+    "U2 (author): confirmed. Revision 1 states the article's other-victims sentence then the two-item close. N4 closed.",
+    "U3 (author): confirmed. Revision 1 maps A-P2T08-001 and CL-P2T08-005 on p022. N1 closed.",
+    "derived/evidence/c10.md and derived/manifest.json are stale on the revised chapter. Overseer should --sync-manifest at acceptance. Not a chapter-text defect.",
+    "c10-p024 'specification, not the family' is a gloss of CL-T14-017 plus article p-043. Residual, not blocking.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0,
+    "sessions": 2
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C10 (revision 1) and P3R10. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/10-goodness.md": "3afc391219c38b88749b517db880e498f38190de6acf4b9d32ee9eaee856f950",
+    "thesis/crosswalk/c10.json": "7c67e3c11dbcc21b7fbc601b6d5688abc5c7cdd1d19bc9ef342ae67df1d26ac2",
+    "work/P3C10/report.md": "ff955927c087fd2ad45f52254dce775ea5f0acf23ea4c52f2d8dd5e66655a405",
+    "work/P3C10/result.json": "025e66f0dd8a55632982a17f1508ea4bfe66271d307eefb21b44c71258207223"
+  },
+  "summary": "Re-review of P3C10 revision 1. Verdict: accept. M1 and N1–N12 closed; E1–E5 applied; no new material defects. thesis/build.cjs --check passed (314 paragraphs, c10 submitted). Derived c10 pack remains stale."
+}

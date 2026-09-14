@@ -1,0 +1,48 @@
+{
+  "task_id": "P3R08",
+  "status": "done",
+  "artifact_paths": [
+    "work/P3R08/report.md",
+    "work/P3R08/review.json",
+    "work/P3R08/source_checks.json",
+    "work/P3R08/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C08 submitted revision 1 (thesis/chapters/08-meaning.md, thesis/crosswalk/c08.json, work/P3C08/report.md, work/P3C08/result.json)",
+    "Accepted records of T14 and P2T13",
+    "paper/paper.html p-035 to p-038",
+    "Research_Plan.md consciousness-factory proposal",
+    "work/T14/report.md discrimination design",
+    "work/G2/synthesis_constraints.json",
+    "derived/gap_gate_register.json",
+    "phase3/pilot_calibration.md",
+    "derived/evidence/c08.md"
+  ],
+  "uncertainties": [
+    "U1 (author): confirmed as claim-layer dual-version description; revision 1 p011 now states the S-T14-002 ID-reuse locally. N2 closed.",
+    "U2 (author): first-review not confirmed (that was M2). Revision 1 lists Williams as an independently inspected complete original and Fischer's embedded passages as a Fischer-group reconstruction limitation. Now confirmed. M2 closed.",
+    "U3 (author): confirmed. Revision 1 p018 maps A-T14-005 and a PREMISE to Research_Plan.md / work/T14/report.md. N7 closed.",
+    "derived/evidence/c08.md and derived/manifest.json are stale on the revised chapter. Overseer should --sync-manifest at acceptance. Not a chapter-text defect.",
+    "c08-p001 PREMISE:structure still does not map the undefended-bridge preview; the finding is mapped at p009 and p027. Residual, not blocking.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0,
+    "sessions": 2
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C08 (revision 1) and P3R08. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/08-meaning.md": "7d0e37877884f503bab964e7b6241ac0c1566d34b7b2e6cab3cf65b89313a4b9",
+    "thesis/crosswalk/c08.json": "31c38da81e0d410b93e57b3fc90f7af4ae3ecce5a5bf89d00dd39c73e7bd0c88",
+    "work/P3C08/report.md": "280cc064cc6002401ec2076c07eaad9dfe28b248235e711d93b518de7612f577",
+    "work/P3C08/result.json": "11a5184ec7ee36a8986cfb2be5e3f623d7704ad325184bfe5787ff864fed4bc1",
+    "paper/paper.html": "d31eab14ead977930fe47b46e6fd253df0da0b7fdf6a49391943ab1e5952a277",
+    "work/G0/protocol_v1.md": "0be5706f79030a85ac7b2d761eae2012481b11b48a384c677045210b3b0e3904"
+  },
+  "summary": "Re-review of P3C08 revision 1. Verdict: accept. M1 and M2 closed; N1–N12 and E1–E5 closed; no new material defects. thesis/build.cjs --check passed (260 paragraphs, c08 submitted). Derived c08 pack remains stale."
+}

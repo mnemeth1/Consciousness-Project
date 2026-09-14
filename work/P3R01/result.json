@@ -1,0 +1,41 @@
+{
+  "task_id": "P3R01",
+  "status": "done",
+  "summary": "Re-review of P3C01 revision 1. Verdict: accept. M1–M3 and N1–N12 closed; E1–E5 applied; no new material defects. thesis/build.cjs --check passed (340 paragraphs, c01 submitted). Hashes match the claimed revision-1 values.",
+  "artifact_paths": [
+    "work/P3R01/report.md",
+    "work/P3R01/review.json",
+    "work/P3R01/source_checks.json",
+    "work/P3R01/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C01 submitted revision 1 (thesis/chapters/01-introduction.md, thesis/crosswalk/c01.json, work/P3C01/report.md, work/P3C01/result.json)",
+    "paper/paper.html p-001 to p-005 and p-024 (c06 hinge wording only)",
+    "work/T01/report.md",
+    "A-T01-001, A-T01-002, A-T01-003, A-T01-004",
+    "accepted chapters c03, c05, c06, c08, c10 and their acceptance records",
+    "derived/gap_gate_register.json"
+  ],
+  "uncertainties": [
+    "U1 (author): closed. Revision 1 adds the A-T01-003 assumed-explanandum qualifier.",
+    "U2 (author): closed. M1–M3 repaired; remaining roadmap sentences still match accepted closings.",
+    "U3 (author): closed. p-001 added to front-matter inputs.",
+    "Residuals not blocking: p022 'builds' vs c03 'presents'; p023 'that frame them'; p025 'unconstrained specification' gloss; factory locator ends at c08-p021 not p022; author-packet opening U1–U3 still first-draft.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C01 (revision 1) and P3R01. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/01-introduction.md": "sha256:16b520ab454811ad7cf14405b6eab4e8aa296b6e3a6c1b6afe350584f1fa41e8",
+    "thesis/crosswalk/c01.json": "sha256:b927bbf8fe9a8c931b27ca36fc5feaf2c93d8618d68e3837ea1578ea5da6dd61",
+    "work/P3C01/report.md": "sha256:67a646c88dbf7b6c9da4b739deb5cc53dac1726df20fd1f005787589506b751b",
+    "work/P3C01/result.json": "sha256:a1d9bcf8bd0d88274a2280d5a3693843bb0cc1dc6603956b9ed4dccf7ec70d28"
+  }
+}

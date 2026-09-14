@@ -1,23 +1,100 @@
 ---
 chapter: 1
 title: Unification and Its Price
-status: skeleton
+status: accepted
 inputs:
   - paper/paper.html section 1 (p-002 to p-005)
+  - paper/paper.html p-001 (abstract, announced position only)
   - work/T01/report.md
 ---
 
 <!-- id: c01-p001 -->
-Skeleton. This chapter expands article section 1 into a full introduction: the attraction of a conscious foundation, the danger of an illicit economy in which one primitive quietly changes meaning across conclusions, the restricted-unification thesis, and a roadmap of the thesis. No drafted claims yet; see the article paragraphs listed in inputs for the current published argument.
+This thesis asks whether consciousness belongs to the foundation of reality, and what would follow for existence, survival, meaning and morality if it did. This opening chapter expands the article's first section into a full introduction: the attraction of a conscious foundation, the danger the article calls an illicit economy, the restricted-unification thesis the whole work defends, the nine hypothesis components with their non-entailments, and a roadmap of the chapters that follow. Its framing material comes from the project's hypothesis specification — a reviewed stipulative memo, accepted as method material with every substantive premise left unresolved — and from the article's own opening paragraphs. Nothing in this chapter is a finding.
 
-## Planned sections
+<!-- id: c01-p002 -->
+The epistemic register is set here once. The specification this chapter draws on establishes no entity's existence, no theory's full coherence and no experience's independent verification; its definitions and conditional argument skeletons are project-authored, not attributed to external literature. The article's abstract announces the position the later chapters must earn: an asymmetric verdict in which stronger grounds for embodied neural dependence coexist with an unresolved phenomenal explanation and a viable, conditional conscious-foundation programme. This introduction states that thesis; it does not yet argue it, and no reader should credit any component of the proposal on the strength of the framing below.
 
-### The unification promise
+## The unification promise
 
-### The illicit-economy risk
+<!-- id: c01-p003 -->
+The thought that consciousness belongs to the foundation of reality is attractive for a reason more substantial than dissatisfaction with materialism. Experience occupies a double position: it is what any account of the world must accommodate, and it is the medium through which explanation has significance for us. A theory that leaves experience out has not merely omitted a phenomenon; it has omitted the phenomenon in which theories are entertained, tested and found significant — a gloss on the article's double-position sentence, which is itself the opening claim. That claim is deliberately modest: it identifies why the proposal deserves examination, not why it is true.
 
-### The restricted-unification thesis
+<!-- id: c01-p004 -->
+The promise then unfolds in three conditionals. If reality is grounded in consciousness, the presence of conscious beings may cease to look like an inexplicable addition to an otherwise complete structure. If that ground also acts intentionally, embodied lives might acquire a place in an intelligible undertaking. If persons endure within it, their attachments and achievements might escape final loss. The proposal offers explanatory and existential unification at once: the same reality could ground existence, subjectivity and significance. Each conditional's antecedent is a separate commitment, and the distance between them is the subject of this thesis.
 
-### The nine hypothesis components and their non-entailments
+<!-- id: c01-p005 -->
+The project states the central proposal it will test in one sentence: conscious reality is basic, the physical universe and individual experience depend on it, and embodied lives may have enduring significance through a conscious foundation that is not confined to physical succession. This is a family of hypotheses requiring explicit variants, not a single claim. Its full, strongest version adds universal subjecthood, personal survival, preservation, intention, goodness and moral authority — and supporting one component does not automatically support the whole conjunction. That last sentence is the specification's own warning, and it governs every chapter that follows.
 
-### Thesis roadmap
+<!-- id: c01-p006 -->
+The motivating question is comparative: whether such a foundation explains existence, experience, enduring significance, cosmic purpose and morality better than specified alternatives. The specification makes that question testable in parts — by naming components, bearers, packages and disputed bridges — without replacing cosmic purpose with finite-life satisfaction as a substitute target. The thesis form of the question is the same as the article's, with room to show the evidence, the reviews and the withheld conclusions in full.
+
+## The illicit-economy risk
+
+<!-- id: c01-p007 -->
+The proposal's danger is an illicit economy. One may purchase several conclusions for the price of a single primitive by changing what the primitive means along the way. Consciousness first means the qualitative character neglected by a structural description; it later means a unified subject, then a necessary agent, and finally a good authority that preserves persons. The word remains constant while the commitment grows. The article's own verdict is measured — each transition may be defensible — and its diagnosis is that this is a progression: each step adds content the starting point did not contain.
+
+<!-- id: c01-p008 -->
+Each transition may be defensible; none is merely an unpacking of the initial explanatory demand. The article fixes the point with three contrasts. A plurality of basic experiential properties would answer a different question from a single cosmic person; a necessary mind could have intentions unlike ours; and preserving everything known about a life would differ from preserving the person who lived it. Whoever affirms the full proposal owes an argument at each of these junctures, and the argument owed is different at each.
+
+<!-- id: c01-p009 -->
+The project's instrument against the economy is a disputed bridge register: fourteen named inferential transitions, each recorded as a premise to investigate rather than an accepted inference, each with its strongest motivation and a decisive vulnerability. The register runs from the gap between explanatory failure and ontological fundamentality, through the transitions among fundamentality, universality, survival and timelessness, to the normative bridges from unity, creatorhood and necessary goodness to moral authority and from proposed purpose to goodness — the bridge chapter 10 prices — and ends with the convergence bridge — the claim that shared success across domains strongly supports the full conjunction, whose recorded objection is that extra attributes and reused premises can manufacture apparent convergence. A downstream task that needs an unlisted premise must register a new bridge; it cannot label the addition a definitional consequence to bypass review.
+
+<!-- id: c01-p010 -->
+Four conditional argument skeletons, reviewed and accepted as method material with no premise resolved, mark the transitions the later chapters test at length. From preservation to personal survival: information retention plus a subject-preserving identity relation would yield survival, against the recorded objection that preservation can occur while the original subject ceases and duplicates expose the identity problem [@A-T01-001]. From endurance to enduring significance: persistence contributes significance only under stated normative premises, against the objection that duration alone need not increase value and finite value may exist without persistence [@A-T01-002]. From conscious production to cosmic purpose: with the occurrence of experience treated as an assumed explanandum without empirical assessment, an intention conclusion requires an independently specified end, against the objection that an outcome is compatible with an unintended byproduct [@A-T01-003]. From conscious foundation to moral authority: binding obligations require a normative relation beyond descriptive unity, origin, power or reward [@A-T01-004]. These are skeletons by design — the project's declaration, in advance, of where the load-bearing joints are.
+
+## The restricted-unification thesis
+
+<!-- id: c01-p011 -->
+The thesis this work seeks to earn is the article's: a restricted-unification thesis. A conscious foundation is a serious candidate for improving the explanation of experience, but its present motivation supports considerably less than a providential account of enduring personal significance. Both halves matter. The first half separates this work from dismissals that treat the proposal as confusion; the second separates it from defenses that treat the explanatory opening as a down payment on the full package.
+
+<!-- id: c01-p012 -->
+The restriction is not a demand that each additional commitment carry an entirely independent proof. A suitably constrained joint theory can receive support from shared evidence; the article concedes this explicitly. The present problem is different: the relevant commitments currently contribute different things — an explanatory starting point, disputed modal premises, causal possibilities, interpretations of reports and normative aspirations. A conjunction of heterogeneous contributions is not yet a joint theory.
+
+<!-- id: c01-p013 -->
+Convergence becomes evidential only when the connections among commitments are themselves sufficiently specified to distinguish the proposal from alternatives. That is the standard the cumulative chapter applies at the end of this work, and it is why the register's convergence bridge carries the manufactured-convergence objection: reused premises counted once per domain, and attributes added to absorb recalcitrant evidence, imitate the profile of independent support without its content.
+
+<!-- id: c01-p014 -->
+The comparison, the article adds, should not be neutral by default — and the announced asymmetries cut in both directions. The selected intervention evidence gives stronger reason to acknowledge neural participation in human experience than to deny it; yet the inference from such participation to an exhaustive physical ontology is stronger than the evidence warrants. The case against making immortality necessary for every form of meaning is stronger than the case against finding any value in immortality. An assessment can therefore favor some local conclusions while leaving the encompassing ontology unsettled. These are the article's announced positions; the empirical, meaning and cumulative chapters carry the records that are meant to earn them.
+
+## The nine hypothesis components and their non-entailments
+
+<!-- id: c01-p015 -->
+The specification's central discipline is decomposition with declared bearers. Every commitment must specify whose property it is — the foundation, every person, some persons, or another explicitly bounded population — because an existential finding cannot silently become a universal claim. Nine labeled components carry the proposal's content, and each is recorded with what it does not entail, so that no chapter can spend one component's support on another's conclusion.
+
+<!-- id: c01-p016 -->
+Fundamentality (H-F) holds that experiential properties or conscious reality belong to the basic ontology and are not wholly grounded in nonexperiential reality — with the recorded limits that irreducibility alone does not establish this stronger status, and that fundamentality entails neither necessity, universality, cosmic explanation, survival nor intentional creation. Universality (H-U) holds that every subject in the claimed domain depends on one numerically single conscious subject or conscious whole, with the subject-versus-whole variant explicit; shared laws, similar experiences or common ancestry are not this claim, and one whole entails neither timelessness, personal identity with the whole, intention, goodness nor authority.
+
+<!-- id: c01-p017 -->
+Brain independence (H-B) holds that a subject can instantiate experience without the bodily/neural processes necessary under the specified dependence model — actual occurrence versus metaphysical possibility, and temporary independence versus independence after irreversible death, stated separately; it is not synonymous with independence of all physical substrates, it does not establish that a particular person survives death, that a mind is fundamental or that experience is timeless, and the absence of a measurement is not satisfaction of the criterion. Personal survival (H-S) holds that the numerically same person has subjectivity beyond irreversible bodily death under an explicitly chosen identity relation; resuscitation does not satisfy the death condition, resemblance, a stored record or an indistinguishable replacement is insufficient under strict numerical identity, and survival need not be timeless, universal, morally good or unlimited in duration. Timelessness (H-T) holds that the specified bearer has no intrinsic temporal succession — not longevity, not eternity through successive times, not reported loss of time awareness; a timeless foundation does not entail timeless persons or survival.
+
+<!-- id: c01-p018 -->
+Preservation (H-P) holds that a specified item from embodied life remains available or has continuing significance, recorded separately for information, accessible memory, relationships, subjectivity and value; preserved information need not preserve a subject, and preserved significance does not itself entail a storing mind, intrinsic goodness or intended purpose. Intention (H-I) holds that a conscious agent directs or grounds the universe toward specified ends; producing consciousness does not by itself establish existing in order to produce it, intention entails neither benevolence nor success nor authority, and an impersonal teleology remains a separate alternative.
+
+<!-- id: c01-p019 -->
+Goodness (H-G) holds that the foundation's nature or agency meets a stated normative standard, rather than merely having power or being desired; goodness cannot be defined as whatever the foundation happens to do, and preserving experience, including suffering, need not be good on balance. Moral authority (H-A) holds that the foundation grounds genuinely binding reasons or obligations through a specified normative relation; power, authorship, unity, rewards, punishment or command alone do not establish it. The components are separately assessed, not asserted to be logically independent: under a survival version with no replacement substrate, H-S entails that instance of H-B — while survival by a replacement physical substrate may remain compatible with dependence on a brain of some kind — and H-S entails continuing subjectivity — a narrow form of H-P — without entailing complete informational, relational or evaluative preservation. Such consequences must be recorded when the relevant version is selected.
+
+<!-- id: c01-p020 -->
+Above the components sit named packages, from the minimal fundamental-experience thesis through the conscious-foundation thesis, its timeless variant, enduring personal subjectivity, universal preservation and the consciousness-purpose proposal, up to the full integrated proposal — where "required" means required to count as the named hypothesis, not established truth, and "open" means unconstrained, not denied. Necessity, omnipotence, omniscience, particular religious identity and unlimited duration for every person are further optional claims that no package includes by default. A package revision must be recorded when a required claim is withdrawn or a mechanism added: supporting the minimal thesis after abandoning survival is a possible substantive result, not confirmation of the unchanged full proposal. The specification also reconciles the research plan's eight rows with the nine components, tracking irreducibility as a weaker subsidiary claim rather than fundamentality, and keeping the explanatory target — why anything exists, why physical reality, why these laws, why consciousness — as a cross-cutting question rather than a tenth attribute.
+
+## Thesis roadmap
+
+<!-- id: c01-p021 -->
+Chapter 2 sets the method: how the project turned this specification into an auditable evidence ledger of sources, claims, arguments and cases; how independent adversarial review, dependence accounting, sensitivity tests and withheld-conclusion gates constrain what any chapter may assert; and how the thesis text itself is bound to the ledger by a paragraph-level crosswalk. The methodology is the reason the framing above can be enforced rather than merely announced.
+
+<!-- id: c01-p022 -->
+Chapters 3 through 5 carry the explanatory arc. Chapter 3 builds the six comparison families of the accepted record — physicalism with its illusionist edge, psychophysical-law and strong-emergence views, panpsychism, substance dualism, idealism in universal and plural forms, and theism, the last present mainly by stipulation — under a fairness rule that each is assessed in the strongest formulation available in the project record, a bounded claim about this record rather than the literature as a whole. Chapter 4 asks what experiential primitiveness would and would not explain, holding the line between an unresolved explanatory gap and a fundamentality conclusion. Chapter 5 follows the proposal upward from an experiential ground to an intending agent, where the existence, necessity and design questions live and the foundation-to-mind bridge remains open.
+
+<!-- id: c01-p023 -->
+Chapter 6 is the empirical center: the neural intervention evidence that constrains any dependence model; the selected crisis-experience dossiers, examined at their strongest and found, on inspection, never to establish together externally accurate content, a defensible interval of acquisition and adequate information about the processes available during that interval; and the prospective studies and the historical, cross-cultural corpus that frame them. Its verdicts are causal-constraint verdicts, not ontology verdicts, in both directions.
+
+<!-- id: c01-p024 -->
+Chapters 7 and 8 take up continuation and significance. Chapter 7 tests the identity side of the promise — timeless foundations, temporal persons, ownership of experience and the difference between an eternal representation of a life and the person's survival. Chapter 8 tests the value side: whether significance requires endurance, where the article's asymmetry between necessity and value claims about immortality is defended, and where the register's production-to-purpose bridge meets the consciousness-factory discrimination design.
+
+<!-- id: c01-p025 -->
+Chapters 9 and 10 price the moral crown of the proposal. Chapter 9 maps where moral authority could come from and finds every route from a conscious foundation to binding obligation crossing a contested normative bridge. Chapter 10 asks what specifying the foundation as benevolent costs and buys — the evidential arguments from suffering and hiddenness, their strongest inspected replies, and the constraint that a benevolent unification must let its goodness claims restrict what counts as an expected world — an unconstrained specification discriminates weakly, unable to face qualitative tests until its ends, population, means, constraints and tradeoffs are fixed in advance. Both chapters run under a declared symmetry rule: the value premises that support the moral-grounding proposal also underwrite the objections, and neither side may count the same premise twice.
+
+<!-- id: c01-p026 -->
+Chapter 11 assembles the cumulative comparison under the convergence standard stated above, with the dependence map and sensitivity withdrawals that keep shared premises from being counted per domain. Chapter 12 states the conclusions — and the withheld conclusions, which are as much a result of this project as the asserted ones. The appendices carry the case tables, the alternatives matrix, the complete gap and gate disposition register, and the dependence map. Twelve stronger-conclusion gates remain withheld as of this introduction, and every accepted chapter closes by stating that all twelve remain withheld.
+
+<!-- id: c01-p027 -->
+What this introduction cannot conclude, it states. It asserts no component of the proposal — not fundamentality, not universality, not brain independence, survival, timelessness, preservation, intention, goodness or moral authority — and no package, minimal or full. The specification it presents is stipulation: definitions precise enough to classify claims and expose contradictions, not measurements of metaphysical structure, and revisable only through versioned protocol change. The restricted-unification thesis and the announced asymmetries are, at this point in the thesis, claims with their evidence still ahead of them. The chapters that follow either earn them from the ledger or record exactly why they remain open.

@@ -1,0 +1,45 @@
+{
+  "task_id": "P3R07",
+  "status": "submitted",
+  "artifact_paths": [
+    "work/P3R07/report.md",
+    "work/P3R07/review.json",
+    "work/P3R07/source_checks.json",
+    "work/P3R07/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C07 submitted revision 1 (thesis/chapters/07-continuity.md, thesis/crosswalk/c07.json, work/P3C07/report.md, work/P3C07/result.json)",
+    "Accepted records of T11, T13, P2T12, plus inherited T06/T07/T08 chains used in the phenomenology section",
+    "paper/paper.html p-030 to p-034",
+    "work/G2/synthesis_constraints.json",
+    "derived/gap_gate_register.json",
+    "phase3/pilot_calibration.md",
+    "state/acceptance_P3C02.json",
+    "state/acceptance_P3C06.json"
+  ],
+  "uncertainties": [
+    "U1 (author): confirmed; M1–M4 renderings in c07-p004 match CL-T11-017 and CL-T13-016..018.",
+    "U2 (author): confirmed; CL-P2T12-003 locator especially 443 pairs with article p-033's 1981 p. 443 quotation.",
+    "U3 (author): confirmed that chapter 6 met the 1990 cohort (c06-p038). Recruitment is CL-T08-021, not CL-T08-023.",
+    "derived/evidence/c07.md and derived/manifest.json are stale on the revised chapter. Overseer should --sync-manifest at acceptance. Not a chapter-text defect.",
+    "c07-p038 PREMISE label still groups CL-P2T12-017 under bounded searches after the prose split. Residual, not blocking.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C07 (revision 1) and P3R07. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/07-continuity.md": "b361f48a09eea280841983362d6bd98960bca249fbefa655f612e3b93adfefea",
+    "thesis/crosswalk/c07.json": "0d0d06cfabeacf13c2ef7d089abd047782c77390dd92c5b103657f60a0bf9e3c",
+    "work/P3C07/report.md": "444b4fb71fe3aa0397bb2791ca31e022dd20042985f7f0720ad4edfd2638b493",
+    "work/P3C07/result.json": "390312ce69e3715b4fc9c4387b9dffb9c435d9d54828027611a28f1ea24bcafd",
+    "paper/paper.html": "d31eab14ead977930fe47b46e6fd253df0da0b7fdf6a49391943ab1e5952a277",
+    "work/G0/protocol_v1.md": "0be5706f79030a85ac7b2d761eae2012481b11b48a384c677045210b3b0e3904"
+  }
+}

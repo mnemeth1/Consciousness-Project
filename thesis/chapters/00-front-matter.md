@@ -9,7 +9,7 @@ inputs:
 ## Abstract
 
 <!-- id: c00-p001 -->
-Thesis abstract pending. Until the cumulative chapter is drafted and reviewed, the published research article abstract (paper version 0.4.1) remains the current public summary of the project's position. This thesis expands that article chapter by chapter from the accepted evidence ledgers under the Phase 3 execution plan.
+Thesis abstract pending. Until the cumulative chapter is drafted and reviewed, the published research article abstract (paper version 0.4.2) remains the current public summary of the project's position. This thesis expands that article chapter by chapter from the accepted evidence ledgers under the Phase 3 execution plan.
 
 ## Declarations
 

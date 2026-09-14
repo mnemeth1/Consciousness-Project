@@ -1,0 +1,96 @@
+{
+  "task_id": "P3R08",
+  "object": "P3C08",
+  "chapter": "c08",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "checked_paragraphs": 27,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph": "c08-p025",
+      "closed": true,
+      "how": "Dual-rejection clause removed. Yoshizawa rejects the general death-makes-life-meaningless claim (CL-P2T13-004 mapped). Metz proposes a stricter formulation without endorsing its soundness (CL-P2T13-009, A-P2T13-001 mapped). 'Correctly locates' reduced to 'locates'.",
+      "description": "Closed. Two-author rejection of the strict necessity thesis removed.",
+      "required_repair": "none remaining"
+    },
+    {
+      "id": "M2",
+      "paragraph": "c08-p026",
+      "closed": true,
+      "how": "Williams listed as independently inspected complete original (DG-T14-Williams). Yoshizawa his own author group (DG-P2T13-S-P2T13-002). Fischer's embedded Williams is a reconstruction limitation inside the Fischer group, not an entry path. 'One chain where Fischer is the vehicle' gone. Metz 2013 triangulation retained as a chain about that chapter only.",
+      "description": "Closed. Fischer-as-vehicle collapse of the Williams original removed.",
+      "required_repair": "none remaining"
+    }
+  ],
+  "minor_defects": [],
+  "minor_defects_closed_in_revision_1": [
+    "N1 c08-p001 article-scoped blanket verdict; undefended bridge; conditional continuation open",
+    "N2 c08-p011 2010-lecture findings under S-T14-002 draft provenance; CL-P2T13-013 mapped",
+    "N3 c08-p009 failure-to-establish finding; CL-P2T13-006 unpadded",
+    "N4 c08-p005 conflation sentence deleted",
+    "N5 c08-p007 naturalism-about-consciousness and Singer-inspection limits restored",
+    "N6 c08-p016 1996 note, 2004 translation, Broadview 2009, PDF 2022 caveat",
+    "N7 c08-p018 recorded ends vs incidental; A-T14-005 and Research_Plan/T14 PREMISE mapped",
+    "N8 c08-p021 strict divine necessity; no fabricated reply coverage; Stump/Kretzmann, Rogers, Lodzinski in p027",
+    "N9 c08-p024 ground under an explicit value premise; c08-p025 locates",
+    "N10 c08-p026 Yoshizawa own author group",
+    "N11 c08-p008 CL-T14-007 removed",
+    "N12 c08-p006 Metz 2003 named"
+  ],
+  "editorial_notes": [
+    "E1 c08-p008 constrains the exchange",
+    "E2 c08-p001 deliberately double-edged removed",
+    "E3 c08-p009 the unmet burden is",
+    "E4 c08-p022 the recorded objection is preserved",
+    "E5 c08-p026 colon list and two chain notes"
+  ],
+  "residual_notes_not_blocking": [
+    "derived/evidence/c08.md and derived/manifest.json stale on the revised chapter; overseer should --sync-manifest at acceptance",
+    "c08-p001 PREMISE:structure still does not map CL-P2T13-023 / A-P2T13-001 for the undefended-bridge preview; mapped at p009 and p027",
+    "Author-packet Uncertainties still first-draft U1–U3 wording, including the withdrawn Fischer-as-vehicle U2; result.json hashes and revision_cycles_used: 1 are honest"
+  ],
+  "uncertainty_adjudications": {
+    "U1": "Confirmed as claim-layer dual-version description (CL-P2T13-013). S-T14-002 provenance remains the 2007–2008 draft. Revision 1 p011 now states that ID-reuse locally. Unchanged in substance; N2 closed.",
+    "U2": "First-review: not confirmed; that was M2. Revision 1 withdraws Fischer-as-vehicle and lists Williams as an independently inspected complete original. Now confirmed against DG-T14-Williams and DG-P2T13-S-T14-003.",
+    "U3": "Confirmed for attribution. Revision 1 p018 maps A-T14-005 and a PREMISE to Research_Plan.md / work/T14/report.md, which name the consciousness-factory proposal as the intended-production hypothesis. N7 closed."
+  },
+  "checks_run": [
+    "thesis/build.cjs --check: pass (260 paragraphs, 114 citations, 248 crosswalk entries, c08 submitted)",
+    "derived/build.cjs --check: stale (derived/evidence/c08.md, derived/manifest.json); non-blocking",
+    "SHA-256 of revision-1 chapter and crosswalk match work/P3C08/result.json and the author report",
+    "lookup.cjs on M1/M2 and N2/N5/N6/N8/N12 load-bearing IDs (CL-P2T13-004, CL-P2T13-007, CL-P2T13-009, CL-P2T13-013, CL-P2T13-022, CL-P2T13-031, CL-P2T13-032, A-P2T13-001, A-T14-005)",
+    "Research_Plan.md and work/T14/report.md confirm factory-metaphor PREMISE on p018",
+    "Touched paragraphs re-read for new defects: none material",
+    "Crosswalk: 27 entries, one per paragraph c08-p001–c08-p027; 68 ledger IDs; 0 missing; new refs resolve",
+    "derived/gap_gate_register.json: all 12 GATE-T16-* still withheld"
+  ],
+  "new_text_verified": [
+    {
+      "claim": "Yoshizawa rejects the general death-makes-life-meaningless claim; Metz proposes a stricter formulation without endorsing its soundness",
+      "paragraph_id": "c08-p025",
+      "against": "CL-P2T13-004; CL-P2T13-009; A-P2T13-001",
+      "finding": "supported; two-author rejection gone"
+    },
+    {
+      "claim": "Williams independently inspected complete original; Fischer embedded Williams is a reconstruction limitation, not an entry path; Yoshizawa own group",
+      "paragraph_id": "c08-p026",
+      "against": "DG-T14-Williams; S-T14-007; S-T14-003; CL-P2T13-017; DG-P2T13-S-P2T13-002",
+      "finding": "supported; Fischer-as-vehicle gone"
+    },
+    {
+      "claim": "Factory metaphor is the research plan's name; production/development/preservation vs incidental occurrence",
+      "paragraph_id": "c08-p018",
+      "against": "Research_Plan.md; work/T14/report.md; A-T14-005; CL-T14-015",
+      "finding": "supported; trichotomy gone"
+    }
+  ],
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "corrections_required": [],
+  "summary": "Accept revision 1. M1 and M2 closed. N1–N12 and E1–E5 closed. No new material defects. All twelve withheld gates remain closed. thesis/build.cjs --check passed; derived layer stale on c08.",
+  "recommended_next_action": "Overseer adjudication: accept P3C08 (revision 1) and P3R08. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance."
+}

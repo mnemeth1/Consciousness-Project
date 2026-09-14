@@ -71,8 +71,8 @@
     },
     {
       "path": "CURRENT_RELEASE.md",
-      "sha256": "74b0635e010002de1656014be86a287a9ef645bb0dc49ed641b7efda2b628bab",
-      "bytes": 1335,
+      "sha256": "2dd08cf0198d568fbc541675120e72692f83b29933994fa0497d2a9d11af3612",
+      "bytes": 1455,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -99,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "f9ff735b52b0ccc8a65187c33f5bfb41d43925affff9f3c4fa424228b3990b3f",
-      "bytes": 5987,
+      "sha256": "f2b3fd599efd064e790c519df3d8082ea7df028e3091130293476debeeb66ff0",
+      "bytes": 6174,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -136,8 +136,8 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "31347490bd08c12e09bc55cfd628fc854710f2ada051b3265282515556408b1a",
-      "bytes": 2943,
+      "sha256": "494626d422fe4dc8795b1deb2b93750ac268af933f25148e4e5a9369a0fe7e40",
+      "bytes": 3231,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -419,8 +419,8 @@
     },
     {
       "path": "derived/evidence/c01.md",
-      "sha256": "8f4cdc837bc5efc4d21b18893bd4b8286ba6c8cc17bf7d36603254560d4ecfc4",
-      "bytes": 4975,
+      "sha256": "cf2f1547a856ca8dd8ae1271c55826ab4e4d5aa7e5a93bc843d441f41ca27e8d",
+      "bytes": 5036,
       "source": null,
       "transformations": []
     },
@@ -454,35 +454,35 @@
     },
     {
       "path": "derived/evidence/c06.md",
-      "sha256": "5932d9eb6ae4b7cc54bbc74b87f1125d247faae1c34cb59d0e1445843408df0d",
+      "sha256": "70c7d517d4a6394033b0bbb4bfb083374ae0119ab682e693db5faf52cfaff7cb",
       "bytes": 448531,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c07.md",
-      "sha256": "31b28d0d80655a2aa48b27fe41894dfbdf193a8a818919d1a8712c798300643e",
+      "sha256": "17e07325e818ef5bbdce062e28307320b782fcdfd40282d026d2fa4b5b186eb7",
       "bytes": 88808,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c08.md",
-      "sha256": "7bb99c22bce87002a6faa954dde8535c0eff47a79846c4f2515d4bf0b9cf7266",
+      "sha256": "c3828bae0bd8afb2d0d5eaededd270e407ca8b9de8a104f493c99dbb804566ad",
       "bytes": 45142,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c09.md",
-      "sha256": "f7156ce5472bf63326daa408db9822a31ae6c2fd5ecaa6597eda36931b1bf8d5",
+      "sha256": "9c3f688b2d895936a7f11d3408358bf31eb99e3200683e0335e16358b5b4cfdc",
       "bytes": 70351,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c10.md",
-      "sha256": "2a84064c8709178ada82f8f7bcc995991b628444b4d5349694cbef2c1a608b31",
+      "sha256": "225d813933a650c1fa9030ed130a6ad591d78724fe4dc55212afa0f5ed4ba218",
       "bytes": 54223,
       "source": null,
       "transformations": []
@@ -545,7 +545,7 @@
     },
     {
       "path": "derived/manifest.json",
-      "sha256": "949ae1504a7e4b7bf6aa9a0716d50ccbe1361ff9b3281fc9b3d4e2d9e02d12bc",
+      "sha256": "b9fec52609b37fe7011684c70ca3d99aecbffc5c142311c633e474d23b0a4593",
       "bytes": 8932,
       "source": null,
       "transformations": []
@@ -569,8 +569,8 @@
     },
     {
       "path": "docs/PAPER_RELEASE.md",
-      "sha256": "38937c00bbb7c9c61dee1da040b8208813e3b4df90033d4a7dbce4ce520c231b",
-      "bytes": 13244,
+      "sha256": "3ad458152e63cc956bd0193aa7b4e2b4a0a5c6314cab4b770be97696cd3a7f5f",
+      "bytes": 13565,
       "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/docs/PAPER_RELEASE.md",
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
@@ -599,8 +599,8 @@
     },
     {
       "path": "paper/CHANGELOG.md",
-      "sha256": "d47669743e565bd56d7551bb2a3b8e718c3931dc74ecb8d818c56659274cde69",
-      "bytes": 2514,
+      "sha256": "9e51748fd70ac41d4e9f04281cbdcf2a68870734a1ac8318a797715a116d7d2d",
+      "bytes": 2994,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -608,15 +608,15 @@
     },
     {
       "path": "paper/companion.html",
-      "sha256": "253b2975d03334d34250748cd053caf82684baec0b493592cf59cb5c3ed8e8b9",
-      "bytes": 13455,
+      "sha256": "b1bd46c9dcff27e4b9053c1618e1ac64a789756bac0eb7f5ef615f3bf901709f",
+      "bytes": 13512,
       "source": null,
       "transformations": []
     },
     {
       "path": "paper/draft-release.json",
-      "sha256": "c6c58ff3e2574c7e4ae0d312ecedf79684f4e157407f978e9c289e3eb104e0c6",
-      "bytes": 1047,
+      "sha256": "13bb6b09ec7873c4ef4d27f60c6fecb280127e50fa24346bd1bb97ab4423dc16",
+      "bytes": 1141,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -624,22 +624,22 @@
     },
     {
       "path": "paper/landing.html",
-      "sha256": "c85055bf078f9aeb7f1837ee88b98ddbfc972a32e7a945e582cee6422bf0f48c",
-      "bytes": 3429,
+      "sha256": "f2964c04d72c46b2b27f4bb4680ba5a97dc8528bace6a2998e0f7d982c49bb2c",
+      "bytes": 4121,
       "source": null,
       "transformations": []
     },
     {
       "path": "paper/lay_crosswalk.json",
-      "sha256": "d3751879cdf07491f7438c9681fffc45029e21eebf4f82c829561fad4e9c1258",
+      "sha256": "9f1c74c60d2bfe188909941c8c451c97381353c941c2c945400d9457775c7202",
       "bytes": 1974,
       "source": null,
       "transformations": []
     },
     {
       "path": "paper/paper.html",
-      "sha256": "d31eab14ead977930fe47b46e6fd253df0da0b7fdf6a49391943ab1e5952a277",
-      "bytes": 52820,
+      "sha256": "06affc825c748bcdf0d15d37eb01678719eaffe5dc450941df310099c934c2dd",
+      "bytes": 52877,
       "source": "work/PHILOSOPHICAL_PAPER_20260913/paper.html",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -655,6 +655,13 @@
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
       ],
       "source_sha256": "24252a163857d9a404af93c4bfb4874748827f7718818fbbb40b0b1cdc16161e"
+    },
+    {
+      "path": "paper/thesis.html",
+      "sha256": "bc0ce8f504150ab0db4ebc64e38e32f52508463f0ead636ed79390f3fcd56266",
+      "bytes": 354029,
+      "source": null,
+      "transformations": []
     },
     {
       "path": "phase2/Phase_2_Execution_Plan.md",
@@ -946,8 +953,8 @@
     },
     {
       "path": "scripts/paper/build.cjs",
-      "sha256": "b0d9fb0430152ea491607949e4d37291cc63a9155df053ef2b79e761b233e846",
-      "bytes": 26162,
+      "sha256": "94493c7bc7931e395551ed7bf30e4324c41abd87ddd433a8ad602eeb6e7b0c55",
+      "bytes": 26554,
       "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/build.cjs",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -966,8 +973,8 @@
     },
     {
       "path": "scripts/paper/common.cjs",
-      "sha256": "6650c2c29c67d93fc67ca453da0bc7c56539c39fbef3cb045eabcfea7d2e212b",
-      "bytes": 10435,
+      "sha256": "856bab25d4399cfb8cf78a3556a8f70e82a88751526a1f6a1a91076d539e152a",
+      "bytes": 10716,
       "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/common.cjs",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -976,8 +983,8 @@
     },
     {
       "path": "scripts/paper/release.cjs",
-      "sha256": "c599d3d60269906516f2086e88a7d439d495c088a7d30d351b97ca817cf1900e",
-      "bytes": 9450,
+      "sha256": "90d3030842b8f1595e818f81516235779002889a615ac83ed5d801ad2068f32c",
+      "bytes": 9465,
       "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/release.cjs",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -1003,8 +1010,8 @@
     },
     {
       "path": "scripts/thesis/build.cjs",
-      "sha256": "7b1b7daefad9287f6f9af8f301701d47dcbc35d71d84c5941b5fefcf1bd1792c",
-      "bytes": 19104,
+      "sha256": "71be1db085717bb352093f8fa8ad27cf10d0bae05c2f11334f8c54e549f43c6f",
+      "bytes": 21525,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1012,8 +1019,8 @@
     },
     {
       "path": "scripts/validate_paper_artifact.py",
-      "sha256": "985f31bcafe64dce53b3fe38ac474c8cf589fc5bd26ef1ee05d2728315c407db",
-      "bytes": 3532,
+      "sha256": "2dbcb52e34f9cde77afae1c1d499bc4b731cb9a4f9458a9d73b7098768819523",
+      "bytes": 3629,
       "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/validate_paper_artifact.py",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -1026,6 +1033,12 @@
       "bytes": 11738,
       "source": null,
       "transformations": []
+    },
+    {
+      "path": "state/acceptance_P3C01.json",
+      "reason": "Overseer acceptance record for thesis chapter 1 (P3C01/P3R01).",
+      "sha256": "ed1edbac9b3e5da45f24c0b5101918d85dde1a6871bda2638e2ce2e65c5928ba",
+      "bytes": 5291
     },
     {
       "path": "state/acceptance_P3C02.json",
@@ -1056,9 +1069,39 @@
       "transformations": []
     },
     {
+      "path": "state/acceptance_P3C06.json",
+      "reason": "Overseer acceptance record for thesis chapter 6 (P3C06/P3R06).",
+      "sha256": "f0e1f4ab83bc765eb9bfa34b2073a393a9716d198cb3403cc0e1cbf1da7a8747",
+      "bytes": 3921
+    },
+    {
+      "path": "state/acceptance_P3C07.json",
+      "reason": "Overseer acceptance record for thesis chapter 7 (P3C07/P3R07).",
+      "sha256": "4ab5e7d3b8ac66a36d3efa0b40c60e32ed60e365ef5b86bc585e840183d3eb0e",
+      "bytes": 4028
+    },
+    {
+      "path": "state/acceptance_P3C08.json",
+      "reason": "Overseer acceptance record for thesis chapter 8 (P3C08/P3R08).",
+      "sha256": "f376a7ad465a446bb0234bc127a0bdbb7fd8d33fff40eddebb0576edbde35af1",
+      "bytes": 4817
+    },
+    {
+      "path": "state/acceptance_P3C09.json",
+      "reason": "Overseer acceptance record for thesis chapter 9 (P3C09/P3R09).",
+      "sha256": "e7dac126443b709a8d7534d3a0d93fb6dd308f3c0aedef1e193f6947c53ebb0a",
+      "bytes": 4883
+    },
+    {
+      "path": "state/acceptance_P3C10.json",
+      "reason": "Overseer acceptance record for thesis chapter 10 (P3C10/P3R10).",
+      "sha256": "c4f92389f44582ea940737328e4bebda4b943903851a85de00ff8162d65b46e9",
+      "bytes": 5150
+    },
+    {
       "path": "state/public_status.json",
-      "sha256": "0ed3de27ccbb4e4a5270afc5ab01b8ac45229764edf147aff1719cdf9fe617c1",
-      "bytes": 1710,
+      "sha256": "b70a8fb67cb0eaf2fa6760cd52ee7dbc91fbf8ac6ecf75ccb0481a53cf00470d",
+      "bytes": 1840,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -1067,8 +1110,8 @@
     },
     {
       "path": "state/tasks.json",
-      "sha256": "5df9d856474868b50cd3fb524960c8c48cb1e4368c16ae7e75502803f9497bb0",
-      "bytes": 132274,
+      "sha256": "4213b7863f00e3a81dd198e8a2bd86cec73e88b3966106834bb8452d1ce58615",
+      "bytes": 132286,
       "source": null,
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes.",
@@ -1153,8 +1196,8 @@
     },
     {
       "path": "tests/paper.test.cjs",
-      "sha256": "f0462696ff9bec03c37937c30bf3060e3aa8e361042f472ab5f77b88afa63b39",
-      "bytes": 29868,
+      "sha256": "26457fc1b974341f731fb69a16c00c5deb2693ee0265eac3af9e7236f335ddae",
+      "bytes": 30534,
       "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/tests/paper.test.cjs",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -1163,8 +1206,8 @@
     },
     {
       "path": "thesis/README.md",
-      "sha256": "f19d94799a77f818512e21d67747345a57fb3405bd620c8b278f724b3db3efbe",
-      "bytes": 4625,
+      "sha256": "0212ec494dc1213253dffd529a9d89e0b043eb44c651c6305ead7fd66b4b3def",
+      "bytes": 4805,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1208,7 +1251,7 @@
     },
     {
       "path": "thesis/chapters/00-front-matter.md",
-      "sha256": "703dce8b2b04a506c0cef80662f85035355d3c7c05181efac65caf2ed7d70643",
+      "sha256": "b75f91cbe09e8849fe8d74f3b14437717ddeebd30d77b2fb46c12be199714b3b",
       "bytes": 916,
       "source": null,
       "transformations": [
@@ -1217,8 +1260,8 @@
     },
     {
       "path": "thesis/chapters/01-introduction.md",
-      "sha256": "eb76c5f89a46345b7e6ea9978db0f0bd70133513d930c6d45ec32a511884d114",
-      "bytes": 756,
+      "sha256": "614861ba6abe7db5bdb0cb5e294d031796a72e589f01ccb916963f06472ca4a1",
+      "bytes": 20717,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1262,8 +1305,8 @@
     },
     {
       "path": "thesis/chapters/06-empirical.md",
-      "sha256": "0039605c283bc365142d2d55e495b4a04d372c877bb9220b00d5a281c402da84",
-      "bytes": 1562,
+      "sha256": "1043d31590ff289eeadd581493ec3c1c97f8e6a0b26f6180b92d38f8c9884b36",
+      "bytes": 55201,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1271,8 +1314,8 @@
     },
     {
       "path": "thesis/chapters/07-continuity.md",
-      "sha256": "383974787c29d37b35f8b3acebd5a93acdfebf94a7556bd930521601df4b5213",
-      "bytes": 989,
+      "sha256": "60ad483989884aa134b12fc996cdd88438248d6cf6593dddca8184f227671dcc",
+      "bytes": 35417,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1280,8 +1323,8 @@
     },
     {
       "path": "thesis/chapters/08-meaning.md",
-      "sha256": "e4f098406048f7dfb51f30bb9688ddfcbcff821f8c399896806ee724d0b88cf1",
-      "bytes": 913,
+      "sha256": "9e52e4d2afc64ede543b3b38b129d9eefe9ce654b783374d1d1c2af5fad408a9",
+      "bytes": 24338,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1289,8 +1332,8 @@
     },
     {
       "path": "thesis/chapters/09-morality.md",
-      "sha256": "c07be8e0f6177d0232ab75b6dbc6aef5427ea7c498b239531c4fe25fcbb7400e",
-      "bytes": 955,
+      "sha256": "2f0c93d98cbcad05adfda9fefd01ffa75625dc0f85a2d7cba304aa8fd2132c08",
+      "bytes": 25973,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1298,8 +1341,8 @@
     },
     {
       "path": "thesis/chapters/10-goodness.md",
-      "sha256": "4d39ded06ff6faf077e4e53ebad3cc8ac90a301f1dc3d24bd667f5bd1a83de51",
-      "bytes": 857,
+      "sha256": "78d76fcd3ff4e3b9ced68bd8c105095b39ef7371da707b8e203a0413dd70916d",
+      "bytes": 26081,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1360,8 +1403,8 @@
     },
     {
       "path": "thesis/crosswalk/c01.json",
-      "sha256": "2c02be0c06972e3dd64c82da84acbc1ba8cca301a02201e69c1b06e6ea177c2b",
-      "bytes": 81,
+      "sha256": "b927bbf8fe9a8c931b27ca36fc5feaf2c93d8618d68e3837ea1578ea5da6dd61",
+      "bytes": 5029,
       "source": null,
       "transformations": []
     },
@@ -1395,36 +1438,36 @@
     },
     {
       "path": "thesis/crosswalk/c06.json",
-      "sha256": "b45a5f458e761f0c174d7dd3f9b91d346e7c4c45e990261261a0df325664a603",
-      "bytes": 81,
+      "sha256": "8e22d7428fef56eaf66c985c712b8ac3348f4b8120103d90b524d798ba81b6a3",
+      "bytes": 9903,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c07.json",
-      "sha256": "dfa106664092e57a2f80dbf2d88fd7f0c2a9a548c071fda4404588b450300432",
-      "bytes": 81,
+      "sha256": "0d0d06cfabeacf13c2ef7d089abd047782c77390dd92c5b103657f60a0bf9e3c",
+      "bytes": 5763,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c08.json",
-      "sha256": "b5371464a17c35369352de629d981a9f7eea5eb7adb609ae2912db15867b7a0a",
-      "bytes": 81,
+      "sha256": "31c38da81e0d410b93e57b3fc90f7af4ae3ecce5a5bf89d00dd39c73e7bd0c88",
+      "bytes": 4293,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c09.json",
-      "sha256": "18051464673894fb28ae04228939492552d6abf999837c95114b13e5af88b01a",
-      "bytes": 81,
+      "sha256": "f3aa63d7c5bea5a7152223a0229bc9ca3e9ec78864ce02b01112aecf99e27c2f",
+      "bytes": 4736,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c10.json",
-      "sha256": "29568571b1ee3836257a7b475445be34400767d8b53720487a67805f204ac334",
-      "bytes": 81,
+      "sha256": "7c67e3c11dbcc21b7fbc601b6d5688abc5c7cdd1d19bc9ef342ae67df1d26ac2",
+      "bytes": 4557,
       "source": null,
       "transformations": []
     },
@@ -1451,7 +1494,7 @@
     },
     {
       "path": "thesis/thesis.json",
-      "sha256": "92dee109c068b2e76c9a45a7a1faa316c07483bcaef00d9f5671f5cc1295a7f3",
+      "sha256": "0af672db6475db60f4ca882d39a90309ff58b2e5f26584144ff759d36605bb59",
       "bytes": 1749,
       "source": null,
       "transformations": [
@@ -1998,6 +2041,18 @@
       "byte_identical_to_source": false
     },
     {
+      "path": "work/P3C01/report.md",
+      "reason": "Phase 3 chapter 1 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "7468706c1ba518880a4d555c78cceddb0be7071fb01f0e71d13a20b34ad61c4c",
+      "bytes": 9588
+    },
+    {
+      "path": "work/P3C01/result.json",
+      "reason": "Phase 3 chapter 1 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "9f7fc5adc02d6e66c850691a0fc801b668354364782e82056a3fd93dccab2e05",
+      "bytes": 2056
+    },
+    {
       "path": "work/P3C02/report.md",
       "sha256": "9a4d131769f1f197679809d4a69bb50b6bd5442a5a8ad6641570be1847b0c152",
       "bytes": 7940,
@@ -2052,6 +2107,90 @@
       "bytes": 1586,
       "source": null,
       "transformations": []
+    },
+    {
+      "path": "work/P3C06/report.md",
+      "reason": "Phase 3 chapter 6 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "37c94b87fac29887cb86b3ce5210dffb297d49ec921b4b1a98b35c76572ba84a",
+      "bytes": 7477
+    },
+    {
+      "path": "work/P3C06/result.json",
+      "reason": "Phase 3 chapter 6 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "ade335b8a0be0a6e53659eee3b6f992fc79fbfe692e7adef17435f62c5639a96",
+      "bytes": 1783
+    },
+    {
+      "path": "work/P3C07/report.md",
+      "reason": "Phase 3 chapter 7 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "a673fb65051d376f8195be97903668e94e05de5f40b53835e19a53a5f47964ad",
+      "bytes": 7199
+    },
+    {
+      "path": "work/P3C07/result.json",
+      "reason": "Phase 3 chapter 7 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "0f88c111f448df2d602ed4e356cdcb397557ad81ad954eb3688bbc9ea9f5c270",
+      "bytes": 1796
+    },
+    {
+      "path": "work/P3C08/report.md",
+      "reason": "Phase 3 chapter 8 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "97b02fb79a55c5a62ba2e0f71024de399734b484eb31b3c7e468ff858771aa13",
+      "bytes": 9074
+    },
+    {
+      "path": "work/P3C08/result.json",
+      "reason": "Phase 3 chapter 8 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "8d827086ee085504a9182e6deadb04803769acbd2dd4bae15d92a01ca7605fc4",
+      "bytes": 1810
+    },
+    {
+      "path": "work/P3C09/report.md",
+      "reason": "Phase 3 chapter 9 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "215b1ade3ead8535567c652ec76b3f21b733037f42c06ae61de222afc58e279b",
+      "bytes": 10269
+    },
+    {
+      "path": "work/P3C09/result.json",
+      "reason": "Phase 3 chapter 9 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "f0dc87b4bf4893239316aa55c4ad4a98e127903983bf4ecc7abf699bc621edf3",
+      "bytes": 2074
+    },
+    {
+      "path": "work/P3C10/report.md",
+      "reason": "Phase 3 chapter 10 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "219256d7852a0fb4a6b46fad85482a819962f100f087696094d56bc79b00a0f9",
+      "bytes": 9888
+    },
+    {
+      "path": "work/P3C10/result.json",
+      "reason": "Phase 3 chapter 10 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "d89920c8ba389f6df94f80086ea09abdf82f47705ede3e264b0dcb5fbe0a903d",
+      "bytes": 2122
+    },
+    {
+      "path": "work/P3R01/report.md",
+      "reason": "Phase 3 chapter 1 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "41e0f10e0b3e4b4dfc3a97d69997220fc20ac08e62a1a8367b8c248ee0029edf",
+      "bytes": 32285
+    },
+    {
+      "path": "work/P3R01/result.json",
+      "reason": "Phase 3 chapter 1 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "1adf56f33a8f7883851e2e1bd3d4f96e0bf4d80c8997593d776d53f4ed616c13",
+      "bytes": 2349
+    },
+    {
+      "path": "work/P3R01/review.json",
+      "reason": "Phase 3 chapter 1 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "d83474f3476df04cd02b3ebda401da4fa5d3891f881a45fc81128c78fed649d5",
+      "bytes": 5791
+    },
+    {
+      "path": "work/P3R01/source_checks.json",
+      "reason": "Phase 3 chapter 1 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "e652e04f428403e4cd156650eb3fb84e72bcb45e73d851d2bef0c7c638632396",
+      "bytes": 5605
     },
     {
       "path": "work/P3R02/report.md",
@@ -2164,6 +2303,126 @@
       "bytes": 14127,
       "source": null,
       "transformations": []
+    },
+    {
+      "path": "work/P3R06/report.md",
+      "reason": "Phase 3 chapter 6 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "6754dd9ebb291242e3cc9453446d86638e9544e9767c7c852534f884c7f26e3c",
+      "bytes": 26371
+    },
+    {
+      "path": "work/P3R06/result.json",
+      "reason": "Phase 3 chapter 6 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "889586a08e7984ef6bdf0bc7accf20157b27c6997ff3deefd1e87436daf41995",
+      "bytes": 2305
+    },
+    {
+      "path": "work/P3R06/review.json",
+      "reason": "Phase 3 chapter 6 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "539e1513235b152e75531260d8e1e29403a3f7d64cb34affb5f6f0ade37be19b",
+      "bytes": 5341
+    },
+    {
+      "path": "work/P3R06/source_checks.json",
+      "reason": "Phase 3 chapter 6 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "8efc2b6ef0e7882e7034ca21a70f78cbb2818653133f9ad7d6aa96ad1d80c8bf",
+      "bytes": 19021
+    },
+    {
+      "path": "work/P3R07/report.md",
+      "reason": "Phase 3 chapter 7 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "10c008df34230e0e5c9cb7da89a7bf9d1a945f8e52d21059a35d6f2af58b5eaa",
+      "bytes": 27498
+    },
+    {
+      "path": "work/P3R07/result.json",
+      "reason": "Phase 3 chapter 7 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "fbcd08bd2be40156fcf26df5a085d2977556b565ff93e993de11f3b44082951d",
+      "bytes": 2486
+    },
+    {
+      "path": "work/P3R07/review.json",
+      "reason": "Phase 3 chapter 7 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "4d94b5928fef9102ec107d7ea1f6e490e89fa9468cabd1bbf212cfde0727579b",
+      "bytes": 5007
+    },
+    {
+      "path": "work/P3R07/source_checks.json",
+      "reason": "Phase 3 chapter 7 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "556d33e90065a65d4ff54a3b317270501994350b60f21ec64c2814ad2e6ae349",
+      "bytes": 20918
+    },
+    {
+      "path": "work/P3R08/report.md",
+      "reason": "Phase 3 chapter 8 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "074321789709a3943d1c111bb529d4b5663c1fa3b07e25cae7c4173d04034ca5",
+      "bytes": 35720
+    },
+    {
+      "path": "work/P3R08/result.json",
+      "reason": "Phase 3 chapter 8 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "a87c9f1328c21163af91940baf77b13c276228ab91b061d435fea37f863e612f",
+      "bytes": 2915
+    },
+    {
+      "path": "work/P3R08/review.json",
+      "reason": "Phase 3 chapter 8 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "3cba9ab74a82aec32c423cea75d0bae849e39bb4b500095e0d203c9b9136bd62",
+      "bytes": 6142
+    },
+    {
+      "path": "work/P3R08/source_checks.json",
+      "reason": "Phase 3 chapter 8 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "32f112ba4c49fe5bbc00c31b4cd483f0d66ee5cfa36b411143806b4becb220cf",
+      "bytes": 13487
+    },
+    {
+      "path": "work/P3R09/report.md",
+      "reason": "Phase 3 chapter 9 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "96a33fa060a256bca00da4d741753767833c0c636333775a16844df3353f56cf",
+      "bytes": 45019
+    },
+    {
+      "path": "work/P3R09/result.json",
+      "reason": "Phase 3 chapter 9 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "5d5cdfc6f38d8a892c047b04fdcf073d16231444c5aa5ee503aa6414e50c53e2",
+      "bytes": 2613
+    },
+    {
+      "path": "work/P3R09/review.json",
+      "reason": "Phase 3 chapter 9 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "96c5ba4e042919637648de6759b4f42cb55a21a522814bd0d53e6a3d92431262",
+      "bytes": 5546
+    },
+    {
+      "path": "work/P3R09/source_checks.json",
+      "reason": "Phase 3 chapter 9 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "6085491e5a63d80c112580a768d43498ca6e557046a141bc9a5e10a0b5519f02",
+      "bytes": 20307
+    },
+    {
+      "path": "work/P3R10/report.md",
+      "reason": "Phase 3 chapter 10 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "5db8df3e81ea315d2144135d530d205d6b23ec27354e704f0b83ccd4190c57e0",
+      "bytes": 38455
+    },
+    {
+      "path": "work/P3R10/result.json",
+      "reason": "Phase 3 chapter 10 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "9b585a47608c41335a26b5ec8e93f1a8f4716c319be3991c0b2881dbaffe1f10",
+      "bytes": 2634
+    },
+    {
+      "path": "work/P3R10/review.json",
+      "reason": "Phase 3 chapter 10 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "67b8948d77ba1ca446727d7da15848e4b934e379baa97061a30c66e6e5086f28",
+      "bytes": 5102
+    },
+    {
+      "path": "work/P3R10/source_checks.json",
+      "reason": "Phase 3 chapter 10 work packet: author/reviewer deliverable for public validation.",
+      "sha256": "2dc3c971a64e987d9173f50b08a2d1424428473674ac171daddab276f4454e9a",
+      "bytes": 3844
     },
     {
       "path": "work/R04/report.md",

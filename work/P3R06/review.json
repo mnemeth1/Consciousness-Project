@@ -1,0 +1,104 @@
+{
+  "task_id": "P3R06",
+  "object": "P3C06",
+  "chapter": "c06",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph": "c06-p017",
+      "closed": true,
+      "how": "Hybrid webpage split: Lam October 11, 2011 publication label plus April 2014 update (S-P2T15-003 / CL-P2T15-001); Skeptiko November 22, 2011 archive-search metadata (S-P2T15-002 / CL-P2T15-002); current author page S-T06-005 mapped.",
+      "description": "Closed. Invented November-2011-labeled interview removed.",
+      "required_repair": "none remaining"
+    },
+    {
+      "id": "M2",
+      "paragraph": "c06-p025",
+      "closed": true,
+      "how": "February 2, 1994 Addink interview, transcript dated February 3. Television-interview label removed. Captions remain on the 2008 reprint in c06-p026.",
+      "description": "Closed. Genre invention removed.",
+      "required_repair": "none remaining"
+    },
+    {
+      "id": "M3",
+      "paragraph": "c06-p011",
+      "closed": true,
+      "how": "CL-T19-021 restricted to Reynolds and dentures by name. Neal per A-P2T14-001; Alexander per CL-P2T15-032; both added to refs.",
+      "description": "Closed. Two-dossier finding no longer applied to all four.",
+      "required_repair": "none remaining"
+    }
+  ],
+  "minor_defects": [],
+  "minor_defects_closed_in_revision_1": [
+    "N1 c06-p004 Tasserie blinding and condition-order limit",
+    "N2 c06-p003 nonspecific nonface changes",
+    "N3 c06-p005 open-label restored (ledger: open)",
+    "N4 c06-p026 pre-Thumper / bystander-CPR limit",
+    "N5 c06-p038 24 ± 15 years",
+    "N6 c06-p040 Parnia 2001 and 2013/2014 legend mismatch",
+    "N7 c06-p041 macaque arousal/access markers inferred from signatures",
+    "N8 c06-p043 study-level groups; P2T09 overlay separate",
+    "N9 c06-p044 AANS remapped to S-P2T15-001 / CL-P2T15-026",
+    "N10 c06-p045 nine components including fundamentality",
+    "N11 c06-p031 35–60 minutes as body-text summary; exact-maximum null",
+    "N12 c06-p006 DFC still lacked sustained posterior connectivity"
+  ],
+  "editorial_notes": [
+    "E1 heading renamed: Dependence accounting, access gaps and non-conclusions",
+    "E2 c06-p001 popular-case framing dropped",
+    "E3 c06-p012 first edition did not clearly identify Jesus",
+    "E4 c06-p030 25-site main phase named",
+    "E5 c06-p022 best-developed ranking dropped"
+  ],
+  "residual_notes_not_blocking": [
+    "derived/evidence/c06.md and derived/manifest.json stale on the revised chapter; overseer should --sync-manifest at acceptance",
+    "c06-p017 April 2014 vs CL-P2T15-001 April 7, 2014",
+    "c06-p005 open-label vs CL-T09-003 open",
+    "c06-p025 maps CL-P2T17-010 without mentioning television captions; p026 still locates them correctly",
+    "Author-packet Uncertainties still first-draft U1–U3 wording; result.json hashes and revision_cycles_used: 1 are honest"
+  ],
+  "uncertainty_adjudications": {
+    "U1": "Confirmed. PREMISE locators follow the accepted c02–c05 convention. N9 remap closed the only mapped-ID issue.",
+    "U2": "Confirmed. S-P2T16-005 remains uninspected_stopped_route; CL-P2T16-026: title supplies no outcome. c06-p024 unchanged and faithful.",
+    "U3": "Confirmed within packet limits. CL-P2T19-001: v4 file, Version 4.5, 22 December 2022 internal date; OSF created 23 December is separate metadata."
+  },
+  "checks_run": [
+    "thesis/build.cjs --check: pass (197 paragraphs, 183 crosswalk entries, c06 submitted)",
+    "derived/build.cjs --check: stale (derived/evidence/c06.md, derived/manifest.json); non-blocking",
+    "SHA-256 of revision-1 chapter and crosswalk match work/P3C06/result.json and the author report",
+    "lookup.cjs on M1–M3 and N1–N12 load-bearing IDs (see source_checks.json re_review)",
+    "Touched paragraphs re-read for new defects: none material",
+    "Crosswalk: 45 entries, one per paragraph c06-p001–c06-p045; new refs resolve",
+    "derived/gap_gate_register.json: all 12 GATE-T16-* still withheld",
+    "work/G2/synthesis_constraints.json nine-component list matches c06-p045 including H-F"
+  ],
+  "new_text_verified": [
+    {
+      "claim": "Lam October 11 2011 publication label; Skeptiko November 22 2011 archive metadata; current author page mapped",
+      "paragraph_id": "c06-p017",
+      "against": "CL-P2T15-001; CL-P2T15-002; S-P2T15-003; S-P2T15-002; S-T06-005",
+      "finding": "supported; hybrid webpage gone"
+    },
+    {
+      "claim": "Addink interview February 2 1994, transcript dated February 3; not television",
+      "paragraph_id": "c06-p025",
+      "against": "CL-P2T17-001; CL-T19-004; CL-P2T17-010",
+      "finding": "supported; captions remain in p026"
+    },
+    {
+      "claim": "T19 two-dossier finding scoped to Reynolds and dentures; Neal and Alexander from own packets",
+      "paragraph_id": "c06-p011",
+      "against": "CL-T19-021; A-P2T14-001; CL-P2T15-032",
+      "finding": "supported"
+    }
+  ],
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "corrections_required": [],
+  "recommended_next_action": "Overseer adjudication: accept P3C06 (revision 1) and P3R06. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance."
+}

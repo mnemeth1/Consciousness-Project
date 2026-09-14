@@ -42,15 +42,12 @@ In any chapter with status `drafted` or later, every paragraph must carry an exp
 ```sh
 node scripts/thesis/build.cjs            # validate and compile to .paper-build/thesis/
 node scripts/thesis/build.cjs --check    # validate only, no output
+node scripts/thesis/build.cjs --publish  # compile and write paper/thesis.html for the public site
 ```
 
-The build writes per-chapter HTML and a stitched, self-contained `thesis.html` conforming to the paper security contract. For a PDF preview, run the existing pinned renderer against the stitched file:
+The build writes per-chapter HTML and a stitched, self-contained `thesis.html` conforming to the paper security contract. `--publish` copies that stitched file to `paper/thesis.html`, which ships with the article Pages artifact. Incomplete parts keep their skeleton status labels; the published page also carries a remaining-work banner. There is no thesis PDF until a later `thesis-v` release.
 
-```sh
-node scripts/paper/cli.cjs build --source .paper-build/thesis/thesis.html --out .paper-build/thesis/site --mode preview
-```
-
-Build outputs live under `.paper-build/` and are never committed. Release wiring for the thesis is a separate reviewed change at first publication.
+Build outputs under `.paper-build/` are never committed. `paper/thesis.html` is the frozen public snapshot and is committed with the paper version that publishes it.
 
 ## Evidence retrieval
 

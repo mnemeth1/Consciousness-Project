@@ -1,0 +1,31 @@
+{
+  "task_id": "P3C06",
+  "status": "accepted",
+  "summary": "Drafted thesis chapter 6 (Neural Dependence and the Evidential Role of Crisis Experiences) from skeleton to 45 paragraphs with a complete paragraph-level crosswalk. Covers the controlled intervention stream, the conjunctive standard for crisis-report discrimination, four case dossiers with critic-and-reply chains, three prospective studies with correspondence exchanges, the historical and cross-cultural corpus, the evidential asymmetry, dependence accounting, access gaps and explicit non-conclusions.",
+  "artifacts": [
+    "thesis/chapters/06-empirical.md",
+    "thesis/crosswalk/c06.json",
+    "work/P3C06/report.md",
+    "work/P3C06/result.json"
+  ],
+  "dependencies_used": [
+    "derived/evidence/c06.md",
+    "paper/paper.html section 5 (p-022 to p-029)",
+    "state/acceptance_P3C02.json calibration conventions"
+  ],
+  "uncertainties": [
+    "U1: PREMISE label locators for article-framing paragraphs follow the c02-c05 accepted convention; reviewer to confirm sufficiency.",
+    "U2: S-P2T16-005 (Successful Test webpage) treated as title-only uninspected per P2T16 gap disposition.",
+    "U3: Cogitate amendment identification (v4 file, Version 4.5, 2022-12-22) stated within CL-P2T19-001..005 limits."
+  ],
+  "budget_used": {
+    "sessions": 2,
+    "source_inspections": 0,
+    "revision_cycles_used": 1
+  },
+  "recommended_next_action": "Accepted after re-review; residual editorial notes deferred to the pre-P3G1 consistency pass. Next: P3C07.",
+  "input_artifact_versions": {
+    "thesis/chapters/06-empirical.md": "sha256:bd180f8bd586e99486e4627609112f0fe348c7c45e1edd18222a41ad32927fb4",
+    "thesis/crosswalk/c06.json": "sha256:8e22d7428fef56eaf66c985c712b8ac3348f4b8120103d90b524d798ba81b6a3"
+  }
+}

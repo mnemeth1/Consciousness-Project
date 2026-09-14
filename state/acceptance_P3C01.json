@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-14",
+  "adjudicator": "overseer (Claude Fable 5 session, project owner authorized 2026-09-13)",
+  "verdict": "accepted",
+  "accepted_tasks": [
+    "P3C01",
+    "P3R01"
+  ],
+  "author": "thesis-author context (Claude Fable 5)",
+  "independent_reviewers": {
+    "P3R01": "chapter-reviewer context (Grok 4.6 xhigh), distinct from author"
+  },
+  "review_history": [
+    "Initial P3R01 verdict: revise (3 material, 12 minor, 5 editorial defects). All three material defects were roadmap mischaracterizations of already-accepted chapters, not upgrades of article positions or T01 stipulations: the chapter 3 sentence replaced the accepted six comparison families with four including an invented 'neutral' family; the chapter 6 sentence substituted a homemade crisis conjunction ('verified perception, established unconsciousness and excluded ordinary acquisition') for the recorded triad, with 'established unconsciousness' being exactly the substitution c06 warns against; and the production-to-purpose bridge test was attributed to chapter 5 with A-T01-003 mapped there, though the test lives in chapter 8's consciousness-factory design.",
+    "Revision cycle 1 of 2: c01-p022 rewritten to c03-p001's six families verbatim with theism marked present mainly by stipulation and the fairness rule bounded to the project record; c01-p023 rewritten to c06/article p-024's triad (externally accurate content, a defensible interval of acquisition, adequate information about the processes available during that interval) with the prospective studies and historical, cross-cultural corpus added; production-to-purpose moved to the chapter 8 sentence with A-T01-003 remapped from p022 to p024; twelve minor repairs applied (assumed-explanandum qualifier on A-T01-003; abstract added to front-matter inputs; H-B and H-S non-entailments restored; B13 named and pointed at chapter 10; weak-discrimination verbs at p025; bounded fairness wording; gates-withheld phrasing; gloss marking at p003; B14 decoupled from the joint-theory concession; appendices described as A-D); five editorial notes applied.",
+    "Re-review verdict: accept; M1-M3, N1-N12 and E1-E5 all verified closed; no new material defects; cycle 2 unused."
+  ],
+  "open_editorial_notes_non_blocking": [
+    "c01-p022 says chapter 3 'builds' where c03 says 'presents'; c01-p023's 'that frame them' slightly demotes the prospective and historical streams; the factory locator in the c01-p024 crosswalk label ends at c08-p021 rather than p022; the work/P3C01 packet's opening U1-U3 wording is first-draft",
+    "Note the chapter hash below supersedes the rev-1 hash in work/P3C01 packets: the only post-re-review change is the front-matter status flip to accepted"
+  ],
+  "disposition_of_editorial_notes": "Preserved here as reviewer notes; to be swept in the pre-P3G1 consistency pass rather than by post-acceptance edits to the reviewed text. The stale derived c01 pack flagged by the reviewer is resolved by the --sync-manifest run at this adjudication.",
+  "reviewed_artifact_hashes": {
+    "thesis/chapters/01-introduction.md": "614861ba6abe7db5bdb0cb5e294d031796a72e589f01ccb916963f06472ca4a1",
+    "thesis/crosswalk/c01.json": "b927bbf8fe9a8c931b27ca36fc5feaf2c93d8618d68e3837ea1578ea5da6dd61",
+    "work/P3C01/report.md": "7468706c1ba518880a4d555c78cceddb0be7071fb01f0e71d13a20b34ad61c4c",
+    "work/P3C01/result.json": "9f7fc5adc02d6e66c850691a0fc801b668354364782e82056a3fd93dccab2e05",
+    "work/P3R01/report.md": "41e0f10e0b3e4b4dfc3a97d69997220fc20ac08e62a1a8367b8c248ee0029edf",
+    "work/P3R01/review.json": "d83474f3476df04cd02b3ebda401da4fa5d3891f881a45fc81128c78fed649d5",
+    "work/P3R01/source_checks.json": "e652e04f428403e4cd156650eb3fb84e72bcb45e73d851d2bef0c7c638632396",
+    "work/P3R01/result.json": "1adf56f33a8f7883851e2e1bd3d4f96e0bf4d80c8997593d776d53f4ed616c13"
+  },
+  "scope": "Introduction accepted as a faithful expansion of article section 1 over the T01 stipulative register: the unification promise with its three separate conditionals; the illicit-economy diagnosis with the fourteen-bridge register, its anti-bypass rule and the four G0-accepted conditional argument skeletons presented as skeletons; the restricted-unification thesis with the joint-theory concession and the announced asymmetries of the abstract and p-005 explicitly deferred to the chapters that carry the records; the nine components with bearers, non-entailments, the logical qualification and the package structure, all marked as stipulation revisable only through versioned protocol change; and a roadmap verified against the accepted chapters' own closing registers. Acceptance asserts fidelity of framing; it asserts no component, package, bridge, asymmetry or family verdict. All twelve withheld stronger-conclusion gates remain withheld. With this acceptance the body-chapter batch (c01-c10) is complete.",
+  "budget_note": "P3C01 used 0 searches and 0 external inspections; 1 of 2 revision cycles. P3R01 verified fidelity against the article (p-001 to p-005), work/T01/report.md in full, the four A-T01 records and the accepted chapters c02-c10 with their acceptance files.",
+  "next": "Appendices A-D (P3C13-P3C16 batch per phase3/Thesis_Execution_Plan.md), then synthesis chapters c11-c12, then gates."
+}
