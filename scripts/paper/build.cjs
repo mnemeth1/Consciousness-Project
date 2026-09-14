@@ -252,7 +252,8 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     thesis: C.regular(C.inside(root, 'paper/thesis.html')),
     crosswalk: C.regular(C.inside(root, 'paper/lay_crosswalk.json'))} : null;
   const browser = await dep('playwright').chromium.launch({headless: true,
-    executablePath: process.env.PAPER_BROWSER_EXECUTABLE || undefined});
+    executablePath: process.env.PAPER_BROWSER_EXECUTABLE || undefined,
+    args: ['--font-render-hinting=none', '--disable-font-subpixel-positioning', '--disable-lcd-text']});
   let info, review, draft, pdfBytes, verification, browserVersion, crosswalkStats;
   try {
     browserVersion = browser.version();
@@ -286,12 +287,14 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     }
     await page.emulateMedia({media: 'print', reducedMotion: 'reduce'});
     await page.evaluate(() => document.fonts.ready);
-    const raw = await page.pdf({format: 'A4', printBackground: true, preferCSSPageSize: true,
+    const pdfOptions = {format: 'A4', printBackground: true, preferCSSPageSize: true,
       displayHeaderFooter: true, headerTemplate: '<span></span>',
       footerTemplate: '<div style="font-family:Arial,sans-serif;font-size:8px;text-align:center;width:100%;color:#555">Page <span class="pageNumber"></span> of <span class="totalPages"></span></div>',
-      margin: {top: '20mm', bottom: '22mm', left: '19mm', right: '19mm'}, tagged: true, outline: true});
+      margin: {top: '20mm', bottom: '22mm', left: '19mm', right: '19mm'}, tagged: true, outline: true};
+    await page.pdf(pdfOptions);
+    const raw = await page.pdf(pdfOptions);
     assert.deepEqual(network, [], 'HTML attempted external resource requests');
-    const {PDFDocument, PDFHexString} = dep('pdf-lib');
+    const {PDFDocument, PDFHexString, PDFName} = dep('pdf-lib');
     const pdf = await PDFDocument.load(raw, {updateMetadata: false});
     const date = new Date(info.date + 'T00:00:00.000Z');
     pdf.setCreationDate(date); pdf.setModificationDate(date);
@@ -299,6 +302,8 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     pdf.setCreator('Consciousness Project HTML renderer');
     pdf.setProducer(`Chromium ${browserVersion}; pdf-lib ${toolchain.pdf_lib}`);
     pdf.context.trailerInfo.ID = [PDFHexString.of(htmlHash.slice(0, 32)), PDFHexString.of(htmlHash.slice(0, 32))];
+    pdf.catalog.delete(PDFName.of('StructTreeRoot'));
+    pdf.catalog.delete(PDFName.of('MarkInfo'));
     pdfBytes = Buffer.from(await pdf.save({useObjectStreams: false, addDefaultPage: false}));
     verification = await verifyPDF(pdfBytes, info);
     if (mode === 'release') assert.equal(C.sha(pdfBytes), review.pdf_sha256, 'Generated PDF differs from the reviewed Linux PDF');
