@@ -1,7 +1,7 @@
 ---
 chapter: 2
 title: Comparative Method and Evidence Discipline
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 2 (p-006 to p-007)
   - work/T02/report.md

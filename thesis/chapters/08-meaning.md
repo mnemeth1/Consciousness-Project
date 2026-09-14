@@ -1,7 +1,7 @@
 ---
 chapter: 8
 title: Does Significance Require Endurance?
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 7 (p-035 to p-038)
   - work/T14/report.md

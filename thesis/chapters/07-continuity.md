@@ -1,7 +1,7 @@
 ---
 chapter: 7
 title: Continuation, Timelessness and the Ownership of Experience
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 6 (p-030 to p-034)
   - work/T11/report.md

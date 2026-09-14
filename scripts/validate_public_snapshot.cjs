@@ -104,7 +104,9 @@ function validate() {
   assert.equal(status.current_public_draft.stage, 'draft');
   assert.equal(status.current_public_draft.scientific_acceptance, false);
   assert.deepEqual(status.current_public_draft.pending_reviews, ['P2R20', 'P2G2']);
-  assert.equal(byId.get('P2S03').status, 'blocked');
+  // P2-AMEND-003 section 4: the assembled thesis exists, so P2S03 is submitted
+  // with the thesis as its artifact; it is adjudicated at P3G2.
+  assert.equal(byId.get('P2S03').status, 'submitted');
 
   // Phase 3 thesis programme: structure and crosswalk integrity (build-time
   // validation in scripts/thesis/build.cjs is stricter; this is the light check).

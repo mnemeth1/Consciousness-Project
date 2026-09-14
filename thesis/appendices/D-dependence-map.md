@@ -1,7 +1,7 @@
 ---
 appendix: D
 title: Dependence map
-status: submitted
+status: accepted
 inputs:
   - work/T16/report.md
   - work/T16/dependency_map.json

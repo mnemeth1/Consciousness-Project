@@ -1,7 +1,7 @@
 ---
 chapter: 6
 title: Neural Dependence and the Evidential Role of Crisis Experiences
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 5 (p-022 to p-029)
   - work/T04/report.md

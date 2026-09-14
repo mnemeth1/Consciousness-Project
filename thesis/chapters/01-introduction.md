@@ -1,7 +1,7 @@
 ---
 chapter: 1
 title: Unification and Its Price
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 1 (p-002 to p-005)
   - paper/paper.html p-001 (abstract, announced position only)

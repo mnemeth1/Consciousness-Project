@@ -1,7 +1,7 @@
 ---
 appendix: C
 title: Gap and withheld-gate disposition register
-status: submitted
+status: accepted
 inputs:
   - work/G2/gap_register.json
   - work/G2/synthesis_constraints.json

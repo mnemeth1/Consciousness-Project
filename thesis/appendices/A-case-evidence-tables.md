@@ -1,7 +1,7 @@
 ---
 appendix: A
 title: Case evidence tables
-status: submitted
+status: accepted
 inputs:
   - records/cases.json
   - work/T04/report.md

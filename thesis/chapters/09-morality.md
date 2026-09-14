@@ -1,7 +1,7 @@
 ---
 chapter: 9
 title: Moral Authority and Its Grounds
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 7 (p-039 to p-042)
   - work/T15/report.md

@@ -35,5 +35,16 @@
   },
   "scope": "Methodology chapter accepted as method description within project procedure. Acceptance asserts fidelity to the frozen protocol, framework and synthesis constraints; it asserts no metaphysical conclusion and no external validation. All twelve withheld stronger-conclusion gates remain withheld.",
   "budget_note": "P3C02 used 0/0 searches/inspections and 1 of 2 revision cycles. P3R02 used 0/4 queries and 0/8 inspections; no external sources were required (chapter cites project method documents only).",
-  "next": "P3C03 alternatives chapter per phase3/Thesis_Execution_Plan.md; calibration conventions from this pilot recorded in the P3 execution log."
+  "next": "P3C03 alternatives chapter per phase3/Thesis_Execution_Plan.md; calibration conventions from this pilot recorded in the P3 execution log.",
+  "re_review": {
+    "date": "2026-09-14",
+    "reviewer": "xAI Grok 4.6 (xhigh) accepted-recheck, P3RX layer; credited per owner adjudication of D7 (state/adjudication_P3RX.json)",
+    "scope": "Re-review required by the Lennox voice rewrite and P3RX remediation, at the contract level the recheck ran: overclaims, citation mismatches, circular bridges, cross-chapter double counting. Delta re-review at commit d2821d5 and cycle 2 both closed with accept.",
+    "verdict": "accept",
+    "current_artifact_hashes": {
+      "thesis/chapters/02-methodology.md": "fbab50b74d39e1f9d18a5dec9c5d487e280e56d463a2549ce39fac7c59fd1712",
+      "thesis/crosswalk/c02.json": "05e3255f8dd0aee9cdb78d36ab3cff7fa330f0ec062cbebd4ede65ebf1e021ed"
+    },
+    "note": "reviewed_artifact_hashes above hash the originally accepted pre-rewrite text and are preserved as the historical record; the hashes here bind this acceptance to the current text."
+  }
 }

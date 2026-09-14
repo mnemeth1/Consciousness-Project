@@ -32,5 +32,16 @@
   },
   "scope": "Literature-review chapter accepted as a faithful presentation of the six comparison families from accepted records, with SC-G2-02 coverage marks applied per named version. Acceptance asserts fidelity and honest limits; it asserts no metaphysical conclusion, no family ranking, and no external validation. All twelve withheld stronger-conclusion gates remain withheld; G1-GAP-05 remains open.",
   "budget_note": "P3C03 used 0 searches and 0 external inspections; 1 of 2 revision cycles. P3R03 used 0/4 queries and 0/8 inspections; fidelity was checked against accepted ledger records via the derived layer.",
-  "next": "P3C04 phenomenal chapter per phase3/Thesis_Execution_Plan.md."
+  "next": "P3C04 phenomenal chapter per phase3/Thesis_Execution_Plan.md.",
+  "re_review": {
+    "date": "2026-09-14",
+    "reviewer": "xAI Grok 4.6 (xhigh) accepted-recheck, P3RX layer; credited per owner adjudication of D7 (state/adjudication_P3RX.json)",
+    "scope": "Re-review required by the Lennox voice rewrite and P3RX remediation, at the contract level the recheck ran: overclaims, citation mismatches, circular bridges, cross-chapter double counting. Delta re-review at commit d2821d5 and cycle 2 both closed with accept.",
+    "verdict": "accept",
+    "current_artifact_hashes": {
+      "thesis/chapters/03-alternatives.md": "70f6d40263be40a45e32f40e5db2a5c6fc754b20036bd72de46d7b90cf4ece42",
+      "thesis/crosswalk/c03.json": "9ae73930cd35d3e5c72d99ee9c2842ee574755cd3816a303634dd1347f88e5ec"
+    },
+    "note": "reviewed_artifact_hashes above hash the originally accepted pre-rewrite text and are preserved as the historical record; the hashes here bind this acceptance to the current text."
+  }
 }

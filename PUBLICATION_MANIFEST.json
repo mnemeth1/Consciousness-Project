@@ -78,8 +78,8 @@
     },
     {
       "path": "CURRENT_RELEASE.md",
-      "sha256": "a73bf4fbf31bee961d9a411962e6cbfc73da27870ff91c80e4f0bc05e7e38dc1",
-      "bytes": 1455,
+      "sha256": "3e479589a14b6a97efde0f579a3fe79bdc1f5d20801c914e053aa6c2e9ef4c28",
+      "bytes": 1614,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -178,8 +178,8 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "6d855fe3a7a2fef30ea19bf995e9800226106008b735695ad8bffdfe534df791",
-      "bytes": 3231,
+      "sha256": "fd6cec1a8294efdd511fd1438593ebb6dcf4ff1fdaea4cbc26126bba1c10047f",
+      "bytes": 3568,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -737,6 +737,13 @@
       ]
     },
     {
+      "path": "phase2/amendments/003-appendix-acceptance.md",
+      "sha256": "e33adf3f4dbada717d9a40f9aa212c74b4dad2084bf71d28a74fc213a05b0a12",
+      "bytes": 3286,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "phase2/gap_task_map.json",
       "sha256": "a2608dbabbd2baf85208aa1fe1855026b88b181b5176fd55bc947897fc099d2c",
       "bytes": 8986,
@@ -1078,79 +1085,107 @@
     },
     {
       "path": "scripts/validate_public_snapshot.cjs",
-      "sha256": "8351547159d45fba47bc934c76f106d0e7f472b3950a18e5d3b0a8c5a1b14739",
-      "bytes": 11738,
+      "sha256": "a36bf30bab97d4a0421ba7ea91814104aba566fd3dbc216a03e2de4f689e83f6",
+      "bytes": 11885,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "state/acceptance_P3AP.json",
+      "sha256": "8d5292ad39c6d67fe6426239b8e7efd6b8007613a2dbc85bfeedbe61ce1d1608",
+      "bytes": 4258,
       "source": null,
       "transformations": []
     },
     {
       "path": "state/acceptance_P3C01.json",
       "reason": "Overseer acceptance record for thesis chapter 1 (P3C01/P3R01).",
-      "sha256": "ed1edbac9b3e5da45f24c0b5101918d85dde1a6871bda2638e2ce2e65c5928ba",
-      "bytes": 5291
+      "sha256": "64fc5f50947600cbada6af49119d38e5e31978f0240555b5794ccb83920c977d",
+      "bytes": 6227
     },
     {
       "path": "state/acceptance_P3C02.json",
-      "sha256": "8dae79ad5df4d4aceebaf1cdefadb307e624f797d6c4c859f150165dddca8b2d",
-      "bytes": 3124,
+      "sha256": "0c2b3bbf6d9f8f944d326c9f8cf0611e05f0c3422f9ebea62a7e51d19b1e7331",
+      "bytes": 4059,
       "source": null,
       "transformations": []
     },
     {
       "path": "state/acceptance_P3C03.json",
-      "sha256": "9453f45534b0b03c611077a30b54087e97c3435082e8b693a0436879084d1212",
-      "bytes": 3032,
+      "sha256": "8a4b6a633ee5ab9169e1ed33c3363aecfa5c76df4800ec7a7f45937bf4b4f335",
+      "bytes": 3968,
       "source": null,
       "transformations": []
     },
     {
       "path": "state/acceptance_P3C04.json",
-      "sha256": "404723109deb53d3e8cb7027c96cd97f5817e3fc215b2f2e3ac25765195cce85",
-      "bytes": 3333,
+      "sha256": "91ecc794289b10060694438da900928e30238456703d973ebcb0cb11adafdcc1",
+      "bytes": 4267,
       "source": null,
       "transformations": []
     },
     {
       "path": "state/acceptance_P3C05.json",
-      "sha256": "892d81545c1002afff56a8af75c4636a3e6f006f18be09ecdd1ee4555b04f478",
-      "bytes": 3581,
+      "sha256": "12d5427824d06df7dd2129d2af9798076021906296e05caf3ec692279d7e4ac2",
+      "bytes": 4514,
       "source": null,
       "transformations": []
     },
     {
       "path": "state/acceptance_P3C06.json",
       "reason": "Overseer acceptance record for thesis chapter 6 (P3C06/P3R06).",
-      "sha256": "f0e1f4ab83bc765eb9bfa34b2073a393a9716d198cb3403cc0e1cbf1da7a8747",
-      "bytes": 3921
+      "sha256": "b737225f3dfafca500e64a7b978d489b6524319be47154440295390bb6cbddf7",
+      "bytes": 4854
     },
     {
       "path": "state/acceptance_P3C07.json",
       "reason": "Overseer acceptance record for thesis chapter 7 (P3C07/P3R07).",
-      "sha256": "4ab5e7d3b8ac66a36d3efa0b40c60e32ed60e365ef5b86bc585e840183d3eb0e",
-      "bytes": 4028
+      "sha256": "229a61cf14f9da4811cbcb3b900793dfc047d8c3902578a1338c2bb9bb25f74a",
+      "bytes": 4962
     },
     {
       "path": "state/acceptance_P3C08.json",
       "reason": "Overseer acceptance record for thesis chapter 8 (P3C08/P3R08).",
-      "sha256": "f376a7ad465a446bb0234bc127a0bdbb7fd8d33fff40eddebb0576edbde35af1",
-      "bytes": 4817
+      "sha256": "e9636416d656e2d03db58a09ec8fc9b0aa2182a8742e1aa5885fefc25764f7b5",
+      "bytes": 5748
     },
     {
       "path": "state/acceptance_P3C09.json",
       "reason": "Overseer acceptance record for thesis chapter 9 (P3C09/P3R09).",
-      "sha256": "e7dac126443b709a8d7534d3a0d93fb6dd308f3c0aedef1e193f6947c53ebb0a",
-      "bytes": 4883
+      "sha256": "c16a87c90436d38af9059f016b1ea7d4c786073e76d4635a82efcf11fa733a4b",
+      "bytes": 5815
     },
     {
       "path": "state/acceptance_P3C10.json",
       "reason": "Overseer acceptance record for thesis chapter 10 (P3C10/P3R10).",
-      "sha256": "c4f92389f44582ea940737328e4bebda4b943903851a85de00ff8162d65b46e9",
-      "bytes": 5150
+      "sha256": "ff91e178429cd138ed7a7f3949fb16b13985b5020a687035b6eab1137c1787d2",
+      "bytes": 6082
+    },
+    {
+      "path": "state/acceptance_P3C11.json",
+      "sha256": "91b89c68a98cf674618f79f04b1b1d1f769b9bf0851e3b191211b6d749077eff",
+      "bytes": 3554,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "state/acceptance_P3C12.json",
+      "sha256": "024d235c5dab30f9573d00b49e1b2902b63af9a68f21110df2fc1c47233f2406",
+      "bytes": 3161,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "state/adjudication_P3RX.json",
+      "sha256": "d612f7cb4a9d32544770482bba63d3bf2e34147a1ed946eaab61a994e8d9c2e1",
+      "bytes": 3942,
+      "source": null,
+      "transformations": []
     },
     {
       "path": "state/public_status.json",
-      "sha256": "6c3865ab7fd60f73f8fdd82888dd5b0982ffcc0f04071b9bf20fc768dac76a9b",
-      "bytes": 1931,
+      "sha256": "6610bfb3870caa82ab16890ae3f7706d9ff95de11ed313bc3d2894cb9727a2c3",
+      "bytes": 2092,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -1159,8 +1194,8 @@
     },
     {
       "path": "state/tasks.json",
-      "sha256": "4213b7863f00e3a81dd198e8a2bd86cec73e88b3966106834bb8452d1ce58615",
-      "bytes": 132286,
+      "sha256": "3e74a5aab7b7417ce58a9f0d109423d8eb0a7e7423f6af64c65d428472e471b2",
+      "bytes": 132334,
       "source": null,
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes.",
@@ -1264,8 +1299,8 @@
     },
     {
       "path": "thesis/appendices/A-case-evidence-tables.md",
-      "sha256": "4cd4b88ed90a2cb59c5544e80dcdc924532c4cbb292fac1b50d1d4d19a3763b8",
-      "bytes": 49254,
+      "sha256": "8424980aa1f27324088bdad2503e05bd67dd54089e06758e5843697063bd32be",
+      "bytes": 49253,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1273,8 +1308,8 @@
     },
     {
       "path": "thesis/appendices/B-alternatives-matrix.md",
-      "sha256": "9289831d015a3e684fba1b5eb8272b84b1d94f6135c0f4fd7102a5208338fbf4",
-      "bytes": 18226,
+      "sha256": "64d30ee0ba8c71b0658794d9e351dadc0599532e6c769bdb03a2376efea2cda7",
+      "bytes": 18225,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1282,8 +1317,8 @@
     },
     {
       "path": "thesis/appendices/C-gap-gate-disposition-register.md",
-      "sha256": "79f70e1d8b85b704db99f0419e5ad5b6ac3f451953a8a36b02924b780878b1a7",
-      "bytes": 32970,
+      "sha256": "35e74666c2f29d4b891f7cffe26233dac389887a7921816e620d19860bea1654",
+      "bytes": 32969,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1291,8 +1326,8 @@
     },
     {
       "path": "thesis/appendices/D-dependence-map.md",
-      "sha256": "8fcf85cf2c59dd8e33adeb8607a87a4c5d9b9d1f90f2ef8ce01c88c25f58e863",
-      "bytes": 28888,
+      "sha256": "17aca7a31a07fff058c1358ea538e8f72894ba166ae7b2075bc41d07fc2c4fba",
+      "bytes": 28887,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1300,8 +1335,8 @@
     },
     {
       "path": "thesis/chapters/00-front-matter.md",
-      "sha256": "c4a4e688851100ac7d151abf7f41ed27ac83ab80a5cc8e770432fe439bf28287",
-      "bytes": 4101,
+      "sha256": "ddb32082d03fa7227b75b0b4d9380b04632c865eb82f5407b5f3dd2b8e053a5d",
+      "bytes": 4102,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1309,8 +1344,8 @@
     },
     {
       "path": "thesis/chapters/01-introduction.md",
-      "sha256": "d798de3a69982f12119e3b08e4f1076fa7e01c026bbaa30700990869de751dc7",
-      "bytes": 22792,
+      "sha256": "e61efd1d74086ade1a698db385b6cac8a86bd47401a678b27a6118b8b1c35bca",
+      "bytes": 22791,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1318,8 +1353,8 @@
     },
     {
       "path": "thesis/chapters/02-methodology.md",
-      "sha256": "831523d3e6410581dcfdf67b2a06735c9d8aea960d8490d13a7aa99e50fde0c7",
-      "bytes": 39894,
+      "sha256": "fbab50b74d39e1f9d18a5dec9c5d487e280e56d463a2549ce39fac7c59fd1712",
+      "bytes": 39893,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1327,8 +1362,8 @@
     },
     {
       "path": "thesis/chapters/03-alternatives.md",
-      "sha256": "998b7534df64a1cded714a090ef202ed36ee36514b9b9b81529f4ce31c67ef78",
-      "bytes": 38274,
+      "sha256": "70f6d40263be40a45e32f40e5db2a5c6fc754b20036bd72de46d7b90cf4ece42",
+      "bytes": 38273,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1336,8 +1371,8 @@
     },
     {
       "path": "thesis/chapters/04-phenomenal.md",
-      "sha256": "c455747044e7d5948831cd7ce3fc7372f61e4e48a19e6ec069ddffdea44e12c2",
-      "bytes": 23367,
+      "sha256": "e47d4d99990151b97f28eb9bf392c17786763db5df4f8e3ebb768d510e99871f",
+      "bytes": 23366,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1345,8 +1380,8 @@
     },
     {
       "path": "thesis/chapters/05-existence.md",
-      "sha256": "ce24fc83444caf602d0d9b1357f64a8b9027f6ba58488b145fcd1c109d6a0462",
-      "bytes": 26866,
+      "sha256": "224097202a9ed67d89f7cde25584a9764a2eeb21b3b46ec5add8fea0f5cd3cbe",
+      "bytes": 26865,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1354,8 +1389,8 @@
     },
     {
       "path": "thesis/chapters/06-empirical.md",
-      "sha256": "22cdaddcc6b240d3bea64cc056aa39c7e3ab64f29b4b55dfb7f0f4a3b045c2f2",
-      "bytes": 57287,
+      "sha256": "2180977a98a96ca9cbbc4cfe795dcb60f7b1f7ffd816e364cb40e89256e5cd5e",
+      "bytes": 57286,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1363,8 +1398,8 @@
     },
     {
       "path": "thesis/chapters/07-continuity.md",
-      "sha256": "79f69c88414a949a0b708133c0bb8269a7670e2859dae0d87c6f03d3b3391159",
-      "bytes": 37837,
+      "sha256": "f2e96740d30335e8da61e9bfc47b72a0f105254b9eafd77cdfb1a518ea2fe930",
+      "bytes": 37836,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1372,8 +1407,8 @@
     },
     {
       "path": "thesis/chapters/08-meaning.md",
-      "sha256": "c19771fc9cac61ebbaa73c4940f21de45f1045db90fac8b72886b98a24b0cc94",
-      "bytes": 25591,
+      "sha256": "74b124f88ea3030aebb4baa922efb6953ec215563d17cbe09948f1c51398c751",
+      "bytes": 25590,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1381,8 +1416,8 @@
     },
     {
       "path": "thesis/chapters/09-morality.md",
-      "sha256": "2c81ed300f84691d533bfc524f505e11b625cfd51bbca127cf357552180d1fcc",
-      "bytes": 27831,
+      "sha256": "fd856005c8c94c01d05a02791485ae62e3012f035c5c0e624921fe1f866a2b60",
+      "bytes": 27830,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1390,8 +1425,8 @@
     },
     {
       "path": "thesis/chapters/10-goodness.md",
-      "sha256": "b1d279223b1f916056b93fde4eaf21d08182cde5276f2a070c4f3f72c7d24536",
-      "bytes": 27276,
+      "sha256": "17c716fd4083952c1ec1012c0db4ec71a225c9b87b61f84b8508c3b68d1371d1",
+      "bytes": 27275,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1399,8 +1434,8 @@
     },
     {
       "path": "thesis/chapters/11-cumulative.md",
-      "sha256": "baa1c1c2e94f660fac46e9336a7082ca9895368b961505bee238b61718aea906",
-      "bytes": 46146,
+      "sha256": "ebe7329cf6d8089c581f22ae46909b188f5d4fccf7103876e38a7d6c6d7bf9b9",
+      "bytes": 46145,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1408,8 +1443,8 @@
     },
     {
       "path": "thesis/chapters/12-conclusion.md",
-      "sha256": "23a9cf91e4489d09c0ae577391d865e3a7417e00c3b8438f8c995540289f5a17",
-      "bytes": 28567,
+      "sha256": "dcca749921825a1eb7a295cab23f70c5201e87c8fab921d60dae5430a8964d92",
+      "bytes": 28566,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."

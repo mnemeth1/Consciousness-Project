@@ -1,7 +1,7 @@
 ---
 chapter: 0
 title: Front matter
-status: drafted
+status: accepted
 inputs:
   - paper/paper.html
   - thesis/chapters/11-cumulative.md

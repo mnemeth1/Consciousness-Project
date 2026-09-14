@@ -1,7 +1,7 @@
 ---
 chapter: 4
 title: What Experiential Primitiveness Explains
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 3 (p-008 to p-015)
   - work/T05/report.md

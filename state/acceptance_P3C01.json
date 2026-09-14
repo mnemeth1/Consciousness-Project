@@ -32,5 +32,16 @@
   },
   "scope": "Introduction accepted as a faithful expansion of article section 1 over the T01 stipulative register: the unification promise with its three separate conditionals; the illicit-economy diagnosis with the fourteen-bridge register, its anti-bypass rule and the four G0-accepted conditional argument skeletons presented as skeletons; the restricted-unification thesis with the joint-theory concession and the announced asymmetries of the abstract and p-005 explicitly deferred to the chapters that carry the records; the nine components with bearers, non-entailments, the logical qualification and the package structure, all marked as stipulation revisable only through versioned protocol change; and a roadmap verified against the accepted chapters' own closing registers. Acceptance asserts fidelity of framing; it asserts no component, package, bridge, asymmetry or family verdict. All twelve withheld stronger-conclusion gates remain withheld. With this acceptance the body-chapter batch (c01-c10) is complete.",
   "budget_note": "P3C01 used 0 searches and 0 external inspections; 1 of 2 revision cycles. P3R01 verified fidelity against the article (p-001 to p-005), work/T01/report.md in full, the four A-T01 records and the accepted chapters c02-c10 with their acceptance files.",
-  "next": "Appendices A-D (P3C13-P3C16 batch per phase3/Thesis_Execution_Plan.md), then synthesis chapters c11-c12, then gates."
+  "next": "Appendices A-D (P3C13-P3C16 batch per phase3/Thesis_Execution_Plan.md), then synthesis chapters c11-c12, then gates.",
+  "re_review": {
+    "date": "2026-09-14",
+    "reviewer": "xAI Grok 4.6 (xhigh) accepted-recheck, P3RX layer; credited per owner adjudication of D7 (state/adjudication_P3RX.json)",
+    "scope": "Re-review required by the Lennox voice rewrite and P3RX remediation, at the contract level the recheck ran: overclaims, citation mismatches, circular bridges, cross-chapter double counting. Delta re-review at commit d2821d5 and cycle 2 both closed with accept.",
+    "verdict": "accept",
+    "current_artifact_hashes": {
+      "thesis/chapters/01-introduction.md": "e61efd1d74086ade1a698db385b6cac8a86bd47401a678b27a6118b8b1c35bca",
+      "thesis/crosswalk/c01.json": "de048c741e94256feb274b53e22301c4ae1d4a1268f99d027b8e69cc6ba1b204"
+    },
+    "note": "reviewed_artifact_hashes above hash the originally accepted pre-rewrite text and are preserved as the historical record; the hashes here bind this acceptance to the current text."
+  }
 }

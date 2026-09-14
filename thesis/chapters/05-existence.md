@@ -1,7 +1,7 @@
 ---
 chapter: 5
 title: From an Experiential Ground to an Intending Agent
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 4 (p-016 to p-021)
   - work/T10/report.md

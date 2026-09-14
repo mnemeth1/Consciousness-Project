@@ -1,7 +1,7 @@
 ---
 chapter: 11
 title: Cumulative Assessment
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 9 (p-047 to p-050)
   - work/T16/report.md

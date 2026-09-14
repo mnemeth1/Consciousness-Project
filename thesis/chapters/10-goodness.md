@@ -1,7 +1,7 @@
 ---
 chapter: 10
 title: Goodness as an Explanatory Constraint
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 8 (p-043 to p-046)
   - work/T15/report.md

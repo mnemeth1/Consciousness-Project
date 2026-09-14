@@ -1,7 +1,7 @@
 ---
 chapter: 12
 title: Conclusion
-status: submitted
+status: accepted
 inputs:
   - paper/paper.html section 10 (p-051 to p-052)
   - work/T17/report.md

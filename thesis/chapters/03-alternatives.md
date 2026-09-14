@@ -1,7 +1,7 @@
 ---
 chapter: 3
 title: The Space of Alternatives
-status: submitted
+status: accepted
 inputs:
   - work/T03/report.md
   - work/T12/report.md

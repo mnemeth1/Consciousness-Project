@@ -1,7 +1,7 @@
 ---
 appendix: B
 title: Alternatives matrix
-status: submitted
+status: accepted
 inputs:
   - work/T03/report.md
   - work/T16/alternatives_matrix.json

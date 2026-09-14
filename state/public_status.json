@@ -20,9 +20,9 @@
     "plan": "phase3/Thesis_Execution_Plan.md",
     "amendment": "phase2/amendments/002-thesis-rebase.md",
     "total_tasks": 27,
-    "accepted_tasks": 20,
+    "accepted_tasks": 24,
     "chapters_drafted": 12,
-    "note": "Thesis programme in execution. The full body-chapter batch is accepted: chapters 1 (introduction) through 10 (goodness), each drafted, independently reviewed (one revision cycle each) and accepted; see state/acceptance_P3C01.json through state/acceptance_P3C10.json. Chapters 11-12 and appendices A-D are drafted and submitted; P3RX remediation and delta re-review are complete and owner adjudication is next. An incomplete HTML snapshot is published as paper/thesis.html with the 0.4.3 article site. P2S03/P2R20/P2G2 remain pending and close only through P3 gates."
+    "note": "Thesis programme in execution. The full body-chapter batch is accepted: chapters 1 (introduction) through 10 (goodness), each drafted, independently reviewed (one revision cycle each) and accepted; see state/acceptance_P3C01.json through state/acceptance_P3C10.json. Chapters 11-12 (P3C11/P3R11, P3C12/P3R12) and appendices A-D are accepted on the owner-adjudicated P3RX cross-model review record (state/adjudication_P3RX.json, P2-AMEND-003); P2S03 is submitted with the assembled thesis as its artifact. Next: P3G1 coverage gate, then P3R20 on frozen inputs, then P3G2. An incomplete HTML snapshot is published as paper/thesis.html with the 0.4.3 article site. P2S03/P2R20/P2G2 remain pending and close only through P3 gates."
   },
   "source_archive_included": false,
   "automatic_background_execution": false,
