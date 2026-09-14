@@ -587,7 +587,7 @@
     },
     {
       "path": "derived/manifest.json",
-      "sha256": "82b54a43954523a3c251ecde713a119437f23b7b232d15c3a04d9d24bd984fa9",
+      "sha256": "1416bf93044380616e2c918c73242154d3019f673457872df446c92b153a5d57",
       "bytes": 8932,
       "source": null,
       "transformations": []
