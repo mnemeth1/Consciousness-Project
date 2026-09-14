@@ -1149,8 +1149,8 @@
     },
     {
       "path": "state/public_status.json",
-      "sha256": "760e87387a6d8aa698e96b15f584dcb6965f51e76ac382a3dd4b18b2247bcc6f",
-      "bytes": 1840,
+      "sha256": "6c3865ab7fd60f73f8fdd82888dd5b0982ffcc0f04071b9bf20fc768dac76a9b",
+      "bytes": 1931,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
