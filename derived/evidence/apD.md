@@ -2,7 +2,7 @@
 
 # Evidence pack apD — Dependence map
 
-Non-canonical derived view for drafting/reviewing `thesis/appendices/D-dependence-map.md` (status: submitted).
+Non-canonical derived view for drafting/reviewing `thesis/appendices/D-dependence-map.md` (status: accepted).
 Cite only canonical ledger IDs (CL-*, A-*, C-*, S-*); this file is a reading convenience, not a source.
 Full per-task records: derived/by_task/<TASK>.json. Single-record lookup: node scripts/derived/lookup.cjs <ID>.
 
