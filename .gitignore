@@ -42,6 +42,7 @@ __pycache__/
 Thumbs.db
 .codex/
 .agents/
+.claude/settings.local.json
 
 # Reproducible paper build dependencies and generated preview/artifact output
 node_modules/

@@ -36,8 +36,8 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "63237264844434b0661b521bce791cafde02d44dfa5e90b84c913ff0f1fa99ed",
-      "bytes": 662,
+      "sha256": "34aea4725ab085a185252e31e962c98278f3e9dfd35f82821647cb96cd74a13f",
+      "bytes": 690,
       "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/.gitignore",
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
