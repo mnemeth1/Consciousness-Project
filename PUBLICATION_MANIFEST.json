@@ -21,6 +21,13 @@
       "source_sha256": "a7fb1880a9cd596eb49817b97b94a91f17200e190a0bd6a52f550f2fac1286d7"
     },
     {
+      "path": ".github/workflows/snapshot.yml",
+      "sha256": "745c09cfcfa2edc59ec557ccdef55ed1f5d801e88dd38ca76f8963558218621f",
+      "bytes": 749,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": ".gitignore",
       "sha256": "63237264844434b0661b521bce791cafde02d44dfa5e90b84c913ff0f1fa99ed",
       "bytes": 662,
@@ -32,8 +39,8 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "5100680df06d00b1961a4f3d874d87d23ff9def94a18c9dc6beb4e98ae35bebf",
-      "bytes": 3885,
+      "sha256": "15059161cd48f8f7bac2217176c20588e015e3a8c1a56616db096be9f8233976",
+      "bytes": 4226,
       "source": null,
       "transformations": []
     },
@@ -92,8 +99,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "7a4294e9502643466d73ad713d5cfa455fc3cdefd8a569ceeba418fc7833f5c6",
-      "bytes": 5293,
+      "sha256": "f9ff735b52b0ccc8a65187c33f5bfb41d43925affff9f3c4fa424228b3990b3f",
+      "bytes": 5987,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -911,8 +918,8 @@
     },
     {
       "path": "scripts/derived/build.cjs",
-      "sha256": "b91d4449fb08188406155c7b5f67c03452a5928ccd7e735a6b3d1bacaa6630ba",
-      "bytes": 28320,
+      "sha256": "2e31d99d79cad7e775340afb2824f43adab41a0f0b97a1e7a6a37896303961ac",
+      "bytes": 30753,
       "source": null,
       "transformations": []
     },
@@ -1008,8 +1015,8 @@
     },
     {
       "path": "scripts/validate_public_snapshot.cjs",
-      "sha256": "52abf59823c096437e2801d7b9f6125b1f3964e05ee43bf9f3f5c23526250369",
-      "bytes": 11137,
+      "sha256": "8351547159d45fba47bc934c76f106d0e7f472b3950a18e5d3b0a8c5a1b14739",
+      "bytes": 11738,
       "source": null,
       "transformations": []
     },

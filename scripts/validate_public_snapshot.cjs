@@ -182,6 +182,15 @@ function validate() {
     }
   }
 
+  // The derived evidence layer is published alongside the ledgers; a snapshot
+  // may never carry derived views that disagree with the canonical records.
+  // checkProblems regenerates the views in memory from this tree's own inputs
+  // and reports any file that differs, is missing or is stray.
+  const derivedProblems = require('./derived/build.cjs').checkProblems();
+  assert(!derivedProblems.length, 'Derived evidence layer is stale ' +
+    `(${derivedProblems.length} problem(s), e.g. ${derivedProblems.slice(0, 3).join('; ')}); ` +
+    'run node scripts/derived/build.cjs --sync-manifest');
+
   console.log(`Validated ${actual.size} public files, ${tasks.length} tasks, ` +
     `${sets.sources.size} sources, ${sets.claims.size} claims, ` +
     `${sets.arguments.size} arguments and ${sets.cases.size} cases.`);

@@ -5,8 +5,19 @@
 // The canonical ledgers, work/ reports and state/ files are never modified here
 // and remain the only citable authority; every derived file names its inputs.
 //
-//   node scripts/derived/build.cjs           # regenerate derived/ from current inputs
-//   node scripts/derived/build.cjs --check   # verify derived/ is current; no writes
+//   node scripts/derived/build.cjs                  # regenerate derived/ from current inputs
+//   node scripts/derived/build.cjs --check          # verify derived/ is current; no writes
+//   node scripts/derived/build.cjs --sync-manifest  # regenerate, then update PUBLICATION_MANIFEST.json
+//                                                   # entries for derived/ via the sanctioned
+//                                                   # refresh_public_manifest.cjs (adds/removes are
+//                                                   # restricted to derived/ paths; everything else
+//                                                   # is only re-hashed)
+//
+// Maintainer flow when canonical evidence changes (new ledger records, chapter
+// front matter, gap/gate files): run --sync-manifest once, then the usual
+// export/validation. scripts/validate_public_snapshot.cjs fails on a stale
+// derived layer, so a snapshot can never publish views that disagree with the
+// ledgers.
 //
 // Outputs (all under derived/):
 //   index/{sources,claims,arguments,cases}.jsonl   compact one-line-per-record indexes
@@ -545,26 +556,54 @@ function listDerivedFiles() {
   return found;
 }
 
-function main(args) {
-  const check = args.includes('--check');
+// Regenerate in memory and report every difference from disk. Empty result
+// means derived/ exactly matches the current canonical inputs. Also used by
+// scripts/validate_public_snapshot.cjs to gate snapshots on derived freshness.
+function checkProblems() {
   const outputs = build();
-  const relPaths = Object.keys(outputs).sort();
-  if (check) {
-    const problems = [];
-    for (const rel of relPaths) {
-      const p = path.join(ROOT, rel);
-      if (!fs.existsSync(p)) { problems.push(`missing: ${rel}`); continue; }
-      if (fs.readFileSync(p, 'utf8') !== outputs[rel]) problems.push(`stale: ${rel}`);
-    }
-    for (const rel of listDerivedFiles())
-      if (!(rel in outputs)) problems.push(`stray file not produced by the build: ${rel}`);
+  const problems = [];
+  for (const rel of Object.keys(outputs).sort()) {
+    const p = path.join(ROOT, rel);
+    if (!fs.existsSync(p)) { problems.push(`missing: ${rel}`); continue; }
+    if (fs.readFileSync(p, 'utf8') !== outputs[rel]) problems.push(`stale: ${rel}`);
+  }
+  for (const rel of listDerivedFiles())
+    if (!(rel in outputs)) problems.push(`stray file not produced by the build: ${rel}`);
+  return problems;
+}
+
+// Update the publication manifest through the sanctioned refresh script.
+// Adds and removes are restricted to derived/ paths, which are safe to
+// allowlist mechanically because the build reads only manifest-listed public
+// inputs; every other entry is merely re-hashed by the refresh script.
+function syncManifest(outputs) {
+  const {spawnSync} = require('node:child_process');
+  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'PUBLICATION_MANIFEST.json'), 'utf8'));
+  const listed = new Set(manifest.files.map(f => f.path).filter(p => p.startsWith('derived/')));
+  const produced = new Set(Object.keys(outputs));
+  for (const rel of produced) assert(rel.startsWith('derived/'), `Unexpected non-derived output: ${rel}`);
+  const args = [];
+  for (const rel of [...produced].sort()) if (!listed.has(rel)) args.push('--add', rel);
+  for (const rel of [...listed].sort()) if (!produced.has(rel)) args.push('--remove', rel);
+  const run = spawnSync(process.execPath,
+    [path.join(ROOT, 'scripts/refresh_public_manifest.cjs'), ...args], {encoding: 'utf8', cwd: ROOT});
+  process.stdout.write(run.stdout || '');
+  process.stderr.write(run.stderr || '');
+  assert.equal(run.status, 0, 'Manifest refresh failed');
+}
+
+function main(args) {
+  if (args.includes('--check')) {
+    const problems = checkProblems();
     if (problems.length) {
       for (const p of problems) console.error(p);
       throw new Error(`derived/ is stale (${problems.length} problem(s)); run node scripts/derived/build.cjs`);
     }
-    console.log(`Derived layer is current: ${relPaths.length} files match the ledgers.`);
+    console.log('Derived layer is current: all files match the ledgers.');
     return;
   }
+  const outputs = build();
+  const relPaths = Object.keys(outputs).sort();
   fs.rmSync(path.join(ROOT, 'derived'), {recursive: true, force: true});
   for (const rel of relPaths) {
     const p = path.join(ROOT, rel);
@@ -573,6 +612,7 @@ function main(args) {
   }
   console.log(`Derived layer rebuilt: ${relPaths.length} files under derived/.`);
   console.log('Non-canonical views only; canonical records live in records/, work/ and state/.');
+  if (args.includes('--sync-manifest')) syncManifest(outputs);
 }
 
 if (require.main === module) {
@@ -584,4 +624,4 @@ if (require.main === module) {
   }
 }
 
-module.exports = {build};
+module.exports = {build, checkProblems};

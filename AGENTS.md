@@ -28,6 +28,8 @@ Do not read whole ledger files (`records/claims.json` is ~21,000 lines). Retriev
 
 Derived files are regenerable conveniences, never evidence: cite only ledger IDs (`CL-*`, `A-*`, `C-*`, `S-*`) and canonical paths. They never close a gap, open a gate or change record status. If `node scripts/derived/build.cjs --check` reports staleness, regenerate with `node scripts/derived/build.cjs` before relying on them.
 
+When canonical evidence changes (overseer only): run `node scripts/derived/build.cjs --sync-manifest` to regenerate the views and update their publication-manifest entries in one step. `scripts/validate_public_snapshot.cjs` and continuous integration fail on a stale derived layer, so ledger edits cannot publish without regenerated views.
+
 ## Public snapshot context
 
 Read STATUS.md and PUBLICATION_NOTES.md first. This is a curated public snapshot, not the complete private working archive. Do not infer source-reading credit or live agents from historical records. Omitted source files and raw audit materials remain unavailable in this clone. The maintainer owns canonical records; public proposals require distinct-author review. Public repository status does not authorize publication of third-party source documents.

@@ -1,0 +1,28 @@
+name: Public snapshot validation
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# Validation only: reads the tree, publishes nothing, acquires no write access.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24.19.0
+          package-manager-cache: false
+      - name: Validate snapshot structure, integrity and publication boundaries
+        run: node scripts/validate_public_snapshot.cjs
+      - name: Verify the derived evidence layer matches the ledgers
+        run: node scripts/derived/build.cjs --check
