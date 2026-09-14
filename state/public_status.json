@@ -15,6 +15,15 @@
   "withheld_conclusion_gates": 12,
   "gap_groups": 35,
   "task_acceptance_meaning": "Methodological acceptance within scope, not metaphysical truth or journal peer review.",
+  "phase3": {
+    "authorized": "2026-09-13",
+    "plan": "phase3/Thesis_Execution_Plan.md",
+    "amendment": "phase2/amendments/002-thesis-rebase.md",
+    "total_tasks": 27,
+    "accepted_tasks": 0,
+    "chapters_drafted": 0,
+    "note": "Thesis programme created; skeletons only. P2S03/P2R20/P2G2 remain pending and close only through P3 gates."
+  },
   "source_archive_included": false,
   "automatic_background_execution": false,
   "current_public_draft": {

@@ -16,6 +16,7 @@ The investigation separates nine questions: fundamentality, a universal consciou
 - [Accepted task reports](REPORTS.md).
 - [Evidence ledgers](records/README.md): 173 sources, 717 claims, 124 arguments and 23 case/study records, including accepted Phase 2 contributions.
 - [Phase 2 plan](phase2/Phase_2_Execution_Plan.md), [task status snapshot](state/tasks.json), reusable [role prompts](prompts/) and [record templates](templates/).
+- [Phase 3 thesis programme](phase3/Thesis_Execution_Plan.md): the doctoral-thesis-style expansion of the article, with chapter skeletons and build tooling in [thesis/](thesis/README.md). No thesis chapter is drafted or reviewed yet.
 - A standard-library Python validator for the public snapshot.
 
 This repository is a curated research snapshot. Downloaded books, papers, transcripts, source screenshots, full-text extracts and private operational files are excluded. Relative references to omitted source files remain provenance locators; they are not download links. The current ledgers include Phase 2 findings that the working paper is still integrating; final independent review remains outstanding. See [publication notes](PUBLICATION_NOTES.md) for scope and reproducibility limits.
@@ -30,7 +31,9 @@ cd Consciousness-Project
 python scripts/validate_public_snapshot.py
 ```
 
-This checks file integrity, task dependencies, record references and publication boundaries. It does not verify the truth of claims, reopen original sources or rerun the unpublished Phase 2 sensitivity analysis. No paid service or package installation is needed for this check.
+This checks file integrity, task dependencies, record references, status-page consistency with `state/*.json` and publication boundaries. It does not verify the truth of claims, reopen original sources or rerun the unpublished Phase 2 sensitivity analysis. No paid service or package installation is needed for this check.
+
+Maintainers publish from a verified export, never directly from the mixed private/public working tree: `node scripts/export_public_snapshot.cjs` materializes exactly the manifest-allowlisted files into `.public-export/` with per-file hash verification, then runs this validator inside the export. `scripts/refresh_public_manifest.cjs` is the only sanctioned way to change the allowlist (explicit `--add`/`--remove`, never filesystem discovery).
 
 ## Contributing
 

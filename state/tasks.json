@@ -2836,5 +2836,924 @@
       "revision_cycles": 2
     },
     "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C01",
+    "title": "Thesis chapter: Unification and Its Price",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C01/",
+    "chapter_file": "thesis/chapters/01-introduction.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R01",
+    "title": "Independent review: thesis chapter Unification and Its Price",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C01"
+    ],
+    "dependency_conditions": {
+      "P3C01": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R01/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C02",
+    "title": "Thesis chapter: Comparative Method and Evidence Discipline",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C02/",
+    "chapter_file": "thesis/chapters/02-methodology.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R02",
+    "title": "Independent review: thesis chapter Comparative Method and Evidence Discipline",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C02"
+    ],
+    "dependency_conditions": {
+      "P3C02": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R02/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C03",
+    "title": "Thesis chapter: The Space of Alternatives",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C03/",
+    "chapter_file": "thesis/chapters/03-alternatives.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R03",
+    "title": "Independent review: thesis chapter The Space of Alternatives",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C03"
+    ],
+    "dependency_conditions": {
+      "P3C03": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R03/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C04",
+    "title": "Thesis chapter: What Experiential Primitiveness Explains",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C04/",
+    "chapter_file": "thesis/chapters/04-phenomenal.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R04",
+    "title": "Independent review: thesis chapter What Experiential Primitiveness Explains",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C04"
+    ],
+    "dependency_conditions": {
+      "P3C04": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R04/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C05",
+    "title": "Thesis chapter: From an Experiential Ground to an Intending Agent",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C05/",
+    "chapter_file": "thesis/chapters/05-existence.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R05",
+    "title": "Independent review: thesis chapter From an Experiential Ground to an Intending Agent",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C05"
+    ],
+    "dependency_conditions": {
+      "P3C05": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R05/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C06",
+    "title": "Thesis chapter: Neural Dependence and the Evidential Role of Crisis Experiences",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C06/",
+    "chapter_file": "thesis/chapters/06-empirical.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R06",
+    "title": "Independent review: thesis chapter Neural Dependence and the Evidential Role of Crisis Experiences",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C06"
+    ],
+    "dependency_conditions": {
+      "P3C06": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R06/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C07",
+    "title": "Thesis chapter: Continuation, Timelessness and the Ownership of Experience",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C07/",
+    "chapter_file": "thesis/chapters/07-continuity.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R07",
+    "title": "Independent review: thesis chapter Continuation, Timelessness and the Ownership of Experience",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C07"
+    ],
+    "dependency_conditions": {
+      "P3C07": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R07/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C08",
+    "title": "Thesis chapter: Does Significance Require Endurance?",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C08/",
+    "chapter_file": "thesis/chapters/08-meaning.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R08",
+    "title": "Independent review: thesis chapter Does Significance Require Endurance?",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C08"
+    ],
+    "dependency_conditions": {
+      "P3C08": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R08/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C09",
+    "title": "Thesis chapter: Moral Authority and Its Grounds",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C09/",
+    "chapter_file": "thesis/chapters/09-morality.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R09",
+    "title": "Independent review: thesis chapter Moral Authority and Its Grounds",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C09"
+    ],
+    "dependency_conditions": {
+      "P3C09": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R09/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C10",
+    "title": "Thesis chapter: Goodness as an Explanatory Constraint",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C10/",
+    "chapter_file": "thesis/chapters/10-goodness.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R10",
+    "title": "Independent review: thesis chapter Goodness as an Explanatory Constraint",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C10"
+    ],
+    "dependency_conditions": {
+      "P3C10": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R10/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C11",
+    "title": "Thesis chapter: Cumulative Assessment",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P2G1",
+      "P2S02",
+      "P3C03",
+      "P3C04",
+      "P3C05",
+      "P3C06",
+      "P3C07",
+      "P3C08",
+      "P3C09",
+      "P3C10"
+    ],
+    "dependency_conditions": {
+      "P2G1": "accepted",
+      "P2S02": "submitted",
+      "P3C03": "submitted",
+      "P3C04": "submitted",
+      "P3C05": "submitted",
+      "P3C06": "submitted",
+      "P3C07": "submitted",
+      "P3C08": "submitted",
+      "P3C09": "submitted",
+      "P3C10": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C11/",
+    "chapter_file": "thesis/chapters/11-cumulative.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate.",
+      "Use the submitted P2S01/P2S02 analyses only as explicitly labeled rebased inputs, never silently as accepted findings. Execute the eight G2 sensitivity designs against the updated evidence and include the Limitations section."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R11",
+    "title": "Independent review: thesis chapter Cumulative Assessment",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C11"
+    ],
+    "dependency_conditions": {
+      "P3C11": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R11/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3C12",
+    "title": "Thesis chapter: Conclusion",
+    "workstream": "thesis",
+    "role": "thesis_author",
+    "kind": "synthesis",
+    "dependencies": [
+      "P3C11"
+    ],
+    "dependency_conditions": {
+      "P3C11": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3C12/",
+    "chapter_file": "thesis/chapters/12-conclusion.md",
+    "deliverables": [
+      "report.md",
+      "result.json"
+    ],
+    "acceptance_criteria": [
+      "Draft only from the frozen contract inputs: accepted ledger records, accepted task reports and the named article paragraphs. No searches; a decision-changing evidence gap returns a bounded P3T packet request instead.",
+      "Give every paragraph a stable cNN-pNNN id and a crosswalk entry mapping it to record IDs or labeled premises; node scripts/thesis/build.cjs --check must pass at submission.",
+      "Respect all G2 synthesis constraints, the nine component boundaries and every withheld-conclusion gate; state what the chapter cannot conclude and why.",
+      "Distinguish reported experiences, observed events, philosophical premises and inferences; keep record reliability, inference strength and component confidence separate.",
+      "Assess all nine hypothesis components separately with what would change each assessment; no collapsed worldview score."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R12",
+    "title": "Independent review: thesis chapter Conclusion",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3C12"
+    ],
+    "dependency_conditions": {
+      "P3C12": "submitted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R12/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored none of this chapter; reopen decisive sources behind load-bearing claims within the allocated budget and record each locator and claim checked.",
+      "Spot-check crosswalk entries: cited records support the prose, premises stay labeled, no withheld conclusion passes its gate.",
+      "Verify dependence handling, denominators, timelines and the strongest countercase; return accept/revise/unresolved with exact corrections.",
+      "P3G1 allocates the transferred P2R20 decisive-source budget across chapter reviews; if decisive sources exceed this review’s allocation, return a scoped extension request rather than silently skipping verification."
+    ],
+    "budget": {
+      "search_queries": 4,
+      "source_inspections": 8,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3G1",
+    "title": "Thesis coverage gate: gap/gate dispositions and review-budget inventory",
+    "workstream": "synthesis",
+    "role": "overseer",
+    "kind": "gate",
+    "dependencies": [
+      "P3R01",
+      "P3R02",
+      "P3R03",
+      "P3R04",
+      "P3R05",
+      "P3R06",
+      "P3R07",
+      "P3R08",
+      "P3R09",
+      "P3R10",
+      "P3R11",
+      "P3R12"
+    ],
+    "dependency_conditions": {
+      "P3R01": "accepted",
+      "P3R02": "accepted",
+      "P3R03": "accepted",
+      "P3R04": "accepted",
+      "P3R05": "accepted",
+      "P3R06": "accepted",
+      "P3R07": "accepted",
+      "P3R08": "accepted",
+      "P3R09": "accepted",
+      "P3R10": "accepted",
+      "P3R11": "accepted",
+      "P3R12": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3G1/",
+    "deliverables": [
+      "gate_decision.md",
+      "result.json",
+      "disposition_register.json",
+      "review_inventory.json"
+    ],
+    "acceptance_criteria": [
+      "All chapters and any P3T gap packets adjudicated; every one of the 35 gap groups and 12 withheld-conclusion gates has exactly one explicit disposition in the register (resolved by cited reviewed evidence, addressed by a reviewed P3T packet, or standing limitation stated in the relevant chapter).",
+      "Compute the actual combined decisive-source inventory and certify that chapter-review reopenings plus the planned P3R20 scope cover the transferred P2R20 obligation (provisional 240 inspections, one recorded increase to 320); otherwise revise the plan or withhold affected conclusions explicitly.",
+      "Freeze the assembled thesis inputs for the whole-thesis review; an unreviewed or blocked prerequisite never counts as accepted."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3R20",
+    "title": "Whole-thesis adversarial review",
+    "workstream": "methods",
+    "role": "chapter_reviewer",
+    "kind": "review",
+    "dependencies": [
+      "P3G1"
+    ],
+    "dependency_conditions": {
+      "P3G1": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3R20/",
+    "deliverables": [
+      "report.md",
+      "result.json",
+      "review.json",
+      "source_checks.json",
+      "inference_checks.json"
+    ],
+    "acceptance_criteria": [
+      "Reviewer authored no thesis chapter; review the assembled thesis (P2S03 marked submitted with the thesis as its artifact) as one document.",
+      "Check integration: cross-chapter consistency, circular bridges, double counting of shared premises and samples, executed sensitivity results, fairness of alternatives and every withheld conclusion.",
+      "Sample decisive sources across chapters per the P3G1 inventory; jointly with the chapter reviews this must satisfy the transferred P2R20 contract, with no decisive source silently skipped."
+    ],
+    "budget": {
+      "search_queries": 8,
+      "source_inspections": 80,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
+  },
+  {
+    "id": "P3G2",
+    "title": "Final thesis adjudication and release (executes P2G2)",
+    "workstream": "synthesis",
+    "role": "overseer",
+    "kind": "gate",
+    "dependencies": [
+      "P3R20"
+    ],
+    "dependency_conditions": {
+      "P3R20": "accepted"
+    },
+    "status": "planned",
+    "output_directory": "work/P3G2/",
+    "deliverables": [
+      "gate_decision.md",
+      "result.json",
+      "release_validation.json",
+      "release_manifest.json"
+    ],
+    "acceptance_criteria": [
+      "All required corrections resolved or affected conclusions explicitly withheld under independent review; no unreviewed decisive error remains.",
+      "Release the versioned thesis with complete gap/disagreement register, article and v1 deltas, and precise further-evidence conditions.",
+      "Record the closure of P2R20 and P2G2 with explicit justification that the two review layers jointly satisfied the P2R20 contract; completion is execution of fixed scope, not proof or exhaustive coverage."
+    ],
+    "budget": {
+      "search_queries": 0,
+      "source_inspections": 0,
+      "revision_cycles": 2
+    },
+    "reviewer_must_differ_from_author": true
   }
 ]
