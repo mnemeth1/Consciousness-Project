@@ -1,0 +1,37 @@
+{
+  "task_id": "P3C05",
+  "status": "submitted",
+  "artifact_paths": [
+    "thesis/chapters/05-existence.md",
+    "thesis/crosswalk/c05.json",
+    "work/P3C05/report.md",
+    "work/P3C05/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P2G1 accepted (contract dependency)",
+    "Accepted records of T10, P2T10, P2T11",
+    "paper/paper.html section 4 (p-016 to p-021), frozen",
+    "phase3/pilot_calibration.md (frozen crosswalk conventions)"
+  ],
+  "uncertainties": [
+    "U1-U3 adjudicated by P3R05 first review (U1 minor, U2 minor, U3 material); all resolved in revision 1 per the reviewer's exact corrections"
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "revision_cycles_used": 1,
+  "recommended_next_action": "P3R05 re-review of revision 1 (same distinct reviewer context), then overseer adjudication.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/05-existence.md": "395c5468d233dab0617af57c00b08b0d8403c05c838e6fe0cea7140226d63471",
+    "thesis/crosswalk/c05.json": "201f5c565e388fae644709785c914d94d30679334873ed8b5d7d042f3d461891",
+    "paper/paper.html": "d31eab14ead977930fe47b46e6fd253df0da0b7fdf6a49391943ab1e5952a277",
+    "work/T10/report.md": "bfeecf01ba354461b31e329516835b84a44789987a9af7062fc0d13752322616",
+    "work/P2T10/report.md": "34381b39a9c40455d72805f47de3cf7792c99a97234d86e5da3ad20a30bd90ca",
+    "work/P2T11/report.md": "47714d78359aecc205f90f3e52a278107d9f17886b5497b6af35994e18e6ea86"
+  }
+}

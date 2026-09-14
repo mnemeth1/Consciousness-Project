@@ -1,0 +1,47 @@
+{
+  "task_id": "P3R05",
+  "status": "submitted",
+  "artifact_paths": [
+    "work/P3R05/report.md",
+    "work/P3R05/review.json",
+    "work/P3R05/source_checks.json",
+    "work/P3R05/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C05 submitted revision 1 (thesis/chapters/05-existence.md, thesis/crosswalk/c05.json, work/P3C05/report.md)",
+    "Accepted records of T10, P2T10, P2T11",
+    "paper/paper.html p-016 to p-021",
+    "work/T10/report.md",
+    "work/P2T10/report.md",
+    "work/P2T11/report.md",
+    "work/G2/synthesis_constraints.json",
+    "derived/gap_gate_register.json",
+    "phase3/pilot_calibration.md"
+  ],
+  "uncertainties": [
+    "U1 (author): closed; objection/reply roles restored; scope is unresolved, not a symmetric burden.",
+    "U2 (author): closed; sixty-one caveats and model-assumption limits restored.",
+    "U3 (author): closed; V1-INFERENCE named; behind-relation and one-exchange census gone.",
+    "derived/manifest.json is stale on the revised chapter hash. Overseer should --sync-manifest at acceptance. Not a chapter-text defect.",
+    "Author packet report.md still has first-draft U1-U3 wording and 'Revision cycles used: 0 of 2' below the Revision 1 heading; result.json is honest.",
+    "S-T10-006 ledger access_status remains inspected_abstract_notes_references_only. Chapter split disclosure is honest.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C05 (revision 1) and P3R05. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/05-existence.md": "395c5468d233dab0617af57c00b08b0d8403c05c838e6fe0cea7140226d63471",
+    "thesis/crosswalk/c05.json": "201f5c565e388fae644709785c914d94d30679334873ed8b5d7d042f3d461891",
+    "paper/paper.html": "d31eab14ead977930fe47b46e6fd253df0da0b7fdf6a49391943ab1e5952a277",
+    "work/T10/report.md": "bfeecf01ba354461b31e329516835b84a44789987a9af7062fc0d13752322616",
+    "work/P2T10/report.md": "34381b39a9c40455d72805f47de3cf7792c99a97234d86e5da3ad20a30bd90ca",
+    "work/P2T11/report.md": "47714d78359aecc205f90f3e52a278107d9f17886b5497b6af35994e18e6ea86"
+  }
+}

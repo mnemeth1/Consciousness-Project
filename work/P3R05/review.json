@@ -1,0 +1,139 @@
+{
+  "task_id": "P3R05",
+  "chapter": "c05",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph_id": "c05-p020",
+      "closed": true,
+      "how": "Bradley mediation kept; White inspected separately as S-P2T11-001 in the previous paragraph. T10 White-uninspected provenance no longer treated as current access."
+    },
+    {
+      "id": "M2",
+      "paragraph_id": "c05-p027",
+      "closed": true,
+      "how": "DG-P2T10-PSR-EXCHANGE scoped to 1999/2000/2002 only. One-exchange census and behind-relation deleted. CL-P2T10-020 named under DG-P2T10-V1-INFERENCE. Leibniz/Hume carry their own T10 groups. Crosswalk PREMISE names four groups plus T10 per-source groups."
+    },
+    {
+      "id": "M3",
+      "paragraph_id": "c05-p021",
+      "closed": true,
+      "how": "Tiny no-design likelihood attributed to uninspected Collins 2003, distinct from both inspected Collins versions. Robustness restored as departures preserving the likelihood separation. CL-P2T11-015 laxity-after-conditioning stated."
+    }
+  ],
+  "minor_defects": [],
+  "minor_defects_closed_in_revision_1": [
+    "N1 c05-p005 objection/reply roles and temporal-priority limit",
+    "N2 c05-p004 Hume own limits; French-not-compared gone",
+    "N3 c05-p022 sixty-one small-interval/assumed-input, linear weighting, count/proportion",
+    "N4 c05-p007 manuscript/print-uncollated; p-017-criticism label",
+    "N5 c05-p008 exchange-wide totality census deleted",
+    "N6 c05-p009 Davey/Clifton named; Pruss 2001 uninspected",
+    "N7 c05-p012 A-P2T10-002 mapped",
+    "N8 c05-p017 excerpt missing-division at S-T10-004 first use",
+    "N9 c05-p019 White's uninspected 2010 target",
+    "N10 c05-p023 Weisberg 2005 and zero-likelihood limitation wording",
+    "N11 c05-p025 inherited-framing only"
+  ],
+  "residual_notes_not_blocking": [
+    "derived/manifest.json is stale on the revised chapter hash; overseer should --sync-manifest at acceptance.",
+    "Author packet report.md still has first-draft U1-U3 wording and 'Revision cycles used: 0 of 2' below the Revision 1 heading; result.json is honest.",
+    "p009 'original' singular for two critics; 'behind the construction' is source-history wording, not a DG edge.",
+    "p004 says marked editorial additions, not additions and omissions.",
+    "p027 names T10 groups as a class, not by ID.",
+    "S-T10-006 ledger access_status remains abstract/notes only; chapter split disclosure still honest."
+  ],
+  "editorial": [
+    "U1 addressed: objection/reply roles restored; scope is unresolved, not a symmetric burden.",
+    "U2 addressed: sixty-one caveats and model-assumption limits restored.",
+    "U3 addressed: V1-INFERENCE named; behind-relation gone.",
+    "p016 reconstruction-maximum label present.",
+    "p020 method-selection and Divine-Intent clauses present.",
+    "p022 portraiture removed.",
+    "Author packet Revision 1 section is honest about M1-M3; the leftover first-draft Uncertainties block below it is not."
+  ],
+  "paragraphs_sampled": [
+    "c05-p003",
+    "c05-p004",
+    "c05-p005",
+    "c05-p006",
+    "c05-p007",
+    "c05-p008",
+    "c05-p009",
+    "c05-p010",
+    "c05-p011",
+    "c05-p012",
+    "c05-p013",
+    "c05-p014",
+    "c05-p015",
+    "c05-p016",
+    "c05-p017",
+    "c05-p018",
+    "c05-p019",
+    "c05-p020",
+    "c05-p021",
+    "c05-p022",
+    "c05-p023",
+    "c05-p024",
+    "c05-p025",
+    "c05-p026",
+    "c05-p027",
+    "c05-p028"
+  ],
+  "new_text_verified": [
+    {
+      "claim": "Bradley mediated/uninspected; White inspected separately",
+      "paragraph_id": "c05-p020",
+      "against": "S-P2T11-001; S-T10-007 provenance",
+      "finding": "supported; T10 mediation no longer treated as current White access"
+    },
+    {
+      "claim": "PSR-EXCHANGE is 1999/2000/2002 only; V1-INFERENCE separate; no behind-relation",
+      "paragraph_id": "c05-p027",
+      "against": "CL-P2T10-020",
+      "finding": "supported; DG matches lookup"
+    },
+    {
+      "claim": "tiny no-design likelihood from uninspected Collins 2003; robustness is likelihood-separation; laxity-after-conditioning stated",
+      "paragraph_id": "c05-p021",
+      "against": "CL-P2T11-013; CL-P2T11-014; CL-P2T11-015",
+      "finding": "supported"
+    },
+    {
+      "claim": "objection/reply roles; scope unresolved; modal necessity not temporal priority",
+      "paragraph_id": "c05-p005",
+      "against": "A-T10-003; CL-T10-017",
+      "finding": "supported"
+    }
+  ],
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "out_of_freeze_records_mapped": [],
+  "number_checks": {
+    "twenty_eight_paragraphs": "pass",
+    "about_sixty_one": "pass_with_approximation_limits",
+    "twelve_gates": "pass_all_currently_withheld",
+    "pages_63_to_90": "pass_as_p2t11_report_access_history",
+    "seven_page_author_manuscript": "pass",
+    "ten_page_2022_online_first_pdf": "pass",
+    "four_page_2011_article": "pass",
+    "thirteen_s_citations": "pass",
+    "named_dgs_p027": "pass_four_groups_plus_t10_class"
+  },
+  "build_checks": {
+    "thesis_build_check": "pass",
+    "derived_build_check": "stale_manifest_pre_revision_chapter_hash_overseer_sync"
+  },
+  "u_adjudications": {
+    "U1": "Closed. Objection/reply roles restored; scope is unresolved, not a symmetric burden.",
+    "U2": "Closed. Sixty-one caveats and model-assumption limits restored.",
+    "U3": "Closed. V1-INFERENCE named; behind-relation and one-exchange census gone."
+  },
+  "corrections_required": [],
+  "recommended_next_action": "Overseer adjudication: accept P3C05 and P3R05. Revision cycle 2 unused. Sync derived manifest at acceptance."
+}

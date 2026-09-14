@@ -3109,7 +3109,7 @@
     "dependency_conditions": {
       "P2G1": "accepted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3C05/",
     "chapter_file": "thesis/chapters/05-existence.md",
     "deliverables": [
@@ -3141,7 +3141,7 @@
     "dependency_conditions": {
       "P3C05": "submitted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3R05/",
     "deliverables": [
       "report.md",

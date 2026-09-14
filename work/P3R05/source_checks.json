@@ -1,0 +1,249 @@
+{
+  "task_id": "P3R05",
+  "external_sources_reopened": [],
+  "search_queries": [],
+  "repository_inputs_verified": [
+    {
+      "path": "paper/paper.html",
+      "sections": ["p-016", "p-017", "p-018", "p-019", "p-020", "p-021"],
+      "paragraphs_compared": [
+        "c05-p003",
+        "c05-p006",
+        "c05-p007",
+        "c05-p009",
+        "c05-p010",
+        "c05-p016",
+        "c05-p017",
+        "c05-p018",
+        "c05-p019",
+        "c05-p024",
+        "c05-p025"
+      ],
+      "finding": "Sampled PREMISE:article labels track the named article sentences. p-016 demand is p003; attraction is p006. p-017 is split (Oppy p007, reply p009) with p007's label too wide. p-018 costless/structured-challenge is p010; personal privilege is p016. p-019 Collins/circularity is p017/p018. p-020 White is p019; Weisberg half unlabeled on p020, acceptable. p-021 invented-distribution is p024; conditional discrimination is p025. p025 over-credits 'the record supports at each clause.'"
+    },
+    {
+      "path": "work/T10/report.md",
+      "sections": ["A-T10-003 reconstruction", "strongest countercase/reply", "S-T10-002/003/004/006/007 limits", "CL-T10-017/018/020"],
+      "paragraphs_compared": ["c05-p003", "c05-p004", "c05-p005", "c05-p017", "c05-p020", "c05-p027"],
+      "finding": "U1: defender reply is exemptions-need-justification; dispute concerns PSR scope. Chapter parallel-marks both as recorded burdens. S-T10-004 excerpt endnote 2 malformation in T10 is not at 1999 first use. S-T10-007 White-mediated limit is T10-era; P2T11 inspected White. CL-T10-020 is a retain-shared-dependencies instruction, not a license to unify cosmological DGs."
+    },
+    {
+      "path": "work/P2T10/report.md",
+      "sections": ["v1 delta Leibniz/Hume derivative inputs", "Davey-Clifton / Pruss 2001 uninspected", "Oppy print uncollated"],
+      "paragraphs_compared": ["c05-p007", "c05-p009", "c05-p027"],
+      "finding": "Leibniz004-006 and Hume007-008 remain derivative accepted inputs at Bennett-modernization scope, not members of the 1999-2002 exchange. Davey-Clifton originals and Pruss 2001 uninspected. Oppy print uncollated. Chapter unnamed Davey/Clifton; invents 'behind' relation for U3."
+    },
+    {
+      "path": "work/P2T11/report.md",
+      "sections": ["Sober pp. 63-90", "McCutcheon ~61", "Collins 2003", "Dorst defects", "Weisberg 2010 omitted"],
+      "paragraphs_compared": ["c05-p019", "c05-p020", "c05-p021", "c05-p022", "c05-p023"],
+      "finding": "Sober full published pp. 63-90 now read: chapter split is faithful. Uniform hyperprior ratio about 61 with residual positive support: number passes, model-assumption limits compressed. Collins 2003 numerical premise uninspected: chapter says 'uninspected Collins figure.' Weisberg 2010 original omitted: not at White first use. White independently inspected: contradicts p020 mediation sentence."
+    },
+    {
+      "path": "work/G2/synthesis_constraints.json",
+      "sections": ["SC-G2-02 ranking bar", "SC-G2-03 nine components", "SC-G2-07 quantitative restraint", "component_requirements H-F/U/B/S/T/P/I/G/A"],
+      "paragraphs_compared": ["c05-p016", "c05-p024", "c05-p025", "c05-p026", "c05-p028"],
+      "finding": "No family ranking. No pooled posterior. Component non-entailments match required boundaries. Circular credit withheld. Twelve-gate withhold matches standing constraints. Conditional discrimination kept qualitative."
+    },
+    {
+      "path": "derived/gap_gate_register.json",
+      "sections": ["counts.withheld_conclusion_gates", "GATE-T16-01..12 status", "GATE-T16-08"],
+      "paragraphs_compared": ["c05-p001", "c05-p026", "c05-p028"],
+      "finding": "counts.withheld_conclusion_gates=12; all twelve gates status withheld. GATE-T16-08 (necessary consciousness or intentional creator by strongest PSR/fine-tuning literature) unopened. No chapter paragraph asserts a withheld conclusion."
+    },
+    {
+      "path": "thesis/evidence_map.json",
+      "sections": ["parts.c05.tasks"],
+      "paragraphs_compared": ["all sampled"],
+      "finding": "c05 tasks are T10, P2T10, P2T11 only. All mapped ledger IDs have those prefixes. S-T10-005 Friederich is in the evidence-pack source list but not in the crosswalk."
+    },
+    {
+      "path": "derived/evidence/c05.md",
+      "sections": ["front matter", "T10", "P2T10", "P2T11", "sources cited"],
+      "paragraphs_compared": ["all sampled"],
+      "finding": "Pack current. Status submitted. Freeze tasks only. Version notes for the 13 first-use sources match lookup results. CL-P2T10-020 DG is DG-P2T10-V1-INFERENCE in both pack and lookup."
+    },
+    {
+      "record_id": "CL-T10-017",
+      "paragraphs": ["c05-p005"],
+      "what_was_checked": "Reconstruction statement, alternatives, totality-not-from-parts, temporal-priority limit. lookup.cjs.",
+      "result": "Statement, alternatives, and totality-not-from-parts supported. Temporal-priority limitation dropped. Does not contain the 'principle's scope needs justification' pairing."
+    },
+    {
+      "record_id": "A-T10-003",
+      "paragraphs": ["c05-p005"],
+      "what_was_checked": "Strongest objection/reply vs U1 balance sentence. lookup.cjs and T10 report.",
+      "result": "Objection is local-explanations-may-exhaust / impersonal remaining possible. Reply is local-links-leave-totality-unanswered / exemptions need justification. Unresolved includes PSR scope. Fail as support for a symmetric recorded burden on the principle's scope."
+    },
+    {
+      "record_id": "CL-P2T10-020",
+      "paragraphs": ["c05-p027"],
+      "what_was_checked": "Derivative historical inputs vs 'behind' DG-P2T10-PSR-EXCHANGE. lookup.cjs.",
+      "result": "Statement: v1 Hume and Leibniz claims remain derivative historical inputs. DG is DG-P2T10-V1-INFERENCE. source_ids empty. Fail as support for a behind-relation to PSR-EXCHANGE or for 'one dependent exchange.'"
+    },
+    {
+      "record_id": "CL-P2T10-016",
+      "paragraphs": ["c05-p008"],
+      "what_was_checked": "Totality ontology census. lookup.cjs.",
+      "result": "Oppy states main criticism does not depend on resolving BCF/BCCF questions; no independent Cantorian resolution supplied. Does not support 'by anyone in the exchange.'"
+    },
+    {
+      "record_id": "A-P2T10-002",
+      "paragraphs": ["c05-p011", "c05-p012"],
+      "what_was_checked": "Personal-explanation route and strongest project question. lookup.cjs.",
+      "result": "Supports p011. Strongest objection is the Quinn/libertarian-vs-impersonal question used in p012; unmapped there."
+    },
+    {
+      "record_id": "CL-P2T11-013",
+      "paragraphs": ["c05-p021"],
+      "what_was_checked": "Tiny no-design likelihood source. lookup.cjs.",
+      "result": "Limitations: tiny numerical scale source-assumed via Collins 2003, not verified here. Fail as support for a generic 'uninspected Collins figure' after 1998/1999 Collins were inspected."
+    },
+    {
+      "record_id": "CL-P2T11-015",
+      "paragraphs": ["c05-p021"],
+      "what_was_checked": "Laxity disfavors after conditioning when stringency favors. lookup.cjs.",
+      "result": "Mapped on p021; distinctive content not in the prose. Over-mapping."
+    },
+    {
+      "record_id": "CL-P2T11-019",
+      "paragraphs": ["c05-p023", "c05-p025"],
+      "what_was_checked": "Decline to debunk every design argument vs refusal to set likelihoods to zero. lookup.cjs.",
+      "result": "Statement supports decline-to-debunk. Limitation is does-not-claim-equal-zero, not a recorded refusal to set them to zero. Locators are published pp. 86-87 while S-T10-006 access_status remains abstract/notes only."
+    },
+    {
+      "record_id": "CL-P2T11-024",
+      "paragraphs": ["c05-p021"],
+      "what_was_checked": "Dorst formula/bibliography defects. lookup.cjs.",
+      "result": "Inequality/earlier-equality conflict supported. Missing conditioning/negation and White-author error dropped."
+    },
+    {
+      "record_id": "CL-P2T11-025",
+      "paragraphs": ["c05-p022"],
+      "what_was_checked": "Range-uncertainty critique limits. lookup.cjs / evidence pack.",
+      "result": "Statement supported. Linear life-world weighting and count/proportion (maximum/typical) interpretations dropped."
+    },
+    {
+      "record_id": "CL-P2T11-026",
+      "paragraphs": ["c05-p022"],
+      "what_was_checked": "Around 61 and residual positive evidence. lookup.cjs.",
+      "result": "Statement supports about-sixty-one and residual positive evidence. Small-interval approximation with assumed a=10^(-53) dropped."
+    },
+    {
+      "record_id": "S-T10-001",
+      "paragraphs": ["c05-p014"],
+      "what_was_checked": "Access status and apologetic/historical limits. lookup.cjs.",
+      "result": "Pass at first use."
+    },
+    {
+      "record_id": "S-T10-002",
+      "paragraphs": ["c05-p003"],
+      "what_was_checked": "Bennett modernization; French not compared. lookup.cjs.",
+      "result": "Pass at first use."
+    },
+    {
+      "record_id": "S-T10-003",
+      "paragraphs": ["c05-p004"],
+      "what_was_checked": "Bennett modernization; English original; speaker discipline. lookup.cjs.",
+      "result": "Speaker discipline pass. 'Same limits' as Leibniz fails: no French-not-compared on this record."
+    },
+    {
+      "record_id": "S-T10-004",
+      "paragraphs": ["c05-p017"],
+      "what_was_checked": "Abridged excerpt, no appendix, p17 missing division. lookup.cjs.",
+      "result": "Ellipses and missing appendix pass. Malformed p17/missing division fail at 1999 first use."
+    },
+    {
+      "record_id": "S-T10-006",
+      "paragraphs": ["c05-p023"],
+      "what_was_checked": "Access status versus P2T11 full-scan claims. lookup.cjs.",
+      "result": "Ledger still inspected_abstract_notes_references_only, decisive false, paywalled provenance. Chapter split matches P2T11 report, not the un-upgraded source object. Citation attached to the preview clause is correct for this ID."
+    },
+    {
+      "record_id": "S-T10-007",
+      "paragraphs": ["c05-p020"],
+      "what_was_checked": "Seven-page author manuscript; White/Bradley mediation. lookup.cjs.",
+      "result": "Manuscript versus journal pagination pass. White-and-Bradley-not-independently-inspected is T10 provenance; fails as a current-access claim after S-P2T11-001."
+    },
+    {
+      "record_id": "S-P2T10-001",
+      "paragraphs": ["c05-p006"],
+      "what_was_checked": "full_selected_text_inspected 1999. lookup.cjs.",
+      "result": "Pass at first use."
+    },
+    {
+      "record_id": "S-P2T10-002",
+      "paragraphs": ["c05-p007"],
+      "what_was_checked": "Manuscript locators vs '2000 reply.' derived/index/sources.jsonl and P2T10 report.",
+      "result": "Access full_selected_text_inspected; locators are manuscript sections. Print uncollated in P2T10 report. Chapter drops manuscript/print distinction."
+    },
+    {
+      "record_id": "S-P2T10-003",
+      "paragraphs": ["c05-p009"],
+      "what_was_checked": "Full selected 2002 version; Davey and Clifton in title. derived/index/sources.jsonl.",
+      "result": "Selected-version inspection pass. Title names Davey and Clifton; chapter says 'separate critics.'"
+    },
+    {
+      "record_id": "S-P2T11-001",
+      "paragraphs": ["c05-p019"],
+      "what_was_checked": "Four-page 2011 article; Weisberg 2010 bibliography. lookup.cjs.",
+      "result": "Four-page published article pass. Bibliography is single Weisberg 2010 entry; 2010 original uninspected not disclosed."
+    },
+    {
+      "record_id": "S-P2T11-002",
+      "paragraphs": ["c05-p021"],
+      "what_was_checked": "Ten-page Online First PDF; unnumbered pages; formula defects. lookup.cjs.",
+      "result": "Ten-page Online First pass. Unnumbered/PDF-page locators dropped. Inequality defect pass."
+    },
+    {
+      "record_id": "S-P2T11-003",
+      "paragraphs": ["c05-p017"],
+      "what_was_checked": "1998 webpage, appendix, not authenticated 1999 chapter, malformed endnote 2. lookup.cjs.",
+      "result": "Pass at first use."
+    },
+    {
+      "record_id": "S-P2T11-005",
+      "paragraphs": ["c05-p022"],
+      "what_was_checked": "Supplied manuscript authentication. lookup.cjs.",
+      "result": "No byline, version unauthenticated, archive attribution pass. Four-page length not stated (non-blocking)."
+    }
+  ],
+  "revision_1_lookups": [
+    {
+      "record_id": "CL-P2T10-020",
+      "paragraphs": ["c05-p027"],
+      "what_was_checked": "Revision 1: V1-INFERENCE named separately; no behind-relation to PSR-EXCHANGE. lookup.cjs.",
+      "result": "DG is DG-P2T10-V1-INFERENCE. Revised prose matches. Pass."
+    },
+    {
+      "record_id": "CL-P2T11-013",
+      "paragraphs": ["c05-p021"],
+      "what_was_checked": "Revision 1: Collins 2003 named as distinct uninspected source of the tiny no-design likelihood. lookup.cjs.",
+      "result": "Limitations: source-assumed via Collins 2003. Revised prose matches and distinguishes S-T10-004 / S-P2T11-003. Pass."
+    },
+    {
+      "record_id": "CL-P2T11-014",
+      "paragraphs": ["c05-p021"],
+      "what_was_checked": "Revision 1: robustness as departures preserving the likelihood separation. lookup.cjs.",
+      "result": "Statement matches. Pass."
+    },
+    {
+      "record_id": "CL-P2T11-015",
+      "paragraphs": ["c05-p021"],
+      "what_was_checked": "Revision 1: laxity disfavors after conditioning when stringency favors. lookup.cjs.",
+      "result": "Now stated in prose. Over-mapping closed. Pass."
+    },
+    {
+      "record_id": "S-P2T11-001",
+      "paragraphs": ["c05-p019", "c05-p020"],
+      "what_was_checked": "Revision 1: White independently inspected; 2010 target disclosed. lookup.cjs.",
+      "result": "inspected_selected_original_version; bibliography Weisberg 2010. p019 discloses 2010 uninspected. p020 no longer says White is uninspected. Pass."
+    },
+    {
+      "record_id": "S-T10-007",
+      "paragraphs": ["c05-p020"],
+      "what_was_checked": "Revision 1: mediation scoped to Bradley only. lookup.cjs.",
+      "result": "Provenance still records T10 White-and-Bradley mediation. Chapter treats only Bradley as still mediated/uninspected. Pass as current-access claim."
+    }
+  ]
+}
