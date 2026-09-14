@@ -741,6 +741,13 @@
       ]
     },
     {
+      "path": "phase3/pilot_calibration.md",
+      "sha256": "c22f5d336d2768b30deff1fdd83e7b743ecc32c381704abba2474a6e6672f290",
+      "bytes": 3466,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "pnpm-lock.yaml",
       "sha256": "86ad8668547c789de2c5effa9ca7efc5bbc2c19fdeadae4accf8540561021f1d",
       "bytes": 6896,
