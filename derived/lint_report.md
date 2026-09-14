@@ -1,0 +1,502 @@
+<!-- GENERATED FILE. Do not edit; regenerate with: node scripts/derived/build.cjs -->
+
+# Ledger vocabulary drift report
+
+Informational only. The canonical ledgers use free-text values in several fields that
+templates treat as enumerations; this report lists the actual value inventory so filtering
+agents know not to rely on exact enum matches, and so the overseer has a concrete worklist
+if normalization is ever authorized. Nothing here modifies or judges any record.
+
+## Free-text field inventories
+
+### Claim types (`claim_type` in records/claims.json): 38 distinct values
+
+- 172 × `inference`
+- 133 × `philosophical_premise`
+- 119 × `philosophical_attribution`
+- 112 × `reported_experience`
+- 53 × `documented_measurement`
+- 23 × `philosophical_argument_attribution`
+- 16 × `project_conceptual_analysis`
+- 14 × `philosophical_inference`
+- 10 × `documentary_observation`
+- 6 × `observed_event`
+- 6 × `philosophical premise`
+- 5 × `argument_attribution`
+- 5 × `documentary_comparison`
+- 5 × `source_numerical_attribution`
+- 4 × `attributed_inference`
+- 4 × `project_inference`
+- 3 × `source_observation`
+- 3 × `source_version_provenance`
+- 2 × `document_attribution`
+- 2 × `inference_boundary`
+- 2 × `source_flow_attribution`
+- 2 × `source_version_attribution`
+- 1 × `argument_attribution_and_inference`
+- 1 × `attributed_argument`
+- 1 × `correction_comparison`
+- 1 × `dependence_attribution`
+- 1 × `method_and_opportunity_attribution`
+- 1 × `method_attribution`
+- 1 × `philosophical_argument_and_version_attribution`
+- 1 × `probability_model_critique`
+- 1 × `project_comparison`
+- 1 × `reported_clinical_measurement`
+- 1 × `source_attribution_and_inference`
+- 1 × `source_provenance`
+- 1 × `source_result_attribution`
+- 1 × `source_use_attribution`
+- 1 × `source_version_and_argument_attribution`
+- 1 × `version_unit_comparison`
+
+### Record reliability (`record_reliability` in records/claims.json): 35 distinct values
+
+- 266 × `supported`
+- 34 × `supported_attribution_in_exact_inspected_version`
+- 33 × `supported_as_documented_attribution_pending_review`
+- 32 × `directly_inspected_attribution`
+- 30 × `supported_as_attribution_or_version_observation`
+- 27 × `original_attribution_supported`
+- 25 × `Inspected published passage; version/acquisition limitations retained.`
+- 25 × `author_checked_attribution_or_document_scope; pending independent review`
+- 23 × `Attribution checked directly at the stated version and locator; external premise truth unassessed.`
+- 21 × `Direct source attribution within stated edition/locator; unreviewed`
+- 20 × `Direct inspected attribution at stated version/locator`
+- 17 × `direct relevant passage inspected`
+- 17 × `directly_inspected_narrow_attribution`
+- 13 × `Printed original passage directly inspected; teaching-copy provenance noted`
+- 13 × `unassessed_pending_independent_review`
+- 12 × `Direct selected original passage inspected; version in coverage.json`
+- 11 × `author_checked_exact_source_attribution_or_document_comparison; pending independent review`
+- 11 × `supported for narrow attribution`
+- 11 × `traceable_author_analysis`
+- 9 × `project reasoning, not external observation`
+- 9 × `project_authored_conditional`
+- 8 × `Attribution directly inspected, with stated version/locator limits`
+- 8 × `directly_inspected_attribution_pending_review`
+- 7 × `Direct supplied image passages inspected; exact page hashes in coverage.json and google_page_checks.json`
+- 7 × `project-authored conditional analysis`
+- 6 × `explicit_project_analysis_pending_review`
+- 4 × `Conditional project comparison based on frozen baseline and stated inspected passages.`
+- 4 × `Project conditional analysis; derivative accepted comparisons identified separately`
+- 3 × `Assessment traceable to identified inspected claims; not an observation`
+- 3 × `contested`
+- 2 × `Project inference traceable to inspected premises`
+- 2 × `limited_by_explicit_access_or_derivative_scope`
+- 2 × `unresolved`
+- 1 × `Project-authored conditional analysis`
+- 1 × `explicit_project_reasoning`
+
+### Inference strength (`inference_strength` in records/claims.json): 72 distinct values
+
+- 158 × `unresolved`
+- 92 × `contested`
+- 88 × `supported`
+- 34 × `unresolved_for_external_event_or_metaphysical_conclusion`
+- 27 × `source_assertion_not_premise_truth`
+- 25 × `Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.`
+- 21 × `No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.`
+- 20 × `Attribution established within inspected extent; premise truth and argument success not established`
+- 20 × `unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only`
+- 17 × `attribution only; substantive premise contested`
+- 17 × `attribution_supported_premise_truth_unassessed`
+- 15 × `Documented attribution; premise truth unverified`
+- 15 × `conditional`
+- 15 × `source_report_only; event accuracy and generalization not established`
+- 13 × `Attribution only; premise truth remains contested`
+- 13 × `unassessed_pending_independent_review`
+- 12 × `Attribution only; premise truth contested`
+- 11 × `bounded_conditional_analysis`
+- 10 × `The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.`
+- 8 × `Attribution only; philosophical premise not thereby verified`
+- 8 × `attribution_only_not_premise_truth`
+- 7 × `Attribution only; premise truth and argumentative success remain contested`
+- 7 × `conditional; no empirical confirmation`
+- 6 × `conditional_argument_not_empirical_establishment`
+- 5 × `Direct reply attribution only; truth and argumentative adequacy remain contested.`
+- 4 × `Conditional inference; no empirical or metaphysical confirmation`
+- 3 × `Conditional and scope-limited; no hypothesis confidence upgrade`
+- 2 × `Conditional bounded comparison; no component-confidence upgrade`
+- 1 × `Argument attribution; does not independently exclude every impersonal foundation.`
+- 1 × `Argument attribution; not proof that an actual totality lacks explanation.`
+- 1 × `Attribution of an explicit disagreement, not a resolution of it.`
+- 1 × `Attribution of an explicitly qualified premise; no endorsement of its truth.`
+- 1 × `Attribution of the authors’ limits; not an empirical finding of goodness.`
+- 1 × `Attribution; adequacy of this stopping point remains contested.`
+- 1 × `Attribution; does not refute the Hume–Edwards objection simply by changing logical direction.`
+- 1 × `Attribution; neither the personal nor impersonal alternative is established.`
+- 1 × `Attribution; no independent Cantorian or metaphysical resolution is supplied.`
+- 1 × `Attribution; unrestricted W-PSR premise remains disputed.`
+- 1 × `Bounded access/audit conclusion only. Does not establish nonexistence, fabrication or zero predictive success.`
+- 1 × `Bounded conditional assessment, no family ranking`
+- 1 × `Bounded negative content check, not a global absence claim.`
+- 1 × `Comparative burden mapping, no accepted neighbor overwritten`
+- 1 × `Conditional argument attribution, not an unconditional logical theorem about every notion of explanation.`
+- 1 × `Conditional attribution; does not equate necessity with temporal endurance or timelessness.`
+- 1 × `Conditional comparison`
+- 1 × `Conditional epistemic attribution, not a proof that all non-theism is rational or theism false.`
+- 1 × `Conditional reconstruction, not proof that its metaphysical premises are true.`
+- 1 × `Dependence/accounting discipline; no inference that the two episodes are the same event.`
+- 1 × `Derivative scope statement, not a fresh historical source attribution.`
+- 1 × `Direct attribution; neither inference is automatically validated.`
+- 1 × `Direct attribution; no empirical exclusion of natural processes or validation of a miracle.`
+- 1 × `Faithful attribution; necessity alone is not independently shown here to supply explanation.`
+- 1 × `High for version distinction; exact 2006 gap unresolved`
+- 1 × `Inference map, conditional on disputed premises; no actuality upgrade.`
+- 1 × `Limited component separation`
+- 1 × `No component actuality upgrade`
+- 1 × `Project dependence assessment; no quantitative posterior.`
+- 1 × `Project inference boundary; all nine components remain unresolved.`
+- 1 × `Proposed coverage correction subject to independent review`
+- 1 × `Symmetric uncertainty: evidence neither validates survival beyond irreversible death nor demonstrates a specific ordinary cause.`
+- 1 × `The source comparison challenges an all-success retelling; it does not establish external falsehood or a numerical failure rate.`
+- 1 × `Verified attribution of a reported objection, not independent corroboration or a validated countermodel.`
+- 1 × `bounded_conditional`
+- 1 × `conditional_only`
+- 1 × `supported_as_dependence_constraint`
+- 1 × `supported_as_dependency_sensitivity`
+- 1 × `supported_as_inference_limit`
+- 1 × `supported_as_scope_limit`
+- 1 × `supported_for_reference_identity`
+- 1 × `supported_for_saved_version_comparison`
+- 1 × `supported_for_saved_version_identity`
+- 1 × `unsupported_for_stronger_components`
+
+### Source types (`source_type` in records/sources.json): 112 distinct values
+
+- 8 × `original_journal_article`
+- 6 × `original article supplement`
+- 6 × `primary_philosophical_journal_article`
+- 5 × `primary_philosophical_argument`
+- 4 × `Original philosophical article or authorial chapter version`
+- 4 × `original empirical journal article`
+- 4 × `original published case account or direct argument/reply`
+- 4 × `original_philosophical_article`
+- 4 × `repository_metadata`
+- 3 × `Original philosophical contribution in an edited volume`
+- 3 × `original methodological correspondence`
+- 3 × `original philosophical argument`
+- 3 × `original_account_or_disclosure`
+- 3 × `original_author_reply`
+- 3 × `original_philosophical_argument`
+- 3 × `original_philosophical_text_in_identified_version`
+- 3 × `primary_philosophical_article_author_version`
+- 3 × `primary_philosophical_original_or_explicit_reprint`
+- 2 × `Actual continuation of selected criticism/reply exchange`
+- 2 × `Original philosophical journal article`
+- 2 × `bibliographic_catalog`
+- 2 × `navigation_metadata`
+- 2 × `original correction notice`
+- 2 × `original philosophical argument, author-hosted HTML`
+- 2 × `separately authored translation frontmatter`
+- 1 × `Original content reanalysis of previously published interviews`
+- 1 × `Original philosophical book chapter`
+- 1 × `Original retrospective comparison with reused prospective literature`
+- 1 × `Original retrospective cultural collection`
+- 1 × `Original retrospective self-identification comparison`
+- 1 × `Original self-selected correspondence collection and interpretive typology`
+- 1 × `Primary historical literary account in a later translation`
+- 1 × `actual third-party reply to selected critic`
+- 1 × `author bibliography and abstracts`
+- 1 × `author book promotion`
+- 1 × `author navigation index`
+- 1 × `author navigation metadata`
+- 1 × `author website`
+- 1 × `author-hosted podcast transcript`
+- 1 × `author-hosted prepublication manuscript`
+- 1 × `author-institution overview/navigation`
+- 1 × `author-uploaded manuscript`
+- 1 × `author_bibliography`
+- 1 × `author_firsthand_account_and_argument`
+- 1 × `author_memoir_original_later_version`
+- 1 × `author_philosophical_essay`
+- 1 × `author_provenance`
+- 1 × `author_reply_original`
+- 1 × `bibliographic index`
+- 1 × `book`
+- 1 × `clinical_record_review`
+- 1 × `guest_editorial_original_investigation_and_reply`
+- 1 × `journalistic_feature_original`
+- 1 × `memoir`
+- 1 × `memoir_excerpt_and_publisher_metadata`
+- 1 × `navigation metadata`
+- 1 × `newspaper_original`
+- 1 × `original article publisher preview`
+- 1 × `original author manuscript`
+- 1 × `original authored essay`
+- 1 × `original chapter in abridged teaching reproduction`
+- 1 × `original journal article in third-party archive`
+- 1 × `original journal article in university course copy`
+- 1 × `original journal article, user-supplied full PDF`
+- 1 × `original journal reply`
+- 1 × `original methodological letter, author manuscript`
+- 1 × `original observational study, article-in-press copy`
+- 1 × `original philosophical dialogue in English modernization`
+- 1 × `original philosophical text in English modernization`
+- 1 × `original philosophical text in historical English translation`
+- 1 × `original philosophical/mathematical critique manuscript`
+- 1 × `original prospective study, author-uploaded reformat`
+- 1 × `original study protocol`
+- 1 × `original symposium contribution`
+- 1 × `original symposium response`
+- 1 × `original theoretical critique`
+- 1 × `original theoretical physics in English translation`
+- 1 × `original theoretical physics preprint`
+- 1 × `original_argument_reprint`
+- 1 × `original_author_essay`
+- 1 × `original_author_lecture_draft`
+- 1 × `original_critical_argument_and_interview_account`
+- 1 × `original_empirical_study`
+- 1 × `original_investigative_journalism`
+- 1 × `original_philosophical_book`
+- 1 × `original_philosophical_chapter_user_supplied`
+- 1 × `original_philosophical_criticism`
+- 1 × `philosophical_original`
+- 1 × `philosophical_original_in_modernization`
+- 1 × `primary philosophical argument; author-hosted published-text version`
+- 1 × `primary_philosophical_reply`
+- 1 × `protocol amendment file`
+- 1 × `public_accident_database_compilation`
+- 1 × `published correction`
+- 1 × `published rejoinder, author-hosted text`
+- 1 × `publisher-hosted firsthand interview`
+- 1 × `recording_catalog_metadata`
+- 1 × `repository landing-page identity only`
+- 1 × `secondary scholarly navigation/context`
+- 1 × `secondary teaching excerpt of original abstract`
+- 1 × `selected early prospective original`
+- 1 × `selected historical corpus original German`
+- 1 × `separately_authored_treating_physician_statement`
+- 1 × `serious direct prospective-target criticism`
+- 1 × `supplied_transcript`
+- 1 × `syndicated_original_news_report`
+- 1 × `translation and original translator introduction`
+- 1 × `unverified_author_web_lead`
+- 1 × `user-supplied original journal article`
+- 1 × `user-supplied video`
+- 1 × `user_supplied_purported_firsthand_transcript`
+- 1 × `user_supplied_transcript`
+
+### Access status (`access_status` in records/sources.json): 71 distinct values
+
+- 21 × `inspected_relevant_full_text`
+- 13 × `inspected_original`
+- 10 × `inspected_full_text`
+- 9 × `relevant_sections_inspected`
+- 6 × `inspected_exact_user_supplied_journal_copy`
+- 5 × `inspected`
+- 5 × `metadata_inspected`
+- 5 × `selected_extent_inspected`
+- 4 × `full_text_inspected`
+- 4 × `inspected_header_table_structure_only`
+- 4 × `inspected_original_full_text`
+- 4 × `inspected_relevant_sections`
+- 4 × `selected_versions_inspected`
+- 3 × `full_selected_version_inspected`
+- 3 × `inspected_original_text`
+- 3 × `inspected_relevant_text`
+- 3 × `inspected_selected_extents`
+- 3 × `inspected_selected_original_chapters`
+- 3 × `inspected_selected_original_version`
+- 2 × `full_selected_text_inspected`
+- 2 × `inspected_full_PDF_extracted_text`
+- 2 × `inspected_metadata`
+- 2 × `inspected_metadata_only`
+- 2 × `inspected_navigation_only`
+- 2 × `metadata_only_body_unavailable`
+- 2 × `methods_results_tables_text_inspected`
+- 2 × `relevant_text_inspected`
+- 2 × `selected_extent_independently_inspected`
+- 1 × `abstract_references_only`
+- 1 × `article_inspected`
+- 1 × `complete_Neal_section_inspected`
+- 1 × `complete_main_response_inspected`
+- 1 × `complete_visible_entry_inspected`
+- 1 × `exact_original_inaccessible`
+- 1 × `freshly_inspected_complete_article`
+- 1 × `full_author_manuscript_text_inspected_binary_and_visual_unavailable`
+- 1 × `full_main_text_tables_figures_references_inspected; supplement unavailable`
+- 1 × `full_original_available_selected_sections_inspected`
+- 1 × `full_original_inspected`
+- 1 × `full_text_inspected_audio_unverified`
+- 1 × `inspected_abstract_notes_references_only`
+- 1 × `inspected_complete_full_text`
+- 1 × `inspected_complete_selected_letter_PDF_text`
+- 1 × `inspected_context_and_bibliography`
+- 1 × `inspected_distinct_later_authorial_version`
+- 1 × `inspected_exact_user_supplied_manuscript_version_number_unresolved`
+- 1 × `inspected_full_original_text_mirror_layout_unverified`
+- 1 × `inspected_full_text_and_decisive_layout`
+- 1 × `inspected_full_text_reprint`
+- 1 × `inspected_full_text_with_pagination_discrepancy`
+- 1 × `inspected_full_text_with_version_limit`
+- 1 × `inspected_metadata_and_abstract`
+- 1 × `inspected_original_extracted_text_with_OCR_limits`
+- 1 × `inspected_partial_original`
+- 1 × `inspected_screening_text`
+- 1 × `inspected_selected_passages_and_references`
+- 1 × `metadata_and_contents_only`
+- 1 × `metadata_only`
+- 1 × `metadata_only_content_unavailable`
+- 1 × `metadata_only_full_text_pending`
+- 1 × `metadata_only_inspected`
+- 1 × `metadata_verified_exact_text_unavailable`
+- 1 × `navigation_and_context_inspected`
+- 1 × `navigation_inspected`
+- 1 × `partial_book_text_inspected`
+- 1 × `partial_original_inspected_selected_chapter4_and_section5_1_complete`
+- 1 × `selected_complete_chapters_and_context_inspected`
+- 1 × `selected_passages_and_context_inspected`
+- 1 × `supplied_text_fully_inspected_audio_unverified`
+- 1 × `uninspected_stopped_route`
+- 1 × `verified_identity_body_unavailable`
+
+### Case kinds (`kind` in records/cases.json): 13 distinct values
+
+- 4 × `empirical_study`
+- 4 × `study`
+- 3 × `historical_document_account`
+- 3 × `retrospective_case`
+- 1 × `related_recovery_episode`
+- 1 × `retrospective_comparison`
+- 1 × `retrospective_content_analysis`
+- 1 × `retrospective_cultural_collection`
+- 1 × `retrospective_distressing_collection`
+- 1 × `retrospective_named_case`
+- 1 × `retrospective_related_episode`
+- 1 × `retrospective_self_identification_comparison`
+- 1 × `study_with_related_arms`
+
+### Argument positions (`position` in records/arguments.json): 117 distinct values
+
+- 4 × `Conditional project argument skeleton; not a finding`
+- 3 × `project-authored conditional inference map`
+- 2 × `physicalist_defense`
+- 2 × `support challenged`
+- 1 × `Actual Strawson reply`
+- 1 × `Additional Gale–Pruss personal-explanation route`
+- 1 × `Against joint indispensability premises`
+- 1 × `Audit a purported physiological exclusion`
+- 1 × `Audit reconstruction with Shermer’s original challenge`
+- 1 × `Bounded project inference constraint`
+- 1 × `Challenges inference to H-B without establishing physicalism`
+- 1 × `Challenges overinterpretation of veridicality evidence; does not establish a physicalist winner`
+- 1 × `Chalmers selected serious challenge`
+- 1 × `Comparative model design`
+- 1 × `Conditional enhancement; no necessity/sufficiency/actuality conclusion`
+- 1 × `Conditional favorable case and strongest methodological countercase`
+- 1 × `Conditional relevance to H-B`
+- 1 × `Conditional relevance to an experiential phenomenon and to better tests of H-B`
+- 1 × `Conditional synthesis and sensitivity`
+- 1 × `Constitutive Russellian panpsychism`
+- 1 × `Cosmopsychism/idealism comparison`
+- 1 × `Criterion-specific empirical comparison`
+- 1 × `Critic and author exchange, with symmetric inference limits`
+- 1 × `Defeasible initial suspicion of reduction with openness to successful detailed proposals`
+- 1 × `Defends remaining justificatory force`
+- 1 × `Developed Adams internal-coherence defense; serious direct Sutherland criticism and limited revised-response dossier`
+- 1 × `Developed conditional timeless-ground model`
+- 1 × `Developed human-identity objection and actual direct reply`
+- 1 × `Direct serious objection`
+- 1 × `Evidential challenge, distinct from bare logical incompatibility`
+- 1 × `Finite-value countercase`
+- 1 × `For extending justified general normative realism to robust moral realism, given moral objectivity`
+- 1 × `For justified belief in irreducible normative truth`
+- 1 × `Foucher1695 direct objection`
+- 1 × `Frankish’s actual response to the selected critic`
+- 1 × `Frankish’s selected strong illusionist programme`
+- 1 × `Hiddenness challenge with a bounded, currently reconstructed reply`
+- 1 × `Howard-Snyder defense tested by Schellenberg’s actual1996 response`
+- 1 × `Inspected original challenge and reply, with project adjudication`
+- 1 × `Kastrup2018 selected defense`
+- 1 × `Keep unit-specific missing totals explicit.`
+- 1 × `Kim challenge reconstructed`
+- 1 × `Korsgaard’s actual response to Nagel`
+- 1 × `Leibniz developed mental-substance comparator`
+- 1 × `Limits pooled cultural and prospective convergence`
+- 1 × `M-T03-DU; project stipulation, not philosopher attribution`
+- 1 × `M-T03-ID; project stipulation, not philosopher attribution`
+- 1 × `M-T03-PA; project stipulation, not philosopher attribution`
+- 1 × `M-T03-PH; project stipulation, not philosopher attribution`
+- 1 × `M-T03-PL; project stipulation, not philosopher attribution`
+- 1 × `M-T03-TH; project stipulation, not philosopher attribution`
+- 1 × `Methodological inference`
+- 1 × `Narrow direct reply with later clinical comparison`
+- 1 × `Narrow dispute audit`
+- 1 × `Narrow the v1 methods gap without certifying preregistration compliance.`
+- 1 × `Nida-Rümelin’s direct phenomenal-target challenge`
+- 1 × `Non-Cartesian substance dualism`
+- 1 × `Nonreductive physicalist challenge to dualist compatibility`
+- 1 × `O'Connor and Wong 2005 direct response`
+- 1 × `Oppy’s selected direct counterargument`
+- 1 × `PH1/PH2`
+- 1 × `PL1, with PL2 and substance variants differentiated`
+- 1 × `Positive conditional irreducible-subject account`
+- 1 × `Positive conditional organism account`
+- 1 × `Positive conditional psychological account`
+- 1 × `Positive conditional reconstruction`
+- 1 × `Positive naturalistic account with other secular families retained`
+- 1 × `Project comparison`
+- 1 × `Project limitation map`
+- 1 × `Realist rival within the selected exchange`
+- 1 × `Reconstructed strict necessity rationale; neither Yoshizawa nor Metz endorses its soundness`
+- 1 × `Retain the tests as challenges, while distinguishing auxiliary assumptions from full-theory refutation.`
+- 1 × `Revised substance dualism with dependent property sharing`
+- 1 × `Schellenberg’s structural reply and the surviving epistemic dispute`
+- 1 × `Selected Gale–Pruss modal PSR route`
+- 1 × `Selected Kantian constructivism`
+- 1 × `Selected Kastrup-inspired universal idealism`
+- 1 × `Selected Lennox relevance, not a direct reply to Gale–Pruss or Oppy`
+- 1 × `Selected positive case, reconstructed conditionally`
+- 1 × `Serious critic/reply assessment with version boundaries`
+- 1 × `Serious direct criticism plus author audit of evidence limits`
+- 1 × `Several conditional questions; no forced metaphysical winner`
+- 1 × `Shoemaker countercase and reply to Kim`
+- 1 × `Strawson developed defense`
+- 1 × `Strong enduring-restoration reply and victim-centered challenge`
+- 1 × `Strong purpose account with bridge audit`
+- 1 × `Strong serious countercase, not asserted causal resolution`
+- 1 × `Strong sourced challenge and the selected author’s replies`
+- 1 × `Strongest bounded extracerebral-perception case reconstructed from defenders`
+- 1 × `Strongest conditional case for a shared experiential phenomenon`
+- 1 × `Strongest conditional positive case with directly case-linked criticism and actual third-party reply`
+- 1 × `Strongest conditional reconstruction, not endorsed conclusion`
+- 1 × `Strongest countercase to invariance and direct survival inference`
+- 1 × `Strongest countercase to metaphysical overreach`
+- 1 × `Strongest developed defender, reconstructed without endorsing premises`
+- 1 × `Strongest empirical dependence case, scoped`
+- 1 × `Strongest inspected110205defense with protocol comparison`
+- 1 × `Strongest integrated consciousness-grounding case`
+- 1 × `Strongest project survival model`
+- 1 × `Strongest selected direct critic and actual replies`
+- 1 × `Strongest selected positive case; project reconstruction`
+- 1 × `Test foreknowledge without retrospective scoring`
+- 1 × `challenge with restricted scope`
+- 1 × `compatibility defense with temporal alternative`
+- 1 × `conditional abductive support`
+- 1 × `conditional deduction`
+- 1 × `conditional explanatory compatibility`
+- 1 × `conditional likelihood/abductive support`
+- 1 × `conditional objection and reply`
+- 1 × `conditional objection to a class of design arguments`
+- 1 × `conditional positive model`
+- 1 × `conditional_antiphysicalism`
+- 1 × `direct challenge with conditional limitations`
+- 1 × `gap`
+- 1 × `identity handoff`
+- 1 × `inference limit`
+- 1 × `support`
+
+## Review ID formats (records/review_summaries.json)
+
+- 15 × P2R<NN> (Phase 2 reviews): P2R01, P2R03, P2R04, P2R05, P2R08, P2R10, P2R11, P2R12, P2R13, P2R14, P2R15, P2R16, P2R17, P2R18, P2R19
+- 14 × R<NN> (Phase 1 reviews): R04, R05, R06, R07, R08, R09, R10, R11, R12, R13, R14, R15, R18, R19
+- 4 × R-P2R<NN> (prefixed Phase 2 reviews): R-P2R02, R-P2R06, R-P2R07, R-P2R09
+- 1 × G<N> (gate reviews): G0
+- 1 × RV-<TASK>-<NNN>: RV-P2RA01-001
+
+## Structural notes
+
+- `conflicting_claim_ids` is empty on 717 of 717 claims; conflicts are carried in `alternative_explanations` prose and argument objection/reply links instead.
+- Record IDs are uniformly `PREFIX-TASK-NNN`; review IDs are not (see buckets above).

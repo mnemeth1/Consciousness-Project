@@ -1,0 +1,724 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T01",
+  "report": "work/P2T01/report.md",
+  "counts": {
+    "claims": 14,
+    "arguments": 4,
+    "cases": 0,
+    "sources": 4
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T01-001",
+      "statement": "O'Connor's 1994 formulation requires supervenience, nonstructurality and downward causal influence; it discusses hidden microproperties or dispositions as a rival explanation.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T01-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-003",
+          "locator": "pp. 97–99; notes 18 and 21–22, pp. 103–104"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution_pending_review",
+      "inference_strength": "attribution_only_not_premise_truth",
+      "limitations": [
+        "This supervenience commitment is explicitly repudiated in the 2005 model; do not merge the two dependence accounts.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-002",
+      "statement": "Kim's selected challenge allows ordinary downward causation but argues that a sufficient noncausal emergence base threatens to preempt the emergent as a cause; diachronic relocation alone does not remove this problem.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T01-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-002",
+          "locator": "2008 reprint §§7.6–7.8, pp. 143–150; p. 153 notes 35–37"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution_pending_review",
+      "inference_strength": "attribution_only_not_premise_truth",
+      "limitations": [
+        "Original journal PDF not inspected; use reprint locators.",
+        "The argument has substantive assumptions about noncausal determination, sufficiency and exclusion.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-003",
+      "statement": "Kim treats phenomenal qualia as promising cases of irreducibility and recognizes novel powers of ordinary microstructural properties, so his challenge is not a claim that all qualia are already reduced or all whole-to-part influence is impossible.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T01-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-002",
+          "locator": "2008 reprint pp. 138–139, 144, 153 note 37"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution_pending_review",
+      "inference_strength": "attribution_only_not_premise_truth",
+      "limitations": [
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-004",
+      "statement": "O'Connor and Wong's 2005 account posits basic nonstructural properties causally generated and sustained by organized physical systems, rejects general intrinsic synchronic supervenience, and explicitly repudiates the earlier 1994 supervenience formulation.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T01-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 662–668; p. 675 note 8"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution_pending_review",
+      "inference_strength": "attribution_only_not_premise_truth",
+      "limitations": [
+        "This is the authors' proposed ontology, not an established neural law.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-005",
+      "statement": "The 2005 reply treats the emergent as an intermediate cause in a temporal process rather than an independent redundant cause, rejecting the noncausal dependence premise of Kim's selected preemption argument.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T01-001",
+        "S-P2T01-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 668–670; pp. 676–677 notes 14–15"
+        },
+        {
+          "source_id": "S-P2T01-002",
+          "locator": "reprint pp. 149–150"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution_pending_review",
+      "inference_strength": "attribution_only_not_premise_truth",
+      "limitations": [
+        "Its original p. 32 cross-reference matches reprint p. 149 only at the passage level; no complete pagination map is asserted.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-006",
+      "statement": "The 2005 authors acknowledge a disputed simplicity comparison with latent microdispositional alternatives, offer a history-dependent thought experiment, and invoke contested first-person motivation; they do not supply an independently confirmed emergence law.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T01-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 670–674; p. 677 notes 16–20"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution_pending_review",
+      "inference_strength": "attribution_only_not_premise_truth",
+      "limitations": [
+        "The thought experiment stipulates its discriminating conditions and excludes relevant physical probabilistic explanation by assumption.",
+        "The claim concerns what this paper establishes, not all evidence in the literature.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-007",
+      "statement": "Rejecting noncausal base determination and qualified physical completeness permits a distinct causal-chain response to the selected preemption argument; this blocks that conditional disproof without establishing that the revised ontology is actual.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-P2T01-001",
+        "S-P2T01-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 658–659, 664–670"
+        },
+        {
+          "source_id": "S-P2T01-002",
+          "locator": "reprint pp. 149–150"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T01-002",
+        "CL-P2T01-004",
+        "CL-P2T01-005"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A complete microphysical causal explanation may be available."
+      ],
+      "record_reliability": "explicit_project_analysis_pending_review",
+      "inference_strength": "conditional_argument_not_empirical_establishment",
+      "limitations": [
+        "No general proof of metaphysical consistency or defeat of every causal-exclusion formulation.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-008",
+      "statement": "A fair comparison must count basic experiential properties, latent powers and laws, generation and maintenance conditions, and phenomenal-quality/subject assignments on each side; no selected original derives a uniquely confirmed theory from those costs.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-P2T01-001",
+        "S-P2T01-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 670–674; notes 1, 5, 17"
+        },
+        {
+          "source_id": "S-P2T01-004",
+          "locator": "pp. 54–63"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T01-006",
+        "CL-P2T01-012",
+        "CL-P2T01-013"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Latent microphysical powers",
+        "Nonstructural emergent properties",
+        "Different realization or interventionist accounts not inspected here"
+      ],
+      "record_reliability": "explicit_project_analysis_pending_review",
+      "inference_strength": "conditional_argument_not_empirical_establishment",
+      "limitations": [
+        "A cost inventory is not a numerical parsimony measure or a winner ranking.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-009",
+      "statement": "If the 2005 ontology of basic nonstructural experiential property types is granted, strong emergence can satisfy a limited property-level reading of H-F despite causal dependence of instances; it does not entail a universal conscious ground or independent mental substance.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-P2T01-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 662–668; p. 675 notes 1 and 5"
+        },
+        {
+          "input_artifact": "work/T01/report.md",
+          "locator": "H-F, dependence and grounding distinctions"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T01-004",
+        "CL-P2T01-007"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "explicit_project_analysis_pending_review",
+      "inference_strength": "conditional_argument_not_empirical_establishment",
+      "limitations": [
+        "Conditional taxonomy, not acceptance of H-F.",
+        "Causal generation alone does not entail fundamental status; the additional nonstructural/basic-property premise does the work.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-010",
+      "statement": "The selected maintenance condition requires supporting organization; causal mental influence therefore does not establish H-B, and the model must reproduce inherited neural-dependence patterns and specify discriminating dynamics before empirical comparison.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-P2T01-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 665–668, especially p. 666 model and p. 676 note 11"
+        },
+        {
+          "input_artifact": "state/input_snapshots/phase2_start/claims.json",
+          "locator": "CL-T12-019"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T01-004",
+        "CL-P2T01-006"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "explicit_project_analysis_pending_review",
+      "inference_strength": "conditional_argument_not_empirical_establishment",
+      "limitations": [
+        "No new empirical evidence reviewed here.",
+        "Does not prove consciousness impossible on every alternative substrate.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-011",
+      "statement": "The selected temporal emergence accounts do not by themselves establish H-U, H-S, H-T, H-P, H-I, H-G or H-A; property novelty does not supply a universal subject, same-person survival, timeless bearer, full preservation or moral authority.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-P2T01-001",
+        "S-P2T01-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 664–668; note 5"
+        },
+        {
+          "source_id": "S-P2T01-004",
+          "locator": "pp. 54–63"
+        },
+        {
+          "input_artifact": "state/input_snapshots/phase2_start/claims.json",
+          "locator": "CL-T12-020"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T01-004",
+        "CL-P2T01-009",
+        "CL-P2T01-010"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "explicit_project_analysis_pending_review",
+      "inference_strength": "conditional_argument_not_empirical_establishment",
+      "limitations": [
+        "No positive component upgrade; nonassessment does not mean equal probabilities.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-012",
+      "statement": "Shoemaker proposes micro-latent powers manifested in emergence-engendering combinations; even under this emergentism the complete microfacts fix macrofacts. He distinguishes causal power from mere nomic necessitation in his response to Kim.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T01-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-004",
+          "locator": "pp. 54–60"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution_pending_review",
+      "inference_strength": "attribution_only_not_premise_truth",
+      "limitations": [
+        "The view is proposed conditionally; not evidence that actual microentities possess the stipulated powers.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-013",
+      "statement": "Shoemaker first discusses distinct physical and emergent microstructural properties, then prefers their identity under essential causal individuation, modifying the supervenience claim to concern descriptions or included states of affairs; he explicitly discusses but rejects a causal-base option.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T01-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-004",
+          "locator": "pp. 60–63, especially p. 61"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution_pending_review",
+      "inference_strength": "attribution_only_not_premise_truth",
+      "limitations": [
+        "The identity conclusion depends on his metaphysics of properties and laws, which this paper references rather than fully defends.",
+        "It is not equivalent to the nonstructural 2005 account.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "claim_id": "CL-P2T01-014",
+      "statement": "Shoemaker shows that a reply to Kim need not support the 2005 nonstructural ontology; deciding between them requires assessing causal property individuation, dependence and specified empirical discriminators, not simply counting successful replies to exclusion.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-P2T01-001",
+        "S-P2T01-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T01-001",
+          "locator": "pp. 670–674; p. 677 note 17"
+        },
+        {
+          "source_id": "S-P2T01-004",
+          "locator": "pp. 58–63"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T01-005",
+        "CL-P2T01-006",
+        "CL-P2T01-012",
+        "CL-P2T01-013"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "explicit_project_analysis_pending_review",
+      "inference_strength": "conditional_argument_not_empirical_establishment",
+      "limitations": [
+        "The 2005 paper discusses a relative of Shoemaker's picture; do not attribute every nuance of its opponent reconstruction to Shoemaker.",
+        "Later direct critiques of Shoemaker remain uninspected.",
+        "No empirical observation, posterior probability or independent replication follows from these philosophical texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T01-001",
+      "name": "Causally generated nonstructural experience",
+      "position": "Selected positive case, reconstructed conditionally",
+      "premises": [
+        "Experiences have characteristics and causal relevance warranting explanation.",
+        "Organized physical systems causally support experience.",
+        "Experiential properties can be basic and nonstructural without being separate substances."
+      ],
+      "bridge_principles": [
+        "Causal production does not by itself establish constitutive reduction.",
+        "Qualified causal completeness of an exclusively nonexperiential account is denied."
+      ],
+      "conclusion": "A causal-emergent model is available as a distinct proposal; its actuality is not established.",
+      "source_ids": [
+        "S-P2T01-001",
+        "S-P2T01-003"
+      ],
+      "claim_ids": [
+        "CL-P2T01-001",
+        "CL-P2T01-004",
+        "CL-P2T01-006",
+        "CL-P2T01-009"
+      ],
+      "dependency_argument_ids": [],
+      "opposing_argument_ids": [
+        "A-P2T01-002",
+        "A-P2T01-004"
+      ],
+      "strongest_objection": "The complete microphysical causal story might explain all effects; first-person access may not reveal hidden constitution.",
+      "strongest_reply": "Specify emergents as intermediate causes; compare latent-powers alternatives fairly.",
+      "unresolved_issues": [
+        "Phenomenal irreducibility premise",
+        "Generation and subject laws",
+        "Independent discriminatory evidence"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "argument_id": "A-P2T01-002",
+      "name": "Noncausal-base causal preemption",
+      "position": "Kim challenge reconstructed",
+      "premises": [
+        "An irreducible emergent has a sufficient basal condition.",
+        "The base-to-emergent determination is noncausal.",
+        "Emergent influence must act through later basal conditions."
+      ],
+      "bridge_principles": [
+        "A sufficient basal causal explanation preempts an independent irreducible causal competitor absent acceptable overdetermination."
+      ],
+      "conclusion": "Emergent properties face causal and explanatory exclusion under the stated dependence assumptions.",
+      "source_ids": [
+        "S-P2T01-002"
+      ],
+      "claim_ids": [
+        "CL-P2T01-002",
+        "CL-P2T01-003"
+      ],
+      "dependency_argument_ids": [],
+      "opposing_argument_ids": [
+        "A-P2T01-001",
+        "A-P2T01-003",
+        "A-P2T01-004"
+      ],
+      "strongest_objection": "The base may act through an emergent causal intermediary, or mere necessitation may not bestow the relevant powers.",
+      "strongest_reply": "The selected argument rules out a causal intermediary by its noncausal emergence premise; alternative dependence accounts need separate evaluation.",
+      "unresolved_issues": [
+        "Justification and scope of noncausal-base premise",
+        "Causal versus nomic sufficiency"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "argument_id": "A-P2T01-003",
+      "name": "Temporal causal-chain reply",
+      "position": "O'Connor and Wong 2005 direct response",
+      "premises": [
+        "Physical configuration generates and sustains an emergent over time.",
+        "The emergent mediates some later effects.",
+        "There is no independently complete parallel physical route in the model."
+      ],
+      "bridge_principles": [
+        "Earlier causal dependence does not automatically eliminate intermediate causal relevance."
+      ],
+      "conclusion": "Kim's selected preemption inference does not establish a contradiction in this revised model without its disputed premises.",
+      "source_ids": [
+        "S-P2T01-001",
+        "S-P2T01-002"
+      ],
+      "claim_ids": [
+        "CL-P2T01-004",
+        "CL-P2T01-005",
+        "CL-P2T01-007"
+      ],
+      "dependency_argument_ids": [],
+      "opposing_argument_ids": [
+        "A-P2T01-002",
+        "A-P2T01-004"
+      ],
+      "strongest_objection": "Relabeling the mechanism may add no explanatory benefit over latent microphysical powers.",
+      "strongest_reply": "The authors contest simplicity and offer a history-dependent scenario; this motivates comparison without settling it.",
+      "unresolved_issues": [
+        "Actuality and causal laws",
+        "Simplicity disagreement",
+        "Strongest microdispositional alternative"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "argument_id": "A-P2T01-004",
+      "name": "Micro-latent powers and property individuation",
+      "position": "Shoemaker countercase and reply to Kim",
+      "premises": [
+        "Micro-latent powers manifest only in suitable combinations.",
+        "Complete microfacts, including those powers, fix macrofacts.",
+        "On the preferred view properties possess their individuating causal features essentially."
+      ],
+      "bridge_principles": [
+        "Nomic necessitation alone need not constitute the relevant causal power in the provisional distinct-property account.",
+        "Under preferred individuation and noncausal dependence, equivalent causal properties are identical."
+      ],
+      "conclusion": "A response to preemption can support a microstructural or descriptive account instead of basic nonstructural emergence.",
+      "source_ids": [
+        "S-P2T01-004",
+        "S-P2T01-001"
+      ],
+      "claim_ids": [
+        "CL-P2T01-012",
+        "CL-P2T01-013",
+        "CL-P2T01-014"
+      ],
+      "dependency_argument_ids": [],
+      "opposing_argument_ids": [
+        "A-P2T01-001",
+        "A-P2T01-002",
+        "A-P2T01-003"
+      ],
+      "strongest_objection": "The individuation assumptions may be disputed; the 2005 model changes the dependence relation and contests the rival's simplicity.",
+      "strongest_reply": "Shoemaker explicitly considers a causal-base option before rejecting it from his essential-powers commitments; the disagreement remains premise-dependent.",
+      "unresolved_issues": [
+        "Causal essentialism not independently adjudicated",
+        "Latent-power laws unspecified for actual consciousness",
+        "Later Shoemaker/Shrader debate uninspected"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T01-001",
+      "title": "The Metaphysics of Emergence",
+      "authors": [
+        "Timothy O'Connor",
+        "Hong Yu Wong"
+      ],
+      "publication_date": "2005-11-09",
+      "url_or_identifier": "https://doi.org/10.1111/j.0029-4624.2005.00543.x",
+      "doi": "10.1111/j.0029-4624.2005.00543.x",
+      "source_type": "original_philosophical_article",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Journal pp. 658–661: framework and motivations",
+        "pp. 662–668: nonstructural properties and temporal model; p. 666 diagram",
+        "pp. 668–670: Kim response",
+        "pp. 670–674: epistemic and microdispositional challenges",
+        "p. 675 note 8: repudiation of 1994 supervenience",
+        "pp. 675–678: notes and bibliography"
+      ],
+      "provenance_notes": "Author-hosted scan of Noûs 39(4), 658–678; journal original, not a preprint. PDF page = journal page minus 657.",
+      "related_case_ids": [],
+      "inspected_copy": "work/P2T01/tmp/oconnor_wong_2005.pdf",
+      "retrieval_url": "https://toconnor.org/wp-content/uploads/2021/04/OConnor_MetaphEmergence05.pdf",
+      "sha256": "74b53bba3177d01d6a30fea09490da680ecc02ed512196dcada9451a9c3f6a87",
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "source_id": "S-P2T01-002",
+      "title": "Making Sense of Emergence",
+      "authors": [
+        "Jaegwon Kim"
+      ],
+      "publication_date": "1999-08",
+      "url_or_identifier": "https://doi.org/10.1023/A:1004563122154",
+      "doi": "10.1023/A:1004563122154",
+      "source_type": "original_philosophical_article",
+      "access_status": "inspected_full_text_reprint",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "2008 MIT reprint ch. 7, printed pp. 127–153; physical PDF 144–170",
+        "pp. 138–139: qualia and limits of functional reduction",
+        "§§7.6–7.8, pp. 143–150: downward causation and preemption",
+        "p. 153 notes 35–37: O'Connor 1994 and qualifications",
+        "preliminary p. xiii and p. 150: original reproduction credits"
+      ],
+      "provenance_notes": "Explicitly credited reprint of the 1999 original in Bedau and Humphreys (eds.), Emergence: Contemporary Readings in Philosophy and Science (MIT Press 2008), chapter 7, printed 127–153. PDF page = reprint printed page plus 17. Original journal pagination 3–36 not inspected as a typeset journal PDF.",
+      "related_case_ids": [],
+      "inspected_copy": "work/P2T01/tmp/kim_2008_reprint_container.pdf",
+      "retrieval_url": "https://lps.elte.hu/gomori/reduction/readings/Emergence%20-%20Contemporary%20Readings%20in%20Philosophy%20and%20Science%20by%20Mark%20A.%20Bedau%2C%20Paul%20Humphreys%20%28z-lib.org%29.pdf",
+      "sha256": "156a8f9ddc160668e13b5edea9dee4298a45c785329419ad167e3900d90d4ebb",
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "source_id": "S-P2T01-003",
+      "title": "Emergent Properties",
+      "authors": [
+        "Timothy O'Connor"
+      ],
+      "publication_date": "1994-04",
+      "url_or_identifier": "https://toconnor.org/wp-content/uploads/2018/05/OConnor_Emergent-Properties-1994.pdf",
+      "doi": null,
+      "source_type": "original_philosophical_article",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Journal pp. 95–98: nonstructurality, supervenience and downward causation",
+        "pp. 98–99: powers and microdispositional countercase",
+        "pp. 102–104: conclusion, notes and citation pass"
+      ],
+      "provenance_notes": "Author-hosted APQ 31(2), 91–104 scan with JSTOR cover. PDF page = journal page minus 89.",
+      "related_case_ids": [],
+      "inspected_copy": "work/P2T01/tmp/oconnor_1994.pdf",
+      "retrieval_url": "https://toconnor.org/wp-content/uploads/2018/05/OConnor_Emergent-Properties-1994.pdf",
+      "sha256": "a8626d8f1b8a45baf99e0f601926ab82cfbcebd5068e855b8fdd439a45d45aa4",
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    },
+    {
+      "source_id": "S-P2T01-004",
+      "title": "Kim on Emergence",
+      "authors": [
+        "Sydney Shoemaker"
+      ],
+      "publication_date": "2002-03",
+      "url_or_identifier": "https://doi.org/10.1023/A:1015708030227",
+      "doi": "10.1023/A:1015708030227",
+      "source_type": "original_philosophical_article",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Journal pp. 53–57: micro-latent powers and microstructural properties",
+        "pp. 58–60: direct reply to Kim on preemption",
+        "pp. 60–63: preferred identity and description account",
+        "p. 63 notes 1–4: backward references; note 1 inaccurate Kim page extent"
+      ],
+      "provenance_notes": "User-supplied typeset Philosophical Studies 108, 53–63 (2002). PDF pages 1–11 = journal 53–63. Final PDF page 12 visually blank.",
+      "related_case_ids": [],
+      "inspected_copy": "state/input_snapshots/user_sources/Shoemaker_2002_Kim_on_Emergence_user_supplied.pdf",
+      "retrieval_url": "https://doi.org/10.1023/A:1015708030227",
+      "sha256": "971c061640b4797e11a9ecf596d84787bee1422c26f975a843f23cd25962a7a9",
+      "review_status": "accepted",
+      "review_id": "P2R01"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "role": "Curated mapping from thesis parts to evidence-ledger task prefixes. This is a non-canonical navigation aid consumed by scripts/derived/build.cjs to generate derived/evidence/<part>.md. A task prefix selects ledger records by ID (CL-<TASK>-*, A-<TASK>-*, C-<TASK>-*, S-<TASK>-*) plus the source records those records cite. It never adds, removes or reinterprets canonical records.",
+  "maintenance": "Keep each part's tasks consistent with the work/<TASK>/report.md inputs in that chapter's front matter; the derived build fails when a front-matter report input names a task missing here. Curators may list additional tasks whose records are relevant beyond the front-matter reports.",
+  "parts": {
+    "c00": {
+      "tasks": [],
+      "note": "Front matter. The published article (paper/paper.html) is the only input; no ledger task evidence is drafted here."
+    },
+    "c01": {
+      "tasks": ["T01"],
+      "note": "T01 produced the framing report only; no ledger records carry the T01 prefix."
+    },
+    "c02": {
+      "tasks": ["T02"],
+      "note": "Methodology chapter. Also reads work/G0/protocol_v1.md and AI_Execution_Framework.md sections 5-6; T02 produced the method report only."
+    },
+    "c03": {
+      "tasks": ["T03", "T12", "P2T01", "P2T02", "P2T03", "P2T04", "P2T05"]
+    },
+    "c04": {
+      "tasks": ["T05", "P2T01", "P2T03", "P2T05"]
+    },
+    "c05": {
+      "tasks": ["T10", "P2T10", "P2T11"]
+    },
+    "c06": {
+      "tasks": ["T04", "T06", "T07", "T08", "T09", "T19", "P2T09", "P2T14", "P2T15", "P2T16", "P2T17", "P2T18", "P2T19"]
+    },
+    "c07": {
+      "tasks": ["T11", "T13", "P2T12"]
+    },
+    "c08": {
+      "tasks": ["T14", "P2T13"]
+    },
+    "c09": {
+      "tasks": ["T15", "P2T06", "P2T07"]
+    },
+    "c10": {
+      "tasks": ["T15", "P2T08"]
+    },
+    "c11": {
+      "tasks": ["T16", "T17", "T18"],
+      "submitted_inputs": ["reports/P2S01/report.md", "reports/P2S02/report.md"],
+      "note": "T16-T18 are synthesis tasks with reports but no ledger records. P2S01/P2S02 are submitted, not accepted; under P2-AMEND-002 they enter only as explicitly labeled rebased inputs. Also reads work/G2/synthesis_constraints.json."
+    },
+    "c12": {
+      "tasks": ["T17"],
+      "note": "Also reads the component requirements in work/G2/synthesis_constraints.json."
+    },
+    "apA": {
+      "tasks": ["T04", "T06", "T19", "P2T14", "P2T15", "P2T16", "P2T17"],
+      "include_all_cases": true,
+      "note": "Case evidence tables cover all 23 case records, not only the listed tasks' cases."
+    },
+    "apB": {
+      "tasks": ["T03"],
+      "submitted_inputs": ["reports/P2S01/report.md"],
+      "note": "P2S01 is submitted, not accepted; label explicitly."
+    },
+    "apC": {
+      "tasks": ["P2A01"],
+      "include_gap_gate_register": true,
+      "note": "Disposition register for the 35 gap groups and 12 withheld gates; the unified view is derived/gap_gate_register.json, rendered into this pack. P2A01 is the narrative audit-disposition report; no machine-readable P2A01 disposition file is present in this snapshot."
+    },
+    "apD": {
+      "tasks": ["T16"],
+      "submitted_inputs": ["reports/P2S01/report.md"],
+      "note": "P2S01 is submitted, not accepted; label explicitly."
+    }
+  }
+}

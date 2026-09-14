@@ -1,0 +1,914 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T08",
+  "report": "work/P2T08/report.md",
+  "counts": {
+    "claims": 24,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 4
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T08-001",
+      "statement": "Adams tests internal consistency using the relevant religious attributes and valuables together with the kinds and amounts of evil; system-internal availability does not independently establish actuality.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-001"
+      ],
+      "source_locators": [
+        "pp297–299 §§I–II; pp306–310 §§4.2–V"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Her internal test is not an account of all actual divine reasons.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-002",
+      "statement": "Adams already states an objective, individually relative criterion of horror in1989, encompassing doing and suffering; the participant’s perspective matters without being infallible.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-001"
+      ],
+      "source_locators": [
+        "pp299–300 §II"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Do not credit the later clarification with first introducing objectivity; illustrations are not new event evidence.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-003",
+      "statement": "Adams distinguishes global goods from goodness to each created person and requires defeat of horror within each participant’s life, including perpetrators.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-001"
+      ],
+      "source_locators": [
+        "pp302–305 §§3.2–3.3"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Her criticism of unsupplemented global strategies is not independent inspection or defeat of every free-will defense.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-004",
+      "statement": "Adams retains reasons for permission but argues that specifying how God could be good to each participant may exhibit compossibility without identifying why permission occurs.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-001"
+      ],
+      "source_locators": [
+        "pp304–306 §§3.3–4.1"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Unknown why is not no reason, and how-restoration does not by itself demonstrate morally adequate permission.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-005",
+      "statement": "Adams distinguishes engulfing a horror’s threat from meaningful defeat through divine intimacy and proposes alternative Christological or mystical integrations.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-001"
+      ],
+      "source_locators": [
+        "pp306–309 §§4.2–4.3"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Alternatives have different assumptions; no observed restoration, verified survival or cumulative corroboration.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-006",
+      "statement": "Adams acknowledges conceptual underdevelopment concerning shared pain and Christological metaphysics.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-001"
+      ],
+      "source_locators": [
+        "p310 conclusion"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Her cited further work has not been inspected in this packet.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-007",
+      "statement": "Sutherland distinguishes reassurance or a worthwhile outcome from justice of the earlier harm and presses the claims of other victims and preservation of moral judgment.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-005"
+      ],
+      "source_version_ids": [
+        "V-P2T08-002"
+      ],
+      "source_locators": [
+        "pp318–323, especially318–319 and321–323"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "His strongest objection survives his disputable first-person reading; printed317 anomaly is not silently corrected or decisive.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-008",
+      "statement": "The inspected revised Adams reproduction explicitly clarifies that horror gives everyone a prima facie reason for concern about the participant’s life.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-003"
+      ],
+      "source_locators": [
+        "PDF2 §II and PDF3 paradigmatic-example clarification"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Author-attributed reproduction only; exact1990 print identity and equivalence remain unverified.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-009",
+      "statement": "The revised reproduction answers Sutherland’s reason/emotion criticism by presenting intimate relationship as a good that supplies a reason to value the participant’s life as a whole.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-003"
+      ],
+      "source_locators": [
+        "PDF5 §4.1 added response to Sutherland314–315"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "This does not itself supply sufficient permission for the earlier harm; exact print wording unverified.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-010",
+      "statement": "The revised reproduction denies that defeat entails that the original evil lacked horror, injustice or seriousness, or that moral intuitions about it were unreliable.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_version_ids": [
+        "V-P2T08-003"
+      ],
+      "source_locators": [
+        "PDF6 §4.3 added response to Sutherland321–323"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Denial of an alleged implication is not demonstration of actual defeat or adequate permission; visible incomplete first proposition retained.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-011",
+      "statement": "The inspected exchange narrows the reply gap but leaves participant restoration, observers’ reassurance and justification of original permission as distinct burdens.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [
+        "S-T15-004",
+        "S-T15-005"
+      ],
+      "source_version_ids": [
+        "V-P2T08-001",
+        "V-P2T08-002",
+        "V-P2T08-003"
+      ],
+      "source_locators": [
+        "Adams1989 pp302–310; revisedPDF2,5–6",
+        "Sutherland pp318–323"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-restoration",
+      "supporting_claim_ids": [
+        "CL-P2T08-003",
+        "CL-P2T08-004",
+        "CL-P2T08-005",
+        "CL-P2T08-007",
+        "CL-P2T08-008",
+        "CL-P2T08-009",
+        "CL-P2T08-010"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Project conditional analysis; derivative accepted comparisons identified separately",
+      "inference_strength": "Conditional inference; no empirical or metaphysical confirmation",
+      "limitations": [
+        "Not a successful or refuted whole theodicy; exact revised print identity still missing.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-012",
+      "statement": "Howard-Snyder distinguishes immediate desire from all-things-considered desire and explicitly modifies the earlier hiddenness argument with an overriding-reason qualification and separate no-reason premise.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-009"
+      ],
+      "source_version_ids": [
+        "V-P2T08-004"
+      ],
+      "source_locators": [
+        "pp433–437 §I"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Do not transfer this reconstruction into Schellenberg1993 or2025 as identical wording; belief is not loving reciprocation.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-013",
+      "statement": "Howard-Snyder grants inculpable nonbelief and stipulates a prima facie criterion permitting a means no worse than alternatives; he does not claim unaided cognition identifies an actual sufficient divine reason.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-009"
+      ],
+      "source_version_ids": [
+        "V-P2T08-004"
+      ],
+      "source_locators": [
+        "pp437–439 §§II–III"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "The criterion is stipulated, not established; possible good, prima facie reason and all-things-considered permission differ. Printed439 premise-number anomaly retained.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-014",
+      "statement": "Howard-Snyder distinguishes ownership of initially unchosen love from greater fittingness of voluntarily cultivated love, and assumes extension from type1 to types2/3 without argument.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-009"
+      ],
+      "source_version_ids": [
+        "V-P2T08-004"
+      ],
+      "source_locators": [
+        "pp441–447, especially443–447; p450 reply3"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "No measured disposition classification or demand for perfect love before disclosure.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-015",
+      "statement": "Howard-Snyder concedes his sketched reason fails for the willing seeker who recognizes deficient love and strongly desires improvement, and allows a sufficiently fitting seeker to escape while disputing identification.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-009"
+      ],
+      "source_version_ids": [
+        "V-P2T08-004"
+      ],
+      "source_locators": [
+        "p447 note18; p450 reply4"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Neither concession is proof about the actual population or the existence/nonexistence of a particular seeker.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-016",
+      "statement": "Howard-Snyder limits the defense to temporary nonbelief and leaves cultural distribution unaddressed; whole earthly life delay presupposes survival, and eventual coerced love is not ruled out as a second-best possibility.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-009"
+      ],
+      "source_version_ids": [
+        "V-P2T08-004"
+      ],
+      "source_locators": [
+        "p440; pp451–453, especially452"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "No actual afterlife, population explanation, endorsement of an actual coercive plan or permanent abandonment established.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-017",
+      "statement": "Howard-Snyder’s final epistemic fallback challenges the inference from failure to conceive reasons to their absence; its relation to positive goodness-recognition requires a scope argument.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [
+        "S-T15-009"
+      ],
+      "source_version_ids": [
+        "V-P2T08-004"
+      ],
+      "source_locators": [
+        "p453 final paragraph; pp438–439,448–451"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [
+        "CL-P2T08-013",
+        "CL-P2T08-014",
+        "CL-P2T08-016"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Project conditional analysis; derivative accepted comparisons identified separately",
+      "inference_strength": "Conditional inference; no empirical or metaphysical confirmation",
+      "limitations": [
+        "First clause is attribution; scope comparison is explicit project inference. Do not infer that every local uncertainty entails unrestricted moral skepticism.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-018",
+      "statement": "Schellenberg1996 directly replies to Howard-Snyder1996 and disputes the inserted clause and independent no-reason premise, proposing positive defeasible support for divine intention instead.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T08-001"
+      ],
+      "source_version_ids": [
+        "V-P2T08-006"
+      ],
+      "source_locators": [
+        "pp455–459 §I, notes1–8"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "The full1993 positive case is referenced but not independently read;1996 is not a reply to2025.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-019",
+      "statement": "Schellenberg accepts commitment to the absence of overriding reasons and vulnerability to actual counterconsiderations, while denying a requirement to establish that absence by an independent Rowe-style inference.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T08-001"
+      ],
+      "source_version_ids": [
+        "V-P2T08-006"
+      ],
+      "source_locators": [
+        "pp457–459, especially459 and note8"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Do not claim he denies the negative existential commitment or that mere inability to imagine a reason proves it.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-020",
+      "statement": "Schellenberg contests capacity in cases of certain powerless rejection and invokes manner of disclosure and continued help against likely-rejection cases; note9 denies an inference to actual-world counterparts’ acceptance.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T08-001"
+      ],
+      "source_version_ids": [
+        "V-P2T08-006"
+      ],
+      "source_locators": [
+        "pp459–460 §II first response, note9"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Theological counterpossibilities and comparative claims are not observed psychology or quantified likelihoods.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-021",
+      "statement": "Schellenberg argues that freely confirming love and choosing to continue it can occur after belief, and neither immediate nor delayed belief changes the origin of the initial disposition.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T08-001"
+      ],
+      "source_version_ids": [
+        "V-P2T08-006"
+      ],
+      "source_locators": [
+        "pp460–461 §II second response"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "The superiority of post-belief confirmation remains a philosophical comparative premise.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-022",
+      "statement": "Schellenberg proposes improving fittingness within belief, distinguishes experienced absence from nonbelief, and disputes the human-lover analogy by four divine-human disanalogies.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T08-001"
+      ],
+      "source_version_ids": [
+        "V-P2T08-006"
+      ],
+      "source_locators": [
+        "pp461–462 §II third response, note10"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-hiddenness",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct inspected attribution at stated version/locator",
+      "inference_strength": "Attribution established within inspected extent; premise truth and argument success not established",
+      "limitations": [
+        "Creation for unique fulfillment, asymmetry and divine needlessness are premises, not empirical validation or a derivation of moral authority.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-023",
+      "statement": "The selected hiddenness exchange leaves positive warrant for universal access and comparative developmental means contested; neither imagined benefits of delay nor the reply establishes actual divine conduct.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [
+        "S-T15-009",
+        "S-P2T08-001"
+      ],
+      "source_version_ids": [
+        "V-P2T08-004",
+        "V-P2T08-006"
+      ],
+      "source_locators": [
+        "Howard-Snyder pp438–453",
+        "Schellenberg pp457–462"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-normative-bridges",
+      "supporting_claim_ids": [
+        "CL-P2T08-012",
+        "CL-P2T08-013",
+        "CL-P2T08-014",
+        "CL-P2T08-015",
+        "CL-P2T08-016",
+        "CL-P2T08-017",
+        "CL-P2T08-018",
+        "CL-P2T08-019",
+        "CL-P2T08-020",
+        "CL-P2T08-021",
+        "CL-P2T08-022"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Project conditional analysis; derivative accepted comparisons identified separately",
+      "inference_strength": "Conditional inference; no empirical or metaphysical confirmation",
+      "limitations": [
+        "No later Howard-Snyder rebuttal inspected, no empirical seeker classification, no naturalism conclusion or stronger gate closure.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "claim_id": "CL-P2T08-024",
+      "statement": "Benefit, restoration, categorical reasons, permissible harm, moral authority and recognizable goodness require distinct bridges; the accepted moral comparators do not establish those bridges for these defenses.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [],
+      "source_version_ids": [],
+      "source_locators": [
+        "Derivative: frozen P2T06/P2T07 reports and phase2 impacts; historical CL-T15-016–022"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T08-normative-bridges",
+      "supporting_claim_ids": [
+        "CL-P2T08-011",
+        "CL-P2T08-023"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Project conditional analysis; derivative accepted comparisons identified separately",
+      "inference_strength": "Conditional inference; no empirical or metaphysical confirmation",
+      "limitations": [
+        "No fresh moral-original inspection; Enoch chapter3 gap retained; shared consciousness or enduring identity not established.",
+        "Submitted for independent review; not an established theological, psychological or moral fact."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08",
+      "derivative_input_paths": [
+        "work/P2T06/report.md",
+        "state/phase2_impacts/P2T06.json",
+        "work/P2T07/report.md",
+        "state/phase2_impacts/P2T07.json"
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T08-001",
+      "name": "Participant-specific defeat and the justice objection",
+      "position": "Developed Adams internal-coherence defense; serious direct Sutherland criticism and limited revised-response dossier",
+      "premises": [
+        "Horror prima facie threatens a participant’s life as a good to that participant.",
+        "Divine goodness includes goodness to each person, not only a global total.",
+        "On the selected Christian scheme, divine intimacy and integration could defeat that threat."
+      ],
+      "bridge_principles": [
+        "Meaningful integration and sufficient goodness to each participant could establish compossibility even without access to divine permission reasons.",
+        "Continued same-person life, adequate goods and coherent intimacy remain required."
+      ],
+      "conclusion": "Adams argues for conditional internal compatibility; actual restoration and adequate original permission are not established here.",
+      "source_ids": [
+        "S-T15-004",
+        "S-T15-005"
+      ],
+      "claim_ids": [
+        "CL-P2T08-001",
+        "CL-P2T08-002",
+        "CL-P2T08-003",
+        "CL-P2T08-004",
+        "CL-P2T08-005",
+        "CL-P2T08-006",
+        "CL-P2T08-007",
+        "CL-P2T08-008",
+        "CL-P2T08-009",
+        "CL-P2T08-010",
+        "CL-P2T08-011"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Sutherland pp318–323: eventual reassurance does not decide justice of the original treatment or settle other victims’ claims; moral perception may be distorted.",
+      "strongest_reply": "Revised Adams reproduction PDF2,5–6 explicitly affirms objective scope, gives a reason for whole-life value, and denies that defeat erases injustice or undermines moral judgment. This answers a claimed entailment, not every permission burden.",
+      "reply_chronology": "1989 symposium original and direct challenge; added responses explicitly named in deficient-provenance reproduction. Exact1990print unavailable; no separately dated1989rebuttal fabricated.",
+      "unresolved_issues": [
+        "Exact1990 reply version/printing equivalence",
+        "Adequate antecedent permission and each victim’s genuine restoration",
+        "Conceptual Christology/shared pain and personal continuity",
+        "Uninspected later monograph and complete alternative-theodicy chains"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "argument_id": "A-P2T08-002",
+      "name": "Temporary nonbelief for ownership and fittingness of love",
+      "position": "Howard-Snyder defense tested by Schellenberg’s actual1996 response",
+      "premises": [
+        "Reasonable belief makes the specified explicit relationship possible but does not equal love.",
+        "Freely owning and improving love may be goods.",
+        "For selected dispositions, withholding belief may be no worse a means than available alternatives."
+      ],
+      "bridge_principles": [
+        "Stipulated prima facie permission criterion; must distinguish actual all-things-considered permission.",
+        "Epistemic restraint about unknown reasons differs from proof of a sufficient actual reason."
+      ],
+      "conclusion": "A qualified challenge to confidence that no reason for temporary nonbelief exists; not an explanation of every actual nonbeliever or cultural distribution.",
+      "source_ids": [
+        "S-T15-009",
+        "S-P2T08-001"
+      ],
+      "claim_ids": [
+        "CL-P2T08-012",
+        "CL-P2T08-013",
+        "CL-P2T08-014",
+        "CL-P2T08-015",
+        "CL-P2T08-016",
+        "CL-P2T08-017",
+        "CL-P2T08-018",
+        "CL-P2T08-019",
+        "CL-P2T08-020",
+        "CL-P2T08-021",
+        "CL-P2T08-022",
+        "CL-P2T08-023"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Schellenberg pp460–462: development, confirmation and choosing continuation may occur after belief with additional benefits; no-worse comparative premise and human-lover analogy are challenged.",
+      "strongest_reply": "Howard-Snyder’s earlier internal replies pp448–451 distinguish ownership from fittingness, improvement from perfection and prima facie from conclusive reasons; p453 offers an epistemic fallback. These are available defenses already in the1996article, NOT a later reply to Schellenberg1996. No such later rebuttal inspected.",
+      "reply_chronology": "Howard-Snyder1996 follows his earlier critique of Schellenberg1993; Schellenberg1996 is the actual directly inspected response. Neither replies to2025.",
+      "unresolved_issues": [
+        "No later H-S reply to this actual response inspected",
+        "Comparative means and value premises",
+        "Note18 and sufficiently fitting seeker concessions",
+        "Types2/3 extension assumed",
+        "Temporary/afterlife and cultural limits",
+        "No population psychology or actual divine reasons"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "argument_id": "A-P2T08-003",
+      "name": "Positive support for divine intention versus an independent no-reason premise",
+      "position": "Schellenberg’s structural reply and the surviving epistemic dispute",
+      "premises": [
+        "There may be positive defeasible support that a perfectly loving God intends the relevant access.",
+        "The absence of a defeating counterconsideration need not be used as an independent inductive proof that no reason exists.",
+        "Actual overriding reasons would defeat the positive claim; the negative existential is nevertheless entailed if that claim is true."
+      ],
+      "bridge_principles": [
+        "Positive support must be adequate and not beg the disputed divine-intention premise.",
+        "Accepting an entailed proposition differs from independently establishing it through absence of known alternatives."
+      ],
+      "conclusion": "The target of Howard-Snyder’s fallback depends on which argument is defended; no full positive case or metaphysical conclusion is established by this distinction alone.",
+      "source_ids": [
+        "S-T15-009",
+        "S-P2T08-001"
+      ],
+      "claim_ids": [
+        "CL-P2T08-012",
+        "CL-P2T08-013",
+        "CL-P2T08-017",
+        "CL-P2T08-018",
+        "CL-P2T08-019",
+        "CL-P2T08-023"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T08-002"
+      ],
+      "strongest_objection": "Howard-Snyder pp433–439,453: desire for access does not by itself show an all-things-considered intention; inaccessible reasons may remain.",
+      "strongest_reply": "Schellenberg pp457–459 appeals to positive support, accepts defeaters and the negative existential commitment, but rejects requiring an independent Rowe-style inference.",
+      "reply_chronology": "Actual1996response directly addresses the1996reconstruction; earlier1993positive argument remains a cited uninspected dependency.",
+      "unresolved_issues": [
+        "Full1993positive case not inspected",
+        "Adequacy of divine-intention and human-analogy premises",
+        "Scope cost for positive goodness recognition",
+        "No complete hiddenness exchange or family verdict"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T08-001",
+      "title": "Response to Howard-Snyder",
+      "authors": [
+        "J. L. Schellenberg"
+      ],
+      "publication_date": "1996-09",
+      "url_or_identifier": "https://doi.org/10.1080/00455091.1996.10717462",
+      "source_type": "original journal reply",
+      "access_status": "freshly_inspected_complete_article",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "printed455–462, complete body and notes1–10, PDF3–10"
+      ],
+      "provenance_notes": "Canadian Journal of Philosophy26(3). Exact supplied immutable PDF, SHAca75b71d90de9b5533d0ba3a67ed3ec33af1f1a77c1b2af8e2c26268e0290dc7. 1996 original;2013 wrapper online date;2014 download;2020 Cambridge record date distinct. Direct target H-S1996 established by body and note1. Full1993 book not inspected.",
+      "related_case_ids": [],
+      "version_ids": [
+        "V-P2T08-005",
+        "V-P2T08-006"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R08"
+    },
+    {
+      "source_id": "S-T15-004",
+      "title": "Horrendous Evils and the Goodness of God — I",
+      "authors": [
+        "Marilyn McCord Adams"
+      ],
+      "publication_date": "1989",
+      "url_or_identifier": "https://andrewmbailey.com/mma/pdfs/HorrendousEvilsAndTheGoodnessOfGod.pdf",
+      "source_type": "original symposium contribution",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "printed297–310, §§I–V",
+        "§3.2 pp302–304",
+        "§4.1–4.3 pp305–309; conclusion310"
+      ],
+      "provenance_notes": "Two separately authored symposium contributions in one27-page PDF; common-container dependency, not independent empirical evidence. Inspected PDF starts printed297 (some later bibliography says299). SHA256 ff051fba527c9a52cf3632cb6c4aef473e63e8d71b9c10ef01835228311b57a6. Scan OCR truncates some even pages; decisive clipped passages visually checked. PartI is Adams; PartII Sutherland is separate S-T15-005. This is1989 paper, not1999 book. Visual302,306,308,310 checked.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-005",
+      "title": "Horrendous Evils and the Goodness of God — II",
+      "authors": [
+        "Stewart Sutherland"
+      ],
+      "publication_date": "1989",
+      "url_or_identifier": "https://andrewmbailey.com/mma/pdfs/HorrendousEvilsAndTheGoodnessOfGod.pdf",
+      "source_type": "original symposium response",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "printed311–323, §§I–IV",
+        "pp317–323"
+      ],
+      "provenance_notes": "Two separately authored symposium contributions in one27-page PDF; common-container dependency, not independent empirical evidence. Inspected PDF starts printed297 (some later bibliography says299). SHA256 ff051fba527c9a52cf3632cb6c4aef473e63e8d71b9c10ef01835228311b57a6. Scan OCR truncates some even pages; decisive clipped passages visually checked. PartII is Sutherland’s direct criticism of Adams. Visual318,322 checked. His reported Tolstoy episode is an illustration here; original letter not inspected and no case record created.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-009",
+      "title": "The Argument from Divine Hiddenness",
+      "authors": [
+        "Daniel Howard-Snyder"
+      ],
+      "publication_date": "1996-09",
+      "url_or_identifier": "https://doi.org/10.1080/00455091.1996.10717461",
+      "source_type": "user-supplied original journal article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "printed433–453, complete article and footnotes",
+        "pp438–439 permission criterion and epistemic qualification",
+        "pp443–448 disposition account, especially447n18",
+        "pp449–453 objections, concessions and conclusion"
+      ],
+      "provenance_notes": "Canadian Journal of Philosophy26(3),433–453.23PDFpages:2covers then21articlepages. Exact supplied input state/input_snapshots/user_sources/Howard_Snyder_Divine_Hiddenness_user_supplied.pdf SHA2564a6ff96c37b283b43c237a8dd2ce4d071955b2a83a32038656dbf07c528196b9; LibraryIDlibfile_47f35275fff08191b9201cbea542669b. Root verified identity/DOI; author read entire article and references, visually checked439,447,450,451.1996publication,2013platform online date,2015download stamp. Response concerns earlier Schellenberg, not2025Précis. User input retained intact.",
+      "related_case_ids": []
+    }
+  ]
+}

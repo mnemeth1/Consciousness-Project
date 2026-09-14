@@ -1,0 +1,112 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T01",
+  "report": "work/T01/report.md",
+  "counts": {
+    "claims": 0,
+    "arguments": 4,
+    "cases": 0,
+    "sources": 0
+  },
+  "claims": [],
+  "arguments": [
+    {
+      "argument_id": "A-T01-001",
+      "name": "Preservation to personal survival",
+      "position": "Conditional project argument skeleton; not a finding",
+      "premises": [
+        "A foundation retains information about a deceased individual (H-P-information)."
+      ],
+      "bridge_principles": [
+        "B05: the retention relation preserves the numerically same subject, not merely a representation.",
+        "An explicit identity theory establishes subjectivity beyond the bodily-life boundary."
+      ],
+      "conclusion": "If both additional premises hold, H-S follows for the specified person.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Information preservation can occur while the original subject ceases; duplicates expose the identity problem.",
+      "strongest_reply": "Specify a subject-preserving relation rather than infer it from informational fidelity.",
+      "unresolved_issues": [
+        "Truth of H-P is unassessed.",
+        "The identity relation and first-person continuation remain unresolved."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    },
+    {
+      "argument_id": "A-T01-002",
+      "name": "Endurance and enduring significance",
+      "position": "Conditional project argument skeleton; not a finding",
+      "premises": [
+        "A specified person or item persists under H-S or H-P."
+      ],
+      "bridge_principles": [
+        "B09: persistence of that subject or item is valuable under a stated normative account.",
+        "B09: the proposed value is not defeated by the content or conditions of persistence."
+      ],
+      "conclusion": "The specified persistence contributes enduring significance under those normative premises.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Duration alone need not increase value, and finite value may exist without persistence.",
+      "strongest_reply": "Identify the particular value preserved, such as a relationship, and argue for its normative importance.",
+      "unresolved_issues": [
+        "Whether endurance is necessary, sufficient, or merely contributory must be assessed separately.",
+        "Neither objective value nor cosmic purpose follows from duration alone."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    },
+    {
+      "argument_id": "A-T01-003",
+      "name": "Conscious production to cosmic purpose",
+      "position": "Conditional project argument skeleton; not a finding",
+      "premises": [
+        "Conscious experience occurs within the universe, treated here as an assumed explanandum without empirical assessment."
+      ],
+      "bridge_principles": [
+        "B08: an agent independently specified that outcome as an end and grounds or directs the universe toward it."
+      ],
+      "conclusion": "H-I holds for that specified end if the agency and intention premises are warranted.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The occurrence of an outcome is also compatible with an unintended byproduct.",
+      "strongest_reply": "State ends and discriminating consequences independently of the observations being explained.",
+      "unresolved_issues": [
+        "No evidence for an intending agent has been assessed.",
+        "Goodness, authority, survival and preservation remain separate."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    },
+    {
+      "argument_id": "A-T01-004",
+      "name": "Conscious foundation to moral authority",
+      "position": "Conditional project argument skeleton; not a finding",
+      "premises": [
+        "A proposed foundation exists and stands in specified creative or unifying relations to individuals (assumed for argument only)."
+      ],
+      "bridge_principles": [
+        "B10-B12: a stated normative principle connects those relations or a specified good nature to genuine reasons and obligations.",
+        "The normative principle explains binding force without identifying goodness merely with whatever the foundation does."
+      ],
+      "conclusion": "H-A follows only to the extent the normative relation establishes the specified obligations.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Descriptive unity, causal origin, power, or reward can leave binding moral justification unexplained.",
+      "strongest_reply": "Develop a defensible good-nature or relational grounding account and compare non-theistic value/reason/obligation accounts.",
+      "unresolved_issues": [
+        "Existence and goodness of the foundation are unassessed.",
+        "Objective value, moral reasons and obligations require separately explicit grounding.",
+        "Accountability and motivation do not settle authority."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    }
+  ],
+  "cases": [],
+  "sources": []
+}

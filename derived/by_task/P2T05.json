@@ -1,0 +1,1041 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T05",
+  "report": "work/P2T05/report.md",
+  "counts": {
+    "claims": 20,
+    "arguments": 4,
+    "cases": 0,
+    "sources": 3
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T05-001",
+      "statement": "Frankish’s strong illusionism denies genuinely qualitative phenomenal properties, whether physical or nonphysical.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "pp2–4; §§1.1–1.2",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "This is stronger than rejecting only ineffability or privacy; weak illusionism retains a qualitative remainder. The coherence of that remainder is disputed, not refuted by definition.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-002",
+      "statement": "Frankish retains broadly specified experiences, reports, functions and introspective representations while denying their attributed phenomenal nature.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "pp8–10; §§1.6–1.7",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Inclusive consciousness and phenomenal consciousness must not be silently interchanged. Retaining reported content does not establish its ontological interpretation.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-003",
+      "statement": "Frankish proposes nonphenomenal misrepresentation and several content mechanisms; the developed programme does not supply a complete theory.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "p1; pp20–22; opening; §§3.4–4",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Functional-role and hybrid recognitional/theoretical concepts are proposals. Solving the illusion problem requires empirical and explanatory work beyond this packet.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-004",
+      "statement": "Frankish motivates illusionism through conservative explanation, introspective fallibility and abduction from anomalousness.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "pp11–15; §2, especially§2.3",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Scientific closure, representational mediation and the adequacy of the proposed explanation are contested premises. A causal genealogy of belief alone does not establish its falsity.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-005",
+      "statement": "Frankish answers no-gap objections using nonphenomenal seeming and rejects a conscious internal spectator.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "pp17–20; §§3.2–3.3, p18nn13–15",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "An argument that all seemings must be phenomenal must be defended. Conversely, naming a functional representation does not demonstrate explanatory adequacy; Figure1 p5 is an analogy.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-006",
+      "statement": "Nida-Rümelin challenges treating phenomenal consciousness as events bearing phenomenal properties, proposing subjects’ experiential properties instead.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-002",
+          "version": "Written in May and June 2016; to appear in a special issue in 2016; author manuscript",
+          "locator": "pp2–6; §§1–2; PPP/RPP and PEB",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Her criticism of event-property individuation is argued within this manuscript; the fuller2016a treatment remains uninspected. Rejecting PPP alone does not exclude a recast illusionist thesis.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-007",
+      "statement": "Nida-Rümelin identifies experiential instantiation with immediate awareness, excluding an additional error-prone introspective step.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-002",
+          "version": "Written in May and June 2016; to appear in a special issue in 2016; author manuscript",
+          "locator": "p7; end§2; fn6",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "This is her positive anti-illusion premise, not an observed infallibility result. Her fuller Self-awareness paper is uninspected.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-008",
+      "statement": "Nida-Rümelin introduces experiential properties through examples and shared reference; her anti-illusion conclusion is expressly conditional on exemplification.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-002",
+          "version": "Written in May and June 2016; to appear in a special issue in 2016; author manuscript",
+          "locator": "pp7–10; §§3–4; conditional qualification on p9",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "The dispute concerns what the examples pick out and whether their nature is secured. Her conclusion is not an unconditional modal theorem.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-009",
+      "statement": "Nida-Rümelin notes, then sets aside, the objection that experiencing an illusion would already require phenomenal consciousness.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-002",
+          "version": "Written in May and June 2016; to appear in a special issue in 2016; author manuscript",
+          "locator": "pp4–5; §2, RPP discussion across page break",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Do not present her developed argument as an infinite-regress proof. It chiefly concerns target identification and immediate awareness.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-010",
+      "statement": "Frankish’s actual reply grants the subject-property recasting for argument and offers a representational interpretation of ostensively identified commonality.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp25–26; §4, Nida-Rümelin response, especially p26fn8",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "The grant does not endorse Nida-Rümelin’s metaphysics. His uncertainty about her blueness formulation and her realist intended nature remain relevant.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-011",
+      "statement": "Frankish rejects robust unmediated acquaintance from his physicalist commitments and acknowledges that this will not persuade Nida-Rümelin.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp26–27; §4, final Nida-Rümelin response",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Structural/dispositional physical properties are meant here, not absolutely intrinsic properties. The acknowledged disagreement is not an argument-independent refutation.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-012",
+      "statement": "Frankish allows fine-grained nonphenomenal seemings and treats limited higher-order introspection as a possible regress stop.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp9–10; p23; §2 Pereboom response; §4 Prinz response",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Pereboom/Prinz originals are not independently inspected. These claims concern Frankish’s own options and endorsements, not an approved reconstruction of those commentators. Finite introspection is proposed, not measured here.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-013",
+      "statement": "Frankish’s reply corrects earlier causal shorthand: representations, rather than nonexistent intentional objects themselves, produce effects.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-001",
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "pp13–15; §§2.2–2.3",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        },
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "p4; §1 Rey response, final paragraph",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "This matters when reconstructing the account’s causal claims. Do not attribute literal causation by nonexistent entities as his considered reply position.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-014",
+      "statement": "Frankish explicitly distinguishes illusionism from physicalism and from the claim that all experience judgments are unreliable.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp5–7; §1 Tartaglia response",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Illusionism alone does not entail physicalism. Tartaglia’s own theory is not inspected or endorsed by this packet.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-015",
+      "statement": "Frankish concedes that Russellian realism need not contradict science, while preferring illusionism on explanatory grounds.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp24–25; §4 Goff response",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Do not reconstruct his argument as eliminating every alternative by scientific contradiction. Goff’s original commentary remains uninspected.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-016",
+      "statement": "Frankish distinguishes useful introspective caricature from cognitive error and treats conceptual induction as relevant to phenomenal judgments.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp11–12; pp16–18; §2 Graziano response; §3 Mandik/Schwitzgebel responses",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Quasi-perceptual and cognitive illusion differ. His claims about prevalence, evolution and concept acquisition are philosophical proposals, not newly checked empirical findings.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-017",
+      "statement": "Frankish treats possible reconceptualization as an explanatory strategy, while conceding that detailed content explanation remains unfinished.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Documented attribution of a philosophical position; no premise-truth acceptance",
+      "source_ids": [
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp1,4,20–24; programme qualification; §4 Balog/Prinz responses",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Apparent richness is not explained away merely by allowing nonphenomenal fine-grained representations. No solved neural theory is established.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-018",
+      "statement": "The selected exchange leaves unresolved whether an adequate functional account preserves the intended target or changes it.",
+      "claim_type": "inference",
+      "epistemic_scope": "Author-proposed project inference with stated scope",
+      "source_ids": [
+        "S-P2T05-001",
+        "S-P2T05-002",
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "pp17–21; §§3.2–3.4",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        },
+        {
+          "source_id": "S-P2T05-002",
+          "version": "Written in May and June 2016; to appear in a special issue in 2016; author manuscript",
+          "locator": "pp7–9; §§2–4",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        },
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp25–27; §4 Nida-Rümelin response",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [
+        "CL-P2T05-003",
+        "CL-P2T05-006",
+        "CL-P2T05-007",
+        "CL-P2T05-008",
+        "CL-P2T05-010",
+        "CL-P2T05-011",
+        "CL-P2T05-012",
+        "CL-P2T05-017"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Project inference from opposed arguments, not a shared concession or a vote among sources. Proposed functional adequacy and acquaintance both require defense.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-019",
+      "statement": "Illusionist error theory and phenomenal identity require different bridges; this packet neither reverses the accepted v1 attributions nor establishes either ontology.",
+      "claim_type": "inference",
+      "epistemic_scope": "Author-proposed project inference with stated scope",
+      "source_ids": [
+        "S-P2T05-001",
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "pp12–13; §2.2",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        },
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp21–23; §4 Prinz response",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [
+        "CL-P2T05-001",
+        "CL-P2T05-002",
+        "CL-P2T05-003",
+        "CL-P2T05-004",
+        "CL-P2T05-013",
+        "CL-P2T05-014",
+        "CL-P2T05-015",
+        "CL-P2T05-018"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "The v1 comparison additionally uses frozen CL-T05-001–004/CL-T12-001–004 and the authorized T05/R05/G1 annex, not a new inspection of Chalmers or Papineau.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "claim_id": "CL-P2T05-020",
+      "statement": "This three-original dossier proposes a bounded illusionist coverage repair; all broader metaphysical and empirical conclusion gates remain withheld.",
+      "claim_type": "inference",
+      "epistemic_scope": "Author-proposed project inference with stated scope",
+      "source_ids": [
+        "S-P2T05-001",
+        "S-P2T05-002",
+        "S-P2T05-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T05-001",
+          "version": "Version 2, 6/4/26.",
+          "locator": "pp21–22; §4",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        },
+        {
+          "source_id": "S-P2T05-002",
+          "version": "Written in May and June 2016; to appear in a special issue in 2016; author manuscript",
+          "locator": "pp9–10; §4",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        },
+        {
+          "source_id": "S-P2T05-003",
+          "version": "Version of 6/4/26",
+          "locator": "pp26–27; §4–5",
+          "pagination": "selected eprint/manuscript; not final-journal pagination"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T05-Frankish-Nida-single-exchange",
+      "supporting_claim_ids": [
+        "CL-P2T05-003",
+        "CL-P2T05-017",
+        "CL-P2T05-018",
+        "CL-P2T05-019"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing arguments are mapped in A-P2T05-001–004; disagreement about their conclusions does not contradict faithful attribution."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Criterion6 is addressed only as a developed philosophical account. Detailed-mechanism completion, final-print collation, additional critic originals and whole-literature coverage remain outside the attained scope.",
+        "Unreviewed author proposal. These philosophical texts supply no independent empirical validation or case observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T05-001",
+      "name": "Abductive case for a nonphenomenal account",
+      "position": "Frankish’s selected strong illusionist programme",
+      "premises": [
+        "Apparent phenomenality motivates explanation; realists and illusionists dispute what this appearance warrants.",
+        "Fallible representation could in principle generate phenomenal judgments without their proposed qualitative referents.",
+        "If a sufficiently adequate nonphenomenal account is available, theoretical economy can favor it."
+      ],
+      "bridge_principles": [
+        "B-P2T05-01: Explanatory economy tracks the relevant truth only given adequate coverage and no stronger independently justified target datum.",
+        "B-P2T05-02: Psychological/representational explanation can capture the relevant epistemic achievement, not merely duplicate an utterance."
+      ],
+      "conclusion": "Frankish infers that phenomenal realism is mistaken and favors illusionism; his practical recommendation is to develop the programme. This attribution does not establish the abductive premises or their truth-conduciveness.",
+      "source_ids": [
+        "S-P2T05-001",
+        "S-P2T05-003"
+      ],
+      "claim_ids": [
+        "CL-P2T05-001",
+        "CL-P2T05-002",
+        "CL-P2T05-003",
+        "CL-P2T05-004",
+        "CL-P2T05-013",
+        "CL-P2T05-014",
+        "CL-P2T05-015",
+        "CL-P2T05-017"
+      ],
+      "dependency_argument_ids": [],
+      "opposed_argument_ids": [
+        "A-P2T05-002"
+      ],
+      "strongest_objection": "A-P2T05-002 disputes that the target is exhausted by fallible representations and asks whether the economy argument starts from a distorted target.",
+      "strongest_reply": "A-P2T05-003 contests whether ostension fixes the target’s realist nature and returns the burden to an account of unmediated awareness.",
+      "unresolved_issues": [
+        "No numerical abduction or metaphysical posterior.",
+        "Physicalism and causal closure are not empirically verified by this philosophical exchange.",
+        "CL-P2T05-013 causal correction and CL-P2T05-015 alternative concession must constrain reconstruction."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "argument_id": "A-P2T05-002",
+      "name": "Experiential target, reference and immediate awareness",
+      "position": "Nida-Rümelin’s direct phenomenal-target challenge",
+      "premises": [
+        "Phenomenal consciousness concerns subjects undergoing experiential properties; an event-property description may distort the target.",
+        "Examples can establish reference without making their nature depend on a philosophical description.",
+        "On her account, undergoing an experiential property is already awareness of it; no additional representation is needed.",
+        "At least one relevant experiential example is actually instantiated."
+      ],
+      "bridge_principles": [
+        "B-P2T05-03: The ostensively fixed experiential target includes the relevant what-it-is-like aspect without a theory-laden phenomenal-property premise.",
+        "B-P2T05-04: Immediate awareness is identical with experiential instantiation in the relevant sense and cannot be simulated by a merely functional seeming."
+      ],
+      "conclusion": "Given the stated exemplification and target premises, denial of experiential consciousness fails; the argument is conditional, as her§4 explicitly says.",
+      "source_ids": [
+        "S-P2T05-001",
+        "S-P2T05-002",
+        "S-P2T05-003"
+      ],
+      "claim_ids": [
+        "CL-P2T05-006",
+        "CL-P2T05-007",
+        "CL-P2T05-008",
+        "CL-P2T05-009",
+        "CL-P2T05-018"
+      ],
+      "dependency_argument_ids": [],
+      "opposed_argument_ids": [
+        "A-P2T05-001",
+        "A-P2T05-003"
+      ],
+      "strongest_objection": "A-P2T05-003 accepts the examples and commonality but disputes that they rule out a nonphenomenal interpretation; rejecting PPP alone cannot block a recast illusionist claim.",
+      "strongest_reply": "Her§2 p7 supplies the immediate-awareness argument, and§3 p9 distinguishes misdescribing a real property from denying its instantiation. These address more than a bare assertion that consciousness exists.",
+      "unresolved_issues": [
+        "This paper’s short explanations do not inspect its cited fuller2016a/2016b accounts.",
+        "The premise identifying awareness with instantiation cannot be certified by the author’s conviction.",
+        "Opposition does not contradict the attribution records."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "argument_id": "A-P2T05-003",
+      "name": "Reply: reference need not settle nature",
+      "position": "Frankish’s actual response to the selected critic",
+      "premises": [
+        "Grant the subject-property recasting for argument.",
+        "Accept ordinary examples and a shared feature while interpreting that feature through representational states and dispositions.",
+        "Ostension need not guarantee the descriptive or metaphysical nature attributed to its target."
+      ],
+      "bridge_principles": [
+        "B-P2T05-05: The proposed nonphenomenal interpretation is a live explanation of the very target introduced, rather than a substitute phenomenon.",
+        "B-P2T05-06: Cognitive access to structural/dispositional physical properties requires mediation; direct acquaintance cannot independently settle the question."
+      ],
+      "conclusion": "Reference fixing alone does not rule out his illusionist ontology; the remaining immediate-awareness disagreement reaches explicitly acknowledged metaphysical commitments.",
+      "source_ids": [
+        "S-P2T05-001",
+        "S-P2T05-002",
+        "S-P2T05-003"
+      ],
+      "claim_ids": [
+        "CL-P2T05-010",
+        "CL-P2T05-011",
+        "CL-P2T05-014",
+        "CL-P2T05-016",
+        "CL-P2T05-017",
+        "CL-P2T05-018"
+      ],
+      "dependency_argument_ids": [],
+      "opposed_argument_ids": [
+        "A-P2T05-002"
+      ],
+      "strongest_objection": "Nida-Rümelin’s positive awareness premise targets B-P2T05-05/06: preserving verbal examples need not preserve the experiential property she points to.",
+      "strongest_reply": "He does not merely deny the examples: he specifies an alternative account of their commonality. His physicalist refusal of robust acquaintance is candidly qualified as unpersuasive to this critic.",
+      "unresolved_issues": [
+        "The reply does not supply a neutral proof that Nida-Rümelin’s target is entirely captured.",
+        "Physicalist motivation is not an independently established premise.",
+        "No subsequent Nida-Rümelin response was required or established by these searches."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "argument_id": "A-P2T05-004",
+      "name": "Illusion, regress and the remaining content burden",
+      "position": "Strong sourced challenge and the selected author’s replies",
+      "premises": [
+        "If the supposed illusion itself has phenomenal character, phenomenality has not been eliminated.",
+        "If it is only a coarse belief, the account may fail to explain experiential richness.",
+        "If each apparent feel requires a higher phenomenal representation, the explanation risks regress or a concealed phenomenal starting point."
+      ],
+      "bridge_principles": [
+        "B-P2T05-07: An illusion of phenomenality needs the relevant phenomenal seeming; this must be argued, not assumed from the everyday word illusion.",
+        "B-P2T05-08: The offered nonphenomenal representations can explain content, richness and reactions without a conscious internal audience."
+      ],
+      "conclusion": "The regress objection identifies a real explanatory constraint; it is not automatically a contradiction once functional seeming and limited introspection are allowed.",
+      "source_ids": [
+        "S-P2T05-001",
+        "S-P2T05-002",
+        "S-P2T05-003"
+      ],
+      "claim_ids": [
+        "CL-P2T05-005",
+        "CL-P2T05-009",
+        "CL-P2T05-012",
+        "CL-P2T05-017",
+        "CL-P2T05-018"
+      ],
+      "dependency_argument_ids": [],
+      "opposed_argument_ids": [
+        "A-P2T05-001",
+        "A-P2T05-003"
+      ],
+      "strongest_objection": "Merely renaming a state a nonphenomenal representation does not explain why it presents determinate apparent qualities or captures what the critic means by experience.",
+      "strongest_reply": "Original§§3.2–3.4 rejects phenomenal content vehicles and inner observers; reply pp9–10 allows a limited higher-order route; p23 allows fine-grained nonphenomenal states. None is claimed as a completed mechanism.",
+      "unresolved_issues": [
+        "Nida-Rümelin notes and sets aside the short illusion-presupposes-consciousness line; this map does not falsely attribute a developed regress proof to her.",
+        "The Prinz/Pereboom alternatives are seen through Frankish’s reply; their originals remain uninspected.",
+        "A modal prohibition on functional seeming and an adequate worked model remain distinct unresolved demands."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T05-001",
+      "title": "Illusionism as a Theory of Consciousness",
+      "authors": [
+        "Keith Frankish"
+      ],
+      "publication_date": "2016",
+      "url_or_identifier": "https://keithfrankish.github.io/articles/Frankish_Illusionism%20as%20a%20theory%20of%20consciousness_eprint.pdf",
+      "source_type": "primary_philosophical_article_author_version",
+      "access_status": "full_selected_version_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "pp2–4; §§1.1–1.2",
+        "pp8–10; §§1.6–1.7",
+        "p1; pp20–22; opening; §§3.4–4",
+        "pp11–15; §2, especially§2.3",
+        "pp17–20; §§3.2–3.3, p18nn13–15",
+        "pp13–15; §§2.2–2.3",
+        "pp17–21; §§3.2–3.4",
+        "pp12–13; §2.2",
+        "pp21–22; §4"
+      ],
+      "provenance_notes": {
+        "source_id": "S-P2T05-001",
+        "title": "Illusionism as a Theory of Consciousness",
+        "authors": [
+          "Keith Frankish"
+        ],
+        "publication": "Journal of Consciousness Studies23(11–12)(2016):11–39",
+        "publication_year": 2016,
+        "doi": null,
+        "doi_status": "not_verified; absence of verified DOI is not proof no DOI exists",
+        "url": "https://keithfrankish.github.io/articles/Frankish_Illusionism%20as%20a%20theory%20of%20consciousness_eprint.pdf",
+        "exact_version_label": "Version 2, 6/4/26.",
+        "original_pdf_path": "work/P2T05/S-P2T05-001_original.pdf",
+        "original_pdf_sha256": "49d8f491d76f9a83f84d0eec2f6e439d8c3c49b453f8431a01011e0739347d67",
+        "pdf_pages": 24,
+        "reading_extent": "complete selected version including footnotes/references",
+        "representation_of_reading": "local original text plus selected rendered original pages",
+        "preserved_access_artifact": "work/P2T05/S-P2T05-001_original.pdf",
+        "preserved_access_artifact_sha256": "49d8f491d76f9a83f84d0eec2f6e439d8c3c49b453f8431a01011e0739347d67",
+        "binary_limit": null,
+        "pagination_limit": "Use eprint/manuscript page numbers and PDF positions only; no fixed offset to final journal or 2017 reprint certified.",
+        "date_limit": "Literal 6/4/26 label is a file/version label, not an established date of intellectual revision; neither its date convention nor exact equivalence to2016 print is assumed.",
+        "print_equivalence_verified": false,
+        "review_status": "unreviewed"
+      },
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "source_id": "S-P2T05-002",
+      "title": "The Illusion of Illusionism",
+      "authors": [
+        "Martine Nida-Rümelin"
+      ],
+      "publication_date": "2016",
+      "url_or_identifier": "https://www.researchgate.net/profile/Martine-Nida-Ruemelin/publication/316515031_The_illusion_of_illusionism/links/5ef6271b92851c52d6fe5823/The-illusion-of-illusionism.pdf?origin=publication_detail",
+      "source_type": "primary_philosophical_article_author_version",
+      "access_status": "full_author_manuscript_text_inspected_binary_and_visual_unavailable",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "pp2–6; §§1–2; PPP/RPP and PEB",
+        "p7; end§2; fn6",
+        "pp7–10; §§3–4; conditional qualification on p9",
+        "pp4–5; §2, RPP discussion across page break",
+        "pp7–9; §§2–4",
+        "pp9–10; §4"
+      ],
+      "provenance_notes": {
+        "source_id": "S-P2T05-002",
+        "title": "The Illusion of Illusionism",
+        "authors": [
+          "Martine Nida-Rümelin"
+        ],
+        "publication": "Journal of Consciousness Studies23(11–12)(2016):160–171",
+        "publication_year": 2016,
+        "doi": null,
+        "doi_status": "not_verified; absence of verified DOI is not proof no DOI exists",
+        "url": "https://www.researchgate.net/profile/Martine-Nida-Ruemelin/publication/316515031_The_illusion_of_illusionism/links/5ef6271b92851c52d6fe5823/The-illusion-of-illusionism.pdf?origin=publication_detail",
+        "exact_version_label": "Written in May and June 2016; to appear in a special issue in 2016; author manuscript",
+        "original_pdf_path": null,
+        "original_pdf_sha256": null,
+        "pdf_pages": 10,
+        "reading_extent": "complete selected version including footnotes/references",
+        "representation_of_reading": "full 355-line web extraction of the directly reopened original PDF",
+        "preserved_access_artifact": "work/P2T05/Nida_original_read_raw.json",
+        "preserved_access_artifact_sha256": "b03c2c6615537ab7cd2756f41a5d9884a1ce7b3ebe6896840afe2e020c246a84",
+        "binary_limit": "No local original PDF bytes; urllib403. Saved tool extraction is not a PDF-byte hash. Screenshot cache failures/no visible image prevent visual verification.",
+        "pagination_limit": "Use eprint/manuscript page numbers and PDF positions only; no fixed offset to final journal or 2017 reprint certified.",
+        "date_limit": "Manuscript writing statement is not the final publication date.",
+        "print_equivalence_verified": false,
+        "review_status": "unreviewed"
+      },
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    },
+    {
+      "source_id": "S-P2T05-003",
+      "title": "Not Disillusioned: Reply to Commentators",
+      "authors": [
+        "Keith Frankish"
+      ],
+      "publication_date": "2016",
+      "url_or_identifier": "https://keithfrankish.github.io/articles/Frankish_Not%20disillusioned_eprint.pdf",
+      "source_type": "primary_philosophical_article_author_version",
+      "access_status": "full_selected_version_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "pp25–26; §4, Nida-Rümelin response, especially p26fn8",
+        "pp26–27; §4, final Nida-Rümelin response",
+        "pp9–10; p23; §2 Pereboom response; §4 Prinz response",
+        "p4; §1 Rey response, final paragraph",
+        "pp5–7; §1 Tartaglia response",
+        "pp24–25; §4 Goff response",
+        "pp11–12; pp16–18; §2 Graziano response; §3 Mandik/Schwitzgebel responses",
+        "pp1,4,20–24; programme qualification; §4 Balog/Prinz responses",
+        "pp25–27; §4 Nida-Rümelin response",
+        "pp21–23; §4 Prinz response",
+        "pp26–27; §4–5"
+      ],
+      "provenance_notes": {
+        "source_id": "S-P2T05-003",
+        "title": "Not Disillusioned: Reply to Commentators",
+        "authors": [
+          "Keith Frankish"
+        ],
+        "publication": "Journal of Consciousness Studies23(11–12)(2016):256–289",
+        "publication_year": 2016,
+        "doi": null,
+        "doi_status": "not_verified; absence of verified DOI is not proof no DOI exists",
+        "url": "https://keithfrankish.github.io/articles/Frankish_Not%20disillusioned_eprint.pdf",
+        "exact_version_label": "Version of 6/4/26",
+        "original_pdf_path": "work/P2T05/S-P2T05-003_original.pdf",
+        "original_pdf_sha256": "1f4bf6fcab6fb6c5ade0ffc25fa9a5bcaf773ecb930fa1bd92950a8c0d9b15e7",
+        "pdf_pages": 28,
+        "reading_extent": "complete selected version including footnotes/references",
+        "representation_of_reading": "local original text plus selected rendered original pages",
+        "preserved_access_artifact": "work/P2T05/S-P2T05-003_original.pdf",
+        "preserved_access_artifact_sha256": "1f4bf6fcab6fb6c5ade0ffc25fa9a5bcaf773ecb930fa1bd92950a8c0d9b15e7",
+        "binary_limit": null,
+        "pagination_limit": "Use eprint/manuscript page numbers and PDF positions only; no fixed offset to final journal or 2017 reprint certified.",
+        "date_limit": "Literal 6/4/26 label is a file/version label, not an established date of intellectual revision; neither its date convention nor exact equivalence to2016 print is assumed.",
+        "print_equivalence_verified": false,
+        "review_status": "unreviewed"
+      },
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R05"
+    }
+  ]
+}

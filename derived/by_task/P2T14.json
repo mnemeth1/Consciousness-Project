@@ -1,0 +1,1360 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T14",
+  "report": "work/P2T14/report.md",
+  "counts": {
+    "claims": 36,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 11
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T14-001",
+      "statement": "Open Library identifies a2011 edition with ISBN9780615486222; this packet has not accessed its memoir body.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-006"
+      ],
+      "source_locators": [
+        "L191–205;L242–270"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Catalog evidence; work-level1998 aggregate label and imprint variants are not resolved by original copyright page."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-002",
+      "statement": "The publisher lists WaterBrook paperback9780307731715 on May29,2012; Google’s current eBook record instead gives9780984819218 and May23.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T04-001",
+        "S-P2T14-007"
+      ],
+      "source_locators": [
+        "PublisherL157–180,236–244;GoogleL13–17,129–134"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "No2011/2012body collation; metadata dates cannot date the undated interview."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-003",
+      "statement": "The publisher interview attributes peaceful awareness, reluctance to return and spiritual transformation to Neal.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-001"
+      ],
+      "source_locators": [
+        "Author InterviewQ1–7,L248–262"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Same interview original as v1, current reinspection; original interview date unknown."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-004",
+      "statement": "Bayly’s article dated March14,2010, updated January27,2011, reports Willie Neal’s death in a roller-ski collision on June21,2009.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-003"
+      ],
+      "source_locators": [
+        "L159–173"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Primary newspaper reporting, not this project checking original official records."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-005",
+      "statement": "The complete Bayly article does not disclose an earlier prediction; its silence does not establish that no prediction was made elsewhere.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-003"
+      ],
+      "source_locators": [
+        "Complete articleL165–220"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "Bounded negative content check, not a global absence claim.",
+      "limitations": [],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-006",
+      "statement": "AW Report85934 labels February3,1999 as accident date; its description includes a2021 news item and ends midquote.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-002"
+      ],
+      "source_locators": [
+        "browser_observations.json aw; narrative Sarnerheading and terminal8107chars"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Original entry creation/update unknown; later compilation not contemporaneous rescue record."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-007",
+      "statement": "AW’s compiled description asserts thirty minutes underwater and extraordinary recovery but supplies no original timing or neurological record.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-002"
+      ],
+      "source_locators": [
+        "Description first retelling; copied Sarner2021item"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Database injury field says Near Drowning; narrative brain-dead assertion is not an established clinical diagnosis."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-008",
+      "statement": "CNN/WTVR reports January14,1999 as accident date and Willie’s age19; AW gives February3 and its copied item age20.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-008",
+        "S-P2T14-002"
+      ],
+      "source_locators": [
+        "CNNL146,201;AWfields and copied Sarneritem"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Conflicting reports retained; event date and age not resolved by this packet.",
+        "Later supplied memoir also states January 14 and age 19; agreement within a common narrator chain does not resolve the conflicting AW fields independently."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-009",
+      "statement": "CNN/WTVR explicitly calls the thirty-minute oxygen interval an estimate; rescue helpers remain unnamed and pulse/pupil statements are attributed to Neal.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-008"
+      ],
+      "source_locators": [
+        "L158–196"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Reporter attribution to those involved is not independently available named witness timing or a chart."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-010",
+      "statement": "The2013 CNN report attributes future-death knowledge concerning Willie to Neal, after the reported2009 death.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T14-008"
+      ],
+      "source_locators": [
+        "L191–208;browserdate"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Publication is postfulfillment; no predated prediction text, fixed deadline/cause or complete prediction set."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-011",
+      "statement": "Henig reports Nelson accepting Neal’s intense memory while challenging its death/survival interpretation and proposing REM intrusion related to hypoxia.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-004"
+      ],
+      "source_locators": [
+        "L106–114"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Actual case-directed critic as reported by journalist; no direct panel recording or Neal brain measurement. Possible mechanism is not established case cause."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-012",
+      "statement": "Barker’s response expressly discusses Henig’s Neal narrative and Nelson’s account, drawing on her own contrasting experience.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-005"
+      ],
+      "source_locators": [
+        "L10–17"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Actual reply to the feature, not Neal’s own reply; Barker’s separate story provides no additional Neal observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-013",
+      "statement": "Barker argues that physiological correlates could accompany a spirit’s departure and need not by themselves settle the experience’s interpretation.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-005"
+      ],
+      "source_locators": [
+        "Pear vs.AppleL19–24"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Underdetermination reply; analogy does not validate external objects or exclude ordinary causes. Current updated version only."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-014",
+      "statement": "All1210 cues of the exact supplied SRT were reinspected; no audio identity, spoken-word accuracy or time alignment was verified.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "00:00:10.480–01:04:11.770,cues1–1210"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Q012 yielded later references, not audio authentication. Old2017upload metadata is inherited; no new recording-date finding."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-015",
+      "statement": "The SRT describes the1999 kayak entrapment, husband absent from that river outing, calm surrender and vivid crisis awareness.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "02:14–11:43;17:33–18:58"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Garbled transcription is not silently normalized into verified spoken wording."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-016",
+      "statement": "The SRT describes viewing rescue, intermittently returning to take breaths, and later discussing the episode with a rescuer.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "18:32–22:32;25:30–28:38"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Narrated later conversation, not an original independent witness statement; ordinary information access not excluded."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-017",
+      "statement": "The SRT reports seeming simultaneity and hours of experience while also narrating sequence and returns.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "20:54–21:22;28:27–29:15;42:20–42:30"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Altered temporal phenomenology does not establish intrinsically nonsuccessive consciousness,H-T."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-018",
+      "statement": "The SRT places an oldest-son future-death conversation during the river episode and another during later ICU recovery; it also says the plan might change.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "32:24–33:48;40:20–44:11;50:16–52:16"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Two narrated moments in one dependent chain; not two independent successful predictions. No fixed scoring set or prefulfillment date."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-019",
+      "statement": "The SRT reports injuries, ICU care, early reading/focus difficulty, later pain, operations and months of rehabilitation; it asserts retrospective chart review and a medication explanation.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "33:48–38:12;44:11–45:41"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Drug word near44:36 remains garbled; apparentARDS wording not a verified diagnosis. No medical record inspected; not instantaneous complete recovery."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-020",
+      "statement": "The SRT distinguishes two approximate seven-minute intervals from a claimed fifteen-minute watch interval ending when CPR began.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "46:40–48:19"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Narrator calls shortest interval objective; project has no watch log/start-time witness. Neither estimate nor reported stopwatch measures circulation or relevant neural activity."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-021",
+      "statement": "The SRT asserts noncold water, testing without brain damage and extraordinary survival; no underlying temperature, tests or physiological trace is provided.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "48:19–49:00"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Later information exposure, reconstruction, event timing and physiological alternatives remain unexcluded; no specific cause demonstrated."
+      ],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Early ICU focus complaints and later no-damage assertion can concern different times; neither establishes a chart diagnosis."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-022",
+      "statement": "The SRT describes delayed sharing and writing a manuscript over about a week after roughly ten years; its54:12–55:34 text does not explicitly say completion and Willie’s death occurred the same day.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "41:07–42:20;50:16–55:34"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "No event, mechanism, predictive success or metaphysical truth upgrade from this attribution.",
+      "limitations": [
+        "Text reinspection confirms v1limit. Other later retellings cannot repair this exact SRT gap without attribution and independent dating."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-023",
+      "statement": "The bounded searches and inspected sources supply no independently dated prefulfillment prediction or complete scoring set; prediction numerators and denominators remain unknown.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-003",
+        "S-P2T14-008",
+        "S-T04-009",
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Q001–Q016 actual preserved results; memoir chapters 24,27–29 and Q&A, PDF109–126,150; BDN L165–220; CNN L191–208; SRT32:24–33:48,50:16–55:34"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "Bounded access/audit conclusion only. Does not establish nonexistence, fabrication or zero predictive success.",
+      "limitations": [
+        "The memoir’s child-not-reaching-18 narrative is a distinct internally narrated counterexample, not a validated failure count or the complete prediction universe. Q015 before-date operator returned later items, so it does not certify dates."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-024",
+      "statement": "The river and later ICU reports retain their two existing caseIDs within one narrator/recovery dependence group; no new independent sample is added.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "Frozen C-T04-001/C-T04-002;SRT35:57–44:11"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "Dependence/accounting discipline; no inference that the two episodes are the same event.",
+      "limitations": [],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-025",
+      "statement": "Available testimony cannot fix experience to a measured absence of circulation and relevant neural function; possible physiological explanations also remain unconfirmed for this case.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-004",
+        "S-T04-009",
+        "S-P2T14-008",
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "HenigL111–114;SRT46:40–49:00;CNNL182,196",
+        "Memoir chapters9,11,15–19 and Q&A, PDF48,54–55,69–85,152"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_attribution_or_document_scope; pending independent review",
+      "inference_strength": "Symmetric uncertainty: evidence neither validates survival beyond irreversible death nor demonstrates a specific ordinary cause.",
+      "limitations": [],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-026",
+      "statement": "The supplied converted WaterBrook ebook identifies eISBN 9780984819218, copyright 2011/2012 and v3.1. Its Q&A says the first edition did not clearly identify Jesus; the original 2011 text has not been collated.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "PDF2–4 title/copyright; Q&A PDF149"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "2019 calibre metadata dates conversion, not publication. Self-reported first-edition change is not independently verified textual comparison; no print-page equivalence."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-027",
+      "statement": "Neal names Tom, Kenneth, Chad and Anne Long in the rescue narrative and says she later interviewed each individually while preparing the book, listening without interruptions or comments.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Chapters9,11,13,26; PDF44–48,52–55,64,116–117"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Reconstruction, later information and ordinary mechanisms remain possible; none is demonstrated for this case."
+      ],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "Named witnesses and a reported interview method strengthen specificity, but no separately authored original statement, interview transcript, date or information-exposure history was inspected. Witness thoughts and speech are mediated through Neal."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-028",
+      "statement": "The memoir says Anne started her watch after repeated headcounts confirmed Neal and her boat were missing, and gives eleven to fourteen minutes until CPR. The SRT instead gives fifteen minutes and describes a start after rescuers inferred where she must be.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-009",
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "Memoir chapter9 PDF48; chapter11 PDF54–55; SRT46:40–48:19, especially47:35–48:08"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "Preserve different start events and numbers. The SRT refers to figuring out where she must be, not an authenticated physical sighting. No original timekeeper record resolves them; fifteen minutes must not become a verified conservative minimum. Neither is a measured interval of absent circulation, oxygen delivery or neural activity."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-029",
+      "statement": "The memoir narrates peaceful crisis awareness, awareness of knee and ligament sensations, bodily release from the boat and beginning to tumble; it reports no memory of scraping the river bottom, bumping Chad or being pulled to the bank, and separately describes an apparent spiritual view of rescue and repeated returns to breathe.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Chapters10–12, PDF49–61, especially56–60"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Reconstruction, later information and ordinary mechanisms remain possible; none is demonstrated for this case."
+      ],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "Direct later memoir attribution supplements v1 secondary rescue excerpt. Physical-memory gaps and claimed spiritual vantage are different statements. Mays’s cited printed72–75 are not mapped to these converted PDF pages."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-030",
+      "statement": "The memoir describes a hospital field encounter with a being initially called an angel without a definite identity, followed by further conversations in a patient care unit after a couple of weeks. The explicit instruction about helping the family after a son’s death occurs in that later chapter; Q&A states belief that the being was Jesus.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Chapters17–18 PDF75–82, especially75,80–81; Q&A PDF149,151"
+      ],
+      "case_ids": [
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Reconstruction, later information and ordinary mechanisms remain possible; none is demonstrated for this case."
+      ],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "The SRT’s earlier river placement remains its own attribution. Do not shift all hospital conversation into an identical ICU timestamp or treat the hospital episode as another independent sample. Veiled and withheld memories are acknowledged."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-031",
+      "statement": "The memoir reports severe leg injuries, respiratory distress, later blood clots, operations, pain medication and prolonged rehabilitation. It attributes vital-sign stabilization to medical records and reports oxygen saturation in the 40s, then 60s with supplemental oxygen, while asserting no brain injury and acknowledging lasting physical consequences.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Chapters13–19 PDF62–85; chapter15 PDF70; Q&A PDF152"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Reconstruction, later information and ordinary mechanisms remain possible; none is demonstrated for this case."
+      ],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "Clinical numbers and diagnoses are source assertions, not project-validated measurements. Saturation statements concern hospital care, not a timed river neural trace. The source’s asserted normal range is not adopted as medical fact. Steroids directed during rescue and later narcotic pain pills concern different phases; neither decodes SRT’s garbled medication word or proves a cause."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-032",
+      "statement": "The memoir reports sharing the experience with local groups during initial recovery and with close friends and church, while delaying broader detail and book writing; it also reports an early conversation with medical partner Al Forbes.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Prologue PDF11–12; chapter18 PDF81–82; chapter31 PDF133; Q&A PDF150"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Reconstruction, later information and ordinary mechanisms remain possible; none is demonstrated for this case."
+      ],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "Retrospective disclosure chronology, without dated meeting records or an independent Forbes statement. Delayed writing is not evidence of ten years of total silence."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-033",
+      "statement": "The memoir separately attributes to young Willie a belief that he would not reach eighteen, then narrates his life beyond eighteen and interprets an earlier crisis as a changed plan. This literal age bound is not fulfilled within the memoir’s own chronology.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Chapter24 PDF110–113; chapter27 PDF118–121; chapter29 PDF125–126"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The source comparison challenges an all-success retelling; it does not establish external falsehood or a numerical failure rate.",
+      "limitations": [
+        "This is the child’s reported prediction, distinct from Neal’s NDE death directive. It is an internally narrated counterexample under a literal reading, not an independently dated failed prediction or a known all-prediction denominator. Plan-change interpretation alters scoring rather than independently verifying a hit."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-034",
+      "statement": "The memoir body says a first draft was written in spring 2009, revised and left for months, then a final version was saved on June21 before news of Willie’s death. Its Q&A instead calls the hours-before-death manuscript the first complete draft.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Chapter27 PDF120; chapter28 PDF123–124; Q&A PDF150"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "Distinct draft labels and retrospective timing remain visible. No original timestamped manuscript was inspected. This later explicit same-day story does not insert missing same-day wording into SRT54:12–55:34."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-035",
+      "statement": "The memoir’s concluding chapter interprets the experiences as evidence of God’s presence, love, work and heaven, and treats repeated meaningful events as purposeful rather than chance.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Chapter33 PDF141–146; Q&A PDF153–154"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "Argument attribution only. Prior Christian commitments are acknowledged. No specified chance model, causal exclusion or independently established divine agent, goodness, universal subject or timeless bearer follows. Chapter33 is a theological interpretation, not a measured clinical reconstruction."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "claim_id": "CL-P2T14-036",
+      "statement": "The supplied memoir includes photographs with captions identifying the river setting, family in a hospital bed, later mobility and family occasions. No captioned image supplies a synchronized rescue or physiological recording.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T14-009"
+      ],
+      "source_locators": [
+        "Photo insert PDF86–92; images and captions directly viewed"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "author_checked_exact_source_attribution_or_document_comparison; pending independent review",
+      "inference_strength": "The inspected source supports this attribution, not independent event accuracy, diagnostic validity, predictive success or metaphysical truth.",
+      "limitations": [
+        "Caption identities and dates are memoir assertions; no independent photo metadata or clinical measurements. The photos do not authenticate exact accident day or prediction priority."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T14-001",
+      "name": "Vivid continuity and the reported Nelson–Barker exchange",
+      "position": "Strongest conditional positive case with directly case-linked criticism and actual third-party reply",
+      "premises": [
+        "Neal’s testimony describes continuous, vivid awareness and apparent rescue perception; the experiential attribution is supported, its external accuracy is not thereby established.",
+        "If independently fixed perceptions occurred without ordinary information access during measured absence of relevant brain function, this would challenge a strict dependence account.",
+        "The memoir’s named rescuers and individually conducted retrospective interviews are a stronger positive lead than unnamed retelling, but they remain narrated method and testimony."
+      ],
+      "bridge_principles": [
+        "Move from seeming to external perception only with independent event/information controls.",
+        "Move from elapsed rescue time to neural incapacity only with relevant physiological evidence."
+      ],
+      "conclusion": "The positive case is worth exact documentation; the present packet supports attributed experience and a conditional argument, not survival.",
+      "source_ids": [
+        "S-T04-009",
+        "S-P2T14-004",
+        "S-P2T14-005",
+        "S-P2T14-009"
+      ],
+      "claim_ids": [
+        "CL-P2T14-011",
+        "CL-P2T14-012",
+        "CL-P2T14-013",
+        "CL-P2T14-015",
+        "CL-P2T14-016",
+        "CL-P2T14-017",
+        "CL-P2T14-025",
+        "CL-P2T14-027",
+        "CL-P2T14-029",
+        "CL-P2T14-030",
+        "CL-P2T14-035"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Nelson’s reported distinction separates vivid memory from interpretation; REM intrusion/hypoxia is a possible alternative. Unknown timing and later information exposure undermine a uniquely survival-based inference.",
+      "strongest_reply": "Barker’s actual reply grants that brain states might be present yet argues correlates need not determine interpretation; first-person quality deserves consideration. This blocks an automatic dismissal but supplies no missing Neal measurements.",
+      "unresolved_issues": [
+        "Neural/circulatory timing; information exposure; independently preserved first witness report.",
+        "No raw2013panel recording; actual reply is Barker’s, not Neal’s and not an empirical adjudication.",
+        "General Mays rejoinder remains inherited broader debate, not direct corroboration.",
+        "Named rescuer detail does not itself supply an independent first record; later hospital/PCU conversations are distinct from the river event."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "argument_id": "A-P2T14-002",
+      "name": "Rescue interval and clinical inference",
+      "position": "Audit a purported physiological exclusion",
+      "premises": [
+        "The memoir gives a reported eleven-to-fourteen-minute interval after missing-person headcounts; the SRT gives fifteen minutes after rescuers inferred the location; CNN calls the total an estimate.",
+        "Available medical wording is narrator/reporter assertion; submersion, oxygen availability, circulation and neural state are different variables."
+      ],
+      "bridge_principles": [
+        "Elapsed rescue time alone cannot substitute for physiological measurement.",
+        "A source saying it reviewed records does not make those originals inspected here."
+      ],
+      "conclusion": "Retain testimony and reported recovery; withhold a synchronized medical reconstruction and specific process exclusion.",
+      "source_ids": [
+        "S-T04-009",
+        "S-P2T14-008",
+        "S-P2T14-002",
+        "S-P2T14-009"
+      ],
+      "claim_ids": [
+        "CL-P2T14-007",
+        "CL-P2T14-008",
+        "CL-P2T14-009",
+        "CL-P2T14-019",
+        "CL-P2T14-020",
+        "CL-P2T14-021",
+        "CL-P2T14-025",
+        "CL-P2T14-027",
+        "CL-P2T14-028",
+        "CL-P2T14-031",
+        "CL-P2T14-036"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Neal identifies rescue-trained Long family members and reports listening to each individually, while the book gives a watch range and substantial injury detail. Those specific reports deserve assessment and could guide public corroboration.",
+      "strongest_reply": "The actual versions differ in timing and start events; no original timekeeper account resolves them. Specific testimony is not a synchronized physiological record. Later reported saturation or no-injury assertions do not date river awareness to absent neural function.",
+      "unresolved_issues": [
+        "Conflicting exact accident dates and age; no original timekeeper.",
+        "No temperature/chart/EEG or medication record; no private requests authorized.",
+        "ICU and river differ; later complaints/testing are not a single synchronous outcome.",
+        "Memoir eleven-to-fourteen versus SRT fifteen minutes; memoir hospital values remain unverified and distinct from river physiology."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "argument_id": "A-P2T14-003",
+      "name": "Prediction, fulfillment and prior documentation",
+      "position": "Test foreknowledge without retrospective scoring",
+      "premises": [
+        "Neal retrospectively reports knowing her oldest son would die.",
+        "Dated newspaper reporting supports a2009death report, while inspected prediction disclosure is later.",
+        "No inspected independent record fixes prediction wording, deadline, cause and scoring set beforehand.",
+        "The memoir narrates early disclosure and a pre-notification manuscript save, but also uses inconsistent first/final draft labels; its distinct child-not-eighteen story is not literally fulfilled within the same account."
+      ],
+      "bridge_principles": [
+        "Independent fulfillment does not date or validate a prediction.",
+        "Absence of a retrieved advance record is an access limit, not proof no such record exists.",
+        "Repeated assertions and river/ICU conversations cannot be summed as independent successes."
+      ],
+      "conclusion": "Retain attributed prediction and documented reporting chronology; withhold verified foreknowledge and odds.",
+      "source_ids": [
+        "S-T04-009",
+        "S-P2T14-003",
+        "S-P2T14-008",
+        "S-P2T14-009"
+      ],
+      "claim_ids": [
+        "CL-P2T14-004",
+        "CL-P2T14-005",
+        "CL-P2T14-010",
+        "CL-P2T14-018",
+        "CL-P2T14-022",
+        "CL-P2T14-023",
+        "CL-P2T14-024",
+        "CL-P2T14-030",
+        "CL-P2T14-032",
+        "CL-P2T14-033",
+        "CL-P2T14-034"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The strongest countercase to a successful-prediction reading combines postevent access to all detailed accounts, missing predated wording/scoring, internally different manuscript labels, and the separate age-specific child prediction followed by a changed-plan interpretation. Unknown counts prevent a rate calculation in either direction.",
+      "strongest_reply": "Neal reports early confidants and a manuscript before learning of the death, and interprets some foreknowledge as involving changeable plans. These are meaningful positive claims to preserve, but presently only retrospective; a flexible-plan reply needs a prior scoring rule to establish predictive accuracy.",
+      "unresolved_issues": [
+        "Original 2011 edition and any independent prefulfillment manuscript/confidant record remain uninspected.",
+        "2012-version spring first draft/final June21 versus Q&A first complete draft labels are unresolved.",
+        "Child prediction is distinct from Neal’s directive and is not an externally verified failure count. All numeric prediction values remain null."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T14-001",
+      "title": "To Heaven and Back: The True Story of a Doctor’s Extraordinary Walk with God",
+      "authors": [
+        "Mary C. Neal"
+      ],
+      "publication_date": "2011 (catalogue)",
+      "url_or_identifier": "ISBN9780615486222",
+      "source_type": "memoir",
+      "access_status": "metadata_only_body_unavailable",
+      "retrieved_at": "2026-09-13T06:11:25.344211+00:00",
+      "relevant_locators": [],
+      "provenance_notes": "Earliest identified 2011 Circle6/CreateSpace target. Title/copyright/body not acquired. Catalog imprint variants and 2012 alternatives remain distinct; root request P2REQ-025. P2REQ-025 partially fulfilled by distinct later S-P2T14-009; this original remains uninspected. No duplicate request.",
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "saved_path": null,
+      "saved_sha256": null,
+      "review_status": "accepted",
+      "review_id": "P2R14",
+      "doi": null
+    },
+    {
+      "source_id": "S-P2T14-002",
+      "title": "Feb 3, 1999 - Fuy River (Report #85934)",
+      "authors": [
+        "American Whitewater database; unnamed compiler; copied Lauren Sarner item"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.americanwhitewater.org/accident/feb-3-1999-fuy-river/",
+      "source_type": "public_accident_database_compilation",
+      "access_status": "complete_visible_entry_inspected",
+      "retrieved_at": "2026-09-13T06:11:25.344211+00:00",
+      "relevant_locators": [
+        "browser_observations.json aw fields; narrative opening to 8107-character midquote ending"
+      ],
+      "provenance_notes": "Current browser entry; event date is not publication date. Includes a2021item and unattributed later retelling, not original1999rescuer/charts. Full visible description is incomplete at end. Preserved rendered text copied exactly from tool; not nativeHTMLexport.",
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "saved_path": "work/P2T14/aw_browser_narrative.txt",
+      "saved_sha256": "abf7f7ace8b039f43ce68d185b1d57959fd9e8dc7bdf6adfab187edb1560af84",
+      "review_status": "accepted",
+      "review_id": "P2R14",
+      "doi": null
+    },
+    {
+      "source_id": "S-P2T14-003",
+      "title": "Mother of killed roller skier volunteers at Junior Olympics",
+      "authors": [
+        "Julia Bayly"
+      ],
+      "publication_date": "2010-03-14; updated2011-01-27",
+      "url_or_identifier": "https://www.bangordailynews.com/2010/03/14/sports/mother-of-killed-roller-skier-volunteers-at-junior-olympics/",
+      "source_type": "newspaper_original",
+      "access_status": "article_inspected",
+      "retrieved_at": "2026-09-13T06:11:25.344211+00:00",
+      "relevant_locators": [
+        "L159–220 (complete article)"
+      ],
+      "provenance_notes": "Current Bangor host retains byline/date/update. Original reporting includes direct Mary quotations; incident detail is reporter assertion, not inspected death/investigation record.",
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "saved_path": "work/P2T14/open_bdn_raw.json",
+      "saved_sha256": "9e7d0008ebaa1a57841fcb888a4622b41ad1d7f0545a1e7ef302d76c1785fd70",
+      "review_status": "accepted",
+      "review_id": "P2R14",
+      "doi": null
+    },
+    {
+      "source_id": "S-P2T14-004",
+      "title": "Crossing Over: How Science Is Redefining Life and Death",
+      "authors": [
+        "Robin Marantz Henig"
+      ],
+      "publication_date": "2016-04-01",
+      "url_or_identifier": "https://www.nationalgeographic.com/magazine/article/dying-death-brain-dead-body-consciousness-science",
+      "source_type": "journalistic_feature_original",
+      "access_status": "selected_passages_and_context_inspected",
+      "retrieved_at": "2026-09-13T06:11:25.344211+00:00",
+      "relevant_locators": [
+        "L7–17; L106–114; contextual L20–105 and115–158"
+      ],
+      "provenance_notes": "Current National Geographic web feature. Direct report of2013panel Neal/Nelson exchange; no raw panel/audio or Neal physiological measurement. Rat/AWARE/other cases are context, underlying studies not newly inspected or extracted.",
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "saved_path": "work/P2T14/open_henig_raw.json",
+      "saved_sha256": "87fb34bd920bb4d91d0c450149b87897b7a9d2298440804ea5eaf0b03b445806",
+      "review_status": "accepted",
+      "review_id": "P2R14",
+      "doi": null
+    },
+    {
+      "source_id": "S-P2T14-005",
+      "title": "Response to National Geographic’s Article “The Crossing”",
+      "authors": [
+        "Tricia Barker"
+      ],
+      "publication_date": "2016-03-31; displayed2019-01-22; body update1/19/18",
+      "url_or_identifier": "https://triciabarkernde.com/2016/03/31/ndes-the-brain-shutting-down-argument-vs-being-connected-to-a-greater-consciousness/",
+      "source_type": "author_reply_original",
+      "access_status": "complete_main_response_inspected",
+      "retrieved_at": "2026-09-13T06:11:25.344211+00:00",
+      "relevant_locators": [
+        "L4–26; commentsL34onwards excluded"
+      ],
+      "provenance_notes": "Current author-hosted response, not established unchanged2016body. Actual target link/Neal/Nelson explicit. Barker is a different experiencer responding to article; not a Neal witness or a reply from Neal. Own comments incidentally exposed but not added case evidence.",
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "saved_path": "work/P2T14/open_barker_raw.json",
+      "saved_sha256": "9dc0439bf3fc043ced080043d930b6ff0cd1fbd86a4de5e63b31b082a61aa640",
+      "review_status": "accepted",
+      "review_id": "P2R14",
+      "doi": null
+    },
+    {
+      "source_id": "S-P2T14-006",
+      "title": "To heaven and back — Open Library OL32147859M",
+      "authors": [
+        "Open Library catalog"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://openlibrary.org/books/OL32147859M/To_heaven_and_back",
+      "source_type": "bibliographic_catalog",
+      "access_status": "metadata_inspected",
+      "retrieved_at": "2026-09-13T06:11:25.344211+00:00",
+      "relevant_locators": [
+        "L191–205; L242–270"
+      ],
+      "provenance_notes": "Current metadata:2011,Circle6,xix+216,ISBN9780615486222. Work-level1998 label is conflicting aggregation, not verified edition date. Preview pointer not body access.",
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "saved_path": "work/P2T14/open_openlibrary_metadata_raw.json",
+      "saved_sha256": "68291230ad2a3f50d4e754352ea0841969d5fcc57ded633dd1bea8432701b6ab",
+      "review_status": "accepted",
+      "review_id": "P2R14",
+      "doi": null
+    },
+    {
+      "source_id": "S-P2T14-007",
+      "title": "To Heaven and Back — Google Books T3AqpqIKaKoC",
+      "authors": [
+        "Google Books catalog"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://books.google.com/books/about/To_Heaven_and_Back.html?id=T3AqpqIKaKoC",
+      "source_type": "bibliographic_catalog",
+      "access_status": "metadata_and_contents_only",
+      "retrieved_at": "2026-09-13T06:11:25.344211+00:00",
+      "relevant_locators": [
+        "L13–17; L25–119 contents; L124–134"
+      ],
+      "provenance_notes": "Current record redirects to German host and gives May23,2012,ISBN9780984819218,240pages. Updated biography mentions later book. Contents are locational leads, not inspected chapters; exact print/eBook equivalence unknown. A separate supplied converted ebook with matching eISBN was subsequently inspected as S-P2T14-009; catalogue print length is not its PDF-page count.",
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "saved_path": "work/P2T14/open_googlebooks_2012_metadata_raw.json",
+      "saved_sha256": "31d44f3451b9ac05553fe5eb0c835fd299de30cde14c2983315dc2cf37cd01f6",
+      "review_status": "accepted",
+      "review_id": "P2R14",
+      "doi": null
+    },
+    {
+      "source_id": "S-P2T14-008",
+      "title": "Stories of life, death and faith: ‘To Heaven and Back’",
+      "authors": [
+        "CNN Wire"
+      ],
+      "publication_date": "2013-11-30 6:15PM (displayed; timezone unstated)",
+      "url_or_identifier": "https://www.wtvr.com/2013/11/30/stories-of-life-death-and-faith-to-heaven-and-back",
+      "source_type": "syndicated_original_news_report",
+      "access_status": "complete_Neal_section_inspected",
+      "retrieved_at": "2026-09-13T06:11:25.344211+00:00",
+      "relevant_locators": [
+        "L129–212; browserAX87–100 date/Neal"
+      ],
+      "provenance_notes": "Current WTVR-hosted CNN reporting. Other cases incidentally displayed but excluded. Unnamed friends reported, no named original rescuer account. Host date is not frozen2013content history.",
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "saved_path": "work/P2T14/open_cnn_wtvr_raw.json",
+      "saved_sha256": "936804e937b833f09eef1d1c17298db82938c36d33897bf411bf231d69257ed6",
+      "review_status": "accepted",
+      "review_id": "P2R14",
+      "doi": null
+    },
+    {
+      "source_id": "S-P2T14-009",
+      "title": "To Heaven and Back: A Doctor’s Extraordinary Account of Her Death, Heaven, Angels, and Life Again: A True Story",
+      "authors": [
+        "Mary C. Neal"
+      ],
+      "publication_date": "copyright 2011/2012; exact supplied WaterBrook v3.1; conversion metadata 2019",
+      "url_or_identifier": "eISBN 9780984819218",
+      "doi": null,
+      "source_type": "author_memoir_original_later_version",
+      "access_status": "selected_complete_chapters_and_context_inspected",
+      "retrieved_at": "2026-09-13T06:31:43.687689+00:00",
+      "relevant_locators": [
+        "PDF1–15 frontmatter/prologue/introduction;44–65 chapters9–13;86–92 photo insert",
+        "PDF66–85 chapters14–19;141–146 chapter33;149–154 Q&A",
+        "PDF109–140 chapters24–32;147–148 Giving Back"
+      ],
+      "provenance_notes": "Converted WaterBrook ebook, eISBN9780984819218, copyright2011/2012, v3.1;2019calibreconversion metadata. 156PDFpages, no print pagination equivalence. No original print-page mapping, original 2011 body or edition collation. User copy and root intake hash verified; body reading was the researcher’s.",
+      "related_case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "saved_path": "state/input_snapshots/user_sources/Neal_To_Heaven_and_Back_WaterBrook_2012_ebook_user_supplied.pdf",
+      "saved_sha256": "e74a8fa279f9c9e69b208d6349237df1c14d666e764923b280f94925c88b8320",
+      "review_status": "accepted",
+      "review_id": "P2R14"
+    },
+    {
+      "source_id": "S-T04-001",
+      "title": "To Heaven and Back: publisher metadata and Author Interview",
+      "authors": [
+        "Mary C. Neal",
+        "WaterBrook / Penguin Random House"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.penguinrandomhouse.com/books/223400/to-heaven-and-back-by-mary-c-neal-md/",
+      "source_type": "publisher-hosted firsthand interview",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Author Interview Q1–7; L247–262",
+        "Edition metadata L157,174,238–244"
+      ],
+      "provenance_notes": "Interview date unknown; paperback edition2012-05-29 and ebook2012-05-23. Not full memoir. Decisive attribution source.",
+      "related_case_ids": [
+        "C-T04-001"
+      ]
+    },
+    {
+      "source_id": "S-T04-009",
+      "title": "User-supplied purported transcript of Present: Mary Neal’s Near Death Experience",
+      "authors": [
+        "Purported speaker Mary Neal; transcriber unknown; supplied by user"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "state/input_snapshots/user_sources/video_63wY2fylJD0.srt; SHA256 c12d91938d91dfed8750a1696d8871b719926c24b4881a058f25a2ac7842cdf6",
+      "source_type": "user_supplied_purported_firsthand_transcript",
+      "access_status": "supplied_text_fully_inspected_audio_unverified",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Full supplied content00:00:10.480–01:04:11.770",
+        "Detailed contiguous ranges in transcript_notes.md and report.md"
+      ],
+      "provenance_notes": "User supplied as transcript of video63wY2fylJD0. Apparent ASR errors. Timestamp and speaker attribution not verified against audio. User-owned input preserved exactly, not independently corroborative evidence. Immutable source preserved by overseer; local task copy identical.",
+      "related_case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ]
+    }
+  ]
+}

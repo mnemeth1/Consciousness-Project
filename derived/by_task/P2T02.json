@@ -1,0 +1,568 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T02",
+  "report": "work/P2T02/report.md",
+  "counts": {
+    "claims": 11,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 3
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T02-001",
+      "statement": "Lowe treats the self as a persisting property bearer distinct from body/parts; this does not require possible disembodiment.",
+      "claim_type": "philosophical_premise",
+      "epistemic_role": "documented_author_attribution; premise truth unverified",
+      "source_ids": [
+        "S-P2T02-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-001",
+          "locator": "pp. 5, 8–10, §§1, 3"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Attribution directly inspected, with stated version/locator limits",
+      "inference_strength": "Attribution only; philosophical premise not thereby verified",
+      "limitations": [
+        "Distinctness and independence in identity are metaphysical commitments, not measured findings."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-002",
+      "statement": "Lowe uses replacement and thought-bearer considerations to motivate distinct identity conditions and simplicity.",
+      "claim_type": "philosophical_premise",
+      "epistemic_role": "documented_author_attribution; premise truth unverified",
+      "source_ids": [
+        "S-P2T02-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-001",
+          "locator": "pp. 9–10, §3"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Attribution directly inspected, with stated version/locator limits",
+      "inference_strength": "Attribution only; philosophical premise not thereby verified",
+      "limitations": [
+        "The argument needs contested individuation premises; persistence of an organized body through constituent replacement is a live rival."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-003",
+      "statement": "Lowe distinguishes intentional fact causation from neural event causation, with closure conceded conditionally in the argument.",
+      "claim_type": "philosophical_premise",
+      "epistemic_role": "documented_author_attribution; premise truth unverified",
+      "source_ids": [
+        "S-P2T02-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-001",
+          "locator": "pp. 12–19, §§5–8; p. 20 note 15; p. 21 note 28"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Attribution directly inspected, with stated version/locator limits",
+      "inference_strength": "Attribution only; philosophical premise not thereby verified",
+      "limitations": [
+        "Unity of decisions, event individuation and relevant counterfactuals are premises; neuroscience and indeterminism are not independently verified here."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-004",
+      "statement": "Engelhardt argues that physical event sufficiency can support occurrence-fact sufficiency, reinstating exclusion against Lowe’s distinction.",
+      "claim_type": "philosophical_premise",
+      "epistemic_role": "documented_author_attribution; premise truth unverified",
+      "source_ids": [
+        "S-P2T02-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-002",
+          "locator": "pp. 1151–1154, §1.1"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Attribution directly inspected, with stated version/locator limits",
+      "inference_strength": "Attribution only; philosophical premise not thereby verified",
+      "limitations": [
+        "This is a direct substantive challenge; its sufficiency-to-fact bridge also requires assessment."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-005",
+      "statement": "Bennett applies an independence/overdetermination counterfactual test to dualism, conditional on physical completeness.",
+      "claim_type": "philosophical_premise",
+      "epistemic_role": "documented_author_attribution; premise truth unverified",
+      "source_ids": [
+        "S-P2T02-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-003",
+          "locator": "pp. 280–283, §1; pp. 287–292, §§3–4"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Attribution directly inspected, with stated version/locator limits",
+      "inference_strength": "Attribution only; philosophical premise not thereby verified",
+      "limitations": [
+        "Bennett does not here establish that dualists must accept completeness; the test is a necessary, not sufficient, overdetermination condition."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-006",
+      "statement": "Bennett allows her anti-dualist scope to narrow if coherent, motivated necessitation dualism is available.",
+      "claim_type": "philosophical_premise",
+      "epistemic_role": "documented_author_attribution; premise truth unverified",
+      "source_ids": [
+        "S-P2T02-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-003",
+          "locator": "pp. 296–299, §6.2; pp. 301–302, §§6.4–7"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Attribution directly inspected, with stated version/locator limits",
+      "inference_strength": "Attribution only; philosophical premise not thereby verified",
+      "limitations": [
+        "Her doubts about that option are not a demonstrated impossibility; property dualism is a principal target."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-007",
+      "statement": "Engelhardt’s alternative lets distinct mind and body share one causally relevant physical property instance.",
+      "claim_type": "philosophical_premise",
+      "epistemic_role": "documented_author_attribution; premise truth unverified",
+      "source_ids": [
+        "S-P2T02-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-002",
+          "locator": "pp. 1154–1161, §§2.1–2.2; p. 1155 note 12"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Attribution directly inspected, with stated version/locator limits",
+      "inference_strength": "Attribution only; philosophical premise not thereby verified",
+      "limitations": [
+        "Engelhardt disclaims meeting the independent-powers demand he attributes to Lowe 2008; that book is not independently inspected. This is a revised variant, not preservation of every Lowe commitment."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-008",
+      "statement": "Engelhardt answers relation-breaking counterfactuals by requiring a defensible embodiment relation to be held fixed.",
+      "claim_type": "philosophical_premise",
+      "epistemic_role": "documented_author_attribution; premise truth unverified",
+      "source_ids": [
+        "S-P2T02-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-002",
+          "locator": "pp. 1161–1164, §3 and §4"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Attribution directly inspected, with stated version/locator limits",
+      "inference_strength": "Attribution only; philosophical premise not thereby verified",
+      "limitations": [
+        "Colocation, token property sharing and the relevant relation remain substantive burdens; merely naming a correlation will not suffice."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-009",
+      "statement": "The selected exchange improves conditional comparison of bearer and causal models without independently establishing that a distinct mental substance exists.",
+      "claim_type": "inference",
+      "epistemic_role": "project inference/boundary assessment",
+      "source_ids": [
+        "S-P2T02-001",
+        "S-P2T02-002",
+        "S-P2T02-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-001",
+          "locator": "pp. 5, 9–10, §§1, 3; pp. 16–19, §§7–8; pp. 20–21 notes 15, 28",
+          "role": "Support for premises of project inference; source does not state the project conclusion verbatim."
+        },
+        {
+          "source_id": "S-P2T02-002",
+          "locator": "pp. 1151–1164, §§1.1–4",
+          "role": "Support for premises of project inference; source does not state the project conclusion verbatim."
+        },
+        {
+          "source_id": "S-P2T02-003",
+          "locator": "pp. 280–283, §1; pp. 287–292, §§3–4; pp. 296–299, §6.2",
+          "role": "Support for premises of project inference; source does not state the project conclusion verbatim."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T02-001",
+        "CL-P2T02-002",
+        "CL-P2T02-003",
+        "CL-P2T02-004",
+        "CL-P2T02-005",
+        "CL-P2T02-006",
+        "CL-P2T02-007",
+        "CL-P2T02-008"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "An organized physical bearer with dependent higher-level causal descriptions",
+        "Other dualist individuation or interaction accounts not selected here"
+      ],
+      "record_reliability": "Assessment traceable to identified inspected claims; not an observation",
+      "inference_strength": "Conditional and scope-limited; no hypothesis confidence upgrade",
+      "limitations": [
+        "Conditional intelligibility is weaker than a formal consistency proof, premise truth or comparative truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-010",
+      "statement": "A primitive continuing subject does not supply an observed postmortem identity test; the selected exchange does not establish survival or timelessness.",
+      "claim_type": "inference",
+      "epistemic_role": "project inference/boundary assessment",
+      "source_ids": [
+        "S-P2T02-001",
+        "S-P2T02-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-001",
+          "locator": "pp. 5, 9–10, §§1, 3; pp. 16–19, §§7–8; pp. 20–21 notes 15, 28",
+          "role": "Support for premises of project inference; source does not state the project conclusion verbatim."
+        },
+        {
+          "source_id": "S-P2T02-002",
+          "locator": "pp. 1151–1164, §§1.1–4",
+          "role": "Support for premises of project inference; source does not state the project conclusion verbatim."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T02-001",
+        "CL-P2T02-007",
+        "CL-P2T02-008"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "An organized physical bearer with dependent higher-level causal descriptions",
+        "Other dualist individuation or interaction accounts not selected here"
+      ],
+      "record_reliability": "Assessment traceable to identified inspected claims; not an observation",
+      "inference_strength": "Conditional and scope-limited; no hypothesis confidence upgrade",
+      "limitations": [
+        "No dying-person sample, irreversible-death endpoint, branching adjudication or non-succession observation is inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "claim_id": "CL-P2T02-011",
+      "statement": "The exclusion burden concerns sufficient causes, dependence and event individuation; energy conservation alone does not settle this selected dispute.",
+      "claim_type": "inference",
+      "epistemic_role": "project inference/boundary assessment",
+      "source_ids": [
+        "S-P2T02-001",
+        "S-P2T02-002",
+        "S-P2T02-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T02-001",
+          "locator": "pp. 5, 9–10, §§1, 3; pp. 16–19, §§7–8; pp. 20–21 notes 15, 28",
+          "role": "Support for premises of project inference; source does not state the project conclusion verbatim."
+        },
+        {
+          "source_id": "S-P2T02-002",
+          "locator": "pp. 1151–1164, §§1.1–4",
+          "role": "Support for premises of project inference; source does not state the project conclusion verbatim."
+        },
+        {
+          "source_id": "S-P2T02-003",
+          "locator": "pp. 280–283, §1; pp. 287–292, §§3–4; pp. 296–299, §6.2",
+          "role": "Support for premises of project inference; source does not state the project conclusion verbatim."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T02-EXCLUSION-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T02-001",
+        "CL-P2T02-002",
+        "CL-P2T02-003",
+        "CL-P2T02-004",
+        "CL-P2T02-005",
+        "CL-P2T02-006",
+        "CL-P2T02-007",
+        "CL-P2T02-008"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "An organized physical bearer with dependent higher-level causal descriptions",
+        "Other dualist individuation or interaction accounts not selected here"
+      ],
+      "record_reliability": "Assessment traceable to identified inspected claims; not an observation",
+      "inference_strength": "Conditional and scope-limited; no hypothesis confidence upgrade",
+      "limitations": [
+        "No independent empirical closure premise or complete causal theory is established by this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T02-001",
+      "name": "Lowe’s subject and intentional-causation model",
+      "position": "Non-Cartesian substance dualism",
+      "premises": [
+        "CL-P2T02-001",
+        "CL-P2T02-002",
+        "CL-P2T02-003"
+      ],
+      "bridge_principles": [
+        "Identity criteria for a subject differ from criteria for its changing body or parts.",
+        "The relevant decision and ramifying neural aggregate have different counterfactual profiles."
+      ],
+      "conclusion": "On those commitments, distinct subjects can explain intentional action while physical event chains remain complete.",
+      "source_ids": [
+        "S-P2T02-001",
+        "S-P2T02-002"
+      ],
+      "claim_ids": [
+        "CL-P2T02-001",
+        "CL-P2T02-002",
+        "CL-P2T02-003",
+        "CL-P2T02-004"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A physically sufficient event also fixes that it occurs; relabeling the intentional explanandum as a fact does not by itself remove competing sufficiency. Unity experienced in deciding does not independently settle causal event individuation.",
+      "strongest_reply": "Lowe can challenge extension of event closure to facts and distinguish the type of intended outcome from its token realization. This works only with justified distinctions and counterfactuals.",
+      "unresolved_issues": [
+        "Justification of distinct identity conditions",
+        "Distinct causal contribution without duplication",
+        "Empirical adequacy of the neural/event premises",
+        "No observed postmortem continuation"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "argument_id": "A-P2T02-002",
+      "name": "Bennett’s conditional exclusion challenge",
+      "position": "Nonreductive physicalist challenge to dualist compatibility",
+      "premises": [
+        "CL-P2T02-005",
+        "CL-P2T02-006"
+      ],
+      "bridge_principles": [
+        "Ordinary independent sufficient causes differ from dependent causal descriptions.",
+        "Relevant closest-world counterfactuals retain enough background to test genuine causal independence."
+      ],
+      "conclusion": "A dualist with merely contingent psychophysical links needs a different response than the physicalist dependence strategy, unless a defensible necessitating relation is supplied.",
+      "source_ids": [
+        "S-P2T02-003",
+        "S-P2T02-002"
+      ],
+      "claim_ids": [
+        "CL-P2T02-005",
+        "CL-P2T02-006",
+        "CL-P2T02-007",
+        "CL-P2T02-008"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The decisive modal test may sever an explanatory embodiment relation and thereby test a different causal situation; metaphysical necessitation is not conceded to physicalism alone.",
+      "strongest_reply": "A relation must explain the dependence and have independent motivation; arbitrary covariance cannot be stipulated into the fixed counterfactual background. Bennett also leaves completeness itself as a separate dualist dispute.",
+      "unresolved_issues": [
+        "Conditional completeness",
+        "Admissible counterfactual background",
+        "Coherence and motivation of necessary relations between distinct substances"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "argument_id": "A-P2T02-003",
+      "name": "Engelhardt’s inclusive compatibility reply",
+      "position": "Revised substance dualism with dependent property sharing",
+      "premises": [
+        "CL-P2T02-007",
+        "CL-P2T02-008"
+      ],
+      "bridge_principles": [
+        "Two property bearers need not supply two independently sufficient physical pushes.",
+        "Counterfactual comparison should preserve a well-founded explanatory embodiment relation."
+      ],
+      "conclusion": "A specified substance-dualist variant can contest the inference from two bearers to systematic independent overdetermination.",
+      "source_ids": [
+        "S-P2T02-002",
+        "S-P2T02-003"
+      ],
+      "claim_ids": [
+        "CL-P2T02-004",
+        "CL-P2T02-005",
+        "CL-P2T02-006",
+        "CL-P2T02-007",
+        "CL-P2T02-008",
+        "CL-P2T02-009"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T02-001",
+        "A-P2T02-002"
+      ],
+      "strongest_objection": "Token sharing and embodiment may merely restate the dependence to be explained; if their modal force is unsupported, exclusion returns. A model that surrenders distinctive independent powers may not meet Lowe’s original explanatory ambition.",
+      "strongest_reply": "Require a relation with explanatory standing comparable to relations accepted in physicalist constitution cases; do not assume numerical distinctness entails causal independence.",
+      "unresolved_issues": [
+        "Distinct colocated bearers",
+        "One property instance with multiple bearers",
+        "Independent tests of embodiment",
+        "No independently distinctive powers or empirical advantage established"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T02-001",
+      "title": "Non-Cartesian Substance Dualism and the Problem of Mental Causation",
+      "authors": [
+        "E. J. Lowe"
+      ],
+      "publication_date": "2006",
+      "url_or_identifier": "https://doi.org/10.1007/s10670-006-9012-3",
+      "source_type": "Original philosophical journal article",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 5–10, §§1–3",
+        "pp. 12–19, §§5–8",
+        "pp. 20–21, notes 9, 15, 18, 28",
+        "pp. 19–23, notes/references"
+      ],
+      "provenance_notes": "Public reproduction of Erkenntnis 65(1):5–23; JSTOR stable 27667849 cover. PDF has 20 pages: cover P0, printed 5–23 at P1–P19. Source front matter plus discovery metadata verify title/author/year/DOI; OCR misreads s1 as sl in DOI. Text inspected through web PDF extraction. No local PDF bytes claimed.",
+      "inspected_url": "https://metaphysicist.com/articles/Lowe_Dualism.pdf",
+      "version": "Published article reproduction",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "source_id": "S-P2T02-002",
+      "title": "Interactive, Inclusive Substance Dualism",
+      "authors": [
+        "Jeff Engelhardt"
+      ],
+      "publication_date": "2017-05-27",
+      "url_or_identifier": "https://doi.org/10.1007/s11406-017-9852-x",
+      "source_type": "Original philosophical journal article",
+      "access_status": "inspected_full_text_with_version_limit",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 1151–1154, §1.1",
+        "pp. 1154–1156, §2.1 and note 12",
+        "pp. 1156–1161, §2.2",
+        "pp. 1161–1164, §3",
+        "pp. 1164–1165, §4/references"
+      ],
+      "provenance_notes": "Philosophia 45(3):1149–1165. Two selected public PDF routes failed; author research page linked an Academia HTML transcription with published front matter and printed page markers. Author page generally calls linked works penultimate drafts. Complete sections 1–4 and references read; exact publisher PDF bytes and typography not checked. A later revisionist reply, not a Lowe rebuttal to Engelhardt.",
+      "inspected_url": "https://www.academia.edu/75561408/Interactive_Inclusive_Substance_Dualism",
+      "version": "Author-linked HTML transcription bearing published pagination; exact byte equivalence unverified",
+      "author_route": "https://sites.google.com/site/virtualjeffengelhardt/home/research",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    },
+    {
+      "source_id": "S-P2T02-003",
+      "title": "Exclusion Again",
+      "authors": [
+        "Karen Bennett"
+      ],
+      "publication_date": "2008",
+      "url_or_identifier": "https://doi.org/10.1093/acprof:oso/9780199211531.003.0015",
+      "source_type": "Original philosophical book chapter",
+      "access_status": "inspected_full_text_with_pagination_discrepancy",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 280–283, §1",
+        "pp. 287–292, §§3–4",
+        "pp. 296–299, §6.2",
+        "pp. 301–302, §§6.4–7",
+        "pp. 302–305, references"
+      ],
+      "provenance_notes": "Chapter 14, in Jakob Hohwy and Jesper Kallestrup (eds.), Being Reduced: New Essays on Reduction, Explanation, and Causation, Oxford University Press. Publisher catalog 280–306, PhilPapers 280–307; author-hosted scan has cover plus 13 spreads, printed 280–305, with conclusion and references ending Yablo. All 14 image-only PDF pages visually inspected after local rendering. No missing substantive tail detected, but catalog/scan pagination discrepancy remains explicit. DOI from publisher/index metadata; scan verifies chapter title/author.",
+      "inspected_url": "https://www.karenbennett.org/_files/ugd/4d77f7_cfd57f52556749a09b2426217af88725.pdf",
+      "version": "Author-hosted scan of published book chapter",
+      "local_path": "work/P2T02/Bennett_Exclusion_Again.pdf",
+      "sha256": "0eada7d8babb512ac34eabcd5c9d64abbe3b5623549ac95645ba10e00d226a09",
+      "byte_count": 1278908,
+      "author_route": "https://www.karenbennett.org/publications",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "R-P2R02"
+    }
+  ]
+}

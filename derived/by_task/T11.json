@@ -1,0 +1,814 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T11",
+  "report": "work/T11/report.md",
+  "counts": {
+    "claims": 20,
+    "arguments": 5,
+    "cases": 0,
+    "sources": 6
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T11-001",
+      "statement": "Einstein’s kinematic argument uses a relativity principle, invariant vacuum light speed and clock synchronization to derive frame-dependent distant simultaneity.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-001"
+      ],
+      "source_locators": [
+        "Introduction; §§1–3"
+      ],
+      "case_ids": [],
+      "dependency_group": "Einstein kinematic formalism",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A preferred metaphysical frame requires added structure beyond the inspected formulation."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Reliable theoretical attribution, not a newly reviewed experiment or proof of a unique ontology."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11",
+      "epistemic_scope": "Attribution of an inspected theoretical construction, not an observed event or empirical confirmation."
+    },
+    {
+      "claim_id": "CL-T11-002",
+      "statement": "Einstein’s §3 transformation and §4 moving-clock relation retain elapsed clock readings; unequal rates do not eliminate temporal succession.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-001"
+      ],
+      "source_locators": [
+        "§3 final transformation; §4 moving clock at x=vt"
+      ],
+      "case_ids": [],
+      "dependency_group": "Einstein kinematic formalism",
+      "supporting_claim_ids": [
+        "CL-T11-001"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Additional ontology may interpret the same measured relations differently."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Sub-luminal inertial-motion domain; no modern precision test audited."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-003",
+      "statement": "In the displayed Lorentz relation, positive elapsed time along x=vt remains positive for |v|<c; a complete-history representation therefore need not collapse ordered clock events into one simultaneous event.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-001"
+      ],
+      "source_locators": [
+        "§§3–4; author deduction in report"
+      ],
+      "case_ids": [],
+      "dependency_group": "Einstein kinematic formalism",
+      "supporting_claim_ids": [
+        "CL-T11-002"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Whether all represented events equally exist is an additional metaphysical issue."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Conditional scope; does not establish actual timeless consciousness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-004",
+      "statement": "Rovelli distinguishes measurable partial observables from predictive complete correlations and treats physical clocks relationally.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-002"
+      ],
+      "source_locators": [
+        "§II pendulum example; §III equation(4); §V equation(5)"
+      ],
+      "case_ids": [],
+      "dependency_group": "Rovelli relational formalism",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Attribution of this formalism’s interpretation; not a measurement of foundational consciousness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11",
+      "epistemic_scope": "Attribution of an inspected theoretical construction, not an observed event or empirical confirmation."
+    },
+    {
+      "claim_id": "CL-T11-005",
+      "statement": "Rovelli’s constrained formulation does not require privileged external time; §VI explicitly restricts its detailed development to finite degrees of freedom while retaining histories and relational predictions.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-002"
+      ],
+      "source_locators": [
+        "§VI opening; equations(6)–(11),(21)–(22); §VII"
+      ],
+      "case_ids": [],
+      "dependency_group": "Rovelli relational formalism",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "A theoretical framework, not an empirically confirmed complete quantum-gravity cosmology."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11",
+      "epistemic_scope": "Attribution of an inspected theoretical construction, not an observed event or empirical confirmation."
+    },
+    {
+      "claim_id": "CL-T11-006",
+      "statement": "Neither coordinate-invariant observables nor omission of privileged external time entails absence of physical change, experience, or all intrinsic succession.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-002"
+      ],
+      "source_locators": [
+        "§V equation(5) and clock example; §VII; author bridge assessment"
+      ],
+      "case_ids": [],
+      "dependency_group": "Physics-to-metaphysics bridge",
+      "supporting_claim_ids": [
+        "CL-T11-004",
+        "CL-T11-005"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A further ontology could posit a timeless foundation, but would need independent justification."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Conditional scope; does not establish actual timeless consciousness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-007",
+      "statement": "In Boethius V.6, Philosophy contrasts whole possession of life with endless sequential existence and places divine priority in simplicity rather than earlier duration.",
+      "claim_type": "philosophical premise",
+      "source_ids": [
+        "S-T11-003"
+      ],
+      "source_locators": [
+        "V.6 opening eternity/everlasting comparison"
+      ],
+      "case_ids": [],
+      "dependency_group": "Boethian timeless knowledge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Historical argument attribution; “single moment” in this translation is read with its explicit contrast to temporal succession, not as a coordinate instant."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-008",
+      "statement": "Boethius IV.6 distinguishes unified providence from its temporal unfolding; V.6 distinguishes conditional from simple necessity in replying to the foreknowledge objection.",
+      "claim_type": "philosophical premise",
+      "source_ids": [
+        "S-T11-003"
+      ],
+      "source_locators": [
+        "IV.6 providence/fate distinction; V.3 objection; V.6 knowledge/necessity reply"
+      ],
+      "case_ids": [],
+      "dependency_group": "Boethian timeless knowledge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The account still owes an adequate relation between infallible knowledge, grounding and free choices."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Argument attribution, not an established solution to freedom, evil or providential action."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-009",
+      "statement": "Craig’s tensed-fact objection is conditional on objective A-theoretic tense and a knower’s need to know what is presently true; he explicitly says a B-theory avoids this argument.",
+      "claim_type": "philosophical premise",
+      "source_ids": [
+        "S-T11-004"
+      ],
+      "source_locators": [
+        "Opening numbered argument; paragraph beginning The B-theorist; conclusion"
+      ],
+      "case_ids": [],
+      "dependency_group": "Craig tensed knowledge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Deny irreducible tensed facts or defend atemporal knowledge of them."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "The disputed semantics and knowledge premise are not proven by the existence of a temporal world alone."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-010",
+      "statement": "Craig argues that replacing propositional beliefs with direct intuition does not by itself remove the objection if irreducibly tensed reality still must be known.",
+      "claim_type": "philosophical premise",
+      "source_ids": [
+        "S-T11-004"
+      ],
+      "source_locators": [
+        "Omniscience Despite Ignorance of Tensed Facts; arguments4′ and4*"
+      ],
+      "case_ids": [],
+      "dependency_group": "Craig tensed knowledge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A defender can instead reject absolute presentness or justify a distinct access relation."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Craig’s objection is directly inspected; his accounts of modern defenders are not substitutes for their originals."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-011",
+      "statement": "Craig’s personhood defense focuses on a God without temporal creation, distinguishing possible changeless self-awareness from interaction with temporal persons.",
+      "claim_type": "philosophical premise",
+      "source_ids": [
+        "S-T11-005"
+      ],
+      "source_locators": [
+        "Opening scope; Criteria Based on States of Consciousness"
+      ],
+      "case_ids": [],
+      "dependency_group": "Craig personhood defense",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Possible personhood without creation is not proof of timeless responsiveness in the actual world."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-012",
+      "statement": "Craig defends timeless volition by disputing that every intention is future-directed or reached by deliberation; the response invokes a possible unchanging will.",
+      "claim_type": "philosophical premise",
+      "source_ids": [
+        "S-T11-005"
+      ],
+      "source_locators": [
+        "Criteria Based on Intentionality"
+      ],
+      "case_ids": [],
+      "dependency_group": "Craig personhood defense",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A critic may require agency to involve action or reasons responsive capacities whose timeless realization is still unexplained."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Counterexamples within temporal human life do not by themselves exhibit an actually timeless agent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-013",
+      "statement": "Craig also presents a model timeless without creation and temporal with creation; it is a temporal alternative once a world exists, not foundation-level H-T throughout that relation.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-005"
+      ],
+      "source_locators": [
+        "States of Consciousness, Ockhamist model paragraphs; Inter-personal Relations"
+      ],
+      "case_ids": [],
+      "dependency_group": "Craig personhood defense",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "An atemporal foundation can instead deny the need for intrinsic change upon creating."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Explaining the relation without a literal temporal “before time” remains necessary; no cosmic clock identification adopted."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-014",
+      "statement": "A conditional M2 model can posit one non-successive act that knows and grounds a temporally ordered history, provided the grounding relation and individuated subjectivity are independently intelligible.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-003",
+        "S-T11-005"
+      ],
+      "source_locators": [
+        "IV.6/V.6; Craig scope; author reconstruction in report"
+      ],
+      "case_ids": [],
+      "dependency_group": "Timeless foundation construction",
+      "supporting_claim_ids": [
+        "CL-T11-007",
+        "CL-T11-008",
+        "CL-T11-011",
+        "CL-T11-012"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "An impersonal relational structure or a temporal conscious foundation could realize comparable physical history."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Project reconstruction, not either source’s verbatim model or proof of full metaphysical coherence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-015",
+      "statement": "Knowing a dated event and each person’s indexical belief need not mean being that person or successively acquiring those beliefs; whether this exhausts knowledge of objective presentness is disputed.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-004",
+        "S-T11-005"
+      ],
+      "source_locators": [
+        "Craig tensed-fact sections; personhood self-consciousness passage; author reconstruction"
+      ],
+      "case_ids": [],
+      "dependency_group": "Tensed versus dated knowledge",
+      "supporting_claim_ids": [
+        "CL-T11-009",
+        "CL-T11-010",
+        "CL-T11-011"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A-theoretic presentness may demand a genuinely changing cognitive relation."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Conditional scope; does not establish actual timeless consciousness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-016",
+      "statement": "A changing time-indexed relation to a fixed foundation is distinct from a new intrinsic state of that foundation; the claim that every genuine response needs such a new state requires argument.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-003",
+        "S-T11-005"
+      ],
+      "source_locators": [
+        "IV.6; Inter-personal Relations; author reconstruction"
+      ],
+      "case_ids": [],
+      "dependency_group": "Timeless foundation construction",
+      "supporting_claim_ids": [
+        "CL-T11-008",
+        "CL-T11-012",
+        "CL-T11-014"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Responsiveness understood as new awareness or deliberative revision entails succession."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Counterfactual dependence across possible histories is not a sequence of changes within one foundation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-017",
+      "statement": "M1 temporal continuation, M2 a timeless foundation with temporal persons, and M3 complete-history inclusion are distinct; inclusion of a finite life or its record alone does not meet H-S.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [
+        "T01 report §4; author mapping in report"
+      ],
+      "case_ids": [],
+      "dependency_group": "T01 identity and bearer definitions",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A richer M3 must specify same-person subjectivity beyond the bodily-life boundary."
+      ],
+      "record_reliability": "unresolved",
+      "inference_strength": "supported",
+      "limitations": [
+        "Internal conceptual inference under T01; personal identity adjudication deferred to T13."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-018",
+      "statement": "Relativity, a relational formalism and eternalism do not alone identify an experiential bearer or the grounding relation needed for H-F, H-U, H-T or human survival.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-001",
+        "S-T11-002"
+      ],
+      "source_locators": [
+        "Kinematic/formalism scope; author argument A-T11-001"
+      ],
+      "case_ids": [],
+      "dependency_group": "Physics-to-metaphysics bridge",
+      "supporting_claim_ids": [
+        "CL-T11-003",
+        "CL-T11-006"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Independent philosophical arguments could supply a bridge; these physical formalisms do not supply it by themselves."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Conditional scope; does not establish actual timeless consciousness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-019",
+      "statement": "If rival metaphysical models yield the same physical and report predictions, those observations cannot distinguish them; a discriminating test requires independently specified differing expectations.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [
+        "Author discrimination analysis; reviewed T08/T09 report boundaries"
+      ],
+      "case_ids": [],
+      "dependency_group": "Prediction and underdetermination",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A specified interaction model might predict additional measurable differences."
+      ],
+      "record_reliability": "unresolved",
+      "inference_strength": "supported",
+      "limitations": [
+        "No assertion that all possible timeless and temporal models are empirically equivalent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "claim_id": "CL-T11-020",
+      "statement": "The Boethian and Craig discussions share premises about knowledge and personhood; they are not independent observations, and conditional coherence does not establish actuality or equal support for alternatives.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T11-003",
+        "S-T11-004",
+        "S-T11-005"
+      ],
+      "source_locators": [
+        "Author dependence and sensitivity analysis"
+      ],
+      "case_ids": [],
+      "dependency_group": "Shared philosophical premises",
+      "supporting_claim_ids": [
+        "CL-T11-007",
+        "CL-T11-009",
+        "CL-T11-011",
+        "CL-T11-014"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Additional independent evidence may change comparative support."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No quantitative metaphysical posterior or cumulative nine-component verdict."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T11-001",
+      "name": "Physical time without a metaphysical shortcut",
+      "position": "inference limit",
+      "premises": [
+        "Einstein’s relations preserve clock order.",
+        "Rovelli’s histories and relational predictions survive removal of privileged external time."
+      ],
+      "bridge_principles": [
+        "A formal representation does not determine the full ontology of what it represents."
+      ],
+      "conclusion": "These results do not establish a timeless conscious bearer.",
+      "source_ids": [
+        "S-T11-001",
+        "S-T11-002"
+      ],
+      "claim_ids": [
+        "CL-T11-001",
+        "CL-T11-002",
+        "CL-T11-003",
+        "CL-T11-004",
+        "CL-T11-005",
+        "CL-T11-006",
+        "CL-T11-018"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "An all-history representation may naturally motivate eternalist ontology.",
+      "strongest_reply": "Even eternalism contains earlier/later relations and does not identify a single experiencing mind.",
+      "unresolved_issues": [
+        "Interpretative merits of eternalism and rival ontologies remain open.",
+        "No broad quantum-gravity or empirical-relativity review."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "argument_id": "A-T11-002",
+      "name": "A timeless conscious foundation with temporal manifestation",
+      "position": "conditional positive model",
+      "premises": [
+        "Suppose a conscious ground can know ordered contents in one non-discursive act.",
+        "Suppose a non-temporal grounding relation can explain why a concrete history obtains.",
+        "Suppose individual perspectives are grounded without requiring additions to the ground."
+      ],
+      "bridge_principles": [
+        "Explanatory and intentional priority need not be temporal priority.",
+        "A timeless intention can be directed toward a whole history and its ends."
+      ],
+      "conclusion": "Under these substantive assumptions M2 avoids the simple accumulation contradiction and could unify temporal order with conscious grounding.",
+      "source_ids": [
+        "S-T11-003",
+        "S-T11-005"
+      ],
+      "claim_ids": [
+        "CL-T11-007",
+        "CL-T11-008",
+        "CL-T11-011",
+        "CL-T11-012",
+        "CL-T11-014",
+        "CL-T11-016"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The model may redescribe history without explaining its concrete existence or subjective individuation; a fixed act may not count as agency.",
+      "strongest_reply": "It posits an actual subject and reasons-guided dependence, rather than merely an abstract record; the absence of deliberation does not by definition exclude intention.",
+      "unresolved_issues": [
+        "Prove the proposed grounding relation intelligible and explanatory.",
+        "Supply comparative reason to prefer mind over impersonal structure.",
+        "Value and goodness require separate premises."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "argument_id": "A-T11-003",
+      "name": "The tensed-knowledge challenge",
+      "position": "conditional objection and reply",
+      "premises": [
+        "Suppose objective presentness is irreducible.",
+        "Suppose perfect knowledge must encompass which events are presently occurring.",
+        "Suppose tracking these changing truths requires intrinsic cognitive succession."
+      ],
+      "bridge_principles": [
+        "The presence of irreducibly tensed reality, not mere temporal order, drives the inference."
+      ],
+      "conclusion": "Then a cognitively perfect ground of this temporal world cannot meet H-T.",
+      "source_ids": [
+        "S-T11-004"
+      ],
+      "claim_ids": [
+        "CL-T11-009",
+        "CL-T11-010",
+        "CL-T11-015"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A defender denies absolute presentness or argues one atemporal act knows every tensed fact through a non-successive access relation.",
+      "strongest_reply": "The first response rejects a key premise and is a serious alternative; the second must explain access without either missing changing actuality or collapsing all times into one temporal present.",
+      "unresolved_issues": [
+        "Neither A-theory nor B-theory settled here.",
+        "Direct modern defender originals and response chain remain coverage gaps.",
+        "Propositional and non-propositional knowledge need separate accounts."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "argument_id": "A-T11-004",
+      "name": "Timeless personhood and intentional responsiveness",
+      "position": "compatibility defense with temporal alternative",
+      "premises": [
+        "Necessary conditions of personhood must not be inferred solely from the way finite humans learn.",
+        "A possible knower may have self-awareness and rational volition without deliberative updating.",
+        "Responsiveness can be specified as dependence of effects on reasons, or as newly acquired awareness; these differ."
+      ],
+      "bridge_principles": [
+        "A capacity can remain unexercised; possible temporal exercise does not show the bearer already has succession."
+      ],
+      "conclusion": "Simple personhood arguments do not automatically refute timelessness; actual interaction still needs a model.",
+      "source_ids": [
+        "S-T11-005"
+      ],
+      "claim_ids": [
+        "CL-T11-011",
+        "CL-T11-012",
+        "CL-T11-013",
+        "CL-T11-016"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The proposed timeless capacities may be nominal; responsiveness to genuinely new events seems to require new states.",
+      "strongest_reply": "Either justify whole-history reasons-sensitive dependence, or accept a temporal divine life with creation. Neither option is cost-free.",
+      "unresolved_issues": [
+        "Craig’s timeless-without-creation scope is limited.",
+        "Transition into time must not posit a time before time.",
+        "Trinitarian illustration is an additional theological assumption, not universal-subject evidence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    },
+    {
+      "argument_id": "A-T11-005",
+      "name": "Whole-history preservation versus survival",
+      "position": "identity handoff",
+      "premises": [
+        "Representing or including all events of a finite life preserves specified contents.",
+        "T01 H-S requires the same person’s subjectivity beyond irreversible bodily death."
+      ],
+      "bridge_principles": [
+        "A record or a containing knower is not automatically numerically identical to the represented person."
+      ],
+      "conclusion": "M3 inclusion alone supplies a preservation proposal, not H-S.",
+      "source_ids": [],
+      "claim_ids": [
+        "CL-T11-017",
+        "CL-T11-019",
+        "CL-T11-020"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "An enlarged subject-history might include genuinely continuing subjectivity outside embodied succession.",
+      "strongest_reply": "That is a distinct stronger hypothesis deserving assessment under an explicit identity relation; merely calling it inclusion does not establish it.",
+      "unresolved_issues": [
+        "T13: bearer, death condition, numerical identity, continuation domain, memory and branching."
+      ],
+      "review_status": "accepted",
+      "review_id": "R11"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-T11-001",
+      "title": "On the Electrodynamics of Moving Bodies",
+      "authors": [
+        "Albert Einstein"
+      ],
+      "publication_date": "1905",
+      "url_or_identifier": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
+      "source_type": "original theoretical physics in English translation",
+      "access_status": "inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Introduction; Part I §§1–4; Footnotes; About this Edition"
+      ],
+      "provenance_notes": "Inspected kinematic argument, definitions, transformation and clock passages plus edition/footnotes. John Walker electronic edition November 1999 based on Methuen 1923 English translation associated with W. Perrett and G. B. Jeffery; notation and editorial corrections disclosed. Original German and modern experimental tests not inspected. Not a full electrodynamics audit.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T11-002",
+      "title": "Partial observables",
+      "authors": [
+        "Carlo Rovelli"
+      ],
+      "publication_date": "2002-01-21",
+      "url_or_identifier": "https://arxiv.org/pdf/gr-qc/0110035",
+      "source_type": "original theoretical physics preprint",
+      "access_status": "inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "§§I–V pp.1–5; §VI pp.5–8, equations (3), (6)–(11), (21)–(22); §VII and references pp.8–9"
+      ],
+      "provenance_notes": "arXiv gr-qc/0110035v3 header dated 21 January 2002; body title date October 23, 2018 is inconsistent and retained as a rendering/version-date discrepancy, not a 2018 new paper. DOI 10.1103/PhysRevD.65.124013 appears in forward-search publisher metadata; published version not separately inspected. Relevant sections, equations, conclusion and bibliography read; no fresh technical proof or quantum-gravity validation. Screenshot requests returned textual handles; no visual QA claim.",
+      "related_case_ids": [],
+      "doi": "10.1103/PhysRevD.65.124013"
+    },
+    {
+      "source_id": "S-T11-003",
+      "title": "The Consolation of Philosophy",
+      "authors": [
+        "Boethius"
+      ],
+      "publication_date": "1897",
+      "url_or_identifier": "https://www.gutenberg.org/files/14328/14328-h/14328-h.htm",
+      "source_type": "original philosophical text in historical English translation",
+      "access_status": "inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Title and preface; IV.6; V.3–6, especially V.6; translator note [S]"
+      ],
+      "provenance_notes": "H. R. James 1897 translation, preface identifies Peiper 1874 Latin text. Inspected relevant prose and context, not the whole book or Latin manuscripts. Arguments voiced by Philosophy in a dialogue. Translation date distinct from ancient composition. Modern apparatus and poem are not treated as independent philosophical evidence. Translator note [S] disputes the text’s historical attribution to Plato; no independent Plato attribution adopted.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T11-004",
+      "title": "Omniscience, Tensed Facts, and Divine Eternity",
+      "authors": [
+        "William Lane Craig"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.reasonablefaith.org/writings/scholarly-writings/divine-eternity/omniscience-tensed-facts-and-divine-eternity/",
+      "source_type": "original philosophical argument, author-hosted HTML",
+      "access_status": "inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Opening numbered argument and B-theory paragraph; Timeless Knowledge of Tensed Facts; Omniscience Despite Ignorance of Tensed Facts; Must God Be Omniscient?; notes1–44"
+      ],
+      "provenance_notes": "Author-hosted body and references inspected. Exact publication/reprint date absent from inspected HTML; repository search metadata attributes April 2000, not independently checked journal edition. Core text is treated as a pre-cutoff historical argument; footer date is not publication date. Failed repository/PDF routes logged. Craig’s summaries of Kvanvig, Wierenga and Leftow do not count as inspecting those originals. No blanket endorsement of his criticisms.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T11-005",
+      "title": "Divine Timelessness and Personhood",
+      "authors": [
+        "William Lane Craig"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.reasonablefaith.org/writings/scholarly-writings/divine-eternity/divine-timelessness-and-personhood/",
+      "source_type": "original philosophical argument, author-hosted HTML",
+      "access_status": "inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Opening scope paragraphs; Criteria Based on States of Consciousness; Criteria Based on Intentionality; Criteria Based on Inter-personal Relations; Summary and Conclusion; notes1–26"
+      ],
+      "provenance_notes": "Full argument and bibliography inspected in HTML; separate author PDF first five pages inspected as partial representation, same original identity. Exact publication date absent; source’s prior indexed crawl and older scholarly references establish it is not a new post-cutoff argument but do not fix edition date. HTML and PDF contain incidental empirical illustrations not adopted here. Critic quotations establish Craig’s presentation only; direct original critics beyond S-T11-004 are a gap.",
+      "related_case_ids": [],
+      "alternate_access_urls": [
+        "https://www.reasonablefaith.org/images/uploads/Divine_Timelessness_and_Personhood.pdf"
+      ]
+    },
+    {
+      "source_id": "S-T11-006",
+      "title": "Must the Beginning of the Universe Have A Personal Cause?: A Critical Examination of Some of William Lane Craig’s Arguments",
+      "authors": [
+        "Wes Morriston"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://place.asburyseminary.edu/faithandphilosophy/vol17/iss2/1/",
+      "source_type": "repository landing-page identity only",
+      "access_status": "metadata_only",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Landing-page title and author"
+      ],
+      "provenance_notes": "Misrouted navigation while seeking Craig; title/author inspected, substantive argument not inspected and no claim depends on this source. Conservatively counted as one context inspection.",
+      "related_case_ids": [],
+      "decisive": false
+    }
+  ]
+}

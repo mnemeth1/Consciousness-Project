@@ -1,0 +1,996 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T06",
+  "report": "work/T06/report.md",
+  "counts": {
+    "claims": 19,
+    "arguments": 3,
+    "cases": 2,
+    "sources": 8
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T06-001",
+      "statement": "The supplied speaker attributes acute symptoms on10November2008, subsequent seizures and E.coli diagnosis to the illness, and describes ventilation, sedation and antibiotics.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "17:31–23:40"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Seizures and clinician judgments are narrated retrospectively; transcript is not a clinical record.",
+        "Reported incidence and prognosis percentages have no independently checked denominator here."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-002",
+      "statement": "The supplied speaker claims neocortical function disappeared early, later describes full-thickness destruction across eight lobes, and infers ordinary brain production of the elaborate experience was impossible.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "25:10–25:43;1:12:45–1:14:49"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A-T06-002 challenges exclusion of surviving or recovering processing."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "No project-inspected measurement establishes universal cortical silence or literal irreversible destruction.",
+        "Narrative uses damage/destruction/function interchangeably; interpretation cannot substitute for measured neural state."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-003",
+      "statement": "The supplied speaker says a brain-death assessment was the next proposed step, rather than reporting its completed diagnostic result.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "31:59–32:17"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Do not recode as certified brain death or death reversed."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-004",
+      "statement": "The supplied text says antibiotics were stopped on day7, but later says intravenous antibiotics continued at home.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "32:17–32:59;1:23:33–1:23:48"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "A temporary stop/restart could reconcile these statements; treatment orders and timestamps are unavailable."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-005",
+      "statement": "The supplied speaker recalls a murky initial state, a musical light, an intensely vivid valley with a female guide, and a loving core realm, with repeated transitions and claimed absence of autobiographical memory.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "33:30–41:43;45:53–47:03;54:30–59:19"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Phenomenology is testimony; no independent physical geography follows.",
+        "At36:24–36:38 the speaker suggests the initial murky state may have been brain-produced."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-006",
+      "statement": "The supplied speaker describes altered duration and higher-order time, including an experience seeming to last months or years within the reported hospital interval.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "37:10–37:29;47:03–47:44;1:04:45–1:05:12"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Subjective temporal order is not an external clock or proof of ontological timelessness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-007",
+      "statement": "The supplied speaker links recalled faces to bedside visitors, reports an image of absent family friend Susan, and identifies his son’s plea as a motive for returning.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "1:03:52–1:10:42"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Susan surname is garbled in SRT; Mays identifies Reintjes, but that does not authenticate this transcript.",
+        "Matching and timing are retrospective; visitor access, sensory exposure and shared family communications require checking.",
+        "This claim differs from the clinical paper’s nonspecified praying-visitors example and must not automatically merge with it."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-008",
+      "statement": "The supplied speaker says he knew before coma that a birth sister had died, had reunited with birth relatives in2007, and recognized the guide in her photograph four months after coma while reading an analogous Kübler-Ross story the next morning.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "1:32:40–1:33:12;1:34:44–1:35:33;1:35:33–1:38:04"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Not a claim of learning the sister’s existence or death for the first time during the NDE.",
+        "No independently dated pre-photo description or blind identification test inspected.",
+        "Knowing relatives provides possible information channels without demonstrating image exposure or misidentification."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-009",
+      "statement": "The supplied speaker reports post-awakening delusional confusion, distinguishes it from the earlier vivid experience, and describes language and autobiographical/professional memories returning over hours to weeks.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "1:10:42–1:12:27"
+      ],
+      "case_ids": [
+        "C-T06-001",
+        "C-T06-002"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Subjective difference does not by itself determine different neural versus non-neural causes."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-010",
+      "statement": "The supplied speaker says he wrote about20000 words before reading NDE literature, following his son’s advice.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "1:23:33–1:25:06"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Original dated manuscript/version history not inspected; later statement cannot independently authenticate pre-literature contents."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-011",
+      "statement": "The supplied speaker interprets his experience as revealing fundamental shared consciousness, enduring souls, loving purpose and healing; he also says reading Moorjani later influenced his understanding of healing.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "6:41–8:24;14:08–14:50;42:13–45:53;1:02:24–1:03:40;1:38:04–1:38:35"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Broader physics, historical religion, prevalence and healing claims in the talk were not independently investigated by this case task.",
+        "A report of love is not proof of universal goodness, moral authority or treatment efficacy."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-012",
+      "statement": "The2018 reviewers report severe E.coli illness, GCS6–11, sedation, no EEG, and complete neurological recovery by two-month follow-up.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T06-002"
+      ],
+      "source_locators": [
+        "pp744–745 Case Report; p746 Discussion"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Clinical severity and recovery permit multiple mind–brain interpretations."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Published extraction by external reviewers, not project access to original chart.",
+        "Sedative versus illness contributions are expressly not fully separable; GCS is not proof of absent experience."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-013",
+      "statement": "The2018 paper reports day9 disclosure of perceived praying visitors, retrospective family/staff corroboration, and an inferred experience interval within days1–5.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-002"
+      ],
+      "source_locators": [
+        "p745 Case Report, paragraph beginning On hospital day9"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Visitors, statements, interview dates and exclusion of ordinary information access are not fully reproduced.",
+        "Corroboration of a detail would not independently date every element of the extended narrative."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-014",
+      "statement": "Dittrich reports Potter describing chemical sedation and delirious responsiveness, challenging Alexander’s inference of a wholly nonfunctioning brain.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-003"
+      ],
+      "source_locators": [
+        "Clinical discussion, web lines536–548"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Illness and sedation can both contribute; a drug-only explanation is not established by this quotation."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Published interview account only; source recording unavailable.",
+        "Mays disputes its contextual accuracy in CL-T06-015."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-015",
+      "statement": "Mays disputes a solely drug-induced explanation and prints an attributed Potter objection to Dittrich’s portrayal; he reports her nonresponse to his calls and request to remove that statement in2013.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-004"
+      ],
+      "source_locators": [
+        "pp67–68;72–78, especially p75"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Statement provenance runs through family/publisher; not independently authenticated Potter retraction by this project.",
+        "A contextual objection does not erase every observation in the earlier interview."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-016",
+      "statement": "Mays reports Sylvia White’s2013 recollection that a pre-photo description matched Betsy’s photograph, and argues reported faces provide time anchors.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-004"
+      ],
+      "source_locators": [
+        "pp88–91"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Retrospective family-circle corroboration is additional testimony, not a contemporaneous blind test.",
+        "White describes viewing the photograph after Holley introduced it; description’s exact prior contents/date not reproduced independently."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-017",
+      "statement": "In his current undated account Alexander says the infection began responding and that he wrote more than20000 words within six weeks; he maintains a brain-independent interpretation.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-005"
+      ],
+      "source_locators": [
+        "Paragraphs beginning Fortunately and Thus, you can imagine; final argument"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Current updated page is not authenticated as the original2012 AANS text.",
+        "Quoted Greyson review is not additional independent clinical evidence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-018",
+      "statement": "The publisher’s2012-edition prologue explicitly presents cortical inactivity as Alexander’s premise for survival and a loving deity.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "Prologue final illness/inference paragraphs; Product Details"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective report may contain reconstruction or uncertain timing; no particular error mechanism is established."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Author’s inference, not publisher or clinical verification; only excerpt inspected.",
+        "Earliest actual public disclosure remains unresolved."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "claim_id": "CL-T06-019",
+      "statement": "Shermer argues that explanatory gaps and vivid experiences do not establish supernatural causes; he reports Alexander acknowledging an unknown mind–brain separation mechanism.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-008"
+      ],
+      "source_locators": [
+        "First argument and closing comparison"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A-T06-001 states Alexander’s strongest reply; accepting neural mechanisms as possibilities is not diagnosing hallucination."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported labels apply to the exact inspected text attribution, not automatic verification of the narrated event.",
+        "Shermer did not review raw clinical records here; comparison cases do not establish this case’s mechanism.",
+        "Quoted Sacks argument is not treated as directly inspected Sacks source."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T06-001",
+      "name": "Alexander’s brain-independence argument",
+      "position": "Strongest conditional reconstruction, not endorsed conclusion",
+      "premises": [
+        "Elaborate experience was remembered.",
+        "If relevant brain processes were excluded during that experience, a specified ordinary production account would fail.",
+        "Claimed external details and prior description might strengthen accuracy if independently verified."
+      ],
+      "bridge_principles": [
+        "Retrospective memory accurately dates its content to the excluded interval.",
+        "Clinical evidence rules out all processes required by the targeted model.",
+        "Alternate ordinary information routes do not explain verified details."
+      ],
+      "conclusion": "Conditional support for H-B; no automatic H-S/H-T or deity inference",
+      "source_ids": [
+        "S-T06-001",
+        "S-T06-005",
+        "S-T06-006"
+      ],
+      "claim_ids": [
+        "CL-T06-002",
+        "CL-T06-005",
+        "CL-T06-007",
+        "CL-T06-008",
+        "CL-T06-013",
+        "CL-T06-016",
+        "CL-T06-018"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A-T06-002: neither temporal alignment nor exclusion of all relevant processing is established.",
+      "strongest_reply": "Defender appeals to profound impairment, different recovery phenomenology and corroborative detail rather than credentials alone.",
+      "unresolved_issues": [
+        "Recoverable brain illness is not irreversible death.",
+        "Even H-B needs a substrate definition; other physical realization is logically possible."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "argument_id": "A-T06-002",
+      "name": "Underdetermination and ordinary alternatives",
+      "position": "Audit reconstruction with Shermer’s original challenge",
+      "premises": [
+        "Reports and clinical severity do not directly identify the moment each memory formed.",
+        "A feeling of reality alone cannot validate external objects.",
+        "Ordinary mechanisms may remain possible without any one being demonstrated."
+      ],
+      "bridge_principles": [
+        "A claim that excludes a mechanism must establish the relevant exclusion, not rely solely on explanatory incompleteness."
+      ],
+      "conclusion": "This packet does not identify a unique neural or non-neural cause",
+      "source_ids": [
+        "S-T06-001",
+        "S-T06-002",
+        "S-T06-008"
+      ],
+      "claim_ids": [
+        "CL-T06-006",
+        "CL-T06-009",
+        "CL-T06-012",
+        "CL-T06-013",
+        "CL-T06-019"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A-T06-001: severe impairment and corroborated details could challenge a precisely specified brain-dependent account.",
+      "strongest_reply": "Preserve corroborative reports and propose independently dated/timed tests; do not declare hallucination merely because it is possible.",
+      "unresolved_issues": [
+        "Raw records and prospective synchronization absent.",
+        "Comparator studies and direct Sacks source not inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    },
+    {
+      "argument_id": "A-T06-003",
+      "name": "Severe illness versus solely pharmacological coma",
+      "position": "Narrow dispute audit",
+      "premises": [
+        "Dittrich publishes Potter’s sedation/responsiveness account.",
+        "Mays disputes its context.",
+        "Clinical review attributes pre-sedation deterioration to illness while acknowledging mixed later contributions."
+      ],
+      "bridge_principles": [
+        "Different descriptions can concern different stages and mechanisms; quotations alone do not settle physiology."
+      ],
+      "conclusion": "Avoid both drug-only dismissal and inference from serious illness to complete brain inactivity",
+      "source_ids": [
+        "S-T06-002",
+        "S-T06-003",
+        "S-T06-004"
+      ],
+      "claim_ids": [
+        "CL-T06-012",
+        "CL-T06-014",
+        "CL-T06-015"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Witness accounts are retrospective and contested.",
+      "strongest_reply": "Published chart review strengthens severe-illness documentation but is not a continuous functional recording.",
+      "unresolved_issues": [
+        "Original interview and clinical chronology needed to settle remaining particulars."
+      ],
+      "review_status": "accepted",
+      "review_id": "R06"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "C-T06-001",
+      "name": "Eben Alexander2008 critical illness and reported NDE",
+      "kind": "retrospective_named_case",
+      "underlying_event_or_sample": "Single2008 illness/hospitalization; recalled spiritual phases and later recognition all belong to one reporting chain",
+      "event_date": "2008-11-10 onset",
+      "source_ids": [
+        "S-T06-001",
+        "S-T06-002",
+        "S-T06-003",
+        "S-T06-004",
+        "S-T06-005",
+        "S-T06-006",
+        "S-T06-008"
+      ],
+      "duplicate_group": "DG-T06-ALEXANDER-2008-illness",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        {
+          "time": "2008-11-10",
+          "event": "Illness onset per supplied testimony and memoir excerpt",
+          "source_ids": [
+            "S-T06-001",
+            "S-T06-006"
+          ]
+        },
+        {
+          "time": "hospital days1–5",
+          "event": "Published review describes severe impairment; retrospectively attributes perceived events to interval",
+          "source_ids": [
+            "S-T06-002"
+          ]
+        },
+        {
+          "time": "hospital day6/7",
+          "event": "Published review extubation day6/improvement day7 versus speaker awakening/extubation day7; exact day convention unresolved",
+          "source_ids": [
+            "S-T06-001",
+            "S-T06-002",
+            "S-T06-005"
+          ]
+        },
+        {
+          "time": "hospital day9",
+          "event": "Earliest disclosure reported retrospectively by2018 review, not an inspected contemporaneous note",
+          "source_ids": [
+            "S-T06-002"
+          ]
+        },
+        {
+          "time": "first6weeks afterhospital",
+          "event": "Author asserts written account; original draft unavailable",
+          "source_ids": [
+            "S-T06-005"
+          ]
+        },
+        {
+          "time": "approximately4months aftercoma",
+          "event": "Photo recognition claim with prior family knowledge and analogous reading context",
+          "source_ids": [
+            "S-T06-001",
+            "S-T06-004"
+          ]
+        },
+        {
+          "time": "2012-10-23 edition",
+          "event": "Earliest dated memoir excerpt inspected; earlier AANS2012 lead inaccessible",
+          "source_ids": [
+            "S-T06-006"
+          ]
+        }
+      ],
+      "denominators": {},
+      "access_gaps": [
+        "Original chart and interview recordings not inspected",
+        "Experience-to-measurement synchronization absent",
+        "Independent dated pre-photo description unavailable"
+      ],
+      "related_case_ids": [
+        "C-T06-002"
+      ],
+      "reporting_dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "phase2_reinspections": [
+        {
+          "task_id": "P2T15",
+          "review_id": "P2R15",
+          "reinspection_claim_ids": [
+            "CL-P2T15-001",
+            "CL-P2T15-002",
+            "CL-P2T15-003",
+            "CL-P2T15-004",
+            "CL-P2T15-005",
+            "CL-P2T15-006",
+            "CL-P2T15-007",
+            "CL-P2T15-008",
+            "CL-P2T15-009",
+            "CL-P2T15-010",
+            "CL-P2T15-011",
+            "CL-P2T15-012",
+            "CL-P2T15-013",
+            "CL-P2T15-014",
+            "CL-P2T15-015",
+            "CL-P2T15-016",
+            "CL-P2T15-017",
+            "CL-P2T15-018",
+            "CL-P2T15-019",
+            "CL-P2T15-020",
+            "CL-P2T15-021",
+            "CL-P2T15-022",
+            "CL-P2T15-023",
+            "CL-P2T15-024",
+            "CL-P2T15-025",
+            "CL-P2T15-026",
+            "CL-P2T15-027",
+            "CL-P2T15-028",
+            "CL-P2T15-030",
+            "CL-P2T15-031",
+            "CL-P2T15-032",
+            "CL-P2T15-033",
+            "CL-P2T15-034"
+          ],
+          "disposition_record": "records/phase2_case_reinspections.json",
+          "operation": "accepted annex; all historical case fields retained"
+        }
+      ]
+    },
+    {
+      "case_id": "C-T06-002",
+      "name": "Eben Alexander post-awakening confusion",
+      "kind": "related_recovery_episode",
+      "underlying_event_or_sample": "Subsequent reported confused/delusional recovery phase; comparator, not second independent NDE",
+      "event_date": "2008-11; exact interval unresolved",
+      "source_ids": [
+        "S-T06-001",
+        "S-T06-002"
+      ],
+      "duplicate_group": "DG-T06-ALEXANDER-2008-recovery",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        {
+          "time": "awakening and ensuing recovery",
+          "event": "Speaker describes delusional confusion distinct in remembered quality from spiritual experience",
+          "source_ids": [
+            "S-T06-001"
+          ]
+        }
+      ],
+      "denominators": {},
+      "access_gaps": [
+        "Original chart and interview recordings not inspected",
+        "Experience-to-measurement synchronization absent",
+        "Independent dated pre-photo description unavailable"
+      ],
+      "related_case_ids": [
+        "C-T06-001"
+      ],
+      "reporting_dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "phase2_reinspections": [
+        {
+          "task_id": "P2T15",
+          "review_id": "P2R15",
+          "reinspection_claim_ids": [
+            "CL-P2T15-013",
+            "CL-P2T15-029"
+          ],
+          "disposition_record": "records/phase2_case_reinspections.json",
+          "operation": "accepted annex; all historical case fields retained"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S-T06-001",
+      "title": "User-supplied purported Eben Alexander talk",
+      "authors": [
+        "Attributed Eben Alexander; unidentified introducer"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "state/input_snapshots/user_sources/alexander_user_supplied_talk.srt",
+      "source_type": "supplied_transcript",
+      "access_status": "full_text_inspected_audio_unverified",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "00:00:08.200–01:38:43.950; 2410 cues"
+      ],
+      "provenance_notes": "Original upload 41377eb8-2e7e-46df-a5ea-4d995cbcb213.srt; libfile_2e449cd1d4388191b41e16978779f75a; SHA256 36a2917995927bb06cc9823e5723fdf9fe25358580ac79aa0a5dfaa29fe65dc2. Recording date/URL unknown; candidate metadata S-T06-007 not authenticated match. ASR errors retained; speaker names normalized only as attributed identity. Intro until01:57.960; principal speaker from02:02.880. Current supplied text is post2012 from internal book references; exact historical date unknown.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-002",
+      "title": "Full Neurological Recovery From Escherichia coli Meningitis Associated With Near-Death Experience",
+      "authors": [
+        "Surbhi Khanna",
+        "Lauren E. Moore",
+        "Bruce Greyson"
+      ],
+      "publication_date": "2018-09",
+      "url_or_identifier": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2018/09/Greyson_-Alexander-JNMD-2018.pdf",
+      "source_type": "clinical_record_review",
+      "access_status": "full_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "J Nerv Ment Dis206:744–747; DOI10.1097/NMD.0000000000000874"
+      ],
+      "provenance_notes": "Institutional author-hosted published PDF; all four pages read. Authors report reviewing charts and consulting neurologists; project inspected published review only, no raw chart/EEG/witness-interview files. Anonymous patient linked to Alexander by references and S-T06-005, not a second case. Non-treating authors; patient reviewed for accuracy; Bial funding and no declared financial/institutional conflicts on p746.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-003",
+      "title": "The Prophet",
+      "authors": [
+        "Luke Dittrich"
+      ],
+      "publication_date": "2013-07-02",
+      "url_or_identifier": "https://www.esquire.com/entertainment/interviews/a23248/the-prophet/",
+      "source_type": "original_investigative_journalism",
+      "access_status": "relevant_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Clinical passage beginning Unlike weather records through intubation question; web lines536–560"
+      ],
+      "provenance_notes": "Reporter’s own interview account; clinician statements mediated by reporter. Original recording not accessed. Biography/career allegations not used as a substitute for case evidence. Publication page date July2; print issue August2013.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-004",
+      "title": "Eben Alexander’s Near-Death Experience: How an Esquire Article Distorted the Facts",
+      "authors": [
+        "Robert G. Mays"
+      ],
+      "publication_date": "2016 (Winter issue; uploaded2017-11-29)",
+      "url_or_identifier": "https://www.researchgate.net/publication/321361929_Eben_Alexander's_near-Death_experience_How_an_esquire_article_distorted_the_facts",
+      "source_type": "guest_editorial_original_investigation_and_reply",
+      "access_status": "relevant_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp67–78;85–93; DOI10.17514/JNDS-2016-35-2-p65-93"
+      ],
+      "provenance_notes": "Author-uploaded full text. Relevant clinical, chronology, identity and reference sections read; not all intervening biography/Dalai Lama discussion evaluated. Printed Winter2016 label conflicts with internal January2017 communication/four-years wording; actual issue-release date unverified. Mays reports interviews with family circle and publisher-mediated Potter statement; direct Potter confirmation not obtained.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-005",
+      "title": "My Experience in Coma — current author-hosted version",
+      "authors": [
+        "Eben Alexander"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://ebenalexander.com/about/my-experience-in-coma/",
+      "source_type": "author_firsthand_account_and_argument",
+      "access_status": "full_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Opening illness paragraphs; paragraph beginning Fortunately; written-account paragraph; final argument; reference1"
+      ],
+      "provenance_notes": "Undated current text incorporates later Greyson review. Not established identical to AANS2012 original, whose archived URL failed. One retrospective reporting chain; reproduced medical review not another independent observation.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-006",
+      "title": "Proof of Heaven: A Neurosurgeon’s Journey into the Afterlife — publisher excerpt, Q&A and edition metadata",
+      "authors": [
+        "Eben Alexander; Simon & Schuster editorial metadata"
+      ],
+      "publication_date": "2012-10-23 (edition)",
+      "url_or_identifier": "https://www.simonandschuster.com/books/Proof-of-Heaven/Eben-Alexander/9781451695199",
+      "source_type": "memoir_excerpt_and_publisher_metadata",
+      "access_status": "partial_book_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Prologue complete; final illness/inference paragraphs; Q&A title discussion; Product Details ISBN9781451695199"
+      ],
+      "provenance_notes": "Current publisher page presents excerpt of2012 edition; full memoir/AppendixA not inspected. Current Q&A/publication-page update dates unknown. Promotional blurb kept separate from author text and medical evidence.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-007",
+      "title": "Eben Alexander: A Neurosurgeon’s Journey through the Afterlife",
+      "authors": [
+        "Theosophy World"
+      ],
+      "publication_date": "2017-03-08 (page label)",
+      "url_or_identifier": "https://www.theosophy.world/resource/eben-alexander-neurosurgeons-journey-through-afterlife",
+      "source_type": "recording_catalog_metadata",
+      "access_status": "metadata_only_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Title; description;2014 convention attribution"
+      ],
+      "provenance_notes": "Page describes2014 Theosophical Society128th Summer Convention talk. Possible match only: no audio/caption/video alignment performed, so supplied SRT identity remains unknown. No substantive case evidence.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T06-008",
+      "title": "Why a Near-Death Experience Isn’t Proof of Heaven",
+      "authors": [
+        "Michael Shermer"
+      ],
+      "publication_date": "2013-04-01",
+      "url_or_identifier": "https://www.scientificamerican.com/article/why-near-death-experience-isnt-proof-heaven/",
+      "source_type": "original_critical_argument_and_interview_account",
+      "access_status": "full_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Paragraphs First, Second and closing comparison; Scientific American308(4):86; DOI10.1038/scientificamerican0413-86"
+      ],
+      "provenance_notes": "Full article read. Discovery suggested Sacks; actual author Shermer. Primary for Shermer’s argument and reported direct Alexander exchange. Sacks passages are secondary attribution and not inspected original neurological evidence; underlying comparator studies not inspected.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    }
+  ]
+}

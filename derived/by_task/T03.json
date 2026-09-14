@@ -1,0 +1,198 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T03",
+  "report": "work/T03/report.md",
+  "counts": {
+    "claims": 1,
+    "arguments": 6,
+    "cases": 0,
+    "sources": 1
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T03-001",
+      "statement": "Chalmers argues for fundamental experience and supplementary psychophysical principles, describing his proposal as naturalistic dualism.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T03-001"
+      ],
+      "source_locators": [
+        "Section 6, rendered lines 129–143"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T03-CHALMERS1995",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "This documents an argued position, not the truth of its premises; project PH variants contest the inference from explanatory gap to ontology."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Author-proposed attribution assessment pending independent review.",
+        "No metaphysical result follows from documented authorship.",
+        "Detailed attribution appears once in report literature anchor.",
+        "G0 acceptance verifies the narrow author attribution; contested inference refers to the philosophical proposal, not uncertainty that Chalmers made it. No hypothesis truth verdict."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T03-001",
+      "name": "Physicalism operational comparison",
+      "position": "M-T03-PH; project stipulation, not philosopher attribution",
+      "premises": [
+        "A complete physical realization account is possible."
+      ],
+      "bridge_principles": [
+        "Conceptual differences need not establish ontological differences."
+      ],
+      "conclusion": "Physical constitution is a viable comparator.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Phenomenal character may remain unexplained.",
+      "strongest_reply": "Identity or grounding need not be conceptually transparent.",
+      "unresolved_issues": [
+        "Premises are unassessed. Detailed residual costs, criteria and conditional discriminators: report.md, Motivations, challenges, replies and discriminators."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    },
+    {
+      "argument_id": "A-T03-002",
+      "name": "Psychophysical laws operational comparison",
+      "position": "M-T03-PL; project stipulation, not philosopher attribution",
+      "premises": [
+        "Additional experiential resources may be required."
+      ],
+      "bridge_principles": [
+        "General laws can explain instances without explaining their own existence."
+      ],
+      "conclusion": "A constrained law model is a viable comparator.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Mappings may leave their central dependence brute.",
+      "strongest_reply": "Apply the same explanatory stopping rules across models.",
+      "unresolved_issues": [
+        "Premises are unassessed. Detailed residual costs, criteria and conditional discriminators: report.md, Motivations, challenges, replies and discriminators."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    },
+    {
+      "argument_id": "A-T03-003",
+      "name": "Panpsychism operational comparison",
+      "position": "M-T03-PA; project stipulation, not philosopher attribution",
+      "premises": [
+        "Experiential constituents may support an account of complex subjects."
+      ],
+      "bridge_principles": [
+        "An explicit constitutive relation can ground unified subjecthood."
+      ],
+      "conclusion": "The constitutive proposal warrants comparison.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Many subjects do not evidently constitute one subject.",
+      "strongest_reply": "Specify and constrain a subject-constitution relation.",
+      "unresolved_issues": [
+        "Premises are unassessed. Detailed residual costs, criteria and conditional discriminators: report.md, Motivations, challenges, replies and discriminators."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    },
+    {
+      "argument_id": "A-T03-004",
+      "name": "Dualism operational comparison",
+      "position": "M-T03-DU; project stipulation, not philosopher attribution",
+      "premises": [
+        "Subjectivity may require distinct irreducible bearers."
+      ],
+      "bridge_principles": [
+        "Distinct subjects can have coherent, constrained relations to bodies."
+      ],
+      "conclusion": "An explicit dualist model warrants comparison.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Interaction may conflict with a complete physical causal account.",
+      "strongest_reply": "Assess causal completeness and explicit interaction laws separately.",
+      "unresolved_issues": [
+        "Premises are unassessed. Detailed residual costs, criteria and conditional discriminators: report.md, Motivations, challenges, replies and discriminators."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    },
+    {
+      "argument_id": "A-T03-005",
+      "name": "Idealism operational comparison",
+      "position": "M-T03-ID; project stipulation, not philosopher attribution",
+      "premises": [
+        "A conscious basis could ground experience and a public ordered world."
+      ],
+      "bridge_principles": [
+        "A grounding model can earn support through explanatory success."
+      ],
+      "conclusion": "Conscious grounding warrants comparison.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Experiential knowledge does not prove mental ontology.",
+      "strongest_reply": "Offer an overall explanatory argument and perspective-individuation model.",
+      "unresolved_issues": [
+        "Premises are unassessed. Detailed residual costs, criteria and conditional discriminators: report.md, Motivations, challenges, replies and discriminators."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    },
+    {
+      "argument_id": "A-T03-006",
+      "name": "Theism operational comparison",
+      "position": "M-T03-TH; project stipulation, not philosopher attribution",
+      "premises": [
+        "Contingent reality may require explanation.",
+        "Intentional agency may provide that explanation."
+      ],
+      "bridge_principles": [
+        "Independent arguments are required for agency, good ends and moral authority."
+      ],
+      "conclusion": "A specified intentional creator warrants comparison.",
+      "source_ids": [],
+      "claim_ids": [],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Explanation alone does not identify mind, goodness or authority.",
+      "strongest_reply": "Supply distinct agency and normative arguments; test specified ends against suffering and hiddenness.",
+      "unresolved_issues": [
+        "Premises are unassessed. Detailed residual costs, criteria and conditional discriminators: report.md, Motivations, challenges, replies and discriminators."
+      ],
+      "review_status": "accepted",
+      "review_id": "G0"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-T03-001",
+      "title": "Facing Up to the Problem of Consciousness",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "publication_date": "1995",
+      "url_or_identifier": "https://consc.net/papers/facing.html",
+      "source_type": "primary philosophical argument; author-hosted published-text version",
+      "access_status": "inspected_relevant_sections",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Sections 2–3, paragraphs distinguishing experience from functional explanation; rendered lines 34–63",
+        "Section 5, final argument against purely physical explanation; rendered lines 114–125",
+        "Section 6, paragraphs introducing fundamental experience, psychophysical principles and naturalistic dualism; rendered lines 129–143"
+      ],
+      "provenance_notes": "Inherited Research_Plan.md URL directly opened. Relevant passages inspected; no claim of whole-text inspection. Journal metadata is displayed on author page. Narrow attribution only; report model stipulations are not attributed to this author.",
+      "related_case_ids": []
+    }
+  ]
+}

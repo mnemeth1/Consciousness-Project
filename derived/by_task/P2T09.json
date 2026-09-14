@@ -1,0 +1,1281 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T09",
+  "report": "work/P2T09/report.md",
+  "counts": {
+    "claims": 25,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 8
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T09-001",
+      "statement": "Parnia110080 explicitly answers Greyson and van Lommel109924; it is not identified in its body as a reply to Martial109980.",
+      "claim_type": "document_attribution",
+      "source_ids": [
+        "S-P2T09-002",
+        "S-P2T09-001",
+        "S-T07-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-002",
+          "locator": "p. 1, opening address and sole reference"
+        },
+        {
+          "source_id": "S-P2T09-001",
+          "locator": "p. 1, complete letter"
+        },
+        {
+          "source_id": "S-T07-003",
+          "locator": "p. 1, title and argument"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "The distinct110205reply addresses Martial; retain separate chains."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-002",
+      "statement": "Greyson and van Lommel question an EEG consciousness interpretation because recorded EEG and explicit cognitive recollections do not overlap in the reported interview subset; they also question artifact exclusion.",
+      "claim_type": "argument_attribution",
+      "source_ids": [
+        "S-P2T09-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-001",
+          "locator": "p. 1, paragraphs 3–5"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "An unmeasured association is not a demonstrated negative association.",
+        "The main study reports only two interviewed participants with EEG."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-003",
+      "statement": "Parnia replies that absent explicit recall does not prove absent consciousness and invokes implicit memory and clinical EEG interpretation.",
+      "claim_type": "argument_attribution",
+      "source_ids": [
+        "S-P2T09-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-002",
+          "locator": "p. 1, second paragraph"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "This answers the critic’s negative inference but supplies no positive participant-specific experience or timing data."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-004",
+      "statement": "Parnia asserts pulse-check sampling, artifact removal and expert ACNS-based EEG interpretation as a response to the artifact concern.",
+      "claim_type": "method_attribution",
+      "source_ids": [
+        "S-P2T09-002",
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-002",
+          "locator": "p. 1, third paragraph"
+        },
+        {
+          "source_id": "S-T07-007",
+          "locator": "p. 4, pulse-check sampling and visual EEG classification; p. 6, adapted ACNS criteria continuation"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "No independent artifact audit or raw-data reanalysis was supplied by the letter.",
+        "Physiological alpha versus alpha coma remains unresolved in the main paper p. 9."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+          "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-005",
+      "statement": "The reply distinguishes correlation from production and proposes disinhibition; those claims do not establish either a causal mechanism or extracerebral acquisition.",
+      "claim_type": "argument_attribution_and_inference",
+      "source_ids": [
+        "S-P2T09-002",
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-002",
+          "locator": "p. 1, fourth paragraph and right-column continuation"
+        },
+        {
+          "source_id": "S-T07-007",
+          "locator": "p. 9, discussion"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002",
+        "C-T07-003"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements."
+      ],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "The broad assertion that no causal account exists is author attribution, not an independently verified literature result.",
+        "Distinctive subjective themes do not establish external accuracy."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "shared_article_interpretive_context",
+          "scope": "Article/reply-level argument only; no arm-specific observation, mechanism or additional sample."
+        },
+        {
+          "case_id": "C-T07-003",
+          "relationship_type": "shared_article_interpretive_context",
+          "scope": "Article/reply-level argument only; no arm-specific observation, mechanism or additional sample."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-006",
+      "statement": "The published Martial letter challenges EEG classification, terminology, fruit-choice interpretation and timing.",
+      "claim_type": "argument_attribution",
+      "source_ids": [
+        "S-T07-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-003",
+          "locator": "p. 1, four main argument paragraphs"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "Do not equate suppressed traces with burst-suppression without the referenced technical source.",
+        "Its cited clinical/neural claims are not independently verified here."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-007",
+      "statement": "The final AWARE I publication retains 140 first-stage interviews alongside 52 plus 90 interviews and the Table 1 denominator 142.",
+      "claim_type": "source_numerical_attribution",
+      "source_ids": [
+        "S-T07-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-001",
+          "locator": "p. 1801, text and Table 1 footnote; p. 1802, Fig. 1"
+        }
+      ],
+      "case_ids": [
+        "C-T07-001"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "52+90=142 is arithmetic, not a correction authorized by participant data."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-008",
+      "statement": "AWARE I Fig. 1 places 39 stage-two noncompleters on the 85-no-memory branch of the 140 first-stage group; the 101 remaining are 46 no-memory, 46 non-NDE, seven NDE without event recall and two NDE with event recall.",
+      "claim_type": "source_flow_attribution",
+      "source_ids": [
+        "S-T07-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-001",
+          "locator": "p. 1802, Fig. 1, graph visually inspected"
+        }
+      ],
+      "case_ids": [
+        "C-T07-001"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "Raw flow data not obtained.",
+        "The top graph label in-hospital cardiac arrests does not match the full inclusion scope on p. 1800."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-009",
+      "statement": "The AWARE I graph labels stage-three n=2 and one verified/one unverified recollection, while prose states poor health prevented further follow-up of one; both event-recall cases lacked concealed-target shelves.",
+      "claim_type": "source_flow_attribution",
+      "source_ids": [
+        "S-T07-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-001",
+          "locator": "pp. 1801–1803, event-recall text, Fig. 1 and Table 2"
+        }
+      ],
+      "case_ids": [
+        "C-T07-001"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "One author chart check is not two independent corroborations.",
+        "The approximately 22% shelf-area figure is not an exposed-interviewed denominator."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-010",
+      "statement": "AWARE I’s author chart check and AED timing inference do not provide a participant-specific EEG measurement; awareness up to three minutes and arrest at least three minutes refer to different quantities.",
+      "claim_type": "inference_boundary",
+      "source_ids": [
+        "S-T07-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-001",
+          "locator": "p. 1802, event-recall paragraph and footnote; pp. 1803–1804, discussion"
+        }
+      ],
+      "case_ids": [
+        "C-T07-001"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements."
+      ],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "No absence-of-measurement inference to absent neural processing.",
+        "Clinical records and ordinary information access were not independently reopened."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-011",
+      "statement": "AWARE II retains 567 arrests, 213 sustained ROSC, 53 discharge survivors, 28 interviewed and 11 reporters; category counts 2+2+3+6 are overlapping memberships.",
+      "claim_type": "source_numerical_attribution",
+      "source_ids": [
+        "S-T07-007",
+        "S-P2T09-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-007",
+          "locator": "pp. 6–7, results and Fig. 2"
+        },
+        {
+          "source_id": "S-P2T09-002",
+          "locator": "p.1, opening approximate summaries compared with main results"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "The interviewed sample does not estimate all-arrest consciousness prevalence.",
+        "Twenty-five discharge survivors were not interviewed.",
+        "The110080opening approximate40%/20%/3%and its without-explicit-recall wording are compressed descriptions, not new results, a53-person denominator or revised category classification."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+          "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-012",
+      "statement": "Equipment deployment in 365 cases is distinct from valid stimulus delivery; the main protocol starts images at one minute and auditory fruit words at five minutes after activation.",
+      "claim_type": "method_and_opportunity_attribution",
+      "source_ids": [
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-007",
+          "locator": "p. 3, audiovisual methods; pp. 6–7, recruitment and results"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements."
+      ],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "Delivered-image × interview and delivered-audio × interview remain unknown.",
+        "Do not substitute 365, 567 or 28 for a confirmed opportunity denominator."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+          "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-013",
+      "statement": "No explicit target recall or correct implicit image choice is reported; one correct implicit fruit choice is reported among 28 interviewees. This is distinct from the separate one-person overt visual recollection of clinical surroundings.",
+      "claim_type": "source_result_attribution",
+      "source_ids": [
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-007",
+          "locator": "p. 6, medical-event recall; p. 7, implicit learning and memories"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements."
+      ],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "The identity overlap between those one-person results is unknown.",
+        "Any-three-fruits selection is not a uniform finite-choice chance model."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+          "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-014",
+      "statement": "EEG data comprise 851 images from 85 people, with 466 interpretable images from 53 people and oximetry in 49; only two of the 28 interviewed people had EEG and neither had explicit cognitive recall.",
+      "claim_type": "source_numerical_attribution",
+      "source_ids": [
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-007",
+          "locator": "p. 7, Fig. 2 footnote and real-time monitoring"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements."
+      ],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "Screenshots and people are different units.",
+        "Missing EEG–report links do not establish absence of consciousness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+          "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-015",
+      "statement": "The main paper reports suppression in 47% of EEG data, whereas the Greyson letter paraphrases this as about half the patients. The original unit must be retained.",
+      "claim_type": "version_unit_comparison",
+      "source_ids": [
+        "S-T07-007",
+        "S-P2T09-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-007",
+          "locator": "p. 8, main EEG results: suppression in 47% of EEG data"
+        },
+        {
+          "source_id": "S-P2T09-001",
+          "locator": "p. 1, opening EEG summary"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "No person-level suppression proportion is calculated."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+          "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-016",
+      "statement": "Aggregate timing summaries of EEG rhythms and Fig. 1A do not identify when a particular memory formed; the main paper explicitly cannot distinguish physiological alpha from alpha coma.",
+      "claim_type": "source_attribution_and_inference",
+      "source_ids": [
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-007",
+          "locator": "p. 4, Fig. 1A late plotted points and Fig. 1B >60-minute bin; p. 9, EEG discussion and alpha-coma qualification"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements."
+      ],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "Late plotted points in Fig. 1A and the >60-minute bin in Fig. 1B (both p. 4) do not authorize a corrected exact maximum without tabular versions."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+          "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-017",
+      "statement": "The 126 community narratives have selected retrospective ascertainment; between-arm overlap and reuse by companion monitoring analyses remain unknown.",
+      "claim_type": "dependence_attribution",
+      "source_ids": [
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-007",
+          "locator": "pp. 2, 6, community methods/results; p. 9, footnote 3"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002",
+        "C-T07-003"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "No pooled rate or independent-evidence count from letters, retellings or possible ancillary reuse."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "between_arm_or_ancillary_overlap_limitation",
+          "scope": "Unknown overlap with community/companion material; no community measurement assigned to the prospective arm."
+        },
+        {
+          "case_id": "C-T07-003",
+          "relationship_type": "community_sample_attribution_and_overlap_limitation",
+          "scope": "126 selected retrospective narratives; overlap unresolved and no all-arrest rate."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-018",
+      "statement": "The Dutch published layout confirms the original 344 people, 509 episodes, 62 broad and 41 core reports, and still prints 248 interviewed within five days with 74%; the inspected correction changes none of those figures.",
+      "claim_type": "source_numerical_attribution",
+      "source_ids": [
+        "S-T07-004",
+        "S-P2T09-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-004",
+          "locator": "pp. 2039–2041, methods and results"
+        },
+        {
+          "source_id": "S-P2T09-003",
+          "locator": "p. 1254, second Department of Error notice"
+        }
+      ],
+      "case_ids": [
+        "C-T07-004"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "People, repeated episodes and core/broad definitions cannot be pooled indiscriminately.",
+        "The printed 248(74%) still lacks a clear matching denominator."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-019",
+      "statement": "Dutch follow-up reclassification changes 37/37 to 35/39 at two years; the eight-year groups are 23/15, and Table 5 compares the same retained 38 at both times.",
+      "claim_type": "source_numerical_attribution",
+      "source_ids": [
+        "S-T07-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-004",
+          "locator": "pp. 2041–2043, longitudinal findings and Table 5"
+        }
+      ],
+      "case_ids": [
+        "C-T07-004"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "This does not retrospectively replace baseline 62/344 or create independent follow-up cohorts."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-020",
+      "statement": "Neither Dutch estimated durations nor AWARE I general physiology citations establish absent neural processing in the particular reported experience; the AWARE II intersection does not repair this absence.",
+      "claim_type": "inference_boundary",
+      "source_ids": [
+        "S-T07-004",
+        "S-T07-001",
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T07-004",
+          "locator": "pp. 2040, 2043–2044, methods and discussion"
+        },
+        {
+          "source_id": "S-T07-001",
+          "locator": "pp. 1802–1803, timing and discussion"
+        },
+        {
+          "source_id": "S-T07-007",
+          "locator": "pp. 7, 9, monitoring and limitations"
+        }
+      ],
+      "case_ids": [
+        "C-T07-001",
+        "C-T07-002",
+        "C-T07-003",
+        "C-T07-004"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements."
+      ],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "Cardiac arrest with CPR is not irreversible death.",
+        "No H-B or H-S upgrade follows without participant-linked timing and ordinary-route controls."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-001",
+          "relationship_type": "cross_study_inference_limit",
+          "scope": "Limitation on inferring absent neural processing; not a newly measured observation in this case."
+        },
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "cross_study_inference_limit",
+          "scope": "Limitation on inferring absent neural processing; not a newly measured observation in this case."
+        },
+        {
+          "case_id": "C-T07-003",
+          "relationship_type": "cross_study_inference_limit",
+          "scope": "Limitation on inferring absent neural processing; not a newly measured observation in this case."
+        },
+        {
+          "case_id": "C-T07-004",
+          "relationship_type": "cross_study_inference_limit",
+          "scope": "Limitation on inferring absent neural processing; not a newly measured observation in this case."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-021",
+      "statement": "The Dutch correction changes psilocarpine to psilocybine in the third sentence of p. 2044 paragraph3, retaining reference28 after LSD and reference21 after mescaline; it changes no cohort counts or follow-up results.",
+      "claim_type": "correction_comparison",
+      "source_ids": [
+        "S-P2T09-003",
+        "S-T07-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-003",
+          "locator": "p. 1254, second Department of Error notice, visually inspected"
+        },
+        {
+          "source_id": "S-T07-004",
+          "locator": "p. 2044, third paragraph third sentence; p. 2045, references21 and28"
+        }
+      ],
+      "case_ids": [
+        "C-T07-004"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "The corrected sentence concerns induced near-death-like experiences; the correction does not independently establish that physiological interpretation.",
+        "Notice DOI remains unverified; a filename or another letter’s DOI cannot supply it."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-022",
+      "statement": "Parnia et al.110205 explicitly answer Martial et al., citing the inspected109980letter as reference1 and the separate2022 Annals neuroscientific-expertise critique as reference2.",
+      "claim_type": "document_attribution",
+      "source_ids": [
+        "S-P2T09-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-005",
+          "locator": "p. 1, opening; p. 2, references1–2"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "The2022critique is a discovered adjacent original, not independently inspected in this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-023",
+      "statement": "The110205reply defends adapted EEG standards and states that practical multichannel-EEG constraints limited detailed time–frequency analysis; it argues stable states cannot simply model evolving arrest physiology.",
+      "claim_type": "argument_attribution",
+      "source_ids": [
+        "S-P2T09-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-005",
+          "locator": "p. 1, EEG paragraph and final paragraph"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "Practical explanation does not supply the omitted analysis, establish generalizability or eliminate classification uncertainty.",
+        "The original standards and broader physiological evidence are not independently validated here."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "claim_id": "CL-P2T09-024",
+      "statement": "The110205reply argues fruit guessing is improbable by citing more than80,000 English nouns; this reference class does not match the main protocol’s request for any three fruits.",
+      "claim_type": "probability_model_critique",
+      "source_ids": [
+        "S-P2T09-005",
+        "S-T07-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-005",
+          "locator": "p. 1, EEG paragraph continuing into right column"
+        },
+        {
+          "source_id": "S-T07-007",
+          "locator": "p. 3, implicit-memory procedure"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "No empirically justified distribution over fruit choices or predeclared scoring/chance model is supplied by the letter.",
+        "Do not calculate a p-value from English noun counts or assume equiprobable independent choices."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09",
+      "case_relationships": [
+        {
+          "case_id": "C-T07-002",
+          "relationship_type": "prospective_arm_source_attribution_or_method_inference",
+          "scope": "Concerns the prospective AWARE II arm only; not a measurement of the community narratives."
+        }
+      ]
+    },
+    {
+      "claim_id": "CL-P2T09-025",
+      "statement": "The110205reply proposes a recoverable ischemia/reperfusion continuum and disinhibition account, defends RED terminology using survivor themes, and expressly leaves the functional/evolutionary benefit unknown while assuming adaptation.",
+      "claim_type": "argument_attribution",
+      "source_ids": [
+        "S-P2T09-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T09-005",
+          "locator": "p. 1, second and fourth paragraphs; p. 2, opening paragraph"
+        }
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-P2T09-AWARE-DUTCH-REINSPECTION",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Inspected published passage; version/acquisition limitations retained.",
+      "inference_strength": "Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.",
+      "limitations": [
+        "Correspondence claims about recoverability, millions of survivors, death declarations, exclusive themes and neural causation are not independently validated facts.",
+        "Cellular recovery or gene-expression references do not by themselves demonstrate recovered subjective awareness.",
+        "No new target opportunities, participant-linked EEG–report data or recovered supplemental assets are supplied."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T09-001",
+      "name": "EEG–recollection intersection challenge and direct reply",
+      "position": "Critic and author exchange, with symmetric inference limits",
+      "premises": [
+        "CL-P2T09-002",
+        "CL-P2T09-003",
+        "CL-P2T09-004",
+        "CL-P2T09-014"
+      ],
+      "bridge_principles": [
+        "Positive EEG–experience association requires an appropriate participant/time intersection.",
+        "Absence of explicit memory is not equivalent to absence of consciousness."
+      ],
+      "conclusion": "The main study does not establish the positive association, and the missing association does not establish that the EEG patterns cannot be consciousness markers.",
+      "source_ids": [
+        "S-P2T09-001",
+        "S-P2T09-002",
+        "S-T07-007"
+      ],
+      "claim_ids": [
+        "CL-P2T09-001",
+        "CL-P2T09-002",
+        "CL-P2T09-003",
+        "CL-P2T09-004",
+        "CL-P2T09-014",
+        "CL-P2T09-015",
+        "CL-P2T09-016"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A plausible clinical EEG interpretation and implicit-memory analogy might support consciousness despite absent recall.",
+      "strongest_reply": "These possibilities rebut a negative inference but do not identify the content or timing of an experience in the monitored participants.",
+      "unresolved_issues": [
+        "Missing participant/time intersection",
+        "Raw data and independent artifact classification",
+        "Clinical marker validation in this protocol"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "argument_id": "A-P2T09-002",
+      "name": "From unusual recollection to extracerebral acquisition",
+      "position": "Conditional favorable case and strongest methodological countercase",
+      "premises": [
+        "CL-P2T09-009",
+        "CL-P2T09-010",
+        "CL-P2T09-012",
+        "CL-P2T09-013",
+        "CL-P2T09-016",
+        "CL-P2T09-020"
+      ],
+      "bridge_principles": [
+        "Externally accurate details would discriminate models only if timing and ordinary access were sufficiently constrained.",
+        "Descriptive similarity or vividness does not establish external accuracy or the source of information."
+      ],
+      "conclusion": "Investigative interest remains warranted, but the inspected versions and correspondence do not establish excluded-process perception or brain independence.",
+      "source_ids": [
+        "S-T07-001",
+        "S-T07-007",
+        "S-T07-004",
+        "S-P2T09-001",
+        "S-P2T09-002"
+      ],
+      "claim_ids": [
+        "CL-P2T09-005",
+        "CL-P2T09-009",
+        "CL-P2T09-010",
+        "CL-P2T09-012",
+        "CL-P2T09-013",
+        "CL-P2T09-016",
+        "CL-P2T09-020"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T09-001"
+      ],
+      "strongest_objection": "Author-checked resuscitation details and preserved cognition despite severe physiological compromise are difficult for simple absence-of-consciousness assumptions.",
+      "strongest_reply": "Challenge to that simple assumption is not an exclusion of every brain-dependent account; subject-specific neural state, memory timing and ordinary information access remain unmeasured or unresolved.",
+      "unresolved_issues": [
+        "Participant-linked physiology and timing",
+        "Independent contemporaneous record access",
+        "Target opportunities and chance model",
+        "No observation beyond irreversible death"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "argument_id": "A-P2T09-003",
+      "name": "Martial direct reply: explanatory limits and the fruit reference class",
+      "position": "Strongest inspected110205defense with protocol comparison",
+      "premises": [
+        "CL-P2T09-006",
+        "CL-P2T09-022",
+        "CL-P2T09-023",
+        "CL-P2T09-024",
+        "CL-P2T09-025"
+      ],
+      "bridge_principles": [
+        "Methodological constraints explain missing analysis but do not supply its result.",
+        "A chance model must match the actual cue, response space, scoring and sampling dependence.",
+        "Physiological change and subjective descriptions do not independently establish a proposed mechanism."
+      ],
+      "conclusion": "The direct reply repairs debate coverage and offers a positive account; it does not close opportunity, timing, classification or guessing-model gaps.",
+      "source_ids": [
+        "S-T07-003",
+        "S-P2T09-005",
+        "S-T07-007"
+      ],
+      "claim_ids": [
+        "CL-P2T09-006",
+        "CL-P2T09-012",
+        "CL-P2T09-013",
+        "CL-P2T09-022",
+        "CL-P2T09-023",
+        "CL-P2T09-024",
+        "CL-P2T09-025"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T09-001",
+        "A-P2T09-002"
+      ],
+      "strongest_objection": "Clinical constraints and the rapidly changing state may make a stable-state critique inappropriate; standardized patterns and unusual responses may remain informative.",
+      "strongest_reply": "Their information value must be assessed within the available measurements and protocol; neither lack of detailed analysis nor a noun-count denominator establishes the needed inference.",
+      "unresolved_issues": [
+        "Fruit-choice distribution and scoring",
+        "Participant/time linkage",
+        "Independent standards/classification validation",
+        "2022original critic and broader2025/2026chain remain uninspected"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T09-001",
+      "title": "AWAreness during REsuscitation and EEG activity",
+      "authors": [
+        "Bruce Greyson",
+        "Pim van Lommel"
+      ],
+      "publication_date": "2024-01",
+      "url_or_identifier": "https://doi.org/10.1016/j.resuscitation.2023.109924",
+      "source_type": "original methodological correspondence",
+      "access_status": "inspected_original_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "p. 1, all body paragraphs and sole reference"
+      ],
+      "provenance_notes": "Author-hosted published one-page letter; received 19 July and accepted 24 July 2023. Attribution and inspection do not establish the described events or settle the interpretation.",
+      "related_case_ids": [
+        "C-T07-002"
+      ],
+      "version_provenance": [
+        {
+          "version_id": "V-P2T09-002",
+          "local_path": "work/P2T09/Greyson_vanLommel_109924.pdf",
+          "sha256": "466c623292b4489a9d5bbe51cb3b868ee453fa00d3eda4e730fad865783f9931",
+          "bytes": 197088,
+          "acquisition_url": "https://pimvanlommel.nl/wp-content/uploads/2024/01/vanlommel-greyson-awareness-during-resuscitation-and-eeg-activity.pdf",
+          "original_rendering_path": null,
+          "inspected_locators": "p. 1, all body paragraphs and sole reference",
+          "inspection_date": "2026-09-12",
+          "same_original_as_canonical": false
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "source_id": "S-P2T09-002",
+      "title": "Reply to AWAreness during REsuscitation and EEG activity",
+      "authors": [
+        "Sam Parnia"
+      ],
+      "publication_date": "2024-01",
+      "url_or_identifier": "https://doi.org/10.1016/j.resuscitation.2023.110080",
+      "source_type": "original methodological correspondence",
+      "access_status": "inspected_original_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "p. 1, all body paragraphs and sole reference"
+      ],
+      "provenance_notes": "User supplied published one-page letter; online 12 December 2023; received 13 November and accepted 15 November 2023. Attribution and inspection do not establish the described events or settle the interpretation.",
+      "related_case_ids": [
+        "C-T07-002"
+      ],
+      "version_provenance": [
+        {
+          "version_id": "V-P2T09-003",
+          "local_path": "state/input_snapshots/user_sources/Parnia_2024_Reply_110080_user_supplied.pdf",
+          "sha256": "5d1f1a92823fdd6e158be50d51d902f483cfcb4f9cd1b1ea7db79b370f26635b",
+          "bytes": 198151,
+          "acquisition_url": null,
+          "original_rendering_path": null,
+          "inspected_locators": "p. 1, all body paragraphs and sole reference",
+          "inspection_date": "2026-09-12",
+          "same_original_as_canonical": false
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "source_id": "S-P2T09-003",
+      "title": "Department of Error: Near-death experience in survivors of cardiac arrest: a prospective study in the Netherlands",
+      "authors": [],
+      "publication_date": "2002-04-06",
+      "url_or_identifier": "Lancet 2002 Apr6;359(9313):1254; original PubMed11755611 erratum link",
+      "source_type": "published correction",
+      "access_status": "inspected_original_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "p. 1254, bottom-right Department of Error, second notice; target original p. 2044 paragraph3 sentence3"
+      ],
+      "provenance_notes": "User supplied published page, Lancet 359(9313):1254; bottom-right second correction only. DOI unverified; other correspondence and correction on page excluded. Hash-frozen input_annex_01 verified. Attribution and inspection do not establish the described events or settle the interpretation.",
+      "related_case_ids": [
+        "C-T07-004"
+      ],
+      "version_provenance": [
+        {
+          "version_id": "V-P2T09-007",
+          "local_path": "state/input_snapshots/user_sources/Van_Lommel_2002_Department_of_Error_user_supplied.pdf",
+          "sha256": "fd3036d5bfde8a2408bf67adf524a3d4a6199635377a4cf3db25508194418e28",
+          "bytes": 53039,
+          "acquisition_url": null,
+          "original_rendering_path": null,
+          "inspected_locators": "p. 1254, bottom-right Department of Error, second notice; target original p. 2044 paragraph3 sentence3",
+          "inspection_date": "2026-09-12",
+          "same_original_as_canonical": false
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "source_id": "S-P2T09-005",
+      "title": "Recalled experience of death: Disinhibition not degeneration in relation to death facilitates inner states of lucid hyperconsciousness with novel cognitive insights",
+      "authors": [
+        "Sam Parnia",
+        "Jignesh Patel",
+        "Benjamin M. Bloom",
+        "Erik Kulstad",
+        "Charles D. Deakin",
+        "Rebecca Spiegel"
+      ],
+      "publication_date": "2024-06",
+      "url_or_identifier": "https://doi.org/10.1016/j.resuscitation.2024.110205",
+      "source_type": "original methodological correspondence",
+      "access_status": "inspected_original_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 1–2, complete reply and references1–12"
+      ],
+      "provenance_notes": "User supplied two-page published reply, Resuscitation199:110205; online10 April2024; received26 March, accepted1 April2024. Both input_annex_02 hashes verified before inspection. Attribution and inspection do not establish the described events or settle the interpretation.",
+      "related_case_ids": [
+        "C-T07-002"
+      ],
+      "version_provenance": [
+        {
+          "version_id": "V-P2T09-008",
+          "local_path": "state/input_snapshots/user_sources/Parnia_2024_Reply_110205_user_supplied.pdf",
+          "sha256": "2a0b50cee03203acf07eb7f25fca214495138b4ccb491a4fefac40fb8d8255c9",
+          "bytes": 222686,
+          "acquisition_url": null,
+          "original_rendering_path": null,
+          "inspected_locators": "pp. 1–2, complete reply and references1–12",
+          "inspection_date": "2026-09-12",
+          "same_original_as_canonical": false
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R09"
+    },
+    {
+      "source_id": "S-T07-001",
+      "title": "AWARE—AWAreness during REsuscitation—A prospective study",
+      "authors": [
+        "Sam Parnia",
+        "Ken Spearpoint",
+        "Gabriele de Vos",
+        "et al."
+      ],
+      "publication_date": "2014",
+      "url_or_identifier": "https://www.academia.edu/22946143/AWARE_AWAreness_during_REsuscitation_A_prospective_study",
+      "source_type": "original observational study, article-in-press copy",
+      "access_status": "methods_results_tables_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp2–6 Methods, Results, Tables1–3, limitations; pp6–7 References"
+      ],
+      "provenance_notes": "DOI10.1016/j.resuscitation.2014.09.004 verified in displayed article. Two-column extraction interleaved; graphical Fig1 unavailable. No final-version comparison or raw participant records.",
+      "related_case_ids": [
+        "C-T07-001"
+      ]
+    },
+    {
+      "source_id": "S-T07-003",
+      "title": "Exploring awareness in cardiac arrest studies: Methodological challenges",
+      "authors": [
+        "Charlotte Martial",
+        "Pauline Fritz",
+        "Nicolas Lejeune",
+        "Olivia Gosseries"
+      ],
+      "publication_date": "2024",
+      "url_or_identifier": "https://www.researchgate.net/profile/Charlotte-Martial-2/publication/377188274_Exploring_awareness_in_cardiac_arrest_studies_Methodological_challenges/links/65991b3d3c472d2e8eb71a64/Exploring-awareness-in-cardiac-arrest-studies-Methodological-challenges.pdf",
+      "source_type": "original methodological letter, author manuscript",
+      "access_status": "full_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "manuscript p2 lines16–58; p3 References"
+      ],
+      "provenance_notes": "PDF author manuscript matches title/authors; journal metadata candidate identifies Resuscitation194:109980, DOI10.1016/j.resuscitation.2023.109980; publication metadata not independently publisher-verified. Criticism attribution only, not independent study replication.",
+      "related_case_ids": [
+        "C-T07-002"
+      ]
+    },
+    {
+      "source_id": "S-T07-004",
+      "title": "Near-death experience in survivors of cardiac arrest: a prospective study in the Netherlands",
+      "authors": [
+        "Pim van Lommel",
+        "Ruud van Wees",
+        "Vincent Meyers",
+        "Ingrid Elfferich"
+      ],
+      "publication_date": "2001-12-15",
+      "url_or_identifier": "https://www.researchgate.net/publication/11601344_Near-Death_Experience_in_Survivors_of_Cardiac_Arrest_A_Prospective_Study_in_the_Netherlands",
+      "source_type": "original prospective study, author-uploaded reformat",
+      "access_status": "methods_results_tables_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "author copy pp2–4 Methods/Patients; pp4–6 Results/Tables1–3; pp7–9 longitudinal results; pp9–11 Discussion; pp11–13 References"
+      ],
+      "provenance_notes": "DOI10.1016/S0140-6736(01)07100-8. RG labels uploaded by Pim van Lommel2017-01-19. PubMed flags2002erratum; content not recovered. Numerical records provisional to version/correction audit.",
+      "related_case_ids": [
+        "C-T07-004"
+      ]
+    },
+    {
+      "source_id": "S-T07-007",
+      "title": "AWAreness during REsuscitation - II: A multi-center study of consciousness and awareness in cardiac arrest",
+      "authors": [
+        "Sam Parnia",
+        "Tara Keshavarz Shirazi",
+        "Jignesh Patel",
+        "et al."
+      ],
+      "publication_date": "2023",
+      "url_or_identifier": "doi:10.1016/j.resuscitation.2023.109903",
+      "source_type": "original journal article, user-supplied full PDF",
+      "access_status": "full_main_text_tables_figures_references_inspected; supplement unavailable",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "PDF pp2–4,6 Methods; pp3,5 Tables 1–2; p4 Fig. 1; pp6–9 Results/Discussion; p7 Fig. 2 and footnote; p8 Fig. 3; pp11–12 References"
+      ],
+      "provenance_notes": "User supplied the original after web retrieval failed. Title, DOI and Resuscitation 191 (2023) 109903 match. All 12 pages read as text; methods p2, EEG figure p4, Table 2 p5, flow p7 and Sankey p8 also visually inspected. Supplementary material is referenced, not included. This is the same underlying article excerpted in S-T07-002, not an independent study.",
+      "related_case_ids": [
+        "C-T07-002",
+        "C-T07-003"
+      ],
+      "local_path": "state/input_snapshots/user_sources/AWARE_II_user_supplied.pdf",
+      "sha256": "82450676dcb9fbc53cbf0771b01156e77c7bf2c4189aeea49787e6e7430be94e",
+      "related_source_ids": [
+        "S-T07-002"
+      ],
+      "relationship": "Full original corresponding to earlier abstract/reference excerpt; supersedes excerpt for numerical evidence."
+    }
+  ]
+}

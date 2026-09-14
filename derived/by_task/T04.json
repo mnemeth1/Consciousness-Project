@@ -1,0 +1,739 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T04",
+  "report": "work/T04/report.md",
+  "counts": {
+    "claims": 13,
+    "arguments": 0,
+    "cases": 2,
+    "sources": 9
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T04-001",
+      "statement": "Neal reports peaceful crisis awareness and lasting spiritual change.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-001"
+      ],
+      "source_locators": [
+        "Author Interview Q1–7"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Experiential attribution does not establish external event accuracy or mechanism.",
+        "Timing, information access and independent corroboration remain unresolved."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported for attribution only; interview date unknown. See report capsule for scope."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-002",
+      "statement": "Mays and Mays reproduce a rescue-scene perception narrative attributed to Neal2012 pp72–75.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-004"
+      ],
+      "source_locators": [
+        "§3B-2 pp8–9"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Experiential attribution does not establish external event accuracy or mechanism.",
+        "Timing, information access and independent corroboration remain unresolved."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Original pages not inspected; no independent rescuer testimony; secondary excerpt."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-003",
+      "statement": "Mays and Mays infer a separable mind from reported continuity across embodied/disembodied transitions.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T04-004"
+      ],
+      "source_locators": [
+        "§3B-3 p9"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Experiential attribution does not establish external event accuracy or mechanism.",
+        "Timing, information access and independent corroboration remain unresolved."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported for argument attribution; event-to-ontology inference unresolved; same narrative asCL002."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-004",
+      "statement": "The Mays2017 rejoinder disputes speculative multifactor explanations while acknowledging that the competing theories remain unsettled.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T04-008"
+      ],
+      "source_locators": [
+        "pp110–113,119"
+      ],
+      "case_ids": [],
+      "dependency_group": "D-T04-NDE-explanatory-debate",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Experiential attribution does not establish external event accuracy or mechanism.",
+        "Timing, information access and independent corroboration remain unresolved."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "General primary reply, not a Neal-specific criticism audit; critic text not directly inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-005",
+      "statement": "The supplied transcript describes a1999 kayaking crisis with friends/professional guides and says the husband was absent from the river.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "02:14–09:53"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "Exact date/site and rescuer roles not independently established."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-006",
+      "statement": "The supplied transcript reports observing rescue activity, repeated returns to breathe, and a later conversation with a rescuer.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "18:32–22:32",
+        "25:30–28:38"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "A narrator-reported conversation is not an independently inspected witness account. No first-disclosure record or information-exposure history."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-007",
+      "statement": "The supplied transcript describes altered temporal meaning, simultaneity and an episode seeming to last many hours.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "20:54–21:22",
+        "28:27–29:15"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "Phenomenology does not establish intrinsic absence of succession orH-T."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-008",
+      "statement": "The supplied transcript reports learning of an oldest son’s future death during the initial experience and discussing it again in a subsequent ICU encounter.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "32:24–33:48",
+        "40:20–44:11",
+        "50:16–52:16"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "No independently dated prefulfillment record, specific deadline/cause, verified fulfillment, all-prediction denominator or miss list. The narrator describes hoping the plan could change."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-009",
+      "statement": "The supplied transcript reports injuries, transfer to Wyoming, ICU care, later operations and many months of rehabilitation.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "33:48–38:12",
+        "44:48–45:41"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "Clinical diagnoses/prognosis/treatment/outcomes not chart-verified; apparentARDS acronym provisional. Not instantaneous complete recovery."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-010",
+      "statement": "The supplied transcript says the narrator reviewed medical records and collected accounts after the episode, and reports asking about medications.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "44:11–45:41"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "Narrator’s review is not this project’s inspection; medication word around44:36 is garbled. Cannot rule out pharmacological effects from this evidence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-011",
+      "statement": "The supplied transcript attributes two approximate seven-minute intervals and a claimed watch-timed fifteen-minute interval untilCPR to rescuers.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "46:40–48:19"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "No watch record, independent timekeeper statement or synchronized physiological data. Estimated absence, locating time and claimed timed rescue interval are distinct. No demonstrated absent neural processing."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-012",
+      "statement": "The supplied transcript reports non-cold water, testing without brain damage and an inference that survival without major impairment was physiologically extraordinary.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "48:19–49:00"
+      ],
+      "case_ids": [
+        "C-T04-001"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "No measured temperature, clinical test report, prognosis or monitoring supplied. Physiological conclusion attributed, not endorsed."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    },
+    {
+      "claim_id": "CL-T04-013",
+      "statement": "The supplied transcript describes delayed public sharing, withheld details, and writing a manuscript over about a week after roughly ten years.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "source_locators": [
+        "41:07–42:20",
+        "50:16–54:55"
+      ],
+      "case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ],
+      "dependency_group": "D-T04-Neal1999",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Retrospective narrative, ordinary information access and recovery-period construction remain possible, not established causes.",
+        "Accurate extraordinary testimony remains possible; requires independent timing/provenance evidence."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as content of user-supplied purported transcript only; speaker/audio/timing alignment not independently verified; apparent ASR errors.",
+        "Earliest disclosure/manuscript date unverified; supplied54:12–55:34 wording does not establish same-day son’s death."
+      ],
+      "review_status": "accepted",
+      "review_id": "R04"
+    }
+  ],
+  "arguments": [],
+  "cases": [
+    {
+      "case_id": "C-T04-001",
+      "name": "Mary Neal: reported1999 Chile kayaking episode",
+      "kind": "retrospective_case",
+      "underlying_event_or_sample": "One reported drowning/rescue episode and its later reporting chain; related_case_ids denotes shared narrator Mary Neal and the dependent crisis/recovery reporting chain with C-T04-002, not identity of the two episodes or two independent cases. Do not sum as independent observations.",
+      "event_date": "1999 (reported year only)",
+      "source_ids": [
+        "S-T04-001",
+        "S-T04-002",
+        "S-T04-003",
+        "S-T04-004",
+        "S-T04-009"
+      ],
+      "duplicate_group": "D-T04-Neal1999",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        {
+          "date": "1999",
+          "event": "Reported kayak crisis; exact-day documentation not inspected"
+        },
+        {
+          "date": "2012-05-23 /2012-05-29",
+          "event": "Publisher-listed ebook/paperback editions; interview first-publication date unknown"
+        },
+        {
+          "date": "2021-11-05",
+          "event": "Mays author manuscript uploaded; retelling not new observation"
+        },
+        {
+          "date": "reported initial episode, time unknown",
+          "event": "Alleged rescue-related perceptions and initial oldest-son foreknowledge; S00932:24–33:48"
+        },
+        {
+          "date": "postepisode years; dates unverified",
+          "event": "Reported reluctance to share, withheld details and later manuscript writing; S00941:07–42:20,50:16–54:55"
+        }
+      ],
+      "denominators": {
+        "population_rate": "not applicable",
+        "all_predictions": null,
+        "successful_predictions": null,
+        "unsuccessful_predictions": null
+      },
+      "access_gaps": [
+        "Original memoir/earliest narrative",
+        "Independent witnesses and information exposure history",
+        "Medical records and timestamped measurements",
+        "Prefulfillment prediction and complete denominator",
+        "Prognosis, interventions and durable recovery",
+        "Primary critic full text",
+        "Audio alignment of supplied transcript; historical transcript/publication priority"
+      ],
+      "related_case_ids": [
+        "C-T04-002"
+      ],
+      "reporting_dependency_group": "D-T04-Neal1999",
+      "phase2_reinspections": [
+        {
+          "task_id": "P2T14",
+          "review_id": "P2R14",
+          "reinspection_claim_ids": [
+            "CL-P2T14-003",
+            "CL-P2T14-004",
+            "CL-P2T14-005",
+            "CL-P2T14-006",
+            "CL-P2T14-007",
+            "CL-P2T14-008",
+            "CL-P2T14-009",
+            "CL-P2T14-010",
+            "CL-P2T14-011",
+            "CL-P2T14-012",
+            "CL-P2T14-013",
+            "CL-P2T14-014",
+            "CL-P2T14-015",
+            "CL-P2T14-016",
+            "CL-P2T14-017",
+            "CL-P2T14-018",
+            "CL-P2T14-019",
+            "CL-P2T14-020",
+            "CL-P2T14-021",
+            "CL-P2T14-022",
+            "CL-P2T14-023",
+            "CL-P2T14-024",
+            "CL-P2T14-025",
+            "CL-P2T14-026",
+            "CL-P2T14-027",
+            "CL-P2T14-028",
+            "CL-P2T14-029",
+            "CL-P2T14-031",
+            "CL-P2T14-032",
+            "CL-P2T14-033",
+            "CL-P2T14-034",
+            "CL-P2T14-035",
+            "CL-P2T14-036"
+          ],
+          "disposition_record": "records/phase2_case_reinspections.json",
+          "operation": "accepted annex; all historical case fields retained"
+        }
+      ]
+    },
+    {
+      "case_id": "C-T04-002",
+      "name": "Mary Neal: reported post-rescue ICU spiritual episode and recovery",
+      "kind": "retrospective_related_episode",
+      "underlying_event_or_sample": "Reported spiritual encounter during ICU recovery followingC-T04-001; distinct episode, same narrator and overlapping reporting chain; related_case_ids denotes shared narrator Mary Neal and the dependent crisis/recovery reporting chain with C-T04-001, not identity of the two episodes or two independent cases. Do not sum as independent observations.",
+      "event_date": "After reported1999 kayak crisis; precise date unknown",
+      "source_ids": [
+        "S-T04-009"
+      ],
+      "duplicate_group": "D-T04-Neal1999-recovery",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        {
+          "date": "first weeks after rescue, reported",
+          "event": "ICU encounter and repeated foreknowledge claim; S00935:57–44:11"
+        },
+        {
+          "date": "subsequent months, reported",
+          "event": "Pain, operations, rehabilitation and retrospective investigation; S00944:48–45:41"
+        }
+      ],
+      "denominators": {
+        "all_predictions": null
+      },
+      "access_gaps": [
+        "Independent ICU dates/charts",
+        "Medication word garbled",
+        "No independently dated prediction record",
+        "Audio unverified"
+      ],
+      "related_case_ids": [
+        "C-T04-001"
+      ],
+      "reporting_dependency_group": "D-T04-Neal1999",
+      "phase2_reinspections": [
+        {
+          "task_id": "P2T14",
+          "review_id": "P2R14",
+          "reinspection_claim_ids": [
+            "CL-P2T14-014",
+            "CL-P2T14-017",
+            "CL-P2T14-018",
+            "CL-P2T14-019",
+            "CL-P2T14-022",
+            "CL-P2T14-023",
+            "CL-P2T14-024",
+            "CL-P2T14-025",
+            "CL-P2T14-026",
+            "CL-P2T14-030",
+            "CL-P2T14-031",
+            "CL-P2T14-032",
+            "CL-P2T14-033",
+            "CL-P2T14-034",
+            "CL-P2T14-035",
+            "CL-P2T14-036"
+          ],
+          "disposition_record": "records/phase2_case_reinspections.json",
+          "operation": "accepted annex; all historical case fields retained"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S-T04-001",
+      "title": "To Heaven and Back: publisher metadata and Author Interview",
+      "authors": [
+        "Mary C. Neal",
+        "WaterBrook / Penguin Random House"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.penguinrandomhouse.com/books/223400/to-heaven-and-back-by-mary-c-neal-md/",
+      "source_type": "publisher-hosted firsthand interview",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Author Interview Q1–7; L247–262",
+        "Edition metadata L157,174,238–244"
+      ],
+      "provenance_notes": "Interview date unknown; paperback edition2012-05-29 and ebook2012-05-23. Not full memoir. Decisive attribution source.",
+      "related_case_ids": [
+        "C-T04-001"
+      ]
+    },
+    {
+      "source_id": "S-T04-002",
+      "title": "About / My Story",
+      "authors": [
+        "Mary Neal website"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.drmaryneal.com/",
+      "source_type": "author website",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "My Story paragraph1; L25"
+      ],
+      "provenance_notes": "Current undated testimony; contextual duplicate.",
+      "related_case_ids": [
+        "C-T04-001"
+      ]
+    },
+    {
+      "source_id": "S-T04-003",
+      "title": "Books",
+      "authors": [
+        "Mary Neal website"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.drmaryneal.com/books-1",
+      "source_type": "author book promotion",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "To Heaven and Back and7 Lessons sections; L25–43"
+      ],
+      "provenance_notes": "Current undated page; duplicates source1 reporting chain.",
+      "related_case_ids": [
+        "C-T04-001"
+      ]
+    },
+    {
+      "source_id": "S-T04-004",
+      "title": "There is no death: Near-death experience evidence for survival after permanent bodily death",
+      "authors": [
+        "Robert G. Mays",
+        "Suzanne B. Mays"
+      ],
+      "publication_date": "2021-11-05",
+      "url_or_identifier": "https://www.researchgate.net/publication/355940419_There_is_no_death_Near-death_experience_evidence_for_survival_after_permanent_bodily_death",
+      "source_type": "author-uploaded manuscript",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "§§3B-2–3B-3, pp8–9; L576–644",
+        "reference46: Neal2012"
+      ],
+      "provenance_notes": "Author upload; primary argument, secondary Neal excerpt; no new witness. Decisive attribution source.",
+      "related_case_ids": [
+        "C-T04-001"
+      ]
+    },
+    {
+      "source_id": "S-T04-005",
+      "title": "Present:  Mary Neal's Near Death Experience",
+      "authors": [
+        "stmartin17773"
+      ],
+      "publication_date": "2017-09-06",
+      "url_or_identifier": "https://www.youtube.com/watch?v=63wY2fylJD0",
+      "source_type": "user-supplied video",
+      "access_status": "metadata_only_content_unavailable",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "oEmbed title/channel; watch-page videoDetails and microformat"
+      ],
+      "provenance_notes": "No audio, frames or spoken transcript inspected. Advertised English ASR returned empty. Title suggests Neal; speaker identity not independently verified.",
+      "related_case_ids": [
+        "C-T04-001"
+      ]
+    },
+    {
+      "source_id": "S-T04-006",
+      "title": "The Self-Conscious Mind",
+      "authors": [
+        "Robert G. Mays",
+        "Suzanne B. Mays"
+      ],
+      "publication_date": "2026-08-24",
+      "url_or_identifier": "https://selfconsciousmind.com/",
+      "source_type": "author navigation index",
+      "access_status": "navigation_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "2017 critique listing L57"
+      ],
+      "provenance_notes": "Used only to discover primary response links; no empirical assertions adopted.",
+      "related_case_ids": [
+        "C-T04-001"
+      ]
+    },
+    {
+      "source_id": "S-T04-007",
+      "title": "The Self-Conscious Mind: Research papers",
+      "authors": [
+        "Robert G. Mays",
+        "Suzanne B. Mays"
+      ],
+      "publication_date": "2026-05-04",
+      "url_or_identifier": "https://selfconsciousmind.com/papers.html",
+      "source_type": "author bibliography and abstracts",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "2017 critique abstract and reprint link L161–168"
+      ],
+      "provenance_notes": "Bibliographic navigation; no independent evidence adopted.",
+      "related_case_ids": [
+        "C-T04-001"
+      ]
+    },
+    {
+      "source_id": "S-T04-008",
+      "title": "Understanding Near-Death Experiences: A Rejoinder to Mitchell-Yellin’s Response",
+      "authors": [
+        "Robert G. Mays",
+        "Suzanne B. Mays"
+      ],
+      "publication_date": "2017",
+      "url_or_identifier": "https://www.researchgate.net/publication/329233248_Near-Death_Experiences_A_Critique_of_the_Fischer_and_Mitchell-Yellin_Physicalist_Interpretation",
+      "source_type": "published rejoinder, author-hosted text",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Printed pp110–113 and118–120; web L69–303,727–841",
+        "DOI10.17514/JNDS-2017-36-2-p110-120"
+      ],
+      "provenance_notes": "Wrapper title identifies earlier critique; extracted text actually rejoinder. Primary reply inspected; critic only indirectly represented. No Neal match in extracted text.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T04-009",
+      "title": "User-supplied purported transcript of Present: Mary Neal’s Near Death Experience",
+      "authors": [
+        "Purported speaker Mary Neal; transcriber unknown; supplied by user"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "state/input_snapshots/user_sources/video_63wY2fylJD0.srt; SHA256 c12d91938d91dfed8750a1696d8871b719926c24b4881a058f25a2ac7842cdf6",
+      "source_type": "user_supplied_purported_firsthand_transcript",
+      "access_status": "supplied_text_fully_inspected_audio_unverified",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Full supplied content00:00:10.480–01:04:11.770",
+        "Detailed contiguous ranges in transcript_notes.md and report.md"
+      ],
+      "provenance_notes": "User supplied as transcript of video63wY2fylJD0. Apparent ASR errors. Timestamp and speaker attribution not verified against audio. User-owned input preserved exactly, not independently corroborative evidence. Immutable source preserved by overseer; local task copy identical.",
+      "related_case_ids": [
+        "C-T04-001",
+        "C-T04-002"
+      ]
+    }
+  ]
+}

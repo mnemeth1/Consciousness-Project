@@ -1,0 +1,1660 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T12",
+  "report": "work/P2T12/report.md",
+  "counts": {
+    "claims": 38,
+    "arguments": 4,
+    "cases": 0,
+    "sources": 6
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T12-001",
+      "statement": "Stump and Kretzmann distinguish eternity as life with illimitability, duration and no succession from both mere atemporality and beginningless endless temporal life.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "430–434 §§I–II",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "A conceptual account; p431 initial exposition disclaims proving an eternal entity exists or that God must be eternal."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-002",
+      "statement": "The 1981 ET relation has an eternal and a temporal relatum and uses presentness relative to observers in both modes; it is symmetric but not reflexive or transitive, and does not make two temporal events simultaneous merely because both relate to eternity.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "435–440 §II, especially439(ET)–440",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-001"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Formal relational features alone do not establish possible instantiation or actual observers."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-003",
+      "statement": "In the 1981 hypothetical example, a temporal person’s life and death can each be present to an eternal entity without the person thereby existing eternally or the two temporal events being simultaneous.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "442–444 §III, especially443",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-002"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "The Nixon date scenario is hypothetical, not a biographical observation.",
+        "This is explicitly not a claim of personal survival."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-004",
+      "statement": "The proposed timeless mental life excludes deliberation, anticipation, memory and planning while considering knowing, willing and awareness; an independently existing immaterial mind is assumed for argument and the mental-capacity sketch is expressly incomplete.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "446–447 §IV",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-001"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "The authors call the consideration informal and insufficient as an argument for the possibility conclusion; no empirically verified timeless mentality."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-005",
+      "statement": "The 1981 account distinguishes an atemporal act from its temporally located effect and proposes that prayer and its response-effect can be causally dependent without the eternal willing occurring later than the prayer.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "447–451 §V, especially448–450 scope distinctions and450–451prayer",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-002",
+        "CL-P2T12-004"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Omnipotence, causal possibility and ET sufficiency are disputed premises.",
+        "Illustrative mountain/mother/Hannah examples do not verify creation or prayer efficacy."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-006",
+      "statement": "The 1981 incarnation discussion invokes one person with divine and human natures, but explicitly leaves the outline rudimentary and unanalysed; it does not provide a general criterion of numerical identity for human persons.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "451–453 §V",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-005"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "Doctrinal attribution and bounded author inference; not a validated incarnation or human survival mechanism."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-007",
+      "statement": "The 1981 tensed-knowledge response says an eternal knower can know all events at each dated temporal now and their being experienced as present, without a succession of divine knowledge states.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "455–458 §VI, especially456[3b′]–457[3b″/3b‴]",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-002"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Whether this captures an objective presently actual event is the contested issue.",
+        "Reproduced Kretzmann1966argument does not count as independent1966source inspection."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-008",
+      "statement": "Lewis 1984 argues that direct temporal observation requires its object to exist at that time, appealing to his broadly necessary principle P, which also allows a causal remnant when an object has ceased to exist.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-002",
+          "version_id": "V-P2T12-005",
+          "locator": "74–76, especially75(P)–76paragraph1",
+          "pdf_mapping": "PDF page = printed page − 73 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The defender may deny that temporal location transfers to a timeless object of direct awareness."
+      ],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Necessity of P across different modes of existence is a philosophical premise, not an observed law.",
+        "He explicitly rejects inferring every object property from a property of observing."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-009",
+      "statement": "Lewis 1984 distinguishes beginning-or-ending temporal existence from existence alongside such entities without those boundaries; he argues a directly observed God would at least have the second kind of temporality.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-002",
+          "version_id": "V-P2T12-005",
+          "locator": "76 definitions temporality1/temporality2",
+          "pdf_mapping": "PDF page = printed page − 73 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-008"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "These are Lewis’s stipulated distinctions and argument. They do not establish that every possible kind of change or temporal existence is exhaustively analysed."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-010",
+      "statement": "Lewis 1984 challenges whether an eternal cause is part of reality when its temporal effect occurs, and argues that objects being jointly present to an epistemic subject does not itself establish possible causal connection.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-002",
+          "version_id": "V-P2T12-005",
+          "locator": "77 paragraphs1–4",
+          "pdf_mapping": "PDF page = printed page − 73 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-005",
+        "CL-P2T12-008"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "The causal inventory dilemma assumes its account of existence-at-a-time.",
+        "The epistemic-to-causal gap is not a proof that no non-temporal causation is possible."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-011",
+      "statement": "Lewis 1984 distinguishes present actuality from membership in actual history and grants an eternal being calendar and propositional knowledge; his objection concerns knowing which events presently exist as opposed to past or future events.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-002",
+          "version_id": "V-P2T12-005",
+          "locator": "78–79, especially79concludingparagraph andn6",
+          "pdf_mapping": "PDF page = printed page − 73 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-007"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A tenseless ontology or defensible cross-mode presentness may deny the assumed missing fact."
+      ],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "This relies on an objective nonrelational presentness difference; the defender disputes that interpretation of temporal reality."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-012",
+      "statement": "Lewis 1988 interprets the classic doctrine as requiring temporal things to be existentially, not only epistemically, present in eternity, and argues that its spatial-containment analogies require past, present and future things to be ontologically on a par.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-003",
+          "version_id": "V-P2T12-006",
+          "locator": "75–81 §II, especially78,80–81",
+          "pdf_mapping": "PDF page = printed page − 72 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-003"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Boethius/Anselm/Aquinas translations and editions are quoted within this inspected argument, not independently reopened.",
+        "His conclusion differs from the1981denial that temporal persons thereby exist eternally."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-013",
+      "statement": "Lewis 1988 argues that eternal omniscience so understood entails tenseless time, because a perfect divine view cannot omit a real nonrelational presentness difference; he notes tension with tensed motivations for eternity.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-003",
+          "version_id": "V-P2T12-006",
+          "locator": "81–83 §§III–IV",
+          "pdf_mapping": "PDF page = printed page − 72 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-011",
+        "CL-P2T12-012"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Conditional on his interpretation of existential presence and tense; no whole theory-of-time verdict."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-014",
+      "statement": "Lewis 1988’s further claim that tenseless persons cannot bear moral responsibility explicitly depends on his 1986 Persons, Morality and Tenselessness; the selected1988paper does not develop that prior argument.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-003",
+          "version_id": "V-P2T12-006",
+          "locator": "83 §IV;86n31",
+          "pdf_mapping": "PDF page = printed page − 72 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-013"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "The1986original and the actual Oaklander reply are now inspected separately in revision01; seeCL-P2T12-027–037.",
+        "Lewis1988itself still does not develop that prior argument. No denial of moral agency or human identity is accepted as premise truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-015",
+      "statement": "The 1992 defense explicitly treats perfect possession of life as requiring eternity and uses analogical predication to resist both temporalizing divine duration and making duration wholly equivocal.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "463–469 §§1–7;478§13",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-001",
+        "CL-P2T12-004"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Perfection as a premise and irreducible analogy as an explanatory method remain contestable.",
+        "Its Fitzgerald/Nelson/Leftow discussion is a defender’s treatment of uninspected originals."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-016",
+      "statement": "The 1992 specious-present example and Aleph story illustrate an allegedly indivisible experience and relations across different modes; they do not report psychological measurements or demonstrate actual eternal cognition.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "468–469 §7;470–473 §§8–9;480–481nn20–22,28–29",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-015"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "The authors distinguish the specious present from its divisible underlying interval and qualify a possible James reading in n21.",
+        "Aleph is fictional, and its cognitive/causal access is stipulated."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-017",
+      "statement": "The 1992 paper explicitly answers Lewis’s 1988 existential-presence objection, paired with a Hasker objection, and identifies Lewis 1988 in note35; it does not cite Lewis 1984 in its complete body or notes.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-003",
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "475–478 §§11–12;482nn34–35",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        },
+        {
+          "source_id": "S-P2T12-003",
+          "version_id": "V-P2T12-006",
+          "locator": "80–83 §§II–IV",
+          "pdf_mapping": "PDF page = printed page − 72 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Direct relation is established only for the specified1988target.",
+        "No claim that1992answers every1984objection,1988 moral-agent argument, or that no other reply exists."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-018",
+      "statement": "The revised ET′ definition adds clauses requiring capacity for direct and immediate causal relations and, where capable, direct awareness, in both eternal and temporal reference frames.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "477–478 §12 (ET′)(ii)(c)/(iii)(c)",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-002",
+        "CL-P2T12-017"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Capacity clauses are part of the proposed definition; they are not measured capacities or an independent existence proof."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-019",
+      "statement": "The 1992 defense questions a shared-mode requirement for direct awareness or metaphysical presence by comparison with a nonspatial God’s awareness and omnipresence toward spatial creatures.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "476 §11(GP),(H),(L);482n37",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-017"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "An internal challenge using traditional theistic commitments; accepting the spatial premise does not by itself demonstrate the temporal analogy.",
+        "Hasker’s and Nelson’s originals remain uninspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-020",
+      "statement": "The 1992 authors acknowledge that three-dimensional here has no equivalent of the absolute temporal present, while maintaining in note33 that their model need not deny real temporal passage.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "477 §12 paragraphbeforeET′;481–482n33",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-013",
+        "CL-P2T12-016",
+        "CL-P2T12-019"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "The acknowledged analogy limit leaves Lewis’s tense objection substantive; the compatibility assertion is not a completed resolution."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-021",
+      "statement": "ET′ makes the intended cognitive and causal relation more explicit, but defining that capacity and challenging a shared-mode premise does not alone establish that all its clauses are jointly possible or settle objective tensed awareness.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-002",
+        "S-P2T12-003",
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "439–440(ET);455–458§VI",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        },
+        {
+          "source_id": "S-P2T12-002",
+          "version_id": "V-P2T12-005",
+          "locator": "75–79(P),causality,A-actuality",
+          "pdf_mapping": "PDF page = printed page − 73 + 1; no wrapper"
+        },
+        {
+          "source_id": "S-P2T12-003",
+          "version_id": "V-P2T12-006",
+          "locator": "81–83§§III–IV",
+          "pdf_mapping": "PDF page = printed page − 72 + 1; no wrapper"
+        },
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "476–478§§11–12;482n37",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-007",
+        "CL-P2T12-008",
+        "CL-P2T12-010",
+        "CL-P2T12-011",
+        "CL-P2T12-013",
+        "CL-P2T12-018",
+        "CL-P2T12-019",
+        "CL-P2T12-020"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "Bounded author assessment; a successful model of cross-mode presence and tensed knowledge could strengthen the defense.",
+        "No assertion that all timeless models are incoherent."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-022",
+      "statement": "The selected model distinguishes the eternal knower/creator from temporal persons: a grounding or awareness relation is neither numerical identity nor a rule determining which later subject is the same human person.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "443 §III;448–451 §V;451–453incarnationoutline",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        },
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "473–478 §§10–12",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Eternity-personhood exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-003",
+        "CL-P2T12-005",
+        "CL-P2T12-006",
+        "CL-P2T12-018",
+        "CL-T13-007",
+        "CL-T13-017",
+        "CL-T13-018"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "Author non-entailment analysis of the inspected model, using T13identity distinctions derivatively.",
+        "No unique constitution/individuation mechanism for temporal subjects is established."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-023",
+      "statement": "Even actual eternal awareness of a finite life would not alone establish that its human subject has experiences beyond bodily death; both actual further subjectivity and a justified same-person relation remain necessary for a survival conclusion.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "443 §III",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        },
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "477–478 (ET′)",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Human persistence bridge",
+      "supporting_claim_ids": [
+        "CL-P2T12-022",
+        "CL-T11-017",
+        "CL-T13-016",
+        "CL-T13-017",
+        "CL-T13-018"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "Bounded logical comparison, not a new survival experiment.",
+        "Accepted P2T02 supplies derivative limits on inferring survival from substantial selfhood; no new Lowe reinspection."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-024",
+      "statement": "Relativity and dimensional stories in the selected articles function as analogies; neither formal simultaneity nor physical theory supplies an observed timeless mind or a discriminating prediction for this model.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "436–440 §II, especially437n14,440returntoNewtoniantime",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        },
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "474–475 §10;477§12",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Physics-to-mind bridge",
+      "supporting_claim_ids": [
+        "CL-P2T12-002",
+        "CL-P2T12-016",
+        "CL-T11-018",
+        "CL-T11-019"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "No fresh physics original or clinical/phenomenological sample inspected; all empirical claims in T11/T13 retain historical limits."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-025",
+      "statement": "The selected exchange supports no family winner or automatic upgrade from conceptual coherence to actuality, fundamentality, universality, survival, timelessness of human subjects or the other project components.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "431scope;446–447mentalassumptions;443personboundary",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        },
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "478 §13",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Project conclusion boundaries",
+      "supporting_claim_ids": [
+        "CL-P2T12-021",
+        "CL-P2T12-022",
+        "CL-P2T12-023",
+        "CL-P2T12-024"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "All twelve GATE-T16 conclusions remain withheld; component dependencies are not independent evidence."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-026",
+      "statement": "The supplied1992issue copy has an October1992header and an early1993body reference; Lewis1984misprints the1981sourcevolume as77, while the inspected1981header is78. These facts do not establish a later revision or alternative publication chronology.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-002",
+        "S-P2T12-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-004",
+          "version_id": "V-P2T12-007",
+          "locator": "463header;475paragraph2",
+          "pdf_mapping": "PDF page = printed page − 463 + 1; no wrapper"
+        },
+        {
+          "source_id": "S-P2T12-002",
+          "version_id": "V-P2T12-005",
+          "locator": "79n1",
+          "pdf_mapping": "PDF page = printed page − 73 + 1; no wrapper"
+        },
+        {
+          "source_id": "S-P2T12-001",
+          "version_id": "V-P2T12-004",
+          "locator": "429header;458signatureboundary",
+          "pdf_mapping": "PDF page = printed page − 429 + 2; one initial wrapper; printed458 exclude following article"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Source-version provenance",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "Version provenance and anomalies are recorded separately; no textual equivalence to later archive/reprint/draft inferred."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-027",
+      "statement": "Lewis1986 explicitly asks what human persons are and what it means for a person at one time to be the same at another; he excludes the separate question of evidence justifying a particular cross-time identification.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-005",
+          "version_id": "V-P2T12-010",
+          "locator": "306 paragraphs2–3",
+          "pdf_mapping": "PDF page = printed page − 303; one wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "This supplies a developed metaphysical identity target, not an evidential test for identifying a surviving subject."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-028",
+      "statement": "Lewis1986 argues that tenseless time requires persons to be extended composites with distinct temporal parts, and contrasts this with strict identity of an enduring person on a tensed ontology.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-005",
+          "version_id": "V-P2T12-010",
+          "locator": "305–307, especially306 personal identity discussion and307 Chisholm quotation",
+          "pdf_mapping": "PDF page = printed page − 303; one wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-027"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "The asserted entailment from tenselessness to this ontology is disputed by Oaklander.",
+        "Hoy, Chisholm and Swinburne are references within Lewis; their originals were not newly inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-029",
+      "statement": "Lewis1986 challenges assignment of responsibility both to a tenseless whole, which he denies is itself conscious, and to a present stage for an earlier stage’s deed; he also rejects bundles of stages as suitable responsibility bearers.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-005",
+          "version_id": "V-P2T12-010",
+          "locator": "307–308 responsibility dilemma",
+          "pdf_mapping": "PDF page = printed page − 303; one wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-028"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "The whole’s alleged lack of consciousness and suitability for responsibility are premises of Lewis’s objection, not independently verified facts.",
+        "This is stronger than merely noting that different stages are not identical."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-030",
+      "statement": "Lewis1986 argues that embodied actions and many mental actions require an interval with a persisting agent; he denies that either momentary stages or the tenseless whole can perform such an action, concluding conditionally that tenseless persons cannot be morally responsible agents.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-005",
+          "version_id": "V-P2T12-010",
+          "locator": "308–309 three-stage action argument;309 n5",
+          "pdf_mapping": "PDF page = printed page − 303; one wrapper"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-028",
+        "CL-P2T12-029"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "He allows the quoted Quinn discussion’s possible instantaneous mental acts or disembodied acts, while extending duration to many mental activities.",
+        "The claim that a whole cannot have bodily members or intentions is contested; no empirical absence of agency established.",
+        "His word perduring denotes persistence here; it is not adopted as a modern technical synonym for a temporal-parts ontology."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-031",
+      "statement": "Oaklander’s journal reply explicitly identifies Lewis1986 and reconstructs its responsibility argument, then proposes three diagnoses: a false premise, an invalid inference between senses of persistence, or a question-begging substantialist assumption.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-006",
+          "version_id": "V-P2T12-011",
+          "locator": "181 opening/numbered1–3;185–186 numbered1′–3′;186 n1",
+          "pdf_mapping": "PDF page = printed page − 180; title page inferred181 from journal range and following182–187"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-027",
+        "CL-P2T12-028",
+        "CL-P2T12-030"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Actual direct reply relation established from body and reference, not title or publication order alone.",
+        "This is not a Stump–Kretzmann1992 reply to Lewis1986."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-032",
+      "statement": "Oaklander disputes that tenselessness entails temporal parts, citing Mellor and Butterfield and explaining a token-reflexive account of present-tense judgments with a strictly continuing person; he expressly declines to settle the tense debate and notes a problem with Mellor’s tenseless facts.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-006",
+          "version_id": "V-P2T12-011",
+          "locator": "181–183 first response;186 nn4–5;187 n8",
+          "pdf_mapping": "PDF page = printed page − 180; title page inferred181 from journal range and following182–187"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-028",
+        "CL-P2T12-031"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "Mellor/Butterfield are inspected only through Oaklander’s presentation; their originals and Oaklander’s separate1985 critique remain deferred.",
+        "This reply to a claimed necessity is not an independently verified complete account of present experience."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-033",
+      "statement": "Oaklander offers an account on which one person has temporally indexed properties without incompatible unqualified predicates, and separately distinguishes reference to a temporal stage from reference to the whole person whose stage it is.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-006",
+          "version_id": "V-P2T12-011",
+          "locator": "183–185 numbered4–12 and whole/stage distinction",
+          "pdf_mapping": "PDF page = printed page − 180; title page inferred181 from journal range and following182–187"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-028",
+        "CL-P2T12-031"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "These are proposed metaphysical analyses; numerical sameness of a whole is not derived from numerical sameness of its distinct stages.",
+        "He uses enduring and continuant broadly enough here to include wholes with temporal parts; that usage must not erase the technical endurance/perdurance distinction."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-034",
+      "statement": "Oaklander sketches psychological continuity, including memory or other psychological connection, and physical continuity of a living human body as alternative analyses of persistence compatible with action and responsibility.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-006",
+          "version_id": "V-P2T12-011",
+          "locator": "185–186 continuity examples",
+          "pdf_mapping": "PDF page = printed page − 180; title page inferred181 from journal range and following182–187"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-031",
+        "CL-P2T12-033"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "The sketches are conditional alternatives, not a selected winner or a completed account of branching, circular memory evidence, interruption or postmortem continuity.",
+        "Continuity conditions proposed in this reply are not measured relations in an identified human case."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-035",
+      "statement": "Oaklander distinguishes the ordinary requirement that responsibility involve the same persisting agent from the stronger claim that such agency requires a simple substance; his unsoundness, invalidity and question-begging diagnoses depend on keeping those readings separate.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T12-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-006",
+          "version_id": "V-P2T12-011",
+          "locator": "185–186 final argument;187 nn14–15",
+          "pdf_mapping": "PDF page = printed page − 180; title page inferred181 from journal range and following182–187"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-031",
+        "CL-P2T12-034"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "original_attribution_supported",
+      "inference_strength": "source_assertion_not_premise_truth",
+      "limitations": [
+        "His closing possible Lewis response is explicitly hypothetical, not an actual subsequent Lewis rebuttal.",
+        "Parfit and the theory of analysis invoked in notes14–15 remain uninspected originals."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-036",
+      "statement": "The1986 objection and Oaklander’s actual reply supply the missing developed human-person/identity exchange: the inference from tenselessness to no responsible continuing agents faces distinct challenges, while neither article establishes an evidential same-person test or human survival.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-005",
+        "S-P2T12-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-005",
+          "version_id": "V-P2T12-010",
+          "locator": "306 evidential exclusion;307–309",
+          "pdf_mapping": "PDF page = printed page − 303; one wrapper"
+        },
+        {
+          "source_id": "S-P2T12-006",
+          "version_id": "V-P2T12-011",
+          "locator": "181–186",
+          "pdf_mapping": "PDF page = printed page − 180; title page inferred181 from journal range and following182–187"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-027",
+        "CL-P2T12-028",
+        "CL-P2T12-029",
+        "CL-P2T12-030",
+        "CL-P2T12-031",
+        "CL-P2T12-032",
+        "CL-P2T12-033",
+        "CL-P2T12-034",
+        "CL-P2T12-035"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "Bounded author assessment: answering a claimed universal incompatibility does not prove all reply models coherent or settle tense, identity or morality.",
+        "No later Lewis rebuttal located in the bounded forward searches; the absence of a located reply is not proof none exists."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-037",
+      "statement": "The1988 moral-persons consequence can now be traced to the inspected1986 argument and its separate Oaklander criticism; this does not expand the actual1992 reply beyond its independently verified1988 presence target.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-005",
+        "S-P2T12-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-005",
+          "version_id": "V-P2T12-010",
+          "locator": "305–309",
+          "pdf_mapping": "PDF page = printed page − 303; one wrapper"
+        },
+        {
+          "source_id": "S-P2T12-006",
+          "version_id": "V-P2T12-011",
+          "locator": "181;186 n1",
+          "pdf_mapping": "PDF page = printed page − 180; title page inferred181 from journal range and following182–187"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-014",
+        "CL-P2T12-017",
+        "CL-P2T12-036"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "The1988 dependency and1992target use the earlier identical-source readings at1988p83/n31 and1992n35.",
+        "The linked objections are not independent empirical corroboration or one linear reply chain."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "claim_id": "CL-P2T12-038",
+      "statement": "Tenseless existence across ordered times is distinct from the nonsuccessive life proposed for an eternal ground; preserving human numerical identity on a tenseless model would not by itself remove temporal succession or establish a timeless human subject.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T12-005",
+        "S-P2T12-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T12-005",
+          "version_id": "V-P2T12-010",
+          "locator": "305–306 temporal location account",
+          "pdf_mapping": "PDF page = printed page − 303; one wrapper"
+        },
+        {
+          "source_id": "S-P2T12-006",
+          "version_id": "V-P2T12-011",
+          "locator": "184–186 indexed properties, duration and continuity",
+          "pdf_mapping": "PDF page = printed page − 180; title page inferred181 from journal range and following182–187"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lewis1986–Oaklander1987–88 identity and responsibility exchange",
+      "supporting_claim_ids": [
+        "CL-P2T12-001",
+        "CL-P2T12-022",
+        "CL-P2T12-023",
+        "CL-P2T12-024",
+        "CL-P2T12-033",
+        "CL-P2T12-034",
+        "CL-P2T12-036"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "traceable_author_analysis",
+      "inference_strength": "bounded_conditional_analysis",
+      "limitations": [
+        "Author comparison with the preserved1981/1992model. No relativity theorem, empirical bearer or postmortem event is added."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T12-001",
+      "name": "Eternal life with temporal effects and direct presence",
+      "position": "Developed conditional timeless-ground model",
+      "premises": [
+        "An absolutely perfect being possesses its life completely without succession.",
+        "Knowing/willing/awareness need not all inherit the temporal processes of human cognition.",
+        "A relation across eternal and temporal modes can preserve their difference while permitting direct causal and cognitive presence."
+      ],
+      "bridge_principles": [
+        "Temporal location of an effect need not be temporal location of the agent’s act.",
+        "ET′ direct-capacity clauses can be instantiated; the space/time analogy is relevant enough to challenge shared-mode objections."
+      ],
+      "conclusion": "If those premises and bridges hold, an eternal agent can be cognitively/causally related to temporal persons without itself undergoing their succession.",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-004"
+      ],
+      "claim_ids": [
+        "CL-P2T12-001",
+        "CL-P2T12-002",
+        "CL-P2T12-004",
+        "CL-P2T12-005",
+        "CL-P2T12-007",
+        "CL-P2T12-015",
+        "CL-P2T12-016",
+        "CL-P2T12-018",
+        "CL-P2T12-019",
+        "CL-P2T12-020",
+        "CL-P2T12-021"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Lewis1984P/causal actuality and1988existential-presence/tense arguments challenge whether the proposed relation can be actual or coherent, rather than merely named.",
+      "strongest_reply": "S&K1992argue against shared-mode requirements via nonspatial divine presence and make causal/awareness capacity explicit inET′.",
+      "unresolved_issues": [
+        "Joint satisfiability of the capacity clauses",
+        "Objective tense versus cross-mode presentness",
+        "Independent grounds for perfect being and immaterial mind",
+        "Human constitution and persistence not supplied"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "argument_id": "A-P2T12-002",
+      "name": "The presentness objection and the exact later reply",
+      "position": "Serious critic/reply assessment with version boundaries",
+      "premises": [
+        "Lewis1984allows calendar knowledge but treats present actuality as an objective additional feature.",
+        "Lewis1988interprets classical existential presence as making all times ontologically equal.",
+        "An omniscient timeless being cannot omit an objective feature of reality."
+      ],
+      "bridge_principles": [
+        "Direct presence across modes must be existential rather than merely representational.",
+        "The critic’s objective-tense or ontological-parity account is correct."
+      ],
+      "conclusion": "Under those premises the1981account either misses present actuality or commits to a tenseless ontology; the selected1992reply contests cross-mode premises but does not conclusively settle the tense dispute.",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-002",
+        "S-P2T12-003",
+        "S-P2T12-004"
+      ],
+      "claim_ids": [
+        "CL-P2T12-007",
+        "CL-P2T12-008",
+        "CL-P2T12-009",
+        "CL-P2T12-010",
+        "CL-P2T12-011",
+        "CL-P2T12-012",
+        "CL-P2T12-013",
+        "CL-P2T12-014",
+        "CL-P2T12-017",
+        "CL-P2T12-018",
+        "CL-P2T12-019",
+        "CL-P2T12-020",
+        "CL-P2T12-021"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T12-001"
+      ],
+      "strongest_objection": "Defenders can challenge the necessity of shared mode and reject the critic’s assumed temporal-to-eternal transfer; temporalism is not established merely by insisting on it.",
+      "strongest_reply": "Lewis’s strongest1988case appeals to the metaphysical price of spatial analogies; S&Kacknowledge the absolute-present mismatch. Its additional moral argument is now separately examined as Lewis1986→Oaklander1987–88 in A-P2T12-004.",
+      "unresolved_issues": [
+        "No1992directcitationto1984or1986",
+        "The separate1986moral argument has an inspected Oaklander reply; its premises and broader identity adequacy remain disputed",
+        "Other named critics inspected only through1992attribution",
+        "Later criticism not exhaustively searched"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "argument_id": "A-P2T12-003",
+      "name": "Eternal relation does not entail human survival or identity",
+      "position": "Bounded project inference constraint",
+      "premises": [
+        "ET/ET′relate an eternal entity and a temporal entity without identifying them.",
+        "An object being known or sustained does not specify its numerical identity across later episodes.",
+        "A finite history may be represented or present to another subject without further human experience beyond that history."
+      ],
+      "bridge_principles": [
+        "Survival requires actual further subjectivity and a justified same-person relation, not only an eternal record or knower."
+      ],
+      "conclusion": "The selected exchange cannot by itself establish enduring human consciousness, postmortem survival or a solution to branching/continuity; divine personhood and human identity remain distinct.",
+      "source_ids": [
+        "S-P2T12-001",
+        "S-P2T12-004"
+      ],
+      "claim_ids": [
+        "CL-P2T12-003",
+        "CL-P2T12-006",
+        "CL-P2T12-022",
+        "CL-P2T12-023",
+        "CL-P2T12-024",
+        "CL-P2T12-025"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T12-001"
+      ],
+      "strongest_objection": "A broader dualist, resurrection or constitution theory might add a same-bearer relation and a reason to expect continued experience.",
+      "strongest_reply": "That would require its own defended premises and exact source evidence. P2T02was accepted only as a bounded derivative comparator and does not supply automatic survival.",
+      "unresolved_issues": [
+        "Human individuation/constitution",
+        "Continuation beyond bodilydeath",
+        "Branching/psychological/organismiccriteria",
+        "Empirical discriminating predictions",
+        "The added Lewis/Oaklander exchange supplies identity analyses but no empirical identification or postmortem continuation evidence"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "argument_id": "A-P2T12-004",
+      "name": "Tenseless human persons, persistence and responsibility",
+      "position": "Developed human-identity objection and actual direct reply",
+      "premises": [
+        "Lewis treats moral responsibility and temporally extended action as requiring a persisting agent.",
+        "Lewis claims tenselessness permits only a temporal whole and its stages, and denies either can act or bear responsibility.",
+        "Oaklander denies the asserted ontology is necessary and distinguishes whole-person identity, indexed properties and continuity analyses from stage identity."
+      ],
+      "bridge_principles": [
+        "Lewis’s conclusion requires his denial of a conscious, intending and responsible whole and his substantialist reading of persistence.",
+        "Oaklander’s reply requires at least one defended account of persisting agency that does not import the disputed substantialist or tensed premises."
+      ],
+      "conclusion": "The claimed necessary incompatibility of tenselessness with human moral agency is contested by explicit alternatives; the exchange supplies no general evidential identity criterion, postmortem continuation or timeless human mentality.",
+      "source_ids": [
+        "S-P2T12-005",
+        "S-P2T12-006"
+      ],
+      "claim_ids": [
+        "CL-P2T12-027",
+        "CL-P2T12-028",
+        "CL-P2T12-029",
+        "CL-P2T12-030",
+        "CL-P2T12-031",
+        "CL-P2T12-032",
+        "CL-P2T12-033",
+        "CL-P2T12-034",
+        "CL-P2T12-035",
+        "CL-P2T12-036",
+        "CL-P2T12-037",
+        "CL-P2T12-038"
+      ],
+      "dependency_argument_ids": [],
+      "related_argument_ids": [
+        "A-P2T12-002",
+        "A-P2T12-003"
+      ],
+      "strongest_objection": "Lewis argues beyond stage nonidentity: a momentary stage cannot span an action, while a temporal whole allegedly has no consciousness, intentions or bodily members; a responsibility bearer must be more than a collection of events.",
+      "strongest_reply": "Oaklander distinguishes tenseless continuants without parts, the whole referenced through different stages, and psychological/physical continuity; the ordinary sameness condition does not alone entail a simple substance. His reply attacks the claimed necessity rather than settling every metaphysical account.",
+      "unresolved_issues": [
+        "Adequacy of indexed-property and token-reflexive analyses; Oaklander explicitly leaves tense debate open",
+        "Whether the whole/continuity accounts adequately explain consciousness and agency",
+        "Noncircular evidence, branching and interruption conditions not worked out",
+        "No identified postmortem subject or actual timeless ground",
+        "No actual later Lewis rebuttal established; Oaklander’s hypothetical rejoinder remains hypothetical"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T12-001",
+      "title": "Eternity",
+      "authors": [
+        "Eleonore Stump",
+        "Norman Kretzmann"
+      ],
+      "publication_date": "1981-08",
+      "publication": "The Journal of Philosophy 78(8), August 1981, 429–458",
+      "url_or_identifier": "https://doi.org/10.2307/2026047",
+      "doi": "10.2307/2026047",
+      "source_type": "primary_philosophical_journal_article",
+      "access_status": "inspected_exact_user_supplied_journal_copy",
+      "retrieved_at": "2026-09-13T04:59:04.757230+00:00",
+      "relevant_locators": [
+        "429–458 complete selected article and notes"
+      ],
+      "provenance_notes": "Exact user-supplied bytes verified against root annex; body independently read. DOI established through saved exact metadata rather than assumed printed in PDF. Copy timestamps are not publication dates. See source_versions.json and version_anomalies.json.",
+      "related_case_ids": [],
+      "version_id": "V-P2T12-004",
+      "inspection_id": "I-P2T12-004",
+      "local_path": "state/input_snapshots/user_sources/Stump_Kretzmann_Eternity_1981_user_supplied.pdf",
+      "sha256": "9dba463fa737d324d6247eb7d5b55d1485ad491d2db41b7de27ea95beea6498d",
+      "pdf_pages": 31,
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "source_id": "S-P2T12-002",
+      "title": "Eternity Again: A Reply to Stump and Kretzmann",
+      "authors": [
+        "Delmas Lewis"
+      ],
+      "publication_date": "1984",
+      "publication": "International Journal for Philosophy of Religion 15(1–2), 1984, 73–79",
+      "url_or_identifier": "https://doi.org/10.1007/BF00142103",
+      "doi": "10.1007/BF00142103",
+      "source_type": "primary_philosophical_journal_article",
+      "access_status": "inspected_exact_user_supplied_journal_copy",
+      "retrieved_at": "2026-09-13T04:59:04.757230+00:00",
+      "relevant_locators": [
+        "73–79 complete selected article and notes"
+      ],
+      "provenance_notes": "Exact user-supplied bytes verified against root annex; body independently read. DOI established through saved exact metadata rather than assumed printed in PDF. Copy timestamps are not publication dates. See source_versions.json and version_anomalies.json.",
+      "related_case_ids": [],
+      "version_id": "V-P2T12-005",
+      "inspection_id": "I-P2T12-005",
+      "local_path": "state/input_snapshots/user_sources/Lewis_Eternity_Again_1984_user_supplied.pdf",
+      "sha256": "be1ab24a6fb409d48c68b3bc2da76b8812c8e81926ac1f11d81c68790ffc406e",
+      "pdf_pages": 7,
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "source_id": "S-P2T12-003",
+      "title": "Eternity, Time and Tenselessness",
+      "authors": [
+        "Delmas Lewis"
+      ],
+      "publication_date": "1988-01",
+      "publication": "Faith and Philosophy 5(1), January 1988, 72–86",
+      "url_or_identifier": "https://doi.org/10.5840/faithphil1988514",
+      "doi": "10.5840/faithphil1988514",
+      "source_type": "primary_philosophical_journal_article",
+      "access_status": "inspected_exact_user_supplied_journal_copy",
+      "retrieved_at": "2026-09-13T04:59:04.757230+00:00",
+      "relevant_locators": [
+        "72–86 complete selected article and notes"
+      ],
+      "provenance_notes": "Exact user-supplied bytes verified against root annex; body independently read. DOI established through saved exact metadata rather than assumed printed in PDF. Copy timestamps are not publication dates. See source_versions.json and version_anomalies.json.",
+      "related_case_ids": [],
+      "version_id": "V-P2T12-006",
+      "inspection_id": "I-P2T12-006",
+      "local_path": "state/input_snapshots/user_sources/Lewis_Eternity_Time_Tenselessness_1988_user_supplied.pdf",
+      "sha256": "6e1bb8c75e3a4663bd60961aa4edc8778ecec411751652f26942ceaf00daf559",
+      "pdf_pages": 15,
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "source_id": "S-P2T12-004",
+      "title": "Eternity, Awareness, and Action",
+      "authors": [
+        "Eleonore Stump",
+        "Norman Kretzmann"
+      ],
+      "publication_date": "1992-10",
+      "publication": "Faith and Philosophy 9(4), October 1992, 463–482",
+      "url_or_identifier": "https://doi.org/10.5840/faithphil19929433",
+      "doi": "10.5840/faithphil19929433",
+      "source_type": "primary_philosophical_journal_article",
+      "access_status": "inspected_exact_user_supplied_journal_copy",
+      "retrieved_at": "2026-09-13T04:59:04.757230+00:00",
+      "relevant_locators": [
+        "463–482 complete selected article and notes"
+      ],
+      "provenance_notes": "Exact user-supplied bytes verified against root annex; body independently read. DOI established through saved exact metadata rather than assumed printed in PDF. Copy timestamps are not publication dates. See source_versions.json and version_anomalies.json.",
+      "related_case_ids": [],
+      "version_id": "V-P2T12-007",
+      "inspection_id": "I-P2T12-007",
+      "local_path": "state/input_snapshots/user_sources/Stump_Kretzmann_Eternity_Awareness_Action_1992_user_supplied.pdf",
+      "sha256": "1576bdba74227d11e1aaaf33e899471a3c01caa6cc6f36f59bbdee47f4dab469",
+      "pdf_pages": 20,
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "source_id": "S-P2T12-005",
+      "title": "Persons, Morality, and Tenselessness",
+      "authors": [
+        "Delmas Lewis"
+      ],
+      "publication": "Philosophy and Phenomenological Research47(2),December1986,305–309",
+      "publication_date": "1986-12",
+      "url_or_identifier": "https://doi.org/10.2307/2107443",
+      "doi": "10.2307/2107443",
+      "source_type": "primary_philosophical_journal_article",
+      "access_status": "inspected_exact_user_supplied_journal_copy",
+      "retrieved_at": "2026-09-13T05:54:21.204337+00:00",
+      "relevant_locators": [
+        "305–309 complete body and notes"
+      ],
+      "provenance_notes": "Actual journal layout verified against frozen annex04 bytes. Exact body independently read; DOI from primary deposited metadata. Oaklander header1987–88 retained over conflicting bibliographic labels; no2004reprint equivalence.",
+      "related_case_ids": [],
+      "version_id": "V-P2T12-010",
+      "inspection_id": "I-P2T12-010",
+      "local_path": "state/input_snapshots/user_sources/Lewis_Persons_Morality_Tenselessness_1986_user_supplied.pdf",
+      "sha256": "d84031341b2931fd346acbd8405c3f0a50b87a11831047452a2f4458ee0dd61d",
+      "pdf_pages": 6,
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    },
+    {
+      "source_id": "S-P2T12-006",
+      "title": "Delmas Lewis on Persons and Responsibility: A Critique",
+      "authors": [
+        "L. Nathan Oaklander"
+      ],
+      "publication": "Philosophy Research Archives13(1987–88),181–187",
+      "publication_date": "1987–88",
+      "url_or_identifier": "https://doi.org/10.5840/pra1987/1988131",
+      "doi": "10.5840/pra1987/1988131",
+      "source_type": "primary_philosophical_journal_article",
+      "access_status": "inspected_exact_user_supplied_journal_copy",
+      "retrieved_at": "2026-09-13T05:54:21.204337+00:00",
+      "relevant_locators": [
+        "181–187 complete body and notes"
+      ],
+      "provenance_notes": "Actual journal layout verified against frozen annex04 bytes. Exact body independently read; DOI from primary deposited metadata. Oaklander header1987–88 retained over conflicting bibliographic labels; no2004reprint equivalence.",
+      "related_case_ids": [],
+      "version_id": "V-P2T12-011",
+      "inspection_id": "I-P2T12-011",
+      "local_path": "state/input_snapshots/user_sources/Oaklander_Lewis_Persons_Responsibility_1987_88_user_supplied.pdf",
+      "sha256": "c09d6a9180f3977a1d4d3b01d728a9be9d34cf75019c0b24fa29c9df85fba761",
+      "pdf_pages": 7,
+      "review_status": "accepted",
+      "review_id": "P2R12"
+    }
+  ]
+}

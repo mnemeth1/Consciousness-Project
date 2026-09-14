@@ -1,0 +1,1289 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T08",
+  "report": "work/T08/report.md",
+  "counts": {
+    "claims": 23,
+    "arguments": 2,
+    "cases": 8,
+    "sources": 6
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T08-001",
+      "statement": "Bede V.12 transmits Dryhthelm’s account through Haemgils; the inspected1907 English edition dates the episode approximately696, separately from Bede’s circa731 composition.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T08-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-001",
+          "locator": "V.12 opening/end; V.23; editor preface"
+        }
+      ],
+      "case_ids": [
+        "C-T08-001"
+      ],
+      "dependency_group": "DG-T08-Bede-V",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Document provenance does not establish clinical death, event timing or an independent witness chain."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-002",
+      "statement": "Dryhthelm’s narrated journey includes a luminous guide, frightening punishment scenes, a pleasant luminous landscape, return to embodied life and subsequent ascetic change.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T08-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-001",
+          "locator": "V.12 pp326–332"
+        }
+      ],
+      "case_ids": [
+        "C-T08-001"
+      ],
+      "dependency_group": "DG-T08-Bede-V",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "One narrative with multiple phases, not multiple independent NDEs; no standardized assessment or neural measurements."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-003",
+      "statement": "Bede V.13 andV.14 supply two fatal deathbed vision narratives with explicit admonitory purposes; they are literary comparison accounts in the same work.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T08-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-001",
+          "locator": "V.13–14 pp332–336"
+        }
+      ],
+      "case_ids": [
+        "C-T08-002",
+        "C-T08-003"
+      ],
+      "dependency_group": "DG-T08-Bede-V",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Not survivor interviews or matched controls; shared author, genre and translation dependence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-004",
+      "statement": "Pasricha and Stevenson included16 of18 incidentally identified reports:10 subject interviews,5 firsthand-informant cases and1 secondhand-informant case; median investigation delay was approximately14years.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-002",
+          "locator": "p165 Sources of Data"
+        }
+      ],
+      "case_ids": [
+        "C-T08-004"
+      ],
+      "dependency_group": "DG-T08-India-1986",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Northern Hindi-speaking sample; no random frame, population denominator or independent clinical verification."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-005",
+      "statement": "The1986 India/US comparison used unequal elicitation: Indian content was mainly spontaneous, and Table1 blanks mean no instance learned, possibly because it was never asked.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-002",
+          "locator": "pp165–166 methods; p168 Table1 qualification"
+        }
+      ],
+      "case_ids": [
+        "C-T08-004"
+      ],
+      "dependency_group": "DG-T08-India-1986",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Blank is not measured zero. US comparison is78 prior cases,106 for two footnoted rows; underlying US sources not reopened."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-006",
+      "statement": "India1986 Table1 records messengers in12/16, deceased acquaintances in4/16, religious/light figures in12/16 and mistaken-identity return in10/16; these are selected-case descriptions.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-002",
+          "locator": "p168 Table1"
+        }
+      ],
+      "case_ids": [
+        "C-T08-004"
+      ],
+      "dependency_group": "DG-T08-India-1986",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Religious figures and beings of light are combined category, not12 luminous entities. No cultural population prevalence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-007",
+      "statement": "The India paper reports differences between Chhajju’s and his wife’s retellings, and describes Mangal as possibly asleep and not considering himself ill.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T08-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-002",
+          "locator": "p167 cases of Chhajju Bania and Mangal Singh"
+        }
+      ],
+      "case_ids": [
+        "C-T08-004"
+      ],
+      "dependency_group": "DG-T08-India-1986",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Authors’ reports, not direct project interviews; discrepancies do not establish fabrication and illness status is uncertain."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-008",
+      "statement": "Pasricha and Stevenson argue that cultural variation does not by itself prove belief-only production or an afterlife, and that reality claims need evidence beyond their comparison.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T08-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-002",
+          "locator": "pp169–170 Discussion and Conclusions"
+        }
+      ],
+      "case_ids": [
+        "C-T08-004"
+      ],
+      "dependency_group": "DG-T08-India-1986",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Their culture-responsive afterlife reply is accommodation, not a tested prediction."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-009",
+      "statement": "Ohkado and Greyson analyze22 published Japanese interviews, excluding a23rd sailor hallucination interview; a preliminary273-case literature pool is not an additional independent sample.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-003",
+          "locator": "p188 Method"
+        }
+      ],
+      "case_ids": [
+        "C-T08-005"
+      ],
+      "dependency_group": "DG-T08-Japan-Tachibana",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Original2014 reanalysis, not new interviews. Underlying Japanese books and possible overlap unverified."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-010",
+      "statement": "In the22 Japanese interviews the authors code peace10, bodily separation4, spiritual encounters13, bright light3, heavenly place16, border12 and panoramic life review0.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-003",
+          "locator": "p189 Table1"
+        }
+      ],
+      "case_ids": [
+        "C-T08-005"
+      ],
+      "dependency_group": "DG-T08-Japan-Tachibana",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "These are coder counts in selected published interviews; prompts and category changes limit comparisons.0/22 does not show absence across Japanese culture."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-011",
+      "statement": "The Japanese paper reports flower gardens in13/16 heavenly-place accounts and rivers in10/12 border accounts, while acknowledging outside-sample life-review and personified-light counterexamples.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-003",
+          "locator": "pp190,194–195"
+        }
+      ],
+      "case_ids": [
+        "C-T08-005"
+      ],
+      "dependency_group": "DG-T08-Japan-Tachibana",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Outside-sample examples are secondary in this inspection and not added as cases; Western comparison chiefly literary generalizations."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-012",
+      "statement": "Ohkado and Greyson propose cultural explanations for motif differences and acknowledge that Japanese expression of love may affect reporting; their analysis does not isolate culture as the sole cause.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T08-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-003",
+          "locator": "pp192–196 interpretation"
+        }
+      ],
+      "case_ids": [
+        "C-T08-005"
+      ],
+      "dependency_group": "DG-T08-Japan-Tachibana",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Ecological religious generalizations do not measure each participant’s prior belief; no independent bilingual audit."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-013",
+      "statement": "The Japanese Table1 assigns two accounts to an event-corroboration category; this is the authors’ coding rather than independently inspected corroborating records.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-003",
+          "locator": "p189 Table1"
+        }
+      ],
+      "case_ids": [
+        "C-T08-005"
+      ],
+      "dependency_group": "DG-T08-Japan-Tachibana",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No project access to the underlying witnesses or records; not two verified target tests."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-014",
+      "statement": "Greyson and Bush’s50 self-selected distressing accounts motivate three proposed types: familiar NDE features experienced fearfully, void/nonexistence experiences, and hellish imagery.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-004",
+          "locator": "pp98–99 Study Sample and typology"
+        }
+      ],
+      "case_ids": [
+        "C-T08-006"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No class frequency table or population denominator;50 accounts cannot be converted to50 independent people."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-015",
+      "statement": "The distressing examples include both fear-to-peace transitions and persistent despair; one describes endless succession rather than simultaneity, and one woman reports two childbirth episodes.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T08-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-004",
+          "locator": "pp100–104 examples; pp108–109 conclusions"
+        }
+      ],
+      "case_ids": [
+        "C-T08-006"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Subjective eternity and certainty do not demonstrate ontological timelessness; repeat episodes share a narrator."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-016",
+      "statement": "The distressing paper discusses positive-affect scale bias and reporting reluctance, while stating that causes and comparative aftereffects require further study.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T08-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-004",
+          "locator": "pp96–98; pp107–109"
+        }
+      ],
+      "case_ids": [
+        "C-T08-006"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Proposed selection mechanisms are plausible limitations, not quantified corrections or proved explanations of each account."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-017",
+      "statement": "Charland-Verville and colleagues retained190 of215 self-reported experiences:50 non-life-threatening and140 coma-associated, with mean reporting interval24±15years.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "pp2–3 Methods, Results and Table1"
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Voluntary IANDS/media recruitment; medically uncontrolled histories; unknown invitation denominator."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-018",
+      "statement": "The2014 comparison found no significant intensity or item-frequency differences between its selected non-life-threatening and coma groups; this was not an equivalence test.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "p3 Table2; pp5–6 Discussion"
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Classification relies on self-report and score selection; no neural-process or common-cause identity follows."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-019",
+      "statement": "The2014 abstract uses score>7, whereas methods exclude scores<7 and Table2 includes minimum7; this cutoff wording discrepancy is retained.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "p1 Abstract; p2 Methods/Results; p3 Table2"
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Published190 retained; no unreported count of score7 cases invented."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-020",
+      "statement": "The2014 Table3 compares45 current anoxic reports with42 reused prospective NDE reports, and its broader Figure1 incorporates Greyson1990 data.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "p4 Table3; p6 Figure1 discussion"
+        }
+      ],
+      "case_ids": [
+        "C-T08-007",
+        "C-T08-008"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Reused literature is not new participants or an independent replication; no project pooling."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-021",
+      "statement": "Greyson1990 compares183 self-described NDE respondents with63 who denied NDEs, recruited through an IANDS newsletter; mean delays were18.1 and22.3years.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-006",
+          "locator": "pp152,154 Method/Results"
+        }
+      ],
+      "case_ids": [
+        "C-T08-008"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Self-selected comparison, not random clinical controls. Non-significance for demographics does not establish complete matching."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-022",
+      "statement": "In Greyson1990,169/183 self-described NDE respondents and18/63 deniers scored≥7;14/183 and45/63 respectively scored below7.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-006",
+          "locator": "pp155,159 Results"
+        }
+      ],
+      "case_ids": [
+        "C-T08-008"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Self-identification and research threshold differ. No score-defined group should silently replace the published self-label groups."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "claim_id": "CL-T08-023",
+      "statement": "Greyson1990 reports all16 scale items differentiated the self-label groups, yet several features also occurred among deniers; the expanded time item changed comparability with the original scale study.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-006",
+          "locator": "pp153,155–161"
+        }
+      ],
+      "case_ids": [
+        "C-T08-008"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, reporting, instrument and interpretive effects remain possible; no unique causal mechanism inferred."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Reported statistics concern this sample; subjective time wording cannot establish timeless ontology."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T08-001",
+      "name": "Recurrence across records and cultural settings",
+      "position": "Strongest conditional case for a shared experiential phenomenon",
+      "premises": [
+        "CL-T08-002",
+        "CL-T08-006",
+        "CL-T08-010",
+        "CL-T08-014",
+        "CL-T08-017",
+        "CL-T08-018"
+      ],
+      "bridge_principles": [
+        "Recurrence across different documents, settings and precipitating circumstances can motivate a shared-phenomenon hypothesis when ascertainment and dependence are considered.",
+        "To infer brain independence or survival, recurrent motifs would additionally need discriminating evidence ruling out relevant ordinary information and substrate routes."
+      ],
+      "conclusion": "The inspected records support investigating recurrent experiences with varied content; they do not identify a unique metaphysical cause.",
+      "source_ids": [
+        "S-T08-001",
+        "S-T08-002",
+        "S-T08-003",
+        "S-T08-004",
+        "S-T08-005",
+        "S-T08-006"
+      ],
+      "claim_ids": [
+        "CL-T08-001",
+        "CL-T08-002",
+        "CL-T08-005",
+        "CL-T08-006",
+        "CL-T08-008",
+        "CL-T08-009",
+        "CL-T08-010",
+        "CL-T08-011",
+        "CL-T08-014",
+        "CL-T08-015",
+        "CL-T08-017",
+        "CL-T08-018",
+        "CL-T08-022",
+        "CL-T08-023"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Shared human cognition, literary transmission, selection and coding can produce recurrence; no common clinical denominator or assured independent samples.",
+      "strongest_reply": "Cultural differences do not refute every shared experiential or survival model, and these narratives predate modern NDE publicity; a constrained model must predict more than broad similarities.",
+      "unresolved_issues": [
+        "No defensible likelihood ratio/posterior; English-access bias; neural timing and independent event verification absent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    },
+    {
+      "argument_id": "A-T08-002",
+      "name": "Cultural, reporting and measurement countercase",
+      "position": "Strongest countercase to invariance and direct survival inference",
+      "premises": [
+        "CL-T08-003",
+        "CL-T08-005",
+        "CL-T08-007",
+        "CL-T08-009",
+        "CL-T08-011",
+        "CL-T08-012",
+        "CL-T08-015",
+        "CL-T08-016",
+        "CL-T08-019",
+        "CL-T08-020",
+        "CL-T08-022",
+        "CL-T08-023"
+      ],
+      "bridge_principles": [
+        "Unequal prompts, selected reports and varying labels weaken inferences from narrative frequency to population invariance.",
+        "A content difference supports pure cultural causation only if competing physiological, experiential and reporting explanations are discriminated."
+      ],
+      "conclusion": "Cultural and measurement effects remain serious alternatives; these data neither establish a purely cultural mechanism nor demonstrate a universal afterlife structure.",
+      "source_ids": [
+        "S-T08-001",
+        "S-T08-002",
+        "S-T08-003",
+        "S-T08-004",
+        "S-T08-005",
+        "S-T08-006"
+      ],
+      "claim_ids": [
+        "CL-T08-003",
+        "CL-T08-005",
+        "CL-T08-007",
+        "CL-T08-008",
+        "CL-T08-011",
+        "CL-T08-012",
+        "CL-T08-015",
+        "CL-T08-016",
+        "CL-T08-019",
+        "CL-T08-020",
+        "CL-T08-022",
+        "CL-T08-023"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A common experiential or afterlife reality could be interpreted differently by cultures; observational variation need not exhaust the phenomenon.",
+      "strongest_reply": "That possibility is retained, but retrospective flexibility earns no distinctive predictive support without prospective constraints.",
+      "unresolved_issues": [
+        "Exposure and translation not independently measured; ordinary mechanisms are possibilities rather than established causes of each episode."
+      ],
+      "review_status": "accepted",
+      "review_id": "R08"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "C-T08-001",
+      "name": "Dryhthelm narrated return",
+      "kind": "historical_document_account",
+      "underlying_event_or_sample": "A selected return-from-apparent-death narrative in Bede V.12; episode history is narrated, not clinically established.",
+      "event_date": null,
+      "source_ids": [
+        "S-T08-001"
+      ],
+      "duplicate_group": "DG-T08-Bede-V",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        "V.12 editor heading circa696, uncertain event date",
+        "Narrative illness, apparent death overnight, revival at dawn",
+        "Repeated interviews by Haemgils transmitted to Bede; dates unknown",
+        "Bede circa731; revised English translation1907; digitized2011"
+      ],
+      "denominators": {
+        "inspected_account": 1,
+        "population_at_risk": null,
+        "clinical_cases_verified_by_project": 0
+      },
+      "access_gaps": [
+        "No contemporaneous clinical record or independently inspected witness statement",
+        "No original manuscript/Latin collation",
+        "Literary and religious selection"
+      ],
+      "reporting_dependency_group": "DG-T08-Bede-V",
+      "related_case_ids": [
+        "C-T08-002",
+        "C-T08-003"
+      ]
+    },
+    {
+      "case_id": "C-T08-002",
+      "name": "Mercian thegn narrated deathbed vision",
+      "kind": "historical_document_account",
+      "underlying_event_or_sample": "Bede V.13 selected fatal deathbed vision; not a surviving NDE interview.",
+      "event_date": null,
+      "source_ids": [
+        "S-T08-001"
+      ],
+      "duplicate_group": "DG-T08-Bede-V",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        "Editor heading704–709; date not independently established",
+        "Account attributed by Bede to Bishop Pechthelm",
+        "Same circa731 composition and1907 translation"
+      ],
+      "denominators": {
+        "inspected_account": 1,
+        "population_at_risk": null,
+        "clinical_cases_verified_by_project": 0
+      },
+      "access_gaps": [
+        "No contemporaneous clinical record or independently inspected witness statement",
+        "No original manuscript/Latin collation",
+        "Literary and religious selection"
+      ],
+      "reporting_dependency_group": "DG-T08-Bede-V",
+      "related_case_ids": [
+        "C-T08-001",
+        "C-T08-003"
+      ]
+    },
+    {
+      "case_id": "C-T08-003",
+      "name": "Unnamed monk narrated deathbed vision",
+      "kind": "historical_document_account",
+      "underlying_event_or_sample": "Bede V.14 selected fatal deathbed vision; Bede says he knew the monk, not that he independently observed all narrated events.",
+      "event_date": null,
+      "source_ids": [
+        "S-T08-001"
+      ],
+      "duplicate_group": "DG-T08-Bede-V",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        "Event described as recent; exact date unknown",
+        "Narrated fatal illness and report to brethren",
+        "Same circa731 composition and1907 translation"
+      ],
+      "denominators": {
+        "inspected_account": 1,
+        "population_at_risk": null,
+        "clinical_cases_verified_by_project": 0
+      },
+      "access_gaps": [
+        "No contemporaneous clinical record or independently inspected witness statement",
+        "No original manuscript/Latin collation",
+        "Literary and religious selection"
+      ],
+      "reporting_dependency_group": "DG-T08-Bede-V",
+      "related_case_ids": [
+        "C-T08-001",
+        "C-T08-002"
+      ]
+    },
+    {
+      "case_id": "C-T08-004",
+      "name": "North Indian incidental collection1986",
+      "kind": "retrospective_cultural_collection",
+      "underlying_event_or_sample": "16 included case reports from18 incidentally identified during reincarnation investigations; four are narrated in detail, not four additional cases.",
+      "event_date": null,
+      "source_ids": [
+        "S-T08-002"
+      ],
+      "duplicate_group": "DG-T08-India-1986",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        "Median first investigation delay approximately14years",
+        "Reported illness/experience and later accounts not synchronized with neurological measurements"
+      ],
+      "denominators": {
+        "identified_reports": 18,
+        "excluded_scant": 2,
+        "included_cases": 16,
+        "direct_subject_interviews": 10,
+        "firsthand_informant_cases_without_subject": 5,
+        "secondhand_informant_case": 1,
+        "subject_plus_other_informant_cases_subset": 4,
+        "male": 11,
+        "female": 5,
+        "age_known": 14,
+        "US_comparison_prior_cases": 78,
+        "US_comparison_two_rows_only": 106,
+        "population_or_invitation_frame": null
+      },
+      "access_gaps": [
+        "Hindi transcripts and bilingual translation audit unavailable",
+        "Asymmetric India/US prompting; no systematic content questions in India",
+        "US source cohorts not directly reopened",
+        "Purposive regional recruitment; no national prevalence"
+      ],
+      "reporting_dependency_group": "DG-T08-India-1986",
+      "related_case_ids": []
+    },
+    {
+      "case_id": "C-T08-005",
+      "name": "Japanese published-interview reanalysis2014",
+      "kind": "retrospective_content_analysis",
+      "underlying_event_or_sample": "22 selected Tachibana2003 interviews; original book has one additional excluded sailor hallucination interview. Preliminary273-case literature pool not added. Possible overlap among underlying books is unquantified.",
+      "event_date": null,
+      "source_ids": [
+        "S-T08-003"
+      ],
+      "duplicate_group": "DG-T08-Japan-Tachibana",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        "Underlying published Japanese interviews2003",
+        "Reanalysis2014"
+      ],
+      "denominators": {
+        "analyzed_interviews": 22,
+        "excluded_comparator_interview": 1,
+        "male": 14,
+        "female": 8,
+        "age_known": 21,
+        "preliminary_literature_cases_not_added": 273,
+        "recruitment_frame": null,
+        "reporting_delay_distribution": null
+      },
+      "access_gaps": [
+        "Tachibana original interviews and Western originals not inspected",
+        "No matched Western participant cohort for general motif comparison",
+        "Prompt coverage, coder agreement and independent translation validation not reported here"
+      ],
+      "reporting_dependency_group": "DG-T08-Japan-Tachibana",
+      "related_case_ids": []
+    },
+    {
+      "case_id": "C-T08-006",
+      "name": "Distressing correspondence collection1992",
+      "kind": "retrospective_distressing_collection",
+      "underlying_event_or_sample": "50 self-selected accounts arising from some30 spontaneous correspondents over ten years plus an IANDS newsletter request; paper does not provide a full person/episode crosswalk. One example describes two childbirth episodes for one woman.",
+      "event_date": null,
+      "source_ids": [
+        "S-T08-004"
+      ],
+      "duplicate_group": "DG-T08-IANDS-retrospective",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        "Spontaneous reports over preceding10years, then newsletter solicitation",
+        "Experience dates and reporting delays vary; no complete tabulation",
+        "Publication1992"
+      ],
+      "denominators": {
+        "accounts": 50,
+        "earlier_spontaneous_correspondents_approximate": 30,
+        "total_invited": null,
+        "unique_people": null,
+        "unique_episodes": null,
+        "typology_classes": 3,
+        "full_class_counts": null
+      },
+      "access_gaps": [
+        "Clinical documentation incomplete; no standardized sampling frame",
+        "No matched peaceful/non-NDE control arm",
+        "Prior-book overlap and participant independence unestablished"
+      ],
+      "reporting_dependency_group": "DG-T08-IANDS-retrospective",
+      "related_case_ids": [
+        "C-T08-007",
+        "C-T08-008"
+      ]
+    },
+    {
+      "case_id": "C-T08-007",
+      "name": "Non-life-threatening and coma comparison2014",
+      "kind": "retrospective_comparison",
+      "underlying_event_or_sample": "Voluntary IANDS France/Flanders and Liège web/media recruitment.190 scale-selected reports divided50 non-life-threatening and140 coma; historical prospective comparisons reuse earlier data.",
+      "event_date": null,
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "duplicate_group": "DG-T08-IANDS-retrospective",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        "Mean interval since report-associated event24±15years",
+        "Self-reported coma defined unconsciousness>1hour; medically uncontrolled",
+        "Publication2014"
+      ],
+      "denominators": {
+        "submitted_reports": 215,
+        "excluded_score_below7": 25,
+        "included_reports": 190,
+        "nonlife_threatening": 50,
+        "nonlife_subgroups": {
+          "sleep": 13,
+          "syncope": 11,
+          "meditation": 5,
+          "drugs_alcohol": 3,
+          "other": 18
+        },
+        "coma": 140,
+        "coma_subgroups": {
+          "anoxic": 45,
+          "traumatic": 30,
+          "other": 65
+        },
+        "historical_prospective_NDE_reports_not_new": 42,
+        "historical_prospective_components": {
+          "Greyson2003": 27,
+          "Schwaninger2002": 11,
+          "Parnia2001": 4
+        },
+        "total_invited_or_all_survivors": null
+      },
+      "access_gaps": [
+        "Original clinical records, uniform translations and individual data not inspected",
+        "Abstract>7 versus methods exclude<7/Table2 minimum7",
+        "No prospective matched non-crisis cohort; no equivalence analysis"
+      ],
+      "reporting_dependency_group": "DG-T08-IANDS-retrospective",
+      "related_case_ids": [
+        "C-T08-006",
+        "C-T08-008"
+      ],
+      "analysis_reuse_of_sample_ids": [
+        "C-T08-008"
+      ],
+      "overlap_note": "Figure1 includes Greyson1990 data, hence explicit analytic reuse. No claim that the190 newly collected reports share participants with1990.",
+      "phase2_reinspections": [
+        {
+          "task_id": "P2T18",
+          "review_id": "P2R18",
+          "reinspection_claim_ids": [
+            "CL-P2T18-012",
+            "CL-P2T18-022",
+            "CL-P2T18-023",
+            "CL-P2T18-024",
+            "CL-P2T18-025",
+            "CL-P2T18-026",
+            "CL-P2T18-027",
+            "CL-P2T18-029"
+          ],
+          "disposition_record": "records/phase2_case_reinspections.json",
+          "operation": "accepted annex; all historical case fields retained"
+        }
+      ]
+    },
+    {
+      "case_id": "C-T08-008",
+      "name": "Self-described NDE and non-NDE comparison1990",
+      "kind": "retrospective_self_identification_comparison",
+      "underlying_event_or_sample": "246 IANDS-newsletter respondents to questionnaire invitation about close brushes with death:183 describe themselves as NDE experiencers,63 deny an NDE. These groups are not identical to scale-defined categories.",
+      "event_date": null,
+      "source_ids": [
+        "S-T08-006"
+      ],
+      "duplicate_group": "DG-T08-IANDS-retrospective",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        "Mean delay18.1years NDE self-label;22.3years non-NDE self-label",
+        "Retrospective questionnaire; time item broadened",
+        "Publication1990"
+      ],
+      "denominators": {
+        "respondents": 246,
+        "self_described_NDE": 183,
+        "self_described_nonNDE": 63,
+        "NDE_self_label_score_at_least7": 169,
+        "NDE_self_label_score_below7": 14,
+        "nonNDE_self_label_score_at_least7": 18,
+        "nonNDE_self_label_score_below7": 45,
+        "all_invited": null,
+        "random_clinical_population": null
+      },
+      "access_gaps": [
+        "No random all-survivor sampling or validated absence of experience",
+        "Possible overlap with other Greyson/IANDS collections",
+        "Cohort reused in Charland-Verville2014 Figure1"
+      ],
+      "reporting_dependency_group": "DG-T08-IANDS-retrospective",
+      "related_case_ids": [
+        "C-T08-006",
+        "C-T08-007"
+      ],
+      "reused_in_analysis_case_ids": [
+        "C-T08-007"
+      ],
+      "overlap_note": "Figure1 includes Greyson1990 data, hence explicit analytic reuse. No claim that the190 newly collected reports share participants with1990."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S-T08-001",
+      "title": "Bede's Ecclesiastical History of England, Book V chapters12–14",
+      "authors": [
+        "Bede",
+        "A. M. Sellar (revised English translation)"
+      ],
+      "publication_date": "1907",
+      "url_or_identifier": "https://www.gutenberg.org/files/38326/38326-h/38326-h.html",
+      "source_type": "Primary historical literary account in a later translation",
+      "access_status": "inspected_relevant_sections",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Title and editor preface",
+        "V.12 pp325–332",
+        "V.13–14 pp332–336",
+        "V.23 narrative present731"
+      ],
+      "provenance_notes": "Latin original composed circa731; Sellar1907 revises Giles1842 and earlier Stevens, using Plummer Latin text. Gutenberg ebook38326 released2011. No medieval manuscript or Latin text independently inspected.",
+      "related_case_ids": [
+        "C-T08-001",
+        "C-T08-002",
+        "C-T08-003"
+      ]
+    },
+    {
+      "source_id": "S-T08-002",
+      "title": "Near-Death Experiences in India: A Preliminary Report",
+      "authors": [
+        "Satwant Pasricha",
+        "Ian Stevenson"
+      ],
+      "publication_date": "1986",
+      "url_or_identifier": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2017/01/STE22NDEs-in-India.pdf",
+      "source_type": "Original retrospective cultural collection",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp165–166 Sources of Data",
+        "pp166–167 case reports",
+        "p168 Table1 and qualification",
+        "pp169–170 Discussion, Conclusions, References"
+      ],
+      "provenance_notes": "Original6-page journal scan from author institution; OCR supplemented by visual inspection pp165–168. Hindi-speaking interviewees; interview-to-English translation process not specified in inspected paper.",
+      "related_case_ids": [
+        "C-T08-004"
+      ]
+    },
+    {
+      "source_id": "S-T08-003",
+      "title": "A Comparative Analysis of Japanese and Western NDEs",
+      "authors": [
+        "Masayuki Ohkado",
+        "Bruce Greyson"
+      ],
+      "publication_date": "2014",
+      "url_or_identifier": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2017/01/NDE76-Japanese-and-western-JNDS.pdf",
+      "source_type": "Original content reanalysis of previously published interviews",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "p188 Method",
+        "p189 Table1",
+        "pp190–196 Results and interpretation",
+        "pp197–198 References"
+      ],
+      "provenance_notes": "DOI10.17514/JNDS-2014-32-4-p187-198. Full12-page original article, plus UNT catalog abstract inspected. Tachibana Japanese interview book not inspected directly. Reference-title unofficial English translations credited Ohkado; no independent bilingual audit.",
+      "related_case_ids": [
+        "C-T08-005"
+      ],
+      "access_locations": [
+        "https://digital.library.unt.edu/ark:/67531/metadc948085/"
+      ]
+    },
+    {
+      "source_id": "S-T08-004",
+      "title": "Distressing Near-Death Experiences",
+      "authors": [
+        "Bruce Greyson",
+        "Nancy Evans Bush"
+      ],
+      "publication_date": "1992-02",
+      "url_or_identifier": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2017/01/NDE21_distressingfNDE-Psych.pdf",
+      "source_type": "Original self-selected correspondence collection and interpretive typology",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp95–98 prior reports and Study Sample",
+        "pp99–106 examples",
+        "pp107–109 Discussion, Sampling Problems, Conclusion",
+        "pp109–110 References"
+      ],
+      "provenance_notes": "Psychiatry55:95–110;16-page original scan from author institution. Entire OCR text read and pp95–99 visually checked. Earlier literature quoted in paper is secondary evidence, not independent inspections of those originals.",
+      "related_case_ids": [
+        "C-T08-006"
+      ]
+    },
+    {
+      "source_id": "S-T08-005",
+      "title": "Near-death experiences in non-life-threatening events and coma of different etiologies",
+      "authors": [
+        "Vanessa Charland-Verville",
+        "Jean-Pierre Jourdan",
+        "Marie Thonnard",
+        "Didier Ledoux",
+        "Anne-Francoise Donneau",
+        "Etienne Quertemont",
+        "Steven Laureys"
+      ],
+      "publication_date": "2014-05-27",
+      "url_or_identifier": "https://orbi.uliege.be/bitstream/2268/173671/1/Charland-Verville2014_FHN.pdf",
+      "source_type": "Original retrospective comparison with reused prospective literature",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "p2 Materials and Methods and Results",
+        "p3 Tables1–2",
+        "p4 Table3",
+        "pp5–6 Discussion and Figure1",
+        "pp7–8 References"
+      ],
+      "provenance_notes": "DOI10.3389/fnhum.2014.00203. Full8-page publisher postprint from ORBi after publisher403. ORBi abstract/catalog and transient PMC abstract/text route inspected; same article identity. Table1–2 visually checked. Questionnaire language versions/translation validation not established here.",
+      "related_case_ids": [
+        "C-T08-007"
+      ],
+      "access_locations": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4034153/",
+        "https://orbi.uliege.be/handle/2268/173671"
+      ]
+    },
+    {
+      "source_id": "S-T08-006",
+      "title": "Near-Death Encounters With and Without Near-Death Experiences: Comparative NDE Scale Profiles",
+      "authors": [
+        "Bruce Greyson"
+      ],
+      "publication_date": "1990",
+      "url_or_identifier": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2017/01/NDE17.pdf",
+      "source_type": "Original retrospective self-identification comparison",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp152–153 Method",
+        "p154 demographics and delay",
+        "pp155–159 Results and Table1",
+        "pp159–161 Discussion and References"
+      ],
+      "provenance_notes": "DOI10.1007/BF01074000. Full11-page original scan; OCR plus visual pp151–152,154,159. Respondents were self-selected through IANDS newsletter; not a random clinical control cohort.",
+      "related_case_ids": [
+        "C-T08-008"
+      ]
+    }
+  ]
+}

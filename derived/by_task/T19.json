@@ -1,0 +1,1246 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T19",
+  "report": "work/T19/report.md",
+  "counts": {
+    "claims": 23,
+    "arguments": 3,
+    "cases": 2,
+    "sources": 10
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T19-001",
+      "statement": "The supplied text introduces Anita Morjani/Moorjani and a podcast host addressed as Julie; recording identity, date and alignment remain unverified.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-001",
+          "locator": "00:00:29.039–00:01:30.320 identity"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "T19-Moorjani-transcript",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Reliable access to supplied text; provenance is not authentication."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-002",
+      "statement": "Moorjani describes lymphoma, rapid tumor reduction and discharge after five weeks; her assertion that she has records is not inspection of pathology, treatments or objective recovery measurements.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-001",
+          "locator": "00:02:04.399–00:02:33.440;00:22:29.600–00:22:50.000;00:33:37.600–00:34:35.280"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "T19-Moorjani-transcript",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Treatment chronology and cause of recovery unknown from inspected material. No spontaneous-remission or no-chemotherapy conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-003",
+      "statement": "Moorjani recounts recognizing a doctor and hearing a hallway prognosis, and describes a later critical newspaper interview plus supportive doctors; these are her retellings of other people’s statements.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-001",
+          "locator": "00:32:26.159–00:33:37.600;00:35:21.280–00:39:10.079"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "T19-Moorjani-transcript",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Neither named critic nor supportive clinician was independently interviewed here. Quoted surprise is not independent corroboration."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-004",
+      "statement": "Smit2008 traces the dentures narrative through a1991 Meijers article and a February1994 Addink interview with nurse TG, then his own2008 follow-up.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "locator": "p50 Two Documents;pp57–59 Recent Follow-Up"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The earliest identified1991 text and full1994 Dutch notes were not directly inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-005",
+      "statement": "Smit reports K.B. identified himself as a messenger between TG and Meijers, rather than a participant in the resuscitation; repeated interviews remain dependent on TG.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "locator": "p57 Recent Follow-Up"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Supported as source attribution only; external event verification remains limited."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-006",
+      "statement": "Woerlee dates the dentures event to late1979 and recounts unresponsiveness, ventricular fibrillation, CPR and later recovery from the published nurse narrative; these are not newly inspected clinical measurements.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-003",
+          "locator": "pp182–184"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Exact event date, collapse-to-CPR duration, core temperature and raw monitoring records unavailable."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-007",
+      "statement": "In Smit’s translated nurse account, the patient later identifies TG and a distinctive cart/shelf associated with the dentures; investigators did not obtain a direct patient interview.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "locator": "pp54–56;pp60–61"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Reported recognition is specific testimony; its first wording and prior information access are not independently established."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-008",
+      "statement": "Smit identifies a stop-CPR versus continue-CPR discrepancy and reports TG’s later explanation as two successive phases: pain first, then fear of premature cessation.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "locator": "pp57–59"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Later reconciliation is not an independently timestamped resolution."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-009",
+      "statement": "Smit and Rivas acknowledge dependence on one principal witness and state that official medical records had been destroyed; the present audit has no measured EEG interval for the dentures perception.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "locator": "pp194–195;pp197–203"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Destruction is the authors’ statement, not an independent records-retention audit. References to absent cortex activity are inference, not a supplied tracing."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-010",
+      "statement": "Woerlee proposes preserved or restored sensory awareness during hypothermia/CPR, recognizable voice, sensation and later reconstruction as an ordinary account of the dentures report.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T19-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-003",
+          "locator": "pp184–189"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Proposed physiology and detailed prehospital sequence were not measured in this case; the cited general clinical studies were not newly audited."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-011",
+      "statement": "Smit and Rivas reply that TG placed dentures removal before restarting the Thumper, and that a pre-opened wooden shelf undermines an explanation relying on hearing a metal drawer.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "locator": "pp197–202"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Reply depends on TG’s later sequence and spatial description; it does not independently exclude every sensory or later-learning route."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-012",
+      "statement": "The defender texts differ on pain: Smit2008 allows restored circulation/physical pain; Smit–Rivas2010 first proposes psychogenic extrasensory pain but also allows mixed physical and extrasensory input if TG’s cortical assessment was mistaken.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "locator": "pp58–60"
+        },
+        {
+          "source_id": "S-T19-004",
+          "locator": "pp202–203"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "A change in interpretation and assumptions, not two independently established physiological observations."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-013",
+      "statement": "The Reynolds sources place aneurysm surgery in August1991 and give a sequence of anesthesia, skull opening, bypass/cooling, circulatory arrest, rewarming and closure. Carter supplies clock times through Sabom’s account.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-005",
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-005",
+          "locator": "pp4–5"
+        },
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp30–35"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Clock times and drugs are attributed chronology; original operative/anesthesia/EEG/BAEP records not inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-014",
+      "statement": "Carter reproduces Reynolds’s descriptions of a toothbrush-like surgical tool, its case, a vessel-size exchange and an apparent encounter with relatives; the narrative and subsequent matching depend substantially on Sabom’s account.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp31–36;pp46–47"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Raw initial description, complete errors/misses and before-feedback record not inspected. A visual description is not independently verified out-of-body vision."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-015",
+      "statement": "Carter explicitly places the externally checkable early perceptions before absent brainstem response; Hameroff conditionally agrees the four auditory examples occurred under anesthesia rather than hypothermic circulatory arrest.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-007",
+        "S-T19-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "p36"
+        },
+        {
+          "source_id": "S-T19-006",
+          "locator": "p27"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Agreement about published phase assignment is not additional physiological measurement or a timestamp for the relatives/light experience."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-016",
+      "statement": "Woerlee reports Sabom first contacted Reynolds in1994; Carter says she first mentioned the experience to Spetzler several days after surgery. Neither inspected2011 paper supplies a contemporaneous verbatim first account.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-005",
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-005",
+          "locator": "p5"
+        },
+        {
+          "source_id": "S-T19-007",
+          "locator": "p34"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Early disclosure, later investigation and1998 publication must remain different dates. Sabom1998 chapter and2002 documentary not directly inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-017",
+      "statement": "Woerlee argues ordinary hearing remained possible despite clicks/earpieces and infers awareness plus drug-shaped experience, partly importing parameters from related published surgical protocols.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T19-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-005",
+          "locator": "pp8–15;pp18–20;addendum pp23–25"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Generic procedure parameters are not this patient’s measured drug concentrations or auditory thresholds. Possibility and actual cause are distinct."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-018",
+      "statement": "Hameroff grants a possible awareness explanation conditional on the portrayal being accurate, but questions the absent raw BAER results and reliance on monitoring error; he does not claim particular-case expertise.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T19-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-006",
+          "locator": "pp26–28"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "His characterization of BAER as definitive is an attributed position, not adopted contemporary clinical guidance; credentials do not settle the tracing."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-019",
+      "statement": "Carter argues that vivid visual details, the missing reported clicks, sealing/masking and brainstem-versus-conscious perception distinctions challenge Woerlee’s account, and proposes a calibrated reconstruction.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp35–36;pp41–48"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No completed reconstruction result inspected. Phenomenological difference alone does not exclude ordinary generation. Reputation/ideology rhetoric is not case evidence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-020",
+      "statement": "Carter quotes Cordova on technical parameters and explicitly locates Cordova in the adjacent operating room; Cordova’s quoted statement calls for an experiment and does not itself establish whether Reynolds heard.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp47–48;references p50"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Near-primary technical correspondence via Carter; original messages and the monitoring colleague’s record are not independently inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-021",
+      "statement": "The two dossiers support specific, traceable perception claims and substantive disputes, but lack independently fixed perception timing plus complete information-access controls needed to identify extracerebral acquisition.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-003",
+        "S-T19-004",
+        "S-T19-005",
+        "S-T19-006",
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "locator": "pp50–61"
+        },
+        {
+          "source_id": "S-T19-003",
+          "locator": "pp182–189"
+        },
+        {
+          "source_id": "S-T19-004",
+          "locator": "pp194–203"
+        },
+        {
+          "source_id": "S-T19-005",
+          "locator": "pp4–20"
+        },
+        {
+          "source_id": "S-T19-006",
+          "locator": "p27"
+        },
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp30–48"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001",
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-cross-case-inference",
+      "supporting_claim_ids": [
+        "CL-T19-007",
+        "CL-T19-009",
+        "CL-T19-011",
+        "CL-T19-013",
+        "CL-T19-014",
+        "CL-T19-015",
+        "CL-T19-016",
+        "CL-T19-017",
+        "CL-T19-018",
+        "CL-T19-019",
+        "CL-T19-020"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Ordinary perception during residual/restored processing",
+        "Retrospective reconstruction or later information",
+        "Anomalous perception under additional verified timing and independence assumptions"
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Project assessment, not a claim that an ordinary explanation has been demonstrated."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-022",
+      "statement": "Resuscitation reports do not by themselves establish the same person’s subjectivity beyond irreversible death, fundamental mind, universal subjecthood or timelessness.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [
+        "C-T19-001",
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-cross-case-inference",
+      "supporting_claim_ids": [
+        "CL-T19-021"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Project application of T01 definitions and T13 identity distinctions."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "claim_id": "CL-T19-023",
+      "statement": "Recovery after CPR or surgery, and an interview’s temporal association of insight with improvement, do not alone establish miraculous or consciousness-caused healing.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T19-001",
+        "S-T19-002",
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-001",
+          "locator": "00:33:37.600–00:34:35.280"
+        },
+        {
+          "source_id": "S-T19-002",
+          "locator": "pp54–60"
+        },
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp30–35"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001",
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-cross-case-inference",
+      "supporting_claim_ids": [
+        "CL-T19-002",
+        "CL-T19-006",
+        "CL-T19-013"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Attribution of a report or argument does not establish its described event or conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No treatment efficacy, disease prognosis, spontaneous-remission rate or medical advice is inferred."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T19-001",
+      "name": "Dentures conditional anomalous-perception argument",
+      "position": "project-authored conditional inference map",
+      "premises": [
+        "In Smit’s translated nurse account, the patient later identifies TG and a distinctive cart/shelf associated with the dentures; investigators did not obtain a direct patient interview.",
+        "Smit and Rivas acknowledge dependence on one principal witness and state that official medical records had been destroyed; the present audit has no measured EEG interval for the dentures perception.",
+        "Smit and Rivas reply that TG placed dentures removal before restarting the Thumper, and that a pre-opened wooden shelf undermines an explanation relying on hearing a metal drawer."
+      ],
+      "bridge_principles": [
+        "A verified acquisition episode incompatible with a specified dependence model challenges that model only when timing, identity and information-access premises hold."
+      ],
+      "conclusion": "If the report and exclusion/timing premises hold, the specific neural-dependence model would be challenged.",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-003",
+        "S-T19-004"
+      ],
+      "claim_ids": [
+        "CL-T19-004",
+        "CL-T19-005",
+        "CL-T19-006",
+        "CL-T19-007",
+        "CL-T19-008",
+        "CL-T19-009",
+        "CL-T19-010",
+        "CL-T19-011",
+        "CL-T19-012"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Single-witness retrospective timing and information control are insufficient to establish those premises.",
+      "strongest_reply": "Unusual shelf details and pre-Thumper removal deserve testing; a generic ordinary possibility does not erase the report.",
+      "unresolved_issues": [
+        "No defensible numerical likelihood ratio or posterior; dependence on shared case narratives retained."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "argument_id": "A-T19-002",
+      "name": "Reynolds conditional anomalous-perception argument",
+      "position": "project-authored conditional inference map",
+      "premises": [
+        "Carter reproduces Reynolds’s descriptions of a toothbrush-like surgical tool, its case, a vessel-size exchange and an apparent encounter with relatives; the narrative and subsequent matching depend substantially on Sabom’s account.",
+        "Carter explicitly places the externally checkable early perceptions before absent brainstem response; Hameroff conditionally agrees the four auditory examples occurred under anesthesia rather than hypothermic circulatory arrest.",
+        "Carter argues that vivid visual details, the missing reported clicks, sealing/masking and brainstem-versus-conscious perception distinctions challenge Woerlee’s account, and proposes a calibrated reconstruction.",
+        "Carter quotes Cordova on technical parameters and explicitly locates Cordova in the adjacent operating room; Cordova’s quoted statement calls for an experiment and does not itself establish whether Reynolds heard."
+      ],
+      "bridge_principles": [
+        "A verified acquisition episode incompatible with a specified dependence model challenges that model only when timing, identity and information-access premises hold."
+      ],
+      "conclusion": "If precise perception and independently established exclusion conditions coincide, the case favors acquisition beyond the specified normal channels.",
+      "source_ids": [
+        "S-T19-005",
+        "S-T19-006",
+        "S-T19-007"
+      ],
+      "claim_ids": [
+        "CL-T19-013",
+        "CL-T19-014",
+        "CL-T19-015",
+        "CL-T19-016",
+        "CL-T19-017",
+        "CL-T19-018",
+        "CL-T19-019",
+        "CL-T19-020"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Checkable claims occur outside the alleged standstill interval, and drug/monitoring/access conditions are incompletely inspected.",
+      "strongest_reply": "Carter’s technical details and visual specificity challenge simplistic hearing reconstructions; neither party has supplied the decisive controlled comparison here.",
+      "unresolved_issues": [
+        "No defensible numerical likelihood ratio or posterior; dependence on shared case narratives retained."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    },
+    {
+      "argument_id": "A-T19-003",
+      "name": "Limit of survival and cosmic extrapolation",
+      "position": "project-authored conditional inference map",
+      "premises": [
+        "The two dossiers support specific, traceable perception claims and substantive disputes, but lack independently fixed perception timing plus complete information-access controls needed to identify extracerebral acquisition.",
+        "Resuscitation reports do not by themselves establish the same person’s subjectivity beyond irreversible death, fundamental mind, universal subjecthood or timelessness."
+      ],
+      "bridge_principles": [
+        "Temporary independence does not automatically establish irreversible-death survival or cosmic/normative attributes."
+      ],
+      "conclusion": "Neither dossier establishes the full enduring/timeless conscious-foundation package.",
+      "source_ids": [
+        "S-T19-001",
+        "S-T19-002",
+        "S-T19-003",
+        "S-T19-004",
+        "S-T19-005",
+        "S-T19-006",
+        "S-T19-007"
+      ],
+      "claim_ids": [
+        "CL-T19-021",
+        "CL-T19-022",
+        "CL-T19-023"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A verified brain-independent episode could nevertheless be relevant to models permitting personal survival.",
+      "strongest_reply": "Relevance is retained conditionally; irreversible death, numerical identity, universal subjecthood, purpose and normative relations require additional premises.",
+      "unresolved_issues": [
+        "No defensible numerical likelihood ratio or posterior; dependence on shared case narratives retained."
+      ],
+      "review_status": "accepted",
+      "review_id": "R19"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "C-T19-001",
+      "name": "Dentures: patient B and nurse TG retrospective cardiac-arrest report",
+      "kind": "retrospective_case",
+      "underlying_event_or_sample": "One reported resuscitation at old Canisius Hospital near Nijmegen; TG-based narrative also printed in Dutch cohort article.",
+      "event_date": "late1979 as attributed in Woerlee2010; exact date unverified",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-003",
+        "S-T19-004"
+      ],
+      "duplicate_group": "dentures-patient-B-TG-event",
+      "overlapping_sample_ids": [],
+      "related_case_ids": [
+        "C-T07-004"
+      ],
+      "reporting_dependency_group": "T19-dentures-TG-chain",
+      "chronology": [
+        {
+          "stage": "reported medical event",
+          "date": "late1979 attributed",
+          "scope": "CL-T19-006; no original measurements"
+        },
+        {
+          "stage": "reported patient disclosure",
+          "date": "over a week after resuscitation in nurse retelling",
+          "scope": "CL-T19-007; no dated verbatim first account"
+        },
+        {
+          "stage": "earliest identified written source",
+          "date": "August1991 Meijers article",
+          "scope": "CL-T19-004; not directly inspected"
+        },
+        {
+          "stage": "interview",
+          "date": "February2,1994; transcript datedFebruary3",
+          "scope": "Smit2008 translated excerpts; full underlying note not inspected"
+        },
+        {
+          "stage": "later nurse interviews",
+          "date": "April2008 and subsequent2008 Rivas interview",
+          "scope": "CL-T19-005/008; same witness"
+        },
+        {
+          "stage": "accessible detailed investigation / dispute",
+          "date": "2008 / 2010",
+          "scope": "Smit, Woerlee, Smit/Rivas"
+        }
+      ],
+      "denominators": {},
+      "access_gaps": [
+        "No patient interview obtained in inspected investigation",
+        "No raw charts, EEG or independent dated perception/witness statements inspected",
+        "Unknown full information access and reporting contamination",
+        "Original1991 and1994 documents and Dutch2008 originals uninspected"
+      ],
+      "phase2_reinspections": [
+        {
+          "task_id": "P2T17",
+          "review_id": "P2R17",
+          "reinspection_claim_ids": [
+            "CL-P2T17-001",
+            "CL-P2T17-002",
+            "CL-P2T17-003",
+            "CL-P2T17-004",
+            "CL-P2T17-005",
+            "CL-P2T17-006",
+            "CL-P2T17-007",
+            "CL-P2T17-008",
+            "CL-P2T17-009",
+            "CL-P2T17-010",
+            "CL-P2T17-011",
+            "CL-P2T17-012",
+            "CL-P2T17-013",
+            "CL-P2T17-014",
+            "CL-P2T17-015",
+            "CL-P2T17-016",
+            "CL-P2T17-019",
+            "CL-P2T17-020",
+            "CL-P2T17-021",
+            "CL-P2T17-022",
+            "CL-P2T17-023",
+            "CL-P2T17-025",
+            "CL-P2T17-026",
+            "CL-P2T17-027",
+            "CL-P2T17-028",
+            "CL-P2T17-029",
+            "CL-P2T17-030"
+          ],
+          "disposition_record": "records/phase2_case_reinspections.json",
+          "operation": "accepted annex; all historical case fields retained"
+        }
+      ]
+    },
+    {
+      "case_id": "C-T19-002",
+      "name": "Pam Reynolds1991 surgical NDE report",
+      "kind": "retrospective_case",
+      "underlying_event_or_sample": "One reported August1991 aneurysm surgery at Barrow, described via Sabom and later debate.",
+      "event_date": "1991-08; exact day unverified",
+      "source_ids": [
+        "S-T19-005",
+        "S-T19-006",
+        "S-T19-007"
+      ],
+      "duplicate_group": "pam-reynolds-1991-surgery",
+      "overlapping_sample_ids": [],
+      "related_case_ids": [],
+      "reporting_dependency_group": "T19-Reynolds-Sabom-chain",
+      "chronology": [
+        {
+          "stage": "operation",
+          "date": "August1991",
+          "scope": "Reported sequence in CL-T19-013; no original chart inspection"
+        },
+        {
+          "stage": "first reported disclosure",
+          "date": "several days later per Carter",
+          "scope": "CL-T19-016; exact wording/date unknown"
+        },
+        {
+          "stage": "Sabom contact",
+          "date": "1994 per Woerlee",
+          "scope": "Investigation date distinct from event and first disclosure"
+        },
+        {
+          "stage": "earliest identified detailed publication",
+          "date": "1998 Light & Death",
+          "scope": "Only identified quotations inspected via later authors; full chapter unavailable"
+        },
+        {
+          "stage": "documentary",
+          "date": "2002",
+          "scope": "Quotations via Carter; original recording uninspected"
+        },
+        {
+          "stage": "technical correspondence and debate",
+          "date": "2011",
+          "scope": "Woerlee, Hameroff, Carter; correspondence quoted not independently authenticated"
+        }
+      ],
+      "denominators": {},
+      "access_gaps": [
+        "Full Sabom1998 original chapter and1994 interview absent",
+        "No original operative/anesthesia chart, drug concentrations, EEG/BAEP time series inspected",
+        "No calibrated case-specific hearing experiment result inspected",
+        "No complete before-feedback list of correct and incorrect perceptions",
+        "Subsequent2011 rejoinder/2012 letter not inspected"
+      ],
+      "phase2_reinspections": [
+        {
+          "task_id": "P2T16",
+          "review_id": "P2R16",
+          "reinspection_claim_ids": [
+            "CL-P2T16-001",
+            "CL-P2T16-002",
+            "CL-P2T16-003",
+            "CL-P2T16-012",
+            "CL-P2T16-014",
+            "CL-P2T16-016",
+            "CL-P2T16-019",
+            "CL-P2T16-020",
+            "CL-P2T16-021",
+            "CL-P2T16-023",
+            "CL-P2T16-024",
+            "CL-P2T16-025",
+            "CL-P2T16-028"
+          ],
+          "disposition_record": "records/phase2_case_reinspections.json",
+          "operation": "accepted annex; all historical case fields retained"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S-T19-001",
+      "title": "User-supplied purported Anita Moorjani interview transcript",
+      "authors": [
+        "Attributed Anita Moorjani",
+        "Interviewer addressed as Julie"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "state/input_snapshots/user_sources/moorjani_user_supplied_interview.srt",
+      "source_type": "user_supplied_transcript",
+      "access_status": "inspected_screening_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "00:00:29.039–00:01:30.320 identity",
+        "00:02:04.399–00:05:41.199 illness and experience",
+        "00:22:29.600–00:22:50.000 records claim",
+        "00:32:26.159–00:34:35.280 perception and recovery",
+        "00:35:21.280–00:39:10.079 reported challenge and reply"
+      ],
+      "provenance_notes": "Input SHA256 13d19f52b93b87a66a828f0da4f84d716cc2cfbd85b737bded484a7955b4fc44; original library ID libfile_8e06cd4ffc088191b59df3f76bc4b14f. Intro spells Morjani; normalized attributed name Moorjani. Recording URL/date and audio alignment unknown. Screened text ranges, not authenticated testimony or charts.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T19-002",
+      "title": "Corroboration of the Dentures Anecdote Involving Veridical Perception in a Near-Death Experience",
+      "authors": [
+        "Rudolf H. Smit"
+      ],
+      "publication_date": "2008",
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc798921/m2/1/high_res_d/vol27-no1-47.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp47–61; Two Documents p50; Recent Follow-Up pp57–59; Discussion pp60–61"
+      ],
+      "provenance_notes": "Original 2008 article27(1),47–61. Direct investigator account with author-translated excerpts of1994 TG interview and2008 follow-up. Underlying Dutch notes and patient interview not inspected. DOI10.17514/JNDS-2008-27-1-p47-61 verified through resolving DOI and UNT metadata. Temporary inspected PDF SHA256 77f157d931b6869a0fe6030fa597432e6ddd5d40cd1d75f84e05729782751f24.",
+      "related_case_ids": [
+        "C-T19-001"
+      ]
+    },
+    {
+      "source_id": "S-T19-003",
+      "title": "Response to “Corroboration of the Dentures Anecdote Involving Veridical Perception in a Near-Death Experience”",
+      "authors": [
+        "Gerald M. Woerlee"
+      ],
+      "publication_date": "2010",
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc461689/m2/1/high_res_d/28-4%20FINAL%20WOERLEE%20ART.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp181–191; chronology pp182–184; proposed mechanisms pp184–189; references pp189–191"
+      ],
+      "provenance_notes": "Original2010 critique28(4),181–191. Published text inspected through web PDF; local download returned DAM HTML, not PDF. No private chart inspected. Bibliography sometimes listed181–192 elsewhere; actual PDF ends191.",
+      "related_case_ids": [
+        "C-T19-001"
+      ]
+    },
+    {
+      "source_id": "S-T19-004",
+      "title": "Rejoinder to “Response to ‘Corroboration of the Dentures Anecdote Involving Veridical Perception in a Near-Death Experience’”",
+      "authors": [
+        "Rudolf H. Smit",
+        "Titus Rivas"
+      ],
+      "publication_date": "2010",
+      "url_or_identifier": "https://www.academia.edu/65175964/Corroboration_of_the_Dentures_Anecdote_Involing_Veridical_Perception_in_a_Near_Death_Experience",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp193–205; record caveat pp194–195; timing pp197–198; cart pp199–202; pain pp202–203"
+      ],
+      "provenance_notes": "Actual text is Smit/Rivas2010,28(4),193–205, despite Academia wrapper incorrectly naming Smit2008. Identity checked by heading/authors/pages. Original research reply incorporating translated TG2008 and communications with cardiologists; underlying recordings not inspected. UNT equivalent PDF route returned DAM HTML locally; catalog supplies10.17514/JNDS-2010-28-4-p193-205, used as access identifier, not separate evidence.",
+      "related_case_ids": [
+        "C-T19-001"
+      ]
+    },
+    {
+      "source_id": "S-T19-005",
+      "title": "Could Pam Reynolds Hear? A New Investigation into the Possibility of Hearing During this Famous Near-Death Experience",
+      "authors": [
+        "Gerald M. Woerlee"
+      ],
+      "publication_date": "2011",
+      "url_or_identifier": "https://scispace.com/pdf/could-pam-reynolds-hear-a-new-investigation-into-the-1pxnq7j1y7.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp3–25; chronology pp4–5; monitoring and drug assumptions pp8–15; explanations pp18–20; references/addendum pp21–25"
+      ],
+      "provenance_notes": "Original2011 critique30(1),3–25. Web PDF inspected; local download403 and screenshot429. Sabom1998 quotations, supplementary protocol assumptions and proposed hearing demonstration are separately identified. No raw monitoring/drug chart inspected; chapter not independently opened.",
+      "related_case_ids": [
+        "C-T19-002"
+      ]
+    },
+    {
+      "source_id": "S-T19-006",
+      "title": "Response to “Could Pam Reynolds Hear?”",
+      "authors": [
+        "Stuart Hameroff"
+      ],
+      "publication_date": "2011",
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc461724/m2/1/high_res_d/30-1%20D%20Hameroff.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp26–28, especially conditional concession and monitoring objection p27"
+      ],
+      "provenance_notes": "Original2011 response30(1),26–28, DOI10.17514/JNDS-2011-30-1-p26-28 verified through DOI-resolved UNT metadata. Hameroff disclaims expertise on this particular case. No raw BAER tracing supplied. Temporary inspected PDF SHA256 8d73da34c143b41ecf4fd38943cabf7775c4a2c744839ab261dd34f3c7f9bd27.",
+      "related_case_ids": [
+        "C-T19-002"
+      ]
+    },
+    {
+      "source_id": "S-T19-007",
+      "title": "Response to “Could Pam Reynolds Hear?”",
+      "authors": [
+        "Chris Carter"
+      ],
+      "publication_date": "2011",
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc461722/m2/1/high_res_d/30-1%20E%20Carter.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp29–53; chronology pp30–36; inference debate pp36–46; communications and proposed test pp46–48; references pp49–50; appendix pp51–53"
+      ],
+      "provenance_notes": "Original2011 response30(1),29–53, DOI10.17514/JNDS-2011-30-1-p29-53 verified by UNT metadata. Author reports2011 personal communications, including December15 despite issue labelled Fall2011; exact publication day not assigned. Near-primary technical testimony as quoted by author; Cordova states he monitored in the adjacent operating room. No original emails, charts, recordings or full Sabom chapter inspected. Temporary inspected PDF SHA256 41d9d73cb930ce5bae718dc259ba7fc497476b3de642abf659d82a26793d7778.",
+      "related_case_ids": [
+        "C-T19-002"
+      ]
+    },
+    {
+      "source_id": "S-T19-008",
+      "title": "UNT metadata for Smit2008 dentures article",
+      "authors": [
+        "UNT Libraries"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc798921/",
+      "source_type": "repository_metadata",
+      "access_status": "metadata_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Identifier, Source and download link"
+      ],
+      "provenance_notes": "Navigation/identifier inspection only; same underlying article as S-T19-002, not another contribution.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T19-009",
+      "title": "UNT metadata for Hameroff2011 response",
+      "authors": [
+        "UNT Libraries"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc461724/",
+      "source_type": "repository_metadata",
+      "access_status": "metadata_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Identifier and download link"
+      ],
+      "provenance_notes": "Navigation/identifier inspection only; same underlying article as S-T19-006, not another contribution.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T19-010",
+      "title": "UNT metadata for Carter2011 response",
+      "authors": [
+        "UNT Libraries"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc461722/",
+      "source_type": "repository_metadata",
+      "access_status": "metadata_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Source, Identifier, Publication Information and download link"
+      ],
+      "provenance_notes": "Navigation/identifier inspection only; same underlying article as S-T19-007, not another contribution.",
+      "related_case_ids": []
+    }
+  ]
+}

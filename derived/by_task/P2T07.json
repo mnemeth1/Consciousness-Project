@@ -1,0 +1,800 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T07",
+  "report": "work/P2T07/report.md",
+  "counts": {
+    "claims": 20,
+    "arguments": 5,
+    "cases": 0,
+    "sources": 5
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T07-001",
+      "statement": "Enoch characterizes robust realism as objective irreducible normative truth; attitudes may matter normatively without constitutively determining fundamental normative truths.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Preview printed1–4 (PDF14–17)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Chapter1 characterization, not proof"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-002",
+      "statement": "Enoch separates realist ontology from epistemic warrant: robust realism can be compatible with normative skepticism.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Preview printed4–5 (PDF17–18)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "No knowledge or warrant established"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-003",
+      "statement": "Enoch denies that his objectivity and metanormative-realism arguments, even combined, entail robust metaethical realism.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Preview printed3,12 (PDF16,25)",
+        "Google images: chapter 4 opening pp.85–86 and §4.5 p.99"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Chapter 4 now independently inspected: supplies a conditional, open-ended motivation argument, not entailment or certified premise truth.",
+        "Its chapter 2/3 antecedents are not established by reading chapter 4; chapter 3 pp.53–83 remain missing."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-004",
+      "statement": "Enoch's introduction presents explanatory/deliberative indispensability parity as supporting belief in irreducible normative facts.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Preview printed11–12 (PDF24–25)",
+        "Google images: chapter 3 roadmap pp.50–51 and concluding p.84"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Introductory outline and chapter 3 roadmap/conclusion corroborated; developed chapter 3 pp.53–83, including §3.4 epistemic derivation, remain absent.",
+        "Numbered premises are referenced on p.84; their complete preceding formulation and defense are not reconstructed."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-005",
+      "statement": "Lenman challenges the joint non-optionality and robust-truth requirements: only thinner deliberation is indispensable.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-002"
+      ],
+      "source_locators": [
+        "Journal837,840–841 (PDF3,6–7)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Lenman-critique",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Attributed challenge, not premise truth"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-006",
+      "statement": "Lenman's schmeliberation uses reflectively scrutinized concerns as success standards and claims deliberation-like phenomenology; his expressivism differs from descriptive naturalism.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-002"
+      ],
+      "source_locators": [
+        "Journal838–841, especially840n11 (PDF4–7)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Lenman-critique",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "No population finding or categorical authority established"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-007",
+      "statement": "Lenman distinguishes psychological truth conditions from consciousness constitutively determining normative truth conditions.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-002"
+      ],
+      "source_locators": [
+        "Journal835–836 (PDF1–2)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Lenman-critique",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Conditional normative independence, not evidence about fundamental consciousness"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-008",
+      "statement": "Enoch replies that similarity to choosing does not establish identity with deliberation, and success standards may lack deserved allegiance.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-003"
+      ],
+      "source_locators": [
+        "Journal§3pp859–860 (PDF7–8)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Attributed rebuttal; its normative significance remains contested"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-009",
+      "statement": "Enoch allows differing deliberative phenomenology and person-relative justification, explicitly denying that indispensability makes normative truths true.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-003"
+      ],
+      "source_locators": [
+        "Journal§3pp860–861 (PDF8–9)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Color-blindness analogy is an argument, not a diagnosis"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-010",
+      "statement": "Enoch's instrumental indispensability includes sufficiently diminishing reason to engage; contrary evidence could revise his claim or lead him to settle for less.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-003"
+      ],
+      "source_locators": [
+        "Journal§3p860;§6pp864–865 (PDF8,12–13)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Does not establish non-optionality of the richer project"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-011",
+      "statement": "Enoch acknowledges needing, but not supplying, a criterion distinguishing legitimate Moorean reasoning or bootstrapping.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-003"
+      ],
+      "source_locators": [
+        "Journal§5pp863–864 (PDF11–12)"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "Joyce original uninspected; this is Enoch's concession"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-012",
+      "statement": "Railton's reforming naturalistic definitions are theoretical proposals whose empirical explanatory success remains a burden.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-002"
+      ],
+      "source_locators": [
+        "Journal204–205 (PDF43–44)"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-2",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct selected original passage inspected; version in coverage.json",
+      "inference_strength": "Attribution only; premise truth contested",
+      "limitations": [
+        "No empirical verification"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-013",
+      "statement": "Reason to believe normative truths, truth-making ground, duty, categorical reason and motivation are distinct burdens; inspected arguments do not establish consciousness as their unique ground.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [
+        "S-P2T07-001",
+        "S-P2T07-003",
+        "S-T15-001",
+        "S-T15-002"
+      ],
+      "source_locators": [
+        "Worker comparison: Enoch book3–5,12;reply860–861;Craig value/authority distinction;Railton201–205",
+        "Google images: pp.93,95n13,97; §5.1 pp.100–101,108–109 including n29"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-comparative-bridges",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Project-authored conditional analysis",
+      "inference_strength": "Conditional comparison",
+      "limitations": [
+        "Conditional project inference; no actuality or gate upgrade.",
+        "Categorical applicability, desire-grounding, universal reason-givingness, overriding priority and motivation must remain distinct.",
+        "Conceptual nonidentity does not establish metaphysical nonidentity; Enoch remains open to detailed naturalist reductions."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-014",
+      "statement": "Enoch’s chapter 3 opening targets general normative realism rather than moral realism. Its supplied concluding page makes the claimed reason defeasible and acknowledges that full support requires rejecting alternatives not completely addressed there.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Google images pp.50–52 and84"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct supplied image passages inspected; exact page hashes in coverage.json and google_page_checks.json",
+      "inference_strength": "Attribution only; premise truth and argumentative success remain contested",
+      "limitations": [
+        "Only opening, initial challenge and conclusion are available; pp.53–83 are missing.",
+        "This is not inspection of the developed indispensability or epistemological derivation; the p.52 final footnote continues into the gap."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-015",
+      "statement": "Enoch’s chapter 4 argues conditionally that moral objectivity plus robust general normative realism weaken familiar motivations for withholding robust moral realism: relevant metaphysical and epistemic objections generalize, and moral facts are proposed to add no new ontological kind. He explicitly denies entailment and allows unconsidered motivations for resisting the moral conclusion.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Google images chapter4 pp.85–99, especially §§4.1–4.2 pp.86–93, §4.4 pp.98–99 and §4.5 p.99"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct supplied image passages inspected; exact page hashes in coverage.json and google_page_checks.json",
+      "inference_strength": "Attribution only; premise truth and argumentative success remain contested",
+      "limitations": [
+        "Chapter 2/3 conclusions function as assumptions here; their truth is not established by the bridge.",
+        "The cumulative-cost counterexample is acknowledged on p.91; the proposed same-kind analogy is an argument, not a settled taxonomy.",
+        "Detailed replies to metaphysics, knowledge, disagreement and motivation are deferred to chapters6–9.",
+        "A local nonmoral expressivism is not ruled out by the conditional rejection of global expressivism (pp.98–99)."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-016",
+      "statement": "Enoch distinguishes a rule’s applicability despite indifference from an actual reason applying regardless of contingent motivation. He also distinguishes being grounded in desires from applying whatever an agent wants: in p.95 note13, a successful Schroeder-style account could meet the latter sense of categorical while remaining desire-grounded.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Google images §4.3 pp.93–95, especially p.95 notes12–13"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct supplied image passages inspected; exact page hashes in coverage.json and google_page_checks.json",
+      "inference_strength": "Attribution only; premise truth and argumentative success remain contested",
+      "limitations": [
+        "Schroeder’s original is not inspected; this is Enoch’s conditional characterization, including his doubt that the proposed account succeeds.",
+        "Moral/nonmoral and categorical/hypothetical divisions need not coincide.",
+        "This terminological concession does not accept a naturalist reduction or establish categorical moral reasons as actual."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-017",
+      "statement": "The moral-rationalist conclusion Enoch defends is weak: morality’s connection to reasons is not wholly contingent. He does not require morality itself to source the reasons, allows possible exceptional cases without reason to comply, and explicitly allows other considerations to override morality’s normative force.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Google images §4.3 pp.95–97, especially p.97 first two paragraphs and notes15–16"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct supplied image passages inspected; exact page hashes in coverage.json and google_page_checks.json",
+      "inference_strength": "Attribution only; premise truth and argumentative success remain contested",
+      "limitations": [
+        "No every-agent/every-case categorical compliance guarantee or overriding moral priority is established.",
+        "Chapter 2 alone remains compatible with an objectivist naturalist reduction; the challenge to a mixed account relies on both earlier arguments.",
+        "This differs from, but does not by itself refute, Railton’s specifically acknowledged limitation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-018",
+      "statement": "Enoch’s §5.1 distinguishes conceptual irreducibility from metaphysical irreducibility and distinguishes identity, reduction, grounding, constitution and type/token claims. His use of naturalism concerns the kind of facts invoked by ordinary sciences; it neither equates natural with physical nor stipulates that a natural reduction base is nonnormative. Mere supervenience is insufficient for his intended metaphysical claim.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Google images §5.1 pp.100–103, including p.101 notes1–3, p.102 notes4–8 and p.103 notes9–13"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct supplied image passages inspected; exact page hashes in coverage.json and google_page_checks.json",
+      "inference_strength": "Attribution only; premise truth and argumentative success remain contested",
+      "limitations": [
+        "He admits this framing is imprecise and that his argument is not conclusive against all naturalisms (p.101).",
+        "If naturalism is defined merely by normative-on-natural supervenience, he says he would count as a naturalist (p.101n2).",
+        "These are source distinctions, not an independently verified ontology or an inference from conceptual difference to property difference."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-019",
+      "statement": "Enoch’s §5.1 acknowledges that familiar reduction objections are inconclusive and his response to Schroeder does not prove irreducibility. It identifies an impasse over an initial normative-force intuition and distinguishes difficulty finding an anti-reduction argument from increased metaphysical plausibility of reduction.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Google images §5.1 pp.104–108, especially p.105, p.107 concluding paragraphs and p.108 methodological discussion"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct supplied image passages inspected; exact page hashes in coverage.json and google_page_checks.json",
+      "inference_strength": "Attribution only; premise truth and argumentative success remain contested",
+      "limitations": [
+        "Schroeder2005 and cited Moral Twin Earth/Smith/Fine/Parfit originals remain uninspected; only Enoch’s treatment is attributed.",
+        "The naturalist may reject the initial intuition; its role does not become truth merely through first-person commitment.",
+        "This narrows the positive account’s argumentative extent; it does not certify either reduction or irreducibility."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "claim_id": "CL-P2T07-020",
+      "statement": "Enoch remains open to abandoning his initial anti-reduction intuition for a sufficiently strong specific reduction. He credits naturalism’s parsimony advantage and, in p.109 note29, identifies token-level naturalist reduction without general reductive laws as a direction worth developing and assessing.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "source_locators": [
+        "Google images §5.1 p.104 and pp.108–109 through its ending and note29"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T07-Enoch-line",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct supplied image passages inspected; exact page hashes in coverage.json and google_page_checks.json",
+      "inference_strength": "Attribution only; premise truth and argumentative success remain contested",
+      "limitations": [
+        "Openness is not endorsement or proof of a successful reduction.",
+        "Note29 asks for details and answers to analogous philosophy-of-mind difficulties; no complete token theory is supplied.",
+        "§5.2 begins on p.109 but the full fictionalism/error-theory branch is not covered."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T07-001",
+      "name": "Enoch’s indispensability strategy: introduction, partial book text and direct author reply",
+      "position": "For justified belief in irreducible normative truth",
+      "premises": [
+        "Deliberation is rationally non-optional.",
+        "Normative truths and belief in them are instrumentally indispensable to that project."
+      ],
+      "bridge_principles": [
+        "Indispensability to an appropriate non-optional project can justify ontological commitment; explanatory indispensability is a related instance."
+      ],
+      "conclusion": "There is reason to believe irreducibly normative truths exist; a further moral bridge is needed.",
+      "source_ids": [
+        "S-P2T07-001",
+        "S-P2T07-003"
+      ],
+      "claim_ids": [
+        "CL-P2T07-003",
+        "CL-P2T07-004",
+        "CL-P2T07-010",
+        "CL-P2T07-014",
+        "CL-P2T07-019",
+        "CL-P2T07-020"
+      ],
+      "source_locators": [
+        "Book11–12;reply§3pp859–861",
+        "Google images pp.50–52/84; chapter4 and§5.1 limitations in A-P2T07-004/005"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Lenman's thin/thick dilemma challenges joint satisfaction of both premises.",
+      "strongest_reply": "Enoch distinguishes merited standards, first-person warrant and value-sensitive instrumental indispensability.",
+      "unresolved_issues": [
+        "Developed chapter3 pp.53–83, including epistemological defense, remain uninspected.",
+        "Chapter4 moral bridge and§5.1 now read; both are qualified and do not establish the missing derivation or premise truth.",
+        "Rejection of alternatives remains incomplete, explicitly at p.84 and§5.1."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "argument_id": "A-P2T07-002",
+      "name": "Lenman's schmeliberation countercase",
+      "position": "Against joint indispensability premises",
+      "premises": [
+        "Thin practical reflection uses scrutinized contingent concerns.",
+        "This activity admits success/error and deliberation-like phenomenology without robust truth.",
+        "Thickening it threatens non-optionality."
+      ],
+      "bridge_principles": [
+        "A sufficient alternative defeats indispensability."
+      ],
+      "conclusion": "Robust truths have not been shown indispensable to unavoidable deliberation.",
+      "source_ids": [
+        "S-P2T07-002"
+      ],
+      "claim_ids": [
+        "CL-P2T07-005",
+        "CL-P2T07-006"
+      ],
+      "source_locators": [
+        "Journal837–841"
+      ],
+      "dependency_argument_ids": [],
+      "opposes_argument_ids": [
+        "A-P2T07-001"
+      ],
+      "strongest_objection": "Standards and similarity may not supply the deserved allegiance claimed necessary.",
+      "strongest_reply": "Lenman regards stable concerns and critical reflection as sufficient without further ratification of the whole.",
+      "unresolved_issues": [
+        "Sufficiency of the thin project disputed.",
+        "Not every Humean or epistemic-normativity response inspected.",
+        "No empirical generalization from phenomenology."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "argument_id": "A-P2T07-003",
+      "name": "Enoch's direct reply to schmeliberation",
+      "position": "Defends remaining justificatory force",
+      "premises": [
+        "Choosing versus picking is not proved exhaustive.",
+        "Formal standards may lack merited allegiance.",
+        "Replacement may preserve behavior while diminishing project value.",
+        "Justificatory evidence can vary without relativizing truth."
+      ],
+      "bridge_principles": [
+        "A weaker replacement need not defeat the specified instrumental indispensability.",
+        "Phenomenology supplies claimed warrant, not truth-making."
+      ],
+      "conclusion": "Lenman's alternative does not by itself remove Enoch's claimed reason to believe.",
+      "source_ids": [
+        "S-P2T07-003"
+      ],
+      "claim_ids": [
+        "CL-P2T07-008",
+        "CL-P2T07-009",
+        "CL-P2T07-010"
+      ],
+      "source_locators": [
+        "§§3–4,6pp859–862,864–865"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T07-001"
+      ],
+      "opposes_argument_ids": [
+        "A-P2T07-002"
+      ],
+      "strongest_objection": "Deserved allegiance may restate the disputed demand; private commitment needs a truth-directed epistemic bridge.",
+      "strongest_reply": "Enoch invokes broader indispensability epistemology, permits premise error and distinguishes diminished projects from identical behavior.",
+      "unresolved_issues": [
+        "Developed chapter3 vindication on pp.53–83 remains absent; opening and final p.84 are now read.",
+        "Expressivism response expressly preliminary at862.",
+        "Moorean criterion unsupplied863–864.",
+        "Color-blindness analogy is not validation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "argument_id": "A-P2T07-004",
+      "name": "Enoch’s conditional moral bridge",
+      "position": "For extending justified general normative realism to robust moral realism, given moral objectivity",
+      "premises": [
+        "Assume chapter 2 has established moral objectivity.",
+        "Assume chapter3 has supplied justified robust general normative realism, after objections have been considered.",
+        "Common objections concern normativity generally; moral facts are proposed to be of the same relevant ontological kind.",
+        "The chapter 4 response argues for a non-wholly-contingent connection between morality and reasons, explicitly limited to a weak claim."
+      ],
+      "bridge_principles": [
+        "A disjunctive treatment of moral and other normative facts needs a rationale once shared objections and the proposed categorical-reason concern lose their force.",
+        "This is a defeasible motivation challenge, not entailment from the two antecedent conclusions."
+      ],
+      "conclusion": "On those assumptions, familiar alternatives to robust moral realism are under-motivated; other unconsidered motivations remain possible.",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "claim_ids": [
+        "CL-P2T07-003",
+        "CL-P2T07-015",
+        "CL-P2T07-016",
+        "CL-P2T07-017"
+      ],
+      "source_locators": [
+        "Google images chapter4 pp.85–99, especially90n2–3,91–93,95n13,97,99"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T07-001"
+      ],
+      "strongest_objection": "Shared objections can impose continuing costs, moral and other normativity may differ in relevant respects, and the antecedent chapter3 case has not been fully checked. Naturalist or expressivist alternatives may have further motivations.",
+      "strongest_reply": "Enoch contrasts accumulating costs with an objection defeated at the level of kind, and argues that moral objectivity requires normative privilege rather than mere etiquette. He expressly limits the result to a weak moral-reason link and an open-ended challenge.",
+      "unresolved_issues": [
+        "Antecedent objectivity and indispensability arguments not certified by this chapter’s reading",
+        "No guarantee of a reason in every case or overriding moral priority",
+        "Possible further rationale for a mixed or naturalist view; §5.1 remains open to successful reduction"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "argument_id": "A-P2T07-005",
+      "name": "Enoch’s qualified resistance to naturalist reduction",
+      "position": "Defeasible initial suspicion of reduction with openness to successful detailed proposals",
+      "premises": [
+        "From the deliberative standpoint, Enoch finds purely natural descriptions insufficient without normative background commitments.",
+        "Conceptual differences alone do not settle property identities, and a naturalist can claim the proposed base is itself normative.",
+        "Familiar a priori/a posteriori objections and the response to Schroeder are not a conclusive general irreducibility proof."
+      ],
+      "bridge_principles": [
+        "An initial intuition can bear defeasible weight without being unrevisable.",
+        "Specific reductions must be assessed by their details and theoretical virtues; inability to refute one is not itself metaphysical evidence for it."
+      ],
+      "conclusion": "Enoch retains suspicion but allows a strong specific, including token-level, reduction to overturn the initial commitment.",
+      "source_ids": [
+        "S-P2T07-001"
+      ],
+      "claim_ids": [
+        "CL-P2T07-018",
+        "CL-P2T07-019",
+        "CL-P2T07-020"
+      ],
+      "source_locators": [
+        "Google images §5.1 pp.100–109 including ending/note29"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T07-001"
+      ],
+      "strongest_objection": "The initial normative-force intuition may encode the disputed non-naturalism; the naturalist may accept concept difference while denying metaphysical difference.",
+      "strongest_reply": "Enoch acknowledges this impasse and treats it as a limit on the argument, not a victory; he asks for detailed reductions capable of earning their theoretical costs and explicitly permits revising his intuition.",
+      "unresolved_issues": [
+        "No separately inspected Schroeder original or full naturalism critic/reply chain",
+        "No supplied successful token-level theory; no refutation of all reductions",
+        "How the incomplete chapter3 indispensability case survives a reduction that preserves deliberation remains contested"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T07-001",
+      "title": "Taking Morality Seriously: A Defense of Robust Realism",
+      "authors": [
+        "David Enoch"
+      ],
+      "publication_date": "2011",
+      "url_or_identifier": "10.1093/acprof:oso/9780199579969.001.0001",
+      "source_type": "original_philosophical_book",
+      "access_status": "partial_original_inspected_selected_chapter4_and_section5_1_complete",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Chapter1printed1–15,PDF14–28;acknowledgmentsxi;contentsvii–viii",
+        "Google Books images: chapter3 pp.50–52/84; chapter4 pp.85–99 complete; §5.1 pp.100–109 through note29 complete"
+      ],
+      "provenance_notes": "Chapter1 supplied PagePlace preview retained with its original hash. Additional user-enabled Google Books images, exact page bytes/hash manifest in source_version_annex_02.json, independently read by this author. Book identity matches title/author/ISBN; first-printing byte equivalence is not established. New copy is a version of this same original, not independent evidence. Chapter3 pp.53–83 remain missing; page53 is a placeholder.",
+      "related_case_ids": [],
+      "version_manifests": [
+        "work/P2T07/source_version_annex_02.json"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "source_id": "S-P2T07-002",
+      "title": "Deliberation, schmeliberation: Enoch’s indispensability argument",
+      "authors": [
+        "James Lenman"
+      ],
+      "publication_date": "2014-04",
+      "url_or_identifier": "10.1007/s11098-013-0214-7",
+      "source_type": "original_philosophical_criticism",
+      "access_status": "full_original_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Published835–842,PDF1–8;especially837–841"
+      ],
+      "provenance_notes": "User-supplied published journal PDF; SHAd3e97d42558e35d51f230517031a2703ca7ee44ce8390675392e05b4d8071a02. Online12Oct2013,April2014issue. Inaccessible accepted manuscript not used.",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "source_id": "S-P2T07-003",
+      "title": "In defense of Taking Morality Seriously: reply to Manne, Sobel, Lenman, and Joyce",
+      "authors": [
+        "David Enoch"
+      ],
+      "publication_date": "2014-04",
+      "url_or_identifier": "10.1007/s11098-013-0216-5",
+      "source_type": "original_author_reply",
+      "access_status": "full_original_available_selected_sections_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Opening853;context858;§§3–4,6pp859–862,864–865;§5pp862–864;references865"
+      ],
+      "provenance_notes": "User-supplied13-page journal PDF; SHA4e4ce23cd529d1a4d64a0f3c8929413846b58cbddec477b7f93eff0a581e62db. Full Lenman response includes§§4,6 beyond§3. Full Manne/Sobel branch uninspected.",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "R-P2R07"
+    },
+    {
+      "source_id": "S-T15-001",
+      "title": "Reasons for Divine Commands",
+      "authors": [
+        "William Lane Craig",
+        "Kevin Harris"
+      ],
+      "publication_date": "2022-04-25",
+      "url_or_identifier": "https://www.reasonablefaith.org/media/reasonable-faith-podcast/reasons-for-divine-commands",
+      "source_type": "author-hosted podcast transcript",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Craig responses after the Shafer-Landau dilemma",
+        "Craig responses on values and obligations",
+        "Craig response beginning I have come to adopt this view myself; final notes"
+      ],
+      "provenance_notes": "Original Craig arguments and explicit endorsement inspected in official transcript, web turn364view1 lines155–222. Baggett, Huemer, Shafer-Landau and Robert Adams quoted/discussed there are not independently inspected. Audio alignment unverified. No empirical claims about cultures or believers accepted.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-002",
+      "title": "Moral Realism",
+      "authors": [
+        "Peter Railton"
+      ],
+      "publication_date": "1986-04",
+      "url_or_identifier": "https://r.jordan.im/download/philosophy/railton1986.pdf",
+      "source_type": "original journal article in third-party archive",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp163–170",
+        "pp173–177",
+        "pp189–191",
+        "pp200–205; footnotes"
+      ],
+      "provenance_notes": "The Philosophical Review95(2),163–207. JSTOR wrapper2185589. Full46-page PDF available; relevant argument and limitations inspected, visual checks175,189,201. Third-party PDF sha256 abdb8826d6d23f67c013ac88ca98f1f38bb18c1d9ff3aeb39e93ecd7ed77d4cc. PhilPapers archive403; archive navigation recovered exact PDF. Footer on printed190 differs from other footers; no content difference established, exact journal-hosted comparison remains open.",
+      "related_case_ids": []
+    }
+  ]
+}

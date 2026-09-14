@@ -1,0 +1,1195 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T10",
+  "report": "work/P2T10/report.md",
+  "counts": {
+    "claims": 27,
+    "arguments": 4,
+    "cases": 0,
+    "sources": 4
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T10-001",
+      "statement": "Gale and Pruss formulate W-PSR over propositions true in any possible world; its formal scope is broader than an actual-world-only informal gloss.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "pp463–464, §II, (3)–(7)"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Attribution; unrestricted W-PSR premise remains disputed.",
+      "limitations": [
+        "Formal and informal formulations must not be interchanged."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-002",
+      "statement": "In the Gale–Pruss framework, a maximal BCCF individuates a world; applying W-PSR to the actual BCCF yields an explanation in that same world through bivalence and compossibility.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "pp461–464, §II, (1)–(7)"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Conditional reconstruction, not proof that its metaphysical premises are true.",
+      "limitations": [
+        "Requires admissible maximal conjunctions, the stated containment identity and modal framework."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-003",
+      "statement": "Gale and Pruss characterize a necessary being as self-explaining through a successful ontological argument, even if that argument cannot be supplied.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "p462, §II, necessary-being definition; p470, taxicab objection"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Faithful attribution; necessity alone is not independently shown here to supply explanation.",
+      "limitations": [
+        "Existence in every possible world and explanatory adequacy are distinct commitments."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-004",
+      "statement": "Gale and Pruss infer personal explanation by treating personal and scientific explanations as exhaustive, while conceding that unconceived kinds of explanation may exist.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "pp464–465, (8)–(10)"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Attribution of an explicitly qualified premise; no endorsement of its truth.",
+      "limitations": [
+        "The exhaustiveness premise is not a measured inventory or an established conceptual truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-005",
+      "statement": "Their exclusion of scientific explanation depends on contingent laws or states occurring within the BCCF and on those constituents being unable to explain themselves; a contingent agent likewise cannot explain its own existence through its action.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "p465, (9), (11)–(12), fn7"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Argument attribution; does not independently exclude every impersonal foundation.",
+      "limitations": [
+        "Depends on the account of scientific explanation, explanatory distribution and noncircularity."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-006",
+      "statement": "Gale and Pruss distinguish necessary existence from contingent creative action, arguing that a necessary action would collapse possible worlds and that coercion would produce necessity or an explanatory circle.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "pp466–468, (13)–(15)"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Conditional attribution; does not equate necessity with temporal endurance or timelessness.",
+      "limitations": [
+        "Assumes genuine contingency, entailing coercion and their explanatory constraints."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-007",
+      "statement": "Their taxicab reply treats a necessary being’s libertarian free action as self-explaining and able to terminate explanation, with fullness of explanation relative to the questioner’s context.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "pp469–470, The taxicab objection"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Attribution; adequacy of this stopping point remains contested.",
+      "limitations": [
+        "The free-action exception is a substantive explanatory premise; further reasons can still be requested."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-008",
+      "statement": "Gale and Pruss report Quinn’s objection that a necessary impersonal source could produce the cosmos by blind indeterministic causation.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "p472, The nonpersonal God objection"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Verified attribution of a reported objection, not independent corroboration or a validated countermodel.",
+      "limitations": [
+        "Only the authors’ published quotation of correspondence was inspected; no independent Quinn original."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-009",
+      "statement": "In responding to that reported objection, Gale and Pruss allow a generic necessary powerful cause as a fallback, but defend personality by appealing to order and to a distinction between free and merely indeterministic action.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "p472, The nonpersonal God objection"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Attribution; neither the personal nor impersonal alternative is established.",
+      "limitations": [
+        "Their indeterministic self-explanation restriction and comparative explanation of order remain to be defended."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-010",
+      "statement": "The 1999 argument adds teleological premises for the creator’s qualities, while explicitly withholding omni-properties and acknowledging that actual benevolence needs theodicy and faith.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "p461, §I; pp468–469, (16)–(18); pp473–476"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Attribution of the authors’ limits; not an empirical finding of goodness.",
+      "limitations": [
+        "No physical fine-tuning model, preference measure, theodicy or posterior is validated here."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-011",
+      "statement": "The 1999 footnote records Gale and Pruss disagreeing about whether the possibility of gratuitous evil defeats an essentially perfect necessary God.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "p461, fn1"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Attribution of an explicit disagreement, not a resolution of it.",
+      "limitations": [
+        "Their joint paper does not imply agreement on every modal or theological premise."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-012",
+      "statement": "Oppy derives strong PSR from weak PSR under veridicality and dissectivity of explanation and normal modal reasoning, offering a Fitch-style route independent of maximal-world identification.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-002",
+          "locator": "§II, manuscript pp4–7, web L131–270; endnote3, L614–623"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Conditional argument attribution, not an unconditional logical theorem about every notion of explanation.",
+      "limitations": [
+        "The explanatory assumptions and their scope are substantive; later challenges were discovered but not inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-013",
+      "statement": "Oppy distinguishes dissectivity from agglomerativity and clarifies that existence of an explanation for a conjunction does not make the conjunction of two individual explanations an explanation of their joint obtaining.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-002",
+          "locator": "§III, manuscript pp8–9, L299–320; endnote4, p17, L627–638"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Attribution; does not refute the Hume–Edwards objection simply by changing logical direction.",
+      "limitations": [
+        "Existence-level closure and transfer of the same explanans must not be conflated."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-014",
+      "statement": "Oppy argues that rejecting W-PSR can be rational for non-theists with independent grounds for their beliefs, including after initially assenting without understanding its consequences.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-002",
+          "locator": "§III, manuscript pp9–10, L321–374"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Conditional epistemic attribution, not a proof that all non-theism is rational or theism false.",
+      "limitations": [
+        "The independent rational grounds are a condition of the argument, not demonstrated in this paper."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-015",
+      "statement": "Oppy distinguishes an explained counterpart or physical duplicate from the same world-complete fact; the former possibility does not by itself support Gale–Pruss W-PSR.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-002",
+          "locator": "§IV, manuscript pp10–14, L376–515"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Argument attribution; not proof that an actual totality lacks explanation.",
+      "limitations": [
+        "Uses the difference between physical universe and world-complete proposition."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-016",
+      "statement": "Oppy raises questions about abstract propositions and the distinction between BCF and BCCF but states that his main Fitch-style criticism does not depend on resolving those questions.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-002",
+          "locator": "§V, manuscript pp14–15, L517–566"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Attribution; no independent Cantorian or metaphysical resolution is supplied.",
+      "limitations": [
+        "The totality ontology remains a separate open issue."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-017",
+      "statement": "Lennox’s Ford analogy makes agent and mechanism compatible; the essay then separately presents lawlike sophistication and intelligibility as positive support for a creator.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-001",
+          "locator": "HTML L12–30, especially L26–29"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-LENNOX-ORDER",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Direct attribution; neither inference is automatically validated.",
+      "limitations": [
+        "Analogy compatibility and comparative support are distinct inferential steps."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-018",
+      "statement": "Lennox challenges naturalism’s warrant for reasoning and treats natural laws as regularities that alone do not exclude supernatural action.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-001",
+          "locator": "HTML L15–16; L60–68"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-LENNOX-ORDER",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Direct attribution; no empirical exclusion of natural processes or validation of a miracle.",
+      "limitations": [
+        "Historical quotations and resurrection assertions were read as context, not corroborated events."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-019",
+      "statement": "The selected modern route adds a modal explanation argument to the v1 PSR reconstruction, but its foundation-to-agency steps require additional explanatory premises and its attribute claims require further support.",
+      "claim_type": "inference",
+      "epistemic_scope": "Project conditional inference or derivative baseline scope",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "§II, (1)–(18), pp461–469"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Conditional project comparison based on frozen baseline and stated inspected passages.",
+      "inference_strength": "Inference map, conditional on disputed premises; no actuality upgrade.",
+      "limitations": [
+        "This is the project’s comparison; v1 Leibniz attribution is retained at Bennett-modernization scope."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-020",
+      "statement": "The v1 Hume and Leibniz claims remain derivative historical inputs: Cleanthes challenges Demea in Part IX, while Philo supplies other totality, analogy and mental-plan challenges.",
+      "claim_type": "inference",
+      "epistemic_scope": "Project conditional inference or derivative baseline scope",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-V1-INFERENCE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Conditional project comparison based on frozen baseline and stated inspected passages.",
+      "inference_strength": "Derivative scope statement, not a fresh historical source attribution.",
+      "limitations": [
+        "No new Hume or Leibniz original-language inspection; dialogue roles cannot be collapsed into Hume’s unqualified position."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-021",
+      "statement": "A necessary explanatory source does not alone establish a conscious bearer, unity, bodily independence, personal survival, timelessness, preserving purpose or moral authority.",
+      "claim_type": "inference",
+      "epistemic_scope": "Project conditional inference or derivative baseline scope",
+      "source_ids": [
+        "S-P2T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "Project inference audit; compare Gale–Pruss pp468–474 and frozen T10/T12"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-V1-INFERENCE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Conditional project comparison based on frozen baseline and stated inspected passages.",
+      "inference_strength": "Project inference boundary; all nine components remain unresolved.",
+      "limitations": [
+        "Each component needs its own bridge; absent proof of a rival does not prove its negation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-022",
+      "statement": "Lennox and Gale–Pruss appeals to order, agency and explanation share assumptions; their conjunction supplies no independent sample count or calibrated metaphysical likelihood.",
+      "claim_type": "inference",
+      "epistemic_scope": "Project conditional inference or derivative baseline scope",
+      "source_ids": [
+        "S-P2T10-001",
+        "S-T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-001",
+          "locator": "Gale–Pruss pp468–476; Lennox L12–30; frozen CL-T10-020"
+        },
+        {
+          "source_id": "S-T10-001",
+          "locator": "Gale–Pruss pp468–476; Lennox L12–30; frozen CL-T10-020"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-LENNOX-ORDER",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Conditional project comparison based on frozen baseline and stated inspected passages.",
+      "inference_strength": "Project dependence assessment; no quantitative posterior.",
+      "limitations": [
+        "Sources are philosophical arguments, not independent observed instances of creation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-023",
+      "statement": "In their 2002 reply, Gale and Pruss explicitly formulate weak and strong PSR for contingent propositions and accept the weak-to-strong deduction using distribution of explanation over conjunction.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-003",
+          "locator": "pp89–90, Oppy section and Pruss deduction"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Direct reply attribution only; truth and argumentative adequacy remain contested.",
+      "limitations": [
+        "This is a narrower quantifier domain than1999’s unrestricted formal statement; logical equivalence under shared assumptions is not continuing logical weakness."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-024",
+      "statement": "The reply defends W-PSR’s epistemic plausibility by denying that understanding requires grasping all consequences; it admits the stronger plausibility of W-PSR over materialism is not argued there.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-003",
+          "locator": "pp91–93, Oppy section"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Direct reply attribution only; truth and argumentative adequacy remain contested.",
+      "limitations": [
+        "Understanding some relevant implications and possessing independent rational grounds remain disputed; the reply does not settle comparative premise warrant."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-025",
+      "statement": "The reply preserves the goodness gap: evidence against benevolence does not alone exclude every necessary creator, and an explanation of a horrendous universe could fall short of God.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-003",
+          "locator": "pp89,92,97; contrast p99note6"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Direct reply attribution only; truth and argumentative adequacy remain contested.",
+      "limitations": [
+        "No goodness, theodicy, quantum hypothesis or full-theism conclusion is validated by this distinction."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-026",
+      "statement": "Against Davey and Clifton as presented in the reply, Gale and Pruss defend the BCCF and propose a restricted BCCF* fallback conditional on enough atomic facts and additional totality and explanation clauses.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-003",
+          "locator": "pp93–95; p99note7"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Direct reply attribution only; truth and argumentative adequacy remain contested.",
+      "limitations": [
+        "The original critic and Pruss2001 cardinality proof remain uninspected; a conditional sketch is not a demonstrated universal construction."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "claim_id": "CL-P2T10-027",
+      "statement": "The reply favors possible explanation over possible brute fact through background coherence and then explicitly treats a move from epistemic to logical possibility as reasonable after adequate inquiry.",
+      "claim_type": "philosophical_premise",
+      "epistemic_scope": "Attribution of an author’s argument or premise, not acceptance of premise truth",
+      "source_ids": [
+        "S-P2T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T10-003",
+          "locator": "pp95–97, competing intuitions and The epistemic argument"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T10-PSR-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute contingent totality; necessary impersonal foundation; personal foundation with further premises remain comparison options."
+      ],
+      "record_reliability": "Attribution checked directly at the stated version and locator; external premise truth unassessed.",
+      "inference_strength": "Direct reply attribution only; truth and argumentative adequacy remain contested.",
+      "limitations": [
+        "This modal warrant bridge is defeasible and contested, not a deduction from ignorance; apparent random outcomes are not validated unexplained events."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T10-001",
+      "name": "From possible explanation to actual explanation of the maximal contingent fact",
+      "position": "Selected Gale–Pruss modal PSR route",
+      "premises": [
+        "Admissible world-complete BCCFs, maximality, bivalence and compossibility.",
+        "W-PSR: every proposition true at any possible world can obtain with an explanation."
+      ],
+      "bridge_principles": [
+        "A world containing the complete actual BCCF must be the actual world.",
+        "Truth-preserving inference within that framework."
+      ],
+      "conclusion": "Conditionally, the actual BCCF has an actual explanation.",
+      "source_ids": [
+        "S-P2T10-001",
+        "S-P2T10-002",
+        "S-P2T10-003"
+      ],
+      "claim_ids": [
+        "CL-P2T10-001",
+        "CL-P2T10-002",
+        "CL-P2T10-012",
+        "CL-P2T10-014",
+        "CL-P2T10-015",
+        "CL-P2T10-016",
+        "CL-P2T10-019",
+        "CL-P2T10-023",
+        "CL-P2T10-024",
+        "CL-P2T10-026",
+        "CL-P2T10-027"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Oppy: universal W-PSR entails the strong principle under explanatory assumptions; weaker counterpart intuitions do not warrant the world-complete premise, and informed rational dissent can remain.",
+      "strongest_reply": "The actual2002 reply grants the deduction while defending epistemic plausibility, incomplete deductive understanding, and a preference for explanation over brute facts; it offers a conditional restricted BCCF* fallback (pp90–97).",
+      "unresolved_issues": [
+        "W-PSR warrant and changed contingent-proposition restriction",
+        "Admissibility of totality and explanatory distribution",
+        "Epistemic-to-logical possibility bridge",
+        "External cardinality proof and later objections uninspected"
+      ],
+      "opposing_argument_ids": [
+        "A-P2T10-003"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "argument_id": "A-P2T10-002",
+      "name": "From total explanation to a necessary free agent and its attributes",
+      "position": "Additional Gale–Pruss personal-explanation route",
+      "premises": [
+        "An actual totality explanation is available under A-P2T10-001.",
+        "Personal/scientific explanation exhausts the intelligible options.",
+        "Contingent explanantia cannot explain themselves, while a necessary being’s libertarian action can terminate explanation.",
+        "Genuine contingency rules out necessitating creative action."
+      ],
+      "bridge_principles": [
+        "Exclude scientific and contingent-agent explanations.",
+        "Treat necessary existence and contingent free action separately.",
+        "Add teleological evidence and further theodicy for power, intelligence and goodness."
+      ],
+      "conclusion": "Conditionally, a necessary free agent creates the actual universe; rich qualities require further arguments.",
+      "source_ids": [
+        "S-P2T10-001",
+        "S-P2T10-003"
+      ],
+      "claim_ids": [
+        "CL-P2T10-003",
+        "CL-P2T10-004",
+        "CL-P2T10-005",
+        "CL-P2T10-006",
+        "CL-P2T10-007",
+        "CL-P2T10-008",
+        "CL-P2T10-009",
+        "CL-P2T10-010",
+        "CL-P2T10-011",
+        "CL-P2T10-019",
+        "CL-P2T10-021",
+        "CL-P2T10-025"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T10-001"
+      ],
+      "strongest_objection": "The defender’s reported Quinn alternative is an impersonal indeterministic necessary source; the strongest project question is why libertarian self-explanation is sufficient when impersonal indeterminism is not, given context-sensitive explanatory fullness.",
+      "strongest_reply": "Gale and Pruss argue that only free action can be an indeterministic self-explainer, appeal to cosmic order, and offer a generic necessary powerful cause fallback (p472).",
+      "unresolved_issues": [
+        "Explanatory exhaustiveness and privileged stopping point",
+        "Necessity-to-explanation bridge",
+        "Comparison with impersonal source",
+        "Teleology, actual benevolence, unity and omni-properties",
+        "Reported correspondence is not separately inspected Quinn source"
+      ],
+      "opposing_argument_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "argument_id": "A-P2T10-003",
+      "name": "Weak-to-strong PSR and informed rejection",
+      "position": "Oppy’s selected direct counterargument",
+      "premises": [
+        "Explanation is veridical and dissective under the stated modal logic.",
+        "W-PSR applies to an obtaining conjunction that says a fact obtains and is unexplained.",
+        "Some non-theists have independently rational grounds that conflict with the conclusion."
+      ],
+      "bridge_principles": [
+        "Explaining the conjunction produces the conditional reductio.",
+        "Logical entailment does not settle which belief should be revised; initial assent may have been uninformed."
+      ],
+      "conclusion": "The advertised weakness advantage is not established by those premises; rational rejection can remain.",
+      "source_ids": [
+        "S-P2T10-002",
+        "S-P2T10-001",
+        "S-P2T10-003"
+      ],
+      "claim_ids": [
+        "CL-P2T10-012",
+        "CL-P2T10-013",
+        "CL-P2T10-014",
+        "CL-P2T10-015",
+        "CL-P2T10-016",
+        "CL-P2T10-023",
+        "CL-P2T10-024",
+        "CL-P2T10-025",
+        "CL-P2T10-027"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The2002 reply grants entailment but argues that incomplete deductive knowledge can coexist with adequate understanding, that evil does not defeat every necessary creator, and that W-PSR better coheres with inquiry (pp90–97).",
+      "strongest_reply": "Oppy conditions the objection on independent rational grounds and distinguishes modal intuition about a duplicate from the universal world-complete premise; he does not prove all non-theists possess the needed grounds.",
+      "unresolved_issues": [
+        "No independent validation of comparative epistemic premise warrant",
+        "Materialism plausibility ranking explicitly unargued in reply",
+        "Contingent restriction and explanatory distribution",
+        "Later Guigon and distribution/totality challenges not inspected"
+      ],
+      "opposing_argument_ids": [
+        "A-P2T10-001"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "argument_id": "A-P2T10-004",
+      "name": "Lennox’s compatibility and positive order argument",
+      "position": "Selected Lennox relevance, not a direct reply to Gale–Pruss or Oppy",
+      "premises": [
+        "Mechanism and agent can explain different aspects of an artifact.",
+        "The universe exhibits intelligibility and sophisticated lawlike order.",
+        "Such order and rational capacities are asserted to fit creative intelligence."
+      ],
+      "bridge_principles": [
+        "Compatibility removes one alleged incompatibility; it does not by itself favor agency.",
+        "Comparative support needs defensible expectations for personal and impersonal alternatives."
+      ],
+      "conclusion": "The essay supplies a compatible creator interpretation and a further positive abductive claim; its comparative strength remains unresolved.",
+      "source_ids": [
+        "S-T10-001",
+        "S-P2T10-001"
+      ],
+      "claim_ids": [
+        "CL-P2T10-017",
+        "CL-P2T10-018",
+        "CL-P2T10-019",
+        "CL-P2T10-021",
+        "CL-P2T10-022"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Artifact analogy and asserted creator preferences do not independently establish a cosmic designer or show natural cognition unreliable.",
+      "strongest_reply": "Lennox explicitly offers positive intelligibility and sophistication reasons, not only compatibility; excluding all non-scientific explanation would itself need argument.",
+      "unresolved_issues": [
+        "Comparative preference and model premises",
+        "History of science and miracle assertions uncorroborated",
+        "Shared order assumptions with the PSR argument’s attribute stage"
+      ],
+      "opposing_argument_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T10-001",
+      "title": "A new cosmological argument",
+      "authors": [
+        "Richard M. Gale",
+        "Alexander R. Pruss"
+      ],
+      "publication_date": "1999",
+      "url_or_identifier": "10.1017/S0034412599005004",
+      "source_type": "primary_philosophical_argument",
+      "access_status": "full_selected_text_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "461,§I,fn1",
+        "461–464,§II,(1)–(7)",
+        "464–466,(8)–(13)",
+        "466–468,(14)–(15)",
+        "468–469,(16)–(18)",
+        "469–470,agglomerative/taxicab",
+        "470–472,unintelligibility/nonpersonal",
+        "472–474,gapobjection",
+        "474–476,WPSRobjection"
+      ],
+      "provenance_notes": {
+        "inspection_id": "I-P2T10-003",
+        "source_id": "S-P2T10-001",
+        "version": "Cambridge print-layout scan35(1999)461–476, 17PDFpages including wrapper; downloaded2013-02-01 per wrapper; mirroredPDF SHA2165f1e87b02598274ccd49848a6657e2735257e8d87de551b2bf635b50e398c",
+        "read_extent": "Entire article pp461–476 including allfootnotes, extraction; visually checked pp461,464,468 from actual local rendered images. Publishedpage=PDFpage+459 for PDF2–17; PDF1 wrapper.",
+        "version_caveat": "Wrapper legacy metadata online2000-09-08/DOI null differs currentpublisher1999-12-01/verifiedDOI; report1999issue, preserve both online labels not resolve silently.",
+        "exact_support": [
+          [
+            "461,§I,fn1",
+            "Explicit omni-property limits and Gale/Pruss disagreement about gratuitous-evil possibility."
+          ],
+          [
+            "461–464,§II,(1)–(7)",
+            "BCF/BCCF,maximalworlds,bivalence,WPSRuniversalworldscope; actualexplanation by worldidentity."
+          ],
+          [
+            "464–466,(8)–(13)",
+            "Personal/scientific exhaustiveness called conceptual yet admits unknown types; scientificexplanation excluded by contingentselfexplanation; contingentagent cannotexplainownexistence."
+          ],
+          [
+            "466–468,(14)–(15)",
+            "Necessarybeing distinguishedcontingentact; assumesrealcontingency,coercionargumentforfreeact."
+          ],
+          [
+            "468–469,(16)–(18)",
+            "Teleologyadditionalforpowerintelligencegoodness; explicitglobalcase."
+          ],
+          [
+            "469–470,agglomerative/taxicab",
+            "Rejectpairwise⇒whole; freeact ofnecessarybeing positedselfexplaining underlibertariantheory; full explanationcontextrelative."
+          ],
+          [
+            "470–472,unintelligibility/nonpersonal",
+            "Scientificcriteria notlegislative; necessaryagentcoherenceburden; Quinnimpersonalindeterministiccountermodel as reportedcorrespondence, notindependentlyreopenedQuinnoriginal."
+          ],
+          [
+            "472–474,gapobjection",
+            "Genericpowerfulcausefallback; personalprivilege/freeactselfexplanation disputed; unityviaorder/parsimony; actualbenevolencevulnerable, requires theodicy/faith."
+          ],
+          [
+            "474–476,WPSRobjection",
+            "Historicalpremiseacceptance, S5contrast, weakerpremiseadvantage asserted, noquantifiedposterior justified."
+          ]
+        ]
+      },
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "source_id": "S-P2T10-002",
+      "title": "On ‘A new cosmological argument’",
+      "authors": [
+        "Graham Oppy"
+      ],
+      "publication_date": "2000",
+      "url_or_identifier": "10.1017/S0034412500005308",
+      "source_type": "primary_philosophical_argument",
+      "access_status": "full_selected_text_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "§I,ms1–3,L40–125",
+        "§II,ms4–7,L131–270",
+        "§III,ms7–10,L272–374",
+        "§IV,ms10–14,L376–515",
+        "§V,ms14–15,L517–566",
+        "Endnotes1–5,ms15–17,L568–645"
+      ],
+      "provenance_notes": {
+        "inspection_id": "I-P2T10-001",
+        "source_id": "S-P2T10-002",
+        "version": "Author-uploaded manuscript as ResearchGate rendered text, 2016-03-14 upload; internal pages1–17; final published345–353 NOT collated",
+        "first_inspection": "After selection freeze; turn179view1",
+        "read_extent": "Entire substantive §§I–V plus endnotes1–5, web lines40–645. Initial body/endnote1–2 in oppy_fulltext_web.json; remaining endnotes in oppy_endnotes_web.json. No actual PDF binary or visual manuscript inspection.",
+        "exact_support": [
+          [
+            "§I,ms1–3,L40–125",
+            "Restates framework/proof; explicitly does not address further agency argument."
+          ],
+          [
+            "§II,ms4–7,L131–270",
+            "WPSR entails SPSR under veridicality/dissectivity; Fitch route not dependent on identifying worlds; Pruss parallel route acknowledged."
+          ],
+          [
+            "§III,ms7–10,L272–374",
+            "Rational coherence objection conditioned on non-theist's independent grounds, not a theorem of God's nonexistence; distinguishes agglomerativity from dissectivity."
+          ],
+          [
+            "§IV,ms10–14,L376–515",
+            "Universal world-complete claim stronger than counterpart/physical duplicate possibility; informational premise acceptance may rationally be withdrawn."
+          ],
+          [
+            "§V,ms14–15,L517–566",
+            "Abstract proposition/BCCF questions not needed for Fitch critique."
+          ],
+          [
+            "Endnotes1–5,ms15–17,L568–645",
+            "Quantifier scope; modal theorem; explanation-existence vs same-explanans agglomerativity distinction; historical Fitch citation as printed not independently verified."
+          ]
+        ]
+      },
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "source_id": "S-P2T10-003",
+      "title": "A response to Oppy, and to Davey and Clifton",
+      "authors": [
+        "Richard M. Gale",
+        "Alexander R. Pruss"
+      ],
+      "publication_date": "2002-03",
+      "url_or_identifier": "10.1017/S0034412501005923",
+      "source_type": "primary_philosophical_reply",
+      "access_status": "full_selected_version_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "pp89–90, opening and Oppy section",
+        "pp90–92, Pruss deduction and understanding discussion",
+        "pp92–93, independent grounds and ontology",
+        "pp93–95, Davey and Clifton section",
+        "pp95–97, competing intuitions and epistemic argument",
+        "pp97–98, parody and essentialism",
+        "pp98–99, notes1–7"
+      ],
+      "provenance_notes": {
+        "inspection_id": "I-P2T10-004",
+        "source_id": "S-P2T10-003",
+        "version": "User supplied JSTOR print-layout PDF; Religious Studies38(1)(2002):89–99",
+        "original_path": "state/input_snapshots/user_sources/Gale_Pruss_Response_to_Oppy_Davey_Clifton_2002_user_supplied.pdf",
+        "original_sha256": "26bdab89df0d55f72890c6a283a59edb92ec372b6acec718b6dcee02b8d444f5",
+        "read_extent": "Entire printed article89–99 and all notes1–7, PDF2–12; PDF1 wrapper. Text independently read and printed89,90,91,96,97,98,99 visually checked.",
+        "page_mapping": "Printed page = PDF page +87 for PDF2–12; wrapper is PDF1.",
+        "exact_support": [
+          [
+            "pp89–90, opening and Oppy section",
+            "Reply acknowledges W-PSR to S-PSR deduction and states both for contingent propositions."
+          ],
+          [
+            "pp90–92, Pruss deduction and understanding discussion",
+            "Distributivity explicit; understanding need not include every consequence; epistemic circumstances matter."
+          ],
+          [
+            "pp92–93, independent grounds and ontology",
+            "Evil challenges goodness rather than every necessary creator; claimed greater W-PSR plausibility than materialism/nominalism not argued here; atomicity contextual."
+          ],
+          [
+            "pp93–95, Davey and Clifton section",
+            "Rejects special self-reference conjunction; BCCF* fallback assumes enough atomic facts and totality/explanation clauses, not a completed general construction."
+          ],
+          [
+            "pp95–97, competing intuitions and epistemic argument",
+            "Explanation-seeking/verification/resistance considerations; explicit defeasible move from epistemic to logical possibility; God absence need not mean explanation absence."
+          ],
+          [
+            "pp97–98, parody and essentialism",
+            "Authors assert disanalogies with true belief and scientific essentialism; DC original not independently read."
+          ],
+          [
+            "pp98–99, notes1–7",
+            "Actual targets and references; quantum compatibility argument; cardinality argument dependent on Pruss2001."
+          ]
+        ],
+        "version_limits": [
+          "No correction of printed wording silently substituted. p91 prints a necessary-possible antecedent where its S5 discussion otherwise concerns possible necessity; p97 repeats actual explanation in both positions of one prose comparison.",
+          "OCR/extraction p96–97 v is visually verified as implication sign, not disjunction.",
+          "A proposed formal BCCF* fallback and outside cardinality citation are not independent mathematical validation."
+        ]
+      },
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R10"
+    },
+    {
+      "source_id": "S-T10-001",
+      "title": "Science and Faith: Friendly Allies, Not Hostile Enemies",
+      "authors": [
+        "John Lennox"
+      ],
+      "publication_date": "2015-12-06",
+      "url_or_identifier": "https://www.cslewisinstitute.org/resources/science-and-faith-friendly-allies-not-hostile-enemies/",
+      "source_type": "original authored essay",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Opening paragraphs on intelligibility",
+        "Paragraphs beginning Newton could see; God no more conflicts; The existence of mechanisms",
+        "Paragraph beginning The laws of nature describe",
+        "Notes 1–4"
+      ],
+      "provenance_notes": "Full HTML accessible. Direct supplied plan lead. Christian apologetic venue. Quoted historical statements, science-history claims and resurrection case not independently audited.",
+      "related_case_ids": [],
+      "decisive": true
+    }
+  ]
+}

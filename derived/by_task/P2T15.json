@@ -1,0 +1,1366 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T15",
+  "report": "work/P2T15/report.md",
+  "counts": {
+    "claims": 34,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 10
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T15-001",
+      "statement": "Lam’s current report bears an October11,2011 publication label and April7,2014 update; its present wording is not an authenticated2011 snapshot.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-P2T15-003"
+      ],
+      "source_locators": [
+        "Current local L0011–38; current_web_date_metadata.json"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Earliest located publication label in bounded search, not proven earliest disclosure.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-002",
+      "statement": "The current Skeptiko154 transcript contains early-book planning and approximately100pages/two-month writing testimony; its November22,2011 date comes from archive search metadata.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-P2T15-002"
+      ],
+      "source_locators": [
+        "Local L0048–60,0120–124; Q003 occurrence4 and Q007"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "No dated original draft, historical webpage or audio authentication.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-003",
+      "statement": "The current Skeptiko transcript tentatively locates faces and discusses recovery; its full text contains no identified photograph-recognition account.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-P2T15-002"
+      ],
+      "source_locators": [
+        "Local L0064–81; complete L0021–124"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "This bounded textual absence does not establish absence from other early disclosures.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-004",
+      "statement": "In the memoir Alexander expressly says he reconstructed hospital events from others because he remembers none of that week’s ordinary events.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "2012ebook ch1 PDF21; ch3 PDF29; acknowledgments176–178"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Dialogue is published reconstruction; family editing and writing/editorial assistance acknowledged, not independent witness transcripts.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-005",
+      "statement": "The memoir reports a six-week writing period following advice around November26,2008 to record memories before comparison; current page adds more than20000words.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-006",
+        "S-T06-005"
+      ],
+      "source_locators": [
+        "2012ebook ch27 PDF132–133,ch29 PDF138; currentpage L15–16"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "The contemporaneous manuscript, dates, revisions and compliance with this advice are unavailable.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-006",
+      "statement": "The memoir’s developed nonbrain argument uses claimed global cortical inactivity, ultra-reality and continued subjectivity to infer survival and a loving creator.",
+      "claim_type": "attributed_inference",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "Prologue PDF13–15; ch28 PDF135–136; ch31 PDF148–150; ch33 PDF155–163"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "These are Alexander’s premises and interpretation; neither credentials nor felt certainty validates them.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-007",
+      "statement": "AppendixB presents nine alternative hypotheses and rejects them principally using claimed cortical incapacity and phenomenological intricacy.",
+      "claim_type": "attributed_argument",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "AppendixB PDF182–184 items1–9"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Not nine case-specific measured exclusions; invoked neuroscience originals and comparison experiences not independently inspected here.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-008",
+      "statement": "AppendixB item6 explicitly says full-thickness destruction is unnecessary for its functional-disruption argument; item5 calls preservation unlikely.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "AppendixB PDF183–184 items5–6; PDF184 visually checked"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "This cannot independently confirm the subtitle claim of demonstrated full-thickness destruction across eight lobes.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-009",
+      "statement": "The memoir allows deeper housekeeping function and argues for neocortical nonfunction; it does not report an independently measured absence of all brain activity.",
+      "claim_type": "attributed_inference",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "ch29 PDF139–141; ch21 PDF111; AppendixB PDF183–184"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "The no-EEG statement in the clinical paper remains decisive measurement limitation; physiological assertions not clinical guidance.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-010",
+      "statement": "Wade’s signed AppendixA attests acute E.coli meningitis, prompt antibiotics, coma/ventilation, day7 awakening/weaning and remarkable recovery.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T15-004"
+      ],
+      "source_locators": [
+        "2012ebook AppendixA complete PDF180; heading/signature visually checked"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Treating-physician statement separately authored, but not raw chart or a certification of experience timing/cortical silence.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-011",
+      "statement": "Wade gives incidence and mortality figures, including over97% mortality after prolonged coma, without presenting source denominators or a calculation model.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-P2T15-004"
+      ],
+      "source_locators": [
+        "AppendixA PDF180 paragraphs1–2"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "No numerical survival likelihood, miracle probability or metaphysical posterior follows; later citation repeats this statement.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-012",
+      "statement": "The2018 external reviewers report severe meningitis, admission GCS11, subsequent low scores, sedation and noEEG.",
+      "claim_type": "reported_clinical_measurement",
+      "source_ids": [
+        "S-T06-002"
+      ],
+      "source_locators": [
+        "Printed744–746 Case Report/Discussion"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Published review of original charts is stronger documentation than memoir alone but is not project inspection of those charts.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-013",
+      "statement": "The2018 report places extubation on day6 and improvement on day7; memoir/Wade/current page place awakening and weaning on day7.",
+      "claim_type": "documentary_comparison",
+      "source_ids": [
+        "S-T06-002",
+        "S-T06-006",
+        "S-P2T15-004",
+        "S-T06-005"
+      ],
+      "source_locators": [
+        "2018p745; ebook ch23 PDF116–118; Wade PDF180; currentpage L8–13"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Date conventions and original chart times unavailable; preserve rather than reconcile by invention.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-014",
+      "statement": "The2018 paper reports day9 disclosure, retrospective corroboration of praying visitors reportedly present on day5, and an inferred days1–5 interval.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-002"
+      ],
+      "source_locators": [
+        "Printed745 paragraph beginning On hospital day9"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "No original interview dates/content or validated exclusion of ordinary acquisition; inference does not time-lock the whole narrative.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-015",
+      "statement": "The memoir identifies its principal temporal anchors as Reintjes and six faces, explicitly calling other simultaneity conjectural.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "ch31 PDF149; ch16 PDF92–93; ch22 PDF113–114"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "A source’s own qualification; no independent clinical time lock is supplied.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-016",
+      "statement": "The memoir retrospectively distinguishes Michael/Page prayer imagery, six later faces and Reintjes’s absent-person role.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "ch20 PDF107–108; ch22 PDF113–114; ch16 PDF92–93"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Do not identify these automatically with the clinical paper’s unnamed day5 praying visitors or combine into one corroborated opportunity intersection.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-017",
+      "statement": "The memoir reports knowledge of the birth sister’s death in2000 and family reunion in2007, before the2008 illness.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "ch10 PDF60–61; ch11 PDF66,70–71"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Knowing the death differs from recognizing a photograph; memoir is retrospective autobiography.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-018",
+      "statement": "The memoir places photo receipt four months after leaving hospital, initial familiarity, and recognition the following morning during Kübler-Ross reading.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "ch35 PDF169,171–173"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "No blinded image comparison, original pre-photo description or independently dated2009 document; current supplied copy is2012text in2023conversion.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-019",
+      "statement": "The memoir describes the guide with blue eyes and golden-brown hair, but this publication postdates the reported photo episode.",
+      "claim_type": "documentary_comparison",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "ch7 PDF45–47; ch35 PDF169–173"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "A2012printed description is not a dated pre-recognition description. Embedded poem and quoted Kübler-Ross episode remain mediated context, not separate inspected originals.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-020",
+      "statement": "Mays reports White’s2013 memory of a prior description and an introduced photograph; this is retrospective unblinded corroborative testimony.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-004"
+      ],
+      "source_locators": [
+        "Printed90–91, especially White interviews August5/10,2013"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Original interviews and original dated description unavailable; partial family-circle dependence retained.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-021",
+      "statement": "Dittrich challenges the inactive-brain premise with Potter’s reported sedation and responsiveness account.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-003"
+      ],
+      "source_locators": [
+        "Current local L0145–172"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Original tape/chart not inspected; clinical causation is disputed rather than established by journalism.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-022",
+      "statement": "Mays directly replies to Dittrich, distinguishing infection and sedation and printing an attributed Potter objection via family/publisher.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-004"
+      ],
+      "source_locators": [
+        "Printed65–68,72–78, especially75/77"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "He reports unanswered calls and statement removal at Potter’s request; no independently authenticated retraction.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-023",
+      "statement": "The2018 authors explicitly leave infection’s and sedation’s relative contributions undetermined while arguing against solely drug-induced impairment.",
+      "claim_type": "attributed_inference",
+      "source_ids": [
+        "S-T06-002"
+      ],
+      "source_locators": [
+        "Printed746 Discussion"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "This neither licenses wholesale drug-only dismissal nor establishes total neural inactivity.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-024",
+      "statement": "The inspected Mays reprint bears Winter2016 and contains2017 internal references plus November2017 PDFmetadata.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-T06-004"
+      ],
+      "source_locators": [
+        "Printed67–68,86,93; pdf_version_freeze.json"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Not authenticated early2016wording; initial2013 versions and repository variants not collated.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-025",
+      "statement": "Mays uses later family recollections to change rainbow timing and pre-intubation shout placement; the original memoir order differs.",
+      "claim_type": "documentary_comparison",
+      "source_ids": [
+        "S-T06-004",
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "Mays69–71; ebook ch3 PDF28–29 and ch21 PDF110"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Source discrepancy preserved; offered2008email, weather records and original interviews not inspected. Mays70 still says morning after1p.m. account.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-026",
+      "statement": "The current author page includes a recent medical-record-review summary and claimed treatment response; it is not verified as the2012AANS text.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-T06-005"
+      ],
+      "source_locators": [
+        "Frozen current response L8–16,23–30"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "No dated version history or identity of all revisions; linked/cited material is not additional independent measurement.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-027",
+      "statement": "The memoir explicitly rules out the suspected ultraresistant Israeli strain after earlier describing it as a possibility.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "ch8 PDF49–50; ch17 PDF95"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "The current author-page illustration atL4–5 alone must not be promoted to confirmed resistance; underlying microbiology not newly verified.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-028",
+      "statement": "The subtitle text describes proposed brain-death assessment, an antibiotic stop and later home antibiotics; it does not record a completed brain-death diagnosis.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "32:09–32:59;1:23:33–1:23:48; selectedcuewindows"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Audio/date unverified. Memoir PDF110–111 proposes discussing termination and PDF132 describes homeIV; no documented stop/restart schedule.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-029",
+      "statement": "Memoir, current transcript and subtitle distinguish confused recovery from the remembered vivid experience.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T06-006",
+        "S-P2T15-002",
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "ebook ch24–26 PDF120–130; SkeptikoL0068–81; SRT1:10:42–1:12:27"
+      ],
+      "case_ids": [
+        "C-T06-002"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Phenomenological contrast does not identify mechanism. Recovery episode remains C-T06-002, not an independent NDE.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-030",
+      "statement": "Clinical timing/quantity comparisons remain unresolved: initialLP glucose1 in2018 versus second/third-day in interview and third-day in current page; admissionGCS11 versus memoir/Mays8.",
+      "claim_type": "documentary_comparison",
+      "source_ids": [
+        "S-T06-002",
+        "S-P2T15-002",
+        "S-T06-005",
+        "S-T06-006",
+        "S-T06-004"
+      ],
+      "source_locators": [
+        "2018p744; SkeptikoL0031; currentpageL6; ebookch4PDF31; Mays73"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Could reflect distinct assessments or retrospective error; original timestamps are required. No silent numerical harmonization.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-031",
+      "statement": "The supplied ebook discloses changed names and acknowledges family editing plus Tompkins’s writing/editorial contribution.",
+      "claim_type": "documentary_observation",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "CopyrightPDF210; acknowledgments176–178; explicitly pseudonymous cases ch30PDF143/ch31PDF150"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Do not assume every name changed or that particular witnesses are pseudonyms; compare identity roles cautiously and do not count repeated dialogue as independent records.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-032",
+      "statement": "The combined documentation supports richer attributions but does not independently fix all recalled stages to an interval excluding relevant ordinary acquisition.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T06-002",
+        "S-T06-006",
+        "S-T06-004",
+        "S-P2T15-004"
+      ],
+      "source_locators": [
+        "2018p745–746; ebookPDF149,180,182–184; Mays88–91"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [
+        "CL-P2T15-010",
+        "CL-P2T15-012",
+        "CL-P2T15-014",
+        "CL-P2T15-015",
+        "CL-P2T15-016",
+        "CL-P2T15-020",
+        "CL-P2T15-023"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Audit inference, not a source quote; incomplete evidence is not proof that corroboration does not exist.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-033",
+      "statement": "Love, timelessness, universality, healing and quantum illustrations in the memoir remain interpretations rather than independently validated component conclusions.",
+      "claim_type": "attributed_inference",
+      "source_ids": [
+        "S-T06-006"
+      ],
+      "source_locators": [
+        "ch9PDF52–55;ch12PDF73–77;ch15PDF86–90;ch33PDF155–163;endnote187"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "No physics, treatment-efficacy, moral-authority or numerical-identity proof; all12gates withheld. Moorjani is listedPDF191, not independently read here.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "claim_id": "CL-P2T15-034",
+      "statement": "The inspected memoir underworld initially considers a brain-based interpretation and later questions it, whereas the current interview/SRT still allow that limited phase.",
+      "claim_type": "documentary_comparison",
+      "source_ids": [
+        "S-T06-006",
+        "S-P2T15-002",
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "ebookch5PDF35–37; SkeptikoL0043; SRT36:24–36:38"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different retrospective stages, ordinary information or reconstruction remain possible; no case-specific mechanism is diagnosed."
+      ],
+      "record_reliability": "supported_attribution_in_exact_inspected_version",
+      "inference_strength": "unresolved_for_external_event_or_metaphysical_conclusion",
+      "limitations": [
+        "Different source wording preserved; subjective clarity is not sufficient to settle cause.",
+        "Source assertions are distinguished from measured facts; shared case and reporting chain counted once."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T15-001",
+      "name": "Alexander’s conditional cortical-exclusion and veridical-detail argument",
+      "position": "Strongest developed defender, reconstructed without endorsing premises",
+      "premises": [
+        "Rich structured experience was remembered.",
+        "Severe illness and alleged cortical incapacity are offered to exclude brain production.",
+        "Specific faces and later photo recognition are offered as corroboration."
+      ],
+      "bridge_principles": [
+        "Accurate retrospective placement coincides with independently measured exclusion of the processes required by the targeted model.",
+        "Relevant information was unavailable through ordinary routes."
+      ],
+      "conclusion": "Conditional pressure on a specified brain-production account; unconditional survival/creator conclusion not established.",
+      "source_ids": [
+        "S-T06-006",
+        "S-P2T15-004",
+        "S-T06-002",
+        "S-T06-004"
+      ],
+      "claim_ids": [
+        "CL-P2T15-006",
+        "CL-P2T15-007",
+        "CL-P2T15-008",
+        "CL-P2T15-010",
+        "CL-P2T15-012",
+        "CL-P2T15-014",
+        "CL-P2T15-015",
+        "CL-P2T15-016",
+        "CL-P2T15-017",
+        "CL-P2T15-018",
+        "CL-P2T15-019",
+        "CL-P2T15-020"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A-P2T15-002: timing, residual/recovering function and information-access bridges are unverified.",
+      "strongest_reply": "AppendixB and Mays appeal to severity, elaborate interactive recall, recovery phenomenological contrast and corroborative testimony; these deserve inspection.",
+      "unresolved_issues": [
+        "No continuous neural measurement; no whole-experience time lock; no blinded pre-photo record.",
+        "Even brain independence would not establish timelessness, same-person survival, universal ground or perfect goodness."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "argument_id": "A-P2T15-002",
+      "name": "Underdetermination of cause and time",
+      "position": "Serious direct criticism plus author audit of evidence limits",
+      "premises": [
+        "Dittrich reports responsiveness/sedation; underlying interview disputed.",
+        "The clinical reviewers cannot partition illness and drug effects.",
+        "Memoir itself limits most temporal simultaneity to conjecture."
+      ],
+      "bridge_principles": [
+        "Excluding a mechanism requires relevant synchronized evidence; inability to provide one settled ordinary mechanism does not establish another."
+      ],
+      "conclusion": "Specific ordinary and nonordinary causes remain underdetermined.",
+      "source_ids": [
+        "S-T06-003",
+        "S-T06-002",
+        "S-T06-006"
+      ],
+      "claim_ids": [
+        "CL-P2T15-012",
+        "CL-P2T15-014",
+        "CL-P2T15-015",
+        "CL-P2T15-021",
+        "CL-P2T15-023",
+        "CL-P2T15-029",
+        "CL-P2T15-030",
+        "CL-P2T15-032"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A-P2T15-001: exceptionally severe impairment and matching details might challenge ordinary production if independently established.",
+      "strongest_reply": "Retain those positive reports, distinguish absence of accessible evidence from evidence of absence, and state exactly which timing/function/acquisition tests remain unmet.",
+      "unresolved_issues": [
+        "No diagnosis of hallucination/fraud from this audit.",
+        "Other critic chains, original tapes/charts and historical webpage snapshots uninspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    },
+    {
+      "argument_id": "A-P2T15-003",
+      "name": "Mays’s actual reply to a solely pharmacological account",
+      "position": "Narrow direct reply with later clinical comparison",
+      "premises": [
+        "Mays rejects sedation alone and cites Wade plus attributed Potter context.",
+        "Memoir acknowledges both illness and sedative use.",
+        "Clinical review reports pre-sedation impairment but uncertain later mixture."
+      ],
+      "bridge_principles": [
+        "Illness and treatment may jointly affect responsiveness; contextual journalism cannot by itself settle physiology."
+      ],
+      "conclusion": "Drug-only dismissal is unsupported by this packet; rejecting it does not prove a cortex-free experience.",
+      "source_ids": [
+        "S-T06-004",
+        "S-T06-003",
+        "S-T06-002",
+        "S-P2T15-004",
+        "S-T06-006"
+      ],
+      "claim_ids": [
+        "CL-P2T15-010",
+        "CL-P2T15-011",
+        "CL-P2T15-012",
+        "CL-P2T15-021",
+        "CL-P2T15-022",
+        "CL-P2T15-023",
+        "CL-P2T15-024",
+        "CL-P2T15-025"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Potter statement is mediated, removed at request, and unsupported by original tape; memoir timing/clinical figures differ.",
+      "strongest_reply": "Wade’s separately signed account and published record-review account strengthen illness attribution but retain the causal/timing limits.",
+      "unresolved_issues": [
+        "No wholesale validation of Mays’s final metaphysical assurance.",
+        "Mays79–84 fully read as rhetoric/career context; original video/legal materials not authenticated."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R15"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T15-001",
+      "title": "My Experience in Coma",
+      "authors": [
+        "Eben Alexander III"
+      ],
+      "publication_date": "2012",
+      "url_or_identifier": "http://www.aansneurosurgeon.org/210212/6/1611",
+      "source_type": "original_account_or_disclosure",
+      "access_status": "exact_original_inaccessible",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [],
+      "provenance_notes": "Eben Alexander III; AANS Neurosurgeon 21(2), 2012; exact original archived article, not current author webpage; attribution only, not automatic event verification.",
+      "related_case_ids": [
+        "C-T06-001"
+      ],
+      "version_reinspection_provenance": [],
+      "proposal_operation": "source_version_annex; root deduplicates and preserves historical coverage",
+      "review_status": "accepted",
+      "doi": null,
+      "review_id": "P2R15"
+    },
+    {
+      "source_id": "S-P2T15-002",
+      "title": "Neurosurgeon Dr. Eben Alexander’s Near-Death Experience Defies Medical Model of Consciousness",
+      "authors": [
+        "Alex Tsakiris",
+        "Eben Alexander"
+      ],
+      "publication_date": "2011-11-22 archive search metadata only",
+      "url_or_identifier": "https://skeptiko.com/154-neurosurgeon-dr-eben-alexander-near-death-experience/",
+      "source_type": "original_account_or_disclosure",
+      "access_status": "selected_extent_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Complete current transcript L0021–124 and metadata; no audio"
+      ],
+      "provenance_notes": "Alex Tsakiris interviewing Eben Alexander; Skeptiko154, publication label November22,2011; current transcript revision not historical/audio-authenticated; attribution only, not automatic event verification.",
+      "related_case_ids": [
+        "C-T06-001"
+      ],
+      "version_reinspection_provenance": [
+        {
+          "inspection_id": "I-P2T15-003",
+          "version_id": "V-P2T15-003",
+          "source_id": "S-P2T15-002",
+          "title": "Skeptiko154 current transcript",
+          "path": "work/P2T15/originals/skeptiko154.html",
+          "sha256": "e8726209314fa116cec879ec434aca9fc8401a8be15d486d1b59f475d80e0463",
+          "extent": "Complete current transcript L0021–124 and metadata; no audio",
+          "status": "complete_current_transcript",
+          "preinspection_freeze": "work/P2T15/web_current_version_freeze.json",
+          "independent_event_count_added": 0
+        }
+      ],
+      "proposal_operation": "source_version_annex; root deduplicates and preserves historical coverage",
+      "review_status": "accepted",
+      "doi": null,
+      "review_id": "P2R15"
+    },
+    {
+      "source_id": "S-P2T15-003",
+      "title": "Near-Death Experiences: 30 Years of Research—Part5",
+      "authors": [
+        "Stephanie Lam"
+      ],
+      "publication_date": "2011-10-11 label;2014-04-07update",
+      "url_or_identifier": "https://www.theepochtimes.com/article/near-death-experiences-30-years-of-research-part-5-606836",
+      "source_type": "original_account_or_disclosure",
+      "access_status": "selected_extent_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Complete article L0011–38 and date metadata"
+      ],
+      "provenance_notes": "Stephanie Lam; Epoch Times; page publication October11,2011 and update April7,2014; current article only; attribution only, not automatic event verification.",
+      "related_case_ids": [
+        "C-T06-001"
+      ],
+      "version_reinspection_provenance": [
+        {
+          "inspection_id": "I-P2T15-004",
+          "version_id": "V-P2T15-004",
+          "source_id": "S-P2T15-003",
+          "title": "Lam current reporting page",
+          "path": "work/P2T15/originals/lam_web.html",
+          "sha256": "0a906689e76fd762c3466420e5a962248c39cab3eb3f8ccb8d9c3ddb38271305",
+          "extent": "Complete article L0011–38 and date metadata",
+          "status": "complete_current_web",
+          "preinspection_freeze": "work/P2T15/web_current_version_freeze.json",
+          "independent_event_count_added": 0
+        }
+      ],
+      "proposal_operation": "source_version_annex; root deduplicates and preserves historical coverage",
+      "review_status": "accepted",
+      "doi": null,
+      "review_id": "P2R15"
+    },
+    {
+      "source_id": "S-P2T15-004",
+      "title": "Statement by Scott Wade, M.D.",
+      "authors": [
+        "Scott Wade"
+      ],
+      "publication_date": "2012",
+      "url_or_identifier": "state/input_snapshots/user_sources/Alexander_Proof_of_Heaven_2012_ebook_user_supplied.pdf",
+      "source_type": "separately_authored_treating_physician_statement",
+      "access_status": "selected_extent_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "PDF179divider and complete signed statement180; separately authored unit in same file"
+      ],
+      "provenance_notes": "AppendixA in2012 ebook ISBN9781451695205, separately authored statement; converted copy2023; PDF180; attribution only, not automatic event verification.",
+      "related_case_ids": [
+        "C-T06-001"
+      ],
+      "version_reinspection_provenance": [
+        {
+          "inspection_id": "I-P2T15-010",
+          "version_id": "V-P2T15-010",
+          "source_id": "S-P2T15-004",
+          "title": "Scott Wade AppendixA",
+          "path": "state/input_snapshots/user_sources/Alexander_Proof_of_Heaven_2012_ebook_user_supplied.pdf",
+          "sha256": "59c5981a96c201e4e7c5092e2342ff4e9e350a0217b109e467b6099dd7a42821",
+          "extent": "PDF179divider and complete signed statement180; separately authored unit in same file",
+          "status": "complete_statement",
+          "preinspection_freeze": "work/P2T15/source_version_annex_03.json",
+          "independent_event_count_added": 0
+        }
+      ],
+      "proposal_operation": "source_version_annex; root deduplicates and preserves historical coverage",
+      "review_status": "accepted",
+      "doi": null,
+      "review_id": "P2R15"
+    },
+    {
+      "source_id": "S-T06-001",
+      "title": "User-supplied purported Eben Alexander talk",
+      "authors": [
+        "Attributed Eben Alexander; unidentified introducer"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "state/input_snapshots/user_sources/alexander_user_supplied_talk.srt",
+      "source_type": "supplied_transcript",
+      "access_status": "full_text_inspected_audio_unverified",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "00:00:08.200–01:38:43.950; 2410 cues"
+      ],
+      "provenance_notes": "Original upload 41377eb8-2e7e-46df-a5ea-4d995cbcb213.srt; libfile_2e449cd1d4388191b41e16978779f75a; SHA256 36a2917995927bb06cc9823e5723fdf9fe25358580ac79aa0a5dfaa29fe65dc2. Recording date/URL unknown; candidate metadata S-T06-007 not authenticated match. ASR errors retained; speaker names normalized only as attributed identity. Intro until01:57.960; principal speaker from02:02.880. Current supplied text is post2012 from internal book references; exact historical date unknown.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-002",
+      "title": "Full Neurological Recovery From Escherichia coli Meningitis Associated With Near-Death Experience",
+      "authors": [
+        "Surbhi Khanna",
+        "Lauren E. Moore",
+        "Bruce Greyson"
+      ],
+      "publication_date": "2018-09",
+      "url_or_identifier": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2018/09/Greyson_-Alexander-JNMD-2018.pdf",
+      "source_type": "clinical_record_review",
+      "access_status": "full_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "J Nerv Ment Dis206:744–747; DOI10.1097/NMD.0000000000000874"
+      ],
+      "provenance_notes": "Institutional author-hosted published PDF; all four pages read. Authors report reviewing charts and consulting neurologists; project inspected published review only, no raw chart/EEG/witness-interview files. Anonymous patient linked to Alexander by references and S-T06-005, not a second case. Non-treating authors; patient reviewed for accuracy; Bial funding and no declared financial/institutional conflicts on p746.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-003",
+      "title": "The Prophet",
+      "authors": [
+        "Luke Dittrich"
+      ],
+      "publication_date": "2013-07-02",
+      "url_or_identifier": "https://www.esquire.com/entertainment/interviews/a23248/the-prophet/",
+      "source_type": "original_investigative_journalism",
+      "access_status": "relevant_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Clinical passage beginning Unlike weather records through intubation question; web lines536–560"
+      ],
+      "provenance_notes": "Reporter’s own interview account; clinician statements mediated by reporter. Original recording not accessed. Biography/career allegations not used as a substitute for case evidence. Publication page date July2; print issue August2013.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-004",
+      "title": "Eben Alexander’s Near-Death Experience: How an Esquire Article Distorted the Facts",
+      "authors": [
+        "Robert G. Mays"
+      ],
+      "publication_date": "2016 (Winter issue; uploaded2017-11-29)",
+      "url_or_identifier": "https://www.researchgate.net/publication/321361929_Eben_Alexander's_near-Death_experience_How_an_esquire_article_distorted_the_facts",
+      "source_type": "guest_editorial_original_investigation_and_reply",
+      "access_status": "relevant_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp67–78;85–93; DOI10.17514/JNDS-2016-35-2-p65-93"
+      ],
+      "provenance_notes": "Author-uploaded full text. Relevant clinical, chronology, identity and reference sections read; not all intervening biography/Dalai Lama discussion evaluated. Printed Winter2016 label conflicts with internal January2017 communication/four-years wording; actual issue-release date unverified. Mays reports interviews with family circle and publisher-mediated Potter statement; direct Potter confirmation not obtained.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-005",
+      "title": "My Experience in Coma — current author-hosted version",
+      "authors": [
+        "Eben Alexander"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://ebenalexander.com/about/my-experience-in-coma/",
+      "source_type": "author_firsthand_account_and_argument",
+      "access_status": "full_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Opening illness paragraphs; paragraph beginning Fortunately; written-account paragraph; final argument; reference1"
+      ],
+      "provenance_notes": "Undated current text incorporates later Greyson review. Not established identical to AANS2012 original, whose archived URL failed. One retrospective reporting chain; reproduced medical review not another independent observation.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T06-006",
+      "title": "Proof of Heaven: A Neurosurgeon’s Journey into the Afterlife — publisher excerpt, Q&A and edition metadata",
+      "authors": [
+        "Eben Alexander; Simon & Schuster editorial metadata"
+      ],
+      "publication_date": "2012-10-23 (edition)",
+      "url_or_identifier": "https://www.simonandschuster.com/books/Proof-of-Heaven/Eben-Alexander/9781451695199",
+      "source_type": "memoir_excerpt_and_publisher_metadata",
+      "access_status": "partial_book_text_inspected",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Prologue complete; final illness/inference paragraphs; Q&A title discussion; Product Details ISBN9781451695199"
+      ],
+      "provenance_notes": "Current publisher page presents excerpt of2012 edition; full memoir/AppendixA not inspected. Current Q&A/publication-page update dates unknown. Promotional blurb kept separate from author text and medical evidence.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    }
+  ]
+}

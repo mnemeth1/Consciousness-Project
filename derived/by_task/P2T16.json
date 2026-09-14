@@ -1,0 +1,1396 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T16",
+  "report": "work/P2T16/report.md",
+  "counts": {
+    "claims": 28,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 8
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T16-001",
+      "statement": "Catalogs identify Sabom’s 1998 book; the selected chapter and relevant notes remain unavailable in this packet.",
+      "claim_type": "observed_event",
+      "assertion_scope": "access_limitation",
+      "source_ids": [
+        "S-P2T16-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-001",
+          "locator": "Googlecatalogtitle/1998publisher/ISBN/contents; Archive accessrestriction",
+          "version": "1998catalogmetadataonly;bookbodypending",
+          "artifact": "work/P2T16/open_sabom_catalog_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Not an inspected earliest narrative."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-002",
+      "statement": "Carter gives an operative sequence with distinct anesthesia, cooling, arrest, drainage, rewarming and closure phases.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp30–35; PDF2–7; extractionL54–204",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Reported reconstruction through Sabom; no original chart or continuous trace inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-003",
+      "statement": "Woerlee dates Sabom contact to 1994; Carter dates disclosure to Spetzler several days after surgery.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-005",
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-005",
+          "locator": "p5; PDF3; L79–86",
+          "version": "UNT PDF extraction;23pages;printed3–25",
+          "artifact": "work/P2T16/woerlee_web_extraction.txt"
+        },
+        {
+          "source_id": "S-T19-007",
+          "locator": "p34; PDF6; L184–193",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Neither is a contemporaneous verbatim initial account. Contact, disclosure and 1998publication are distinct."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-004",
+      "statement": "Carter reproduces visual tool/case details and relatives imagery substantially through Sabom, with additional documentary wording.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp31–35; PDF3–7; L70–97,127–217",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Narrative accuracy/matching and quotation provenance are attributed; all prefeedback reports and errors unknown."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-005",
+      "statement": "Carter places early checkable perceptions before absent brainstem responses; Hameroff’s phase agreement is explicitly conditional.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-007",
+        "S-T19-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "p36; PDF8; L235–240",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        },
+        {
+          "source_id": "S-T19-006",
+          "locator": "p27; PDF2; L26–50",
+          "version": "UNT PDF extraction;3pages;printed26–28",
+          "artifact": "work/P2T16/hameroff_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [
+        "CL-P2T16-002",
+        "CL-P2T16-004"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Music is reported later during closure. No independently timed relatives/light episode within arrest."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-006",
+      "statement": "The reported physiological phases do not independently timestamp every subjective segment or establish continuous absence of relevant neural processing.",
+      "claim_type": "inference",
+      "assertion_scope": "project_inference",
+      "source_ids": [
+        "S-T19-007",
+        "S-T19-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp32–36; PDF4–8",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        },
+        {
+          "source_id": "S-T19-006",
+          "locator": "p27; PDF2",
+          "version": "UNT PDF extraction;3pages;printed26–28",
+          "artifact": "work/P2T16/hameroff_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [
+        "CL-P2T16-002",
+        "CL-P2T16-005"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Cardiac arrest, circulatory support/drainage, EEG and brainstem responses are different variables; no case traces inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-007",
+      "statement": "Woerlee proposes awareness plus drug effects, using related surgical protocols to supplement Sabom’s nontechnical account.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-005",
+          "locator": "pp8–15; PDF6–13; L160–399",
+          "version": "UNT PDF extraction;23pages;printed3–25",
+          "artifact": "work/P2T16/woerlee_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "1982/1988/2003/2010 protocols and drug assumptions are not measured case-specific concentrations or thresholds."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-008",
+      "statement": "Woerlee’s addendum prescribes a consumer sound demonstration, acknowledges unmatched pulse control and unknown earpiece attenuation, then asserts audibility.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-005",
+          "locator": "pp23–25; PDF21–23; L668–742",
+          "version": "UNT PDF extraction;23pages;printed3–25",
+          "artifact": "work/P2T16/woerlee_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No documented calibrated clinical replication. Software dBFS settings and maximum volume do not themselves document measured ear-level acoustic intensity."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-009",
+      "statement": "Hameroff disclaims case expertise, conditionally permits awareness, and challenges missing BAER results while calling BAER a definitive monitor.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-006",
+          "locator": "pp26–28; PDF1–3; particularlyp27",
+          "version": "UNT PDF extraction;3pages;printed26–28",
+          "artifact": "work/P2T16/hameroff_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "His clinical characterization is attributed, not adopted as present clinical guidance."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-010",
+      "statement": "Carter quotes Cordova as monitoring in the adjacent operating room and requesting an exact-parameter experiment.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp47–48; PDF19–20; L603–636; referencep50",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Quoted correspondence, not original emails or the attending monitoring colleague’s records. Proposed reconstruction is not completed."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-011",
+      "statement": "Carter uses visual specificity, sealing/masking and unreported clicks to challenge ordinary hearing and reconstruction.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp35–36,45–48; PDF7–8,17–20",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "This is a positive evidential challenge, not a directly verified exclusion of every information route."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-012",
+      "statement": "Woerlee’s rejoinder accepts Carter’s distinction between a measurable BAER and conscious hearing, and rejects Hameroff’s monitoring characterization.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-002",
+          "locator": "embeddedp57, numbered§§3–4; extractionL17–23",
+          "version": "Author-linked Academia extraction; embeddedprinted54–61; noPDFbytes",
+          "artifact": "work/P2T16/open_rejoinder_author_copy_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Exact author-linked extraction; underlying neurophysiological originals not inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-013",
+      "statement": "The rejoinder describes actual MLAEP use in Reynolds as likely despite its absence from the cited Spetzler article.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-002",
+          "locator": "embeddedpp57–58§4; extractionL20–23",
+          "version": "Author-linked Academia extraction; embeddedprinted54–61; noPDFbytes",
+          "artifact": "work/P2T16/open_rejoinder_author_copy_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "A hypothesized correction of Sabom’s terminology, not independently recovered case protocol."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-014",
+      "statement": "The rejoinder defends a possible physical account but explicitly leaves the immaterial explanation unexcluded because case data are insufficient.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-002",
+          "locator": "embeddedp60ConcludingRemarks; extractionL34–37",
+          "version": "Author-linked Academia extraction; embeddedprinted54–61; noPDFbytes",
+          "artifact": "work/P2T16/open_rejoinder_author_copy_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The concession concerns insufficient data to exclude the rival, not proof of the rival or proof that physical hearing occurred."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-015",
+      "statement": "The rejoinder infers combined lack of pain and anxiety from separate reported symptom percentages.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-002",
+          "locator": "embeddedp59§5; extractionL29–31",
+          "version": "Author-linked Academia extraction; embeddedprinted54–61; noPDFbytes",
+          "artifact": "work/P2T16/open_rejoinder_author_copy_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The marginal categories are not a supplied participant-level intersection."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-016",
+      "statement": "Carter’s further reply targets points 5 and 6, accepts point 3, and does not develop answers to points 1,2 and4.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-004",
+          "locator": "PDFp1 opening; L0–28",
+          "version": "NetwerkNDE bylinedPDFextraction;10unpaginatedPDFpages;dateunverified",
+          "artifact": "work/P2T16/open_carter_further_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Standalone bylined reply; 2012index attribution is not authenticated document date or journal status."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-017",
+      "statement": "Carter objects that the pain/anxiety margins do not establish their intersection, and emphasizes phenomenological differences.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-004",
+          "locator": "PDFpp2–3; L35–94",
+          "version": "NetwerkNDE bylinedPDFextraction;10unpaginatedPDFpages;dateunverified",
+          "artifact": "work/P2T16/open_carter_further_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Qualitative difference does not establish a distinct causal mechanism; one reproduced awareness description includes an OBE."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-018",
+      "statement": "Given only n=25, pain=7 and anxiety/stress=9, the count reporting neither can range from 9 to16.",
+      "claim_type": "inference",
+      "assertion_scope": "project_inference",
+      "source_ids": [
+        "S-P2T16-004",
+        "S-P2T16-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-004",
+          "locator": "PDFp2 symptomtable and overlap objection",
+          "version": "NetwerkNDE bylinedPDFextraction;10unpaginatedPDFpages;dateunverified",
+          "artifact": "work/P2T16/open_carter_further_raw.json"
+        },
+        {
+          "source_id": "S-P2T16-002",
+          "locator": "embeddedp59§5",
+          "version": "Author-linked Academia extraction; embeddedprinted54–61; noPDFbytes",
+          "artifact": "work/P2T16/open_rejoinder_author_copy_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [
+        "CL-P2T16-015",
+        "CL-P2T16-017"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Arithmetic bounds conditional on the quoted margins; no new coding or assumption that nonreport establishes experiential absence."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-019",
+      "statement": "The 25 awareness descriptions and 19,575 surgical denominator are reproduced from Sebel by the disputants, not a Reynolds sample.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-T19-007",
+        "S-P2T16-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp39–41Table1 and AppendixA51–53",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        },
+        {
+          "source_id": "S-P2T16-004",
+          "locator": "PDFpp1–3,7–9",
+          "version": "NetwerkNDE bylinedPDFextraction;10unpaginatedPDFpages;dateunverified",
+          "artifact": "work/P2T16/open_carter_further_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Sebel original is uninspected; no new participant validation or addition to Reynolds case denominators."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-020",
+      "statement": "Smit reports running the sound demonstration: clicks were intolerable, yet ambient sounds remained audible and speech worsened with tighter headphones.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-003",
+          "locator": "pp188–190; PDF1–3; L28–67",
+          "version": "Author-hostPDFextraction;5pages;printed188–192",
+          "artifact": "work/P2T16/smit_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Performed self-report demonstration, not an independently observed calibrated replication of Reynolds’ conditions."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-021",
+      "statement": "Smit’s quoted Key and Prescott reports include partial conversation and clear television speech, respectively, with setup differences.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-003",
+          "locator": "pp190–191; PDF3–4; L91–123",
+          "version": "Author-hostPDFextraction;5pages;printed188–192",
+          "artifact": "work/P2T16/smit_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No direct Key email or Prescott original inspected. Prescott reports both signals in both ears; reports are not pooled independent clinical trials."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-022",
+      "statement": "Smit argues that unbearable clicks would have been remembered, so their absence from Reynolds’ accounts supports nonphysical hearing.",
+      "claim_type": "philosophical_premise",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-003",
+          "locator": "pp189–191; PDF2–4; L34–60,118–137",
+          "version": "Author-hostPDFextraction;5pages;printed188–192",
+          "artifact": "work/P2T16/smit_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Absence in retellings does not prove inability to hear, lack of habituation under anesthesia, or actual nonphysical acquisition."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "premise_truth_status": "Not adopted as true. Schema label groups attributed explanatory arguments; statement asserts what the author argues."
+    },
+    {
+      "claim_id": "CL-P2T16-023",
+      "statement": "Smit’s Spring2012 letter includes May and June2012 material alongside an April2 posting statement.",
+      "claim_type": "observed_event",
+      "assertion_scope": "document_observation",
+      "source_ids": [
+        "S-P2T16-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-003",
+          "locator": "p190June6/May23; p191April2; p192Prescottreference",
+          "version": "Author-hostPDFextraction;5pages;printed188–192",
+          "artifact": "work/P2T16/smit_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Exact publication day and original posting contents unverified; later-dated material is not backdated to April2."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-024",
+      "statement": "Carter’s further reply says the proposed institutional hearing test had not received Woerlee’s response and would exclude heavy anesthesia.",
+      "claim_type": "reported_experience",
+      "assertion_scope": "source_attribution",
+      "source_ids": [
+        "S-P2T16-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-004",
+          "locator": "PDFp7; L198–212",
+          "version": "NetwerkNDE bylinedPDFextraction;10unpaginatedPDFpages;dateunverified",
+          "artifact": "work/P2T16/open_carter_further_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Statement is as of this undated copy, not a claim no later test ever occurred."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-025",
+      "statement": "The proposed test, Smit’s performed demonstration and an actual calibrated case-equivalent experiment are different evidential states.",
+      "claim_type": "inference",
+      "assertion_scope": "project_inference",
+      "source_ids": [
+        "S-T19-005",
+        "S-T19-007",
+        "S-P2T16-003",
+        "S-P2T16-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-005",
+          "locator": "pp23–25Addendum",
+          "version": "UNT PDF extraction;23pages;printed3–25",
+          "artifact": "work/P2T16/woerlee_web_extraction.txt"
+        },
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp47–48",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        },
+        {
+          "source_id": "S-P2T16-003",
+          "locator": "pp188–192",
+          "version": "Author-hostPDFextraction;5pages;printed188–192",
+          "artifact": "work/P2T16/smit_web_extraction.txt"
+        },
+        {
+          "source_id": "S-P2T16-004",
+          "locator": "PDFp7",
+          "version": "NetwerkNDE bylinedPDFextraction;10unpaginatedPDFpages;dateunverified",
+          "artifact": "work/P2T16/open_carter_further_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [
+        "CL-P2T16-008",
+        "CL-P2T16-010",
+        "CL-P2T16-020",
+        "CL-P2T16-021",
+        "CL-P2T16-024"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Acoustic measurement, participant-level outcome scoring, drug state and case-specific fit remain unestablished."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-026",
+      "statement": "The provisional later Woerlee Successful Test webpage remains uninspected after a stopped access route; its title supplies no outcome.",
+      "claim_type": "observed_event",
+      "assertion_scope": "access_limitation",
+      "source_ids": [
+        "S-P2T16-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T16-005",
+          "locator": "open_woerlee_web_raw.json; no original body",
+          "version": "Provisionallead;originaluninspected",
+          "artifact": "work/P2T16/open_woerlee_web_raw.json"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No archive/proxy/other-tool retry of the unsafe destination. Separate original reply scope remains unresolved."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-027",
+      "statement": "The strongest positive and ordinary-process arguments remain conditional because timing, prefeedback information controls and calibrated case data are incomplete.",
+      "claim_type": "inference",
+      "assertion_scope": "project_inference",
+      "source_ids": [
+        "S-T19-007",
+        "S-P2T16-002",
+        "S-P2T16-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-007",
+          "locator": "pp31–36,45–48",
+          "version": "UNT PDF extraction;25pages;printed29–53",
+          "artifact": "work/P2T16/carter_web_extraction.txt"
+        },
+        {
+          "source_id": "S-P2T16-002",
+          "locator": "embeddedpp57–60",
+          "version": "Author-linked Academia extraction; embeddedprinted54–61; noPDFbytes",
+          "artifact": "work/P2T16/open_rejoinder_author_copy_raw.json"
+        },
+        {
+          "source_id": "S-P2T16-003",
+          "locator": "pp188–191",
+          "version": "Author-hostPDFextraction;5pages;printed188–192",
+          "artifact": "work/P2T16/smit_web_extraction.txt"
+        }
+      ],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [
+        "CL-P2T16-005",
+        "CL-P2T16-006",
+        "CL-P2T16-010",
+        "CL-P2T16-011",
+        "CL-P2T16-013",
+        "CL-P2T16-014",
+        "CL-P2T16-025"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Ordinary hearing/awareness and later reconstruction",
+        "Anomalous acquisition if specified exclusion and timing conditions are independently established"
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Bibliographic and reply repair does not itself identify the actual mechanism."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "claim_id": "CL-P2T16-028",
+      "statement": "Later replies add discussion of one Reynolds event; they do not establish irreversible-death survival, cosmic consciousness, timelessness or consciousness-caused recovery.",
+      "claim_type": "inference",
+      "assertion_scope": "project_inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [
+        "C-T19-002"
+      ],
+      "dependency_group": "T19-Reynolds-Sabom-chain",
+      "supporting_claim_ids": [
+        "CL-P2T16-027"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Faithful source attribution does not establish the author’s clinical premises or causal conclusion."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Nine components and all twelve frozen gates remain separate and withheld; wider Dentures/Moorjani claims are not re-researched."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T16-001",
+      "name": "Conditional Reynolds anomalous-perception argument",
+      "position": "Strongest selected positive case; project reconstruction",
+      "premises": [
+        "Carter reproduces visual tool/case details and relatives imagery substantially through Sabom, with additional documentary wording.",
+        "Carter places early checkable perceptions before absent brainstem responses; Hameroff’s phase agreement is explicitly conditional.",
+        "Carter quotes Cordova as monitoring in the adjacent operating room and requesting an exact-parameter experiment.",
+        "Carter uses visual specificity, sealing/masking and unreported clicks to challenge ordinary hearing and reconstruction.",
+        "Woerlee’s rejoinder accepts Carter’s distinction between a measurable BAER and conscious hearing, and rejects Hameroff’s monitoring characterization.",
+        "Smit reports running the sound demonstration: clicks were intolerable, yet ambient sounds remained audible and speech worsened with tighter headphones.",
+        "Smit argues that unbearable clicks would have been remembered, so their absence from Reynolds’ accounts supports nonphysical hearing."
+      ],
+      "bridge_principles": [
+        "Independently established accurate acquisition during specified exclusion conditions would challenge an ordinary-channel explanation.",
+        "Narrative phase assignment must coincide with independently verified acquisition timing; vividness alone cannot supply it."
+      ],
+      "conclusion": "Visual specificity and the disputed monitoring/hearing setup motivate investigation, but this packet does not establish excluded-process acquisition.",
+      "source_ids": [
+        "S-T19-007",
+        "S-T19-006",
+        "S-P2T16-002",
+        "S-P2T16-003"
+      ],
+      "claim_ids": [
+        "CL-P2T16-004",
+        "CL-P2T16-005",
+        "CL-P2T16-010",
+        "CL-P2T16-011",
+        "CL-P2T16-012",
+        "CL-P2T16-020",
+        "CL-P2T16-022"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Early checkable phases are not the absent-brainstem/arrest interval; retrospective report and incomplete information controls allow ordinary hearing/reconstruction alternatives.",
+      "strongest_reply": "The later technical details, conscious-hearing distinction and missing click reports challenge an unqualified assertion that ordinary hearing has been demonstrated.",
+      "unresolved_issues": [
+        "Originalcasecharts/tracesandprefeedbackaccuracyrecordmissing",
+        "Exactearliestchapterpending",
+        "No complete calibrated case-equivalent experiment",
+        "Retained GATE-T16-04"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "argument_id": "A-P2T16-002",
+      "name": "Conditional ordinary-process account and its correction",
+      "position": "Strongest selected direct critic and actual replies",
+      "premises": [
+        "Woerlee proposes awareness plus drug effects, using related surgical protocols to supplement Sabom’s nontechnical account.",
+        "Woerlee’s addendum prescribes a consumer sound demonstration, acknowledges unmatched pulse control and unknown earpiece attenuation, then asserts audibility.",
+        "Hameroff disclaims case expertise, conditionally permits awareness, and challenges missing BAER results while calling BAER a definitive monitor.",
+        "Woerlee’s rejoinder accepts Carter’s distinction between a measurable BAER and conscious hearing, and rejects Hameroff’s monitoring characterization.",
+        "The rejoinder describes actual MLAEP use in Reynolds as likely despite its absence from the cited Spetzler article.",
+        "The rejoinder defends a possible physical account but explicitly leaves the immaterial explanation unexcluded because case data are insufficient.",
+        "The rejoinder infers combined lack of pain and anxiety from separate reported symptom percentages.",
+        "Carter’s further reply targets points 5 and 6, accepts point 3, and does not develop answers to points 1,2 and4.",
+        "Carter objects that the pain/anxiety margins do not establish their intersection, and emphasizes phenomenological differences.",
+        "Given only n=25, pain=7 and anxiety/stress=9, the count reporting neither can range from 9 to16.",
+        "Smit’s quoted Key and Prescott reports include partial conversation and clear television speech, respectively, with setup differences."
+      ],
+      "bridge_principles": [
+        "Evidence that a mechanism can occur under relevant conditions is distinct from evidence it actually produced this report.",
+        "Related surgical protocols do not by themselves fix this patient’s monitoring or drug state."
+      ],
+      "conclusion": "The ordinary-process account remains a live alternative; Woerlee’s rejoinder narrows the evidential conclusion and does not exclude the rival.",
+      "source_ids": [
+        "S-T19-005",
+        "S-T19-006",
+        "S-P2T16-002",
+        "S-P2T16-004",
+        "S-P2T16-003"
+      ],
+      "claim_ids": [
+        "CL-P2T16-007",
+        "CL-P2T16-008",
+        "CL-P2T16-009",
+        "CL-P2T16-012",
+        "CL-P2T16-013",
+        "CL-P2T16-014",
+        "CL-P2T16-015",
+        "CL-P2T16-016",
+        "CL-P2T16-017",
+        "CL-P2T16-018",
+        "CL-P2T16-021"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Carter/Smit contest acoustic equivalence, subjective character and inferential moves from monitoring/marginal symptoms.",
+      "strongest_reply": "Woerlee distinguishes bone from air conduction and acknowledges BAER is not conscious hearing; Smit’s own reported results include some hearing. Neither decides the case mechanism.",
+      "unresolved_issues": [
+        "BAEP/MLAEPcaseprotocolnotindependentlyauthenticated",
+        "Pain/anxietyintersectionunknown",
+        "LaterSuccessfulTestoriginaluninspected",
+        "No likelihoodratioorwholemodelranking"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    },
+    {
+      "argument_id": "A-P2T16-003",
+      "name": "Demonstration, dependence and extrapolation limits",
+      "position": "Project limitation map",
+      "premises": [
+        "The 25 awareness descriptions and 19,575 surgical denominator are reproduced from Sebel by the disputants, not a Reynolds sample.",
+        "Smit reports running the sound demonstration: clicks were intolerable, yet ambient sounds remained audible and speech worsened with tighter headphones.",
+        "Smit’s quoted Key and Prescott reports include partial conversation and clear television speech, respectively, with setup differences.",
+        "Smit’s Spring2012 letter includes May and June2012 material alongside an April2 posting statement.",
+        "Carter’s further reply says the proposed institutional hearing test had not received Woerlee’s response and would exclude heavy anesthesia.",
+        "The proposed test, Smit’s performed demonstration and an actual calibrated case-equivalent experiment are different evidential states.",
+        "The provisional later Woerlee Successful Test webpage remains uninspected after a stopped access route; its title supplies no outcome.",
+        "The strongest positive and ordinary-process arguments remain conditional because timing, prefeedback information controls and calibrated case data are incomplete.",
+        "Later replies add discussion of one Reynolds event; they do not establish irreversible-death survival, cosmic consciousness, timelessness or consciousness-caused recovery."
+      ],
+      "bridge_principles": [
+        "A demonstration using different equipment/participants/drug state does not automatically reproduce a clinical event.",
+        "One narrator/event and repeated reports remain one dependence group.",
+        "Temporary or conditional independence does not entail same-person survival beyond irreversible death or universal/timeless consciousness."
+      ],
+      "conclusion": "The packet can revise source/reply coverage and technical attributions while leaving all twelve stronger-conclusion gates withheld.",
+      "source_ids": [
+        "S-T19-007",
+        "S-P2T16-004",
+        "S-P2T16-003",
+        "S-T19-005",
+        "S-P2T16-005",
+        "S-P2T16-002"
+      ],
+      "claim_ids": [
+        "CL-P2T16-019",
+        "CL-P2T16-020",
+        "CL-P2T16-021",
+        "CL-P2T16-023",
+        "CL-P2T16-024",
+        "CL-P2T16-025",
+        "CL-P2T16-026",
+        "CL-P2T16-027",
+        "CL-P2T16-028"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A well-established anomaly could still be relevant to models permitting survival.",
+      "strongest_reply": "Conditional relevance is preserved; timing, identity, persistence and cosmic/normative bridges require additional evidence.",
+      "unresolved_issues": [
+        "No newindependentcasecount",
+        "No observedirreversible-deathsurvival",
+        "No intention/goodness/preservation/healingupgrade"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R16"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T16-001",
+      "title": "Light & Death: One Doctor's Fascinating Account of Near-death Experiences",
+      "authors": [
+        "Michael B. Sabom"
+      ],
+      "publication_date": "1998",
+      "url_or_identifier": "https://books.google.com/books/about/Light_Death.html?id=xqAg4b71NLsC",
+      "source_type": "book",
+      "access_status": "metadata_only_body_unavailable",
+      "retrieved_at": "2026-09-13T07:02:11.395578+00:00",
+      "relevant_locators": [
+        "1998catalogmetadataonly;bookbodypending"
+      ],
+      "related_case_ids": [
+        "C-T19-002"
+      ],
+      "current_reinspection": {
+        "task_id": "P2T16",
+        "version": "1998 catalog metadata only; selected book body unavailable",
+        "artifact_path": "work/P2T16/open_sabom_catalog_raw.json",
+        "artifact_sha256": "71f9e59dcfac4d8696c88e39a0a4d184a109a151af6bc6aa8a48f102236d6572",
+        "local_pdf_bytes": false,
+        "visual_page_layout_verified": false
+      },
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "provenance_notes": "Exact accessible version and retrieval limits are in source_selection_annex_01.json and inspection_history.json. Raw extraction is preserved; no local original PDF bytes. Historical source fields, if any, are retained in baseline_v1.json and are not claims of this author’s prior inspection."
+    },
+    {
+      "source_id": "S-P2T16-002",
+      "title": "Rejoinder to Responses to “Could Pam Reynolds Hear?”",
+      "authors": [
+        "Gerald M. Woerlee"
+      ],
+      "publication_date": "Fall2011",
+      "url_or_identifier": "https://www.academia.edu/143843631/Rejoinder_to_responses_to_Could_Pam_Reynolds_hear_",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original_text",
+      "retrieved_at": "2026-09-13T07:02:11.395578+00:00",
+      "relevant_locators": [
+        "Author-linked Academia extraction; embeddedprinted54–61; noPDFbytes"
+      ],
+      "related_case_ids": [
+        "C-T19-002"
+      ],
+      "current_reinspection": {
+        "task_id": "P2T16",
+        "version": "Author-linked Academia extraction; embeddedprinted54–61; noPDFbytes",
+        "artifact_path": "work/P2T16/open_rejoinder_author_copy_raw.json",
+        "artifact_sha256": "06ecdca2621d6e7b048c20f518f4ab3c9ede6eaaf56e94f77a0cdc0982f57d4e",
+        "local_pdf_bytes": false,
+        "visual_page_layout_verified": false
+      },
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "provenance_notes": "Exact accessible version and retrieval limits are in source_selection_annex_01.json and inspection_history.json. Raw extraction is preserved; no local original PDF bytes. Historical source fields, if any, are retained in baseline_v1.json and are not claims of this author’s prior inspection.",
+      "doi": "10.17514/JNDS-2011-30-1-p54-61",
+      "doi_status": "primary_verified"
+    },
+    {
+      "source_id": "S-P2T16-003",
+      "title": "Letter to the Editor: Failed Test of the Possibility that Pam Reynolds Heard Normally During Her NDE",
+      "authors": [
+        "Rudolf H. Smit"
+      ],
+      "publication_date": "Spring2012 issue label",
+      "url_or_identifier": "https://home.hccnet.nl/rudolf.h.smit/letter-to-editor-jnds-vol30-nr3.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original_text",
+      "retrieved_at": "2026-09-13T07:02:11.395578+00:00",
+      "relevant_locators": [
+        "Author-hostPDFextraction;5pages;printed188–192"
+      ],
+      "related_case_ids": [
+        "C-T19-002"
+      ],
+      "current_reinspection": {
+        "task_id": "P2T16",
+        "version": "Author-hostPDFextraction;5pages;printed188–192",
+        "artifact_path": "work/P2T16/smit_web_extraction.txt",
+        "artifact_sha256": "14c801abf471dc856ff75b8a3adc48e0e556bfdae7a6b2138b70d3def861bcfa",
+        "local_pdf_bytes": false,
+        "visual_page_layout_verified": false
+      },
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "provenance_notes": "Exact accessible version and retrieval limits are in source_selection_annex_01.json and inspection_history.json. Raw extraction is preserved; no local original PDF bytes. Historical source fields, if any, are retained in baseline_v1.json and are not claims of this author’s prior inspection.",
+      "doi": "10.17514/JNDS-2012-30-3-p188-192",
+      "doi_status": "primary_verified"
+    },
+    {
+      "source_id": "S-P2T16-004",
+      "title": "Reply to Woerlee’s Rejoinder on the Pam Reynolds Case",
+      "authors": [
+        "Chris Carter"
+      ],
+      "publication_date": "2012 attributed by index; original document date not yet authenticated",
+      "url_or_identifier": "https://netwerknde.nl/wp-content/uploads/ccvsgwrepr.pdf",
+      "source_type": "original_author_reply",
+      "access_status": "inspected_original_text",
+      "retrieved_at": "2026-09-13T07:02:11.395578+00:00",
+      "relevant_locators": [
+        "NetwerkNDE bylinedPDFextraction;10unpaginatedPDFpages;dateunverified"
+      ],
+      "related_case_ids": [
+        "C-T19-002"
+      ],
+      "current_reinspection": {
+        "task_id": "P2T16",
+        "version": "NetwerkNDE bylinedPDFextraction;10unpaginatedPDFpages;dateunverified",
+        "artifact_path": "work/P2T16/open_carter_further_raw.json",
+        "artifact_sha256": "d1ba324c469f7c8e63374516ef7013c5196344e49975466859e997095a07790c",
+        "local_pdf_bytes": false,
+        "visual_page_layout_verified": false
+      },
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "provenance_notes": "Exact accessible version and retrieval limits are in source_selection_annex_01.json and inspection_history.json. Raw extraction is preserved; no local original PDF bytes. Historical source fields, if any, are retained in baseline_v1.json and are not claims of this author’s prior inspection."
+    },
+    {
+      "source_id": "S-P2T16-005",
+      "title": "Successful Test of the Possibility that Pam Reynolds Heard Normally During Her NDE",
+      "authors": [
+        "Gerald M. Woerlee (attributed lead)"
+      ],
+      "publication_date": "2013 attributed by later reference lists; target date unverified",
+      "url_or_identifier": "https://www.neardth.com/failed-hearing-test.php",
+      "source_type": "unverified_author_web_lead",
+      "access_status": "uninspected_stopped_route",
+      "retrieved_at": "2026-09-13T07:02:11.395578+00:00",
+      "relevant_locators": [
+        "Provisionallead;originaluninspected"
+      ],
+      "related_case_ids": [
+        "C-T19-002"
+      ],
+      "current_reinspection": {
+        "task_id": "P2T16",
+        "version": "Provisionallead;originaluninspected",
+        "artifact_path": "work/P2T16/open_woerlee_web_raw.json",
+        "artifact_sha256": "819c04d778b1f0e5fe034e0c8767d65b1c1f1408e5e55b7cabe6df731cd5b145",
+        "local_pdf_bytes": false,
+        "visual_page_layout_verified": false
+      },
+      "review_status": "accepted",
+      "review_id": "P2R16",
+      "provenance_notes": "Exact accessible version and retrieval limits are in source_selection_annex_01.json and inspection_history.json. Raw extraction is preserved; no local original PDF bytes. Historical source fields, if any, are retained in baseline_v1.json and are not claims of this author’s prior inspection."
+    },
+    {
+      "source_id": "S-T19-005",
+      "title": "Could Pam Reynolds Hear? A New Investigation into the Possibility of Hearing During this Famous Near-Death Experience",
+      "authors": [
+        "Gerald M. Woerlee"
+      ],
+      "publication_date": "2011",
+      "url_or_identifier": "https://scispace.com/pdf/could-pam-reynolds-hear-a-new-investigation-into-the-1pxnq7j1y7.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp3–25; chronology pp4–5; monitoring and drug assumptions pp8–15; explanations pp18–20; references/addendum pp21–25"
+      ],
+      "provenance_notes": "Original2011 critique30(1),3–25. Web PDF inspected; local download403 and screenshot429. Sabom1998 quotations, supplementary protocol assumptions and proposed hearing demonstration are separately identified. No raw monitoring/drug chart inspected; chapter not independently opened.",
+      "related_case_ids": [
+        "C-T19-002"
+      ]
+    },
+    {
+      "source_id": "S-T19-006",
+      "title": "Response to “Could Pam Reynolds Hear?”",
+      "authors": [
+        "Stuart Hameroff"
+      ],
+      "publication_date": "2011",
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc461724/m2/1/high_res_d/30-1%20D%20Hameroff.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp26–28, especially conditional concession and monitoring objection p27"
+      ],
+      "provenance_notes": "Original2011 response30(1),26–28, DOI10.17514/JNDS-2011-30-1-p26-28 verified through DOI-resolved UNT metadata. Hameroff disclaims expertise on this particular case. No raw BAER tracing supplied. Temporary inspected PDF SHA256 8d73da34c143b41ecf4fd38943cabf7775c4a2c744839ab261dd34f3c7f9bd27.",
+      "related_case_ids": [
+        "C-T19-002"
+      ]
+    },
+    {
+      "source_id": "S-T19-007",
+      "title": "Response to “Could Pam Reynolds Hear?”",
+      "authors": [
+        "Chris Carter"
+      ],
+      "publication_date": "2011",
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc461722/m2/1/high_res_d/30-1%20E%20Carter.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp29–53; chronology pp30–36; inference debate pp36–46; communications and proposed test pp46–48; references pp49–50; appendix pp51–53"
+      ],
+      "provenance_notes": "Original2011 response30(1),29–53, DOI10.17514/JNDS-2011-30-1-p29-53 verified by UNT metadata. Author reports2011 personal communications, including December15 despite issue labelled Fall2011; exact publication day not assigned. Near-primary technical testimony as quoted by author; Cordova states he monitored in the adjacent operating room. No original emails, charts, recordings or full Sabom chapter inspected. Temporary inspected PDF SHA256 41d9d73cb930ce5bae718dc259ba7fc497476b3de642abf659d82a26793d7778.",
+      "related_case_ids": [
+        "C-T19-002"
+      ]
+    }
+  ]
+}

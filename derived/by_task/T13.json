@@ -1,0 +1,934 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T13",
+  "report": "work/T13/report.md",
+  "counts": {
+    "claims": 20,
+    "arguments": 5,
+    "cases": 1,
+    "sources": 10
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T13-001",
+      "statement": "Locke distinguishes identity of person, human animal and substance; personal identity follows consciousness extending to past acts rather than sameness of material particles or soul alone.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T13-001"
+      ],
+      "source_locators": [
+        "II.xxvii §§6–10,14–15"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T13-Locke",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution supported in Bennett modernization; correct criterion remains contested."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-002",
+      "statement": "Locke explicitly considers forgetfulness, sleep, changing substances and a prince/cobbler transfer; the transfer is a conditional illustration, not an observed result.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T13-001"
+      ],
+      "source_locators": [
+        "II.xxvii §§10–15"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T13-Locke",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Consciousness cannot simply be replaced with a present inventory of memories; §20 responds to irreversible forgetting by distinguishing person from man."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-003",
+      "statement": "An animal can persist without the current psychological features by which it is recognized; Olson argues that a human person is numerically the thinking animal, while the exact persistence conditions of animals require further premises.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T13-002"
+      ],
+      "source_locators": [
+        "§§1,3–4"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T13-Olson",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution, not established universal biological or metaphysical theorem."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-004",
+      "statement": "Olson makes the unique-thinker premise explicit and challenges denials of animal thought or proposals of coincident thinkers; the transplant objection remains a competing conditional judgment.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T13-002"
+      ],
+      "source_locators": [
+        "§§4,6–8"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T13-Olson",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "His reconstruction of other authors is not a direct inspection of their originals."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-005",
+      "statement": "Swinburne uses a hypothetical split into equally psychologically supported successors to argue for an unobserved immaterial identity-bearing part.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T13-003"
+      ],
+      "source_locators": [
+        "main essay paragraphs4–8"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T13-Swinburne",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Short author essay; surgical feasibility and exhaustive physical description are assumed for analysis, not verified."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-006",
+      "statement": "The simple-subject inference requires more than inability to identify a successor: it needs determinate further identity facts, their compatibility with the stipulated total evidence, and a reason those facts require an immaterial bearer.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T13-003"
+      ],
+      "source_locators": [
+        "paragraphs5–8; project reconstruction"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [
+        "CL-T13-005"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Epistemic ignorance need not entail an additional substance; a reductionist can reject the further-fact premise."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Project objection and strongest charitable reconstruction, not an inspected technical reply by Swinburne."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-007",
+      "statement": "If two successors are distinct, strict numerical identity cannot identify both with the one predecessor; branch-preserving concern or psychological succession uses a different relation.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T13-002",
+        "S-T13-003"
+      ],
+      "source_locators": [
+        "Olson §8 footnote5; Swinburne Alexandra example"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A nonbranching criterion, a unique bearer rule, or an explicitly revised successor relation."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Conditional analysis; no metaphysical actuality follows."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-008",
+      "statement": "Defining genuine memory as memory of one’s own past can presuppose the identity it purports to establish; a causal quasi-memory criterion must specify a link independently of sameness of person.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [
+        "CL-T13-001",
+        "CL-T13-007"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Psychological continuity through overlapping causal links may avoid requiring every later stage to remember every earlier stage."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Project-authored logical analysis; no inspected attribution to Parfit, Butler or Reid."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-009",
+      "statement": "Interrupted awareness or ordinary forgetting does not alone decide persistence: an organism, simple subject, or adequately continuous psychological history may bridge the gap under different assumptions.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [
+        "CL-T13-002",
+        "CL-T13-003",
+        "CL-T13-005"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "An experience-bundle account may set different persistence conditions."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No inference that lack of report measures total absence of experience; no proof that bridging sleep also bridges death."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-010",
+      "statement": "Greyson1990 broadens the time item: the highest response groups apparent simultaneity, stopped time and time losing meaning. It is not a count of one uniquely defined timeless experience.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-006"
+      ],
+      "source_locators": [
+        "p153 response alternatives; p156 Table1; p160 discussion"
+      ],
+      "case_ids": [
+        "C-T08-008"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [
+        "CL-T08-023"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Original1983validation not reinspected; categories here are the1990modification."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-011",
+      "statement": "Timmermann2018 reports all13 DMT participants meeting the scale threshold, compared with one at threshold after placebo; these are repeated conditions in13people, not26independent people.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T13-004"
+      ],
+      "source_locators": [
+        "Methods; Results DMT Induces Near-Death Type Experiences"
+      ],
+      "case_ids": [
+        "C-T13-001"
+      ],
+      "dependency_group": "DG-T13-DMT2018",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Fixed placebo-first order, single blinding, prior psychedelic experience and heterogeneous doses limit interpretation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-012",
+      "statement": "The DMT study’s time-item means were1.15(SD0.80) under DMT and1.54(SD0.78) in its13-person NDE comparator; Table1 supplies scores, not response-category counts.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T13-004"
+      ],
+      "source_locators": [
+        "Table1 time row; Methods comparison group"
+      ],
+      "case_ids": [
+        "C-T13-001"
+      ],
+      "dependency_group": "DG-T13-DMT2018",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No reconstructed numerator for stopped time, simultaneity or loss of meaning. Non-significance is not an equivalence test."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-013",
+      "statement": "Phenomenological overlap after DMT shows that similar scale endorsements can arise in a drug context; it does not establish endogenous DMT as any particular NDE’s cause or explain away every anomalous detail.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T13-004"
+      ],
+      "source_locators": [
+        "Methods; Results; Limitations"
+      ],
+      "case_ids": [
+        "C-T13-001"
+      ],
+      "dependency_group": "DG-T13-DMT2018",
+      "supporting_claim_ids": [
+        "CL-T13-011",
+        "CL-T13-012"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A survival model could treat drugs as changing access to experience; this requires additional discriminating predictions."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No identified common mechanism, irreversibly dead subject, or ontological timelessness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-014",
+      "statement": "Alexander’s reviewed altered-duration account concerns remembered phenomenology; months/years seeming to pass is not the same claim as no intrinsic succession.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T06-001"
+      ],
+      "source_locators": [
+        "Inherited CL-T06-006; T06report; timestamps37:10–37:29,47:03–47:44,1:04:45–1:05:12"
+      ],
+      "case_ids": [
+        "C-T06-001"
+      ],
+      "dependency_group": "DG-T06-ALEXANDER-2008-report-chain",
+      "supporting_claim_ids": [
+        "CL-T06-006"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Inherited reviewed attribution, not new transcript inspection or independent event; recording alignment remains unverified."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-015",
+      "statement": "Resuscitated-subject reports and aggregate brain-monitoring records do not by themselves supply H-S’s irreversible-death boundary, episode-specific experience timing or numerical-identity bridge.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T07-007"
+      ],
+      "source_locators": [
+        "Inherited T07report and CL-T07-015; no new original inspection"
+      ],
+      "case_ids": [
+        "C-T07-002"
+      ],
+      "dependency_group": "DG-T13-inherited-NDE",
+      "supporting_claim_ids": [
+        "CL-T07-015"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Better timed verified information and explicit identity evidence could strengthen a narrower brain-independence inference."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Neither missing monitoring nor aggregate EEG establishes absence of all relevant processing."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-016",
+      "statement": "M1 permits temporal personal continuation without timeless persons; M2 adds a timeless foundation grounding temporal persons, but individual survival remains an additional condition.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Project T01 model evaluation; foundation need not acquire states when temporal persons learn."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-017",
+      "statement": "An enlarged M3 history can satisfy H-S if it contains actual subjectivity beyond the bodily-life boundary unified with the embodied life by a defensible identity relation, even if the foundation has no intrinsic succession.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [
+        "CL-T13-007",
+        "CL-T13-009",
+        "CL-T13-016"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A complete representation may be another subject’s knowledge rather than the individual’s continued experience."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Conditional coherent proposal, not proof of actual extension; beyond must be specified relationally if not temporally."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-018",
+      "statement": "M4 can preserve information, represented relationships or value while the original subject ceases; a conscious foundation’s awareness of a life is not automatically that life’s subjectivity.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [
+        "CL-T13-017"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A defended subject-preserving relation could upgrade preservation-only to an enlarged-history proposal."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No argument that such a relation is impossible; its absence cannot be filled by naming the foundation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-019",
+      "statement": "No selected identity criterion automatically establishes universal subjecthood, timelessness, intention, goodness or moral authority; each needs an additional bridge and specified bearer.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [
+        "CL-T13-006",
+        "CL-T13-016",
+        "CL-T13-017"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Nine-component separation inherited from T01; not a denial of possible unification."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "claim_id": "CL-T13-020",
+      "statement": "Reports of no succession, simultaneous content, indefinite duration and later narrative order require separate coding; testimony may support the occurrence of an experience without establishing the ontology attributed to it.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T08-006",
+        "S-T13-004"
+      ],
+      "source_locators": [
+        "Greyson p153; Timmermann Table1 and Limitations; project inference"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T13-identity-bridges",
+      "supporting_claim_ids": [
+        "CL-T13-010",
+        "CL-T13-012",
+        "CL-T13-014"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "An atemporal awareness could be narrated sequentially afterward; narrative order alone does not refute it."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "No validated instrument here uniquely identifies H-T."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T13-001",
+      "name": "Psychological appropriation and a repaired continuity criterion",
+      "position": "Positive conditional psychological account",
+      "premises": [
+        "A person is self-aware across relevant stages.",
+        "Past experience can be appropriately appropriated despite changing matter."
+      ],
+      "bridge_principles": [
+        "Specify causal continuity without presupposing identity; add branching policy."
+      ],
+      "conclusion": "Such continuity is a candidate basis for same-person persistence.",
+      "source_ids": [
+        "S-T13-001"
+      ],
+      "claim_ids": [
+        "CL-T13-001",
+        "CL-T13-002",
+        "CL-T13-007",
+        "CL-T13-008"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Memories may duplicate, disappear or presuppose ownership.",
+      "strongest_reply": "Project repair: overlapping causal links and a nonbranching clause avoid direct-memory transitivity failure; they still need independent justification.",
+      "unresolved_issues": [
+        "Not all modern continuity accounts inspected; Parfit direct access failed.",
+        "Locke’s own theory is not identical to this repaired project model."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "argument_id": "A-T13-002",
+      "name": "Thinking animal and biological persistence",
+      "position": "Positive conditional organism account",
+      "premises": [
+        "A human organism is present.",
+        "It thinks.",
+        "There is exactly one relevant thinker and that thinker is the person."
+      ],
+      "bridge_principles": [
+        "Identity preserves the organism’s genuine persistence conditions, once specified."
+      ],
+      "conclusion": "The human person is that organism; a disembodied copy alone does not preserve it.",
+      "source_ids": [
+        "S-T13-002"
+      ],
+      "claim_ids": [
+        "CL-T13-003",
+        "CL-T13-004",
+        "CL-T13-009"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A transplanted cerebrum seems to carry the person; or the strict thinker is a soul/constituted subject.",
+      "strongest_reply": "Olson presses costs of denying organism thought or multiplying thinkers; psychological evidence/concern may be mistaken for constitution.",
+      "unresolved_issues": [
+        "Unique-thinker and strict animal-thinking premises contested.",
+        "Animalism alone is not a complete theory of death, resurrection or animal persistence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "argument_id": "A-T13-003",
+      "name": "Simple subject through qualitative change",
+      "position": "Positive conditional irreducible-subject account",
+      "premises": [
+        "A hypothetical split leaves two equally psychologically supported candidates.",
+        "There is a determinate fact about which, if either, is the earlier subject beyond the total qualitative facts."
+      ],
+      "bridge_principles": [
+        "Indeterminacy of accessible evidence reflects an additional bearer fact.",
+        "That fact requires an immaterial essential part."
+      ],
+      "conclusion": "A soul is the candidate identity bearer.",
+      "source_ids": [
+        "S-T13-003"
+      ],
+      "claim_ids": [
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T13-007"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Epistemic underdetermination does not entail an immaterial entity; deny further-fact premise or specify a physical/causal identity rule.",
+      "strongest_reply": "Charitable project reply: first-person numerical identity is not exhausted by descriptive similarity; the defender must argue that fact is real and immaterial, not merely unknowable.",
+      "unresolved_issues": [
+        "Short essay does not resolve all technical objections.",
+        "A surviving soul and continuing experience require additional persistence/activation premises; simplicity is not immortality."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "argument_id": "A-T13-004",
+      "name": "Enlarged first-person history beyond bodily life",
+      "position": "Strongest project survival model",
+      "premises": [
+        "The foundation grounds a concrete first-person history, not merely an information record.",
+        "The history includes subjectivity outside the embodied-life boundary.",
+        "A defended relation unifies those portions as the same person."
+      ],
+      "bridge_principles": [
+        "Ordered content can be grounded without successive changes in the foundation.",
+        "An explicit criterion—not resemblance alone—licenses same-subject attribution."
+      ],
+      "conclusion": "M2 or enlargedM3 could satisfy H-S with foundation-level H-T.",
+      "source_ids": [
+        "S-T13-001",
+        "S-T13-002",
+        "S-T13-003"
+      ],
+      "claim_ids": [
+        "CL-T13-016",
+        "CL-T13-017",
+        "CL-T13-018"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The asserted ownership/extension may restate survival; a universal knower can preserve a finite life without the person continuing.",
+      "strongest_reply": "Treat subjectivity and individuation as substantive ontology with identifiable constraints; this blocks dismissal by definition but adds explanatory/evidential costs.",
+      "unresolved_issues": [
+        "No observation here establishes enlarged history.",
+        "Strict organism criterion rejects disembodied extension unless same-organism relation defended.",
+        "Timeless individual model must explain non-successive awareness; the temporal-individual model does not solve that separate issue."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    },
+    {
+      "argument_id": "A-T13-005",
+      "name": "Temporal phenomenology under competing interpretations",
+      "position": "Criterion-specific empirical comparison",
+      "premises": [
+        "Altered-time reports are documented as reports.",
+        "Composite instruments mix distinct phenomenologies.",
+        "Drug-context scale overlap is observed in one bounded design."
+      ],
+      "bridge_principles": [
+        "Phenomenological resemblance alone does not identify mechanism or ontology."
+      ],
+      "conclusion": "The reports motivate investigation but do not discriminate H-T/H-S without timing, identity and access evidence.",
+      "source_ids": [
+        "S-T08-006",
+        "S-T13-004",
+        "S-T06-001",
+        "S-T07-007"
+      ],
+      "claim_ids": [
+        "CL-T13-010",
+        "CL-T13-011",
+        "CL-T13-012",
+        "CL-T13-013",
+        "CL-T13-014",
+        "CL-T13-015",
+        "CL-T13-020"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Survival interpretation: coherent first-person reports and striking information may reveal real access beyond the body; instruments may miss their distinctiveness.",
+      "strongest_reply": "Ordinary alternative has demonstrated drug-context overlap, while the survival reply correctly notes that inducing a resemblance need not explain a given case. Seek prospective, independently scored information and resolved timing; separately ask what identity relation it supports.",
+      "unresolved_issues": [
+        "No same-mechanism conclusion; no inference of equal support.",
+        "No result here crosses irreversible bodily death under H-S."
+      ],
+      "review_status": "accepted",
+      "review_id": "R13"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "C-T13-001",
+      "name": "Timmermann2018 DMT and NDE-scale comparison",
+      "kind": "study_with_related_arms",
+      "underlying_event_or_sample": "13 healthy psychedelic-experienced volunteers measured after placebo and DMT; separate13-person retrospectively recruited NDE comparator.",
+      "event_date": null,
+      "source_ids": [
+        "S-T13-004"
+      ],
+      "duplicate_group": "DG-T13-DMT2018",
+      "overlapping_sample_ids": [],
+      "chronology": [
+        {
+          "stage": "experimental",
+          "detail": "Fixed placebo-first, DMT one week later; single blind; report after effects subsided."
+        },
+        {
+          "stage": "comparison",
+          "detail": "NDE questionnaire delay months–15years, mean7years; recruitment ComaScienceGroup/IANDSFrance/Flanders."
+        }
+      ],
+      "denominators": {
+        "experimental_people": 13,
+        "conditions_per_person": 2,
+        "DMT_scale_threshold_ge7": 13,
+        "placebo_scale_threshold_ge7": 1,
+        "NDE_comparator_people": 13,
+        "NDE_comparator_selection": "above standard threshold; paper uses above/≥7 language; no raw boundary-score list",
+        "doses_mg_counts": {
+          "7": 3,
+          "14": 4,
+          "18": 1,
+          "20": 5
+        },
+        "time_item_response_category_counts": null,
+        "eligible_or_approached_total": null
+      },
+      "access_gaps": [
+        "No participant-level data or separately reported EEG inspected.",
+        "Comparator overlap with C-T08-007 or other Liège/IANDS studies unestablished; do not add sample sizes.",
+        "Published comparator sex counts7female/6male differ from experimental6female/7male despite described age/gender matching; exact pair matching not supplied."
+      ],
+      "reporting_dependency_group": "DG-T13-DMT2018",
+      "possible_overlap_case_ids": [
+        "C-T08-007"
+      ],
+      "design_limits": [
+        "Small purposive sample, prior psychedelic exposure, fixed order, single blindness, expectancy/priming, variable dose, retrospective comparator selection and reporting delay.",
+        "No objective performance time-perception task; EEG results outside inspectedarticle."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S-T06-001",
+      "title": "User-supplied purported Eben Alexander talk",
+      "authors": [
+        "Attributed Eben Alexander; unidentified introducer"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "state/input_snapshots/user_sources/alexander_user_supplied_talk.srt",
+      "source_type": "supplied_transcript",
+      "access_status": "full_text_inspected_audio_unverified",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "00:00:08.200–01:38:43.950; 2410 cues"
+      ],
+      "provenance_notes": "Original upload 41377eb8-2e7e-46df-a5ea-4d995cbcb213.srt; libfile_2e449cd1d4388191b41e16978779f75a; SHA256 36a2917995927bb06cc9823e5723fdf9fe25358580ac79aa0a5dfaa29fe65dc2. Recording date/URL unknown; candidate metadata S-T06-007 not authenticated match. ASR errors retained; speaker names normalized only as attributed identity. Intro until01:57.960; principal speaker from02:02.880. Current supplied text is post2012 from internal book references; exact historical date unknown.",
+      "related_case_ids": [
+        "C-T06-001"
+      ]
+    },
+    {
+      "source_id": "S-T07-007",
+      "title": "AWAreness during REsuscitation - II: A multi-center study of consciousness and awareness in cardiac arrest",
+      "authors": [
+        "Sam Parnia",
+        "Tara Keshavarz Shirazi",
+        "Jignesh Patel",
+        "et al."
+      ],
+      "publication_date": "2023",
+      "url_or_identifier": "doi:10.1016/j.resuscitation.2023.109903",
+      "source_type": "original journal article, user-supplied full PDF",
+      "access_status": "full_main_text_tables_figures_references_inspected; supplement unavailable",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "PDF pp2–4,6 Methods; pp3,5 Tables 1–2; p4 Fig. 1; pp6–9 Results/Discussion; p7 Fig. 2 and footnote; p8 Fig. 3; pp11–12 References"
+      ],
+      "provenance_notes": "User supplied the original after web retrieval failed. Title, DOI and Resuscitation 191 (2023) 109903 match. All 12 pages read as text; methods p2, EEG figure p4, Table 2 p5, flow p7 and Sankey p8 also visually inspected. Supplementary material is referenced, not included. This is the same underlying article excerpted in S-T07-002, not an independent study.",
+      "related_case_ids": [
+        "C-T07-002",
+        "C-T07-003"
+      ],
+      "local_path": "state/input_snapshots/user_sources/AWARE_II_user_supplied.pdf",
+      "sha256": "82450676dcb9fbc53cbf0771b01156e77c7bf2c4189aeea49787e6e7430be94e",
+      "related_source_ids": [
+        "S-T07-002"
+      ],
+      "relationship": "Full original corresponding to earlier abstract/reference excerpt; supersedes excerpt for numerical evidence."
+    },
+    {
+      "source_id": "S-T08-006",
+      "title": "Near-Death Encounters With and Without Near-Death Experiences: Comparative NDE Scale Profiles",
+      "authors": [
+        "Bruce Greyson"
+      ],
+      "publication_date": "1990",
+      "url_or_identifier": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2017/01/NDE17.pdf",
+      "source_type": "Original retrospective self-identification comparison",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp152–153 Method",
+        "p154 demographics and delay",
+        "pp155–159 Results and Table1",
+        "pp159–161 Discussion and References"
+      ],
+      "provenance_notes": "DOI10.1007/BF01074000. Full11-page original scan; OCR plus visual pp151–152,154,159. Respondents were self-selected through IANDS newsletter; not a random clinical control cohort.",
+      "related_case_ids": [
+        "C-T08-008"
+      ]
+    },
+    {
+      "source_id": "S-T13-001",
+      "title": "An Essay Concerning Human Understanding, Book II, chapter xxvii",
+      "authors": [
+        "John Locke",
+        "Jonathan Bennett (modernization)"
+      ],
+      "publication_date": "1694",
+      "url_or_identifier": "https://www.earlymoderntexts.com/assets/pdfs/locke1690book2.pdf",
+      "source_type": "philosophical_original_in_modernization",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T15:54:59.108988+00:00",
+      "relevant_locators": [
+        "II.xxvii §§6–15,19–22; printed pp114–120; PDF pp100–106"
+      ],
+      "provenance_notes": "Chapter added in second edition1694 of Essay first published1690; inspected Bennett modernization, copyright2017, front matter first launched2004/last amended2007. Editorial additions/omissions marked; not diplomatic original edition.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T13-002",
+      "title": "An Argument for Animalism",
+      "authors": [
+        "Eric T. Olson"
+      ],
+      "publication_date": "2003",
+      "url_or_identifier": "https://eprints.whiterose.ac.uk/id/eprint/734/4/Argument_animalism_fixed.pdf",
+      "source_type": "philosophical_original",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T15:54:59.108988+00:00",
+      "relevant_locators": [
+        "§§1,3–9; accepted-version printed pp1–15; references pp15–16"
+      ],
+      "provenance_notes": "Repository accepted version; cover identifies2003chapter pp318–334. Deposited version includes a2006reference and cannot be assumed identical to published2003text; uses internal pagination.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T13-003",
+      "title": "Our souls make us who we are",
+      "authors": [
+        "Richard Swinburne"
+      ],
+      "publication_date": "2019-11-04",
+      "url_or_identifier": "https://blog.oup.com/2019/11/our-souls-make-us-who-we-are/",
+      "source_type": "author_philosophical_essay",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T15:54:59.108988+00:00",
+      "relevant_locators": [
+        "main essay paragraphs1–8; Alexandra/Alex/Sandra thought experiment"
+      ],
+      "provenance_notes": "Direct author position, short publisher essay linked to book; not complete technical book argument. Neurosurgical premises/projections treated as argument assumptions, not independently established clinical facts.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T13-004",
+      "title": "DMT Models the Near-Death Experience",
+      "authors": [
+        "Christopher Timmermann",
+        "Leor Roseman",
+        "Luke Williams",
+        "David Erritzoe",
+        "Charlotte Martial",
+        "Héléna Cassol",
+        "Steven Laureys",
+        "David Nutt",
+        "Robin Carhart-Harris"
+      ],
+      "publication_date": "2018-08-15",
+      "url_or_identifier": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01424/full",
+      "source_type": "original_empirical_study",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T15:54:59.108988+00:00",
+      "relevant_locators": [
+        "Methods: Experimental Design, Screening, Study Procedures, Acute Outcomes, Comparison to actual NDE group; Results; Table1; Limitations; references"
+      ],
+      "provenance_notes": "DOI10.3389/fpsyg.2018.01424. Full HTML inspected. No separate EEG paper, supplement or participant raw data inspected.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T13-005",
+      "title": "Repository metadata for An Argument for Animalism",
+      "authors": [
+        "Eric T. Olson"
+      ],
+      "publication_date": "2003",
+      "url_or_identifier": "https://eprints.whiterose.ac.uk/id/eprint/734/",
+      "source_type": "repository_metadata",
+      "access_status": "inspected_metadata_and_abstract",
+      "retrieved_at": "2026-09-12T15:54:59.108988+00:00",
+      "relevant_locators": [
+        "abstract; version and publication metadata"
+      ],
+      "provenance_notes": "Counts conservatively as separate partial inspection, not independent argument. Links S-T13-002.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T13-006",
+      "title": "Richard Swinburne short intellectual autobiography",
+      "authors": [
+        "Richard Swinburne"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://users.ox.ac.uk/~orie0087/noframesindex.shtml",
+      "source_type": "author_provenance",
+      "access_status": "inspected_metadata",
+      "retrieved_at": "2026-09-12T15:54:59.108988+00:00",
+      "relevant_locators": [
+        "paragraphs on Mind Brain and Free Will and Are We Bodies or Souls"
+      ],
+      "provenance_notes": "Current page inspected for source navigation/provenance only; not a new substantive argument or pre-cutoffpublication assertion. Wrapper title John Broome mismatches Richard Swinburne body.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T13-007",
+      "title": "Publications, Richard Swinburne",
+      "authors": [
+        "Richard Swinburne"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://users.ox.ac.uk/~orie0087/framesetpublications.shtml",
+      "source_type": "author_bibliography",
+      "access_status": "inspected_metadata",
+      "retrieved_at": "2026-09-12T15:54:59.108988+00:00",
+      "relevant_locators": [
+        "Personal Identity1984; Are We Bodies or Souls; items201,207,216"
+      ],
+      "provenance_notes": "Current author bibliography, headed to March2026. Navigation/discovery only; not inspection of listed originals.",
+      "related_case_ids": []
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T09",
+  "report": "work/T09/report.md",
+  "counts": {
+    "claims": 20,
+    "arguments": 2,
+    "cases": 4,
+    "sources": 9
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T09-001",
+      "statement": "In one 45-year-old epilepsy patient, stimulation of the right face-selective fusiform pair elicited reported face distortions on seven real-face trials; four sham and three nearby control-pair face trials did not.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T09-004"
+      ],
+      "source_locators": [
+        "Methods: subject and EBS; Results: EBS and distortion"
+      ],
+      "case_ids": [
+        "C-T09-004"
+      ],
+      "dependency_group": "DG-T09-004",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Demand or reporting effects remain possible; the sham and control contrasts support causal involvement."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Repeated trials in one person, not independent people. Randomization and blinded assessor masking were not established."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-002",
+      "statement": "Fusiform stimulation does not establish a unitary face center: nonspecific nonface changes occurred, naming tests were small and procedurally different, current can affect connected sites, and the two stimulated regions were not separated.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T09-004"
+      ],
+      "source_locators": [
+        "Methods: famous face/place naming; Discussion paragraphs 2–4"
+      ],
+      "case_ids": [
+        "C-T09-004"
+      ],
+      "dependency_group": "DG-T09-004",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A distributed circuit containing these sites is compatible with the effect."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Famous-face naming errors: 1/5 real, 2/5 sham; places: 2/5 real, 0/5 sham. Null naming differences are not equivalence. No seizure or after-discharge was reported during stimulation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-003",
+      "statement": "Scheinin et al. recruited 40 healthy young men; 39 underwent randomized open propofol (19) or dexmedetomidine (20) anesthesia and 37 returned for sleep after two withdrawals. These are overlapping arms, not 76 participants.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-003"
+      ],
+      "source_locators": [
+        "Methods: Subjects and Experimental designs; Results: Physiologic sleep"
+      ],
+      "case_ids": [
+        "C-T09-003"
+      ],
+      "dependency_group": "DG-T09-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Within-person control strengthens comparability without creating independent replications."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "One propofol participant withdrew after randomization. Sleep occurred on average 18 weeks later; eligibility was restricted to healthy right-handed men aged 20–30."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-004",
+      "statement": "Among interviewable states, Scheinin et al. reported subjective experience in 80% of anesthesia interviews and 71% of sleep interviews, including contentless impressions; these are interview rates, not population prevalence.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T09-003"
+      ],
+      "source_locators": [
+        "Results: Realization of experimental designs; Assessment of the state of consciousness"
+      ],
+      "case_ids": [
+        "C-T09-003"
+      ],
+      "dependency_group": "DG-T09-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Dreaming and memory incorporation, with report and memory selection, can produce these reports."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Exact interview numerators and denominators for these percentages are not supplied in the inspected main text. Later prose shifts the 80% figure to arousable subjects; this remains a unit inconsistency. No extrapolation to deep unarousable anesthesia."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-005",
+      "statement": "State-linked relative PET blood-flow changes involved thalamic, cingulate and angular regions; fixed infusion and within-subject awakenings improved the comparisons, but these remain neural associations within manipulated states, not focal necessity or sufficiency tests.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T09-003"
+      ],
+      "source_locators": [
+        "Methods: Neuroimaging analysis; Figure 3; Discussion"
+      ],
+      "case_ids": [
+        "C-T09-003"
+      ],
+      "dependency_group": "DG-T09-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Arousal, attention, motor access, reporting and memory can contribute."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Disconnection contrasts: propofol 19, dexmedetomidine 14, sleep 9; reconnection: propofol 9, dexmedetomidine 16. Propofol loss used moderate sedation versus UR with different doses because only two reached UR2. PET integrates over 90 seconds."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-006",
+      "statement": "The anesthesia study notes that absent response or recalled content cannot conclusively establish absent experience or environmental awareness; three awareness-report states were excluded from its disconnected contrasts.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T09-003"
+      ],
+      "source_locators": [
+        "Assessment of the state of consciousness; Results: realization; Discussion limitations"
+      ],
+      "case_ids": [
+        "C-T09-003"
+      ],
+      "dependency_group": "DG-T09-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Memory failure, stimulus salience and output impairment can hide experience."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "One propofol and one dexmedetomidine awareness report followed UR2, and one followed N2 sleep; these need not be three disjoint people across overlapping arms. The initial anesthesia dream question preceded PET, while the detailed interview followed PET."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-007",
+      "statement": "Tasserie et al. studied five male rhesus macaques: two DBS animals and three awake comparators, with previously published awake auditory data reused. The intervention unit is two animals.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-002"
+      ],
+      "source_locators": [
+        "Methods: Animals and Event-related auditory task"
+      ],
+      "case_ids": [
+        "C-T09-002"
+      ],
+      "dependency_group": "DG-T09-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Comparisons cannot remove all differences between DBS animals and separate awake animals."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Do not pool animals, sessions, voxels or reused datasets. Detailed session counts and exclusions in uninspected supplements remain gaps."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-008",
+      "statement": "Under maintained propofol, high central-thalamic stimulation increased the reported arousal score from 0/11 to 9/11 in both DBS macaques; low CT reached 3/11 and ventrolateral stimulation remained 0/11. This supports causal modulation of behavioral arousal under these conditions.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-002"
+      ],
+      "source_locators": [
+        "Results: Behavioral effects; Figure 2E; Methods: stimulation protocol"
+      ],
+      "case_ids": [
+        "C-T09-002"
+      ],
+      "dependency_group": "DG-T09-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Stimulation can recruit widespread axons and arousal pathways rather than only local cell bodies."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Awake score 11/11; stimulation was 3 V versus 5 V at 130.208 Hz. Behavior was assessed outside the scanner without paralysis. Blinding and randomized condition order were not established in the inspected text."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-009",
+      "statement": "High CT stimulation also shifted fMRI dynamics and enhanced hierarchical auditory responses, but subjective awareness was inferred from signatures; no auditory VL-control data were acquired and anesthetic fMRI used paralysis.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T09-002"
+      ],
+      "source_locators": [
+        "Figure 6; Methods: anesthesia and auditory task; Discussion"
+      ],
+      "case_ids": [
+        "C-T09-002"
+      ],
+      "dependency_group": "DG-T09-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Arousal, sensory gating or processing may restore markers without proving a specific subjective content."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Separate awake animals and reused data; passive local-global task, without trialwise experience reports. Medial nuclei and axonal spread, plus physiological changes, limit localization. This is not proof of efficacy in human brain injury."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-010",
+      "statement": "Cogitate recruited 256 across fMRI (120), MEG (102) and iEEG (34), retaining 108, 97 and 32 respectively. Main noninvasive tests used 73 fMRI and 65 MEG held-out datasets; invasive data were not split.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-001",
+        "S-T09-008"
+      ],
+      "source_locators": [
+        "Methods: Participants; Supplement section 14"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Analysis-specific samples and clinical coverage constrain modality comparisons."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "fMRI exclusions: eight motion, two coverage, two incomplete; MEG: two behavior, two noise, one reconstruction; iEEG: two incomplete. Three iEEG patients below the behavior threshold were retained as a declared deviation. iEEG analyses used 31 for activation, 29 for decoding and 28 for RSA."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-011",
+      "statement": "Cogitate tested suprathreshold visual category, identity, orientation and duration while varying task relevance; it did not directly contrast conscious with unconscious processing or perturb candidate brain regions.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-001",
+        "S-T09-007",
+        "S-T09-008"
+      ],
+      "source_locators": [
+        "Figure 1; Methods: Procedure; Supplement section 3"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Visible-stimulus responses may include unconscious processing; task irrelevance does not guarantee absence of attention."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Durations were 0.5, 1.0 and 1.5 seconds across four categories. A separate 39-person surprise-memory control supports encoding of irrelevant items but cannot certify continuous awareness of every feature or offset on each main-study trial."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-012",
+      "statement": "Operational predictions contrasted posterior versus prefrontal decoding, posterior duration tracking versus prefrontal onset/offset ignition, and posterior versus long-range prefrontal synchrony; core mathematical theories were not directly computed or exhaustively tested.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T09-001",
+        "S-T09-007"
+      ],
+      "source_locators": [
+        "Preregistered predictions; Protocol Experiment 1; biological focus"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Auxiliary biological implementations and measurement assumptions can be revised."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Prediction centrality differed: IIT decoding was noncritical. The published 2023 protocol is an earlier version, not a complete audit of OSF timestamps."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-013",
+      "statement": "Results partly supported sustained posterior representations and transient prefrontal category decoding, but the expected prefrontal offset profile and sustained posterior gamma synchrony were not established; no overall theory winner follows.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-001"
+      ],
+      "source_locators": [
+        "Results predictions 1–3; Extended Data Figure 7"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Coverage, macroscopic mixed selectivity, awareness timing and sampling could affect null results."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "PFC orientation decoding appeared only in MEG with leakage uncertainty; identity was absent in PFC and posterior face orientation was not sustained. The outcome is mixed, not total refutation of either theory."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-014",
+      "statement": "Preregistered pairwise phase consistency supported neither critical connectivity prediction; additional exploratory dynamic functional connectivity partly supported GNWT and still lacked sustained posterior connectivity.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-001",
+        "S-T09-008"
+      ],
+      "source_locators": [
+        "Results: Interareal connectivity; Supplement section 14, items 5–8"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "PPC noise and sparse V1/V2 sampling can reduce sensitivity; DFC measures amplitude co-modulation rather than phase."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Do not relabel DFC as preregistered confirmation. Main fMRI connectivity pooled task conditions. The cited coverage comparison has 12 V1/V2 electrodes versus 472 in PFC, and relevant posterior pair analyses involved only four patients."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-015",
+      "statement": "The 2023 protocol made offset ignition conditional on conscious detection in its GNW overview and described it as possible in analysis 2; elsewhere it described onset/offset as the tested expectation. This qualifies claims that the later offset objection was entirely post hoc.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T09-007",
+        "S-T09-001",
+        "S-T09-006"
+      ],
+      "source_locators": [
+        "Protocol GNW overview and Experiment 1 analysis 2; Nature prediction 2"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Failure of a committed operational test can still challenge the model even when it is not an unconditional whole-theory prediction."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Original and amended OSF files were not audited; retain the wording tension rather than select a convenient version."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-016",
+      "statement": "Naccache and colleagues argue that assumptions about offset attention, continuous awareness and macroscopic PFC decoding limit the Nature challenge; they also deny that activity-silent storage is mandatory for GNWT.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T09-006",
+        "S-T09-008"
+      ],
+      "source_locators": [
+        "Critique: offset, decoding and duration sections; Supplement section 13, pp.122–124"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The consortium argues in the original discussion that strong suprathreshold signals, multimodal controls and prior agreements make failures informative."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "This is a documented argument, not measured inattention. The critique says category and orientation decoding were lacking, although Nature found category decoding; do not adopt that wording as an empirical result. Its name correction does not repair this wording."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-017",
+      "statement": "IIT proponents accept the failed sustained gamma-synchrony prediction but propose coverage, frequency choice and relaxed ROI criteria as limitations; their posterior-sufficiency interpretation is an argument, not a direct inactivation result.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T09-008",
+        "S-T09-001"
+      ],
+      "source_locators": [
+        "Supplement sections 12–12.1, pp.119–122; Nature Discussion"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The consortium treats missing connectivity as a substantive challenge; a different frequency cannot count as success of the original gamma prediction."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "No Phi or full cause-effect structure was computed. Posterior localization fits multiple theories; ROI relaxation is acknowledged in supplementary section 14."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-018",
+      "statement": "The published protocol, final article and supplement disclose analysis changes, including an original half-split versus final one-third optimization split, retained low-performance patients, altered RSA and exploratory DFC; this packet does not claim a verified OSF history.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-007",
+        "S-T09-001",
+        "S-T09-008"
+      ],
+      "source_locators": [
+        "Protocol project status; Nature Participants; Supplement section 14, pp.124–126"
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Transparent deviations can be pragmatically justified while changing confirmatory weight."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Detailed supplementary analyses were not recomputed, and separate registration files remain uninspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-019",
+      "statement": "Neural perturbations provide causal evidence for contributions to human perceptual reports and macaque arousal/access markers, while PET and theory-test recordings locate associations; they do not establish one universally necessary and sufficient neural mechanism.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T09-002",
+        "S-T09-003",
+        "S-T09-004",
+        "S-T09-001"
+      ],
+      "source_locators": [
+        "T09 cross-study inference from CL-T09-001–018"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T09-CONDITIONAL-INFERENCE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Models limited to reporting or output remain logically possible but must explain reversible, site-specific reported phenomenological effects."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Distinct studies, methods and species are not pooled; generalization requires separate validation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "claim_id": "CL-T09-020",
+      "statement": "This packet does not establish physicalist identity, fundamentality, universal consciousness, brain-independent survival, timelessness, cosmic purpose, goodness or moral authority; those conclusions need additional discriminating and bridge premises.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T09-001",
+        "S-T09-002",
+        "S-T09-003",
+        "S-T09-004"
+      ],
+      "source_locators": [
+        "T09 arguments A-T09-001–002; T01 definitions"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T09-CONDITIONAL-INFERENCE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Identity, psychophysical-law, dualist/interface and idealist accounts can accommodate causal neural dependence when explicitly specified."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Compatibility is not positive evidence or equal likelihood. No posterior is assigned. H-B does not mean that the brain has no influence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T09-001",
+      "name": "Causal neural contributions constrain embodied mind models",
+      "position": "Strongest empirical dependence case, scoped",
+      "premises": [
+        "Site-dependent neural intervention changes reported face appearance or arousal/access markers.",
+        "Within-subject/sham/control contrasts make mere passive correlation an incomplete description."
+      ],
+      "bridge_principles": [
+        "The intervention meaningfully affects the neural system relevant to the observed report/behavior.",
+        "Reports are defeasible evidence of experience; animal markers require additional validation."
+      ],
+      "conclusion": "Neural processes causally contribute to embodied perception and state functions in these tested contexts; models denying any such contribution are challenged.",
+      "source_ids": [
+        "S-T09-002",
+        "S-T09-003",
+        "S-T09-004"
+      ],
+      "claim_ids": [
+        "CL-T09-001",
+        "CL-T09-002",
+        "CL-T09-005",
+        "CL-T09-008",
+        "CL-T09-009",
+        "CL-T09-019"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Interventions may alter access/reporting, distributed routing or a posited interface without proving how experience is constituted.",
+      "strongest_reply": "An interface account must specify predictions for the observed content, site and state effects rather than merely accommodate them.",
+      "unresolved_issues": [
+        "Specific substrate versus reporting contributions.",
+        "Generalization beyond tested conditions.",
+        "Distinctive model predictions."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    },
+    {
+      "argument_id": "A-T09-002",
+      "name": "Neural dependence does not by itself settle ontology",
+      "position": "Strongest countercase to metaphysical overreach",
+      "premises": [
+        "Causal modulation does not establish metaphysical identity.",
+        "Unresponsiveness and absent markers do not directly verify phenomenal absence.",
+        "Theory tests depend on biological and measurement assumptions."
+      ],
+      "bridge_principles": [
+        "A metaphysical conclusion needs a discriminating prediction or an independently justified bridge."
+      ],
+      "conclusion": "Results constrain embodied models without uniquely selecting physicalism or brain independence, or licensing survival claims from failures of a neural theory.",
+      "source_ids": [
+        "S-T09-001",
+        "S-T09-003",
+        "S-T09-006",
+        "S-T09-007",
+        "S-T09-008"
+      ],
+      "claim_ids": [
+        "CL-T09-006",
+        "CL-T09-011",
+        "CL-T09-014",
+        "CL-T09-015",
+        "CL-T09-016",
+        "CL-T09-017",
+        "CL-T09-018",
+        "CL-T09-020"
+      ],
+      "dependency_argument_ids": [
+        "A-T09-001"
+      ],
+      "strongest_objection": "An unspecified interface view can fit any data and lose predictive force against explicit neural mechanisms.",
+      "strongest_reply": "Require prospective contrasting predictions; logical underdetermination does not make alternatives equally supported.",
+      "unresolved_issues": [
+        "Neural necessity across states.",
+        "Conscious versus unconscious processing.",
+        "Independent identity and survival criteria."
+      ],
+      "review_status": "accepted",
+      "review_id": "R09"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "C-T09-001",
+      "name": "Cogitate suprathreshold visual experiment and associated protocol/discussion",
+      "kind": "empirical_study",
+      "underlying_event_or_sample": "Cogitate suprathreshold visual experiment and associated protocol/discussion",
+      "event_date": null,
+      "source_ids": [
+        "S-T09-001",
+        "S-T09-006",
+        "S-T09-007",
+        "S-T09-008",
+        "S-T09-009"
+      ],
+      "duplicate_group": "D-T09-001",
+      "overlapping_sample_ids": [],
+      "related_case_ids": [],
+      "reporting_dependency_group": "DG-T09-001",
+      "chronology": [
+        {
+          "date": "2023-02-10",
+          "event": "Published protocol; earlier planning and amendments described, not independently timestamp-audited."
+        },
+        {
+          "date": "2025-04-30",
+          "event": "Main article and supplement."
+        },
+        {
+          "date": "2025-10-09",
+          "event": "GNWT critique."
+        },
+        {
+          "date": "2026-05-01",
+          "event": "Critique author-name correction."
+        }
+      ],
+      "denominators": {
+        "recruited": {
+          "fMRI": 120,
+          "MEG": 102,
+          "iEEG": 34
+        },
+        "retained": {
+          "fMRI": 108,
+          "MEG": 97,
+          "iEEG": 32
+        },
+        "held_out": {
+          "fMRI": 73,
+          "MEG": 65
+        },
+        "optimization": {
+          "fMRI": 35,
+          "MEG": 32
+        },
+        "iEEG_specific": {
+          "activation": 31,
+          "decoding": 29,
+          "RSA": 28
+        },
+        "separate_memory_control": 39
+      },
+      "access_gaps": [
+        "OSF version history and analysis code uninspected.",
+        "No separate later direct consortium reply located by the bounded search."
+      ]
+    },
+    {
+      "case_id": "C-T09-002",
+      "name": "Tasserie macaque thalamic DBS",
+      "kind": "empirical_study",
+      "underlying_event_or_sample": "Tasserie macaque thalamic DBS",
+      "event_date": null,
+      "source_ids": [
+        "S-T09-002"
+      ],
+      "duplicate_group": "D-T09-002",
+      "overlapping_sample_ids": [],
+      "related_case_ids": [],
+      "reporting_dependency_group": "DG-T09-002",
+      "chronology": [],
+      "denominators": {
+        "male_rhesus_total": 5,
+        "DBS_animals": 2,
+        "awake_comparators": 3,
+        "independent_session_counts": null
+      },
+      "access_gaps": [
+        "Supplement run and exclusion details not inspected.",
+        "No direct animal experience reports.",
+        "No VL arm for the auditory paradigm."
+      ]
+    },
+    {
+      "case_id": "C-T09-003",
+      "name": "Scheinin shared-cohort anesthesia and sleep",
+      "kind": "empirical_study",
+      "underlying_event_or_sample": "Scheinin shared-cohort anesthesia and sleep",
+      "event_date": null,
+      "source_ids": [
+        "S-T09-003"
+      ],
+      "duplicate_group": "D-T09-003",
+      "overlapping_sample_ids": [],
+      "related_case_ids": [],
+      "reporting_dependency_group": "DG-T09-003",
+      "chronology": [
+        {
+          "date": null,
+          "event": "Dose-finding and PET anesthesia studies in the shared cohort."
+        },
+        {
+          "date": "Mean 18 weeks later",
+          "event": "Sleep study with 37 returners."
+        }
+      ],
+      "denominators": {
+        "recruited": 40,
+        "anesthesia": 39,
+        "propofol": 19,
+        "dexmedetomidine": 20,
+        "sleep_return": 37,
+        "PET_disconnection": {
+          "propofol": 19,
+          "dex": 14,
+          "sleep": 9
+        },
+        "PET_reconnection": {
+          "propofol": 9,
+          "dex": 16
+        },
+        "experience_report_rates": {
+          "anesthesia": "80% of interviews",
+          "sleep": "71% of interviews"
+        },
+        "experience_rate_counts": null
+      },
+      "access_gaps": [
+        "Exact interview denominators and raw reports not inspected.",
+        "No immediate interviews in deep unarousable states."
+      ]
+    },
+    {
+      "case_id": "C-T09-004",
+      "name": "Parvizi single-patient fusiform stimulation",
+      "kind": "empirical_study",
+      "underlying_event_or_sample": "Parvizi single-patient fusiform stimulation",
+      "event_date": null,
+      "source_ids": [
+        "S-T09-004",
+        "S-T09-005"
+      ],
+      "duplicate_group": "D-T09-004",
+      "overlapping_sample_ids": [],
+      "related_case_ids": [],
+      "reporting_dependency_group": "DG-T09-004",
+      "chronology": [],
+      "denominators": {
+        "participants": 1,
+        "age": 45,
+        "real_face_trials": 7,
+        "sham_face_trials": 4,
+        "control_pair_face_trials": 3,
+        "famous_faces": {
+          "real": 5,
+          "sham": 5
+        },
+        "famous_places": {
+          "real": 5,
+          "sham": 5
+        }
+      },
+      "access_gaps": [
+        "Video not independently viewed.",
+        "Randomization and assessor masking not established.",
+        "Small trial count and current spread limit inference."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "S-T09-001",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": [
+        "Cogitate Consortium"
+      ],
+      "publication_date": "2025-04-30",
+      "url_or_identifier": "https://www.nature.com/articles/s41586-025-08888-1",
+      "source_type": "original empirical journal article",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Figure 1;Results predictions 1–3;Methods Participants;Discussion;Extended Data Fig7"
+      ],
+      "provenance_notes": "Full journal HTML read via public urllib after web redirect failure. Main methods/results/figure captions and references read; raw datasets not reanalyzed. Supplement separately inspected S008. No clinical neural intervention.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-007",
+        "S-T09-008"
+      ]
+    },
+    {
+      "source_id": "S-T09-002",
+      "title": "Deep brain stimulation of the thalamus restores signatures of consciousness in a nonhuman primate model",
+      "authors": [
+        "Jordy Tasserie",
+        "and colleagues"
+      ],
+      "publication_date": "2022-03-18",
+      "url_or_identifier": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8932660/",
+      "source_type": "original empirical journal article",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Results Behavioral effects and local/global novelty;Figure 2;Figure 6;Methods Animals,Behavioral assessment,Anesthesia protocol,Event-related auditory task;Discussion"
+      ],
+      "provenance_notes": "DOI10.1126/sciadv.abl5547. Full PMC HTML via public urllib after web recaptcha. Main text/methods/captions/references inspected; separate supplement not accessed. Replaces initially targeted inaccessible Redinbaugh2020 original, which remains a reference lead.",
+      "related_case_ids": [
+        "C-T09-002"
+      ],
+      "related_source_ids": []
+    },
+    {
+      "source_id": "S-T09-003",
+      "title": "Foundations of Human Consciousness: Imaging the Twilight Zone",
+      "authors": [
+        "Annalotta Scheinin",
+        "and colleagues"
+      ],
+      "publication_date": "2021-02-24",
+      "url_or_identifier": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8115882/",
+      "source_type": "original empirical journal article",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Methods Subjects;Assessment of state;Neuroimaging analysis;Results realization;Figure 2–3;Discussion limitations"
+      ],
+      "provenance_notes": "DOI10.1523/JNEUROSCI.0775-20.2020. Journal issue2021, online2020-12-28 identified in discovery; exact event dates not recovered. Full PMC HTML methods/results/table2 text/references read. Appendices not opened.",
+      "related_case_ids": [
+        "C-T09-003"
+      ],
+      "related_source_ids": []
+    },
+    {
+      "source_id": "S-T09-004",
+      "title": "Electrical Stimulation of Human Fusiform Face-Selective Regions Distorts Face Perception",
+      "authors": [
+        "Josef Parvizi",
+        "Corentin Jacques",
+        "Brett L. Foster",
+        "Nathan Witthoft",
+        "Vinitha Rangarajan",
+        "Kevin S. Weiner",
+        "Kalanit Grill-Spector"
+      ],
+      "publication_date": "2012-10-24",
+      "url_or_identifier": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517886/",
+      "source_type": "original empirical journal article",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Methods subject and EBS;Results EBS and distortion;Discussion"
+      ],
+      "provenance_notes": "DOI10.1523/JNEUROSCI.2609-12.2012. Full PMC HTML read via link in correction after journal403. Video described in paper, not separately viewed. Name correction applied from S005.",
+      "related_case_ids": [
+        "C-T09-004"
+      ],
+      "related_source_ids": [
+        "S-T09-005"
+      ]
+    },
+    {
+      "source_id": "S-T09-005",
+      "title": "Correction: Parvizi et al., Electrical Stimulation of Human Fusiform Face-Selective Regions Distorts Face Perception",
+      "authors": [
+        "Journal of Neuroscience"
+      ],
+      "publication_date": "2013-01-16",
+      "url_or_identifier": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3668436/",
+      "source_type": "original correction notice",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "entire correction paragraph"
+      ],
+      "provenance_notes": "DOI10.1523/JNEUROSCI.5614-12.2013. Changes fourth author to Nathan Witthoft; no empirical correction. Fully read, not separate study.",
+      "related_case_ids": [
+        "C-T09-004"
+      ],
+      "related_source_ids": [
+        "S-T09-004"
+      ]
+    },
+    {
+      "source_id": "S-T09-006",
+      "title": "GNW theoretical framework and the “adversarial testing of global neuronal workspace and integrated information theories of consciousness”",
+      "authors": [
+        "Lionel Naccache",
+        "Claire Sergent",
+        "Stanislas Dehaene",
+        "Xiao-Jing Wang",
+        "Michele Farisco",
+        "Jean-Pierre Changeux"
+      ],
+      "publication_date": "2025-10-09",
+      "url_or_identifier": "https://academic.oup.com/nc/article/2025/1/niaf037/8280147",
+      "source_type": "original theoretical critique",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "sections GNW ignition after stimulus offset;Lack of decoding;Duration;References"
+      ],
+      "provenance_notes": "DOI10.1093/nc/niaf037. Full journal text via web redirect to silverchair; correction S009 only author name. Some authors overlap original theory proponents. Attribution of challenge, not independent experiment.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-001",
+        "S-T09-009"
+      ]
+    },
+    {
+      "source_id": "S-T09-007",
+      "title": "An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory",
+      "authors": [
+        "Lucia Melloni",
+        "and colleagues"
+      ],
+      "publication_date": "2023-02-10",
+      "url_or_identifier": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268577",
+      "source_type": "original study protocol",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Theory GNW overview;Experiment 1 predictions and Neural activation;Status and timeline;References"
+      ],
+      "provenance_notes": "Full PLOS HTML relevant theory/design/protocol/version discussion and references read. Prior published protocol, not independent outcomes. Original OSF files and complete amendment timeline not separately inspected.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-001"
+      ]
+    },
+    {
+      "source_id": "S-T09-008",
+      "title": "Supplementary Information to Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": [
+        "Cogitate Consortium;IIT discussion by Boly,Koch,Tononi;GNWT discussion by Dehaene"
+      ],
+      "publication_date": "2025-04-30",
+      "url_or_identifier": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-08888-1/MediaObjects/41586_2025_8888_MOESM1_ESM.pdf",
+      "source_type": "original article supplement",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "section3 control memory study pp.25–29;sections12–13 pp.119–124;section14 pp.124–126;references"
+      ],
+      "provenance_notes": "Relevant sections text inspected; visually checked PDF pages120,122,124,126 (=printed119,121,123,125). Not all supplementary analyses independently rechecked. Separate inspection unit; same article/sample as S001.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-001"
+      ]
+    },
+    {
+      "source_id": "S-T09-009",
+      "title": "Correction to: GNW theoretical framework and the “adversarial testing of global neuronal workspace and integrated information theories of consciousness”",
+      "authors": [
+        "Neuroscience of Consciousness"
+      ],
+      "publication_date": "2026-05-01",
+      "url_or_identifier": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13134662/",
+      "source_type": "original correction notice",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "entire correction paragraph"
+      ],
+      "provenance_notes": "DOI10.1093/nc/niag020. Fully inspected; corrects Xiao-Jing Wang in author list/contributions, no substantive theory correction.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-006"
+      ]
+    }
+  ]
+}

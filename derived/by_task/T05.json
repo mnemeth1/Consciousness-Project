@@ -1,0 +1,294 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T05",
+  "report": "work/T05/report.md",
+  "counts": {
+    "claims": 4,
+    "arguments": 4,
+    "cases": 0,
+    "sources": 4
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T05-001",
+      "statement": "Chalmers distinguishes functional explanation from phenomenal explanation.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T03-001"
+      ],
+      "source_locators": [
+        "sections3,5-6"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T05-epistemic-ontological-gap",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing argument A-T05-004 challenges the attributed position, not the evidence that the author made the argument."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Supported attribution only; premise truth not established. Same authors and shared debate are dependent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R05"
+    },
+    {
+      "claim_id": "CL-T05-002",
+      "statement": "Chalmers argues against the phenomenal-concept strategy.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T05-003"
+      ],
+      "source_locators": [
+        "PDFpp9-17,23-35"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T05-epistemic-ontological-gap",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing argument A-T05-003 challenges the attributed position, not the evidence that the author made the argument."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Supported attribution only; premise truth not established. Same authors and shared debate are dependent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R05"
+    },
+    {
+      "claim_id": "CL-T05-003",
+      "statement": "Papineau defends that strategy and answers Chalmers.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T05-004"
+      ],
+      "source_locators": [
+        "printedpp126-142"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T05-epistemic-ontological-gap",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing argument A-T05-002 challenges the attributed position, not the evidence that the author made the argument."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Supported attribution only; premise truth not established. Same authors and shared debate are dependent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R05"
+    },
+    {
+      "claim_id": "CL-T05-004",
+      "statement": "Papineau challenges the explanatory demand placed on identities.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T05-005"
+      ],
+      "source_locators": [
+        "printedpp8-10,18-19"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T05-epistemic-ontological-gap",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Opposing argument A-T05-001 challenges the attributed position, not the evidence that the author made the argument."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Supported attribution only; premise truth not established. Same authors and shared debate are dependent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R05"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T05-001",
+      "name": "Functional explanation and phenomenal target",
+      "position": "gap",
+      "premises": [
+        "Functional success.",
+        "Phenomenal target remains."
+      ],
+      "bridge_principles": [
+        "Explanatory adequacy criterion."
+      ],
+      "conclusion": "Further explanatory demand.",
+      "source_ids": [
+        "S-T03-001"
+      ],
+      "claim_ids": [
+        "CL-T05-001"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A-T05-004",
+      "strongest_reply": "A-T05-002",
+      "unresolved_issues": [
+        "Expanded map and limits in report.md; bridges contested; no H-F/survival/theism entailment."
+      ],
+      "review_status": "accepted",
+      "review_id": "R05"
+    },
+    {
+      "argument_id": "A-T05-002",
+      "name": "Knowledge/conceivability and modal bridge",
+      "position": "conditional_antiphysicalism",
+      "premises": [
+        "Conceivable(P and not Q).",
+        "Physicalism excludes possible(P and not Q)."
+      ],
+      "bridge_principles": [
+        "B-T05-M; B-T05-K; B-T05-E."
+      ],
+      "conclusion": "Conditional rejection of physicalism.",
+      "source_ids": [
+        "S-T05-003"
+      ],
+      "claim_ids": [
+        "CL-T05-002"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A-T05-003",
+      "strongest_reply": "A-T05-002 dilemma in report",
+      "unresolved_issues": [
+        "Expanded map and limits in report.md; bridges contested; no H-F/survival/theism entailment."
+      ],
+      "review_status": "accepted",
+      "review_id": "R05"
+    },
+    {
+      "argument_id": "A-T05-003",
+      "name": "Phenomenal concepts and property identity",
+      "position": "physicalist_defense",
+      "premises": [
+        "Distinct epistemic routes."
+      ],
+      "bridge_principles": [
+        "B-T05-C."
+      ],
+      "conclusion": "Epistemic difference need not refute identity.",
+      "source_ids": [
+        "S-T05-004"
+      ],
+      "claim_ids": [
+        "CL-T05-003"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A-T05-002",
+      "strongest_reply": "S-T05-004 pp136-142",
+      "unresolved_issues": [
+        "Expanded map and limits in report.md; bridges contested; no H-F/survival/theism entailment."
+      ],
+      "review_status": "accepted",
+      "review_id": "R05"
+    },
+    {
+      "argument_id": "A-T05-004",
+      "name": "Identity and explanatory standards",
+      "position": "physicalist_defense",
+      "premises": [
+        "Identity warranted independently (conditional)."
+      ],
+      "bridge_principles": [
+        "B-T05-E challenged."
+      ],
+      "conclusion": "No further causal connection follows.",
+      "source_ids": [
+        "S-T05-005"
+      ],
+      "claim_ids": [
+        "CL-T05-004"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A-T05-001",
+      "strongest_reply": "S-T05-005 pp8-10",
+      "unresolved_issues": [
+        "Expanded map and limits in report.md; bridges contested; no H-F/survival/theism entailment."
+      ],
+      "review_status": "accepted",
+      "review_id": "R05"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-T03-001",
+      "title": "Facing Up to the Problem of Consciousness",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "publication_date": "1995",
+      "url_or_identifier": "https://consc.net/papers/facing.html",
+      "source_type": "primary philosophical argument; author-hosted published-text version",
+      "access_status": "inspected_relevant_sections",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Sections 2–3, paragraphs distinguishing experience from functional explanation; rendered lines 34–63",
+        "Section 5, final argument against purely physical explanation; rendered lines 114–125",
+        "Section 6, paragraphs introducing fundamental experience, psychophysical principles and naturalistic dualism; rendered lines 129–143"
+      ],
+      "provenance_notes": "Inherited Research_Plan.md URL directly opened. Relevant passages inspected; no claim of whole-text inspection. Journal metadata is displayed on author page. Narrow attribution only; report model stipulations are not attributed to this author.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T05-003",
+      "title": "Phenomenal Concepts and the Explanatory Gap",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "publication_date": "2006",
+      "url_or_identifier": "https://consc.net/papers/pceg.pdf",
+      "source_type": "primary_philosophical_argument",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12T05:09:53.408723+00:00",
+      "relevant_locators": [
+        "PDF pp2-5,9-17,23-30,32-38"
+      ],
+      "provenance_notes": "Author PDF, identifying2006 publication; same-volume publication-year variants2007 occur in discovery metadata. Version identified by exact URL. Original positive argument/reply; not substitute defender evidence.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T05-004",
+      "title": "Phenomenal and Perceptual Concepts",
+      "authors": [
+        "David Papineau"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.davidpapineau.co.uk/uploads/1/8/5/5/18551740/perc_and_phen_concepts.pdf",
+      "source_type": "primary_philosophical_argument",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12T05:09:53.408723+00:00",
+      "relevant_locators": [
+        "printed pp111-119,124-132,133-144"
+      ],
+      "provenance_notes": "Author-hosted typeset chapter7, pp111-144. Author index labels2006; other discovered citations2007/2008. Year unresolved here; content/version and locators explicit. Direct physicalist defender.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T05-005",
+      "title": "What Exactly is the Explanatory Gap?",
+      "authors": [
+        "David Papineau"
+      ],
+      "publication_date": "2010-09-24",
+      "url_or_identifier": "https://www.davidpapineau.co.uk/uploads/1/8/5/5/18551740/explanatorygappdf.pdf",
+      "source_type": "primary_philosophical_argument",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12T05:09:53.408723+00:00",
+      "relevant_locators": [
+        "printed pp5-10,13-19; PDF cover plus15articlepages"
+      ],
+      "provenance_notes": "Author-hosted published text; online2010-09-24, Philosophia39(2011):5-19, DOI10.1007/s11406-010-9273-6.4th substantive inspection, source opened before relevant passages read.",
+      "related_case_ids": []
+    }
+  ]
+}

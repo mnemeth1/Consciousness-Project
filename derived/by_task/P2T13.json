@@ -1,0 +1,1018 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T13",
+  "report": "work/P2T13/report.md",
+  "counts": {
+    "claims": 32,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 6
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T13-001",
+      "statement": "Yoshizawa explicitly targets Metz 2013 chapter 7 and argues that a concern about losing already valuable ordinary life is not captured merely by demanding perfect value.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-002"
+      ],
+      "source_locators": [
+        "pp134–135;138–145"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-P2T13-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "This is a developed criticism and reconstruction, not his endorsement of immortality as necessary."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-002",
+      "statement": "Yoshizawa distinguishes the person possessing meaning-making properties from the life assessed, and separates whole/part life, time and pro tanto/on-balance meaning.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-002"
+      ],
+      "source_locators": [
+        "§2 pp135–138"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-P2T13-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "A proposed philosophical framework; neither its categories nor its monopolar preference are established facts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-003",
+      "statement": "Yoshizawa distinguishes an existing person without meaning-making properties from there being no such person; he rejects inferring general meaninglessness from the latter.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-002"
+      ],
+      "source_locators": [
+        "pp143–144 forms(1)–(3′);p146 nn18–19"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-P2T13-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "He allows particular deaths to prevent achievements; his rejection is not the claim that death never matters."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-004",
+      "statement": "Yoshizawa ultimately rejects the general claim that a person’s death itself makes her life meaningless and favours naturalistic objectivism.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-002"
+      ],
+      "source_locators": [
+        "pp145–148,especially146–147"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-P2T13-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution only; his conclusion is philosophically disputed and does not establish naturalism about consciousness."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-005",
+      "statement": "Yoshizawa allows continuity, posthumous events and others’ survival to matter, while distinguishing this from a general final-loss nihilism.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-002"
+      ],
+      "source_locators": [
+        "p145; p146 n18; p147 n20"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-P2T13-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "An argument about the value and temporal status of lives does not establish actual further first-person experience."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-006",
+      "statement": "Yoshizawa expressly does not certify that Tolstoy intended his reconstruction of the final-loss rationale.",
+      "claim_type": "source_version_provenance",
+      "source_ids": [
+        "S-P2T13-002"
+      ],
+      "source_locators": [
+        "p141 n9"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-P2T13-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Metz 2015 p253 describes it as the best way to understand Tolstoy; neither author supplies a fresh full historical-source inspection here."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-007",
+      "statement": "Yoshizawa identifies his 2011 Japanese paper as principally addressing Metz 2003, and his 2015 paper as a developed treatment of Metz 2013.",
+      "claim_type": "source_version_provenance",
+      "source_ids": [
+        "S-P2T13-002"
+      ],
+      "source_locators": [
+        "p141 n8;pp148–149 bibliography"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-P2T13-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Neither the Japanese original nor Metz 2003 has been inspected in this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-008",
+      "statement": "Metz’s actual 2015 reply grants the distinction between absent perfect value and losing imperfect value, and grants that the latter deserves attention.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "§3.1 p253"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-004",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Concession of an omitted rationale does not concede its soundness."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-009",
+      "statement": "Metz objects that calling the ended life already meaningful concedes meaning without immortality; he proposes instead a rationale under which the ending is what makes the life meaningless.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "§3.1 pp253–254"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-004",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "This targets a strict necessity formulation; neither formulation proves a finite life valueless."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-010",
+      "statement": "Metz questions whether endlessly retained love or contemplation would still be merely ordinary value, and considers a possible distinction between perfection and what explains meaninglessness.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "§3.1 p254"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-004",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "The suggested response on Yoshizawa’s behalf is hypothetical, not an inspected later publication. The explanatory bridge remains contested."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-011",
+      "statement": "Metz separates the individual or species assessed from whether the source of meaning is natural or supernatural; his individual-life inquiry does not simply exclude supernatural sources by definition.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "pp230–234,especially233–234"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-004",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Only declared part of §2.1 read; Tartaglia’s original and the rest of this reply remain uninspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-012",
+      "statement": "Metz’s 2015 discussion concedes he did not conclusively establish either an incompatibility of divine atemporality with purposiveness or that only his preferred qualitative divine properties could ground meaning.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "pp255–257"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-004",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Partial §3.2 extent; Poettcker’s original is not independently inspected. This is not a retroactive rewording of Metz 2000."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-013",
+      "statement": "Wolf’s final 2010 first lecture treats meaningfulness as a distinctive value involving fitting concern and positive engagement with independently worthy objects.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-002"
+      ],
+      "source_locators": [
+        "pp3–10;pp25–27"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "The final book version is newly inspected; no claim of textual identity with the v1 draft or proof of objective value."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-014",
+      "statement": "Wolf argues that feeling fulfilled or producing benefits incidentally does not alone supply the fitting engagement required by her account.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-002"
+      ],
+      "source_locators": [
+        "pp17–25,especially20–22"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Counterexamples are philosophical illustrations; no clinical findings about drugs, mental illness or well-being are established."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-015",
+      "statement": "Wolf’s final first lecture explicitly limits what its qualitative account offers a person distressed by cosmic smallness or inability to make a large lasting impact.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-002"
+      ],
+      "source_locators": [
+        "pp28–30,especiallyp29n14"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "It offers possible solace, not a comprehensive solution to every ultimate-context concern."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-016",
+      "statement": "Wolf ends the selected first lecture by declining to promise a theory of objective value or an infallible identification procedure.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-002"
+      ],
+      "source_locators": [
+        "p33"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "The second lecture, comments and response are not inspected; this is not a whole-book rejection or resolution of value grounding."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-017",
+      "statement": "Fischer’s inspected reprint distinguishes the identity condition from the attractiveness of a future life to the present person.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "pp224–225"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "A stipulated future bearer is not evidence of actual survival; this is his reconstruction of Williams, whose original is inherited here."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-018",
+      "statement": "Fischer distinguishes outwardly absorbed experiential content from ownership of experience, rejecting an automatic inference from the former to loss of the subject.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "§II pp226–227"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "This blocks one inference; it does not supply a complete criterion of numerical identity."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-019",
+      "statement": "Fischer argues that an appealing endless life could contain varied activities and periods of boredom; it need not be one uniformly absorbing activity.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "§III pp228–229"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Possibility argument and standards comparison, not a proof that compulsory endless life is desirable."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-020",
+      "statement": "Fischer distinguishes self-exhausting from repeatable pleasures, relative to a person and their distribution, and proposes that repeatable goods may sustain categorical desires.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "pp230–235;§IVp237"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Extrapolation to unending life and the relation of pleasure to meaning remain contestable; no measured immortal sample."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-021",
+      "statement": "Fischer permits changes of character arising through appropriate reflection to remain attractive, while distinguishing coercion, deception and other unwelcome changes.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "p236"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Finite analogies do not resolve every indefinitely extended identity or present-concern case."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-022",
+      "statement": "The inspected Fischer review copy is a later reprint layout, not the 1994 journal layout: its pages are224–238 and its apparatus includes an editorial 1996 publication note and a 2004 translation.",
+      "claim_type": "source_version_provenance",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "p. 225 n. 11; p238references; primary 1994 metadata Q012R001; Broadview metadata Q008R001"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-T14-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Broadview 2009 anthology is a supported candidate; exact proof-to-final and journal collation remains unresolved. PDF 2022 dates do not date the argument."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-023",
+      "statement": "The selected final-loss exchange does not establish that ending a life erases its earlier value; treating absence as an existing state without meaning requires a further bridge.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T13-002",
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "Yoshizawap146nn18–19;Metz 2015§3.1pp253–254"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-project-bridges",
+      "supporting_claim_ids": [
+        "CL-P2T13-003",
+        "CL-P2T13-008",
+        "CL-P2T13-009",
+        "CL-P2T13-010"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "conditional",
+      "limitations": [
+        "The strongest strict necessity advocate can dispute retrospective attribution; the present packet does not settle every theory of value or time."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-024",
+      "statement": "Possible worthwhile continuation requires relevant goods, an appropriate relation to the person, and actual further experience before it can support a personal-survival claim.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "Fischerpp224–227,235–237; frozen T13CL016–019and T14CL010,013"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-project-bridges",
+      "supporting_claim_ids": [
+        "CL-P2T13-017",
+        "CL-P2T13-018",
+        "CL-P2T13-020",
+        "CL-P2T13-021"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Information, recognition and a complete history can preserve something valuable without supplying further subjectivity. No new empirical survival evidence."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-025",
+      "statement": "An occurrence of consciousness, an intended role, and a worthy role remain distinct claims; duration or value alone establishes none of the agency, intention and normative bridges.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T14-004",
+        "S-T14-002"
+      ],
+      "source_locators": [
+        "Metz 2015 pp255–257;Wolfpp8–10,33; frozen T14CL015–018"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-project-bridges",
+      "supporting_claim_ids": [
+        "CL-P2T13-012",
+        "CL-P2T13-013",
+        "CL-P2T13-016"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "conditional",
+      "limitations": [
+        "No creator purpose, goodness, authority or metaphysical family winner is established."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-026",
+      "statement": "Yoshizawa explicitly distinguishes the four-dimensional existence of a finite life from eternity or transcending temporality.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-002"
+      ],
+      "source_locators": [
+        "p. 147 n. 20"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-S-P2T13-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "His Singer quotation is not an independent inspection of Singer; neither eternalism nor a timeless conscious bearer is established."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-027",
+      "statement": "Metz 2000 defines purpose theory as a conditional account of what could confer meaning, not a claim that God or an assigned purpose actually exists. It can permit meaning without an afterlife.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-003"
+      ],
+      "source_locators": [
+        "pp293–295"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-Metz-purpose",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Purpose theory is distinct from justice/perfection theories; no existence or survival inference."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-028",
+      "statement": "Metz 2000 distinguishes a purpose assigned from a purpose fulfilled, and separates the grounding account from epistemic knowledge of which purpose or how to fulfil it.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-003"
+      ],
+      "source_locators": [
+        "pp295–297"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-Metz-purpose",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Unknown guidance does not by itself refute the conditional theory, but no actual purpose is verified."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-029",
+      "statement": "Metz 2000 argues that some versions of purpose theory can avoid the disrespect objection by making a respectful request for free moral action rather than manipulation.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-003"
+      ],
+      "source_locators": [
+        "pp297–302"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-Metz-purpose",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "This relies on contested Kantian/retributive/autonomy premises; the article rejects an infinite-damnation version atp298. No theodicy or punishment practice is justified by this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-030",
+      "statement": "Metz 2000 frames his principal objection around God’s being necessary for any meaning, and explicitly distinguishes that thesis from God’s possible enhancement of meaningful lives.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-003"
+      ],
+      "source_locators": [
+        "pp304–306"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-Metz-purpose",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "His historical and sociological generalizations about what most religious thinkers or naturalists accept are not independently verified."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-031",
+      "statement": "Metz 2000 proposes that uniquely valuable divine qualitative properties best explain strict divine necessity, while arguing those properties prima facie conflict with purposiveness.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-003"
+      ],
+      "source_locators": [
+        "pp306–310; p. 313 n. 25"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-Metz-purpose",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "The value of unity/independence and the characterization of divine agency are argued sketches. The claim does not refute every divine concept or all possible nonpurposive grounding."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "claim_id": "CL-P2T13-032",
+      "statement": "Metz 2000 explicitly says his stated objection does not require disbelief in purpose theory and presents compatibility and alternative-grounding reply strategies.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-P2T13-003"
+      ],
+      "source_locators": [
+        "p294; pp309–311,especiallyp311; p. 313 n. 26"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T13-Metz-purpose",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "directly_inspected_attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "This qualification is present in the 2000 original; the 2015 caveats cannot be treated as proof of a new wholesale retraction. Referenced Stump/Kretzmann, Rogers and Lodzinski bodies are not inspected for this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T13-001",
+      "name": "Final loss and the necessity of endurance",
+      "position": "Reconstructed strict necessity rationale; neither Yoshizawa nor Metz endorses its soundness",
+      "premises": [
+        "Ordinary relationships and activities can be valuable.",
+        "Death ends a person and may end valued relationships.",
+        "The strict advocate claims the ending makes the whole life meaningless."
+      ],
+      "bridge_principles": [
+        "Ending must negate relevant whole-life significance, not merely preclude additional goods.",
+        "The meaning at issue and its temporal bearer must be specified."
+      ],
+      "conclusion": "The third premise would require endurance for meaning only if the loss-to-meaninglessness bridge is defended.",
+      "source_ids": [
+        "S-P2T13-002",
+        "S-T14-004"
+      ],
+      "claim_ids": [
+        "CL-P2T13-001",
+        "CL-P2T13-002",
+        "CL-P2T13-003",
+        "CL-P2T13-004",
+        "CL-P2T13-008",
+        "CL-P2T13-009",
+        "CL-P2T13-010",
+        "CL-P2T13-023"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Yoshizawa distinguishes no existing subject from an existing subject without meaning, and past meaning from present instantiation; strict necessity does not follow from an ending.",
+      "strongest_reply": "Metz reformulates the strict rationale to avoid conceding finite meaning, then questions whether endless retention avoids ideal value; his hypothetical further response separates perfection from explanatory work.",
+      "unresolved_issues": [
+        "The selected 2013 original remains unavailable. No later author summary or critic replaces that missing inspection.",
+        "Yoshizawa’s Tolstoy reconstruction is not verified historical intention.",
+        "Final-loss concern is neither merely boredom nor settled by labelling the desired good perfect."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "argument_id": "A-P2T13-002",
+      "name": "Possible worthwhile continuation with ownership and engagement",
+      "position": "Conditional enhancement; no necessity/sufficiency/actuality conclusion",
+      "premises": [
+        "Some activities can remain worthwhile or repeatable.",
+        "A future life can contain varied goods and changes acceptable through reflection.",
+        "The future experiences must belong to the same person and remain appropriately attractive."
+      ],
+      "bridge_principles": [
+        "Finite repeatability must extend to the proposed duration.",
+        "Future subjectivity and identity must actually obtain for survival.",
+        "Possible appeal does not establish all endless lives good."
+      ],
+      "conclusion": "A coherent worthwhile continuation may enhance a life, while finite meaning and actual survival remain separate questions.",
+      "source_ids": [
+        "S-T14-003",
+        "S-T14-002"
+      ],
+      "claim_ids": [
+        "CL-P2T13-013",
+        "CL-P2T13-014",
+        "CL-P2T13-017",
+        "CL-P2T13-018",
+        "CL-P2T13-019",
+        "CL-P2T13-020",
+        "CL-P2T13-021",
+        "CL-P2T13-024"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Williams’s stronger concern is exhausted categorical projects or a remote life not appropriately related to the present person; ordinary repetition may fail indefinitely.",
+      "strongest_reply": "Fischer distinguishes repeatable from self-exhausting goods, permits a varied life and appropriate character changes, and separates absorption from ownership.",
+      "unresolved_issues": [
+        "Williams original is frozen accepted derivative, not fresh reading.",
+        "No infinite aggregate-value measure, empirical immortality or survival inference.",
+        "Fischer exact proof-to-final and journal collation unresolved."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    },
+    {
+      "argument_id": "A-P2T13-003",
+      "name": "Finite value, ultimate context and intended purpose",
+      "position": "Several conditional questions; no forced metaphysical winner",
+      "premises": [
+        "Worthwhile engagement can be evaluated at the level of an individual life.",
+        "Cosmic role or ultimate context asks additional questions.",
+        "Intended purpose requires agency/end/grounding; worthwhile purpose requires normative justification."
+      ],
+      "bridge_principles": [
+        "Local worth must not silently become an answer to every ultimate-context concern.",
+        "Descriptive occurrence must not become intention.",
+        "A divine theory’s possibility is distinct from its actuality or necessity."
+      ],
+      "conclusion": "Finite value and possible divine/enduring enhancement can be compared without deriving purpose, perfect goodness or actual continuation.",
+      "source_ids": [
+        "S-T14-002",
+        "S-T14-004",
+        "S-P2T13-003"
+      ],
+      "claim_ids": [
+        "CL-P2T13-011",
+        "CL-P2T13-012",
+        "CL-P2T13-013",
+        "CL-P2T13-015",
+        "CL-P2T13-016",
+        "CL-P2T13-025",
+        "CL-P2T13-026",
+        "CL-P2T13-027",
+        "CL-P2T13-028",
+        "CL-P2T13-029",
+        "CL-P2T13-030",
+        "CL-P2T13-031",
+        "CL-P2T13-032"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "An advocate may argue all finite value requires divine grounding or that ultimate loss defeats local significance.",
+      "strongest_reply": "Wolf identifies finite fitting engagement but expressly limits cosmic solace; Metz concedes limited force of his timeless-purpose challenge in the 2015 selectedpassage. The 2000 original itself already leaves two response strategies open and does not claim the objection requires disbelief (p311).",
+      "unresolved_issues": [
+        "Metz 2000 exact original repaired; direct 2007 Affolter/Metzreply bodies remain deferred. Exact 2013 selectedchapter unavailable.",
+        "Affolter 2007 and Poettckeroriginals deferred; no fabricateddirectreplycoverage.",
+        "Objectivevaluegrounding, humanidentity and timelessmind remain unresolved."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R13"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T13-001",
+      "title": "Non-purposive Supernaturalism",
+      "authors": [
+        "Thaddeus Metz"
+      ],
+      "publication_date": "2013",
+      "url_or_identifier": "10.1093/acprof:oso/9780199599318.003.0007",
+      "source_type": "primary_philosophical_original_or_explicit_reprint",
+      "access_status": "verified_identity_body_unavailable",
+      "retrieved_at": null,
+      "relevant_locators": [
+        "Chapter 7, printed 119–138; relevant chapter notes and bibliographic entries only"
+      ],
+      "provenance_notes": "2013 OUP final chapter; access not yet established Body remains uninspected; no substitution from abstract, critic or later author summary.",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R13",
+      "proposal_operation": "source_version_reinspection_annex; root comparison required, no automatic replacement",
+      "version_id": "V-P2T13-S-P2T13-001",
+      "inspection_id": null,
+      "source_path": null,
+      "source_sha256": null
+    },
+    {
+      "source_id": "S-P2T13-002",
+      "title": "Death and the Meaning of Life: A Critical Study of Metz’s Meaning in Life",
+      "authors": [
+        "Fumitake Yoshizawa"
+      ],
+      "publication_date": "2015",
+      "url_or_identifier": "https://www.philosophyoflife.org/2015si08.html",
+      "source_type": "primary_philosophical_original_or_explicit_reprint",
+      "access_status": "selected_extent_independently_inspected",
+      "retrieved_at": "2026-09-13T05:17:34.623210+00:00",
+      "relevant_locators": [
+        "134–149 including all notes and bibliography"
+      ],
+      "provenance_notes": "October 2015 journal article; repository deposit dates separately retained Yoshizawa reconstructs but ultimately rejects Tolstoian final-loss nihilism; absence of a person differs from an existing person without meaningful properties. Footnote9 does not certify Tolstoy’s intended argument; n20 eternalism is not everlasting subjectivity.",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R13",
+      "proposal_operation": "source_version_reinspection_annex; root comparison required, no automatic replacement",
+      "version_id": "V-P2T13-S-P2T13-002",
+      "inspection_id": "I-P2T13-S-P2T13-002",
+      "source_path": "work/P2T13/sources/S-P2T13-002.pdf",
+      "source_sha256": "432a54401552cf102586665a569870678f82f90fe39345239005a15860404969"
+    },
+    {
+      "source_id": "S-P2T13-003",
+      "title": "Could God’s purpose be the source of life’s meaning?",
+      "authors": [
+        "Thaddeus Metz"
+      ],
+      "publication_date": "2000",
+      "url_or_identifier": "10.1017/S0034412500005278",
+      "source_type": "primary_philosophical_original_or_explicit_reprint",
+      "access_status": "selected_extent_independently_inspected",
+      "retrieved_at": "2026-09-13T05:29:07.387824+00:00",
+      "relevant_locators": [
+        "293–313 complete article and notes1–27"
+      ],
+      "provenance_notes": "2000 journal layout; repository upload date is not publication date Exact 2000 journal layout and author title/year verified. Purpose theory is conditional, compatible with no afterlife; stronger versus enhancement versions separated. Author already withholds required disbelief in 2000 p311. Normative and hypothetical illustrations do not establish premise truth or empirical outcomes.",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R13",
+      "proposal_operation": "source_version_reinspection_annex; root comparison required, no automatic replacement",
+      "version_id": "V-P2T13-S-P2T13-003",
+      "inspection_id": "I-P2T13-S-P2T13-003",
+      "source_path": "state/input_snapshots/user_sources/Metz_Gods_Purpose_Meaning_2000_user_supplied.pdf",
+      "source_sha256": "3b733b095991c5f1afe0c878af8eda74b509d3b1ca747b072ae520713074adf9"
+    },
+    {
+      "source_id": "S-T14-002",
+      "title": "Meaning in Life and Why It Matters",
+      "authors": [
+        "Susan Wolf"
+      ],
+      "publication_date": "2007–2008",
+      "url_or_identifier": "https://philosophy.northwestern.edu/community/nustep/08/papers/Wolf.pdf",
+      "source_type": "original_author_lecture_draft",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "printed/PDF pp3–9,13–26,30–36; notes1–12"
+      ],
+      "provenance_notes": "Institutionally hosted51page lecture draft: title identifies November 2007 Tanner lectures and May 2008 Northwestern presentation. Incomplete draft footnotes; not 2010 final book or commentaries.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T14-003",
+      "title": "Why Immortality is Not So Bad",
+      "authors": [
+        "John Martin Fischer"
+      ],
+      "publication_date": "1994; later reprint date unresolved",
+      "url_or_identifier": "https://www.imtcoin.com/pdf/Why-immortality-is-not-so-bad.pdf",
+      "source_type": "original_argument_reprint",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "§§I–IV, printed224–238, PDF1–15"
+      ],
+      "provenance_notes": "Third-party hosted review-copy anthology reprint with author/title/complete argument and references inspected. Original journal1994 identity supported by search metadata; exact reprint edition/date not established. Embedded Williams passages are not direct original inspection.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T14-004",
+      "title": "Assessing Lives, Giving Supernaturalism Its Due, and Capturing Naturalism: Reply to 13 Critics of Meaning in Life",
+      "authors": [
+        "Thaddeus Metz"
+      ],
+      "publication_date": "2015-10",
+      "url_or_identifier": "https://www.philosophyoflife.org/jpl2015si14.pdf",
+      "source_type": "original_author_reply",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "§2.1 pp230–234; §3.1 pp253–254; §3.2 pp254–257; references275–278"
+      ],
+      "provenance_notes": "Publisher PDF5(3):228–278. Scope excludes full metaethics. References include forthcoming2016work; no claim that all quoted critics originals were inspected.",
+      "related_case_ids": []
+    }
+  ]
+}

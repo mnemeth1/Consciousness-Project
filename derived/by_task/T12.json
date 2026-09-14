@@ -1,0 +1,735 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T12",
+  "report": "work/T12/report.md",
+  "counts": {
+    "claims": 20,
+    "arguments": 5,
+    "cases": 0,
+    "sources": 5
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T12-001",
+      "statement": "Papineau argues that mind–brain identity can be warranted without a priori derivability; identities themselves need no further explanation.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T05-005"
+      ],
+      "source_locators": [
+        "Printed pp7–10, Explaining Identities/Belief/Realization"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Papineau",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-002",
+      "statement": "Papineau locates the felt gap in resistance to identity and leaves proposed psychological causes open to empirical investigation.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T05-005"
+      ],
+      "source_locators": [
+        "Printed pp8,12–19"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Papineau",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-003",
+      "statement": "A justified identity differs from an assumed identity; a conceptual gap alone neither refutes nor establishes ontological identity.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-T05-005",
+        "S-T03-001"
+      ],
+      "source_locators": [
+        "Papineau printed pp8–10; Chalmers §6 technical note"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Chalmers-conceptual-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-004",
+      "statement": "Weak emergence here means complete physical grounding without a new basic experiential law; strong emergence adds irreducible properties or laws and can overlap property dualism.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [],
+      "source_locators": [
+        "T01/T03 project operational definitions"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-project-analysis",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-005",
+      "statement": "Chalmers proposes basic experience and supplementary psychophysical principles compatible with physical laws; he concedes that basic experience is not thereby explained in its existence.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T03-001"
+      ],
+      "source_locators": [
+        "§6, HTML paragraphs beginning I suggest and Of course"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Chalmers-conceptual-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-006",
+      "statement": "Property dualism alone supplies no detachable subject or survival condition; instantiation can remain dependent on an organized physical substrate.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [],
+      "source_locators": [
+        "T03 PL1/PL2 and T01 H-F/H-B/H-S"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-project-analysis",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-007",
+      "statement": "Papineau’s epiphenomenalist objection challenges whether nonphysical experience could explain physical beliefs in dualism under physical closure.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T05-005"
+      ],
+      "source_locators": [
+        "Printed pp12–13"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Papineau",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-008",
+      "statement": "A closure-based exclusion argument needs sufficient physical causation, mental causal relevance and rejection of systematic independent overdetermination. Energy conservation alone is not that argument.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [],
+      "source_locators": [
+        "Project conditional causal reconstruction, A-T12-003"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-project-analysis",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-009",
+      "statement": "Chalmers presents constitutive Russellian panpsychism as giving experience causal roles through physical dispositions while grounding macroexperience in microexperience and additional allowed microphysical relations.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-001"
+      ],
+      "source_locators": [
+        "PDF pp3–6, §2–3"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Chalmers-conceptual-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-010",
+      "statement": "Chalmers separates subject, quality and structure combination problems; solving one leaves the others. His anti-combination arguments rely on disputable modal premises.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-001"
+      ],
+      "source_locators": [
+        "PDF pp4–10, §§3–4"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Chalmers-conceptual-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-011",
+      "statement": "Chalmers considers phenomenal bonding promising but questions its nature, boundaries and compatibility with qualitative and structural explanation.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-001"
+      ],
+      "source_locators": [
+        "PDF pp23–25, §6.3; pp34–35 conclusion"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Chalmers-conceptual-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-012",
+      "statement": "An experiential intrinsic-nature model changes T03’s nonexperiential physicalism; ubiquitous basic experience entails neither a subject for every aggregate nor one universal subject.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [],
+      "source_locators": [
+        "T03 PA1/PH1 and project model translation"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-project-analysis",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-013",
+      "statement": "Kastrup proposes cosmic consciousness, dissociation into finite perspectives at living-organism scale, and bodies/brains as extrinsic appearances of those perspectives.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "§§8–10,12; printed pp139–146,150–152"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Kastrup",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-014",
+      "statement": "Kastrup proposes shared surrounding mentation and perception across dissociative boundaries to account for a common world outside individual volition.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "§§11,13; printed pp146–149,152"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Kastrup",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-015",
+      "statement": "Kastrup’s psychological and physical analogies do not here verify a cosmic subject or a subject-generating law; their underlying studies were not inspected.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "§§5,9–12; project evidential boundary"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Kastrup",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "No clinical finding, quantum interpretation, plant-consciousness conclusion or Markov-blanket theorem is accepted from the philosophical paper."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-016",
+      "statement": "Chalmers distinguishes cosmic idealism’s mental grounding of all concrete facts from generic cosmopsychism; identity and nonidentity versions face different individuation burdens.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-003"
+      ],
+      "source_locators": [
+        "PDF pp18–24, §4"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Chalmers-conceptual-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-017",
+      "statement": "Chalmers treats cognitive fragmentation as a candidate reply while stressing disanalogies and large introspective costs; he does not claim to solve constitution.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-003"
+      ],
+      "source_locators": [
+        "PDF pp22–24,28; §4 conclusion"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-Chalmers-conceptual-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported for narrow attribution",
+      "inference_strength": "contested",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-018",
+      "statement": "A lawful shared mental world is a coherent comparison target, but access through experience alone does not establish it; specifying a shared substrate does not derive its particular laws.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [],
+      "source_locators": [
+        "Project analysis, A-T12-004/005"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-project-analysis",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-019",
+      "statement": "Reviewed neural dependence constrains every model’s mapping to embodied experience but does not alone decide identity, psychophysical law, constitution or appearance-grounding.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [],
+      "source_locators": [
+        "Reviewed work/T09/report.md; T03 C4/C5"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-project-analysis",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    },
+    {
+      "claim_id": "CL-T12-020",
+      "statement": "None of these family-level arguments automatically supplies personal survival, timelessness, preservation, intentional creation, goodness or moral authority; unassessed alternatives are not equally supported.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [],
+      "source_locators": [
+        "T01 nine components; T03 comparison; T11 bearer/time distinctions"
+      ],
+      "case_ids": [],
+      "dependency_group": "T12-project-analysis",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project reasoning, not external observation",
+      "inference_strength": "conditional",
+      "limitations": [
+        "Attribution does not establish premise truth or metaphysical conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T12-001",
+      "name": "Identity and physical realization",
+      "position": "PH1/PH2",
+      "premises": [
+        "Experience and its causal relations require explanation.",
+        "A single property may be accessible through different concepts.",
+        "Empirical causal evidence can warrant identification if rivals are adequately excluded."
+      ],
+      "bridge_principles": [
+        "B-T12-ID: concept difference need not imply property difference.",
+        "B-T12-WARRANT: an identity still needs evidence; physical closure cannot be assumed from correlation."
+      ],
+      "conclusion": "Physical identity/grounding is a live explanatory strategy, not disproved by epistemic difference alone.",
+      "source_ids": [
+        "S-T05-005",
+        "S-T03-001"
+      ],
+      "claim_ids": [
+        "CL-T12-001",
+        "CL-T12-002",
+        "CL-T12-003",
+        "CL-T12-004",
+        "CL-T12-019"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The account may capture reporting or causal role without phenomenal character.",
+      "strongest_reply": "Identity theorist denies two items remain to be bridged once identity is warranted; separate epistemic access need not add a property.",
+      "unresolved_issues": [
+        "Does the identification capture the target?",
+        "What empirical/semantic premises warrant the identity?",
+        "Weak emergence needs a realization account and subject boundary."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12",
+      "construction_status": "Project conditional reconstruction informed by cited original; not a quotation or additional independent observation."
+    },
+    {
+      "argument_id": "A-T12-002",
+      "name": "Experiential bases and subject constitution",
+      "position": "Constitutive Russellian panpsychism",
+      "premises": [
+        "Phenomenality is real.",
+        "Suppose physical description leaves intrinsic role-realizers open.",
+        "Suppose experiential role-realizers jointly constitute ordinary subjects."
+      ],
+      "bridge_principles": [
+        "B-T12-R: experience realizes physical roles rather than intervening from outside.",
+        "B-T12-COMB: base properties and relations sufficiently ground a bounded subject."
+      ],
+      "conclusion": "Experiential bases could integrate phenomenality and causal roles without extra macro-level intervention.",
+      "source_ids": [
+        "S-T12-001",
+        "S-T12-003"
+      ],
+      "claim_ids": [
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-012"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Microexperiences plus physics may not necessitate another subject; palette and structure constraints are distinct.",
+      "strongest_reply": "The complete base can include phenomenal relations; informational rather than geometrical structure may matter. Inconceivability/impossibility is not established.",
+      "unresolved_issues": [
+        "Specify relation and boundaries without arbitrary selection.",
+        "Conceivability-to-possibility standard must match its use against physicalism.",
+        "Emergent macroexperience changes the constitutive model and restores causal/law costs."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12",
+      "construction_status": "Project conditional reconstruction informed by cited original; not a quotation or additional independent observation."
+    },
+    {
+      "argument_id": "A-T12-003",
+      "name": "Naturalistic property dualism and causal/epistemic cost",
+      "position": "PL1, with PL2 and substance variants differentiated",
+      "premises": [
+        "Suppose phenomenal reality is not wholly physically grounded.",
+        "Regular psychophysical principles could explain particular experiential distributions.",
+        "Basic properties and laws can be legitimate explanatory stopping points."
+      ],
+      "bridge_principles": [
+        "B-T12-L: irreducibility warrants this law model only with additional grounding argument.",
+        "B-T12-EPI: law-based reliability/acquaintance can justify beliefs without experience causing physical reports (proposed reply, not established)."
+      ],
+      "conclusion": "A psychophysical-law model is a distinct serious alternative; it neither entails a separable person nor removes its epistemic burden.",
+      "source_ids": [
+        "S-T03-001",
+        "S-T05-005"
+      ],
+      "claim_ids": [
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T12-007",
+        "CL-T12-008"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Under closure and no overdetermination, distinct experiential influence threatens exclusion; epiphenomenalism threatens experience-based knowledge/reporting.",
+      "strongest_reply": "PL1 appeals to lawful tracking and direct acquaintance without extra physical effects; PL2 instead questions closure and proposes interaction laws. Neither reply is simply a conservation-law refutation.",
+      "unresolved_issues": [
+        "Why this mapping rather than another?",
+        "Would a tracking account secure truth/justification or only matching reports?",
+        "Interaction/substance variants lack inspected direct defender/reply chains in this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12",
+      "construction_status": "Project conditional reconstruction informed by cited original; not a quotation or additional independent observation."
+    },
+    {
+      "argument_id": "A-T12-004",
+      "name": "Dissociated cosmic idealism",
+      "position": "Selected Kastrup-inspired universal idealism",
+      "premises": [
+        "Experience supplies a known kind of concrete reality.",
+        "Suppose a shared conscious ground supports mutually constrained private perspectives.",
+        "Suppose bodies/world are extrinsic appearances of those relations."
+      ],
+      "bridge_principles": [
+        "B-T12-DISS: selective cognitive access must ground finite phenomenality, not just block communication.",
+        "B-T12-APP: an appearance relation must recover exact neural interventions and public regularities."
+      ],
+      "conclusion": "The model offers a unified candidate explanation if dissociation, manifestation and law constraints are independently justified.",
+      "source_ids": [
+        "S-T12-002",
+        "S-T12-003"
+      ],
+      "claim_ids": [
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-017",
+        "CL-T12-018",
+        "CL-T12-019"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "An analogy to dissociation in embodied people does not establish cosmic subject division; calling brain activity an appearance can merely redescribe data.",
+      "strongest_reply": "Distinguish inaccessible contents from nonexistent contents and causal impingement from shared cognitive access; formulate one lawful shared environment rather than personal wishing.",
+      "unresolved_issues": [
+        "Cosmic extension of analogy and clinical premises unverified.",
+        "Organism-scale boundary needs noncircular criterion and edge cases.",
+        "Specific laws and mapping not derived; shared substrate not automatically shared perceptions."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12",
+      "construction_status": "Project conditional reconstruction informed by cited original; not a quotation or additional independent observation."
+    },
+    {
+      "argument_id": "A-T12-005",
+      "name": "Cosmic constitution versus plural idealism",
+      "position": "Cosmopsychism/idealism comparison",
+      "premises": [
+        "Suppose a whole can be ontologically prior to local structures.",
+        "An experiential whole might realize physical roles.",
+        "Human perspectives require either identity-with-modes or distinct grounded subjects."
+      ],
+      "bridge_principles": [
+        "B-T12-WHOLE: physical holism alone does not select an experiential ground.",
+        "B-T12-SUBJ: shared bearer, shared type of reality and numerical identity are different claims."
+      ],
+      "conclusion": "Whole-first models relocate constitution rather than automatically solving it; plural idealism need not entail one universal subject.",
+      "source_ids": [
+        "S-T12-003"
+      ],
+      "claim_ids": [
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018",
+        "CL-T12-020"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "One subject cannot be numerically identical to multiple mutually distinct subjects under ordinary identity logic.",
+      "strongest_reply": "Identity version relativizes access to modes; nonidentity version posits constitutive dependence. Plural idealism permits multiple basic subjects with lawful coordination.",
+      "unresolved_issues": [
+        "Identity/mode view revises ordinary individuality.",
+        "Nonidentity grounding needs a sufficient principle.",
+        "Plural coordination and basic intersubject relations carry separate costs.",
+        "None establishes H-S or H-T."
+      ],
+      "review_status": "accepted",
+      "review_id": "R12",
+      "construction_status": "Project conditional reconstruction informed by cited original; not a quotation or additional independent observation."
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-T03-001",
+      "title": "Facing Up to the Problem of Consciousness",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "publication_date": "1995",
+      "url_or_identifier": "https://consc.net/papers/facing.html",
+      "source_type": "primary philosophical argument; author-hosted published-text version",
+      "access_status": "inspected_relevant_sections",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Sections 2–3, paragraphs distinguishing experience from functional explanation; rendered lines 34–63",
+        "Section 5, final argument against purely physical explanation; rendered lines 114–125",
+        "Section 6, paragraphs introducing fundamental experience, psychophysical principles and naturalistic dualism; rendered lines 129–143"
+      ],
+      "provenance_notes": "Inherited Research_Plan.md URL directly opened. Relevant passages inspected; no claim of whole-text inspection. Journal metadata is displayed on author page. Narrow attribution only; report model stipulations are not attributed to this author.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T05-005",
+      "title": "What Exactly is the Explanatory Gap?",
+      "authors": [
+        "David Papineau"
+      ],
+      "publication_date": "2010-09-24",
+      "url_or_identifier": "https://www.davidpapineau.co.uk/uploads/1/8/5/5/18551740/explanatorygappdf.pdf",
+      "source_type": "primary_philosophical_argument",
+      "access_status": "relevant_sections_inspected",
+      "retrieved_at": "2026-09-12T05:09:53.408723+00:00",
+      "relevant_locators": [
+        "printed pp5-10,13-19; PDF cover plus15articlepages"
+      ],
+      "provenance_notes": "Author-hosted published text; online2010-09-24, Philosophia39(2011):5-19, DOI10.1007/s11406-010-9273-6.4th substantive inspection, source opened before relevant passages read.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T12-001",
+      "title": "The Combination Problem for Panpsychism",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://consc.net/papers/combination.pdf",
+      "source_type": "original_philosophical_argument",
+      "access_status": "inspected_relevant_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Author PDF pp1–10,15–25,32–37; §§2–4,5–6,8–9; References"
+      ],
+      "provenance_notes": "Undated author manuscript labelled forthcoming,37 pages. Associated volume dates differ in inspected references (2016/2017); exact publication date not independently fixed. Primary author analysis, including constructive proposals and criticism; not original inspection of Goff/Coleman/Strawson.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T12-002",
+      "title": "The Universe in Consciousness",
+      "authors": [
+        "Bernardo Kastrup"
+      ],
+      "publication_date": "2018",
+      "url_or_identifier": "https://www.academia.edu/36718815/The_Universe_in_Consciousness",
+      "source_type": "original_philosophical_argument",
+      "access_status": "inspected_relevant_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Journal pp138–153, §§7–14; pp129–138 background; References pp153 onward"
+      ],
+      "provenance_notes": "Author academic-papers page links this Academia copy; extracted journal header25(5–6):125–155. Primary text inspected through HTML transcription with printed-page markers, not authenticated journal PDF. Clinical, quantum, plant and free-energy premises are author attributions only, not verified empirical evidence; diagrams not visually available, no diagram-specific inference.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T12-003",
+      "title": "Idealism and the Mind-Body Problem",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://consc.net/papers/idealism.pdf",
+      "source_type": "original_philosophical_argument",
+      "access_status": "inspected_relevant_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Author PDF pp1–5,11–24,28–31; §§1,3–5 and References"
+      ],
+      "provenance_notes": "Undated31-page author manuscript labelled forthcoming, including unfinished editorial notes and inconsistent publisher attribution. Exact final publication date/version unresolved; cited as this inspected draft only. Discusses Kastrup2017, not a verified direct response to Kastrup2018.",
+      "related_case_ids": []
+    }
+  ]
+}

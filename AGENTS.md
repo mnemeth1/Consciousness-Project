@@ -16,6 +16,18 @@ Read `README.md`, `AI_Execution_Framework.md`, your role prompt and your task co
 
 The project is prepared for execution. Read the launch instruction before starting research. These are project instructions, not a provider-specific executable orchestrator.
 
+## Evidence retrieval (derived layer)
+
+Do not read whole ledger files (`records/claims.json` is ~21,000 lines). Retrieve evidence through the generated, non-canonical views in `derived/`:
+
+- Drafting or reviewing a thesis part: read `derived/evidence/<part>.md` first (for example `derived/evidence/c04.md`); it contains the part's mapped arguments, claims, cases and sources in full, per `thesis/evidence_map.json`.
+- One record: `node scripts/derived/lookup.cjs <ID>` prints the full record with resolved sources, review verdict and reverse citations.
+- Searching by keyword: grep `derived/index/*.jsonl` (one compact line per record), then open `derived/by_task/<TASK>.json` for the full records of a task.
+- Withheld conclusions and gap dispositions: `derived/gap_gate_register.json` unifies the 35 gap groups and 12 withheld gates with their closure conditions.
+- Field vocabularies are free text (see `derived/lint_report.md`); filter by ID and `dependency_group`, not by exact enum values.
+
+Derived files are regenerable conveniences, never evidence: cite only ledger IDs (`CL-*`, `A-*`, `C-*`, `S-*`) and canonical paths. They never close a gap, open a gate or change record status. If `node scripts/derived/build.cjs --check` reports staleness, regenerate with `node scripts/derived/build.cjs` before relying on them.
+
 ## Public snapshot context
 
 Read STATUS.md and PUBLICATION_NOTES.md first. This is a curated public snapshot, not the complete private working archive. Do not infer source-reading credit or live agents from historical records. Omitted source files and raw audit materials remain unavailable in this clone. The maintainer owns canonical records; public proposals require distinct-author review. Public repository status does not authorize publication of third-party source documents.

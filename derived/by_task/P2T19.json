@@ -1,0 +1,959 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T19",
+  "report": "work/P2T19/report.md",
+  "counts": {
+    "claims": 13,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 12
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T19-001",
+      "statement": "The selected OSF v4-named amendment PDF internally identifies Version 4.5 dated 22 December 2022. OSF 92tbg lists file version 1 created 23 December 2022; its SHA256 matches the later gm5bh component copy. The 2024 component creation does not date the underlying plan.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T19-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T19-001",
+          "version_id": "V-P2T19-001-LINKED",
+          "sha256": "2c0bae3586394ddb3375c333020d309b91099f0ccba39c503c95cad2c8a98a99",
+          "locator": "PDF 1 header; osf_92tbg_files.json, osf_92tbg_file_versions.json, osf_gm5bh_files.json and both node metadata files"
+        }
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "Both node metadata objects report registration=false. One public file-version record and matching hashes do not establish a complete historical audit, immutable preregistration, or data-access timing."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-002",
+      "statement": "The December 2022 amendment already specifies one-third noninvasive optimization with remaining data reserved for testing and unsplit iEEG. The February 2023 protocol contains different published half-split wording. This contrast cannot establish that the thirds change occurred between the February 2023 publication and the April 2025 results.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T19-001",
+        "S-T09-007",
+        "S-T09-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T19-001",
+          "version_id": "V-P2T19-001-LINKED",
+          "sha256": "2c0bae3586394ddb3375c333020d309b91099f0ccba39c503c95cad2c8a98a99",
+          "locator": "PDF/printed 14–16, sample allocation and Phase 2/3"
+        },
+        {
+          "source_id": "S-T09-007",
+          "version_id": "V-P2T19-007",
+          "sha256": "6141f81d87c7d289455a54bd281ad2e9cda52355d3a30ea6cabf393f68287b48",
+          "locator": "Status and timeline, extracted lines 477–478; publication date header"
+        },
+        {
+          "source_id": "S-T09-001",
+          "version_id": "V-P2T19-001",
+          "sha256": "de08af73fdbf63a7600c7c8c8746f831b5300db0b278f2376437fb491bff4bec",
+          "locator": "Methods Participants, lines 213–214"
+        }
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "The claimed restriction of held-out data to quality checks/preprocessing is the authors’ account; actual access logs and earlier OSF versions were not audited. Ranked allocation of every third dataset is not randomized independence; iEEG is not held out.",
+        "No earlier dated original containing the half-split wording was reopened; exact earlier wording/version timing remains unverified. Publication receipt/acceptance dates and the at-submission statement are not a substitute for that version check. No stronger historical inference is claimed here."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-003",
+      "statement": "The amendment is internally inconsistent about fMRI counts: PDF page 16 reports 110 quality-passed datasets but also a 36/80 division. The final paper uses 35 optimization and 73 held-out fMRI datasets; its supplement explains two incomplete Yale datasets discovered during held-out analysis and documents retaining three below-threshold iEEG patients.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T19-001",
+        "S-T09-001",
+        "S-T09-008"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T19-001",
+          "version_id": "V-P2T19-001-LINKED",
+          "sha256": "2c0bae3586394ddb3375c333020d309b91099f0ccba39c503c95cad2c8a98a99",
+          "locator": "PDF/printed 15–16, visually checked page 16"
+        },
+        {
+          "source_id": "S-T09-001",
+          "version_id": "V-P2T19-001",
+          "sha256": "de08af73fdbf63a7600c7c8c8746f831b5300db0b278f2376437fb491bff4bec",
+          "locator": "Methods Participants lines 213–214"
+        },
+        {
+          "source_id": "S-T09-008",
+          "version_id": "V-P2T19-008",
+          "sha256": "30d9b09341642e25e182e0b5fcc77bb3b690c39d4532b9c3bb69e999189eeccd",
+          "locator": "§14 printed 124–126 / PDF 125–127, items 1 and 3 and minor inconsistencies"
+        }
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "These document counts should not be harmonized silently. Two additional incomplete datasets explain 110 to 108; they do not arithmetically explain 36+80. Main held-out fMRI n=73 is not the n=70 gPPI analysis subset."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-004",
+      "statement": "The final supplement declares departures from the amendment: RSA used all trial pairs rather than the planned split sets, main fMRI gPPI pooled task relevance rather than separate contrasts, and gPPI multiple-comparison correction changed from FDR to cluster permutation. Separate task results were retained in extended data.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T19-001",
+        "S-T09-008",
+        "S-T09-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T19-001",
+          "version_id": "V-P2T19-001-LINKED",
+          "sha256": "2c0bae3586394ddb3375c333020d309b91099f0ccba39c503c95cad2c8a98a99",
+          "locator": "PDF 56 / printed 30 RSA; PDF 74 / printed 48 gPPI"
+        },
+        {
+          "source_id": "S-T09-008",
+          "version_id": "V-P2T19-008",
+          "sha256": "30d9b09341642e25e182e0b5fcc77bb3b690c39d4532b9c3bb69e999189eeccd",
+          "locator": "§14 printed 124–125 / PDF 125–126, items 4–6"
+        },
+        {
+          "source_id": "S-T09-001",
+          "version_id": "V-P2T19-001",
+          "sha256": "de08af73fdbf63a7600c7c8c8746f831b5300db0b278f2376437fb491bff4bec",
+          "locator": "Fig. 4 caption and DFC results, extracted lines 192–195"
+        }
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "Independent code execution was outside scope. Reporting a departure neither proves outcome-driven bias nor removes the departure."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-005",
+      "statement": "The sustained posterior and long-range prefrontal phase-synchrony predictions were not established by the selected PPC analysis. Amplitude-based DFC was added after the phase result and is exploratory. The supplement also reports relaxing synchrony-channel eligibility from sustained to any visual/category activation, relative to the amendment’s specified active windows.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T19-001",
+        "S-T09-008",
+        "S-T09-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T19-001",
+          "version_id": "V-P2T19-001-LINKED",
+          "sha256": "2c0bae3586394ddb3375c333020d309b91099f0ccba39c503c95cad2c8a98a99",
+          "locator": "PDF 61–62 / printed 35–36 Synchrony analysis, active windows"
+        },
+        {
+          "source_id": "S-T09-008",
+          "version_id": "V-P2T19-008",
+          "sha256": "30d9b09341642e25e182e0b5fcc77bb3b690c39d4532b9c3bb69e999189eeccd",
+          "locator": "§14 printed 125 / PDF 126 items 7–8; §12.1 printed 121–122 / PDF 122–123"
+        },
+        {
+          "source_id": "S-T09-001",
+          "version_id": "V-P2T19-001",
+          "sha256": "de08af73fdbf63a7600c7c8c8746f831b5300db0b278f2376437fb491bff4bec",
+          "locator": "Results connectivity lines 185–195"
+        }
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "DFC cannot retrospectively turn the failed phase prediction into a preregistered pass. Sparse/uneven electrode coverage, frequency and measurement scale qualify inference from a null."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-006",
+      "statement": "The 2023 protocol already conditions a GNW offset response on conscious detection, while its operational analyses also treat onset/offset as tested expectations. Naccache et al. later argue that attended offset and continuing awareness were not established, that macroscopic PFC decoding may miss mixed selectivity, and that silent storage is not obligatory GNWT.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T09-007",
+        "S-P2T19-001",
+        "S-T09-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T09-007",
+          "version_id": "V-P2T19-007",
+          "sha256": "6141f81d87c7d289455a54bd281ad2e9cda52355d3a30ea6cabf393f68287b48",
+          "locator": "GNW overview lines 453–455; Experiment 1 analysis 2 line 510"
+        },
+        {
+          "source_id": "S-P2T19-001",
+          "version_id": "V-P2T19-001-LINKED",
+          "sha256": "2c0bae3586394ddb3375c333020d309b91099f0ccba39c503c95cad2c8a98a99",
+          "locator": "PDF/printed 27 activation-pattern predictions"
+        },
+        {
+          "source_id": "S-T09-006",
+          "version_id": "V-P2T19-006",
+          "sha256": "559ec113b1b03a3bc0b74c238d3120bb47d837e06b6bc9a996df88b20b409133",
+          "locator": "PDF/journal pages 1–2, offset, decoding and duration sections"
+        }
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "This verifies an antecedent condition and a later argument, not its empirical premise that awareness/attention was inadequate in these participants. It qualifies an entirely-post-hoc allegation but does not erase the agreed test."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-007",
+      "statement": "The Nature supplement contains contemporaneous consortium interpretation (§11), IIT replies by Boly, Koch and Tononi (§12), and a GNWT reply by Dehaene (§13). The IIT authors acknowledge absent sustained synchrony and offer coverage, frequency and ROI explanations; their posterior-sufficiency claim is an interpretation, not an inactivation result. The consortium says shared successful predictions do not uniquely confirm either theory and treats failures as challenges to theories or implementations.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T09-008"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T09-008",
+          "version_id": "V-P2T19-008",
+          "sha256": "30d9b09341642e25e182e0b5fcc77bb3b690c39d4532b9c3bb69e999189eeccd",
+          "locator": "§11 printed 118–119 / PDF 119–120; §12 printed 119–122 / PDF 120–123; §13 printed 122–124 / PDF 123–125"
+        }
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "These contemporaneous statements are not a later consortium rebuttal to the October 2025 Naccache commentary. No exact later consortium or standalone IIT reply was identified in the bounded forward searches; absence is not proved. This is one article/sample, not three independent experiments."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-008",
+      "statement": "Naccache et al.’s page-2 decoding paragraph includes category among allegedly absent PFC decodings, while the Nature results report transient PFC category decoding. This local wording problem does not answer the separate orientation, duration or measurement-scale objections.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T09-006",
+        "S-T09-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T09-006",
+          "version_id": "V-P2T19-006",
+          "sha256": "559ec113b1b03a3bc0b74c238d3120bb47d837e06b6bc9a996df88b20b409133",
+          "locator": "PDF/journal page 2, Lack of decoding paragraph, visually checked"
+        },
+        {
+          "source_id": "S-T09-001",
+          "version_id": "V-P2T19-001",
+          "sha256": "de08af73fdbf63a7600c7c8c8746f831b5300db0b278f2376437fb491bff4bec",
+          "locator": "Results decoding lines 154–158"
+        }
+      ],
+      "case_ids": [
+        "C-T09-001"
+      ],
+      "dependency_group": "DG-T09-001",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "The same Naccache paragraph acknowledges several decoded attributes. Preserve the inconsistency as local wording, not a wholesale dismissal or an invented substantive journal correction."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-009",
+      "statement": "Tasserie’s supplementary methods selected each animal’s high stimulation voltage empirically just above behavioral arousal threshold, with a lower setting below it, then used matched settings for ventrolateral control. The auditory analysis excluded global-standard trials immediately following a global deviant.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T19-002",
+          "version_id": "V-P2T19-002-LINKED",
+          "sha256": "6d576171c4c8a7cf287af218a7427344159c83e4f6b7f4cd55770eeb7e0ea3c7",
+          "locator": "PDF 3 Verification of DBS settings; PDF 5 First-level analysis, visually checked page 5"
+        }
+      ],
+      "case_ids": [
+        "C-T09-002"
+      ],
+      "dependency_group": "DG-T09-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "Dose selection limits interpretation as an unselected fixed-dose response estimate. The number of excluded auditory trials is not supplied in the inspected passage. Auditory testing omitted the VL condition, so matched VL settings in other experiments do not create that control."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-010",
+      "statement": "Tasserie’s MRI acquisition specifies 325 volumes per block-design run, 500 per resting-state run and 111 per auditory run. Dynamic analysis generates 464 overlapping 35-scan windows per session. These units do not provide acquired/excluded/analyzed run totals by animal and condition; the intervention sample remains two animals, with three awake comparators and reused awake auditory data.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-002",
+        "S-P2T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T09-002",
+          "version_id": "V-P2T19-002",
+          "sha256": "5c44d1394efdfcc02fe7cb92722e3a9f026f584078ed8ecf204ef040a99adec1",
+          "locator": "Methods Animals; MRI acquisition line 79; dynamic analysis line 111; auditory task line 99; references 45,46,50"
+        },
+        {
+          "source_id": "S-P2T19-002",
+          "version_id": "V-P2T19-002-LINKED",
+          "sha256": "6d576171c4c8a7cf287af218a7427344159c83e4f6b7f4cd55770eeb7e0ea3c7",
+          "locator": "PDF 4 dynamic-analysis methods; PDF 1–32 title/caption inventory for denominator relevance"
+        }
+      ],
+      "case_ids": [
+        "C-T09-002"
+      ],
+      "dependency_group": "DG-T09-002",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "No run-total table was located in this bounded main/supplement inspection. This is not a claim that all raw repositories lack those totals. Overlapping windows, volumes, channels and repeated sessions are not independent animals."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-011",
+      "statement": "Scheinin’s PET methods report 91 subframes generated in 31 of 302 anesthesia sessions and 10 subframes in 6 of 116 sleep sessions. Some subframes were discarded in 29 anesthesia and two sleep sessions. Those are processing-session/subframe units, not counts of discarded whole scans or interview denominators.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T09-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T09-003",
+          "version_id": "V-P2T19-003",
+          "sha256": "8d4d0de55065209e28df3ac9e131c7102837b8fe11c56cb9438f977aea4609c7",
+          "locator": "Methods Positron emission tomography imaging, extracted line 37"
+        }
+      ],
+      "case_ids": [
+        "C-T09-003"
+      ],
+      "dependency_group": "DG-T09-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "The number of discarded subframes is not given. The paper forms a 90-second sum image; session counts cannot be transferred to interview-rate denominators."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-012",
+      "statement": "The selected Scheinin appendix files (Extended Data Figures 3-2 through 3-5) contain regional PET cluster tables, not interview-count tables. The source’s 80% anesthesia and 71% sleep interview rates therefore still lack recovered exact integer numerator/denominator pairs in this packet.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T19-003",
+        "S-P2T19-004",
+        "S-P2T19-005",
+        "S-P2T19-006",
+        "S-T09-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T19-003",
+          "version_id": "V-P2T19-003-LINKED",
+          "sha256": "183c7316fdbf084a24a9ef9993ac37f4fe41fad54528092fb9194fd06d6ec6ee",
+          "locator": "DOCX Figure 3-2: title, table header and endnote"
+        },
+        {
+          "source_id": "S-P2T19-004",
+          "version_id": "V-P2T19-004-LINKED",
+          "sha256": "c7a26f59534ab89716622656b0eabb6d4a975826b93d002f251bdeb95a868348",
+          "locator": "DOCX Figure 3-3: title, table header and endnote"
+        },
+        {
+          "source_id": "S-P2T19-005",
+          "version_id": "V-P2T19-005-LINKED",
+          "sha256": "05553c61f2e40a988473993d6f9094c789f5fb4744a2ec96a3ca5748f4167e77",
+          "locator": "DOCX Figure 3-4: title, table header and endnote"
+        },
+        {
+          "source_id": "S-P2T19-006",
+          "version_id": "V-P2T19-006-LINKED",
+          "sha256": "ea60e120815ee7bd49101c6b2205c2acd62e6aaaa1b8d1ac7a7bc56c50a94d50",
+          "locator": "DOCX Figure 3-5: title, table header and endnote"
+        },
+        {
+          "source_id": "S-T09-003",
+          "version_id": "V-P2T19-003",
+          "sha256": "8d4d0de55065209e28df3ac9e131c7102837b8fe11c56cb9438f977aea4609c7",
+          "locator": "Methods Assessment of the state line 31; Results realization lines 49–59; limitations line 80"
+        }
+      ],
+      "case_ids": [
+        "C-T09-003"
+      ],
+      "dependency_group": "DG-T09-003",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "No integer reconstruction from rounded percentages or PET sample sizes. Only table relevance/structure was inspected; individual voxel statistics were not validated. Additional image-only or unselected appendices were not exhausted. Delayed recall and nonresponse do not demonstrate absent experience."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "claim_id": "CL-P2T19-013",
+      "statement": "The protocol/reply and denominator refinements preserve the distinction between intervention-linked arousal or reports, measured neural associations, theoretical interpretations, and metaphysical bridge premises. They supply no whole-theory winner, neural identity proof, or warrant for fundamental/enduring/timeless consciousness or the other withheld components.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T09-001",
+        "S-T09-006",
+        "S-T09-003",
+        "S-T09-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T09-001",
+          "version_id": "V-P2T19-001",
+          "sha256": "de08af73fdbf63a7600c7c8c8746f831b5300db0b278f2376437fb491bff4bec",
+          "locator": "Biological-implementation boundary and Fig. 1, lines 144–147; Discussion"
+        },
+        {
+          "source_id": "S-T09-006",
+          "version_id": "V-P2T19-006",
+          "sha256": "559ec113b1b03a3bc0b74c238d3120bb47d837e06b6bc9a996df88b20b409133",
+          "locator": "PDF/journal page 2, measurement criticism"
+        },
+        {
+          "source_id": "S-T09-003",
+          "version_id": "V-P2T19-003",
+          "sha256": "8d4d0de55065209e28df3ac9e131c7102837b8fe11c56cb9438f977aea4609c7",
+          "locator": "Discussion limitations line 80"
+        },
+        {
+          "source_id": "S-T09-002",
+          "version_id": "V-P2T19-002",
+          "sha256": "5c44d1394efdfcc02fe7cb92722e3a9f026f584078ed8ecf204ef040a99adec1",
+          "locator": "Methods anesthesia/auditory task lines 83,99"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": null,
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "unassessed_pending_independent_review",
+      "inference_strength": "unassessed_pending_independent_review",
+      "limitations": [
+        "This is an author inference from scoped evidence, not a direct empirical observation or a reassessment of every original in T09. All 12 GATE-T16 conclusions remain withheld."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T19-001",
+      "name": "Agreed biological tests and conditional theory defense",
+      "position": "Retain the tests as challenges, while distinguishing auxiliary assumptions from full-theory refutation.",
+      "premises": [
+        "The selected protocol fixes operational predictions and the final paper reports failures on some of them.",
+        "Antecedent conditional wording about conscious offset detection exists in the published protocol.",
+        "Proponents dispute awareness/attention, measurement scale and coverage; those disputes are not new independent data."
+      ],
+      "bridge_principles": [
+        "Failure of a predicted measurement challenges the conjunction of theory, auxiliary implementation and measurement conditions.",
+        "A successful prediction shared by alternatives does not uniquely confirm one theory."
+      ],
+      "conclusion": "Preserve a consequential but conditional empirical challenge; neither a whole-theory winner nor automatic dismissal is warranted.",
+      "source_ids": [
+        "S-T09-007",
+        "S-T09-001",
+        "S-T09-008",
+        "S-T09-006",
+        "S-P2T19-001"
+      ],
+      "claim_ids": [
+        "CL-P2T19-005",
+        "CL-P2T19-006",
+        "CL-P2T19-007",
+        "CL-P2T19-008"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Auxiliary-condition defenses can insulate a theory against agreed failed tests; the collaboration was explicitly negotiated to avoid that flexibility.",
+      "strongest_reply": "The offset condition predates results publication, and the papers acknowledge measurement and implementation limits; nevertheless source attribution alone does not show that any proposed explanation accounts for the observed failures.",
+      "unresolved_issues": [
+        "Actual attention/continuous awareness at relevant times",
+        "How much each implementation is motivated by its core theory",
+        "No later consortium rebuttal identified under bounded search"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "argument_id": "A-P2T19-002",
+      "name": "Document chronology and compliance are separate questions",
+      "position": "Narrow the v1 methods gap without certifying preregistration compliance.",
+      "premises": [
+        "The December 2022 exact file states the thirds split and unsplit iEEG.",
+        "The February 2023 protocol contains different published half-split wording; its exact earlier wording/version timing has not been verified.",
+        "The 2025 supplement explicitly records deviations and inconsistent counts."
+      ],
+      "bridge_principles": [
+        "Publication order is not necessarily protocol amendment order.",
+        "A public file version and hash establish document provenance more directly than actual analyst behavior."
+      ],
+      "conclusion": "Qualify the historical wording; retain unresolved full history and execution audit, and label exploratory analyses correctly.",
+      "source_ids": [
+        "S-P2T19-001",
+        "S-T09-007",
+        "S-T09-001",
+        "S-T09-008"
+      ],
+      "claim_ids": [
+        "CL-P2T19-001",
+        "CL-P2T19-002",
+        "CL-P2T19-003",
+        "CL-P2T19-004",
+        "CL-P2T19-005"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "An internally inconsistent ordinary OSF node is insufficient evidence for a clean prospective analysis history.",
+      "strongest_reply": "Agreed; the limited finding is the dated exact document and stated methods, not clean compliance. The matching 2024 copy does not erase the 2022 version record.",
+      "unresolved_issues": [
+        "Earlier amendment chain and actual data-access/code execution history were not audited",
+        "No earlier dated half-split original was reopened; different publication wording does not establish a change during the February 2023–April 2025 publication interval."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    },
+    {
+      "argument_id": "A-P2T19-003",
+      "name": "Do not substitute easier denominators",
+      "position": "Keep unit-specific missing totals explicit.",
+      "premises": [
+        "Per-run volumes and overlapping windows differ from experimental runs or animals.",
+        "PET session/subframe totals differ from interview counts.",
+        "Selected appendix tables did not resolve the targeted numerator gaps."
+      ],
+      "bridge_principles": [
+        "An evidential rate requires the corresponding numerator, denominator and sampling unit.",
+        "Repeated or overlapping observations do not by themselves increase the number of independent subjects."
+      ],
+      "conclusion": "Retain scoped causal/association constraints while withholding reconstructed rates, precision upgrades and population generalizations.",
+      "source_ids": [
+        "S-T09-002",
+        "S-P2T19-002",
+        "S-T09-003",
+        "S-P2T19-003",
+        "S-P2T19-004",
+        "S-P2T19-005",
+        "S-P2T19-006"
+      ],
+      "claim_ids": [
+        "CL-P2T19-009",
+        "CL-P2T19-010",
+        "CL-P2T19-011",
+        "CL-P2T19-012"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Raw files or another appendix may contain the missing totals, so bounded non-recovery is not a source-level absence proof.",
+      "strongest_reply": "The packet explicitly preserves that distinction and requests the exact missing table/data fields rather than inventing the counts.",
+      "unresolved_issues": [
+        "Animal-by-condition run and trial exclusions",
+        "Exact interview integer numerators/denominators and repeated-interview mapping"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R19"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T19-001",
+      "title": "Preregistration_ver4.0-FINAL.pdf — Cogitate preregistration v4, December 2022",
+      "authors": [
+        "Cogitate project personnel"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://osf.io/92tbg/",
+      "source_type": "protocol amendment file",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-13T01:38:43.614855+00:00",
+      "relevant_locators": [
+        "PDF 1,14–17,27–29,55–56,60–62,73–74,79–80; PDF 56 = printed 30, PDF 61–62 = printed 35–36, PDF 74 = printed 48; OSF file version metadata"
+      ],
+      "version_id": "V-P2T19-001-LINKED",
+      "version_path": "work/P2T19/preregistration_v4.pdf",
+      "version_sha256": "2c0bae3586394ddb3375c333020d309b91099f0ccba39c503c95cad2c8a98a99",
+      "review_status": "accepted",
+      "review_id": "P2R19",
+      "provenance_notes": "P2T19 independently read the stated extent in these freshly frozen bytes. Existing canonical identity is reused where applicable; fresh hash is not asserted equal to T09 discarded bytes. All results remain proposals. Node/filename say v4, internal header says Version 4.5 dated 2022-12-22. Recorded public file version date is 2022-12-23. registration=false; not certified immutable preregistration. PDF 27 prints 27, PDF 28 prints 2: use explicit PDF and printed locators, not a universal offset.",
+      "internal_document_date": "2022-12-22",
+      "osf_file_created_at": "2022-12-23",
+      "date_provenance": "The first date is printed inside Version 4.5; the second is the inspected public 92tbg file-version creation date, recorded here to day precision. Neither date is asserted to be a journal publication date, the full amendment history or a preregistration certificate."
+    },
+    {
+      "source_id": "S-P2T19-002",
+      "title": "Supplementary Materials for Deep brain stimulation of the thalamus restores signatures of consciousness in a nonhuman primate model",
+      "authors": [
+        "Jordy Tasserie",
+        "and colleagues"
+      ],
+      "publication_date": "2022-03-18",
+      "url_or_identifier": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8932660/supplementaryFiles",
+      "source_type": "original article supplement",
+      "related_case_ids": [
+        "C-T09-002"
+      ],
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-13T01:38:43.614855+00:00",
+      "relevant_locators": [
+        "PDF 1,3–5; supplementary figure/table title-caption inventory across PDF 1–32; no audit of every statistical value"
+      ],
+      "version_id": "V-P2T19-002-LINKED",
+      "version_path": "work/P2T19/sciadv.abl5547_sm.pdf",
+      "version_sha256": "6d576171c4c8a7cf287af218a7427344159c83e4f6b7f4cd55770eeb7e0ea3c7",
+      "review_status": "accepted",
+      "review_id": "P2R19",
+      "provenance_notes": "P2T19 independently read the stated extent in these freshly frozen bytes. Existing canonical identity is reused where applicable; fresh hash is not asserted equal to T09 discarded bytes. All results remain proposals.",
+      "parent_source_id": "S-T09-002",
+      "parent_doi": "10.1126/sciadv.abl5547",
+      "independent_sample": false
+    },
+    {
+      "source_id": "S-P2T19-003",
+      "title": "Scheinin 2021 Extended Data Figure 3-2",
+      "authors": [
+        "Annalotta Scheinin",
+        "and colleagues"
+      ],
+      "publication_date": "2021-02-24",
+      "url_or_identifier": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8115882/supplementaryFiles",
+      "source_type": "original article supplement",
+      "related_case_ids": [
+        "C-T09-003"
+      ],
+      "access_status": "inspected_header_table_structure_only",
+      "retrieved_at": "2026-09-13T01:38:43.614855+00:00",
+      "relevant_locators": [
+        "DOCX Figure 3-2: title, table column schema, endnote; structural relevance inspection only"
+      ],
+      "version_id": "V-P2T19-003-LINKED",
+      "version_path": "work/P2T19/ns-JN-RM-0775-20-s02.docx",
+      "version_sha256": "183c7316fdbf084a24a9ef9993ac37f4fe41fad54528092fb9194fd06d6ec6ee",
+      "review_status": "accepted",
+      "review_id": "P2R19",
+      "provenance_notes": "P2T19 independently read the stated extent in these freshly frozen bytes. Existing canonical identity is reused where applicable; fresh hash is not asserted equal to T09 discarded bytes. All results remain proposals. Included for disposition of the targeted interview-count search; imaging cluster statistics themselves were not validated.",
+      "parent_source_id": "S-T09-003",
+      "parent_doi": "10.1523/JNEUROSCI.0775-20.2020",
+      "independent_sample": false
+    },
+    {
+      "source_id": "S-P2T19-004",
+      "title": "Scheinin 2021 Extended Data Figure 3-3",
+      "authors": [
+        "Annalotta Scheinin",
+        "and colleagues"
+      ],
+      "publication_date": "2021-02-24",
+      "url_or_identifier": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8115882/supplementaryFiles",
+      "source_type": "original article supplement",
+      "related_case_ids": [
+        "C-T09-003"
+      ],
+      "access_status": "inspected_header_table_structure_only",
+      "retrieved_at": "2026-09-13T01:38:43.614855+00:00",
+      "relevant_locators": [
+        "DOCX Figure 3-3: title, table column schema, endnote; structural relevance inspection only"
+      ],
+      "version_id": "V-P2T19-004-LINKED",
+      "version_path": "work/P2T19/ns-JN-RM-0775-20-s03.docx",
+      "version_sha256": "c7a26f59534ab89716622656b0eabb6d4a975826b93d002f251bdeb95a868348",
+      "review_status": "accepted",
+      "review_id": "P2R19",
+      "provenance_notes": "P2T19 independently read the stated extent in these freshly frozen bytes. Existing canonical identity is reused where applicable; fresh hash is not asserted equal to T09 discarded bytes. All results remain proposals. Included for disposition of the targeted interview-count search; imaging cluster statistics themselves were not validated.",
+      "parent_source_id": "S-T09-003",
+      "parent_doi": "10.1523/JNEUROSCI.0775-20.2020",
+      "independent_sample": false
+    },
+    {
+      "source_id": "S-P2T19-005",
+      "title": "Scheinin 2021 Extended Data Figure 3-4",
+      "authors": [
+        "Annalotta Scheinin",
+        "and colleagues"
+      ],
+      "publication_date": "2021-02-24",
+      "url_or_identifier": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8115882/supplementaryFiles",
+      "source_type": "original article supplement",
+      "related_case_ids": [
+        "C-T09-003"
+      ],
+      "access_status": "inspected_header_table_structure_only",
+      "retrieved_at": "2026-09-13T01:38:43.614855+00:00",
+      "relevant_locators": [
+        "DOCX Figure 3-4: title, table column schema, endnote; structural relevance inspection only"
+      ],
+      "version_id": "V-P2T19-005-LINKED",
+      "version_path": "work/P2T19/ns-JN-RM-0775-20-s04.docx",
+      "version_sha256": "05553c61f2e40a988473993d6f9094c789f5fb4744a2ec96a3ca5748f4167e77",
+      "review_status": "accepted",
+      "review_id": "P2R19",
+      "provenance_notes": "P2T19 independently read the stated extent in these freshly frozen bytes. Existing canonical identity is reused where applicable; fresh hash is not asserted equal to T09 discarded bytes. All results remain proposals. Included for disposition of the targeted interview-count search; imaging cluster statistics themselves were not validated.",
+      "parent_source_id": "S-T09-003",
+      "parent_doi": "10.1523/JNEUROSCI.0775-20.2020",
+      "independent_sample": false
+    },
+    {
+      "source_id": "S-P2T19-006",
+      "title": "Scheinin 2021 Extended Data Figure 3-5",
+      "authors": [
+        "Annalotta Scheinin",
+        "and colleagues"
+      ],
+      "publication_date": "2021-02-24",
+      "url_or_identifier": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8115882/supplementaryFiles",
+      "source_type": "original article supplement",
+      "related_case_ids": [
+        "C-T09-003"
+      ],
+      "access_status": "inspected_header_table_structure_only",
+      "retrieved_at": "2026-09-13T01:38:43.614855+00:00",
+      "relevant_locators": [
+        "DOCX Figure 3-5: title, table column schema, endnote; structural relevance inspection only"
+      ],
+      "version_id": "V-P2T19-006-LINKED",
+      "version_path": "work/P2T19/ns-JN-RM-0775-20-s05.docx",
+      "version_sha256": "ea60e120815ee7bd49101c6b2205c2acd62e6aaaa1b8d1ac7a7bc56c50a94d50",
+      "review_status": "accepted",
+      "review_id": "P2R19",
+      "provenance_notes": "P2T19 independently read the stated extent in these freshly frozen bytes. Existing canonical identity is reused where applicable; fresh hash is not asserted equal to T09 discarded bytes. All results remain proposals. Included for disposition of the targeted interview-count search; imaging cluster statistics themselves were not validated. The author selected Figure 3-5 title, schema and endnote only. P2R19 independently reports that the same s05 DOCX also contains Figure 3-6; that additional figure is not an author inspection or certified table in this packet.",
+      "parent_source_id": "S-T09-003",
+      "parent_doi": "10.1523/JNEUROSCI.0775-20.2020",
+      "independent_sample": false
+    },
+    {
+      "source_id": "S-T09-001",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": [
+        "Cogitate Consortium"
+      ],
+      "publication_date": "2025-04-30",
+      "url_or_identifier": "https://www.nature.com/articles/s41586-025-08888-1",
+      "source_type": "original empirical journal article",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Figure 1;Results predictions 1–3;Methods Participants;Discussion;Extended Data Fig7"
+      ],
+      "provenance_notes": "Full journal HTML read via public urllib after web redirect failure. Main methods/results/figure captions and references read; raw datasets not reanalyzed. Supplement separately inspected S008. No clinical neural intervention.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-007",
+        "S-T09-008"
+      ]
+    },
+    {
+      "source_id": "S-T09-002",
+      "title": "Deep brain stimulation of the thalamus restores signatures of consciousness in a nonhuman primate model",
+      "authors": [
+        "Jordy Tasserie",
+        "and colleagues"
+      ],
+      "publication_date": "2022-03-18",
+      "url_or_identifier": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8932660/",
+      "source_type": "original empirical journal article",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Results Behavioral effects and local/global novelty;Figure 2;Figure 6;Methods Animals,Behavioral assessment,Anesthesia protocol,Event-related auditory task;Discussion"
+      ],
+      "provenance_notes": "DOI10.1126/sciadv.abl5547. Full PMC HTML via public urllib after web recaptcha. Main text/methods/captions/references inspected; separate supplement not accessed. Replaces initially targeted inaccessible Redinbaugh2020 original, which remains a reference lead.",
+      "related_case_ids": [
+        "C-T09-002"
+      ],
+      "related_source_ids": []
+    },
+    {
+      "source_id": "S-T09-003",
+      "title": "Foundations of Human Consciousness: Imaging the Twilight Zone",
+      "authors": [
+        "Annalotta Scheinin",
+        "and colleagues"
+      ],
+      "publication_date": "2021-02-24",
+      "url_or_identifier": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8115882/",
+      "source_type": "original empirical journal article",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Methods Subjects;Assessment of state;Neuroimaging analysis;Results realization;Figure 2–3;Discussion limitations"
+      ],
+      "provenance_notes": "DOI10.1523/JNEUROSCI.0775-20.2020. Journal issue2021, online2020-12-28 identified in discovery; exact event dates not recovered. Full PMC HTML methods/results/table2 text/references read. Appendices not opened.",
+      "related_case_ids": [
+        "C-T09-003"
+      ],
+      "related_source_ids": []
+    },
+    {
+      "source_id": "S-T09-006",
+      "title": "GNW theoretical framework and the “adversarial testing of global neuronal workspace and integrated information theories of consciousness”",
+      "authors": [
+        "Lionel Naccache",
+        "Claire Sergent",
+        "Stanislas Dehaene",
+        "Xiao-Jing Wang",
+        "Michele Farisco",
+        "Jean-Pierre Changeux"
+      ],
+      "publication_date": "2025-10-09",
+      "url_or_identifier": "https://academic.oup.com/nc/article/2025/1/niaf037/8280147",
+      "source_type": "original theoretical critique",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "sections GNW ignition after stimulus offset;Lack of decoding;Duration;References"
+      ],
+      "provenance_notes": "DOI10.1093/nc/niaf037. Full journal text via web redirect to silverchair; correction S009 only author name. Some authors overlap original theory proponents. Attribution of challenge, not independent experiment.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-001",
+        "S-T09-009"
+      ]
+    },
+    {
+      "source_id": "S-T09-007",
+      "title": "An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory",
+      "authors": [
+        "Lucia Melloni",
+        "and colleagues"
+      ],
+      "publication_date": "2023-02-10",
+      "url_or_identifier": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0268577",
+      "source_type": "original study protocol",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Theory GNW overview;Experiment 1 predictions and Neural activation;Status and timeline;References"
+      ],
+      "provenance_notes": "Full PLOS HTML relevant theory/design/protocol/version discussion and references read. Prior published protocol, not independent outcomes. Original OSF files and complete amendment timeline not separately inspected.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-001"
+      ]
+    },
+    {
+      "source_id": "S-T09-008",
+      "title": "Supplementary Information to Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": [
+        "Cogitate Consortium;IIT discussion by Boly,Koch,Tononi;GNWT discussion by Dehaene"
+      ],
+      "publication_date": "2025-04-30",
+      "url_or_identifier": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-025-08888-1/MediaObjects/41586_2025_8888_MOESM1_ESM.pdf",
+      "source_type": "original article supplement",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "section3 control memory study pp.25–29;sections12–13 pp.119–124;section14 pp.124–126;references"
+      ],
+      "provenance_notes": "Relevant sections text inspected; visually checked PDF pages120,122,124,126 (=printed119,121,123,125). Not all supplementary analyses independently rechecked. Separate inspection unit; same article/sample as S001.",
+      "related_case_ids": [
+        "C-T09-001"
+      ],
+      "related_source_ids": [
+        "S-T09-001"
+      ]
+    }
+  ]
+}

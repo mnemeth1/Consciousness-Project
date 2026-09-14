@@ -1,0 +1,764 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T14",
+  "report": "work/T14/report.md",
+  "counts": {
+    "claims": 20,
+    "arguments": 5,
+    "cases": 0,
+    "sources": 7
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T14-001",
+      "statement": "Craig requires both God and immortality for ultimate significance, while denying mere endless duration suffices.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-001"
+      ],
+      "source_locators": [
+        "No Ultimate Meaning without Immortality and God"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-author-1",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Different from establishing either premise."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-002",
+      "statement": "Craig presents resurrection and fellowship with God positively but explicitly says this discussion has not shown Christianity true.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-001"
+      ],
+      "source_locators": [
+        "The Success of Biblical Christianity; Conclusion"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-author-1",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Psychological claims and assertions against atheist morality remain unverified and outside this verdict."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-003",
+      "statement": "Wolf proposes active, caring engagement with independently worthy objects; pleasure alone is insufficient on her account.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-002"
+      ],
+      "source_locators": [
+        "pp6–8"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-author-2",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Objective worth is a philosophical commitment, not an independently demonstrated value ontology."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-004",
+      "statement": "Wolf acknowledges her account need not address the desire for a large, lasting cosmic impact.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-002"
+      ],
+      "source_locators": [
+        "p23 note10; pp6–7"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-author-2",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Within-life meaning cannot simply replace the user’s enduring/cosmic target."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-005",
+      "statement": "Fischer rejects inevitable unattractiveness through mixed activities, suitably distributed repeatable pleasures, and tolerable changes of character.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "§III pp228–236; §IV p237"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-author-3",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Possible desirability is not necessary goodness, objective meaning, physical feasibility or actual immortality."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-006",
+      "statement": "Fischer distinguishes absorption in an activity from loss of ownership of its experiences.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "§II pp226–227"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-author-3",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Does not establish a complete identity criterion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-007",
+      "statement": "Metz distinguishes loss of imperfect goods from demanding perfection and accepts that the former deserves attention.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "§3.1 pp253–254"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-author-4",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "His interpretation of the objection is not an inspection of Yoshizawa’s original."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-008",
+      "statement": "Metz poses a purpose/perfection tension but concedes no conclusive incompatibility of timelessness and purpose, or necessity of timelessness for meaning.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "§3.2 pp255–256"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-author-4",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Poettcker’s original was not inspected; reply positions below are our reconstructions."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-009",
+      "statement": "Actual benefits within a finite interval can ground finite significance under an explicit value premise without answering why a cosmos exists or whether its subjects endure.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T14-002"
+      ],
+      "source_locators": [
+        "T14 report, finite-value argument"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "Conditional non-erasure premise; rejects neither cosmic-purpose question nor comparative enduring value."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-010",
+      "statement": "Keeping the same persons in worthwhile relationships and projects could preserve goods lost on extinction and add significance; it does not follow that every enduring life is better.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T14-001",
+        "S-T14-003"
+      ],
+      "source_locators": [
+        "T14 report, comparative argument"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "Assumes same subjects, worthwhile content, non-dominating costs, and an appropriate comparison rule."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-011",
+      "statement": "The necessity thesis needs a further principle that loss of all enduring bearers or recognition defeats every relevant kind of significance, not merely future continuation.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T14-001",
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "T14 report, necessity argument"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "Principle remains disputed; calling the target ultimate cannot settle the value dispute by stipulation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-012",
+      "statement": "Williams argues that enduring human life threatens categorical motivation through an impoverished relation to the world, not merely an unpleasant feeling of boredom.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-007"
+      ],
+      "source_locators": [
+        "pp90–91,94–96,100"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-Williams",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Source attribution only; claimed necessity remains contested. Replaces earlier project-only exhaustion reconstruction after original inspection."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-013",
+      "statement": "Preservation of information, recognition or a complete history need not be the original person’s continuing subjectivity.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [
+        "T13 report, M1–M4; T14 meaning_matrix"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "Inherited reviewed identity distinctions, not fresh empirical evidence."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-014",
+      "statement": "A strictly timeless foundation cannot acquire experiences in sequence in the same respect; temporal persons or whole-history inclusion require distinct relations.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [
+        "T11 report; T13 report; T14 purpose_hypotheses"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "Inherited model constraint; does not prove such grounding impossible."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-015",
+      "statement": "A universe containing conscious life and a universe intended to produce conscious life are distinct hypotheses.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [
+        "T01 B08; T14 purpose_hypotheses"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "Outcome alone supplies no observed designer preference or intended domain."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-016",
+      "statement": "Purposeful creation can explain a role conditional on agency, end and causal/grounding link, but the worth of that role needs a normative premise.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T14-001",
+        "S-T14-004"
+      ],
+      "source_locators": [
+        "T14 purpose argument"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "Purpose does not automatically entail beneficence or authority."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-017",
+      "statement": "Specified developmental and preserving purposes face different conditional tests concerning deprivation, opportunity and same-subject preservation.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [
+        "T14 purpose_hypotheses, proposed_tests"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "No completed distribution or cosmic prevalence test; counterexamples require inclusion in the declared domain."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-018",
+      "statement": "Consciousness-related value premises and the same observed experiences reused across purpose, survival and foundation arguments are not independent evidence.",
+      "claim_type": "inference",
+      "source_ids": [],
+      "source_locators": [
+        "T14 component_assessment and sensitivity"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project_authored_conditional",
+      "inference_strength": "contested",
+      "limitations": [
+        "No equal-support or numerical posterior conclusion."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-019",
+      "statement": "Williams grounds reasons to avoid death in categorical desires that motivate continuing life; death can be bad at a particular time even if endless life is undesirable.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-007"
+      ],
+      "source_locators": [
+        "pp85–89,100"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-Williams",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "No inference that every additional period is harmful or that death is always good; categorical desire can persist through unpleasant times."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "claim_id": "CL-T14-020",
+      "statement": "Williams separates being the same person from a future life appropriately related to present aims; psychologically disjoint survival can meet the first condition while failing the second.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T14-007"
+      ],
+      "source_locators": [
+        "pp91–94"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-T14-Williams",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Not a claim that every character change destroys numerical identity; the prospective relation and his stronger conclusions remain disputed."
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T14-001",
+      "name": "Enduring significance: necessity versus enhancement",
+      "position": "Positive conditional reconstruction",
+      "premises": [
+        "Relationships, understanding and achieved goods can be worth preserving.",
+        "Specified continuation retains the same subjects and relevant goods.",
+        "Additional worthwhile experience is available without overriding harm."
+      ],
+      "bridge_principles": [
+        "Comparative enhancement needs a defensible value ordering.",
+        "Necessity additionally needs total loss to defeat all significance in the selected domain."
+      ],
+      "conclusion": "Endurance can enhance significance under these premises; necessity and actuality require more.",
+      "source_ids": [
+        "S-T14-001",
+        "S-T14-004"
+      ],
+      "claim_ids": [
+        "CL-T14-001",
+        "CL-T14-002",
+        "CL-T14-007",
+        "CL-T14-010",
+        "CL-T14-011",
+        "CL-T14-013"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Finite goods may retain value even when no one later remembers; endless continuation may damage what mattered.",
+      "strongest_reply": "A defender can argue continued shared life is an additional relational good, not merely a record, while defending separately the stronger non-loss requirement.",
+      "unresolved_issues": [
+        "Value ordering; whose goods; identity; extent of duration; no inferred actual survival"
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "argument_id": "A-T14-002",
+      "name": "Finite value with an acknowledged cosmic remainder",
+      "position": "Finite-value countercase",
+      "premises": [
+        "A finite instance of learning, care or relief can benefit actual subjects.",
+        "The worth of that benefit need not depend entirely on subsequent recognition."
+      ],
+      "bridge_principles": [
+        "Non-erasure principle: later absence alone does not retroactively make every earlier benefit worthless."
+      ],
+      "conclusion": "Finite meaning can be real on this account while cosmic intention and enduring significance remain separate questions.",
+      "source_ids": [
+        "S-T14-002"
+      ],
+      "claim_ids": [
+        "CL-T14-003",
+        "CL-T14-004",
+        "CL-T14-009",
+        "CL-T14-011"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A meaningful episode may still lack an ultimately worthwhile setting; all loss can defeat the hoped-for relationship to a larger whole.",
+      "strongest_reply": "Distinguish missing further goods from nonexistence of prior goods; do not claim this answers the larger purpose question.",
+      "unresolved_issues": [
+        "Ground of objective value; relation of local to whole-life value; criterion of ultimate significance"
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "argument_id": "A-T14-003",
+      "name": "Williams on categorical desire and immortal life, with Fischer’s reply",
+      "position": "Inspected original challenge and reply, with project adjudication",
+      "premises": [
+        "Williams: categorical desires can give present reasons to continue, independently of merely avoiding frustration.",
+        "Williams: an adequate immortal prospect must preserve the person and relate appropriately to the aims motivating survival.",
+        "Williams argues extended fixed-character life undermines motivation, while disjoint or radically accumulated lives fail to solve the appropriate-relation problem."
+      ],
+      "bridge_principles": [
+        "The author’s modal step generalizes from conditions of recognizably human character to endless human existence; this remains contested.",
+        "A burden about appropriate prospective concern is distinct from numerical identity and from objective worth."
+      ],
+      "conclusion": "Williams supplies a stronger challenge than mere hedonic boredom, but its universal necessity is not established by the present comparison; conditional worthwhile endurance remains open.",
+      "source_ids": [
+        "S-T14-007",
+        "S-T14-003"
+      ],
+      "claim_ids": [
+        "CL-T14-005",
+        "CL-T14-006",
+        "CL-T14-010",
+        "CL-T14-012",
+        "CL-T14-013",
+        "CL-T14-019",
+        "CL-T14-020"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Fischer allows varied activities, appropriately spaced repeatable pleasures, and acceptable character development; absorbed attention need not eliminate ownership. These contest inevitable exhaustion and indiscriminate identity-loss claims.",
+      "strongest_reply": "A strengthened Williams-side response asks whether renewal preserves genuine engagement and prospective reasons rather than simply suppressing awareness of impoverishment. Occasional pleasantness does not settle that question, and every experience being owned does not by itself establish an adequate relation to present aims.",
+      "unresolved_issues": [
+        "Whether human categorical projects necessarily exhaust under all relevant immortal arrangements",
+        "Whether relational development can renew motivation while preserving identity and appropriate concern",
+        "Fischer’s repeatability/variety response does not alone establish objective worth or infinite resources",
+        "Williams addresses endless human life; application to strict timeless foundation or transformed persons needs additional premises"
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "argument_id": "A-T14-004",
+      "name": "Cosmic purpose and normative worth",
+      "position": "Strong purpose account with bridge audit",
+      "premises": [
+        "An agent intends a stated end for a specified cosmic domain.",
+        "Its causal or grounding contribution explains why that domain has relevant features.",
+        "The end and agent-person relation are normatively worthwhile."
+      ],
+      "bridge_principles": [
+        "Intentional explanation requires independent warrant for intention and constraints.",
+        "Authorship supplies a purpose relation, not worth by definition."
+      ],
+      "conclusion": "A worthy intentional relation can add cosmic significance conditionally; observed conscious production alone does not establish it.",
+      "source_ids": [
+        "S-T14-001",
+        "S-T14-004"
+      ],
+      "claim_ids": [
+        "CL-T14-002",
+        "CL-T14-008",
+        "CL-T14-014",
+        "CL-T14-015",
+        "CL-T14-016"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Arbitrary or harmful ends would still be purposes; a timeless agent model owes coherent intention; designer premises remain unsupported.",
+      "strongest_reply": "Specify a loving creator-person relation and whole-history intention, or temporal agency; assess these with the same standards as rival primitive laws and value commitments.",
+      "unresolved_issues": [
+        "Actual intention; agency model; normative foundation; domain; goodness and authority deferred"
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    },
+    {
+      "argument_id": "A-T14-005",
+      "name": "Consciousness-factory discrimination",
+      "position": "Comparative model design",
+      "premises": [
+        "Production, development and preservation are different proposed ends.",
+        "Each end is paired with a declared population, means, constraints and tradeoffs."
+      ],
+      "bridge_principles": [
+        "Outcomes weaken a model only when excluded or disfavored by those fixed commitments.",
+        "Observer selection and shared premises must be included."
+      ],
+      "conclusion": "Precisely constrained variants can face qualitative tests; unrestricted hidden purposes discriminate weakly.",
+      "source_ids": [],
+      "claim_ids": [
+        "CL-T14-015",
+        "CL-T14-016",
+        "CL-T14-017",
+        "CL-T14-018"
+      ],
+      "dependency_argument_ids": [
+        "A-T14-004"
+      ],
+      "strongest_objection": "Unknown goals/resources can accommodate almost any outcome; conscious observers necessarily observe from a conscious perspective.",
+      "strongest_reply": "Precommit to independent goals, inclusion rules and feasible alternatives; compare the same data across intentional, impersonal-teleological and incidental models.",
+      "unresolved_issues": [
+        "No population survey or likelihoods; no completed test; suffering analysis deferred to T15"
+      ],
+      "review_status": "accepted",
+      "review_id": "R14"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-T14-001",
+      "title": "The Absurdity of Life Without God",
+      "authors": [
+        "William Lane Craig"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.reasonablefaith.org/writings/popular-writings/existence-nature-of-god/the-absurdity-of-life-without-god/",
+      "source_type": "original_author_essay",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "No Ultimate Meaning without Immortality and God",
+        "No Ultimate Purpose Without Immortality and God",
+        "The Success of Biblical Christianity; Conclusion; notes1–11"
+      ],
+      "provenance_notes": "Current author-site version, publication date not displayed in inspected text; older chapter1994 is a search metadata lead only. Empirical and behavioral assertions not verified.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T14-002",
+      "title": "Meaning in Life and Why It Matters",
+      "authors": [
+        "Susan Wolf"
+      ],
+      "publication_date": "2007–2008",
+      "url_or_identifier": "https://philosophy.northwestern.edu/community/nustep/08/papers/Wolf.pdf",
+      "source_type": "original_author_lecture_draft",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "printed/PDF pp3–9,13–26,30–36; notes1–12"
+      ],
+      "provenance_notes": "Institutionally hosted51page lecture draft: title identifies November 2007 Tanner lectures and May 2008 Northwestern presentation. Incomplete draft footnotes; not 2010 final book or commentaries.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T14-003",
+      "title": "Why Immortality is Not So Bad",
+      "authors": [
+        "John Martin Fischer"
+      ],
+      "publication_date": "1994; later reprint date unresolved",
+      "url_or_identifier": "https://www.imtcoin.com/pdf/Why-immortality-is-not-so-bad.pdf",
+      "source_type": "original_argument_reprint",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "§§I–IV, printed224–238, PDF1–15"
+      ],
+      "provenance_notes": "Third-party hosted review-copy anthology reprint with author/title/complete argument and references inspected. Original journal1994 identity supported by search metadata; exact reprint edition/date not established. Embedded Williams passages are not direct original inspection.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T14-004",
+      "title": "Assessing Lives, Giving Supernaturalism Its Due, and Capturing Naturalism: Reply to 13 Critics of Meaning in Life",
+      "authors": [
+        "Thaddeus Metz"
+      ],
+      "publication_date": "2015-10",
+      "url_or_identifier": "https://www.philosophyoflife.org/jpl2015si14.pdf",
+      "source_type": "original_author_reply",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "§2.1 pp230–234; §3.1 pp253–254; §3.2 pp254–257; references275–278"
+      ],
+      "provenance_notes": "Publisher PDF5(3):228–278. Scope excludes full metaethics. References include forthcoming2016work; no claim that all quoted critics originals were inspected.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T14-005",
+      "title": "Journal of Philosophy of Life home",
+      "authors": [
+        "Journal of Philosophy of Life"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.philosophyoflife.org/",
+      "source_type": "navigation_metadata",
+      "access_status": "inspected_metadata_only",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "Articles Before Volume15 link"
+      ],
+      "provenance_notes": "Navigation only, no philosophical evidence.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T14-006",
+      "title": "Journal of Philosophy of Life list of articles2011–2024",
+      "authors": [
+        "Journal of Philosophy of Life"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.philosophyoflife.org/list.html",
+      "source_type": "navigation_metadata",
+      "access_status": "inspected_metadata_only",
+      "retrieved_at": "2026-09-12T16:14:50.271588+00:00",
+      "relevant_locators": [
+        "Volume5No3, Metz reply and Poettcker entries"
+      ],
+      "provenance_notes": "Publisher metadata/navigation only; linked texts uninspected unless separately recorded.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T14-007",
+      "title": "The Makropulos case: reflections on the tedium of immortality",
+      "authors": [
+        "Bernard Williams"
+      ],
+      "publication_date": "1973; Cambridge online edition2010",
+      "url_or_identifier": "https://doi.org/10.1017/CBO9780511621253.008",
+      "source_type": "original_philosophical_chapter_user_supplied",
+      "access_status": "inspected_complete_full_text",
+      "retrieved_at": "2026-09-12T16:30:25.096612+00:00",
+      "relevant_locators": [
+        "Complete chapter printed82–100 (PDF1–19)",
+        "Categorical desires85–88; life length89,100",
+        "Two conditions91–93; memory/character94; boredom95–96; intellect/individuality96–98"
+      ],
+      "provenance_notes": "User-supplied Cambridge chapter; supplied PDF SHA256 527b41094684020d61254b3ca96ba6054bce655cd36e1dd6e64b7f44877605a0. Printed DOI matches source. Printed download stamp Stockholm University Library20Dec2018 and Cambridge Books Online2010; these are document provenance, not present-user affiliation. Original lecture1972 acknowledged p82; book1973. Root DOI lookup separate from author work. Historical failed access retained.",
+      "related_case_ids": [],
+      "local_input_path": "state/input_snapshots/user_sources/Williams_Makropulos_user_supplied.pdf"
+    }
+  ]
+}

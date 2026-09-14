@@ -1,0 +1,795 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T04",
+  "report": "work/P2T04/report.md",
+  "counts": {
+    "claims": 18,
+    "arguments": 4,
+    "cases": 0,
+    "sources": 6
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T04-001",
+      "statement": "Kastrup’s inspected journal-layout copy identifies JCS25(5–6),2018,pp125–155 and a July2017 receipt/February2018 revision; later PDF modification is recorded separately, and the mirror copy has not been authenticated against publisher bytes.",
+      "claim_type": "source_version_attribution",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "V-P2T04-001 headerp125; p155 end; retrieval metadata"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Publication/receipt/file modification dates are distinct.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-002",
+      "statement": "Chalmers’s draft and final-layout chapter are distinct inspected versions; draft/author metadata2017, webpage citation2018, catalogs2019 and inspected copyright2020 are retained as different date evidence.",
+      "claim_type": "source_version_attribution",
+      "source_ids": [
+        "S-T12-003"
+      ],
+      "source_locators": [
+        "V002p1 and PDF metadata; V-P2T04-003 editionPDF5/ch28p353; primary author webpage lines99–101"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "The2021 idealism-handbook reprint and exact publisher release date are not verified; DOI is bibliographic-discovery only.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-003",
+      "statement": "Kastrup posits a single cosmic conscious primitive whose self-excitation patterns are experiences; economy is conditional on explanatory adequacy.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "V-P2T04-001§§7–8pp138–140"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "No unique dynamics, actuality, eternal or timeless bearer follows.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-004",
+      "statement": "Kastrup2018 calls dissociated alters different subjects/private fields while grounding their consciousness and generic I-ness in one medium; cognitive disconnection is his privacy mechanism.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "V-P2T04-001§9pp140–143; Figure1p141"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Preserve both different-subject and common-medium language; cognitive accessibility alone does not settle numerical identity or grounding.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-005",
+      "statement": "Chalmers separates subject, quality and structure constitution; the cosmic-subject-without-macrosubjects objection depends on conceivability/possibility and grounding-necessity bridges.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-003"
+      ],
+      "source_locators": [
+        "V-P2T04-002§4pp21–24; V-P2T04-003§4pp365–367"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Serious conditional argument, not measured metaphysical impossibility.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-006",
+      "statement": "Chalmers treats mode-relative cognitive fragmentation as a coherent identity proposal with major disanalogies/introspective costs, explicitly citing Kastrup2017 rather than Kastrup2018.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-003",
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "V002pp23–24,30; V003pp366–367,372; V001refspp153–155"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Comparison with Kastrup2018 is an argumentative reconstruction; no actual direct draft/final rebuttal identified.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-007",
+      "statement": "The final Chalmers chapter adds a no-highest-level countercase to cosmic holism and uses austere/enriched for extra mental structure, while retaining the constitution and simulation qualifications.",
+      "claim_type": "source_version_and_argument_attribution",
+      "source_ids": [
+        "S-T12-003"
+      ],
+      "source_locators": [
+        "V-P2T04-003§4pp365,368–369; note16p371; V002pp21,26–28"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Limited passage comparison; does not establish any ontology or reject all possible cosmic accounts.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-008",
+      "statement": "Kastrup invokes clinical dissociation, no-report research, quantum-measurement, biological and perception-theory illustrations; their originals were not independently inspected here.",
+      "claim_type": "source_use_attribution",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "V-P2T04-001§5p133; §§9–12pp141–152; refspp153–155"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "No new case, event, sample or clinical/physics fact; scaling to a cosmic subject remains an additional inference.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-009",
+      "statement": "Kastrup locates cosmic dissociation at living-organism boundaries and uses cross-boundary impingement/coded perception to explain the perceived world.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "V-P2T04-001§§10–11pp143–149; Figs2–3pp147–148"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Metabolism, phenomenal boundary, Markov blanket and a unique subject are not independently shown equivalent.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-010",
+      "statement": "Kastrup models neural/body correlations as appearances of another alter’s experience and a common lawful world as shared surrounding cosmic thoughts.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T12-002"
+      ],
+      "source_locators": [
+        "V-P2T04-001§§12–13pp150–152; Figs4–5"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-universal-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Accommodation needs mapping/law premises; lack of report neither proves absent nor proves hidden experience.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-011",
+      "statement": "The selected Monadology argues for plural simple, qualitatively distinct monads with internal perception/appetition; its mill argument rejects mechanical explanation of perception.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T10-002"
+      ],
+      "source_locators": [
+        "V-P2T04-004§§1–18pp268–270; PDF138L/R,139L"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-Leibniz-Foucher-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "The unity/anti-mechanist premises remain disputed; monads are not ordinary spatial particles.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-012",
+      "statement": "Monadology distinguishes perception from apperception/consciousness and bare perception from more distinct perception with memory.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T10-002"
+      ],
+      "source_locators": [
+        "V-P2T04-004§§14,19pp269–270; PDF138R,139L"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-Leibniz-Foucher-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "This does not warrant classifying every monad as an ordinary conscious person or every perception as modern phenomenal awareness.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-013",
+      "statement": "Leibniz’s created monads remain plural while depending on God and representing one universe; ideal coordination and distinct soul/body laws do not identify all created subjects with one mind.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-T10-002"
+      ],
+      "source_locators": [
+        "V-P2T04-004§§47–62pp274–277; §§78–81p279"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-Leibniz-Foucher-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Plurality is in the created order, not many uncreated independent grounds; compatibility with every modern strict-idealism requirement is not settled.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-014",
+      "statement": "New System1695 grounds aggregates in active substantial unities and explains correspondence through individual representational natures and divine initial coordination;1998 translation marks some later unpublished amendments.",
+      "claim_type": "philosophical_argument_and_version_attribution",
+      "source_ids": [
+        "S-P2T04-002"
+      ],
+      "source_locators": [
+        "V005headingp143; §§2–4pp145–146; §§11–18pp148–152"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-Leibniz-Foucher-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Do not collapse1695 into1714 or treat bracketed additions as verified first-publication wording.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-015",
+      "statement": "Foucher’s selected1695 criticism grants coordinated sequences possible but questions unnecessary bodies, access to their motion, ad hoc preservation of assumptions, and the exclusion of effort/resistance interaction.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-P2T04-003"
+      ],
+      "source_locators": [
+        "V-P2T04-006§§2–5pp180–183; strongest§§4–5pp181–183"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-Leibniz-Foucher-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Abbreviated translation; omitted original extents not inspected. Criticism does not by itself demonstrate impossibility.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-016",
+      "statement": "Leibniz’s1696 published reply distinguishes mass foundations from abstract extension and genuine animal unity from clocks, then answers coordination/body objections through initial laws, divine plurality and unfailing harmony.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-P2T04-004",
+        "S-P2T04-003"
+      ],
+      "source_locators": [
+        "V-P2T04-007§§2–4pp187–189; V-P2T04-006§§2–4pp180–182"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-Leibniz-Foucher-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "Actual direct reply to1695criticism, not to1714Monadology; premise defense and empirical discrimination remain incomplete.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-017",
+      "statement": "The1696 reply defends fitting appearances when supported by a priori reasons, treats force as intrinsic, and appeals to conservation of force and direction against interactionism.",
+      "claim_type": "philosophical_argument_attribution",
+      "source_ids": [
+        "S-P2T04-004"
+      ],
+      "source_locators": [
+        "V-P2T04-007§§5–7pp189–190"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-Leibniz-Foucher-lineage",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "directly_inspected_narrow_attribution",
+      "inference_strength": "attribution_supported_premise_truth_unassessed",
+      "limitations": [
+        "No modern physics/physiology verification; the selected reply is abbreviated and no later Foucher rejoinder was inspected.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "claim_id": "CL-P2T04-018",
+      "statement": "These inspected versions supply a developed bounded comparison without establishing fundamental/universal consciousness, brain independence, personal survival, timelessness, preservation, intention, goodness or authority.",
+      "claim_type": "project_conceptual_analysis",
+      "source_ids": [
+        "S-T12-002",
+        "S-T12-003",
+        "S-T10-002",
+        "S-P2T04-002",
+        "S-P2T04-003",
+        "S-P2T04-004"
+      ],
+      "source_locators": [
+        "Report synthesis; V-P2T04-001§8p140; V003pp369–370; V-P2T04-004§§82–90pp279–281; V-P2T04-005§§4–8,16pp146–148,151–152"
+      ],
+      "case_ids": [],
+      "dependency_group": "P2T04-comparison",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "The source can be correctly attributed even if its premises or preferred ontology are false."
+      ],
+      "record_reliability": "explicit_project_reasoning",
+      "inference_strength": "bounded_conditional",
+      "limitations": [
+        "Leibniz’s preservation/moral-order conclusions use additional theological premises. EveryGATE-T16 remains withheld; acceptedP2T01/P2T02 are derivative only.",
+        "Documented attribution or explicit project reasoning; premise truth and metaphysical actuality are not accepted by this author packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T04-001",
+      "name": "Cosmic dissociation as universal experiential grounding",
+      "position": "Kastrup2018 selected defense",
+      "premises": [
+        "Experiential reality requires explanation and economy favors one kind if adequate.",
+        "Private perspectives can be modelled through disconnected cognitive associations.",
+        "Bodies/perception are posited as appearances and cross-boundary influences of cosmic experiential patterns."
+      ],
+      "bridge_principles": [
+        "Clinical dissociation is a relevant analogy for private fields in a single conscious medium.",
+        "Access/impingement structure realizes the required subject and qualitative facts."
+      ],
+      "conclusion": "A one-primitive cosmic account can accommodate the selected phenomena.",
+      "source_ids": [
+        "S-T12-002",
+        "S-T12-003"
+      ],
+      "claim_ids": [
+        "CL-P2T04-003",
+        "CL-P2T04-004",
+        "CL-P2T04-008",
+        "CL-P2T04-009",
+        "CL-P2T04-010"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Chalmers: accessibility does not by itself establish subject constitution; identity has interpersonal/introspection costs and nonidentity needs necessitation.",
+      "strongest_reply": "Kastrup’s clinical/privacy and appearance account makes the intended mechanism explicit; Chalmers himself grants cognitive-fragmentation coherence, with qualifications.",
+      "unresolved_issues": [
+        "Sufficiency of subject-constituting relation",
+        "Quality/structure and exact laws",
+        "Clinical/physics originals uninspected",
+        "No verified direct response to selected Chalmers idealism text"
+      ],
+      "reply_relation": "Kastrup2018 internal response to broader problem; analyst comparison with Chalmers, not a verified reply exchange",
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "argument_id": "A-P2T04-002",
+      "name": "Conditional cosmic subject-constitution objection",
+      "position": "Chalmers selected serious challenge",
+      "premises": [
+        "Cosmic subject and all its cosmic mental states can seemingly be conceived without further distinct macrosubjects.",
+        "Constitution requires the subject facts to be fixed by the ground."
+      ],
+      "bridge_principles": [
+        "Relevant conceivability entails metaphysical possibility.",
+        "Grounding entails relevant necessitation."
+      ],
+      "conclusion": "Pure cosmic grounding of distinct macrosubjects faces a serious conditional objection.",
+      "source_ids": [
+        "S-T12-003",
+        "S-T12-002"
+      ],
+      "claim_ids": [
+        "CL-P2T04-004",
+        "CL-P2T04-005",
+        "CL-P2T04-006",
+        "CL-P2T04-007"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Identity cosmopsychism denies further numerically distinct subjects; hidden constitutive facts or failure of modal bridges may defeat the inference.",
+      "strongest_reply": "Chalmers allows mode-relative fragmentation as coherent but documents identity/introspection costs; nonidentity approaches still owe a subject relation.",
+      "unresolved_issues": [
+        "Modal bridge justification",
+        "Whether cognitive mode-relativity handles phenomenal and interpersonal difference",
+        "No assertion of impossibility"
+      ],
+      "reply_relation": "Actual constructive responses considered by Chalmers; Kastrup2018 not asserted to answer this exact text",
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "argument_id": "A-P2T04-003",
+      "name": "Plural substantial unity and internally lawful representation",
+      "position": "Leibniz developed mental-substance comparator",
+      "premises": [
+        "Composites require genuine simples.",
+        "Mechanical aggregates do not explain perception.",
+        "Each monad has an intrinsic representational nature and qualitative individuality.",
+        "God creates and coordinates substances and their laws."
+      ],
+      "bridge_principles": [
+        "Unity requires non-composite active bearers.",
+        "Divine coordination grounds consistent representations and ordinary causal descriptions without influx."
+      ],
+      "conclusion": "Plural created perceivers express one world without forming one numerically identical subject.",
+      "source_ids": [
+        "S-T10-002",
+        "S-P2T04-002",
+        "S-P2T04-004"
+      ],
+      "claim_ids": [
+        "CL-P2T04-011",
+        "CL-P2T04-012",
+        "CL-P2T04-013",
+        "CL-P2T04-014",
+        "CL-P2T04-016"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Foucher questions unextended foundations, organic/mental unity, and why externally coordinated bodies are needed if appearances are internally sufficient.",
+      "strongest_reply": "Leibniz distinguishes genuine unities from aggregates and abstract extension from corporeal mass; intrinsic lawfulness and divine preference for plurality answer the intended explanandum.",
+      "unresolved_issues": [
+        "Unity and anti-mechanist premises",
+        "Divine actuality/choice and coordination",
+        "1695/1714 interpretation",
+        "Perception is not automatically apperceptive consciousness"
+      ],
+      "reply_relation": "NewSystem1695 defended in1696; Monadology1714 is later developed comparison, not same target",
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    },
+    {
+      "argument_id": "A-P2T04-004",
+      "name": "Unnecessary bodies and post hoc coordination",
+      "position": "Foucher1695 direct objection",
+      "premises": [
+        "Synchronized bodily/mental sequences are possible.",
+        "Soul appearances could seem the same without appropriate bodies or motions.",
+        "A theory built to save prior separations may not be independently justified."
+      ],
+      "bridge_principles": [
+        "Explanatory economy and epistemic justification favor avoiding unnecessary untested entities.",
+        "Effort/resistance may permit interaction unless excluded by defended premises."
+      ],
+      "conclusion": "Leibniz owes justification for bodies and harmony beyond possible coordination.",
+      "source_ids": [
+        "S-P2T04-003",
+        "S-P2T04-004"
+      ],
+      "claim_ids": [
+        "CL-P2T04-015",
+        "CL-P2T04-016",
+        "CL-P2T04-017"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Leibniz says harmony follows from true unities, laws are internal, and God values more substances with external correspondence.",
+      "strongest_reply": "Leibniz’s actual1696reply treats harmony as law-grounded rather than recurring intervention, permits revised ordinary causal language, and defends a priori reasons plus empirical fit.",
+      "unresolved_issues": [
+        "The reply excludes countercases conditional on harmony rather than new observation",
+        "Conservation appeal not independently verified",
+        "Abbreviated critic/reply extents and omitted1695Remarks"
+      ],
+      "reply_relation": "Verified actual1696reply to Foucher1695; no later reply fabricated",
+      "review_status": "accepted",
+      "review_id": "P2R04"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T04-002",
+      "title": "New System of the Nature of Substances and their Communication, and of the Union which Exists between the Soul and the Body",
+      "authors": [
+        "G. W. Leibniz"
+      ],
+      "publication_date": "1695",
+      "url_or_identifier": "state/input_snapshots/user_sources/Leibniz_Philosophical_Texts_1998_user_supplied.pdf",
+      "source_type": "original_philosophical_text_in_identified_version",
+      "access_status": "inspected_selected_extents",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Text4 complete selected translation, heading and inline notes, pp143–152; PDF75R–80L."
+      ],
+      "provenance_notes": "See source_versions.json and inspection_notes.json; exact versions/omissions retained. This is a proposal, not an overwrite of historical inspection metadata.",
+      "related_case_ids": [],
+      "versions": [
+        {
+          "version_id": "V-P2T04-005",
+          "source_id": "S-P2T04-002",
+          "path": "state/input_snapshots/user_sources/Leibniz_Philosophical_Texts_1998_user_supplied.pdf",
+          "sha256": "9c4b95c3b0562753182a167e825bcfeec9b88d9515ff98eb896de58ab06f557e",
+          "description": "Francks/Woolhouse translation copyright1998; exact physical printing year unknown",
+          "work_span_printed": "143–152",
+          "inspection_extent": "Text4 complete selected translation, heading and inline notes, pp143–152; PDF75R–80L.",
+          "independently_inspected": true,
+          "publisher_byte_equivalence": false
+        }
+      ],
+      "review_status": "accepted",
+      "decisive": false,
+      "review_id": "P2R04"
+    },
+    {
+      "source_id": "S-P2T04-003",
+      "title": "Reply of M.S.F. to M. de L.B.Z. on his New System of the Communication between Substances",
+      "authors": [
+        "Simon Foucher"
+      ],
+      "publication_date": "1695-09-12",
+      "url_or_identifier": "state/input_snapshots/user_sources/Leibniz_Philosophical_Texts_1998_user_supplied.pdf",
+      "source_type": "original_philosophical_text_in_identified_version",
+      "access_status": "inspected_selected_extents",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Text6 complete selected abbreviated translation, heading and inline notes, pp180–183; PDF94L/R,95L/R."
+      ],
+      "provenance_notes": "See source_versions.json and inspection_notes.json; exact versions/omissions retained. This is a proposal, not an overwrite of historical inspection metadata.",
+      "related_case_ids": [],
+      "versions": [
+        {
+          "version_id": "V-P2T04-006",
+          "source_id": "S-P2T04-003",
+          "path": "state/input_snapshots/user_sources/Leibniz_Philosophical_Texts_1998_user_supplied.pdf",
+          "sha256": "9c4b95c3b0562753182a167e825bcfeec9b88d9515ff98eb896de58ab06f557e",
+          "description": "Francks/Woolhouse translation copyright1998; exact physical printing year unknown",
+          "work_span_printed": "180–183",
+          "inspection_extent": "Text6 complete selected abbreviated translation, heading and inline notes, pp180–183; PDF94L/R,95L/R.",
+          "independently_inspected": true,
+          "publisher_byte_equivalence": false
+        }
+      ],
+      "review_status": "accepted",
+      "decisive": false,
+      "review_id": "P2R04"
+    },
+    {
+      "source_id": "S-P2T04-004",
+      "title": "[First] Explanation of the New System of the Communication between Substances, in Reply to what was Said of it in the Journal for12September1695",
+      "authors": [
+        "G. W. Leibniz"
+      ],
+      "publication_date": "1696-04",
+      "url_or_identifier": "state/input_snapshots/user_sources/Leibniz_Philosophical_Texts_1998_user_supplied.pdf",
+      "source_type": "original_philosophical_text_in_identified_version",
+      "access_status": "inspected_selected_extents",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Text8 complete selected abbreviated translation, heading and inline notes, pp187–190; PDF97R,98L/R,99L."
+      ],
+      "provenance_notes": "See source_versions.json and inspection_notes.json; exact versions/omissions retained. This is a proposal, not an overwrite of historical inspection metadata.",
+      "related_case_ids": [],
+      "versions": [
+        {
+          "version_id": "V-P2T04-007",
+          "source_id": "S-P2T04-004",
+          "path": "state/input_snapshots/user_sources/Leibniz_Philosophical_Texts_1998_user_supplied.pdf",
+          "sha256": "9c4b95c3b0562753182a167e825bcfeec9b88d9515ff98eb896de58ab06f557e",
+          "description": "Francks/Woolhouse translation copyright1998; exact physical printing year unknown",
+          "work_span_printed": "187–190",
+          "inspection_extent": "Text8 complete selected abbreviated translation, heading and inline notes, pp187–190; PDF97R,98L/R,99L.",
+          "independently_inspected": true,
+          "publisher_byte_equivalence": false
+        }
+      ],
+      "review_status": "accepted",
+      "decisive": false,
+      "review_id": "P2R04"
+    },
+    {
+      "source_id": "S-T10-002",
+      "title": "The Principles of Philosophy known as Monadology",
+      "authors": [
+        "G. W. Leibniz"
+      ],
+      "publication_date": "1714",
+      "url_or_identifier": "https://www.earlymoderntexts.com/assets/pdfs/leibniz1714b.pdf",
+      "source_type": "original philosophical text in English modernization",
+      "access_status": "inspected_relevant_sections",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "§§31–39",
+        "§§40–48",
+        "§§53–55",
+        "Front matter editorial conventions"
+      ],
+      "provenance_notes": "Jonathan Bennett English modernization, first launched 2004, copyright 2017; original French not compared. Marked editorial additions and omissions are not silently attributed to Leibniz. Grounded classic text endpoint.",
+      "related_case_ids": [],
+      "decisive": true
+    },
+    {
+      "source_id": "S-T12-002",
+      "title": "The Universe in Consciousness",
+      "authors": [
+        "Bernardo Kastrup"
+      ],
+      "publication_date": "2018",
+      "url_or_identifier": "https://www.academia.edu/36718815/The_Universe_in_Consciousness",
+      "source_type": "original_philosophical_argument",
+      "access_status": "inspected_relevant_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Journal pp138–153, §§7–14; pp129–138 background; References pp153 onward"
+      ],
+      "provenance_notes": "Author academic-papers page links this Academia copy; extracted journal header25(5–6):125–155. Primary text inspected through HTML transcription with printed-page markers, not authenticated journal PDF. Clinical, quantum, plant and free-energy premises are author attributions only, not verified empirical evidence; diagrams not visually available, no diagram-specific inference.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T12-003",
+      "title": "Idealism and the Mind-Body Problem",
+      "authors": [
+        "David J. Chalmers"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://consc.net/papers/idealism.pdf",
+      "source_type": "original_philosophical_argument",
+      "access_status": "inspected_relevant_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Author PDF pp1–5,11–24,28–31; §§1,3–5 and References"
+      ],
+      "provenance_notes": "Undated31-page author manuscript labelled forthcoming, including unfinished editorial notes and inconsistent publisher attribution. Exact final publication date/version unresolved; cited as this inspected draft only. Discusses Kastrup2017, not a verified direct response to Kastrup2018.",
+      "related_case_ids": []
+    }
+  ]
+}

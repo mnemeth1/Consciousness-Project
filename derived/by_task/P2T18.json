@@ -1,0 +1,1557 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T18",
+  "report": "work/P2T18/report.md",
+  "counts": {
+    "claims": 35,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 8
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T18-001",
+      "statement": "The selected Heim separatum is catalogued as 1892 and identifies a 26 February 1892 Uto-section talk; it is a historical document rather than a prospectively registered clinical study.",
+      "claim_type": "observed_event",
+      "source_ids": [
+        "S-P2T18-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "e-rara wrapper PDF1; original p327/PDF2 title and speech footnote",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "German original read as PDF extraction; scan images not verified. No claim of earliest worldwide NDE documentation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-002",
+      "statement": "Heim draws on his own accidents, survivors' oral/written reports, literature and mediated accounts from several dangerous situations; he explicitly extrapolates survivors' sensations to those who died.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T18-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "pp327–328/PDF2–3, opening scope and collection description",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "No enumerated sampling frame, uniform interview schedule, arrest definition, contemporaneous chart set or fatal subjects' experiences directly observed."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-003",
+      "statement": "Heim’s qualified approximate 95% generalization has no recoverable population denominator in this text; his approximately 30 examples concern potentially saving actions and cannot be substituted as its denominator.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "p328/PDF3 approximate95% assertion; p330/PDF5 approximately30 rescue-action examples",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "This is a source-method assessment, not an estimated historical NDE prevalence or a demonstration the generalization is false."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-004",
+      "statement": "Heim describes apparently intensified thought and lengthened subjective time, and estimates seconds for his own fall; these descriptions do not measure hundredfold processing or establish a bearer outside temporal succession.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T18-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "p329/PDF4 thought/time paragraph; p334/PDF9 ownfall5–10seconds",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "OCR and translation qualification remains; estimate and retrospective narrative length are not clocks or neural measures."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-005",
+      "statement": "Heim locates luminous life scenes and conciliatory feelings during conscious falling, and explicitly says that those images stopped with unconsciousness at impact and did not continue on recovery.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T18-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "pp334–336/PDF9–11, own fall, life scenes, impact and consciousness interruption",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "Report attribution only; recalled chronology is not independently timed physiology or proof that all experience was absent in the gap."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-006",
+      "statement": "Heim infers an interruption after companions reportedly told him roughly half an hour had passed without his response; the text supplies his report of their statement, not independently obtained witness testimony or a measured unconscious interval.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T18-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "pp335–336/PDF10–11, companions' reported delay and subjective interruption",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "No contemporaneous timing record, EEG, oxygen or circulation evidence. No same-person postmortem observation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-007",
+      "statement": "The German text acknowledges additional letters after newspapers described Heim's talk, and the editor notes that the opposing party did not admit the Brantschen incident in the reported form.",
+      "claim_type": "observed_event",
+      "source_ids": [
+        "S-P2T18-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "p336/PDF11 post-publicity correspondence; p337/PDF12 editor's final note",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "These are documented reporting/contestation features, not proof that all accounts were contaminated or fabricated. The editor's objection is local, not a full modern critique/reply chain."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-008",
+      "statement": "The selected published English translation is metadata-verified but its body remains unavailable. German close glosses cannot certify Noyes and Kletti’s exact rendering, omissions or introductory interpretation.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-001",
+        "S-P2T18-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "SAGE1972 DOI/abstract access record; Germanpp328–329,335–337",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-002",
+          "locator": "SAGE1972 DOI/abstract access record; Germanpp328–329,335–337",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "limited_by_explicit_access_or_derivative_scope",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "P2REQ-031 pending; no substitution of secondary quotations, later reprint, AI translation or search snippet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-009",
+      "statement": "Parnia 2001 recruited eligible cardiac-arrest survivors from selected Southampton wards, using switchboard arrest notifications, age over 18, mental test 10/10, clinical agreement and consent; it reports 63 interviews but no complete arrest-to-eligibility-to-consent flow.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "p150–151/PDF2–3, Methods",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "Do not treat 63 as all arrest events or all survivors of an unrestricted population. Numbers are article reports, not a fresh audit of enrollment records."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-010",
+      "statement": "The 63 interviewed survivors comprise 56 with no recall and seven with some recall; four met the stated Greyson >=7 criterion and three did not. The four tabulated totals are 13, 10, 10 and 10 out of 32.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "pp151–153/PDF3–5, Results and Tables1–3",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "Reported no recall is not independently established absence of experience. The below-threshold reports are not all content-free, and 4/63 is this selected sample’s report yield."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-011",
+      "statement": "The paper describes an open question about memories during unconsciousness, says no direct specific NDE/OBE questions were asked, and then assessed reported experiences with the Greyson scale.",
+      "claim_type": "observed_event",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "p151/PDF3, interview method",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "No interview recordings or complete questionnaire delivery record inspected; open elicitation and subsequent structured classification must both be retained."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-012",
+      "statement": "Two Parnia participants receive a score 1 for lost awareness of body, but the prose explicitly reports no out-of-body phenomenon and no claimed OBE; this distinction is visible in the original table and adjacent text.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "p152/PDF4 Table1 patients2/4 and closing paragraphs; p153/PDF5 Table2",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "Scale bodily-awareness endorsement does not establish an elevated visual viewpoint, remote perception or concealed-target exposure."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-013",
+      "statement": "Parnia's absence of a target identification accompanies no reported OBE viewing opportunity. The paper supplies no confirmed target-present/arrest/interview/viewpoint intersection from which to compute effective target trials or a success probability.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "p151/PDF3 upward-facing ceiling boards; p152/PDF4 no claimed OBE/no test opportunity",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "No target hit is reported; this does not make the experiment positive or establish either paranormal ability or null equivalence. Unknown physical exposure counts remain null, not zero."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-014",
+      "statement": "The physiological comparison’s control group is 59, combining 56 no-recall participants and three below-threshold recall participants, versus four NDE participants. Figure 1 compares grouped blood-measure means, not participant-level neural recordings.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "p153/PDF5 section3.4 and Fig1",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "Analyte-specific usable sample counts and missingness are not fully enumerated. Do not read the five bars per group as five patients or infer EEG from them."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-015",
+      "statement": "The methods refer to blood measurements during arrest, while footnote 2 locates blood parameters in the initial ward stay; the source does not resolve this timing tension. Its higher mean PaO2 and small descriptive comparison do not establish cerebral oxygen conditions during any recalled content.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "p151/PDF3 physiology method; p153/PDF5 footnote2 and PaO2 paragraph; p154/PDF6 qualifications",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Preserve the printed 33.1±18.37 versus 16.8±11.73 kPa as descriptive article values only; no significance, causal protection or content-linked measurement inferred."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-016",
+      "statement": "Parnia and colleagues favor experiences occurring during unconsciousness but acknowledge the need for further timing data and a larger study; their appeal to general physiological literature is not a participant-linked recording in the four cases.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "pp154–155/PDF6–7 Discussion, onset/recovery and concluding qualifications",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Neither brain independence nor a demonstrated ordinary causal mechanism follows. Clinical unresponsiveness, absent recall, circulation and neural activity are distinct variables."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-017",
+      "statement": "Parnia reports the four NDE participants as non-practising Christians, one also identifying as Pagan, with no specifically Christian figure identified; fear of death was not asked about.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "p151/PDF3 psychologicalvariables; p152/PDF4 Table1 and religion paragraph",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "Four selected reports cannot establish religious or cultural invariance, an absence of expectations, or a causal role for belief."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-018",
+      "statement": "Augustine argues that controlled targets can discriminate paranormal-perception claims if opportunities are adequate. His Parnia summary correctly preserves two lost-body-awareness responses alongside no full OBE, and he calls for larger multicentre work.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-004",
+          "locator": "pp230–234, NDE Target Identification Experiments; preserved original-text mirror lines1247–1413",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Source attribution; adequate opportunity is a conditional requirement, not demonstrated for the selected Parnia reports. The other target-study originals were not re-opened here. Original body read on the disclosed text mirror; scan layout unverified."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-019",
+      "statement": "Augustine proposes ordinary sensory information, expectations and reconstruction as explanations and judges the existing veridicality evidence unpersuasive; the selected packet does not validate his stronger causal or whole-literature conclusions.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-004",
+          "locator": "pp205–212 ordinary-information/reporting argument; pp233–234 final target conclusions",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "He acknowledges intermittent small-scale target work. The source's occasional move from no report to no experience is not adopted; specific ordinary causes remain unmeasured."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-020",
+      "statement": "Greyson replies that possible errors are not demonstrated errors, emphasizes limited target-study resources and opportunities, and concedes that the survival evidence is not compelling and controlled failures require serious alternative explanations.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-005",
+          "locator": "pp240–243/PDF4–7, methodological response and controlledtargetconcessions",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Actual third-party reply to Augustine, not a Parnia-authored reply; cited longitudinal/recruitment studies are not independently revalidated in this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-021",
+      "statement": "Greyson's count of four Parnia NDEs with OBE components conflicts with Parnia's explicit report of none; the packet therefore withholds the twelve-as-effective-trials premise while preserving Greyson's broader opportunity objection.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-005",
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-005",
+          "locator": "Greysonp242/PDF6 total12/fourParnia paragraph; Parniap152/PDF4 noOBE",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "Greysonp242/PDF6 total12/fourParnia paragraph; Parniap152/PDF4 noOBE",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Do not manufacture a corrected pooled denominator from the remaining studies without examining their originals and viewing opportunities."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-022",
+      "statement": "Charland-Verville 2014 analyzes 190 of 215 volunteered reports, divided into 50 non-life-threatening and 140 reported coma cases, with 45 anoxic, 30 traumatic and 65 other coma reports; the anoxic 45 are a subset of 190.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "p2 Methods/Results; p3 Tables1–2, official8-page PDF",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "Clinical status is medically uncontrolled self-report; coma is defined as unconsciousness over one hour. Mean delay 24±15 years; total invited or underlying population denominator unknown."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-023",
+      "statement": "The article’s abstract says >7 while methods/results exclude <7 and Table 2 includes a minimum of 7. This is an internal reporting inconsistency; the supplied aggregate data do not warrant changing its count of 190.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "p1 Abstract; p2 exclusion rule; p3 Table2 total-score range",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "No individual data or score 7 participant count obtained; preserve both original statements and nulls."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-024",
+      "statement": "Charland Table 3’s historical prospective total of 42 comprises 27 Greyson 2003, 11 Schwaninger 2002 and four Parnia 2001 reports, compared with the new study’s retrospective anoxic 45; the Parnia contribution reuses its published reports.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-005",
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "Charlandp4 Table3, rotatedlandscape table; Parniapp151–153",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "Charlandp4 Table3, rotatedlandscape table; Parniapp151–153",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "This is documented analytic reuse, not new recruitment or an independent replication. Other contributing original cohorts and participant identities were not newly inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-025",
+      "statement": "Charland labels the Parnia 2/4 bodily-awareness responses as OBE in Table 3; this broader scale-category use cannot be treated as two elevated visual experiences when Parnia explicitly says no OBE occurred.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T08-005",
+        "S-P2T18-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "Charlandp2 itemscore1or2 rule,p3 bodilyseparation question,p4 Table3 OBErow; Parniap152 Table1/p153 Table2",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "Charlandp2 itemscore1or2 rule,p3 bodilyseparation question,p4 Table3 OBErow; Parniap152 Table1/p153 Table2",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Do not alter the published 2/4 or pooled 31/42 values; qualify the label and inferential use. A body-separation item is not a calibrated target opportunity."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-026",
+      "statement": "Charland Figure 1’s 429 retrospective and 47 prospective reports pool several published datasets including the current one; the legend names Greyson 1990 and Parnia 2001. Its current-study legend says 2013 although this article was published in 2014.",
+      "claim_type": "documented_measurement",
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "p6 Fig1, legend and adjacent text",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "source_report_only; event accuracy and generalization not established",
+      "limitations": [
+        "The legend-year mismatch does not establish a separate 2013 sample. Figure 1 is a reused aggregate comparison, not an additional independent cohort or a participant-overlap audit."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-027",
+      "statement": "The study's nonsignificant group differences do not establish equivalence of all features or mechanisms; its authors acknowledge selection, medically uncontrolled reports, long delays, small comparison samples, variability and problematic weighting.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T08-005",
+          "locator": "p3 Table2;p5–6 Discussion",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-T08-IANDS-retrospective",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Differences between recruited designs cannot be assigned uniquely to memory reconstruction. Similarity cannot establish a shared metaphysical origin."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-028",
+      "statement": "The selected historical corpus is European and heterogeneous in danger/clinical status; later citations and its translation are transmissions of that corpus, not new independent historical or non-Western samples.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-001",
+        "S-P2T18-003",
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "Heimpp328–337;Parniap155reference9;Charlandpp1,5,7Heimcitation",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "Heimpp328–337;Parniap155reference9;Charlandpp1,5,7Heimcitation",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-T08-005",
+          "locator": "Heimpp328–337;Parniap155reference9;Charlandpp1,5,7Heimcitation",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-P2T18-Heim-transmission",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Charland cites Heim 1891; the inspected German document supports the 1892 publication/talk identity. The own-fall 1871/1872 textual discrepancy remains a separate unresolved issue."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-029",
+      "statement": "Published aggregate reuse is established for the Parnia contribution; actual participant overlap or disjointness between separately recruited cohorts remains unknown. No additive independent sample count or pooled target-success rate is justified.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-003",
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "Parniapp151–153;Charlandpp2–4,6",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-T08-005",
+          "locator": "Parniapp151–153;Charlandpp2–4,6",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [
+        "C-T08-007"
+      ],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Publication, source version, cohort, event and participant counts remain separate. No new case identity is proposed."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-030",
+      "statement": "The selected European corpus and early prospective study do not repair the omitted Indian-tunnels criticism/reply or Japanese underlying-interview translation gap; unasked, unmentioned and absent experiences remain distinct.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-001",
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "work/P2T18/baseline_v1.json exactCL-T08-005/008/009/010/012/013; selectedsourceextents",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-T08-005",
+          "locator": "work/P2T18/baseline_v1.json exactCL-T08-005/008/009/010/012/013; selectedsourceextents",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-selected-scope-and-gates",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "limited_by_explicit_access_or_derivative_scope",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Those original cultural sources are frozen baseline context, not newly inspected evidence; no source-access failure is newly asserted for the omitted branches."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-031",
+      "statement": "Historical recurrence and prospective report collection motivate further tests but do not supply participant-linked exclusion of neural processing, irreversible-death subjectivity, enduring identity or literal timelessness. All twelve conclusion gates remain withheld.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-001",
+        "S-P2T18-003",
+        "S-T08-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-001",
+          "locator": "Heimpp334–337;Parniapp151–155;Charlandpp5–6;release/v1/conclusion_gate_map.json",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "Heimpp334–337;Parniapp151–155;Charlandpp5–6;release/v1/conclusion_gate_map.json",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-T08-005",
+          "locator": "Heimpp334–337;Parniapp151–155;Charlandpp5–6;release/v1/conclusion_gate_map.json",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-selected-scope-and-gates",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "No six-family winner, quantitative metaphysical posterior, unique mechanism or normative/cosmic-purpose conclusion is established."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-032",
+      "statement": "Augustine explicitly concedes that possible embellishment, leading questions or witness errors are not thereby demonstrated; he nevertheless defends an antecedent-probability and burden-of-proof preference for ordinary explanations.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-006",
+          "locator": "p.269/PDF9, lines352–363; pp.270–272/PDF10–12",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Faithful argumentative attribution does not establish his priors, a particular causal explanation or the full status of parapsychology. The underlying longitudinal study is not independently inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-033",
+      "statement": "Augustine’s rejoinder agrees that a dozen purported out-of-body NDEs cannot settle paranormal perception and calls for many more controlled opportunities. It repeats the dozen without repairing the Parnia wording/count conflict.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-006",
+        "S-P2T18-003",
+        "S-P2T18-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-006",
+          "locator": "Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-003",
+          "locator": "Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-005",
+          "locator": "Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Preserve the concession, but do not adopt twelve as verified effective target trials or infer a corrected pooled number."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-034",
+      "statement": "In his actual later reply, Greyson disputes Augustine’s claim that paranormal-feature stability remained untested: he says his cited longitudinal study separately examined paranormal/transcendental features and found no embellishment, with the OBE feature declining significantly.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-007",
+        "S-P2T18-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-007",
+          "locator": "Greyson later response p.67/PDF1 opening; Augustine pp.271–272/PDF11–12",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        },
+        {
+          "source_id": "S-P2T18-006",
+          "locator": "Greyson later response p.67/PDF1 opening; Augustine pp.271–272/PDF11–12",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "This is Greyson’s documented reply, not a fresh validation of the longitudinal data or proof of exact memory fidelity, event accuracy or absence of pre-first-report changes."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    },
+    {
+      "claim_id": "CL-P2T18-035",
+      "statement": "Greyson’s later reply expressly concedes that the NDE evidence does not definitively establish survival or mind separate from brain, locates part of the disagreement in antecedent probabilities, and endorses better data and equal replicability standards.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T18-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T18-007",
+          "locator": "pp.68–69/PDF2–3, replicability, possibility argument and concluding concession; p.70/PDF4 signature boundary",
+          "scope": "Only passages belonging to this named source; comparative locators identify each original explicitly."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T18-Parnia-comparison-exchange",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established."
+      ],
+      "record_reliability": "supported_as_documented_attribution_pending_review",
+      "inference_strength": "unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only",
+      "limitations": [
+        "Neither author’s estimate becomes a project prior. Other cited evidence, population belief surveys and the following letter are not independently validated; this letter does not provide a repaired Parnia target denominator."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18",
+      "attribution_rule": "This record verifies what the selected text states or how its documented figures relate; it does not certify author premise truth."
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T18-001",
+      "name": "Historical recurrence and the prospective report: strongest bounded positive case",
+      "position": "Conditional relevance to an experiential phenomenon and to better tests of H-B",
+      "premises": [
+        "CL-P2T18-001",
+        "CL-P2T18-002",
+        "CL-P2T18-004",
+        "CL-P2T18-005",
+        "CL-P2T18-009",
+        "CL-P2T18-010",
+        "CL-P2T18-011",
+        "CL-P2T18-017",
+        "CL-P2T18-022"
+      ],
+      "bridge_principles": [
+        "A documented nineteenth-century narrative weakens the claim that every such motif was invented after modern NDE publicity, provided later translation and source transmission are not counted as new reports.",
+        "Prospective recruitment strengthens the temporal definition of a study sample; it does not independently timestamp the origin of a later recalled experience.",
+        "A stronger brain-independence inference requires content-specific timing, specified neural-exclusion criteria and independently controlled information access."
+      ],
+      "conclusion": "This selected corpus and pilot justify investigating recurring reported experiences, without establishing a unique cause, global recurrence rate or brain independence.",
+      "source_ids": [
+        "S-P2T18-001",
+        "S-P2T18-003",
+        "S-T08-005"
+      ],
+      "claim_ids": [
+        "CL-P2T18-001",
+        "CL-P2T18-002",
+        "CL-P2T18-004",
+        "CL-P2T18-005",
+        "CL-P2T18-009",
+        "CL-P2T18-010",
+        "CL-P2T18-011",
+        "CL-P2T18-017",
+        "CL-P2T18-022",
+        "CL-P2T18-028",
+        "CL-P2T18-031"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "European literary/reporting dependence, unmeasured historical danger states, selected survivors, unknown target opportunities and bodily-awareness coding can generate misleading convergence.",
+      "strongest_reply": "Those limitations do not erase the dated reports or show every account was fabricated or normally explained. A constrained hypothesis can still seek evidence that alternatives predict differently.",
+      "unresolved_issues": [
+        "Exact published translation and Fraktur visual verification",
+        "No non-Western expansion",
+        "No content-linked neural exclusion, irreversible-death subjectivity or same-person survival"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "argument_id": "A-P2T18-002",
+      "name": "Controlled-target countercase and actual exchange",
+      "position": "Challenges overinterpretation of veridicality evidence; does not establish a physicalist winner",
+      "premises": [
+        "CL-P2T18-012",
+        "CL-P2T18-013",
+        "CL-P2T18-018",
+        "CL-P2T18-019",
+        "CL-P2T18-020",
+        "CL-P2T18-021",
+        "CL-P2T18-032",
+        "CL-P2T18-033",
+        "CL-P2T18-034",
+        "CL-P2T18-035"
+      ],
+      "bridge_principles": [
+        "A target test bears negatively on a specified ability only when enough genuine opportunities and an appropriate expectation of identification are established.",
+        "Possible sensory or reporting errors block claims that such routes are excluded; possibility alone does not demonstrate their occurrence.",
+        "Antecedent probabilities require independent justification and are not supplied by author agreement or a source-quality rating."
+      ],
+      "conclusion": "The selected Parnia reports provide no validated concealed-target success and no verified effective-trial denominator. Neither the target null nor the unresolved ordinary-route alternatives settle the metaphysical dispute.",
+      "source_ids": [
+        "S-P2T18-003",
+        "S-P2T18-004",
+        "S-P2T18-005",
+        "S-P2T18-006",
+        "S-P2T18-007"
+      ],
+      "claim_ids": [
+        "CL-P2T18-012",
+        "CL-P2T18-013",
+        "CL-P2T18-018",
+        "CL-P2T18-019",
+        "CL-P2T18-020",
+        "CL-P2T18-021",
+        "CL-P2T18-032",
+        "CL-P2T18-033",
+        "CL-P2T18-034",
+        "CL-P2T18-035"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Greyson argues that untested error possibilities should not outweigh reports and cited stability evidence; he disputes Augustine’s treatment of paranormal-feature stability and default priors.",
+      "strongest_reply": "Augustine concedes possibility is not actuality and small target numbers are inconclusive, but demands evidence excluding ordinary information routes. The project accepts that evidential requirement without adopting his unmeasured causal verdict or twelve-case denominator.",
+      "unresolved_issues": [
+        "Parnia no-OBE prose conflicts with Greyson four-case attribution and Augustine’s later repeated dozen",
+        "Longitudinal original not independently inspected; no global memory-fidelity conclusion",
+        "Target exposure/interview/viewpoint intersection unknown"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "argument_id": "A-P2T18-003",
+      "name": "Measurement and dependence countercase",
+      "position": "Limits pooled cultural and prospective convergence",
+      "premises": [
+        "CL-P2T18-003",
+        "CL-P2T18-007",
+        "CL-P2T18-014",
+        "CL-P2T18-015",
+        "CL-P2T18-023",
+        "CL-P2T18-024",
+        "CL-P2T18-025",
+        "CL-P2T18-026",
+        "CL-P2T18-027",
+        "CL-P2T18-028",
+        "CL-P2T18-029",
+        "CL-P2T18-030"
+      ],
+      "bridge_principles": [
+        "Analytic reuse of four reports is a repeated use of existing evidence, not four new observations.",
+        "Item labels must preserve response wording and score thresholds; a body-awareness score does not imply a visual vantage or target opportunity.",
+        "Unknown participant overlap cannot be replaced by either complete disjointness or total duplication.",
+        "Nonsignificance, unasked items and absent reports do not respectively imply equivalence, absent experience and absent consciousness."
+      ],
+      "conclusion": "Use a nonadditive, source-qualified comparison; preserve all old numbers and unknowns while adding exact reuse and wording qualifications.",
+      "source_ids": [
+        "S-P2T18-001",
+        "S-P2T18-003",
+        "S-T08-005"
+      ],
+      "claim_ids": [
+        "CL-P2T18-003",
+        "CL-P2T18-007",
+        "CL-P2T18-014",
+        "CL-P2T18-015",
+        "CL-P2T18-023",
+        "CL-P2T18-024",
+        "CL-P2T18-025",
+        "CL-P2T18-026",
+        "CL-P2T18-027",
+        "CL-P2T18-028",
+        "CL-P2T18-029",
+        "CL-P2T18-030"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Recurring motifs across times and conditions may reflect a common phenomenon even when instruments differ; documenting dependence is not a causal explanation of every case.",
+      "strongest_reply": "That possibility remains. Distinctive support requires comparable ascertainment and predictions that survive the stated coding/overlap uncertainties. Neither cultural nor neural mechanisms are established by bookkeeping.",
+      "unresolved_issues": [
+        "Unknown invitation frame and participant identities",
+        "Translation and omitted cultural corpus gaps",
+        "No validated global denominator or numerical metaphysical likelihood"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T18-001",
+      "title": "Notizen über den Tod durch Absturz",
+      "authors": [
+        "Albert Heim"
+      ],
+      "publication_date": "1892",
+      "url_or_identifier": "http://www.e-rara.ch/download/pdf/6873309?name=Notizen%20%C3%BCber%20den%20Tod%20durch%20Absturz",
+      "doi": null,
+      "publication_as_selected": "Jahrbuch des Schweizer Alpenclub 27 (1892), pp. 327–337",
+      "source_type": "selected historical corpus original German",
+      "access_status": "inspected_original_extracted_text_with_OCR_limits",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Heimpp328–337;Parniap155reference9;Charlandpp1,5,7Heimcitation",
+        "Heimpp334–337;Parniapp151–155;Charlandpp5–6;release/v1/conclusion_gate_map.json",
+        "SAGE1972 DOI/abstract access record; Germanpp328–329,335–337",
+        "e-rara wrapper PDF1; original p327/PDF2 title and speech footnote",
+        "p328/PDF3 approximate95% assertion; p330/PDF5 approximately30 rescue-action examples",
+        "p329/PDF4 thought/time paragraph; p334/PDF9 ownfall5–10seconds",
+        "p336/PDF11 post-publicity correspondence; p337/PDF12 editor's final note",
+        "pp327–328/PDF2–3, opening scope and collection description",
+        "pp334–336/PDF9–11, own fall, life scenes, impact and consciousness interruption",
+        "pp335–336/PDF10–11, companions' reported delay and subjective interruption",
+        "work/P2T18/baseline_v1.json exactCL-T08-005/008/009/010/012/013; selectedsourceextents"
+      ],
+      "provenance_notes": "e-rara digitized separatum, 13 PDF pages; wrapper PDF 1, printed 327–337 at PDF 2–12, final leaf PDF 13 extraction uninterpretable. No local PDF or visually inspected Fraktur scan. Digitization DOI 10.3931/e-rara-22171 is not an article DOI.",
+      "related_case_ids": [],
+      "access_url": "http://www.e-rara.ch/download/pdf/6873309?name=Notizen%20%C3%BCber%20den%20Tod%20durch%20Absturz",
+      "inspection_artifacts": [
+        "work/P2T18/open_heim_original_raw.json",
+        "work/P2T18/open_heim_tail_raw.json"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "source_id": "S-P2T18-002",
+      "title": "The Experience of Dying from Falls",
+      "authors": [
+        "Russell Noyes, Jr.",
+        "Roy Kletti"
+      ],
+      "publication_date": "1972-04",
+      "url_or_identifier": "https://doi.org/10.2190/96XL-RQE6-DDXR-DUD5",
+      "doi": "10.2190/96XL-RQE6-DDXR-DUD5",
+      "publication_as_selected": "OMEGA 3(1), April 1972, pp. 45–52",
+      "source_type": "translation and original translator introduction",
+      "access_status": "metadata_only_full_text_pending",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "SAGE1972 DOI/abstract access record; Germanpp328–329,335–337"
+      ],
+      "provenance_notes": "Publisher identity/abstract and restricted PDF route only. Complete eight-page published translation and translator introduction not inspected; P2REQ-031 pending.",
+      "related_case_ids": [],
+      "access_url": "https://journals.sagepub.com/doi/10.2190/96XL-RQE6-DDXR-DUD5",
+      "inspection_artifacts": [
+        "work/P2T18/open_noyes_publisher_raw.json",
+        "work/P2T18/open_noyes_pdf_attempt_raw.json"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "source_id": "S-P2T18-003",
+      "title": "A qualitative and quantitative study of the incidence, features and aetiology of near death experiences in cardiac arrest survivors",
+      "authors": [
+        "Sam Parnia",
+        "D. G. Waller",
+        "R. Yeates",
+        "P. Fenwick"
+      ],
+      "publication_date": "2001-02",
+      "url_or_identifier": "https://doi.org/10.1016/S0300-9572(00)00328-2",
+      "doi": "10.1016/S0300-9572(00)00328-2",
+      "publication_as_selected": "Resuscitation 48(2), February 2001, pp. 149–156",
+      "source_type": "selected early prospective original",
+      "access_status": "inspected_full_text_and_decisive_layout",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4",
+        "Charlandp2 itemscore1or2 rule,p3 bodilyseparation question,p4 Table3 OBErow; Parniap152 Table1/p153 Table2",
+        "Charlandp4 Table3, rotatedlandscape table; Parniapp151–153",
+        "Greysonp242/PDF6 total12/fourParnia paragraph; Parniap152/PDF4 noOBE",
+        "Heimpp328–337;Parniap155reference9;Charlandpp1,5,7Heimcitation",
+        "Heimpp334–337;Parniapp151–155;Charlandpp5–6;release/v1/conclusion_gate_map.json",
+        "Parniapp151–153;Charlandpp2–4,6",
+        "p150–151/PDF2–3, Methods",
+        "p151/PDF3 physiology method; p153/PDF5 footnote2 and PaO2 paragraph; p154/PDF6 qualifications",
+        "p151/PDF3 psychologicalvariables; p152/PDF4 Table1 and religion paragraph",
+        "p151/PDF3 upward-facing ceiling boards; p152/PDF4 no claimed OBE/no test opportunity",
+        "p151/PDF3, interview method",
+        "p152/PDF4 Table1 patients2/4 and closing paragraphs; p153/PDF5 Table2",
+        "p153/PDF5 section3.4 and Fig1",
+        "pp151–153/PDF3–5, Results and Tables1–3",
+        "pp154–155/PDF6–7 Discussion, onset/recovery and concluding qualifications"
+      ],
+      "provenance_notes": "Exact repository journal PDF, 8 pages, pp.149–156; full text read, actual PDF pages 4–5 images inspected. Local SHA 13acc48a9902367d8282d8e301d46571f814a9ee0464530754f8336df780473f. No participant records or EEG recording inspected.",
+      "related_case_ids": [],
+      "access_url": "https://www.newdualism.org/nde-papers/Parnia/Parnia-Resuscitation_2001-48-149-156.pdf",
+      "inspection_artifacts": [
+        "work/P2T18/open_parnia_original_raw.json",
+        "work/P2T18/open_parnia_tail_raw.json",
+        "work/P2T18/Parnia_2001.pdf",
+        "work/P2T18/Parnia_2001_text.txt",
+        "work/P2T18/Parnia_2001_p4.png",
+        "work/P2T18/Parnia_2001_p5.png"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "source_id": "S-P2T18-004",
+      "title": "Does Paranormal Perception Occur in Near-Death Experiences?",
+      "authors": [
+        "Keith Augustine"
+      ],
+      "publication_date": "2007",
+      "url_or_identifier": "https://doi.org/10.17514/JNDS-2007-25-4-p203-236",
+      "doi": "10.17514/JNDS-2007-25-4-p203-236",
+      "publication_as_selected": "Journal of Near-Death Studies 25(4), Summer 2007, pp. 203–236",
+      "source_type": "serious direct prospective-target criticism",
+      "access_status": "inspected_full_original_text_mirror_layout_unverified",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "pp205–212 ordinary-information/reporting argument; pp233–234 final target conclusions",
+        "pp230–234, NDE Target Identification Experiments; preserved original-text mirror lines1247–1413"
+      ],
+      "provenance_notes": "UNT catalog metadata verified DOI 10.17514/JNDS-2007-25-4-p203-236 but says 203–235/33 pages. Actual publicly displayed original text on Scribd runs 203–236 with references; platform AI paraphrase excluded. No original PDF/layout verification; complete issue failed.",
+      "related_case_ids": [],
+      "access_url": "https://digital.library.unt.edu/ark:/67531/metadc799110/",
+      "inspection_artifacts": [
+        "work/P2T18/open_augustine_catalog_raw.json",
+        "work/P2T18/open_augustine_mirror_raw.json",
+        "work/P2T18/open_augustine_mirror_middle_raw.json",
+        "work/P2T18/open_augustine_mirror_targets_raw.json",
+        "work/P2T18/open_augustine_mirror_context1_raw.json",
+        "work/P2T18/open_augustine_mirror_context2_raw.json"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "source_id": "S-P2T18-005",
+      "title": "Comments on “Does Paranormal Perception Occur in Near-Death Experiences?”",
+      "authors": [
+        "Bruce Greyson"
+      ],
+      "publication_date": "2007",
+      "url_or_identifier": "https://doi.org/10.17514/JNDS-2007-25-4-p237-244",
+      "doi": "10.17514/JNDS-2007-25-4-p237-244",
+      "publication_as_selected": "Journal of Near-Death Studies 25(4), Summer 2007, pp. 237–244",
+      "source_type": "actual third-party reply to selected critic",
+      "access_status": "inspected_full_PDF_extracted_text",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4",
+        "Greysonp242/PDF6 total12/fourParnia paragraph; Parniap152/PDF4 noOBE",
+        "pp240–243/PDF4–7, methodological response and controlledtargetconcessions"
+      ],
+      "provenance_notes": "UNT journal PDF extraction, 8 pages, pp.237–244. DOI 10.17514/JNDS-2007-25-4-p237-244 exposed by Q007 metadata; article title/author/extents independently read. No local validated PDF or image. Named local .pdf is an HTML challenge, explicitly excluded.",
+      "related_case_ids": [],
+      "access_url": "https://digital.library.unt.edu/ark%3A/67531/metadc798892/m2/1/high_res_d/vol25-no4-237.pdf",
+      "inspection_artifacts": [
+        "work/P2T18/open_greyson_original_raw.json"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "source_id": "S-P2T18-006",
+      "title": "“Does Paranormal Perception Occur in Near-Death Experiences?” Defended",
+      "authors": [
+        "Keith Augustine"
+      ],
+      "publication_date": "2007",
+      "url_or_identifier": "https://doi.org/10.17514/JNDS-2007-25-4-p261-283",
+      "doi": "10.17514/JNDS-2007-25-4-p261-283",
+      "publication_as_selected": "Journal of Near-Death Studies25(4), Summer2007, pp.261–283",
+      "source_type": "Actual continuation of selected criticism/reply exchange",
+      "access_status": "inspected_full_PDF_extracted_text",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4",
+        "Greyson later response p.67/PDF1 opening; Augustine pp.271–272/PDF11–12",
+        "p.269/PDF9, lines352–363; pp.270–272/PDF10–12"
+      ],
+      "provenance_notes": "UNT journal PDF, 23 pages, pp.261–283. Full extraction read including references pp.282–283. Only method/target and response qualifications extracted into claims; named-case context does not independently adjudicate those cases. No local PDF or image.",
+      "related_case_ids": [],
+      "access_url": "https://digital.library.unt.edu/ark:/67531/metadc799459/",
+      "inspection_artifacts": [
+        "work/P2T18/open_augustine_rejoinder_raw.json",
+        "work/P2T18/open_augustine_rejoinder_middle_raw.json",
+        "work/P2T18/open_augustine_rejoinder_late_raw.json",
+        "work/P2T18/open_augustine_rejoinder_refs_raw.json"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "source_id": "S-P2T18-007",
+      "title": "Response to Augustine’s “Does Paranormal Perception Occur in Near-Death Experiences?”",
+      "authors": [
+        "Bruce Greyson"
+      ],
+      "publication_date": "2007",
+      "url_or_identifier": "https://doi.org/10.17514/JNDS-2007-26-1-p67-70",
+      "doi": "10.17514/JNDS-2007-26-1-p67-70",
+      "publication_as_selected": "Journal of Near-Death Studies 26(1), Fall 2007, pp. 67–70",
+      "source_type": "Actual continuation of selected criticism/reply exchange",
+      "access_status": "inspected_complete_selected_letter_PDF_text",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Greyson later response p.67/PDF1 opening; Augustine pp.271–272/PDF11–12",
+        "pp.68–69/PDF2–3, replicability, possibility argument and concluding concession; p.70/PDF4 signature boundary"
+      ],
+      "provenance_notes": "Author-institution journal eprint, 4 pages, pp.67–70. Greyson letter ends with signature on p.70; following letter opening exposed but not selected or attributed to Greyson. Header Fall 2007 overrides index January; production footer 25/10/07 is not first-publication evidence. No scan image/local bytes.",
+      "related_case_ids": [],
+      "access_url": "https://med.virginia.edu/perceptual-studies/wp-content/uploads/sites/360/2017/01/NDE56_RE-to-Augustins-Does-Paranormal-Perception-Occur-in-NDE.pdf",
+      "inspection_artifacts": [
+        "work/P2T18/open_greyson_later_reply_raw.json"
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R18"
+    },
+    {
+      "source_id": "S-T08-005",
+      "title": "Near-death experiences in non-life-threatening events and coma of different etiologies",
+      "authors": [
+        "Vanessa Charland-Verville",
+        "Jean-Pierre Jourdan",
+        "Marie Thonnard",
+        "Didier Ledoux",
+        "Anne-Francoise Donneau",
+        "Etienne Quertemont",
+        "Steven Laureys"
+      ],
+      "publication_date": "2014-05-27",
+      "url_or_identifier": "https://orbi.uliege.be/bitstream/2268/173671/1/Charland-Verville2014_FHN.pdf",
+      "source_type": "Original retrospective comparison with reused prospective literature",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "p2 Materials and Methods and Results",
+        "p3 Tables1–2",
+        "p4 Table3",
+        "pp5–6 Discussion and Figure1",
+        "pp7–8 References"
+      ],
+      "provenance_notes": "DOI10.3389/fnhum.2014.00203. Full8-page publisher postprint from ORBi after publisher403. ORBi abstract/catalog and transient PMC abstract/text route inspected; same article identity. Table1–2 visually checked. Questionnaire language versions/translation validation not established here.",
+      "related_case_ids": [
+        "C-T08-007"
+      ],
+      "access_locations": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4034153/",
+        "https://orbi.uliege.be/handle/2268/173671"
+      ]
+    }
+  ]
+}

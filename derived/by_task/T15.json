@@ -1,0 +1,949 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T15",
+  "report": "work/T15/report.md",
+  "counts": {
+    "claims": 24,
+    "arguments": 6,
+    "cases": 0,
+    "sources": 9
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T15-001",
+      "statement": "Craig grounds value in God’s nature and obligation in commands from a qualified authority; reasons for commands need not themselves constitute obligations.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-001"
+      ],
+      "source_locators": [
+        "responses on qualified authority, values and duties"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-1",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-002",
+      "statement": "Craig permits contingent commands consistent with essential goodness, correcting his earlier necessary-command formulation.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-001"
+      ],
+      "source_locators": [
+        "response on discretionary hypothesis"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-1",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-003",
+      "statement": "Railton’s non-moral good concerns objective interests: natural dispositional facts ground the idealized informed preference, not conversely.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-002"
+      ],
+      "source_locators": [
+        "pp173–177, especially175"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-2",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-004",
+      "statement": "Railton proposes impartial consideration of affected interests under full information; he labels this substantive moral criterion controversial.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-002"
+      ],
+      "source_locators": [
+        "pp189–191"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-2",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-005",
+      "statement": "Railton separates applicability of obligation from categorical reasons for every rational agent; his account does not guarantee the latter.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-002"
+      ],
+      "source_locators": [
+        "pp165,200–203"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-2",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-006",
+      "statement": "Rowe’s evidential argument targets an omnipotent, omniscient, wholly good being through preventable suffering lacking the relevant goods or evil-avoidance constraint.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-003"
+      ],
+      "source_locators": [
+        "pp335–337, argument1–3"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-3",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-007",
+      "statement": "Rowe concedes the hypothetical fawn does not prove gratuitousness; he claims rational support rather than certainty and permits rational theistic countergrounds.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-003"
+      ],
+      "source_locators": [
+        "pp337–339"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-3",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-008",
+      "statement": "Rowe states necessary rather than sufficient permission conditions; footnotes qualify irreplaceability and equal-value cases.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-003"
+      ],
+      "source_locators": [
+        "p336nn2–3;pp336–337"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-3",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-009",
+      "statement": "Adams requires goodness within each participant’s life, not merely a favorable global total.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_locators": [
+        "§3.2,pp302–304"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-4",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-010",
+      "statement": "Adams distinguishes outweighing from integration that defeats a horror’s threat to personal meaning, invoking divine intimacy.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_locators": [
+        "p299;§4.2–4.3,pp306–309"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-4",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-011",
+      "statement": "Adams argues internal consistency can be defended through how persons are restored without known divine reasons why; she acknowledges conceptual underdevelopment.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-004"
+      ],
+      "source_locators": [
+        "§4.1,pp305–306;conclusion310"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-4",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-012",
+      "statement": "Sutherland questions whether reassurance addresses injustice, other victims and the alteration of moral judgment.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-005"
+      ],
+      "source_locators": [
+        "pp317–323"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-5",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-013",
+      "statement": "Schellenberg links perfect love to available conscious relationship whenever a person is capable and nonresistant; belief is required for that specified relationship.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-006"
+      ],
+      "source_locators": [
+        "manuscriptpp2–4,6,10"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-6",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-014",
+      "statement": "Schellenberg requires resistance causally relevant to nonbelief; unrelated culpability does not defeat the premise.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-006"
+      ],
+      "source_locators": [
+        "manuscriptp3;p10note5"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-6",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-015",
+      "statement": "Schellenberg’s hiddenness conclusion does not establish metaphysical naturalism or exclude every nonpersonal religious ultimate.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-006"
+      ],
+      "source_locators": [
+        "manuscriptpp5,7–8"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-6",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-016",
+      "statement": "Consciousness can supply subjects of benefit and harm; identifying valenced experience as reason-giving and extending concern across subjects require explicit normative bridges.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "T15-normative-bridges",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project-authored conditional analysis",
+      "inference_strength": "conditional; no empirical confirmation",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-017",
+      "statement": "Shared subjecthood could align prudential incentives but does not by itself establish impartial obligations, permissible tradeoffs or protection of distinct persons.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "T15-normative-bridges",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project-authored conditional analysis",
+      "inference_strength": "conditional; no empirical confirmation",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-018",
+      "statement": "Personal endurance may enable eventual accountability and restoration; neither duration nor sanctions alone explains why an act is wrong.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "T15-normative-bridges",
+      "supporting_claim_ids": [
+        "CL-T14-010",
+        "CL-T14-013"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project-authored conditional analysis",
+      "inference_strength": "conditional; no empirical confirmation",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-019",
+      "statement": "Creator status, causal dependence and superior power do not entail moral authority without a normative relation; necessary goodness and reliable command identification require their own warrant.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "T15-normative-bridges",
+      "supporting_claim_ids": [
+        "CL-T15-001",
+        "CL-T15-002"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project-authored conditional analysis",
+      "inference_strength": "conditional; no empirical confirmation",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-020",
+      "statement": "Freedom and developmental opportunity can be proposed goods, but their value alone does not justify every harm, denied opportunity or animal suffering; scope and feasible alternatives matter.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "T15-normative-bridges",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project-authored conditional analysis",
+      "inference_strength": "conditional; no empirical confirmation",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-021",
+      "statement": "A hiddenness defense may contest universal immediate access or the nonresistance premise; belief in existence must be distinguished from compelled love or obedience.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "T15-normative-bridges",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project-authored conditional analysis",
+      "inference_strength": "conditional; no empirical confirmation",
+      "limitations": [
+        "Original Howard-Snyder countercase now inspected; this claim is still a project-level comparison, not his precise wording or a complete historical exchange."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-022",
+      "statement": "Unknown divine reasons can weaken an inference from unrecognized purpose, while unrestricted skepticism can weaken positive claims of recognizable divine goodness; the cost depends on the scope of skepticism.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [],
+      "source_locators": [],
+      "case_ids": [],
+      "dependency_group": "T15-normative-bridges",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "project-authored conditional analysis",
+      "inference_strength": "conditional; no empirical confirmation",
+      "limitations": [
+        "Not an established moral or metaphysical truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-023",
+      "statement": "Howard-Snyder grants inculpable nonbelief for argument and proposes prima facie reasons to postpone explicit relationship: freely owning or improving dispositions to love, including already well-disposed seekers; he does not demand perfect love before disclosure.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-009"
+      ],
+      "source_locators": [
+        "pp437–450, especially439,443–449 and450reply3"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-9",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "His permission criterion allows a means no worse than alternatives, not only logical necessity.",
+        "No actual divine reason or population psychology established."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    },
+    {
+      "claim_id": "CL-T15-024",
+      "statement": "Howard-Snyder limits his account to temporary nonbelief, concedes cultural distribution remains unaddressed, and allows a sufficiently fitting seeker to escape his objection while contesting our ability to identify one. Note18 further concedes that his sketched reason fails when the seeker recognizes deficient love and strongly desires improvement.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-T15-009"
+      ],
+      "source_locators": [
+        "p447n18;p450reply4;pp452–453"
+      ],
+      "case_ids": [],
+      "dependency_group": "T15-source-9",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "direct relevant passage inspected",
+      "inference_strength": "attribution only; substantive premise contested",
+      "limitations": [
+        "Earlier inculpability framework; not a direct reply to Schellenberg2025.",
+        "The author’s cultural illustration is not independently established history."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T15-001",
+      "name": "From conscious value to moral authority",
+      "position": "Strongest integrated consciousness-grounding case",
+      "premises": [
+        "There are subjects to whom conditions can be good or bad.",
+        "Assume reasons to protect subjects are objective, not merely reports of desire.",
+        "Propose one necessarily good personal foundation whose relation to agents grounds binding demands."
+      ],
+      "bridge_principles": [
+        "Valence or flourishing has normative significance.",
+        "Relevant others count even when helping them conflicts with my aims.",
+        "The foundation is the relevant good, and its relation supplies legitimate authority.",
+        "Commands are identifiable and consistent with that nature."
+      ],
+      "conclusion": "The full account could unify welfare, reasons, obligations and accountability if every bridge is warranted; consciousness alone proves none of the later bridges.",
+      "source_ids": [
+        "S-T15-001"
+      ],
+      "claim_ids": [
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-016",
+        "CL-T15-017",
+        "CL-T15-018",
+        "CL-T15-019"
+      ],
+      "dependency_argument_ids": [
+        "A-T14-004",
+        "A-T12-005"
+      ],
+      "strongest_objection": "Calling a being good or creative may presuppose the normativity being explained; unity and sanctions can yield only self-interest.",
+      "strongest_reply": "Grounding need not be a definition or a temporal production: a defensible identity/constitution account can terminate explanation in a necessary good and a legitimate relation. This reply still owes warrant for that identity and relation.",
+      "unresolved_issues": [
+        "No derivation of impartiality from mere awareness.",
+        "No independent authority proof in inspected Craig transcript.",
+        "No assumption that divine commands all have identical modal status."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15",
+      "authorship": "Project-authored reconstruction; source attributions confined to linked claims."
+    },
+    {
+      "argument_id": "A-T15-002",
+      "name": "Secular moral objectivity and its explanatory costs",
+      "position": "Positive naturalistic account with other secular families retained",
+      "premises": [
+        "Human and animal conditions can affect their interests independently of current approval.",
+        "A proposed moral standard considers all affected interests impartially.",
+        "Correctness can diverge from present preference and social convention."
+      ],
+      "bridge_principles": [
+        "Identify the proposed natural property with normative goodness or rightness, with semantic and explanatory warrant.",
+        "Justify impartiality and the treatment of conflicting interests."
+      ],
+      "conclusion": "A physicalist ontology has a substantive route to moral realism; this route remains contested and does not settle every categorical-reason demand.",
+      "source_ids": [
+        "S-T15-002"
+      ],
+      "claim_ids": [
+        "CL-T15-003",
+        "CL-T15-004",
+        "CL-T15-005",
+        "CL-T15-016",
+        "CL-T15-019"
+      ],
+      "dependency_argument_ids": [
+        "A-T14-002"
+      ],
+      "strongest_objection": "A fully informed egoist may still reject impartiality; reliable preference explanation might explain moral belief while omitting moral authority.",
+      "strongest_reply": "Separate truth and applicability from the agent’s motivation; evaluate whether the proposed identity explains correction, practical criticism and disagreement. Other secular accounts can instead take categorical reasons or rational agency as basic, with their own costs.",
+      "unresolved_issues": [
+        "Naturalism is not a proof from evolution.",
+        "Constructivism and non-natural realism reconstructed in matrix but no decisive original defender inspected.",
+        "Aggregative criterion may face rights, comparability and determinate-idealization objections."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15",
+      "authorship": "Project-authored reconstruction; source attributions confined to linked claims."
+    },
+    {
+      "argument_id": "A-T15-003",
+      "name": "Suffering as evidence against specified perfect governance",
+      "position": "Evidential challenge, distinct from bare logical incompatibility",
+      "premises": [
+        "Assume an agent knows the relevant harms and feasible alternatives, can prevent them and is perfectly good.",
+        "Some suffering appears to lack a permission-justifying dependence on goods or avoidance of comparable evil."
+      ],
+      "bridge_principles": [
+        "Our inability to find such dependence is defeasible evidence of its absence in the relevant domain.",
+        "A perfectly good agent does not permit harms without adequate justification; equal-value and irreplaceability qualifications must be specified."
+      ],
+      "conclusion": "Suffering challenges that attribute package if the evidential and normative premises hold; it is not a deduction from the mere occurrence of any evil.",
+      "source_ids": [
+        "S-T15-003",
+        "S-T15-004"
+      ],
+      "claim_ids": [
+        "CL-T15-006",
+        "CL-T15-007",
+        "CL-T15-008",
+        "CL-T15-020",
+        "CL-T15-022"
+      ],
+      "dependency_argument_ids": [
+        "A-T14-005"
+      ],
+      "strongest_objection": "Our sample of goods, causal relations and feasible worlds may be too limited to assess what an omniscient being could justifiably permit.",
+      "strongest_reply": "Finite limits do not automatically erase all evidence; compare what each hypothesis actually leads us to expect and what independently supports claimed limitations. Theistic countergrounds can rationally matter.",
+      "unresolved_issues": [
+        "No measured prevalence or likelihood supplied.",
+        "A hypothetical animal does not establish an actual event.",
+        "Free-will and soul-making originals beyond the inspected discussions remain gaps."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15",
+      "authorship": "Project-authored reconstruction; source attributions confined to linked claims."
+    },
+    {
+      "argument_id": "A-T15-004",
+      "name": "Restoration of persons and justification of harm",
+      "position": "Strong enduring-restoration reply and victim-centered challenge",
+      "premises": [
+        "Assume the same victims continue and receive goods capable of restoring meaningful lives.",
+        "Assume their harms can be integrated without denying their reality or replacing victims with successors."
+      ],
+      "bridge_principles": [
+        "A good total life or meaningful integration can answer some questions about final loss.",
+        "Antecedent permission requires a separate justification, including necessity, proportionality, rights and alternatives where applicable."
+      ],
+      "conclusion": "Restoration can improve an account of what becomes of victims, while an account of why harms were permitted remains independently contestable.",
+      "source_ids": [
+        "S-T15-004",
+        "S-T15-005"
+      ],
+      "claim_ids": [
+        "CL-T15-009",
+        "CL-T15-010",
+        "CL-T15-011",
+        "CL-T15-012",
+        "CL-T15-018"
+      ],
+      "dependency_argument_ids": [
+        "A-T13-004",
+        "A-T14-003"
+      ],
+      "strongest_objection": "A later good may quiet grief without making the original injustice permissible; one person’s reconciliation cannot speak for another victim.",
+      "strongest_reply": "The strongest version addresses each victim and distinguishes redemption from approval of wrongdoing; an internal consistency defense may use its own independently specified goods without claiming their actual existence is thereby proved.",
+      "unresolved_issues": [
+        "The possibility and worth of divine intimacy remain contested.",
+        "Identity and temporal manifestation must be specified.",
+        "Adams’s later clarifications and reply to Sutherland not inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15",
+      "authorship": "Project-authored reconstruction; source attributions confined to linked claims."
+    },
+    {
+      "argument_id": "A-T15-005",
+      "name": "Nonresistant nonbelief and relationship",
+      "position": "Hiddenness challenge with a bounded, currently reconstructed reply",
+      "premises": [
+        "Assume perfect love includes being open to conscious reciprocal relationship with each capable person.",
+        "Assume belief in the other’s existence is required for that specified relationship.",
+        "Assume some capable persons lack belief for causes unrelated to resisting that relationship."
+      ],
+      "bridge_principles": [
+        "Perfect love entails that availability at each relevant time, rather than only eventual welfare or eventual access."
+      ],
+      "conclusion": "If the premises hold, the specified perfectly loving personal God is excluded; other ultimate foundations remain open.",
+      "source_ids": [
+        "S-T15-006",
+        "S-T15-009"
+      ],
+      "claim_ids": [
+        "CL-T15-013",
+        "CL-T15-014",
+        "CL-T15-015",
+        "CL-T15-021",
+        "CL-T15-023",
+        "CL-T15-024"
+      ],
+      "dependency_argument_ids": [
+        "A-T11-004"
+      ],
+      "strongest_objection": "Howard-Snyder distinguishes a desire for relationship now from an overriding reason to enable it now. Even a well-disposed inculpable seeker might benefit from owning or refining the disposition to love. He offers defeasible prima facie reasons and epistemic caution, not proof of actual divine reasons.",
+      "strongest_reply": "Project comparison: a possible counterfactual disposition is not automatically resistance causing present nonbelief. Ask whether improving love can occur in an available relationship, and whether delaying access is no worse than other means once the lost relationship is counted. A defender may contest that comparison or our knowledge of it. Note18 and reply4 identify limits to this particular defense; no blanket victory is inferred.",
+      "unresolved_issues": [
+        "The1996reply addresses earlier Schellenberg; the2025argument emphasizes nonresistance causally relevant to nonbelief. Exact earlier book/reply exchange not inspected.",
+        "A reason to delay developing a relationship does not automatically explain withholding the conditions of being open to one; this is the contested bridge.",
+        "No observed distribution of dispositions or actual divine permission reasons.",
+        "Availability, fittingness and the no-worse-alternative criterion remain disputed."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15",
+      "authorship": "Project-authored reconstruction; source attributions confined to linked claims."
+    },
+    {
+      "argument_id": "A-T15-006",
+      "name": "Goodness, authority and dependence across the package",
+      "position": "Conditional synthesis and sensitivity",
+      "premises": [
+        "Value judgments support the moral-grounding proposal and also underwrite evil objections.",
+        "Knowledge of goodness and permission-justifying reasons can have different scope.",
+        "Claims of actual survival or intended moral education need evidence apart from their usefulness in a reply."
+      ],
+      "bridge_principles": [
+        "Avoid counting the same moral premise as independent evidence each time it recurs.",
+        "Apply explanatory stopping-point and epistemic-access standards symmetrically to divine and secular accounts."
+      ],
+      "conclusion": "This packet maps burdens for H-G and H-A, with conditional effects on H-I/P/S; it identifies neither a numerical posterior nor a winning full metaphysics.",
+      "source_ids": [],
+      "claim_ids": [
+        "CL-T15-016",
+        "CL-T15-017",
+        "CL-T15-018",
+        "CL-T15-019",
+        "CL-T15-020",
+        "CL-T15-021",
+        "CL-T15-022"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Restricting knowledge of unknown goods need not undermine simple moral knowledge; criticism can demand unreasonable omniscience of the defender.",
+      "strongest_reply": "Use local rather than blanket skepticism and name what remains knowable; test whether the positive and negative inferences genuinely rely on the same inaccessible domain.",
+      "unresolved_issues": [
+        "No equal-support verdict.",
+        "Removing retrospective NDE claims leaves conceptual distinctions but no new survival evidence.",
+        "Rejecting moral realism changes the moral argument and some evil formulations; internal inconsistency arguments can still use an opponent’s commitments."
+      ],
+      "review_status": "accepted",
+      "review_id": "R15",
+      "authorship": "Project-authored reconstruction; source attributions confined to linked claims."
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-T15-001",
+      "title": "Reasons for Divine Commands",
+      "authors": [
+        "William Lane Craig",
+        "Kevin Harris"
+      ],
+      "publication_date": "2022-04-25",
+      "url_or_identifier": "https://www.reasonablefaith.org/media/reasonable-faith-podcast/reasons-for-divine-commands",
+      "source_type": "author-hosted podcast transcript",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Craig responses after the Shafer-Landau dilemma",
+        "Craig responses on values and obligations",
+        "Craig response beginning I have come to adopt this view myself; final notes"
+      ],
+      "provenance_notes": "Original Craig arguments and explicit endorsement inspected in official transcript, web turn364view1 lines155–222. Baggett, Huemer, Shafer-Landau and Robert Adams quoted/discussed there are not independently inspected. Audio alignment unverified. No empirical claims about cultures or believers accepted.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-002",
+      "title": "Moral Realism",
+      "authors": [
+        "Peter Railton"
+      ],
+      "publication_date": "1986-04",
+      "url_or_identifier": "https://r.jordan.im/download/philosophy/railton1986.pdf",
+      "source_type": "original journal article in third-party archive",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp163–170",
+        "pp173–177",
+        "pp189–191",
+        "pp200–205; footnotes"
+      ],
+      "provenance_notes": "The Philosophical Review95(2),163–207. JSTOR wrapper2185589. Full46-page PDF available; relevant argument and limitations inspected, visual checks175,189,201. Third-party PDF sha256 abdb8826d6d23f67c013ac88ca98f1f38bb18c1d9ff3aeb39e93ecd7ed77d4cc. PhilPapers archive403; archive navigation recovered exact PDF. Footer on printed190 differs from other footers; no content difference established, exact journal-hosted comparison remains open.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-003",
+      "title": "The Problem of Evil and Some Varieties of Atheism",
+      "authors": [
+        "William L. Rowe"
+      ],
+      "publication_date": "1979-10",
+      "url_or_identifier": "https://rintintin.colorado.edu/~vancecd/phil201/Rowe.pdf",
+      "source_type": "original journal article in university course copy",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp335–338, especially336nn2–3 and337",
+        "pp338–341, including indirect defense and friendly atheism"
+      ],
+      "provenance_notes": "APQ16(4),335–341; JSTOR stable20009775. Eight-page PDF incl cover, sha256 669ed1c16fd86a302fabde5e4c4b2ab97ac4383219421c59593f670a297c7c05. Raw OCR and visual336–337 checked. Fawn is a thought experiment, no new case/study. Statements about abundance are Rowe’s premises, not a new empirical survey.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-004",
+      "title": "Horrendous Evils and the Goodness of God — I",
+      "authors": [
+        "Marilyn McCord Adams"
+      ],
+      "publication_date": "1989",
+      "url_or_identifier": "https://andrewmbailey.com/mma/pdfs/HorrendousEvilsAndTheGoodnessOfGod.pdf",
+      "source_type": "original symposium contribution",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "printed297–310, §§I–V",
+        "§3.2 pp302–304",
+        "§4.1–4.3 pp305–309; conclusion310"
+      ],
+      "provenance_notes": "Two separately authored symposium contributions in one27-page PDF; common-container dependency, not independent empirical evidence. Inspected PDF starts printed297 (some later bibliography says299). SHA256 ff051fba527c9a52cf3632cb6c4aef473e63e8d71b9c10ef01835228311b57a6. Scan OCR truncates some even pages; decisive clipped passages visually checked. PartI is Adams; PartII Sutherland is separate S-T15-005. This is1989 paper, not1999 book. Visual302,306,308,310 checked.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-005",
+      "title": "Horrendous Evils and the Goodness of God — II",
+      "authors": [
+        "Stewart Sutherland"
+      ],
+      "publication_date": "1989",
+      "url_or_identifier": "https://andrewmbailey.com/mma/pdfs/HorrendousEvilsAndTheGoodnessOfGod.pdf",
+      "source_type": "original symposium response",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "printed311–323, §§I–IV",
+        "pp317–323"
+      ],
+      "provenance_notes": "Two separately authored symposium contributions in one27-page PDF; common-container dependency, not independent empirical evidence. Inspected PDF starts printed297 (some later bibliography says299). SHA256 ff051fba527c9a52cf3632cb6c4aef473e63e8d71b9c10ef01835228311b57a6. Scan OCR truncates some even pages; decisive clipped passages visually checked. PartII is Sutherland’s direct criticism of Adams. Visual318,322 checked. His reported Tolstoy episode is an illustration here; original letter not inspected and no case record created.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-006",
+      "title": "Précis",
+      "authors": [
+        "J. L. Schellenberg"
+      ],
+      "publication_date": "2025",
+      "url_or_identifier": "https://www.jlschellenberg.com/uploads/8/5/6/1/8561683/ajp_symposium_pr%C3%A9cis.pdf",
+      "source_type": "author-hosted prepublication manuscript",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "manuscriptpp2–4 formal argument and clarifications",
+        "pp5–8 scope and relational rationale",
+        "pp9–10 revised formulation and note5"
+      ],
+      "provenance_notes": "Ten-page author-hosted prepublication text, linked by author homepage to Asian Journal of Philosophy4,45(2025), DOI10.1007/s44204-025-00270-2. Locators are manuscript pages, not final journal pagination. PDF sha256 2494deba3bd95ff25409a857152ed10400b783cc85eac5303d5da5c1b7806105. Full text and footnotes inspected; visual4,10 checked. Substitutes inaccessible2004 chapter; Q-T15-009 is its own forward pass. Historical/psychological examples are author premises, not verified population findings.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-007",
+      "title": "Research archive index — Railton access route",
+      "authors": [],
+      "publication_date": null,
+      "url_or_identifier": "https://r.jordan.im/",
+      "source_type": "navigation metadata",
+      "access_status": "inspected_navigation_only",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Moral realism entry and download link"
+      ],
+      "provenance_notes": "Navigation used only to recover exact Railton PDF link. Other archive works not inspected. One conservative inspection unit.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-008",
+      "title": "J. L. Schellenberg — Home",
+      "authors": [
+        "J. L. Schellenberg"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://www.jlschellenberg.com/",
+      "source_type": "author navigation metadata",
+      "access_status": "inspected_navigation_only",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Précis announcement and pre-publication link"
+      ],
+      "provenance_notes": "Author provenance and publication identifier only; not a separate philosophical argument. One conservative inspection unit.",
+      "related_case_ids": []
+    },
+    {
+      "source_id": "S-T15-009",
+      "title": "The Argument from Divine Hiddenness",
+      "authors": [
+        "Daniel Howard-Snyder"
+      ],
+      "publication_date": "1996-09",
+      "url_or_identifier": "https://doi.org/10.1080/00455091.1996.10717461",
+      "source_type": "user-supplied original journal article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "printed433–453, complete article and footnotes",
+        "pp438–439 permission criterion and epistemic qualification",
+        "pp443–448 disposition account, especially447n18",
+        "pp449–453 objections, concessions and conclusion"
+      ],
+      "provenance_notes": "Canadian Journal of Philosophy26(3),433–453.23PDFpages:2covers then21articlepages. Exact supplied input state/input_snapshots/user_sources/Howard_Snyder_Divine_Hiddenness_user_supplied.pdf SHA2564a6ff96c37b283b43c237a8dd2ce4d071955b2a83a32038656dbf07c528196b9; LibraryIDlibfile_47f35275fff08191b9201cbea542669b. Root verified identity/DOI; author read entire article and references, visually checked439,447,450,451.1996publication,2013platform online date,2015download stamp. Response concerns earlier Schellenberg, not2025Précis. User input retained intact.",
+      "related_case_ids": []
+    }
+  ]
+}

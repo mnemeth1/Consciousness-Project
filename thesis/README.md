@@ -8,6 +8,7 @@ Phase 3 authoring space for the doctoral-thesis-style expansion of the research 
 - `chapters/NN-name.md` — one chapter per file. Chapter 00 is overseer-maintained front matter.
 - `appendices/` — case evidence tables, alternatives matrix, gap/gate disposition register, dependence map.
 - `crosswalk/<part>.json` — paragraph-to-record mapping, one file per thesis part (see below).
+- `evidence_map.json` — curated mapping from thesis parts to evidence-ledger task prefixes; consumed by the derived evidence layer (see Evidence retrieval below).
 
 ## Chapter file conventions
 
@@ -50,6 +51,22 @@ node scripts/paper/cli.cjs build --source .paper-build/thesis/thesis.html --out 
 ```
 
 Build outputs live under `.paper-build/` and are never committed. Release wiring for the thesis is a separate reviewed change at first publication.
+
+## Evidence retrieval
+
+Chapter authors and reviewers work from the generated derived layer instead of reading whole ledger files:
+
+```sh
+node scripts/derived/build.cjs --check      # confirm derived/ matches the current ledgers
+node scripts/derived/lookup.cjs CL-T05-001  # one record with resolved cross-references
+```
+
+- `derived/evidence/<part>.md` — the evidence pack for one thesis part: every mapped argument, claim, case and source in full, from `evidence_map.json` and the chapter front matter.
+- `derived/index/*.jsonl` — one compact line per record, for keyword search across the ledgers.
+- `derived/by_task/<TASK>.json` — full records grouped by task prefix.
+- `derived/gap_gate_register.json` — the 35 gap groups and 12 withheld stronger-conclusion gates unified with closure conditions (Appendix C's working input).
+
+Derived files are regenerable, non-canonical conveniences (`node scripts/derived/build.cjs`); crosswalk entries and citations must reference canonical ledger IDs only.
 
 ## Review workflow
 

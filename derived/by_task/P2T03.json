@@ -1,0 +1,764 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T03",
+  "report": "work/P2T03/report.md",
+  "counts": {
+    "claims": 21,
+    "arguments": 4,
+    "cases": 0,
+    "sources": 4
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T03-001",
+      "statement": "The supplied Realistic Monism copy is a later Oxford-layout chapter, not the selected 29-page 2006 journal text; exact cross-version textual identity remains unverified.",
+      "claim_type": "source_provenance",
+      "source_ids": [
+        "S-P2T03-001",
+        "S-P2T03-004"
+      ],
+      "source_locators": [
+        "S-P2T03-004 PDF pp. 1, 22–23; printed p. 74 n. 55; PDF metadata; Q001 official Oxford metadata"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "High for version distinction; exact 2006 gap unresolved",
+      "limitations": [
+        "Filename cannot certify edition. Dates on distribution covers/watermarks are not publication dates."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-002",
+      "statement": "Strawson assumes physicalism for argument, treats experience as concrete, and uses physicalism more broadly than exhaustive specification in physics vocabulary.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-004"
+      ],
+      "source_locators": [
+        "S-P2T03-004 pp. 53–57, §1"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "His charge that opponents deny experience is not adopted as a verdict on all physicalists."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-003",
+      "statement": "Strawson argues that structural physical knowledge does not exhaust intrinsic nature, leaving an experiential constitution of brain activity open.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-004"
+      ],
+      "source_locators": [
+        "S-P2T03-004 pp. 56, 58–59, §2"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "Compatibility does not establish actuality. Russell/Eddington originals quoted there were not separately inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-004",
+      "statement": "Strawson requires emergence to depend on the nature of its base, distinguishes metaphysical sufficiency from intelligibility to us, and rejects wholly nonexperiential-to-experiential emergence through a disputed intuition.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-004",
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-004 pp. 60–70, especially 62–66 and 68; p. 74",
+        "S-P2T03-003 pp. 230–233, 266"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "No-radical-emergence is not established by mere experiential/nonexperiential nonidentity. Spatial analogies are not empirical validation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-005",
+      "statement": "Experiential ultimates follow conditionally from Strawson’s realism, constitutive-base assumptions and rejection of radical emergence; extending some experiential ultimates to all requires additional homogeneity.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-004",
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-004 pp. 70–71",
+        "S-P2T03-003 pp. 227–233, particularly p. 232 n. 101"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "Micropsychism differs from panpsychism. Certainty of an experience alone does not establish these added premises."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-006",
+      "statement": "Strawson’s microexperiential constitution framework allows macroqualities unlike constituent qualities, explicitly leaves subject combination and mental causation to explain, and supplies no scientific test in the selected chapter.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-004"
+      ],
+      "source_locators": [
+        "S-P2T03-004 pp. 72–73, nn. 48–51"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "This is an explanatory proposal, not a measured neural realization or law of composition."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-007",
+      "statement": "The reply’s thin subject cannot exist without current experience, but thinness itself does not entail transience or immortality; identity of subject and experience is a further thesis.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-003 pp. 189–193, §§5–6"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "Strawson’s belief about human transience is not treated as an independently verified empirical result."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-008",
+      "statement": "Strawson’s developed reply combines object/property and subject/experience identity commitments with experiential ultimates, some pluralities of which constitute numerically distinct larger subjects.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-003 pp. 193–198, 246–249"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "The metaphysical identities are contested. No criterion specifies which pluralities compose. Not all aggregates are said to experience."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-009",
+      "statement": "Goff’s direct emergence-parity objection is that microexperiences do not by themselves explain a distinct macrosubject; the avoided brute-emergence burden appears to return.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-002"
+      ],
+      "source_locators": [
+        "S-P2T03-002 pp. 53–54, 59–60"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "A challenge to sufficiency is not by itself a proof of metaphysical impossibility. James is a quoted antecedent, not a separately inspected source."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-010",
+      "statement": "Goff argues that epistemic limitations about experiential constitution threaten Strawson’s use of transparency to reject ordinary a posteriori physicalist identifications.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-002"
+      ],
+      "source_locators": [
+        "S-P2T03-002 pp. 54–57, p. 59 n. 2 continuing p. 60"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "His inference from acquaintance in certain respects to stronger transparency is contested. Loar and Strawson 2003 are cited originals not independently inspected here."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-011",
+      "statement": "Goff’s phenomenal-parthood argument requires experiential constituents to appear as phenomenal parts of the whole and uses slight pains versus a severe pain to challenge novel qualitative summation.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-002"
+      ],
+      "source_locators": [
+        "S-P2T03-002 pp. 57–59, Phenomenal Parts and Wholes"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "The pain example is stipulated, not a quantitative pain experiment. The experiential-parthood principle is a contested bridge."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-012",
+      "statement": "Strawson explicitly accepts Goff’s argument as refuting one natural full-revelation smallist interpretation, and answers by distinguishing partial acquaintance from exhaustive disclosure and first-order having from reflective introspection.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-003 pp. 250–255, §16"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "He permits a qualified sense of full disclosure of one’s phenomenal nature; do not report an unqualified rejection of every full-revelation thesis."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-013",
+      "statement": "The reply allows the constituting experiential event to contain distinct microsubjects whose first-person nature is unavailable to the macrosubject even when its own experiential character is present to it.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-003 pp. 253–257, §§16–17"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "This is a proposed distinction blocking one inference to impossibility, not an explicit constitutive model."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-014",
+      "statement": "Strawson treats experiences as active substances with causal and constitutive roles; he acknowledges that his schematic argument on pp. 258–259 goes wrong at premise 7.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-003 pp. 257–259, especially p. 259 after premise 12"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "The admitted defective argument must not be presented as a sound proof against full revelation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-015",
+      "statement": "Strawson proposes that causal powers belong to experiential nature and explicitly relinquishes his earlier characterization of experiential character considered independently of everything else.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-003 pp. 261–262"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "Revision is certified by this reply; no independently verified full comparison with the 2003 original. This is a philosophical cost of the response."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-016",
+      "statement": "Strawson concedes that he lacks an account of how microexperience constitutes macroexperience; his argument that it occurs is transcendental and assumes smallism, and he acknowledges a formal parity in appeals to prior commitments.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-003 p. 262 final paragraph; pp. 265–266"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Documented attribution; premise truth unverified",
+      "limitations": [
+        "Unknown laws named by the framework are not supplied laws or established existence proofs."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-017",
+      "statement": "The selected exchange neither establishes subject combination nor demonstrates its impossibility independently of disputed revelation/parthood premises; an epistemic defense does not discharge the positive constitution burden.",
+      "claim_type": "project_inference",
+      "source_ids": [
+        "S-P2T03-002",
+        "S-P2T03-003",
+        "S-P2T03-004"
+      ],
+      "source_locators": [
+        "S-P2T03-002 pp. 54–60",
+        "S-P2T03-003 pp. 250–262, 266",
+        "S-P2T03-004 pp. 72–73"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [
+        "CL-P2T03-009",
+        "CL-P2T03-010",
+        "CL-P2T03-011",
+        "CL-P2T03-012",
+        "CL-P2T03-013",
+        "CL-P2T03-016"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Bounded conditional assessment, no family ranking",
+      "limitations": [
+        "Limited to these exact versions and selected reply passages. Broader later combination literature uninspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-018",
+      "statement": "Micropsychism and experiential constitution do not entail one cosmic subject, surviving persons, or brain-independent human consciousness; Strawson accepts relevant experiential states as brain states within his account.",
+      "claim_type": "project_inference",
+      "source_ids": [
+        "S-P2T03-003",
+        "S-P2T03-004"
+      ],
+      "source_locators": [
+        "S-P2T03-004 pp. 56, 71–73",
+        "S-P2T03-003 pp. 189–193, 260, 267, 275–276"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [
+        "CL-P2T03-005",
+        "CL-P2T03-007"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "No component actuality upgrade",
+      "limitations": [
+        "Possibility of a universal subject is left open, not established or ruled out. No survival or process-exclusion experiment is provided."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-019",
+      "statement": "The supplied chapter treats experience as requiring time, while the reply distinguishes activity from intentional agency; neither statement supplies timelessness, cosmic purpose, goodness or authority.",
+      "claim_type": "project_inference",
+      "source_ids": [
+        "S-P2T03-004",
+        "S-P2T03-003"
+      ],
+      "source_locators": [
+        "S-P2T03-004 p. 58 n. 16",
+        "S-P2T03-003 p. 257 n. 155, p. 260"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Limited component separation",
+      "limitations": [
+        "Authorial premises rather than proof about fundamental physics; moral and preservation components not investigated by these texts."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-020",
+      "statement": "Current Phase 2 already has reviewed causal-emergence and distinct-subject alternatives; Strawson’s constitutive definition of emergence cannot by itself refute their different causal or ontological commitments.",
+      "claim_type": "project_comparison",
+      "source_ids": [
+        "S-P2T03-003",
+        "S-P2T03-004"
+      ],
+      "source_locators": [
+        "S-P2T03-004 pp. 62–70, 73",
+        "S-P2T03-003 pp. 193–198, 230–234, 257–262",
+        "input_annex_01: accepted P2T01 report and impact; accepted P2T02 report and impact"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [
+        "CL-P2T01-004",
+        "CL-P2T01-007",
+        "CL-P2T01-009",
+        "CL-P2T02-007",
+        "CL-P2T02-008",
+        "CL-P2T03-004",
+        "CL-P2T03-008"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Comparative burden mapping, no accepted neighbor overwritten",
+      "limitations": [
+        "Neighbor originals not newly inspected. Retain M-T03-PL classification, basic types/dependent instances, O’Connor 1994/2005 distinction and Engelhardt’s revision of Lowe."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "claim_id": "CL-P2T03-021",
+      "statement": "The packet adds a direct original Goff/Strawson reply chain and a distinct later lead version to historical v1 coverage, while retaining the exact 2006 source gap and all stronger conclusion gates.",
+      "claim_type": "project_inference",
+      "source_ids": [
+        "S-P2T03-001",
+        "S-P2T03-002",
+        "S-P2T03-003",
+        "S-P2T03-004"
+      ],
+      "source_locators": [
+        "source_selection.json; source_version_annex.json; citation_passes.json",
+        "Historical release/v1/alternatives_matrix.json M-T03-PA; work/T12/report.md"
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T03-2006-symposium-and-2008-version",
+      "supporting_claim_ids": [
+        "CL-P2T03-001",
+        "CL-P2T03-017"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Direct source attribution within stated edition/locator; unreviewed",
+      "inference_strength": "Proposed coverage correction subject to independent review",
+      "limitations": [
+        "No author approval, whole-literature completion, historical query reconstruction, or metaphysical actuality finding."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T03-001",
+      "name": "Conditional experiential-ultimate argument",
+      "position": "Strawson developed defense",
+      "premises": [
+        "Experience exists as concrete reality.",
+        "For argument, concrete reality is physical and constituted by physical ultimates.",
+        "No experiential reality can emerge from wholly nonexperiential reality."
+      ],
+      "bridge_principles": [
+        "Some ultimate constituents must therefore involve experience.",
+        "Homogeneity is an additional premise for all ultimates."
+      ],
+      "conclusion": "Micropsychism, and panpsychism only with added homogeneity, conditional on the premises.",
+      "source_ids": [
+        "S-P2T03-003",
+        "S-P2T03-004"
+      ],
+      "claim_ids": [
+        "CL-P2T03-002",
+        "CL-P2T03-003",
+        "CL-P2T03-004",
+        "CL-P2T03-005",
+        "CL-P2T03-006"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Goff: the supposedly explanatory experiential base still needs unexplained subject and quality combination; no-radical-emergence may be an asymmetrically applied intuition.",
+      "strongest_reply": "Strawson: same-kind experiential composition may be incomprehensible to us without the metaphysical impossibility he attributes to the wholly nonexperiential case.",
+      "unresolved_issues": [
+        "No independent validation of no-radical-emergence or homogeneity.",
+        "No constitution law or actual H-F test."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "argument_id": "A-P2T03-002",
+      "name": "Goff’s combination and revelation challenge",
+      "position": "Direct serious objection",
+      "premises": [
+        "Many microsubjects do not transparently supply a further subject.",
+        "Strawson uses transparent experiential knowledge against ordinary a posteriori identifications.",
+        "If experiential being is exhaustively how it feels, a constituent’s experiential character must be part of the whole’s character."
+      ],
+      "bridge_principles": [
+        "The needed transparency should apply to both nonexperiential-to-experiential and micro-to-macro transitions.",
+        "Wholly additive experiential parts cannot supply qualitatively novel wholes."
+      ],
+      "conclusion": "The proposed panpsychism has not escaped brute emergence; under the stronger transparency/parthood assumptions novel experiential combination is incoherent.",
+      "source_ids": [
+        "S-P2T03-002"
+      ],
+      "claim_ids": [
+        "CL-P2T03-009",
+        "CL-P2T03-010",
+        "CL-P2T03-011"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The transparency premise may exceed first-order acquaintance in certain respects; experiential constitution need not be additive or perspective-sharing.",
+      "strongest_reply": "Goff: without sufficient transparency, Strawson must explain why ignorance does not equally protect physicalist reduction; footnote 2 extends the concern to experiential nature generally.",
+      "unresolved_issues": [
+        "Goff’s strongest impossibility conclusion is conditional on contested bridges.",
+        "James and Loar antecedents uninspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "argument_id": "A-P2T03-003",
+      "name": "Partial acquaintance and active experiential constitution",
+      "position": "Actual Strawson reply",
+      "premises": [
+        "One has first-order acquaintance with one’s experience without knowing every causal or constitutive feature.",
+        "Constituting microsubjects are numerically distinct and need not share their perspectives with the macrosubject.",
+        "Experiences are active realities, not passive contents isolated from causal powers."
+      ],
+      "bridge_principles": [
+        "Absence of a constituent’s phenomenal character in acquaintance need not establish absence of an experiential constituent."
+      ],
+      "conclusion": "One full-revelation argument for impossibility can be resisted while experiential composition remains a conditional possibility requiring further account.",
+      "source_ids": [
+        "S-P2T03-003"
+      ],
+      "claim_ids": [
+        "CL-P2T03-007",
+        "CL-P2T03-008",
+        "CL-P2T03-012",
+        "CL-P2T03-013",
+        "CL-P2T03-014",
+        "CL-P2T03-015",
+        "CL-P2T03-016"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The revised ontology and ignorance allowance do not explain composition and may weaken the original exclusion of nonexperiential emergence.",
+      "strongest_reply": "Strawson acknowledges the concession, rejects exhaustive revelation in the relevant sense, and relies on a transcendental argument with smallism.",
+      "unresolved_issues": [
+        "His pp. 258–259 argument is acknowledged defective.",
+        "No positive law specifying subjects, qualities, organization or causal realization.",
+        "No later Goff rebuttal invented."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "argument_id": "A-P2T03-004",
+      "name": "Equal explanatory standards and component limits",
+      "position": "Project comparison",
+      "premises": [
+        "Source-verified attributions do not verify premises.",
+        "A conditional experiential ontology can fit neural dependence without a disembodied enduring subject.",
+        "Accepted P2T01 and P2T02 supply developed alternatives with distinct unresolved costs."
+      ],
+      "bridge_principles": [
+        "Do not confuse constitutive dependence, diachronic causal generation, intrinsic-property identity and distinct-subject ontology.",
+        "Require actuality and separate bridges for each component."
+      ],
+      "conclusion": "Retain experiential constitution as a specified conditional alternative; withhold six-family ranking and all conclusion gates.",
+      "source_ids": [
+        "S-P2T03-003",
+        "S-P2T03-004"
+      ],
+      "claim_ids": [
+        "CL-P2T03-017",
+        "CL-P2T03-018",
+        "CL-P2T03-019",
+        "CL-P2T03-020",
+        "CL-P2T03-021"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A defender might regard no-radical-emergence and acquaintance as sufficiently decisive for actual panpsychism.",
+      "strongest_reply": "The selected reply explicitly acknowledges intuitive premises, unknown composition and optional universal-subject extension.",
+      "unresolved_issues": [
+        "Exact 2006 lead still unavailable.",
+        "Broader literature and empirical discriminators not completed."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T03-001",
+      "title": "Realistic Monism: Why Physicalism Entails Panpsychism",
+      "authors": [
+        "Galen Strawson"
+      ],
+      "publication_date": "2006",
+      "url_or_identifier": "https://philpapers.org/versions/STRRM-2",
+      "source_type": "Original philosophical article or authorial chapter version",
+      "access_status": "metadata_verified_exact_text_unavailable",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [],
+      "provenance_notes": "JCS 13(10–11), pp. 3–31. Exact preselected version not inspected; no verified DOI for journal version. Do not assign Oxford DOI to it. Later chapter does not certify textual identity.",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "source_id": "S-P2T03-002",
+      "title": "Experiences Don’t Sum",
+      "authors": [
+        "Philip Goff"
+      ],
+      "publication_date": "2006",
+      "url_or_identifier": "https://durham-repository.worktribe.com/output/1309879/experiences-dont-sum",
+      "source_type": "Original philosophical article or authorial chapter version",
+      "access_status": "inspected_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 53–61, all body, notes and references"
+      ],
+      "provenance_notes": "Nine-page JCS 13(10–11) (2006) pp. 53–61 layout; 2011 copyright footer is not proof of a revised edition. Supplied via input_annex_02; PDF page n = printed n+52 (one-based).",
+      "related_case_ids": [],
+      "local_file": "state/input_snapshots/user_sources/Goff_2006_Experiences_Dont_Sum_user_supplied.pdf",
+      "sha256": "7980093fa40aaf6669614569bdb66e70d4948cf30ef5c254cb4d42dfc6743709",
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "source_id": "S-P2T03-003",
+      "title": "Panpsychism? Reply to Commentators with a Celebration of Descartes",
+      "authors": [
+        "Galen Strawson"
+      ],
+      "publication_date": "2006",
+      "url_or_identifier": "https://beisecker.faculty.unlv.edu/Courses/PHIL-352/Dave%20-%20Consciousness%20PDFs/Strawson%20-%20Realistic%20Monism%20and%20Replies/Strawson%20-%20Replies%20to%20Comments.pdf",
+      "source_type": "Original philosophical article or authorial chapter version",
+      "access_status": "inspected_selected_passages_and_references",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 184–198",
+        "pp. 221–234",
+        "pp. 246–269",
+        "pp. 274–280 including references pp. 276–280"
+      ],
+      "provenance_notes": "JCS 13(10–11), pp. 184–280, 97-page UNLV-hosted journal layout; 2010 watermark is not a new reply date. First-page displayed title has a typographical Panspsychism; catalogued title retained. Unread pp. 199–220, 235–245, 270–273 not certified by full-file extraction. PDF page n = printed n+183 (one-based).",
+      "related_case_ids": [],
+      "local_file": "work/P2T03/Strawson_2006_Reply.pdf",
+      "sha256": "26ff80fc29582f2c88dadbaa02a931cf1277ebc4ff08b6a4f0ca023d9e42690d",
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    },
+    {
+      "source_id": "S-P2T03-004",
+      "title": "Realistic Monism: Why Physicalism Entails Panpsychism",
+      "authors": [
+        "Galen Strawson"
+      ],
+      "publication_date": "2008",
+      "url_or_identifier": "https://doi.org/10.1093/acprof:oso/9780199267422.003.0003",
+      "source_type": "Original philosophical article or authorial chapter version",
+      "access_status": "inspected_distinct_later_authorial_version",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "chapter 2, pp. 53–74, complete body and notes",
+        "appended unnumbered references, PDF page 23"
+      ],
+      "provenance_notes": "Oxford Real Materialism and Other Essays; supplied 22 chapter pages plus appended references. Creation 2008, modification 2013; p. 74 n. 55 retrospectively identifies 2006 first publication. No textual collation with inaccessible journal version. PDF page n = printed n+52 for n=1–22; n=23 unnumbered. One authorial work/version family with S-P2T03-001, not independent corroboration.",
+      "related_case_ids": [],
+      "local_file": "state/input_snapshots/user_sources/Strawson_Realistic_Monism_chapter2_pp53_74_user_supplied.pdf",
+      "sha256": "3b1c737b7af7a265310fa6e853b65594cbc7edded04ae5225c3284ccbc1f97f9",
+      "review_status": "accepted",
+      "review_id": "P2R03"
+    }
+  ]
+}

@@ -1,0 +1,1592 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T17",
+  "report": "work/P2T17/report.md",
+  "counts": {
+    "claims": 30,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 9
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T17-001",
+      "statement": "Smit identifies Meijers 1991 and an Addink interview on February 2, 1994 (transcript dated February 3) as earlier documents. The selected 1991 original and full unpublished 12-page 1994 transcript have not been recovered here.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-004",
+        "S-P2T17-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "pp.50–51,57,61"
+        },
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "p.194"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I02",
+          "locator": "PDF9/reprint8, references"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Meijers Cordiaal 3:53–56 identity is bibliographic; volume/issue reading of 3 and August header unverified. Translated excerpts do not certify the complete Addink original."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-002",
+      "statement": "K.B. is reported to have relayed TG’s story to Meijers, not participated in the resuscitation. The patient’s reported words reach these researchers through TG; interviews and retellings do not create additional event witnesses.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "p.57, Recent Follow-Up"
+        },
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.194–195"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No directly inspected investigator interview with patient B, K.B. testimony file, or independent contemporaneous corroborating witness record."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-003",
+      "statement": "Rivas dates his follow-up interview to May 1, 2008 and says its >30 A4-page record was converted into a summary with selected literal passages. The nine-page Dutch reprint and corrected parallel version are that published article, not the full interview transcript.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I02",
+          "locator": "PDF1/reprint0, introduction; PDF2/reprint1"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§4–8,19–21"
+        },
+        {
+          "source_id": "S-P2T17-007",
+          "unit_id": "I09",
+          "locator": "PDF1 complete foreword"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The foreword’s full-text language concerns the published article. Underlying recording and complete transcript are not inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-004",
+      "statement": "The Dutch copy is explicitly a reprint with pagination 0–8; its citation as Terugkeer 19(3), 12–20 uses a different pagination. Rivas’s Winter 2008 reply is bibliographically p.9 but the supplied public file visibly carries footer 0.",
+      "claim_type": "source_observation",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I02",
+          "locator": "PDF1–9, headers/footers"
+        },
+        {
+          "source_id": "S-P2T17-006",
+          "unit_id": "I06",
+          "locator": "PDF1 footer and eight numbered points"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "supported_for_saved_version_identity",
+      "limitations": [
+        "Current copy metadata in 2009/2010 does not date the original claims or prove exact final-journal textual equivalence."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-005",
+      "statement": "The corrected Dutch-English table omits the Dutch reprint’s closing reference list and television captions and adds frontmatter, numbered paragraphs and explanatory notes. Rivas/Smit authorize the translation; this does not make the versions textually identical or independent testimony.",
+      "claim_type": "source_observation",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I02",
+          "locator": "PDF5 and PDF9"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "PDF1,§7,§§210.1–210.7,211–212"
+        },
+        {
+          "source_id": "S-P2T17-007",
+          "unit_id": "I09",
+          "locator": "PDF1 foreword"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "supported_for_saved_version_comparison",
+      "limitations": [
+        "The current I03 PDF creation date is January 10, 2011; translation release chronology remains unverified."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-006",
+      "statement": "Rivas’s Dutch comparison of the interviews places the resuscitation probably in 1979 rather than the earlier 1978 attribution. Woerlee’s translator introduction makes a stronger shortly-after-discharge/1979 death statement than the body’s recollection and obituary-search inference warrant.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-008",
+        "S-T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I02",
+          "locator": "PDF1–2, PDF8/reprint7 comparison, PDF9/reprint8 postscript"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§17;§§202,211–212"
+        },
+        {
+          "source_id": "S-P2T17-008",
+          "unit_id": "I10",
+          "locator": "PDF1 introduction"
+        },
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "p.59"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No event chart, obituary or independently established patient death date inspected. English §202 is more definite than Dutch waarschijnlijk. Do not adopt 1979 as a verified event or death date."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-007",
+      "statement": "TG reports recognizing the patient roughly a week later and hearing him identify TG as the person associated with the dentures. In the Dutch account TG already knew from the chart that the patient had returned, and a longer discussion occurred later in the shift.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I02",
+          "locator": "PDF5/reprint4"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§85–96"
+        },
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "pp.54–55"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Smit’s translated presentation emphasizes surprise; the later Dutch presentation adds prior chart knowledge. No independent time-stamped patient statement or recording."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-008",
+      "statement": "The Dutch evening-shift wording is translated as night shift, while a later recollected greeting is good afternoon. The interview allows that TG probably spoke first; voice familiarity is not independently excluded.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§85–86,160–169"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Do not resolve exact time of day from these retrospective variants. Voice recognition does not by itself explain the reported unusual cart details."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-009",
+      "statement": "The detailed interview does not establish a complete independent description of every room feature and staff member. TG says the patient did not explicitly name the cupboard; staff descriptions remain limited, and not describing someone is not the same as being unable to do so.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-006",
+        "S-P2T17-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§97–107,202"
+        },
+        {
+          "source_id": "S-P2T17-006",
+          "unit_id": "I06",
+          "locator": "PDF1 point8"
+        },
+        {
+          "source_id": "S-P2T17-004",
+          "unit_id": "I04",
+          "locator": "p.7"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "A claim of exhaustive photographic accuracy is stronger than these passages. No room diagram, blinded scoring or complete patient transcript inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-010",
+      "statement": "The drawer word occurs in the Dutch patient-attributed report as well as in a television caption. Rivas’s reply locates the error in the caption, but that does not erase the article’s own laatje wording; TG subsequently explains it as a retractable shelf.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I02",
+          "locator": "PDF5/reprint4, patient account and BBC caption"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§95;§§171–179"
+        },
+        {
+          "source_id": "S-P2T17-006",
+          "unit_id": "I06",
+          "locator": "PDF1 point4"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Dutch op een laatje and English in a drawer differ in preposition. A colloquial drawer word does not prove the object was a metal drawer, and this discrepancy alone does not validate the critic’s mechanism."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-011",
+      "statement": "TG describes an unusual converted cart with a flat wooden pull-out shelf already extended, and attributes a matching description to the patient. This specifically challenges a mechanism based on hearing a metal drawer being opened and closed.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002",
+        "S-P2T17-003",
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "p.54"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§171–179"
+        },
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.200–202"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Cart structure, pre-opened state and patient match are TG-dependent reports. No contemporaneous photograph or independent sound experiment verifies impossibility of inference."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-012",
+      "statement": "The published interview article (a summary with selected excerpts) presents two retrospective experience phases: pain with a wish to stop pumping, and much later fear when resuscitation might be abandoned with a wish to continue. TG says the patient could not locate the beginning/end of the experience and reported no field experience.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-T19-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§114–127"
+        },
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "pp.57–59"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Two phases can reconcile stop/continue reports, but do not establish their measured timing or cerebral states. No independently locked perception interval."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-013",
+      "statement": "The interview contains a pump-first account during a prompted physiology exchange, alongside later statements that preparation and denture removal preceded continued resuscitation. TG’s direct Winter 2008 reply explicitly corrects the sequence to denture removal before the pump was switched on.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§55–60,191–192"
+        },
+        {
+          "source_id": "S-P2T17-005",
+          "unit_id": "I05",
+          "locator": "PDF1/printed8, opening procedural sequence"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Preserve §58 rather than silently replacing it with the reply. Both are retrospective statements by the same witness; correction is not a contemporaneous clock or independent confirmation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-014",
+      "statement": "TG’s direct reply estimates more than five minutes moving from entrance to CCU without heart massage while walking, and more than a minute for transfer/preparation. It asserts no circulation at denture removal; the 2010 translation weakens the Dutch no-heart-massage wording to resuscitation hardly possible.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-005",
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-005",
+          "unit_id": "I05",
+          "locator": "PDF1/printed8, central paragraphs"
+        },
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.197–198"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "These are late estimates and physiological assertions, not instrumented durations or proof of zero cerebral activity. Ambulance/bystander resuscitation is not excluded; pre-Thumper does not mean no prior CPR."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-015",
+      "statement": "The translated Addink presentation uses intubation and describes upper/lower dentures, whereas the detailed Dutch account describes a loose upper denture, Mayo airway and mask, followed by later ICU endotracheal intubation.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002",
+        "S-P2T17-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "pp.53–54"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§49–51,76"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Do not silently harmonize procedures, terminology or denture extent across translations without the full 1994 original. Difference is a version limit, not proof of deception."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-016",
+      "statement": "Pupil and pain descriptions vary: Smit stresses absent pupil response and allows restored circulation as a pain explanation; the detailed interview allows some pupil change after more than fifteen minutes and treats the pain/awareness combination as difficult to explain.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-002",
+        "S-P2T17-003",
+        "S-P2T17-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "pp.58–60"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§190–196"
+        },
+        {
+          "source_id": "S-P2T17-005",
+          "unit_id": "I05",
+          "locator": "PDF1 final descriptive paragraph"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Rhythm/circulation estimates also differ (§70 versus §194). No tracing or contemporaneous pupil record independently resolves timing or awareness."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-017",
+      "statement": "Woerlee’s Dutch 2008 criticism explicitly corrects assumptions he had made in 2004 from sparse information, then proposes hypothermia, CPR-restored awareness, sensations, hearing and reconstruction as an ordinary account of this case.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-004",
+          "unit_id": "I04",
+          "locator": "pp.4–7 including p.6 chronology and p.7 discussion"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Those mechanisms are serious hypotheses; the cited clinical literature is not independently inspected here and no case temperature, perfusion or awareness measurement is supplied. Do not import his general numerical claims as this case’s measured probability."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-018",
+      "statement": "TG’s and Rivas’s Winter 2008 texts are actual direct replies to Woerlee’s Dutch criticism. They contest pump timing, felt versus seen denture removal, auditory reconstruction and staff-description reasoning; their strongest factual response depends on TG’s corrected sequence.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-P2T17-005",
+        "S-P2T17-006",
+        "S-P2T17-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-005",
+          "unit_id": "I05",
+          "locator": "complete p.8"
+        },
+        {
+          "source_id": "S-P2T17-006",
+          "unit_id": "I06",
+          "locator": "PDF1 points1–8"
+        },
+        {
+          "source_id": "S-P2T17-004",
+          "unit_id": "I04",
+          "locator": "pp.6–7"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Their qualifications concerning unknown field duration and possible bystander CPR should be retained. The drawer correction has the separate limitation in CL-P2T17-010."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-019",
+      "statement": "Smit/Rivas 2010 explicitly rejoin Woerlee’s response in the same issue, translate TG’s 2008 correction, and defend the unusual wooden shelf. This reply relation is verified from their body; this packet has reopened only Woerlee 2010 p.181, so later-page comparison remains a declared gap.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-004",
+        "S-T19-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.193–194,197–202"
+        },
+        {
+          "source_id": "S-T19-003",
+          "unit_id": "I07",
+          "locator": "p.181 only"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "CL-T19-006 and CL-T19-010 remain historical source attributions for Woerlee’s later pages, not newly inspected original support. Full 181–191 pending user retrieval."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-020",
+      "statement": "Smit/Rivas state that medical records were destroyed and identify a 12-page Addink transcript in their archive as somewhat corroborating, while acknowledging reliance on TG. This is a published assertion about records and their comparison, not an independent chart audit or another firsthand witness.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.194–195"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No full 1994 transcript, chart destruction log, original clinical charts or independently recorded patient testimony inspected. Absence of access is not proof that such material never existed."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-021",
+      "statement": "The 2010 rejoinder uses flat-EEG language while discussing the case, but supplies no case EEG tracing. Its consultations with cardiologists and a related Verdegaal account are reported within the rejoinder, not independently inspected clinical measurements or standalone replies.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "p.196 and pp.203–205"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Do not infer inactive brain from an absent measurement, nonreactive pupils or a reported pulse state. No medical rule is newly certified by this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-022",
+      "statement": "Smit/Rivas’s proposed experiment with ten blindfolded participants and the blind acquaintance example are arguments about auditory reconstruction. The article reports no performed ten-person test or scored case-specific success/failure rate.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.199–200"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "A suggested test or predicted outcome cannot be entered as observed data. No likelihood calculation is justified."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-023",
+      "statement": "For pain the 2010 rejoinder first offers psychogenic pain within its extracerebral account, then conditionally allows ordinary physical pain if cerebral functioning had returned, while retaining the claimed OBE. These are alternative interpretations, not measured causal findings.",
+      "claim_type": "reported_experience",
+      "source_ids": [
+        "S-T19-004",
+        "S-T19-002",
+        "S-P2T17-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.202–203"
+        },
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "pp.58–60"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§190–196"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Do not merge the alternatives into a single established physiology. Dream/hypnosis analogies and other cases are cited illustrations, not validation of this patient’s cause."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-024",
+      "statement": "The rejoinder’s bibliography entry Woerlee 2010 is a Skeptiko comment, whereas the article’s opening targets the JNDS response in the same issue. The identical author/year shorthand does not identify a single interchangeable text.",
+      "claim_type": "source_observation",
+      "source_ids": [
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.193,205"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "supported_for_reference_identity",
+      "limitations": [
+        "The separate Skeptiko comment was not opened. Bibliographic discovery does not certify its content."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-025",
+      "statement": "Publication of the dentures anecdote alongside the Dutch prospective study does not identify it as one of the study’s participants or arrests. This remains the same C-T19-001 retrospective event, linked contextually to C-T07-004 with no additional patient or denominator.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T19-002",
+        "S-P2T17-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "pp.47–50,57–59"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§202"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001",
+        "C-T07-004"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "supported_as_dependence_constraint",
+      "limitations": [
+        "The late-1970s date attribution is not a roster match; cohort membership, target exposure, interview opportunity and all unknown intersections remain unestablished. Current accepted P2T09 cohort corrections are derivative inputs, not new cohort source inspection."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-026",
+      "statement": "A specific unusual-object report can conditionally challenge a restricted ordinary-perception account if accuracy, timing and exclusion of prior/later access are independently established. This packet verifies the structure of that evidential argument but does not establish its decisive case premises.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T19-004",
+        "S-T19-002",
+        "S-P2T17-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.199–204"
+        },
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "p.61"
+        },
+        {
+          "source_id": "S-P2T17-005",
+          "unit_id": "I05",
+          "locator": "p.8"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "conditional_only",
+      "limitations": [
+        "Single-witness memory, prompted questioning, unobserved information opportunities, procedural/pain variants and missing measurements leave process discrimination unresolved."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-027",
+      "statement": "A plausible ordinary account is not a demonstrated explanation of the whole event. Conversely, rejecting a metal-drawer explanation or accepting TG’s sincerity does not establish extracerebral perception or exclude every ordinary process.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T17-004",
+        "S-P2T17-006",
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-004",
+          "unit_id": "I04",
+          "locator": "pp.6–7"
+        },
+        {
+          "source_id": "S-P2T17-006",
+          "unit_id": "I06",
+          "locator": "PDF1 points4–8"
+        },
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.199–204"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "supported_as_inference_limit",
+      "limitations": [
+        "No empirical causal winner, defensible numerical posterior or independent event count follows."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-028",
+      "statement": "This retrospective recovery report does not establish same-person survival after irreversible death, ontological timelessness, a universal or fundamental consciousness, preservation of subjectivity, creator intention, goodness or moral authority.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "p.61"
+        },
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.203–204"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "unsupported_for_stronger_components",
+      "limitations": [
+        "Nine hypothesis components remain separate. No healing-causality inference and no conclusion-gate closure. Unexamined philosophical arguments elsewhere are not decided here."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-029",
+      "statement": "Removing all TG-dependent retrospective testimony removes this packet’s positive case contribution; multiple publications and translations cannot restore independence. Retaining only corrected shelf/timing assertions leaves a conditional reported anomaly, not a measured excluded-process event.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T19-002",
+          "unit_id": "I01",
+          "locator": "p.57"
+        },
+        {
+          "source_id": "S-T19-004",
+          "unit_id": "I08",
+          "locator": "pp.194–195"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "supported_as_dependency_sensitivity",
+      "limitations": [
+        "This sensitivity result does not decide other empirical cases, prospective studies or conceptual arguments."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "claim_id": "CL-P2T17-030",
+      "statement": "Rivas’s Dutch and corrected parallel versions do not independently authenticate the complete 1994/2008 recordings, exact 1991 text, patient words or public disclosure chronology. Version and access improvements warrant appended reinspection fields while every historical case field and denominator null remains preserved.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I02",
+          "locator": "PDF1–2,9"
+        },
+        {
+          "source_id": "S-P2T17-003",
+          "unit_id": "I03",
+          "locator": "§§19–21,211–212"
+        },
+        {
+          "source_id": "S-P2T17-007",
+          "unit_id": "I09",
+          "locator": "PDF1"
+        }
+      ],
+      "case_ids": [
+        "C-T19-001"
+      ],
+      "dependency_group": "T19-dentures-TG-chain",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Source attribution does not establish the reported event, clinical state, exclusion of ordinary information access, or metaphysical conclusion."
+      ],
+      "record_reliability": "supported_as_attribution_or_version_observation",
+      "inference_strength": "supported_as_scope_limit",
+      "limitations": [
+        "Source access repair is narrower than event verification. Earliest original and full 2010 criticism remain open in this submission state."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T17-001",
+      "name": "Conditional unusual-cart and pre-Thumper argument",
+      "position": "Strongest bounded extracerebral-perception case reconstructed from defenders",
+      "premises": [
+        "TG reports a patient description of an unusual cart and wooden shelf.",
+        "TG’s direct reply places removal before switching on the Thumper.",
+        "Defenders infer ordinary visual/auditory acquisition was unavailable."
+      ],
+      "bridge_principles": [
+        "If accuracy, timing and exclusion of ordinary access were independently established, a discriminating anomaly could challenge a specified ordinary model."
+      ],
+      "conclusion": "Potential case-specific challenge conditional on premises; no established brain-independent perception.",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-006",
+        "S-T19-002",
+        "S-T19-004",
+        "S-P2T17-005",
+        "S-T19-003"
+      ],
+      "claim_ids": [
+        "CL-P2T17-010",
+        "CL-P2T17-011",
+        "CL-P2T17-012",
+        "CL-P2T17-013",
+        "CL-P2T17-014",
+        "CL-P2T17-019",
+        "CL-P2T17-020",
+        "CL-P2T17-026"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The report depends on one retrospective witness and unmeasured timing; the original pump-first passage and drawer-word reply problem remain.",
+      "strongest_reply": "TG explicitly corrects the pump sequence and defenders reject the specific noisy-metal-drawer mechanism. A generic appeal to hearing does not itself explain every unusual detail.",
+      "unresolved_issues": [
+        "No independent patient account, full early originals, synchronized brain/physiology record or quantified reconstruction test.",
+        "General brain dependence and rival metaphysical families are not eliminated."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "argument_id": "A-P2T17-002",
+      "name": "Ordinary awareness and reconstruction account with direct replies",
+      "position": "Strong serious countercase, not asserted causal resolution",
+      "premises": [
+        "Woerlee 2008 invokes hypothermia and CPR-restored awareness.",
+        "Sounds, pain, voice and later reconstruction could supply information; pump-first wording offers a textual basis.",
+        "Missing measurements and dependence prevent exclusion of ordinary routes."
+      ],
+      "bridge_principles": [
+        "A process-compatible opportunity undermines an exclusion claim even when the exact process is not demonstrated."
+      ],
+      "conclusion": "Ordinary processes remain live; their complete causal adequacy for this event remains unresolved.",
+      "source_ids": [
+        "S-P2T17-003",
+        "S-P2T17-006",
+        "S-P2T17-004",
+        "S-P2T17-005",
+        "S-T19-002",
+        "S-T19-004"
+      ],
+      "claim_ids": [
+        "CL-P2T17-008",
+        "CL-P2T17-009",
+        "CL-P2T17-010",
+        "CL-P2T17-013",
+        "CL-P2T17-016",
+        "CL-P2T17-017",
+        "CL-P2T17-018",
+        "CL-P2T17-021",
+        "CL-P2T17-022",
+        "CL-P2T17-023",
+        "CL-P2T17-027"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "TG’s reply denies pump operation at removal and describes a pre-opened wooden shelf; generic physiology is not this patient’s data.",
+      "strongest_reply": "The reply remains retrospective and does not replace the earlier wording or supply a measured neural interval. The critic need not prove a mechanism to challenge an assertion of impossibility.",
+      "unresolved_issues": [
+        "Full Woerlee 2010 body remains partly inaccessible here.",
+        "Clinical citations not independently evaluated; no illicit general numeric rate imported."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "argument_id": "A-P2T17-003",
+      "name": "Dependency and nine-component boundary",
+      "position": "Methodological inference",
+      "premises": [
+        "All substantive patient-detail routes selected here depend on TG.",
+        "Case inclusion in an article is not roster membership or a new independent event.",
+        "Resuscitation/recovery is not evidence establishing continued subjectivity after irreversible death."
+      ],
+      "bridge_principles": [
+        "Reports, observed events and inferred causes must be assessed separately; no automatic component bridge."
+      ],
+      "conclusion": "Append source/version and chronology qualifications to C-T19-001 while retaining all twelve gates and nine component distinctions.",
+      "source_ids": [
+        "S-T19-002",
+        "S-T19-004",
+        "S-P2T17-003",
+        "S-P2T17-007"
+      ],
+      "claim_ids": [
+        "CL-P2T17-002",
+        "CL-P2T17-020",
+        "CL-P2T17-025",
+        "CL-P2T17-028",
+        "CL-P2T17-029",
+        "CL-P2T17-030"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A credible detailed witness report can still have evidential value without being a prospective target experiment.",
+      "strongest_reply": "The packet retains that conditional value and the specific cart challenge while declining unsupported extrapolations.",
+      "unresolved_issues": [
+        "No numerical posterior; no pooled denominator; other conceptual routes remain outside scope."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T17-003",
+      "title": "Een gesprek met TG over de Man met het Gebit",
+      "authors": [
+        "Titus Rivas"
+      ],
+      "publication_date": "2008",
+      "url_or_identifier": "https://netwerknde.nl/wp-content/uploads/gebitman.pdf",
+      "doi": null,
+      "source_type": "original published case account or direct argument/reply",
+      "access_status": "selected_versions_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Full 9 PDF pages, reprint pagination 0–8, header identifies reprint from Terugkeer 19(3), Autumn 2008; bibliographic pages 12–20 are not this file’s printed pagination. PDF metadata July 24, 2009.",
+        "Parallel body, PDF 1–25, numbered paragraphs 1–212 and notes 210.1–210.7. Full selected published summary/excerpts in Dutch/English, not full >30-page interview; original bibliography and TV captions omitted; editorial additions present. Separate authored frontmatter counted I09/I10. PDF metadata January 10, 2011, not proved translation publication date."
+      ],
+      "provenance_notes": "Same case and witness dependency. Author inspection is not independent event validation. Same canonical source IDs are reused where identified; append version provenance after review.",
+      "related_case_ids": [
+        "C-T19-001"
+      ],
+      "versions": [
+        {
+          "unit_id": "I02",
+          "source_id": "S-P2T17-003",
+          "status": "selected_extent_inspected",
+          "extent": "Full 9 PDF pages, reprint pagination 0–8, header identifies reprint from Terugkeer 19(3), Autumn 2008; bibliographic pages 12–20 are not this file’s printed pagination. PDF metadata July 24, 2009.",
+          "path": "work/P2T17/originals/I02.pdf",
+          "sha256": "de38092f3217f592f2de235a2256f442c1cab9e74b3fe3a7aa76c3f3fa110cfb",
+          "method": "Direct text extraction with page/paragraph locators; decisive Dutch layout/numbering checked visually. I07 actual web first-page body only.",
+          "notes": [
+            "Published article is a summary with selected verbatim interview passages; >30 A4-page transcript not recovered.",
+            "Reprint pages 0–8 must not be silently cited as journal 12–20."
+          ],
+          "inspection_date": "2026-09-13",
+          "body_reading_completed_before_packet_build": true
+        },
+        {
+          "unit_id": "I03",
+          "source_id": "S-P2T17-003",
+          "status": "selected_extent_inspected",
+          "extent": "Parallel body, PDF 1–25, numbered paragraphs 1–212 and notes 210.1–210.7. Full selected published summary/excerpts in Dutch/English, not full >30-page interview; original bibliography and TV captions omitted; editorial additions present. Separate authored frontmatter counted I09/I10. PDF metadata January 10, 2011, not proved translation publication date.",
+          "path": "work/P2T17/originals/I03.pdf",
+          "sha256": "081d924caabb42cab8c015e2085dd0b2136202beae0bd996f91cef3dabe95949",
+          "method": "Direct text extraction with page/paragraph locators; decisive Dutch layout/numbering checked visually. I07 actual web first-page body only.",
+          "notes": [
+            "Dutch avonddienst is rendered night shift (§§85–86); Dutch probably 1979 is more definite in English (§202); comparison with 2008 is awkwardly reversed in English (§204).",
+            "Dutch op een laatje and English in a drawer (§95) differ in preposition; both contain the patient-attributed drawer word.",
+            "Not an independent witness or a new case; corrected translation metadata does not date its original release."
+          ],
+          "inspection_date": "2026-09-13",
+          "body_reading_completed_before_packet_build": true
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "source_id": "S-P2T17-004",
+      "title": "Reactie op de Man met het Gebit",
+      "authors": [
+        "Gerald M. Woerlee"
+      ],
+      "publication_date": "2008",
+      "url_or_identifier": "https://netwerknde.nl/wp-content/uploads/woerleetk42008.pdf",
+      "doi": null,
+      "source_type": "original published case account or direct argument/reply",
+      "access_status": "selected_versions_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Full 4 PDF pages, printed 4–7, Winter 2008 header; metadata December 23, 2013 is copy date. Dutch original; agent English paraphrase."
+      ],
+      "provenance_notes": "Same case and witness dependency. Author inspection is not independent event validation. Same canonical source IDs are reused where identified; append version provenance after review.",
+      "related_case_ids": [
+        "C-T19-001"
+      ],
+      "versions": [
+        {
+          "unit_id": "I04",
+          "source_id": "S-P2T17-004",
+          "status": "selected_extent_inspected",
+          "extent": "Full 4 PDF pages, printed 4–7, Winter 2008 header; metadata December 23, 2013 is copy date. Dutch original; agent English paraphrase.",
+          "path": "work/P2T17/originals/I04.pdf",
+          "sha256": "b0f896dcd3351c52dc6f4caee9b64b6b783b42b7ee30bdd2d0f31a77d064999b",
+          "method": "Direct text extraction with page/paragraph locators; decisive Dutch layout/numbering checked visually. I07 actual web first-page body only.",
+          "notes": [],
+          "inspection_date": "2026-09-13",
+          "body_reading_completed_before_packet_build": true
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "source_id": "S-P2T17-005",
+      "title": "Commentaar op Woerlee door A-verpleegkundige TG",
+      "authors": [
+        "A-verpleegkundige TG"
+      ],
+      "publication_date": "2008",
+      "url_or_identifier": "https://netwerknde.nl/wp-content/uploads/tgmbtwoerlee.pdf",
+      "doi": null,
+      "source_type": "original published case account or direct argument/reply",
+      "access_status": "selected_versions_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Full single PDF page, printed 8, Winter 2008 header; metadata December 2, 2010. Dutch witness reply; agent English paraphrase."
+      ],
+      "provenance_notes": "Same case and witness dependency. Author inspection is not independent event validation. Same canonical source IDs are reused where identified; append version provenance after review.",
+      "related_case_ids": [
+        "C-T19-001"
+      ],
+      "versions": [
+        {
+          "unit_id": "I05",
+          "source_id": "S-P2T17-005",
+          "status": "selected_extent_inspected",
+          "extent": "Full single PDF page, printed 8, Winter 2008 header; metadata December 2, 2010. Dutch witness reply; agent English paraphrase.",
+          "path": "work/P2T17/originals/I05.pdf",
+          "sha256": "4c8102b246c574833986e4150b2a40f4e67b30363ff1ba44cd076fb412c119a5",
+          "method": "Direct text extraction with page/paragraph locators; decisive Dutch layout/numbering checked visually. I07 actual web first-page body only.",
+          "notes": [],
+          "inspection_date": "2026-09-13",
+          "body_reading_completed_before_packet_build": true
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "source_id": "S-P2T17-006",
+      "title": "Enkele reacties op het stuk van Gerald Woerlee",
+      "authors": [
+        "Titus Rivas"
+      ],
+      "publication_date": "2008",
+      "url_or_identifier": "https://netwerknde.nl/wp-content/uploads/trmbtwoerlee.pdf",
+      "doi": null,
+      "source_type": "original published case account or direct argument/reply",
+      "access_status": "selected_versions_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Full single PDF page, eight numbered points and reference. Current file footer 0; cited as Terugkeer 19(4), Winter 2008, p. 9 in catalog/references. Do not claim current PDF visibly printed 9. Metadata December 2, 2010."
+      ],
+      "provenance_notes": "Same case and witness dependency. Author inspection is not independent event validation. Same canonical source IDs are reused where identified; append version provenance after review.",
+      "related_case_ids": [
+        "C-T19-001"
+      ],
+      "versions": [
+        {
+          "unit_id": "I06",
+          "source_id": "S-P2T17-006",
+          "status": "selected_extent_inspected",
+          "extent": "Full single PDF page, eight numbered points and reference. Current file footer 0; cited as Terugkeer 19(4), Winter 2008, p. 9 in catalog/references. Do not claim current PDF visibly printed 9. Metadata December 2, 2010.",
+          "path": "work/P2T17/originals/I06.pdf",
+          "sha256": "09e563ef7f19094cf95d3e6de8233975a72ea4629723a1f5ba93d10d9609349b",
+          "method": "Direct text extraction with page/paragraph locators; decisive Dutch layout/numbering checked visually. I07 actual web first-page body only.",
+          "notes": [
+            "Bibliographic p. 9 and visible footer 0 retained as different locator systems."
+          ],
+          "inspection_date": "2026-09-13",
+          "body_reading_completed_before_packet_build": true
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "source_id": "S-P2T17-007",
+      "title": "Foreword by Rivas and Smit",
+      "authors": [
+        "Rudolf H. Smit and Titus P. M. Rivas"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://netwerknde.nl/wp-content/uploads/trtgtable.pdf",
+      "source_type": "separately authored translation frontmatter",
+      "access_status": "selected_extent_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "I03 PDF 1, complete separately authored Foreword by Rivas and Smit. Preselected entire frontmatter, now counted separately conservatively; no new opening or scope."
+      ],
+      "provenance_notes": "Undated frontmatter in PDF carrying January 10, 2011 creation metadata; metadata is not verified release date. Container is I03, no new case or witness.",
+      "related_case_ids": [
+        "C-T19-001"
+      ],
+      "versions": [
+        {
+          "unit_id": "I09",
+          "source_id": "S-P2T17-007",
+          "status": "selected_extent_inspected",
+          "extent": "I03 PDF 1, complete separately authored Foreword by Rivas and Smit. Preselected entire frontmatter, now counted separately conservatively; no new opening or scope.",
+          "path": "work/P2T17/originals/I03.pdf",
+          "sha256": "081d924caabb42cab8c015e2085dd0b2136202beae0bd996f91cef3dabe95949",
+          "method": "Direct text extraction with page/paragraph locators; decisive Dutch layout/numbering checked visually. I07 actual web first-page body only.",
+          "notes": [],
+          "inspection_date": "2026-09-13",
+          "body_reading_completed_before_packet_build": true
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "source_id": "S-P2T17-008",
+      "title": "Introduction by Translator",
+      "authors": [
+        "G. M. Woerlee"
+      ],
+      "publication_date": null,
+      "url_or_identifier": "https://netwerknde.nl/wp-content/uploads/trtgtable.pdf",
+      "source_type": "separately authored translation frontmatter",
+      "access_status": "selected_extent_inspected",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "I03 PDF 1, complete separately authored Introduction by Translator, G. M. Woerlee. Preselected entire frontmatter, now counted separately conservatively; no new opening or scope."
+      ],
+      "provenance_notes": "Undated frontmatter in PDF carrying January 10, 2011 creation metadata; metadata is not verified release date. Container is I03, no new case or witness.",
+      "related_case_ids": [
+        "C-T19-001"
+      ],
+      "versions": [
+        {
+          "unit_id": "I10",
+          "source_id": "S-P2T17-008",
+          "status": "selected_extent_inspected",
+          "extent": "I03 PDF 1, complete separately authored Introduction by Translator, G. M. Woerlee. Preselected entire frontmatter, now counted separately conservatively; no new opening or scope.",
+          "path": "work/P2T17/originals/I03.pdf",
+          "sha256": "081d924caabb42cab8c015e2085dd0b2136202beae0bd996f91cef3dabe95949",
+          "method": "Direct text extraction with page/paragraph locators; decisive Dutch layout/numbering checked visually. I07 actual web first-page body only.",
+          "notes": [],
+          "inspection_date": "2026-09-13",
+          "body_reading_completed_before_packet_build": true
+        }
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R17"
+    },
+    {
+      "source_id": "S-T19-002",
+      "title": "Corroboration of the Dentures Anecdote Involving Veridical Perception in a Near-Death Experience",
+      "authors": [
+        "Rudolf H. Smit"
+      ],
+      "publication_date": "2008",
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc798921/m2/1/high_res_d/vol27-no1-47.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp47–61; Two Documents p50; Recent Follow-Up pp57–59; Discussion pp60–61"
+      ],
+      "provenance_notes": "Original 2008 article27(1),47–61. Direct investigator account with author-translated excerpts of1994 TG interview and2008 follow-up. Underlying Dutch notes and patient interview not inspected. DOI10.17514/JNDS-2008-27-1-p47-61 verified through resolving DOI and UNT metadata. Temporary inspected PDF SHA256 77f157d931b6869a0fe6030fa597432e6ddd5d40cd1d75f84e05729782751f24.",
+      "related_case_ids": [
+        "C-T19-001"
+      ]
+    },
+    {
+      "source_id": "S-T19-003",
+      "title": "Response to “Corroboration of the Dentures Anecdote Involving Veridical Perception in a Near-Death Experience”",
+      "authors": [
+        "Gerald M. Woerlee"
+      ],
+      "publication_date": "2010",
+      "url_or_identifier": "https://digital.library.unt.edu/ark:/67531/metadc461689/m2/1/high_res_d/28-4%20FINAL%20WOERLEE%20ART.pdf",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp181–191; chronology pp182–184; proposed mechanisms pp184–189; references pp189–191"
+      ],
+      "provenance_notes": "Original2010 critique28(4),181–191. Published text inspected through web PDF; local download returned DAM HTML, not PDF. No private chart inspected. Bibliography sometimes listed181–192 elsewhere; actual PDF ends191.",
+      "related_case_ids": [
+        "C-T19-001"
+      ]
+    },
+    {
+      "source_id": "S-T19-004",
+      "title": "Rejoinder to “Response to ‘Corroboration of the Dentures Anecdote Involving Veridical Perception in a Near-Death Experience’”",
+      "authors": [
+        "Rudolf H. Smit",
+        "Titus Rivas"
+      ],
+      "publication_date": "2010",
+      "url_or_identifier": "https://www.academia.edu/65175964/Corroboration_of_the_Dentures_Anecdote_Involing_Veridical_Perception_in_a_Near_Death_Experience",
+      "source_type": "original_journal_article",
+      "access_status": "inspected_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp193–205; record caveat pp194–195; timing pp197–198; cart pp199–202; pain pp202–203"
+      ],
+      "provenance_notes": "Actual text is Smit/Rivas2010,28(4),193–205, despite Academia wrapper incorrectly naming Smit2008. Identity checked by heading/authors/pages. Original research reply incorporating translated TG2008 and communications with cardiologists; underlying recordings not inspected. UNT equivalent PDF route returned DAM HTML locally; catalog supplies10.17514/JNDS-2010-28-4-p193-205, used as access identifier, not separate evidence.",
+      "related_case_ids": [
+        "C-T19-001"
+      ]
+    }
+  ]
+}

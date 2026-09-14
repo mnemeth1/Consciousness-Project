@@ -1,0 +1,1437 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T11",
+  "report": "work/P2T11/report.md",
+  "counts": {
+    "claims": 29,
+    "arguments": 5,
+    "cases": 0,
+    "sources": 6
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T11-001",
+      "statement": "Collins’s1998 version frames the core inference as comparative support over an atheistic single universe, without an all-things-considered verdict.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-003",
+          "locator": "§II Further Development, webL82–94"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Conditional likelihood premises remain contested; website version is not an authenticated complete1999chapter.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-002",
+      "statement": "Collins uses divine goodness and the value of intelligent conscious beings to motivate life under theism.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-003",
+          "locator": "§II Support for Premise1, webL97–99"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Goodness is an assumed attribute in this route, not an independently inferred conclusion.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-003",
+      "statement": "The available Collins appendix restricts its calculation to an illuminated range and defends a physically motivated parameterization while acknowledging conflicting scales.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-003",
+          "locator": "Appendixii.B–C, webL219–236; endnotes8/10, L295/297–298"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Parameterization and indifference are defended premises, not measured universe frequencies; unknown remote life ranges remain.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-004",
+      "statement": "Collins explicitly interprets probability classically or epistemically and removes already-known life from the hypothesis-alone expectation.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-003",
+          "locator": "Appendixiii, webL244–262; endnotes3/13, L289–290/302–305"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Does not settle whether this hypothetical background is appropriate for each evidential question; necessary-truth uncertainty is epistemic.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-005",
+      "statement": "White separates old life, hospitality and newly learned stringency, and explicitly treats the relevant probabilities as evidential support rather than physical chances.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-001",
+          "locator": "pp676–678, §§1–3, especially677paragraph after(1) and678opening"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Reconstructing a rational conditional is not a verified physical sampling model.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-006",
+      "statement": "White derives added stringency support from negative life–stringency dependence without design, independence with design, and stringency not counting against design beforehand.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-001",
+          "locator": "p678premises(4)–(6); p679derivation(7)–(9)"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Derivation presumes defined nondegenerate probabilities; premises are granted for this dispute, not established actuality.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-007",
+      "statement": "White motivates his third premise by lack of reason to suspect a designer preference and limits his conclusion by other fine-tuning objections.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-001",
+          "locator": "p678discussion of(6) continuing679; p679concludingparagraph"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Weisberg2012 directly contests this rationale; no final probability of design is supplied.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-008",
+      "statement": "Weisberg’s judge example challenges the inference from no known preference to stringency having no negative evidential relevance.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author mspp2–3, premise(6) and100prisonerexample"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The constructed example shows a rationale can fail; its probability distribution is not independently established for universes.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-009",
+      "statement": "Matched divine and blind conditional distributions yield Weisberg’s screening-off result; Divine Intent also supports his unconditional stringency-negative derivation.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author mspp4–5, Divine Intent/Blind Indifference/Divine Indifference/Divine Irrelevance and(~6)/(~1*)"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Conditional equality is valid under matching distributions; truth or uniqueness of those distributions remains contested.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-010",
+      "statement": "Weisberg allows initial life evidence to favor design while preserving unbounded-space, parameterization and method-selection problems.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author mspp5–7, Bradleyreply, uniformity discussion and finalmethodparagraphs"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Not a measure-free refutation of every design argument; pp6–7 do not verify a canonical physical measure.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-011",
+      "statement": "Dorst and Dorst explicitly strengthen and recast White’s premise as indifference over stringency classes.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDFpp3–4; PDFp9note5"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Their formulation is an author-proposed extension, not White’s exact stated premise.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-012",
+      "statement": "Dorst and Dorst contrast uniform weighting of life-worlds with uniform weighting of stringency classes to obtain different conditional support relations.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDFpp2–4, Figures1–3; PDFp9notes3/4/7"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Diagrams represent stipulated spaces, not measured frequencies. Nonlinear changes affect numerical values even where an ordering survives.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-013",
+      "statement": "Their mixture includes an Else category, and its strongest sufficient support bound depends on a very small no-design likelihood and positive weight above a threshold.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDFpp5–6, Split the Indifference and displayed lowerbound; PDFp9notes8/9"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Tiny numerical scale is source-assumed via Collins2003, not verified here. Mere uncertainty without these comparisons is insufficient.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component.",
+        "The supplied McCutcheon range-prior sensitivity test directly challenges the scale/robustness claim; see CL-P2T11-025 through 028. It is not a contradiction about what Dorst wrote."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-014",
+      "statement": "Their robustness claim covers departures preserving the likelihood separation, and their weighting depends on disputed views of the designer, time and laws.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDFpp6–8; PDFp9notes4/10"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Does not demonstrate robustness to every alternative measure or no-design ontology; eternalism/governing-laws claims are motivations, not established bridges.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component.",
+        "The supplied McCutcheon range-prior sensitivity test directly challenges the scale/robustness claim; see CL-P2T11-025 through 028. It is not a contradiction about what Dorst wrote."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-015",
+      "statement": "Their coherent setup makes laxity disfavor design after conditioning on life when stringency favors it, while the unconditional relation can differ.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDFpp7–8; PDFp9note11"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The same fixed background must be used; this is conditional model behavior, not observed cosmic experimentation.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-016",
+      "statement": "Sober distinguishes qualitative evidential favoring from its numerical strength and explicitly grants the fine-tuning likelihood inequality for argument.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-006",
+          "locator": "Publishedpp65–66§2; p78note11; p81note12"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Granting an inequality is not empirical validation of either design or chance likelihood.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-017",
+      "statement": "Sober’s selected critique conditions on the actual observation process and earlier life, distinguishing them from the later observation of life-compatible constants.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-006",
+          "locator": "Publishedpp81–84§§5–6; Figure14/15p80; Figure16p83"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "This concerns observing compatible constants; it does not automatically screen off newly learned stringency. Constant stability and process definition matter.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-018",
+      "statement": "Sober retracts his2004 firing-squad treatment after Weisberg2005 while retaining a different judgment for fine-tuning.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-006",
+          "locator": "Publishedp86§8, secondparagraph and time-indexedinequality"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The2004original and Weisberg2005original remain uninspected here; this is Sober’s documented self-revision, not independent coverage of both older texts.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-019",
+      "statement": "Sober questions assumed designer preferences for a person or total observations and declines to debunk every design argument.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-006",
+          "locator": "Publishedpp86–87§9, especially87firstparagraph andnote19"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "He does not claim the design probabilities actually equalzero or establish every rival likelihood.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-020",
+      "statement": "The inspected conditional arguments do not establish a physical measure or identify brute reality with a uniform random sampler.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-003",
+        "S-P2T11-001",
+        "S-T10-007",
+        "S-P2T11-002",
+        "S-T10-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-003",
+          "locator": "Appendix ii.B–C and iii; endnotes 3 and 10"
+        },
+        {
+          "source_id": "S-P2T11-001",
+          "locator": "Published pp. 677–679, §3 and premises (4)–(6)"
+        },
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author ms. pp. 6–7, uniformity and methods"
+        },
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDF pp. 2, 6–9, stipulated distributions and notes 2/4/7"
+        },
+        {
+          "source_id": "S-T10-006",
+          "locator": "Published p. 78 n. 11, p. 81 n. 12 and p. 87 §9"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Researcher inference: an epistemic probability can be meaningful without physical sampling, but its rationale still requires defense.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "researcher source/inference assessment",
+      "record_reliability_scope": "researcher source/inference assessment",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-021",
+      "statement": "Life-directed preferences used to support design cannot then independently establish goodness, preservation or moral authority.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-003",
+        "S-P2T11-002",
+        "S-T10-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-003",
+          "locator": "§II Support for premise (1), web L97–99"
+        },
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDF p. 2 Divine Intent"
+        },
+        {
+          "source_id": "S-T10-006",
+          "locator": "Published pp. 86–87 §9"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Researcher dependence assessment; H-I/H-G circular credit withheld.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "researcher source/inference assessment",
+      "record_reliability_scope": "researcher source/inference assessment",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-022",
+      "statement": "These selected versions leave all twelve stronger-conclusion gates withheld.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-003",
+        "S-P2T11-001",
+        "S-T10-007",
+        "S-P2T11-002",
+        "S-T10-006"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-003",
+          "locator": "§II comparative route and Appendix ii–iii"
+        },
+        {
+          "source_id": "S-P2T11-001",
+          "locator": "Published pp. 678–679, conditional premises and final qualification"
+        },
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author ms. pp. 4–7, conditional distributions and limits"
+        },
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDF pp. 2, 5–9, model conditions and limits"
+        },
+        {
+          "source_id": "S-T10-006",
+          "locator": "Published pp. 81–87, process and preference limits"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Coverage repairs and valid conditionals do not meet remaining physical, intentional, identity, normative or representative-coverage criteria.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "researcher source/inference assessment",
+      "record_reliability_scope": "researcher source/inference assessment",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-023",
+      "statement": "The1998 webpage contains the probability appendix but repeats the malformed likelihood factor in endnote2.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-003",
+          "locator": "WebAppendixL198–265; endnote2L288"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Website-only text checked; historical1999excerpt remains partial. Standard odds identity supplied only as explicit researcher reconstruction.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "researcher source/inference assessment",
+      "record_reliability_scope": "researcher source/inference assessment",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-024",
+      "statement": "The PDC Online First reply has visible formula and bibliography defects that require explicit reconstruction.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDFp6lowerbound/low-likelihoodparagraph, PDFp7BlindLifeIndifference, PDFp10references"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Alternative observation conditioning, parameter measures, non-design accounts and designer preferences remain open."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Final inequality sign conflicts with earlier equality; missing conditioning/negation and Whiteauthor error preserved. Hidden extraction artifacts disregarded after viewing originals.",
+        "Record reliability applies to documented attribution or bounded logical analysis; it does not approve author premise truth, a cosmic event or a hypothesis component.",
+        "Source errors have explicit reconstructions in mathematical_checks.md; no hidden PDF extraction fragment supports a claim."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "researcher source/inference assessment",
+      "record_reliability_scope": "researcher source/inference assessment",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-025",
+      "statement": "The supplied McCutcheon critique introduces uncertainty over the laxity range parameter and challenges treating the observed value as necessarily extreme within that range.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-005",
+          "locator": "Printed/PDF pp. 2–3, x definition, linear density and posterior median."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different proper hyperpriors, range models, observation conditioning and preference assumptions can change the comparison."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The model assumes linear life-world weighting and a particular hyperprior; its count/proportion and maximum/typical interpretations are not independently established.",
+        "Reliability applies to source attribution or bounded analysis, not metaphysical premise truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-026",
+      "statement": "In its uniform-range-prior example, the supplied critique obtains a likelihood ratio around 61 and explicitly allows residual positive stringency evidence.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-005",
+          "locator": "Printed/PDF p. 3 last two displays and p. 4 opening paragraph."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different proper hyperpriors, range models, observation conditioning and preference assumptions can change the comparison."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Small-interval approximation with ε much smaller than a=10^(-53); a is assumed from the exchange, not empirically validated here.",
+        "Reliability applies to source attribution or bounded analysis, not metaphysical premise truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-027",
+      "statement": "The supplied critique proposes power priors approaching 1/x and takes a limiting approximate ratio near unity, while acknowledging the improper 1/x endpoint.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-005",
+          "locator": "Printed/PDF p. 4, independent-hoops rationale, power-prior displays and conclusion."
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different proper hyperpriors, range models, observation conditioning and preference assumptions can change the comparison."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "The proposed prior rationale, normalization, endpoint terms and limiting operation require separate assessment; the broad title is not an established theorem about every model.",
+        "Reliability applies to source attribution or bounded analysis, not metaphysical premise truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "documented author attribution only",
+      "record_reliability_scope": "documented author attribution only",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-028",
+      "statement": "The supplied critique challenges the large likelihood separation but does not invalidate the mixture sufficient condition; its near-neutral conclusion remains conditional on its own added model assumptions.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-005",
+        "S-P2T11-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-005",
+          "locator": "Printed/PDF pp. 2–4, range hyperprior, integrals and endpoint"
+        },
+        {
+          "source_id": "S-P2T11-002",
+          "locator": "PDC PDF pp. 5–6 and p. 9 notes 4, 7–9"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different proper hyperpriors, range models, observation conditioning and preference assumptions can change the comparison."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Common normalization cancels in the ratio but matters for probabilities. Fixed-a endpoint terms do not yield exact neutrality. No normalized 1/x prior exists on (0,1); proper models may retain qualitative support. No actual later author reply was found in the capped pass.",
+        "Reliability applies to source attribution or bounded analysis, not metaphysical premise truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "researcher source/inference assessment",
+      "record_reliability_scope": "researcher source/inference assessment",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    },
+    {
+      "claim_id": "CL-P2T11-029",
+      "statement": "The inspected McCutcheon text is an exact supplied manuscript whose archive attribution is supported but whose claimed v5 identity is not authenticated by its bytes.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-P2T11-005"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T11-005",
+          "locator": "Printed/PDF p. 1 title and p. 4 references/end matter; frozen archive metadata and root intake"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Different proper hyperpriors, range models, observation conditioning and preference assumptions can change the comparison."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "May 17 compilation metadata is not a publication date or v5 tag. Reference 1 misprints Dorst 2002; the exact inspected 2022 original establishes the correction.",
+        "Reliability applies to source attribution or bounded analysis, not metaphysical premise truth."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "epistemic_scope": "researcher source/inference assessment",
+      "record_reliability_scope": "researcher source/inference assessment",
+      "component_confidence": "unresolved",
+      "argument_opposition_is_not_attribution_conflict": true
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T11-001",
+      "name": "Collins conditional comparative route with explicit version limits",
+      "position": "support",
+      "premises": [
+        "Life-permitting conditions expected under a good life-valuing designer.",
+        "They are improbable under a selected single-universe epistemic measure."
+      ],
+      "bridge_principles": [
+        "Likelihood comparison; illuminated-range and parameterization defense."
+      ],
+      "conclusion": "Conditional comparative support, not final theism or a verified designer.",
+      "source_ids": [
+        "S-P2T11-003",
+        "S-T10-006"
+      ],
+      "claim_ids": [
+        "CL-P2T11-001",
+        "CL-P2T11-002",
+        "CL-P2T11-003",
+        "CL-P2T11-004",
+        "CL-P2T11-016",
+        "CL-P2T11-017",
+        "CL-P2T11-019",
+        "CL-P2T11-020",
+        "CL-P2T11-021",
+        "CL-P2T11-023"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Observation selection and unestablished measures/preferences; moving from a finite illuminated comparison to an all-reality conclusion needs care.",
+      "strongest_reply": "Collins restates existence evidence and defends epistemic probability; Sober grants a trace inequality but disputes which conditioned observation is relevant.",
+      "unresolved_issues": [
+        "Exact1999completechapter not inspected.",
+        "Empirical physics estimates not audited.",
+        "Goodness cannot receive independent evidential credit from its own assumption."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "inference_scope": "Conditional argument assessment only; premise truth and all hypothesis components unresolved."
+    },
+    {
+      "argument_id": "A-P2T11-002",
+      "name": "White–Weisberg direct probability disagreement",
+      "position": "support challenged",
+      "premises": [
+        "White(4): life less likely with stringent laws without design.",
+        "White(5): equal life likelihood across stringency given design.",
+        "White(6): stringency not evidence against design before life."
+      ],
+      "bridge_principles": [
+        "Bayesian conditional update with defined probabilities."
+      ],
+      "conclusion": "Added stringency support follows conditionally; third-premise rationale remains contested.",
+      "source_ids": [
+        "S-P2T11-001",
+        "S-T10-007"
+      ],
+      "claim_ids": [
+        "CL-P2T11-005",
+        "CL-P2T11-006",
+        "CL-P2T11-007",
+        "CL-P2T11-008",
+        "CL-P2T11-009",
+        "CL-P2T11-010"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Weisberg’s judge counterexample and matched distributions undermine the no-known-preference rationale.",
+      "strongest_reply": "White shows low absolute designer likelihood does not negate a comparative advantage; Dorst later supplies a distinct stringency-class weighting.",
+      "unresolved_issues": [
+        "No independent actual distribution or designer preference established.",
+        "Weisberg2010andBradley2012 originals omitted; not needed to impersonate2012attribution as independent2010coverage."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "inference_scope": "Conditional argument assessment only; premise truth and all hypothesis components unresolved."
+    },
+    {
+      "argument_id": "A-P2T11-003",
+      "name": "Dorst mixture extension and its residual model dependence",
+      "position": "support challenged",
+      "premises": [
+        "Divine Intent and blind life-world indifference.",
+        "Possible ideal stringency-class distribution gives sigma(S)>lambda(S).",
+        "Reasonable credence defers to ideal distributions and gives sufficient weight to that possibility."
+      ],
+      "bridge_principles": [
+        "Total probability including Else, plus lowerbound wS*sigma(S)>lambda(S)."
+      ],
+      "conclusion": "Conditional positive support can survive uncertainty and some deviations from exact indifference.",
+      "source_ids": [
+        "S-P2T11-002",
+        "S-T10-007",
+        "S-P2T11-005"
+      ],
+      "claim_ids": [
+        "CL-P2T11-009",
+        "CL-P2T11-011",
+        "CL-P2T11-012",
+        "CL-P2T11-013",
+        "CL-P2T11-014",
+        "CL-P2T11-015",
+        "CL-P2T11-020",
+        "CL-P2T11-024",
+        "CL-P2T11-025",
+        "CL-P2T11-026",
+        "CL-P2T11-027",
+        "CL-P2T11-028"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The supplied McCutcheon manuscript adds uncertainty over the laxity range; under its uniform hyperprior the claimed giant ratio falls to about 61, and under a family of power priors it becomes approximately neutral in a limit. Thus a tiny sufficient mixture weight is not secured by indifference uncertainty alone.",
+      "strongest_reply": "The actual 2022 reply includes Else and defends a lower bound and sensitivity to departures preserving likelihood separation. That sufficient condition remains valid. A defense of a fixed range or a different proper hyperprior would require further justification; this is a researcher-identified possible response, not an actual reply to the 2026 manuscript.",
+      "unresolved_issues": [
+        "Collins2003 numerical premise not independently inspected/validated.",
+        "Deference and metaphysical weight motivations remain contested.",
+        "Typeset anomalies require explicit intended-formula reconstruction.",
+        "No actual reply to McCutcheon found by separate capped pass; absence of discovery is not absence of reply.",
+        "The 2026 critique is inspected in exact supplied bytes, with version-number uncertainty. No actual later reply was found by Q015.",
+        "Missing normalized endpoint and retained-term qualifications are specified in mathematical_checks.md; neither side establishes a unique actual measure."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "inference_scope": "Conditional argument assessment only; premise truth and all hypothesis components unresolved."
+    },
+    {
+      "argument_id": "A-P2T11-004",
+      "name": "Sober time-indexed observation-selection critique",
+      "position": "challenge with restricted scope",
+      "premises": [
+        "Earlier living observer implies life-compatible stable constants.",
+        "The later observation process is conditioned on earlier life rather than its own outcome."
+      ],
+      "bridge_principles": [
+        "Time-indexed process/product distinction and conditional likelihood comparison."
+      ],
+      "conclusion": "The selected observation need not discriminate between ID and Chance despite an unconditioned trace inequality.",
+      "source_ids": [
+        "S-T10-006",
+        "S-P2T11-003",
+        "S-P2T11-001",
+        "S-T10-007",
+        "S-P2T11-002"
+      ],
+      "claim_ids": [
+        "CL-P2T11-004",
+        "CL-P2T11-005",
+        "CL-P2T11-010",
+        "CL-P2T11-015",
+        "CL-P2T11-016",
+        "CL-P2T11-017",
+        "CL-P2T11-018",
+        "CL-P2T11-019"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "The conditioning basis is disputed and compatibility is not the same datum as learned stringency; firing-squad analogy requires separate chronology.",
+      "strongest_reply": "Sober revises the firing-squad verdict while preserving earlier-life conditioning for stable constants; rejects an indiscriminate recipe against all design evidence.",
+      "unresolved_issues": [
+        "Source’s own2004revision only; no full2004orWeisberg2005coverage.",
+        "Observer/model relationship not empirically measured.",
+        "Does not remove every qualitative relation."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "inference_scope": "Conditional argument assessment only; premise truth and all hypothesis components unresolved."
+    },
+    {
+      "argument_id": "A-P2T11-005",
+      "name": "Range uncertainty challenges the scale of the mixture advantage",
+      "position": "direct challenge with conditional limitations",
+      "premises": [
+        "Laxity range parameter x is uncertain.",
+        "Conditional life-world density is 2t/x²; stringency-class density is 1/x on (0,x).",
+        "A shared uniform or normalized power hyperprior supplies the relevant marginal likelihoods."
+      ],
+      "bridge_principles": [
+        "Marginalize over x before evaluating the observed interval.",
+        "Use defined proper priors or explicitly qualified limiting ratios, preserving normalization and endpoint terms."
+      ],
+      "conclusion": "The extreme fixed-range ratio is sensitive to additional range uncertainty. The broad conclusion of universal evidential neutrality is not established.",
+      "source_ids": [
+        "S-P2T11-005",
+        "S-P2T11-002",
+        "S-T10-007"
+      ],
+      "claim_ids": [
+        "CL-P2T11-009",
+        "CL-P2T11-013",
+        "CL-P2T11-014",
+        "CL-P2T11-025",
+        "CL-P2T11-026",
+        "CL-P2T11-027",
+        "CL-P2T11-028",
+        "CL-P2T11-029"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T11-003"
+      ],
+      "strongest_objection": "The hyperprior and interpretation of x are additional assumptions. The uniform example retains positive support; the exact improper endpoint is unavailable, and neglected small terms can determine the sign near neutrality.",
+      "strongest_reply": "The manuscript motivates uncertainty over x and a multiplicative independent-hoops prior; its proper finite-p examples already erode the enormous ratio without needing an improper endpoint. These are actual manuscript replies to its uniform-prior limitation, not a later response from Dorst.",
+      "unresolved_issues": [
+        "No independently established cosmic hyperprior, physical measure or designer preference.",
+        "No actual response to this 2026 critique found in the capped dedicated forward pass.",
+        "Source version number remains unauthenticated; supplied attribution/bytes disclosed."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11",
+      "inference_scope": "Conditional argument assessment only; premise truth and all hypothesis components unresolved."
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T11-001",
+      "title": "What fine-tuning’s got to do with it: a reply to Weisberg",
+      "authors": [
+        "Roger White"
+      ],
+      "publication_date": "2011",
+      "url_or_identifier": "10.1093/analys/anr100",
+      "source_type": "original philosophical argument",
+      "access_status": "inspected_selected_original_version",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "pp676–678, §§1–3, especially677paragraph after(1) and678opening",
+        "p678premises(4)–(6); p679derivation(7)–(9)",
+        "p678discussion of(6) continuing679; p679concludingparagraph",
+        "Collins Appendixii–iii; White677–679; Weisbergms6–7; DorstPDC2/6–9; Sober78n11/87",
+        "Frozen release/v1/conclusion_gate_map.json, all12items; selected argument limits"
+      ],
+      "provenance_notes": "Published article676–679,4PDFpages, all4images read. Previous article references before White title on676 excluded. DOI/author independently verified. Its actual bibliography is single Weisberg2010 entry on679.",
+      "related_case_ids": [],
+      "decisive": true,
+      "inspected_files": [
+        {
+          "path": "state/input_snapshots/user_sources/White_Fine_Tuning_Reply_to_Weisberg_2011_user_supplied.pdf",
+          "sha256": "d7c3cc139f8213cef96149b762a523916dda912919bed430ebe551db1306275a"
+        }
+      ],
+      "original_url": "https://academic.oup.com/analysis/article-abstract/71/4/676/159811",
+      "version_identity": "Published Analysis 71(4):676–679, four PDF pages; DOI 10.1093/analys/anr100.",
+      "record_scope": "Attribution and conditional reasoning only; no new physical measurements or accepted premise truth.",
+      "review_status": "accepted",
+      "review_id": "P2R11"
+    },
+    {
+      "source_id": "S-P2T11-002",
+      "title": "Splitting the (In)Difference: Why Fine-Tuning Supports Design",
+      "authors": [
+        "Chris Dorst",
+        "Kevin Dorst"
+      ],
+      "publication_date": "2022",
+      "url_or_identifier": "10.5840/tht20221047",
+      "source_type": "original philosophical argument",
+      "access_status": "inspected_selected_original_version",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "PDC PDFpp3–4; PDFp9note5",
+        "PDC PDFpp2–4, Figures1–3; PDFp9notes3/4/7",
+        "PDC PDFpp5–6, Split the Indifference and displayed lowerbound; PDFp9notes8/9",
+        "PDC PDFpp6–8; PDFp9notes4/10",
+        "PDC PDFpp7–8; PDFp9note11",
+        "Collins Appendixii–iii; White677–679; Weisbergms6–7; DorstPDC2/6–9; Sober78n11/87",
+        "Collins§IIpremise1; DorstPDC2DivineIntent; Sober87§9; v1CL-T10-010/019/020",
+        "Frozen release/v1/conclusion_gate_map.json, all12items; selected argument limits",
+        "PDC PDFp6lowerbound/low-likelihoodparagraph, PDFp7BlindLifeIndifference, PDFp10references"
+      ],
+      "provenance_notes": "Complete10page PDC Online First2022-10-21 PDF, all10images read. Visible pages unnumbered: use PDFpage locators. Earlier RG issue-layout14–23 partial text exposure counted separately; no blanket version equivalence.",
+      "related_case_ids": [],
+      "decisive": true,
+      "inspected_files": [
+        {
+          "path": "work/P2T11/sources/dorst2022.pdf",
+          "sha256": "0fbe24dc013a9858a167e680244a3defa3421114cdccf1dc9132776e5ac29069"
+        }
+      ],
+      "original_url": "https://www.pdcnet.org/collection-ng/fshow?id=tht_2022_0999_10_4_7&pdfname=tht_Dorst.pdf&file_type=pdf",
+      "version_identity": "PDC Online First 2022-10-21, ten visibly unnumbered PDF pages; use PDF-page locators, not purported printed 1–10 or issue-page offsets.",
+      "record_scope": "Attribution and conditional reasoning only; no new physical measurements or accepted premise truth.",
+      "review_status": "accepted",
+      "review_id": "P2R11"
+    },
+    {
+      "source_id": "S-P2T11-003",
+      "title": "The Fine-Tuning Design Argument: A Scientific Argument for the Existence of God",
+      "authors": [
+        "Robin Collins"
+      ],
+      "publication_date": "1998",
+      "url_or_identifier": "https://intelligentdesign.org/articles/the-fine-tuning-design-argument/",
+      "source_type": "original philosophical argument",
+      "access_status": "inspected_selected_original_version",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "§II Further Development, webL82–94",
+        "§II Support for Premise1, webL97–99",
+        "Appendixii.B–C, webL219–236; endnotes8/10, L295/297–298",
+        "Appendixiii, webL244–262; endnotes3/13, L289–290/302–305",
+        "Collins Appendixii–iii; White677–679; Weisbergms6–7; DorstPDC2/6–9; Sober78n11/87",
+        "Collins§IIpremise1; DorstPDC2DivineIntent; Sober87§9; v1CL-T10-010/019/020",
+        "Frozen release/v1/conclusion_gate_map.json, all12items; selected argument limits",
+        "WebAppendixL198–265; endnote2L288"
+      ],
+      "provenance_notes": "SectionsI–V, appendixi–iii, all13endnotes and references, webpage dated1998-09-01. Saved web rendered text; direct HTML download403. Exact1999 chapter identity/completeness remains unresolved.",
+      "related_case_ids": [],
+      "decisive": true,
+      "inspected_files": [
+        {
+          "path": "work/P2T11/source_open_01.json",
+          "sha256": "0484f6a8fc1748266927777cc26387dc1851b3d749fe0c9279e84a9102e63fd5"
+        },
+        {
+          "path": "work/P2T11/collins_appendix_full.json",
+          "sha256": "0d4af635541342f965ba1c053d1e677c96fd0984bdf3eeb3eb9016179534affc"
+        },
+        {
+          "path": "work/P2T11/collins_endnotes.json",
+          "sha256": "03543a8ad0be5998bf8b1f6d6ecfd38b8c4f3291a3de2a888101a58fbd47b9f1"
+        },
+        {
+          "path": "work/P2T11/collins_end_sections.json",
+          "sha256": "c33248badb974ec9564759acf21cf431b5aebf0ef5e311aa9c2944a0dc427456"
+        }
+      ],
+      "original_url": "https://intelligentdesign.org/articles/the-fine-tuning-design-argument/",
+      "version_identity": "Webpage dated 1998-09-01, saved rendered text; distinct from the incomplete 1999 teaching excerpt.",
+      "record_scope": "Attribution and conditional reasoning only; no new physical measurements or accepted premise truth.",
+      "possible_source_family_relation": {
+        "source_id": "S-T10-004",
+        "status": "Closely parallel related earlier webversion; do not deduplicate exact1999complete chapter without identity review."
+      },
+      "review_status": "accepted",
+      "review_id": "P2R11"
+    },
+    {
+      "source_id": "S-P2T11-005",
+      "title": "Stringency is not Evidence for Design",
+      "authors": [
+        "Randall McCutcheon [archive attribution; no full byline in supplied PDF]"
+      ],
+      "publication_date": "2026-05-16 [first archive metadata; v5 listed 2026-05-17, supplied version number unresolved]",
+      "url_or_identifier": "https://philarchive.org/rec/MCCSIN",
+      "source_type": "original philosophical/mathematical critique manuscript",
+      "access_status": "inspected_exact_user_supplied_manuscript_version_number_unresolved",
+      "retrieved_at": "2026-09-13",
+      "relevant_locators": [
+        "Printed/PDF pp. 1–4, all text and formulas; p. 4 references 1–3"
+      ],
+      "provenance_notes": "Exact supplied four-page manuscript, SHA256 b3fe30f9b36765da442bd62cf69a4fd362de8861b353212d31ce304b12d5d75f. Archive attributes title to Randall McCutcheon and lists v5 on 2026-05-17; supplied bytes have no explicit author byline or v5 tag. Compilation metadata is not authenticated publication/version identity.",
+      "related_case_ids": [],
+      "decisive": true,
+      "inspected_files": [
+        {
+          "path": "state/input_snapshots/user_sources/McCutcheon_Stringency_2026_user_supplied.pdf",
+          "sha256": "b3fe30f9b36765da442bd62cf69a4fd362de8861b353212d31ce304b12d5d75f"
+        }
+      ],
+      "original_url": "https://philarchive.org/rec/MCCSIN",
+      "version_identity": "Exact supplied four-page manuscript, SHA256 b3fe30f9b36765da442bd62cf69a4fd362de8861b353212d31ce304b12d5d75f. Archive attributes title to Randall McCutcheon and lists v5 on 2026-05-17; supplied bytes have no explicit author byline or v5 tag. Compilation metadata is not authenticated publication/version identity.",
+      "record_scope": "Exact-byte attribution and conditional model analysis only; numerical priors and cosmic applicability not measured.",
+      "bibliographic_anomalies": [
+        "Reference 1 prints Thought 11 (2002), 14–23 for Dorst and Dorst. Independently inspected PDC original verifies 2022; printed anomaly retained.",
+        "An email appears at the end, but no external contact was made."
+      ],
+      "review_status": "accepted",
+      "review_id": "P2R11"
+    },
+    {
+      "source_id": "S-T10-006",
+      "title": "Absence of evidence and evidence of absence: evidential transitivity in connection with fossils, fishing, fine-tuning, and firing squads",
+      "authors": [
+        "Elliott Sober"
+      ],
+      "publication_date": "2008-12-13",
+      "url_or_identifier": "https://link.springer.com/article/10.1007/s11098-008-9315-0",
+      "source_type": "original article publisher preview",
+      "access_status": "inspected_abstract_notes_references_only",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Abstract",
+        "Notes 11–19",
+        "References"
+      ],
+      "provenance_notes": "Issue 2009 volume 143 pp.63–90. Main body paywalled; abstract/notes establish access record and leads only. DOI10.1007/s11098-008-9315-0. No Sober substantive conclusion promoted from this partial view.",
+      "related_case_ids": [],
+      "decisive": false
+    },
+    {
+      "source_id": "S-T10-007",
+      "title": "The Argument from Divine Indifference",
+      "authors": [
+        "Jonathan Weisberg"
+      ],
+      "publication_date": "2012",
+      "url_or_identifier": "https://jonathanweisberg.org/pdf/TAfDI.pdf",
+      "source_type": "original author manuscript",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Author PDF pp1–2 initial life versus stringency",
+        "pp4–5 three assumptions and derived equalities",
+        "pp5–7 indifference objections and responses",
+        "p7 References"
+      ],
+      "provenance_notes": "Author landing page https://jonathanweisberg.org/publication/2012%20Divine%20Indifference/ identifies Analysis 2012,72(4):707–714. Inspected author manuscript is 7 pages, not journal pagination. White 2011 and Bradley reply mediated through this source, not independently inspected. Exact file link obtained from author site.",
+      "related_case_ids": [],
+      "decisive": true
+    }
+  ]
+}

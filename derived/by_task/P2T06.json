@@ -1,0 +1,693 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "P2T06",
+  "report": "work/P2T06/report.md",
+  "counts": {
+    "claims": 15,
+    "arguments": 3,
+    "cases": 0,
+    "sources": 3
+  },
+  "claims": [
+    {
+      "claim_id": "CL-P2T06-001",
+      "statement": "Korsgaard grounds practical authority in reflective agency without treating reflective self-conception as proof of a metaphysical self.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 92–104, §§3.2–3.3; especially p. 100"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "Philosophical account of deliberation, not an independently measured model of consciousness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-002",
+      "statement": "Korsgaard links reasons and obligations to practical identity while distinguishing value from right action and authoritative requirements.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 101–105, §§3.3.1–3.3.4; pp. 111–114, §§3.3.6–3.4.1"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "A normative identity is not merely a descriptive label; particular reasons/duties require further content."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-003",
+      "statement": "Korsgaard distinguishes formal universalization from a moral law ranging over rational beings.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 98–100, §§3.2.3–3.2.4"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "The first argument does not by itself establish the interpersonal domain or moral content."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-004",
+      "statement": "Korsgaard argues that valuing anything requires valuing humanity, with the interpersonal extension requiring an additional argument.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 120–125, §§3.4.7–3.4.10"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "Transcendental inference depends on the asserted necessity of practical identity and the value of its source."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-005",
+      "statement": "Korsgaard uses the shareability of reasons to defend obligations to others.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 132–145, §§4.2.1–4.2.12"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "Public intelligibility, shared deliberation and common normative authority must not be conflated; Nagel disputes the inference."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-006",
+      "statement": "Korsgaard extends moral standing to conscious animals without making them reflective moral agents.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 149–157, §§4.3.6–4.3.13"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "Pain, animal cognition and biological examples are not independently verified empirical evidence in this packet."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-007",
+      "statement": "Korsgaard denies that bare reflective endorsement makes every action right; psychological explanation alone is not her criterion of justification.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 160–161, §§4.4.1; compare reply pp. 251–254"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "The standard of sufficiently complete reflection remains substantive, not certified by description."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-008",
+      "statement": "Korsgaard permits conflicts between obligations and does not disprove complete practical normative skepticism.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 125–128, §§3.5.1–3.5.2; pp. 161–164, §4.4.2"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "Categorical obligation is not the same as overriding every other requirement; no psychological or clinical conclusion follows."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-009",
+      "statement": "Nagel disputes that free self-determination must have law-like form merely because it is causation.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-002",
+          "locator": "pp. 201–203"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "He offers an external reflective standpoint as an alternative explanation of generality; its warrant is also contested."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-010",
+      "statement": "Nagel argues that reasons ground practical identity rather than derive from it, and that egoism need not violate publicity.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-002",
+          "locator": "pp. 204–208"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "His realism is a substantive evaluative rival, not a proof by rejection of Korsgaard; his account need not posit special moral objects."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-011",
+      "statement": "Korsgaard replies that general commitments constitute willing; she explicitly limits the new argument to formal universality.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-003",
+          "locator": "pp. 225–233, §1; pp. 235–236, §2"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "At p. 233 she adds no new defense of humanity-wide scope or publicity; earlier arguments remain essential."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-012",
+      "statement": "Korsgaard distinguishes an action’s incentive from its endorsement and denies that identity-based motivation means seeking a reward.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-003",
+          "locator": "pp. 242–249, §4"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "She retains the normative role of self-conception; this does not settle Nagel’s disagreement about the direction of justification."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-013",
+      "statement": "Korsgaard locates justificatory work in endorsement and argues that fuller reflection supplies a deeper moral demand than an immoral role.",
+      "claim_type": "philosophical_attribution",
+      "source_ids": [
+        "S-P2T06-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-003",
+          "locator": "pp. 251–258, §5; especially pp. 252, 254, 257–258"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [],
+      "record_reliability": "Printed original passage directly inspected; teaching-copy provenance noted",
+      "inference_strength": "Attribution only; premise truth remains contested",
+      "limitations": [
+        "The Mafioso objection is inspected as attributed and answered here; Cohen’s original chapter is not independently inspected. She retains a sense of nonmoral obligation under incomplete reflection."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-014",
+      "statement": "The selected reply answers a formal-agency objection without independently settling every bridge from agency to impartial moral authority.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [
+        "S-P2T06-001",
+        "S-P2T06-002",
+        "S-P2T06-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 98–100, 120–125, 132–145, 160–164",
+          "role": "Premises of project inference"
+        },
+        {
+          "source_id": "S-P2T06-002",
+          "locator": "pp. 201–208",
+          "role": "Premises of project inference"
+        },
+        {
+          "source_id": "S-P2T06-003",
+          "locator": "pp. 219–233, 242–258",
+          "role": "Premises of project inference"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T06-001",
+        "CL-P2T06-002",
+        "CL-P2T06-003",
+        "CL-P2T06-004",
+        "CL-P2T06-005",
+        "CL-P2T06-006",
+        "CL-P2T06-007",
+        "CL-P2T06-008",
+        "CL-P2T06-009",
+        "CL-P2T06-010",
+        "CL-P2T06-011",
+        "CL-P2T06-012",
+        "CL-P2T06-013"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Evaluative reasons independently justify self-conceptions, as Nagel proposes.",
+        "Agency may support formal or agent-relative reasons without the full interpersonal moral conclusion."
+      ],
+      "record_reliability": "Project inference traceable to inspected premises",
+      "inference_strength": "Conditional bounded comparison; no component-confidence upgrade",
+      "limitations": [
+        "Neither the critic’s challenge nor the reply’s limits establish complete failure; reciprocal source dependence is not independent confirmation."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "claim_id": "CL-P2T06-015",
+      "statement": "This developed rational grounding proposal narrows the v1 source gap but does not establish a fundamental conscious foundation or its moral authority.",
+      "claim_type": "philosophical_inference",
+      "source_ids": [
+        "S-P2T06-001",
+        "S-P2T06-002",
+        "S-P2T06-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-P2T06-001",
+          "locator": "pp. 98–100, 120–125, 132–145, 160–164",
+          "role": "Premises of project inference"
+        },
+        {
+          "source_id": "S-P2T06-002",
+          "locator": "pp. 201–208",
+          "role": "Premises of project inference"
+        },
+        {
+          "source_id": "S-P2T06-003",
+          "locator": "pp. 219–233, 242–258",
+          "role": "Premises of project inference"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "DG-P2T06-SOURCES-EXCHANGE",
+      "supporting_claim_ids": [
+        "CL-P2T06-001",
+        "CL-P2T06-002",
+        "CL-P2T06-003",
+        "CL-P2T06-004",
+        "CL-P2T06-005",
+        "CL-P2T06-006",
+        "CL-P2T06-007",
+        "CL-P2T06-008",
+        "CL-P2T06-009",
+        "CL-P2T06-010",
+        "CL-P2T06-011",
+        "CL-P2T06-012",
+        "CL-P2T06-013"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Evaluative reasons independently justify self-conceptions, as Nagel proposes.",
+        "Agency may support formal or agent-relative reasons without the full interpersonal moral conclusion."
+      ],
+      "record_reliability": "Project inference traceable to inspected premises",
+      "inference_strength": "Conditional bounded comparison; no component-confidence upgrade",
+      "limitations": [
+        "No new evidence of a universal subject, survival, timelessness, preservation, cosmic intention or foundational goodness."
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-P2T06-001",
+      "name": "Reflective agency and the proposed authority of humanity",
+      "position": "Selected Kantian constructivism",
+      "premises": [
+        "CL-P2T06-001",
+        "CL-P2T06-002",
+        "CL-P2T06-003",
+        "CL-P2T06-004",
+        "CL-P2T06-005"
+      ],
+      "bridge_principles": [
+        "Acting reflectively requires a normative practical identity.",
+        "The value of contingent identities depends on valuing humanity as their necessary source.",
+        "Reasons are inherently shareable in a way that supports interpersonal demands."
+      ],
+      "conclusion": "If these bridges hold, reflective agents owe moral obligations that do not depend merely on contingent desires.",
+      "source_ids": [
+        "S-P2T06-001"
+      ],
+      "claim_ids": [
+        "CL-P2T06-001",
+        "CL-P2T06-002",
+        "CL-P2T06-003",
+        "CL-P2T06-004",
+        "CL-P2T06-005",
+        "CL-P2T06-006",
+        "CL-P2T06-007",
+        "CL-P2T06-008"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "A need for some reason or self-conception does not yet establish an impartial moral reason; public intelligibility may leave agent-relative authority intact.",
+      "strongest_reply": "The proposed result is not an inference from private egoistic reasons to public ones; it challenges the assumed privacy and reconstructs principles constitutive of reflective agency.",
+      "unresolved_issues": [
+        "Necessity of normative identity for action",
+        "Value of a condition versus condition of valuing",
+        "Humanity-wide domain and binding publicity",
+        "Concrete duty content, conflict and complete skepticism"
+      ],
+      "objection_types": [
+        "premise truth",
+        "validity/bridge adequacy",
+        "explanatory scope"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "argument_id": "A-P2T06-002",
+      "name": "Nagel’s direct challenge to law and identity grounding",
+      "position": "Realist rival within the selected exchange",
+      "premises": [
+        "CL-P2T06-009",
+        "CL-P2T06-010"
+      ],
+      "bridge_principles": [
+        "Reflection can reveal evaluative reasons rather than create them.",
+        "A general rule can remain egoistic; regularity alone does not establish causal agency."
+      ],
+      "conclusion": "The constructive account needs an additional justification of its law-like and interpersonal requirements, and may reverse the direction of normative explanation.",
+      "source_ids": [
+        "S-P2T06-002",
+        "S-P2T06-003"
+      ],
+      "claim_ids": [
+        "CL-P2T06-009",
+        "CL-P2T06-010",
+        "CL-P2T06-011",
+        "CL-P2T06-012"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Treating reflection as an already impersonal standpoint may assume the generality it seeks to justify; locating reasons in a standpoint does not alone settle whether they are discovered or constructed.",
+      "strongest_reply": "Evaluate the actual reasons for treating persons’ interests as significant; moral concern need not be replaced by a self-image or payoff.",
+      "unresolved_issues": [
+        "Independent warrant for the evaluative judgment",
+        "Status of the reflective standpoint",
+        "No comprehensive non-natural realism assessment"
+      ],
+      "objection_types": [
+        "premise truth",
+        "explanatory direction"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "argument_id": "A-P2T06-003",
+      "name": "The constitutive reply and its explicit scope",
+      "position": "Korsgaard’s actual response to Nagel",
+      "premises": [
+        "CL-P2T06-011",
+        "CL-P2T06-012",
+        "CL-P2T06-013"
+      ],
+      "bridge_principles": [
+        "Distinguishing willing from a succession of impulses requires commitments across relevantly similar possible occasions.",
+        "Endorsing a reason from a practical identity need not replace its other-directed content.",
+        "The rules of reflection constrain endorsement rather than making any choice correct."
+      ],
+      "conclusion": "The reply offers formal universality and a response to reward-based interpretations; its full moral conclusion still depends on humanity and publicity arguments.",
+      "source_ids": [
+        "S-P2T06-003",
+        "S-P2T06-001",
+        "S-P2T06-002"
+      ],
+      "claim_ids": [
+        "CL-P2T06-003",
+        "CL-P2T06-004",
+        "CL-P2T06-005",
+        "CL-P2T06-010",
+        "CL-P2T06-011",
+        "CL-P2T06-012",
+        "CL-P2T06-013",
+        "CL-P2T06-014"
+      ],
+      "dependency_argument_ids": [
+        "A-P2T06-001",
+        "A-P2T06-002"
+      ],
+      "strongest_objection": "Constitutive agency rules need independent defense; even granted general commitments, the all-persons domain and binding force of another’s reasons remain open.",
+      "strongest_reply": "A rule internal to an activity need not be an arbitrary external command; the theory distinguishes genuine choice from impulse while retaining the content of concern for others.",
+      "unresolved_issues": [
+        "Formal universality is not full moral universalism",
+        "Fully reflective endorsement and partial nonmoral obligations",
+        "Complete skepticism expressly left open"
+      ],
+      "objection_types": [
+        "premise truth",
+        "scope",
+        "authority/grounding"
+      ],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-P2T06-001",
+      "title": "The authority of reflection; The origin of value and the scope of obligation",
+      "authors": [
+        "Christine M. Korsgaard"
+      ],
+      "publication_date": "1996",
+      "url_or_identifier": "https://doi.org/10.1017/CBO9780511554476",
+      "chapter_dois": [
+        "10.1017/CBO9780511554476.005",
+        "10.1017/CBO9780511554476.006"
+      ],
+      "source_type": "Original philosophical contribution in an edited volume",
+      "access_status": "inspected_selected_original_chapters",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 92–104, §§3.2–3.3",
+        "pp. 111–125, §§3.3.6–3.4.10",
+        "pp. 125–130, §§3.5–3.6",
+        "pp. 132–145, §4.2",
+        "pp. 149–157, §§4.3.6–4.3.13",
+        "pp. 160–166, §§4.4–4.5"
+      ],
+      "provenance_notes": "In The Sources of Normativity, edited by Onora O’Neill, Cambridge University Press, 1996. Downloaded teaching copy identifies fourteenth printing 2010, ISBN 978-0-521-55960-7. Printed page n is zero-based PDF page n+15. Printed body text/footnotes used; marginal teaching annotations and highlighting are not author text. No whole-book inspection claimed.",
+      "inspected_scope": "Chapters 3–4, printed pp. 90–166",
+      "local_path": "work/P2T06/Sources_of_Normativity_1996_2010printing.pdf",
+      "inspected_url": "https://notebook.colinmclear.net/ox-hugo/korsgaard1996_the_sources_of_normativity.pdf",
+      "sha256": "13f86d06ba1b9bae33319dc047dd6b018951cd067b4aed23b62856841cc42226",
+      "shared_volume_id": "VOL-P2T06-001",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "source_id": "S-P2T06-002",
+      "title": "Universality and the reflective self",
+      "authors": [
+        "Thomas Nagel"
+      ],
+      "publication_date": "1996",
+      "url_or_identifier": "https://doi.org/10.1017/CBO9780511554476.009",
+      "chapter_dois": [
+        "10.1017/CBO9780511554476.009"
+      ],
+      "source_type": "Original philosophical contribution in an edited volume",
+      "access_status": "inspected_selected_original_chapters",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 201–203, freedom/generality objection",
+        "pp. 204–208, identity, realism and egoism"
+      ],
+      "provenance_notes": "In The Sources of Normativity, edited by Onora O’Neill, Cambridge University Press, 1996. Downloaded teaching copy identifies fourteenth printing 2010, ISBN 978-0-521-55960-7. Printed page n is zero-based PDF page n+15. Printed body text/footnotes used; marginal teaching annotations and highlighting are not author text. No whole-book inspection claimed.",
+      "inspected_scope": "Chapter 7, printed pp. 200–209",
+      "local_path": "work/P2T06/Sources_of_Normativity_1996_2010printing.pdf",
+      "inspected_url": "https://notebook.colinmclear.net/ox-hugo/korsgaard1996_the_sources_of_normativity.pdf",
+      "sha256": "13f86d06ba1b9bae33319dc047dd6b018951cd067b4aed23b62856841cc42226",
+      "shared_volume_id": "VOL-P2T06-001",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    },
+    {
+      "source_id": "S-P2T06-003",
+      "title": "Reply",
+      "authors": [
+        "Christine M. Korsgaard"
+      ],
+      "publication_date": "1996",
+      "url_or_identifier": "https://doi.org/10.1017/CBO9780511554476.011",
+      "chapter_dois": [
+        "10.1017/CBO9780511554476.011"
+      ],
+      "source_type": "Original philosophical contribution in an edited volume",
+      "access_status": "inspected_selected_original_chapters",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "pp. 219–233, §1: universalizability and explicit scope limit",
+        "pp. 234–238, §2: constitutive principles",
+        "pp. 242–251, §4: self-conception and egoism",
+        "pp. 251–258, §5: explanation and justification"
+      ],
+      "provenance_notes": "In The Sources of Normativity, edited by Onora O’Neill, Cambridge University Press, 1996. Downloaded teaching copy identifies fourteenth printing 2010, ISBN 978-0-521-55960-7. Printed page n is zero-based PDF page n+15. Printed body text/footnotes used; marginal teaching annotations and highlighting are not author text. No whole-book inspection claimed.",
+      "inspected_scope": "Chapter 9, printed pp. 219–258",
+      "local_path": "work/P2T06/Sources_of_Normativity_1996_2010printing.pdf",
+      "inspected_url": "https://notebook.colinmclear.net/ox-hugo/korsgaard1996_the_sources_of_normativity.pdf",
+      "sha256": "13f86d06ba1b9bae33319dc047dd6b018951cd067b4aed23b62856841cc42226",
+      "shared_volume_id": "VOL-P2T06-001",
+      "related_case_ids": [],
+      "review_status": "accepted",
+      "review_id": "R-P2R06"
+    }
+  ]
+}

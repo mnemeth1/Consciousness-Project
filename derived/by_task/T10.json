@@ -1,0 +1,990 @@
+{
+  "note": "Generated non-canonical view; canonical records live in records/*.json. Rebuild: node scripts/derived/build.cjs",
+  "task": "T10",
+  "report": "work/T10/report.md",
+  "counts": {
+    "claims": 20,
+    "arguments": 5,
+    "cases": 0,
+    "sources": 7
+  },
+  "claims": [
+    {
+      "claim_id": "CL-T10-001",
+      "statement": "Lennox argues that explaining a mechanism does not exclude an agent, illustrated by Ford and the engine.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-001",
+          "locator": "Newton/Ford paragraphs"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lennox_agency",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Reliable attribution, not proof of a cosmic agent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-002",
+      "statement": "Lennox advances intelligibility and sophisticated laws as positive reasons for a creator and challenges naturalism’s warrant for reason.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-001",
+          "locator": "Opening intelligibility paragraphs; mechanisms/fine-tuning paragraph"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lennox_intelligibility",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No historical or evolutionary premise independently verified here."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-003",
+      "statement": "Lennox describes natural laws as regularities and denies that such laws alone rule out supernatural agency.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-001"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-001",
+          "locator": "Paragraph beginning The laws of nature describe"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Lennox_laws",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "This is his philosophical interpretation, not a proof of miracles or the sole ontology of laws."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-004",
+      "statement": "Leibniz states a PSR for true or existent facts and distinguishes necessary truths from contingent truths.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-002",
+          "locator": "§§31–36"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "PSR",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Bennett modernization; universal PSR truth remains disputed."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-005",
+      "statement": "Leibniz argues that even an infinite sequence of contingencies lacks its ultimate reason internally and concludes to a necessary substance.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-002",
+          "locator": "§§37–39"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "PSR",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "External explanation, necessity and concrete-substance steps require defense; not a temporal-beginning argument."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-006",
+      "statement": "Leibniz separately attributes unity, perfection, understanding and will to the foundation, with choice governed by the best.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-002"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-002",
+          "locator": "§§39–48,53–55"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Leibniz_bridge",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "These additional commitments are not established merely by calling a foundation necessary."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-007",
+      "statement": "In Hume’s Part IX, Cleanthes objects to Demea through conceivability, a possible necessary material universe, and explanation of parts; Philo adds an analogy with hidden necessity.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-003",
+          "locator": "Part IX pp38–40"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Hume_contingency",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Speaker attribution; the conceivability premise and causal-priority conception are themselves contestable."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-008",
+      "statement": "Philo challenges extrapolation from human artifacts and asks what a mental plan explains; Cleanthes replies that explaining a cause does not require explaining its cause.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-003",
+          "locator": "Parts II,IV,V; especially Part IV pp21–23"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Hume_design",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Dialogue positions; Part XII complicates a wholly negative reading. No modern cosmological result inferred."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-009",
+      "statement": "Collins presents fine-tuning as comparative support over an atheistic single-universe hypothesis, explicitly short of proof or an all-things-considered verdict.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-004",
+          "locator": "§II pp4–6"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Fine_tuning_expectations",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Abridged original; required probability appendix absent."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-010",
+      "statement": "Collins motivates life under theism through divine goodness and the value of intelligent conscious beings.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-004",
+          "locator": "§II Support for premise1,p6"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Designer_preferences",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Goodness and life-value are premises; cannot be counted again as independently established conclusions."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-011",
+      "statement": "Collins distinguishes epistemic probability from metaphysical necessity when answering the deeper-law objection.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-004",
+          "locator": "§III objection1,p7; endnote3,p17"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Fine_tuning_measure",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "No measure or physical parameter estimate independently established."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-012",
+      "statement": "Collins answers anthropic dismissal by treating our existence as evidence and says unexplained designer complexity need not cancel comparative likelihood support.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-004"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-004",
+          "locator": "§III objections3–4,pp8–9"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Fine_tuning_expectations",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "These responses do not settle selection, prior probability or the truth of likelihood premises."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-013",
+      "statement": "Weisberg distinguishes old knowledge of life from newly learned stringency and questions the extra evidential contribution of stringency.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author manuscript pp1–2"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Weisberg_stringency",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Not a claim that the initial existence of life cannot favor design."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-014",
+      "statement": "Weisberg derives screening-off from matched divine and blind indifference distributions, with divine intent used in his larger argument.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author manuscript pp4–5"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Weisberg_indifference",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Conditional model, not a measure-free refutation of all design hypotheses."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-015",
+      "statement": "Weisberg allows initial life evidence to support design and acknowledges problems involving uniformity, unbounded spaces and parameterization.",
+      "claim_type": "philosophical_premise",
+      "source_ids": [
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author manuscript pp5–7"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "Weisberg_indifference",
+      "supporting_claim_ids": [],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Author attribution does not establish the premise’s metaphysical truth."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "unresolved",
+      "limitations": [
+        "Replies by White and Bradley are mediated; later replies not independently inspected."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-016",
+      "statement": "Agency compatibility does not itself favor agency; intelligibility can favor a rational creator if independently motivated comparative expectations differ.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-001",
+        "S-T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-001",
+          "locator": "Intelligibility and Ford paragraphs"
+        },
+        {
+          "source_id": "S-T10-003",
+          "locator": "Parts II,IV,V"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "T10_agency_reconstruction",
+      "supporting_claim_ids": [
+        "CL-T10-001",
+        "CL-T10-002",
+        "CL-T10-003",
+        "CL-T10-008"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Impersonal necessary structure; selection-and-learning proposal with empirical adequacy untested here."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Our reconstruction, not a direct quotation. No equation equates nonintentional origins with unreliable reason."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-017",
+      "statement": "A restricted PSR covering contingent totality, noncircular external explanation and a concrete-ground premise conditionally yield necessary concrete reality; mentality needs further premises.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-002",
+        "S-T10-003"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-002",
+          "locator": "§§31–48,53–55"
+        },
+        {
+          "source_id": "S-T10-003",
+          "locator": "Part IX"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "T10_PSR_reconstruction",
+      "supporting_claim_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-007"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Brute totality; necessary impersonal ground; rejection of concrete-ground premise."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Our explicit reconstruction; totality contingency not inferred merely from contingent parts. Modal necessity is not temporal or causal priority."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-018",
+      "statement": "Fine-tuning can supply conditional qualitative comparative support without a numerical posterior; sensitivity alone identifies neither a measure nor designer preferences.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-004",
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-004",
+          "locator": "§II;§III;endnotes2–3"
+        },
+        {
+          "source_id": "S-T10-007",
+          "locator": "Author manuscript pp1–7"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "T10_tuning_reconstruction",
+      "supporting_claim_ids": [
+        "CL-T10-009",
+        "CL-T10-010",
+        "CL-T10-011",
+        "CL-T10-012",
+        "CL-T10-013",
+        "CL-T10-014",
+        "CL-T10-015"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Independently motivated deeper constraint or multiverse/selection model; matched conditional distributions."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "contested",
+      "limitations": [
+        "Our comparison. Missing numerical inputs do not logically imply no evidential force. Correct Bayes identity is ours; excerpt endnote2 is malformed."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-019",
+      "statement": "The inspected existence/design routes do not by themselves establish universal subjecthood, human brain independence, survival, timelessness, preservation, goodness or moral authority.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-001",
+        "S-T10-002",
+        "S-T10-003",
+        "S-T10-004",
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-001",
+          "locator": "Relevant passages above"
+        },
+        {
+          "source_id": "S-T10-002",
+          "locator": "§§31–55"
+        },
+        {
+          "source_id": "S-T10-003",
+          "locator": "Parts IV,V,IX"
+        },
+        {
+          "source_id": "S-T10-004",
+          "locator": "§II–IV"
+        },
+        {
+          "source_id": "S-T10-007",
+          "locator": "pp1–7"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "T10_component_boundaries",
+      "supporting_claim_ids": [
+        "CL-T10-016",
+        "CL-T10-017",
+        "CL-T10-018"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "Additional independently defended premises may support stronger packages."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Our entailment assessment under T01 definitions; not a claim that no evidence for these components exists anywhere."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "claim_id": "CL-T10-020",
+      "statement": "The cumulative use of these arguments must retain shared order, PSR and agent-preference dependencies rather than multiply them as independent observations.",
+      "claim_type": "inference",
+      "source_ids": [
+        "S-T10-001",
+        "S-T10-002",
+        "S-T10-004",
+        "S-T10-007"
+      ],
+      "source_locators": [
+        {
+          "source_id": "S-T10-001",
+          "locator": "Intelligibility/Ford paragraphs"
+        },
+        {
+          "source_id": "S-T10-002",
+          "locator": "§§31–55"
+        },
+        {
+          "source_id": "S-T10-004",
+          "locator": "§II–IV"
+        },
+        {
+          "source_id": "S-T10-007",
+          "locator": "pp1–7"
+        }
+      ],
+      "case_ids": [],
+      "dependency_group": "T10_dependence",
+      "supporting_claim_ids": [
+        "CL-T10-016",
+        "CL-T10-017",
+        "CL-T10-018",
+        "CL-T10-019"
+      ],
+      "conflicting_claim_ids": [],
+      "alternative_explanations": [
+        "A later dependence model could identify genuinely distinct conditional contributions."
+      ],
+      "record_reliability": "supported",
+      "inference_strength": "supported",
+      "limitations": [
+        "Our method assessment. No independent empirical observations added by author agreement or repeated illustrations."
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    }
+  ],
+  "arguments": [
+    {
+      "argument_id": "A-T10-001",
+      "name": "Mechanism and agency compatibility",
+      "position": "conditional explanatory compatibility",
+      "premises": [
+        "A mechanism explains how a process operates.",
+        "An agent explanation can concern why that process was arranged."
+      ],
+      "bridge_principles": [
+        "B-T10-01: Distinct explanatory relations can coexist if their substantive causal claims do not conflict."
+      ],
+      "conclusion": "A mechanism alone does not exclude agency; positive support requires an additional comparison.",
+      "source_ids": [
+        "S-T10-001",
+        "S-T10-003"
+      ],
+      "claim_ids": [
+        "CL-T10-001",
+        "CL-T10-003",
+        "CL-T10-008",
+        "CL-T10-016"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Observed human artifact origins do not establish cosmic agency.",
+      "strongest_reply": "Unobserved causes can be inferred; require a discriminatory reason rather than direct observation as an absolute rule.",
+      "unresolved_issues": [
+        "Closure assumptions for specific models",
+        "Positive evidence for agency"
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "argument_id": "A-T10-002",
+      "name": "Intelligibility and rational origin",
+      "position": "conditional abductive support",
+      "premises": [
+        "Discoverable mathematical order is the explanandum.",
+        "A specified rational creator has independently motivated reasons to enable inquiry.",
+        "The proposed order is less expected under a defined impersonal comparison."
+      ],
+      "bridge_principles": [
+        "B-T10-02: Better independently motivated expectations can supply abductive support."
+      ],
+      "conclusion": "If these comparisons hold, intelligibility favors the specified rational-origin model.",
+      "source_ids": [
+        "S-T10-001",
+        "S-T10-003"
+      ],
+      "claim_ids": [
+        "CL-T10-002",
+        "CL-T10-003",
+        "CL-T10-008",
+        "CL-T10-016",
+        "CL-T10-020"
+      ],
+      "dependency_argument_ids": [
+        "A-T10-001"
+      ],
+      "strongest_objection": "Agent preferences and contrast class may be fitted after observing the world; impersonal structure and learning may also explain fit.",
+      "strongest_reply": "A common rational source may unify broad mathematical order and our capacity to grasp it beyond local adaptation.",
+      "unresolved_issues": [
+        "Actual comparative expectations",
+        "Limits of human analogy",
+        "Empirical cognitive alternatives not tested",
+        "Discovery versus intrinsic law ontology"
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "argument_id": "A-T10-003",
+      "name": "Contingent reality and necessary concrete ground",
+      "position": "conditional deduction",
+      "premises": [
+        "Contingent concrete totality is a legitimate contingent explanandum.",
+        "Every such contingent fact has an adequate explanation.",
+        "A complete explanation cannot be wholly internal, circular or another member of the contingent totality.",
+        "Concrete reality ultimately needs a concrete explanatory ground."
+      ],
+      "bridge_principles": [
+        "B-T10-03: PSR extends to the specified contingent totality.",
+        "B-T10-04: External adequate explanation plus concrete-ground requirement excludes a wholly contingent or merely abstract ultimate basis."
+      ],
+      "conclusion": "The ultimate explanatory basis includes necessary concrete reality; mind does not yet follow.",
+      "source_ids": [
+        "S-T10-002",
+        "S-T10-003"
+      ],
+      "claim_ids": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-007",
+        "CL-T10-017"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Local explanations may exhaust the legitimate demand; necessary impersonal reality remains possible.",
+      "strongest_reply": "Local causal links can leave why the totality obtains unanswered; exemptions from PSR need justification.",
+      "unresolved_issues": [
+        "Totality contingency",
+        "PSR scope",
+        "Abstract versus concrete grounding",
+        "Necessity-to-intellect",
+        "Nonnecessitating explanation and modal collapse"
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "argument_id": "A-T10-004",
+      "name": "Fine-tuning comparative support",
+      "position": "conditional likelihood/abductive support",
+      "premises": [
+        "E is specified life-permitting evidence.",
+        "D independently specifies an agent with reasons to produce embodied conscious life.",
+        "N specifies an impersonal alternative with less expectation of E.",
+        "Common background B and observation selection are handled consistently."
+      ],
+      "bridge_principles": [
+        "B-T10-05: A larger likelihood for E under D than under N comparatively supports D; posterior odds also depend on prior odds."
+      ],
+      "conclusion": "E conditionally favors D over N; this alone establishes neither an overall posterior nor the full conscious-foundation package.",
+      "source_ids": [
+        "S-T10-004",
+        "S-T10-007"
+      ],
+      "claim_ids": [
+        "CL-T10-009",
+        "CL-T10-010",
+        "CL-T10-011",
+        "CL-T10-012",
+        "CL-T10-013",
+        "CL-T10-014",
+        "CL-T10-015",
+        "CL-T10-018",
+        "CL-T10-019",
+        "CL-T10-020"
+      ],
+      "dependency_argument_ids": [],
+      "strongest_objection": "Sensitivity does not fix a probability measure; a designer’s choice of laws and the evidential role of life are underdetermined.",
+      "strongest_reply": "Qualitative orderings can matter without exact numbers; initial life may be evidence, and unexplained cause complexity need not erase a likelihood advantage.",
+      "unresolved_issues": [
+        "Physics not independently audited",
+        "Measure/parameterization/correlations",
+        "Agent preferences",
+        "Multiverse and deeper-law comparisons",
+        "Old evidence and selection",
+        "Missing Collins appendix"
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    },
+    {
+      "argument_id": "A-T10-005",
+      "name": "Incremental stringency and divine indifference",
+      "position": "conditional objection to a class of design arguments",
+      "premises": [
+        "Life O is already in background.",
+        "Design and nondesign induce the same distribution over O-compatible possibilities after conditioning."
+      ],
+      "bridge_principles": [
+        "B-T10-06: Matching conditional distributions assign equal probability to the same stringency event."
+      ],
+      "conclusion": "Under the matching assumptions, stringency adds no further design support once life is known.",
+      "source_ids": [
+        "S-T10-007"
+      ],
+      "claim_ids": [
+        "CL-T10-013",
+        "CL-T10-014",
+        "CL-T10-015",
+        "CL-T10-018"
+      ],
+      "dependency_argument_ids": [
+        "A-T10-004"
+      ],
+      "strongest_objection": "Divine and impersonal processes may justify different measures; ignorance alone is not uniformity.",
+      "strongest_reply": "An argument relying on indifference must justify its asymmetric application; imposing matching distributions is an internal challenge, not an empirical law.",
+      "unresolved_issues": [
+        "Independently motivated asymmetric preferences",
+        "Choice of possibility space",
+        "Full original White/Bradley exchange and later replies"
+      ],
+      "review_status": "accepted",
+      "review_id": "R10"
+    }
+  ],
+  "cases": [],
+  "sources": [
+    {
+      "source_id": "S-T10-001",
+      "title": "Science and Faith: Friendly Allies, Not Hostile Enemies",
+      "authors": [
+        "John Lennox"
+      ],
+      "publication_date": "2015-12-06",
+      "url_or_identifier": "https://www.cslewisinstitute.org/resources/science-and-faith-friendly-allies-not-hostile-enemies/",
+      "source_type": "original authored essay",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Opening paragraphs on intelligibility",
+        "Paragraphs beginning Newton could see; God no more conflicts; The existence of mechanisms",
+        "Paragraph beginning The laws of nature describe",
+        "Notes 1–4"
+      ],
+      "provenance_notes": "Full HTML accessible. Direct supplied plan lead. Christian apologetic venue. Quoted historical statements, science-history claims and resurrection case not independently audited.",
+      "related_case_ids": [],
+      "decisive": true
+    },
+    {
+      "source_id": "S-T10-002",
+      "title": "The Principles of Philosophy known as Monadology",
+      "authors": [
+        "G. W. Leibniz"
+      ],
+      "publication_date": "1714",
+      "url_or_identifier": "https://www.earlymoderntexts.com/assets/pdfs/leibniz1714b.pdf",
+      "source_type": "original philosophical text in English modernization",
+      "access_status": "inspected_relevant_sections",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "§§31–39",
+        "§§40–48",
+        "§§53–55",
+        "Front matter editorial conventions"
+      ],
+      "provenance_notes": "Jonathan Bennett English modernization, first launched 2004, copyright 2017; original French not compared. Marked editorial additions and omissions are not silently attributed to Leibniz. Grounded classic text endpoint.",
+      "related_case_ids": [],
+      "decisive": true
+    },
+    {
+      "source_id": "S-T10-003",
+      "title": "Dialogues Concerning Natural Religion",
+      "authors": [
+        "David Hume"
+      ],
+      "publication_date": "1779",
+      "url_or_identifier": "https://www.earlymoderntexts.com/assets/pdfs/hume1779.pdf",
+      "source_type": "original philosophical dialogue in English modernization",
+      "access_status": "inspected_relevant_sections",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Part II pp10–12",
+        "Part IV pp20–23",
+        "Part V pp24–26",
+        "Part VII pp30–32",
+        "Part IX pp38–40",
+        "Part XII pp54–56",
+        "Front matter editorial conventions"
+      ],
+      "provenance_notes": "Jonathan Bennett modernization, launched July 2004, last amended November 2007, copyright 2017; additions and omissions marked. Distinguish Philo, Cleanthes and Demea; no claim that one speaker uniformly expresses Hume’s settled view.",
+      "related_case_ids": [],
+      "decisive": true
+    },
+    {
+      "source_id": "S-T10-004",
+      "title": "The Fine-Tuning Design Argument",
+      "authors": [
+        "Robin Collins"
+      ],
+      "publication_date": "1999",
+      "url_or_identifier": "https://rintintin.colorado.edu/~vancecd/phil201/Collins.pdf",
+      "source_type": "original chapter in abridged teaching reproduction",
+      "access_status": "inspected_partial_original",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "§II pp4–6",
+        "§III objections 1–4 pp7–9",
+        "§IV pp10–13",
+        "References pp15–16",
+        "Endnotes p17"
+      ],
+      "provenance_notes": "From Reason for the Hope Within, per first page. Excerpt has ellipses and no referenced appendix; production date unknown. Endnote1 discloses Discovery Institute grant fiscal 1997–1998. No numerical physics or current cosmology established. Printed p17 formula visually inspected; missing division preserved as reproduction issue.",
+      "related_case_ids": [],
+      "decisive": true
+    },
+    {
+      "source_id": "S-T10-005",
+      "title": "Fine-Tuning",
+      "authors": [
+        "Simon Friederich"
+      ],
+      "publication_date": "2026-02-26",
+      "url_or_identifier": "https://plato.stanford.edu/entries/fine-tuning/",
+      "source_type": "secondary scholarly navigation/context",
+      "access_status": "inspected_context_and_bibliography",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Bibliography Sober2003/2009, Weisberg2005",
+        "Sections3.2–3.4 discovery only"
+      ],
+      "provenance_notes": "First published2017; revision date displayed2026-02-26. Used to discover originals. No derivative technical physics or argument attribution accepted as primary evidence.",
+      "related_case_ids": [],
+      "decisive": false
+    },
+    {
+      "source_id": "S-T10-006",
+      "title": "Absence of evidence and evidence of absence: evidential transitivity in connection with fossils, fishing, fine-tuning, and firing squads",
+      "authors": [
+        "Elliott Sober"
+      ],
+      "publication_date": "2008-12-13",
+      "url_or_identifier": "https://link.springer.com/article/10.1007/s11098-008-9315-0",
+      "source_type": "original article publisher preview",
+      "access_status": "inspected_abstract_notes_references_only",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Abstract",
+        "Notes 11–19",
+        "References"
+      ],
+      "provenance_notes": "Issue 2009 volume 143 pp.63–90. Main body paywalled; abstract/notes establish access record and leads only. DOI10.1007/s11098-008-9315-0. No Sober substantive conclusion promoted from this partial view.",
+      "related_case_ids": [],
+      "decisive": false
+    },
+    {
+      "source_id": "S-T10-007",
+      "title": "The Argument from Divine Indifference",
+      "authors": [
+        "Jonathan Weisberg"
+      ],
+      "publication_date": "2012",
+      "url_or_identifier": "https://jonathanweisberg.org/pdf/TAfDI.pdf",
+      "source_type": "original author manuscript",
+      "access_status": "inspected_relevant_full_text",
+      "retrieved_at": "2026-09-12",
+      "relevant_locators": [
+        "Author PDF pp1–2 initial life versus stringency",
+        "pp4–5 three assumptions and derived equalities",
+        "pp5–7 indifference objections and responses",
+        "p7 References"
+      ],
+      "provenance_notes": "Author landing page https://jonathanweisberg.org/publication/2012%20Divine%20Indifference/ identifies Analysis 2012,72(4):707–714. Inspected author manuscript is 7 pages, not journal pagination. White 2011 and Bradley reply mediated through this source, not independently inspected. Exact file link obtained from author site.",
+      "related_case_ids": [],
+      "decisive": true
+    }
+  ]
+}
