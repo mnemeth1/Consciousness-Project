@@ -12,6 +12,6 @@
 
 The public snapshot includes accepted Phase 2 domain contributions, whose final cumulative review remains outstanding.
 
-The [research article](paper/paper.html), **Consciousness, Existence, and the Grounds of Significance**, is the authorized working draft (version 0.4.2), with [release notes](paper/CHANGELOG.md). It presents the substantive philosophical argument from the research available so far, together with a [plain-language companion overview](paper/companion.html) and a [landing page](paper/landing.html). Publication of this draft does not complete P2R20 or P2G2.
+The [research article](paper/paper.html), **Consciousness, Existence, and the Grounds of Significance**, is the authorized working draft (version 0.4.3), with [release notes](paper/CHANGELOG.md). It presents the substantive philosophical argument from the research available so far, together with a [plain-language companion overview](paper/companion.html) and a [landing page](paper/landing.html). Publication of this draft does not complete P2R20 or P2G2.
 
 A doctoral-thesis-style expansion of the article is in progress under the [Phase 3 thesis programme](phase3/Thesis_Execution_Plan.md). The public [incomplete thesis page](paper/thesis.html) includes internally accepted chapters 1–10. Front matter, chapters 11–12 and appendices A–D remain skeletons. That page is not a finished thesis, not a `thesis-v` release, and not a substitute for the article.

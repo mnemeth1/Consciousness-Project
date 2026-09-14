@@ -1,5 +1,9 @@
 # Paper versions
 
+## 0.4.3 - 2026-09-14
+
+Renderer determinism fix only; article, companion, landing and thesis content are unchanged apart from version metadata. The PDF renderer now strips the Chromium structure tree completely (outline /SE references removed and unreachable objects swept) so repeated renders of identical HTML produce identical PDF bytes. A new version is required because release assets are immutable and the renderer hash changed. Pending-review status (P2R20/P2G2) remains recorded in release records.
+
 ## 0.4.2 - 2026-09-14
 
 Adds an incomplete thesis working draft (`thesis.html`) to the public site and a landing-page link to it. Chapters 1–10 of the thesis expansion are included as internally accepted text; front matter, chapters 11–12 and appendices A–D remain labeled skeletons. No thesis PDF is published. The article argument is unchanged apart from version/date metadata and a navigation link. Pending-review status (P2R20/P2G2) remains recorded in release records.

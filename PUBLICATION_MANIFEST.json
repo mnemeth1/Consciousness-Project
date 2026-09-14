@@ -4,6 +4,13 @@
   "manifest_self_excluded": true,
   "files": [
     {
+      "path": ".claude/settings.json",
+      "sha256": "d594c2011110b7ea627fc3f33df7430dbf1bffae4ec12f0da0ed99822b18557b",
+      "bytes": 506,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": ".gitattributes",
       "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
       "bytes": 19,
@@ -71,13 +78,48 @@
     },
     {
       "path": "CURRENT_RELEASE.md",
-      "sha256": "2dd08cf0198d568fbc541675120e72692f83b29933994fa0497d2a9d11af3612",
+      "sha256": "a73bf4fbf31bee961d9a411962e6cbfc73da27870ff91c80e4f0bc05e7e38dc1",
       "bytes": 1455,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
         "Phase 3 thesis programme update (2026-09-13)."
       ]
+    },
+    {
+      "path": "Claude outputs/P3RX_remediation_report.md",
+      "sha256": "06bc2a4f4b8224af6ced717aada29235f0a126eed365c5b5f12abbd0a586c3a2",
+      "bytes": 18655,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "Claude outputs/SKILL.md",
+      "sha256": "a11d4effa2b19813bb69d696e1bb56b4e88a4bb63a0f933e7b0c0d3b7003d2b5",
+      "bytes": 10410,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "Claude outputs/lennox-voice-SKILL.md",
+      "sha256": "a11d4effa2b19813bb69d696e1bb56b4e88a4bb63a0f933e7b0c0d3b7003d2b5",
+      "bytes": 10410,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "Claude outputs/thesis-preview-after-P3RX-remediation.html",
+      "sha256": "fc0488970a593306f85e0fece30db5b7a37adaffcf5e08b9ecd0c021f103237f",
+      "bytes": 582406,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "Claude outputs/thesis-preview.html",
+      "sha256": "ef279f427f7c3baf93d5028bd7b0f0d2405b42488f15672fa9d436f3724c6c23",
+      "bytes": 565828,
+      "source": null,
+      "transformations": []
     },
     {
       "path": "LICENSE",
@@ -136,7 +178,7 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "494626d422fe4dc8795b1deb2b93750ac268af933f25148e4e5a9369a0fe7e40",
+      "sha256": "6d855fe3a7a2fef30ea19bf995e9800226106008b735695ad8bffdfe534df791",
       "bytes": 3231,
       "source": null,
       "transformations": [
@@ -599,8 +641,8 @@
     },
     {
       "path": "paper/CHANGELOG.md",
-      "sha256": "9e51748fd70ac41d4e9f04281cbdcf2a68870734a1ac8318a797715a116d7d2d",
-      "bytes": 2994,
+      "sha256": "0daf5ba20fdf27d61af08cf2589dc3b89a22726b57e458eb4efd898b2ce01aa0",
+      "bytes": 3502,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -608,14 +650,14 @@
     },
     {
       "path": "paper/companion.html",
-      "sha256": "b1bd46c9dcff27e4b9053c1618e1ac64a789756bac0eb7f5ef615f3bf901709f",
+      "sha256": "4c6ce74df903b618a0109479e8ecfc7483ffc50780cb3bae562e0514f30c1906",
       "bytes": 13512,
       "source": null,
       "transformations": []
     },
     {
       "path": "paper/draft-release.json",
-      "sha256": "1fbfc5eca275edcbd690a5d30eb4039861587ba727fce8014746a23fdaab7c96",
+      "sha256": "dc0d0939368aea6142d21a33e897d470f9ed9d4b69c96767fecf2fafec4af68f",
       "bytes": 1141,
       "source": null,
       "transformations": [
@@ -624,21 +666,21 @@
     },
     {
       "path": "paper/landing.html",
-      "sha256": "f2964c04d72c46b2b27f4bb4680ba5a97dc8528bace6a2998e0f7d982c49bb2c",
+      "sha256": "6398c1dd0cbc0ac29c2aebd78a71e0e00d2f892ef2ee1308f2370f0819748765",
       "bytes": 4121,
       "source": null,
       "transformations": []
     },
     {
       "path": "paper/lay_crosswalk.json",
-      "sha256": "9f1c74c60d2bfe188909941c8c451c97381353c941c2c945400d9457775c7202",
+      "sha256": "25314a3c26c3daebf838c1cbb44d186d697c2675ef460d52fb5213d026833e4d",
       "bytes": 1974,
       "source": null,
       "transformations": []
     },
     {
       "path": "paper/paper.html",
-      "sha256": "06affc825c748bcdf0d15d37eb01678719eaffe5dc450941df310099c934c2dd",
+      "sha256": "e178b4fb493262026f74a937833663ae3f290ad78e907f5ff1a03a5a98befd7a",
       "bytes": 52877,
       "source": "work/PHILOSOPHICAL_PAPER_20260913/paper.html",
       "transformations": [
@@ -658,7 +700,7 @@
     },
     {
       "path": "paper/thesis.html",
-      "sha256": "bc0ce8f504150ab0db4ebc64e38e32f52508463f0ead636ed79390f3fcd56266",
+      "sha256": "3ef1d665450f90eac58b12109d2b16a76f9a8078da5644c2b85b20b1639bf116",
       "bytes": 354029,
       "source": null,
       "transformations": []
@@ -829,6 +871,13 @@
       "byte_identical_to_source": true
     },
     {
+      "path": "prompts/skills/lennox-voice/SKILL.md",
+      "sha256": "a11d4effa2b19813bb69d696e1bb56b4e88a4bb63a0f933e7b0c0d3b7003d2b5",
+      "bytes": 10410,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "prompts/synthesis_analyst.md",
       "sha256": "9a3c84014d8d17121db84a6c869bdfcca2ba116f681a149417ddef237f6672c5",
       "bytes": 864,
@@ -953,8 +1002,8 @@
     },
     {
       "path": "scripts/paper/build.cjs",
-      "sha256": "1dd4338a974a62b59d7b4a7214e79975bc79a9491205057cd9ca710f45246c16",
-      "bytes": 26835,
+      "sha256": "d7d83da41fee8434db1cd7e1c09cb0af8961a8eefc7ff2dffc6964167a8aa5fb",
+      "bytes": 28356,
       "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/build.cjs",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -993,8 +1042,8 @@
     },
     {
       "path": "scripts/paper/toolchain.json",
-      "sha256": "fac1a90b03e9ac007b02d4faa36cdd4db8d47afe7cf1f4521f77aa51a758e0f6",
-      "bytes": 555,
+      "sha256": "0f42311c36eeae1224c08ee8a3ef6d654831a5f8f15b92d6874e552e4bb3432a",
+      "bytes": 573,
       "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/toolchain.json",
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
@@ -1100,7 +1149,7 @@
     },
     {
       "path": "state/public_status.json",
-      "sha256": "b70a8fb67cb0eaf2fa6760cd52ee7dbc91fbf8ac6ecf75ccb0481a53cf00470d",
+      "sha256": "760e87387a6d8aa698e96b15f584dcb6965f51e76ac382a3dd4b18b2247bcc6f",
       "bytes": 1840,
       "source": null,
       "transformations": [

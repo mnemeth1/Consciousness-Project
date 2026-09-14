@@ -294,7 +294,7 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     await page.pdf(pdfOptions);
     const raw = await page.pdf(pdfOptions);
     assert.deepEqual(network, [], 'HTML attempted external resource requests');
-    const {PDFDocument, PDFHexString, PDFName} = dep('pdf-lib');
+    const {PDFDocument, PDFHexString, PDFName, PDFRef, PDFDict, PDFArray, PDFStream} = dep('pdf-lib');
     const pdf = await PDFDocument.load(raw, {updateMetadata: false});
     const date = new Date(info.date + 'T00:00:00.000Z');
     pdf.setCreationDate(date); pdf.setModificationDate(date);
@@ -304,6 +304,38 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     pdf.context.trailerInfo.ID = [PDFHexString.of(htmlHash.slice(0, 32)), PDFHexString.of(htmlHash.slice(0, 32))];
     pdf.catalog.delete(PDFName.of('StructTreeRoot'));
     pdf.catalog.delete(PDFName.of('MarkInfo'));
+    // Chromium's structure tree is not byte-stable across renders. Outline
+    // items keep it reachable through /SE, and pdf-lib serializes even
+    // unreferenced indirect objects, so strip /SE from the outline and then
+    // sweep everything unreachable from the trailer before saving.
+    const outlineSeen = new Set();
+    const stripSE = ref => {
+      while (ref && !outlineSeen.has(ref.toString())) {
+        outlineSeen.add(ref.toString());
+        const item = pdf.context.lookup(ref);
+        if (!(item instanceof PDFDict)) break;
+        item.delete(PDFName.of('SE'));
+        const first = item.get(PDFName.of('First'));
+        if (first) stripSE(first);
+        ref = item.get(PDFName.of('Next'));
+      }
+    };
+    stripSE(pdf.catalog.get(PDFName.of('Outlines')));
+    const reachable = new Set();
+    const mark = obj => {
+      if (obj instanceof PDFRef) {
+        if (!reachable.has(obj.toString())) {
+          reachable.add(obj.toString());
+          mark(pdf.context.lookup(obj));
+        }
+      } else if (obj instanceof PDFStream) mark(obj.dict);
+      else if (obj instanceof PDFDict) { for (const [, value] of obj.entries()) mark(value); }
+      else if (obj instanceof PDFArray) { for (const value of obj.asArray()) mark(value); }
+    };
+    mark(pdf.context.trailerInfo.Root);
+    mark(pdf.context.trailerInfo.Info);
+    for (const [ref] of pdf.context.enumerateIndirectObjects())
+      if (!reachable.has(ref.toString())) pdf.context.delete(ref);
     pdfBytes = Buffer.from(await pdf.save({useObjectStreams: false, addDefaultPage: false}));
     verification = await verifyPDF(pdfBytes, info);
     if (mode === 'release') assert.equal(C.sha(pdfBytes), review.pdf_sha256, 'Generated PDF differs from the reviewed Linux PDF');

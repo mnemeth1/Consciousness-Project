@@ -6,6 +6,6 @@
   "pdfjs_dist": "5.6.205",
   "ci_image": "mcr.microsoft.com/playwright:v1.62.1-noble",
   "ci_platform": "linux-x64",
-  "normalization": "Warm-up print, stripped StructTreeRoot/MarkInfo, release-date UTC dates, stable producer, HTML-derived trailer ID, deterministic font-render flags.",
+  "normalization": "Struct tree stripped and unreachable objects swept, warm-up print, release-date UTC dates, stable producer, HTML-derived trailer ID, deterministic font-render flags.",
   "reproducibility_scope": "Identical HTML, locked packages, renderer recipe and browser/platform. Cross-platform byte equivalence is not asserted; release assets are immutable."
 }
