@@ -1,0 +1,112 @@
+{
+  "task_id": "P3R03",
+  "chapter": "c03",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph_id": "c03-p011",
+      "closed": true,
+      "how": "T12 remainder scoped to that packet; P2T02 Lowe/Engelhardt/Bennett named including interactive inclusive variant; Cartesian-style two-way interactionism bounded to this chapter's inputs and the Lowe title contrast."
+    },
+    {
+      "id": "M2",
+      "paragraph_id": "c03-p037",
+      "closed": true,
+      "how": "Inventory labeled as this chapter's SC-G2-02 application, not a coverage audit. One mark per named version. Chalmers combination and idealism moved to inspected originals with version limits. Uninspected list is 2006 Strawson, 2021 idealism reprint, later Shoemaker rounds."
+    },
+    {
+      "id": "M3",
+      "paragraph_id": "c03-p036",
+      "closed": true,
+      "how": "Frankish concessions and Lowe-plus-exclusion mapped to A-P2T05-001, CL-P2T05-015, A-P2T02-001, A-P2T02-002, CL-P2T02-004."
+    }
+  ],
+  "minor_defects": [],
+  "residual_notes_not_blocking": [
+    "c03-p011 'by contrast in the non-Cartesian label' uses Lowe's title for a remainder the records ground more precisely in T03 DU1, A-T12-003 packet scope, and the inspected Lowe/Engelhardt causal models.",
+    "c03-p035 crosswalk PREMISE still says chapter 5 and 9; prose names existence plus morality and goodness (plan c05/c09/c10).",
+    "c03-p021 still includes 'concedes remarkably much while holding the line'.",
+    "Author packet opening still has first-draft U2 wording and the old twenty-sources sentence above the Revision 1 heading; Revision 1 corrects the count to 22 unique."
+  ],
+  "editorial": [
+    "U1 addressed: plan assignment, not accomplished assessment.",
+    "U2 addressed: inventory labeled as this chapter's application, not a dedicated audit; uninspected list is records-only.",
+    "U3 stands as accepted.",
+    "Author packet Revision 1 section is honest about what changed."
+  ],
+  "paragraphs_sampled": [
+    "c03-p001",
+    "c03-p003",
+    "c03-p006",
+    "c03-p007",
+    "c03-p011",
+    "c03-p012",
+    "c03-p017",
+    "c03-p024",
+    "c03-p027",
+    "c03-p035",
+    "c03-p036",
+    "c03-p037",
+    "c03-p038",
+    "c03-p040",
+    "c03-p041"
+  ],
+  "new_text_verified": [
+    {
+      "claim": "T12 remainder packet-scoped; P2T02 inspected Lowe/Engelhardt/Bennett; Cartesian two-way interactionism has no inspected defense of its own in this set and appears by contrast in the non-Cartesian label",
+      "paragraph_id": "c03-p011",
+      "against": "A-T12-003; A-P2T02-001/003; S-P2T02-001 title; S-P2T02-002; CL-P2T02-001; T03 DU1; work/P2T02/report.md",
+      "finding": "supported as a scoped negative; label-contrast slightly loose vs Lowe's embodiment contrast, not material"
+    },
+    {
+      "claim": "uninspected variants: 2006 Strawson journal text, 2021 Chalmers idealism reprint, later Shoemaker rounds",
+      "paragraph_id": "c03-p037",
+      "against": "CL-P2T03-001; CL-P2T04-002; A-P2T01-004; CL-P2T01-014",
+      "finding": "supported"
+    },
+    {
+      "claim": "G1-GAP-05 remains open; five chains are selected; packet completion does not close representative-coverage gaps",
+      "paragraph_id": "c03-p040",
+      "against": "derived/gap_gate_register.json G1-GAP-05 consequence and phase2_special_rule",
+      "finding": "supported"
+    },
+    {
+      "claim": "six families not source-verified as representative literature when fixed",
+      "paragraph_id": "c03-p040",
+      "against": "work/G0/protocol_v1.md header",
+      "finding": "supported"
+    },
+    {
+      "claim": "six-family burden list with emergence as law-family wing; liveness is not support",
+      "paragraph_id": "c03-p041",
+      "against": "A-T03-002; CL-P2T01-006; CL-T12-020; chapter p001 six-family list",
+      "finding": "supported"
+    }
+  ],
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "number_checks": {
+    "six_families": "pass",
+    "four_coverage_categories": "pass_as_labeled_application",
+    "twelve_withheld_gates": "pass_all_currently_withheld",
+    "six_c1c6_checks": "pass",
+    "five_reply_chains": "pass_as_selected_exchanges_G1_GAP_05_still_open",
+    "twenty_sources": "packet_corrected_to_22_unique",
+    "strawson_2006": "pass_uninspected",
+    "chalmers_manuscripts": "pass_inspected_with_named_version_limits",
+    "kastrup_transcription": "pass_at_first_use",
+    "engelhardt_transcription": "pass_at_first_use_p024",
+    "chalmers_kastrup_2018_reconstruction": "pass"
+  },
+  "build_checks": {
+    "thesis_build_check": "pass",
+    "derived_build_check": "current"
+  },
+  "corrections_required": [],
+  "recommended_next_action": "Overseer adjudication: accept P3C03 and P3R03. Revision cycle 2 unused."
+}

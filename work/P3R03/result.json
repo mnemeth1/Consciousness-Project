@@ -1,0 +1,39 @@
+{
+  "task_id": "P3R03",
+  "status": "submitted",
+  "artifact_paths": [
+    "work/P3R03/report.md",
+    "work/P3R03/review.json",
+    "work/P3R03/source_checks.json",
+    "work/P3R03/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C03 submitted revision 1 (thesis/chapters/03-alternatives.md, thesis/crosswalk/c03.json, work/P3C03/report.md)",
+    "Accepted records of T03, T12, P2T01, P2T02, P2T03, P2T04, P2T05",
+    "work/G2/synthesis_constraints.json SC-G2-02",
+    "derived/gap_gate_register.json G1-GAP-05 and twelve gates",
+    "work/G0/protocol_v1.md header",
+    "phase3/pilot_calibration.md"
+  ],
+  "uncertainties": [
+    "U1 (author): addressed; plan assignment with not-yet-drafted hedge.",
+    "U2 (author): addressed; inventory labeled as this chapter's SC-G2-02 application; uninspected list is records-only.",
+    "U3 (author): remains accepted.",
+    "p011 Cartesian remainder is a scoped negative about this chapter's inputs, not a literature census; the title-contrast wording is slightly looser than Lowe's recorded embodiment contrast and is not decision-changing.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C03 (revision 1) and P3R03. No remaining material defects. Revision cycle 2 unused.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/03-alternatives.md": "cb871c98af8d62aaf33011edfbda9465b90af7bffc0d3196d23c097547b39af3",
+    "thesis/crosswalk/c03.json": "e57f5b2f13a8b846e5aeeef4e6e9e50c2f76cb0541ee2b6318e7a9e109f6b4d3",
+    "work/G2/synthesis_constraints.json": "e6e23b4499ed261f67ace5ea6edfe1f7ee25580f9ca2c366a9340e8beaf4959e"
+  }
+}

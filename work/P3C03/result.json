@@ -1,0 +1,42 @@
+{
+  "task_id": "P3C03",
+  "status": "submitted",
+  "artifact_paths": [
+    "thesis/chapters/03-alternatives.md",
+    "thesis/crosswalk/c03.json",
+    "work/P3C03/report.md",
+    "work/P3C03/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P2G1 accepted (contract dependency)",
+    "Accepted records of T03, T12, P2T01, P2T02, P2T03, P2T04, P2T05",
+    "work/G2/synthesis_constraints.json SC-G2-02 (coverage marks, withheld rankings)",
+    "phase3/pilot_calibration.md (frozen crosswalk conventions)"
+  ],
+  "uncertainties": [
+    "U1: c03-p035 scope-split framing for the theistic family drawn from the Phase 3 plan chapter table",
+    "U2: c03-p037 uninspected-variant inventory drawn from record unresolved-issue fields, not a dedicated coverage audit",
+    "U3: C1-C6 annex referenced through the methodology chapter's reconciliation"
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "revision_cycles_used": 1,
+  "recommended_next_action": "P3R03 re-review of revision 1 (cycle 1 of 2), then overseer adjudication.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/03-alternatives.md": "cb871c98af8d62aaf33011edfbda9465b90af7bffc0d3196d23c097547b39af3",
+    "thesis/crosswalk/c03.json": "e57f5b2f13a8b846e5aeeef4e6e9e50c2f76cb0541ee2b6318e7a9e109f6b4d3",
+    "work/T03/report.md": "46c37168f2fedc7abe9fe6f6cade2cd7e925f92ffb630c7c808fe1c854c1131e",
+    "work/T12/report.md": "8f48f09b8399e452cb68ca75ffccf6a13a2b74b94126a74085a1b92296cca8a4",
+    "work/P2T01/report.md": "090b5d3d2828cc47b7a39de6f076217e9c2d3f146295c5c3a0289018b39eeef6",
+    "work/P2T02/report.md": "8bbdfb58923307ad9aa291cf94edf57995cc5928c5f93f2f36a7fa5905769817",
+    "work/P2T03/report.md": "a32265ac69edac3c35d482c826df38cb1ed1ecb40151860924713142df658bb2",
+    "work/P2T04/report.md": "151cf158b8451b046a5b960a740af3b56f64ce3c7cccaf1f8afa5d8229557252",
+    "work/P2T05/report.md": "575ac90e41ed84682ddd82db3adeca6f532910fa3b03abd95b3465b0004a4444"
+  }
+}

@@ -2979,7 +2979,7 @@
     "dependency_conditions": {
       "P2G1": "accepted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3C03/",
     "chapter_file": "thesis/chapters/03-alternatives.md",
     "deliverables": [
@@ -3011,7 +3011,7 @@
     "dependency_conditions": {
       "P3C03": "submitted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3R03/",
     "deliverables": [
       "report.md",

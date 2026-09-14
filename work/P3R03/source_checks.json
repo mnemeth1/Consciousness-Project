@@ -1,0 +1,285 @@
+{
+  "task_id": "P3R03",
+  "external_sources_reopened": [],
+  "search_queries": [],
+  "repository_inputs_verified": [
+    {
+      "record_id": "A-T03-001",
+      "paragraphs": ["c03-p003"],
+      "what_was_checked": "Operational physicalist bet, objection, reply against A-T03-001 and T03 motivation paragraph.",
+      "result": "Bet/objection/reply supported. Distinctive cost/advantage and physical causal order not in the argument record."
+    },
+    {
+      "record_id": "A-T03-002",
+      "paragraphs": ["c03-p010"],
+      "what_was_checked": "Psychophysical-law comparator against A-T03-002.",
+      "result": "Supported. Stopping-point sentence is a fair expansion of the recorded reply."
+    },
+    {
+      "record_id": "A-T03-006",
+      "paragraphs": ["c03-p034", "c03-p035", "c03-p041"],
+      "what_was_checked": "Theistic operational comparator and undischarged agency/goodness/authority bridges.",
+      "result": "Supported as project stipulation. Does not supply a contemporary theist defender."
+    },
+    {
+      "record_id": "A-T12-003",
+      "paragraphs": ["c03-p011", "c03-p037"],
+      "what_was_checked": "Unresolved issue on interaction/substance variants; lookup.cjs full record.",
+      "result": "Exact remainder is 'in this packet.' Chapter drops that scope. Fail for current-census use."
+    },
+    {
+      "record_id": "CL-T12-001",
+      "paragraphs": ["c03-p004"],
+      "what_was_checked": "Papineau identity attribution vs CL-T12-001/002/003.",
+      "result": "Supported, including inspected-text scoping and project two-way discipline."
+    },
+    {
+      "record_id": "CL-T12-004",
+      "paragraphs": ["c03-p005"],
+      "what_was_checked": "Weak/strong emergence definitions (read in full-chapter pass).",
+      "result": "Definitions match. 'Families differ at bottom on that line' is author gloss, not a prose defect that reversed the verdict."
+    },
+    {
+      "record_id": "CL-T12-008",
+      "paragraphs": ["c03-p011", "c03-p041"],
+      "what_was_checked": "Exclusion anatomy vs energy conservation; p041 burden mapping.",
+      "result": "Supports p011. Does not support p041's 'law theorist's brute mapping.'"
+    },
+    {
+      "record_id": "CL-T12-009",
+      "paragraphs": ["c03-p017"],
+      "what_was_checked": "Constitutive Russellian panpsychism attribution.",
+      "result": "Supported. Macro-level 'laws' slightly tighter than 'intervention.'"
+    },
+    {
+      "record_id": "CL-T12-020",
+      "paragraphs": ["c03-p030", "c03-p039"],
+      "what_was_checked": "Family-level non-entailment of H-S/T/P/I/G/A and not-equal-support.",
+      "result": "Supported in p039. Over-mapped on p030."
+    },
+    {
+      "record_id": "CL-P2T01-001",
+      "paragraphs": ["c03-p012"],
+      "what_was_checked": "O'Connor 1994 vs 2005 repudiation (with CL-P2T01-004).",
+      "result": "Supported; versions kept distinct."
+    },
+    {
+      "record_id": "CL-P2T01-006",
+      "paragraphs": ["c03-p014", "c03-p041"],
+      "what_was_checked": "2005 costs and no independently confirmed emergence law.",
+      "result": "Supported."
+    },
+    {
+      "record_id": "CL-P2T01-014",
+      "paragraphs": ["c03-p015", "c03-p037"],
+      "what_was_checked": "Shoemaker as alternative reply; later critiques uninspected. lookup.cjs.",
+      "result": "p015 supported. p037 'later rounds of the Shoemaker debate' matches the limitation/unresolved field (A-P2T01-004: Later Shoemaker/Shrader debate uninspected)."
+    },
+    {
+      "record_id": "A-P2T01-004",
+      "paragraphs": ["c03-p015", "c03-p037"],
+      "what_was_checked": "Unresolved issues via lookup.cjs.",
+      "result": "Shoemaker/Shrader remainder supports U2's Shoemaker line only; does not license the rest of the inventory."
+    },
+    {
+      "record_id": "CL-P2T02-001",
+      "paragraphs": ["c03-p023"],
+      "what_was_checked": "Lowe non-Cartesian distinctness without disembodiment (full-chapter pass).",
+      "result": "Supported with CL-P2T02-002/003."
+    },
+    {
+      "record_id": "CL-P2T02-007",
+      "paragraphs": ["c03-p025", "c03-p041"],
+      "what_was_checked": "Engelhardt property-sharing vs p041 dualist exclusion debt.",
+      "result": "Supports p025. Does not support p041's 'exclusion debt.'"
+    },
+    {
+      "record_id": "S-P2T02-002",
+      "paragraphs": ["c03-p024", "c03-p025", "c03-p040"],
+      "what_was_checked": "Engelhardt version limit via lookup.cjs: HTML transcription, penultimate-draft risk, publisher bytes unchecked. Title: Interactive, Inclusive Substance Dualism.",
+      "result": "Transcription fact supported. First-use paragraphs omit it. Title contradicts p011/p037 'interactionist uninspected.'"
+    },
+    {
+      "record_id": "CL-P2T03-001",
+      "paragraphs": ["c03-p019", "c03-p037", "c03-p040"],
+      "what_was_checked": "2006 journal text uninspected vs 2008 chapter. lookup.cjs.",
+      "result": "Supported. Best version-boundary paragraph in the chapter."
+    },
+    {
+      "record_id": "CL-P2T03-016",
+      "paragraphs": ["c03-p021", "c03-p041"],
+      "what_was_checked": "No constitution account; transcendental plus smallism; formal parity.",
+      "result": "Supported."
+    },
+    {
+      "record_id": "CL-P2T03-018",
+      "paragraphs": ["c03-p022"],
+      "what_was_checked": "No cosmic subject / survival / brain-independence; locator-prefix swap noted by author.",
+      "result": "Prose matches the claim statement and does not rely on the swapped locators."
+    },
+    {
+      "record_id": "CL-P2T04-002",
+      "paragraphs": ["c03-p029", "c03-p037", "c03-p040"],
+      "what_was_checked": "Draft vs final-layout; date evidence 2017–2020; 2021 reprint uninspected. lookup.cjs.",
+      "result": "p029 supported. p037/p040 fail if they treat these as uninspected or merely draft-stage."
+    },
+    {
+      "record_id": "CL-P2T04-006",
+      "paragraphs": ["c03-p029"],
+      "what_was_checked": "Kastrup 2017 not 2018; reconstruction not direct reply. lookup.cjs.",
+      "result": "Supported."
+    },
+    {
+      "record_id": "CL-P2T04-008",
+      "paragraphs": ["c03-p028", "c03-p037"],
+      "what_was_checked": "Uninspected clinical/physics originals behind Kastrup illustrations.",
+      "result": "Supported."
+    },
+    {
+      "record_id": "S-T12-001",
+      "paragraphs": ["c03-p017", "c03-p037"],
+      "what_was_checked": "Combination-problem manuscript dating via lookup.cjs.",
+      "result": "publication_date null; undated forthcoming author PDF, inspected_relevant_text. Inspected original, not an uninspected variant. p017 omits the undated/forthcoming limit."
+    },
+    {
+      "record_id": "S-T12-002",
+      "paragraphs": ["c03-p027"],
+      "what_was_checked": "Kastrup transcription provenance in evidence pack / source record.",
+      "result": "HTML transcription with printed-page markers; not authenticated journal PDF. Disclosed at first use."
+    },
+    {
+      "record_id": "CL-P2T05-001",
+      "paragraphs": ["c03-p006"],
+      "what_was_checked": "Strong illusionism denial of qualitative phenomenal properties.",
+      "result": "Supported with CL-P2T05-002–004. 'Most explicit response' not in these claims."
+    },
+    {
+      "record_id": "CL-P2T05-018",
+      "paragraphs": ["c03-p009", "c03-p041"],
+      "what_was_checked": "Unresolved target-preservation. lookup.cjs.",
+      "result": "Supported."
+    },
+    {
+      "record_id": "CL-P2T05-020",
+      "paragraphs": ["c03-p040"],
+      "what_was_checked": "Illusionism dossier withholds broader gates. lookup.cjs.",
+      "result": "Supports withheld-gates sentence for this packet; does not by itself cover all twelve gates (those are in the derived register)."
+    },
+    {
+      "record_id": "SC-G2-02",
+      "path": "work/G2/synthesis_constraints.json",
+      "paragraphs": ["c03-p001", "c03-p037", "c03-p040"],
+      "what_was_checked": "Four coverage marks; no broad strongest-family ranking before P1 repair or explicit narrower comparison.",
+      "result": "Schema matches p001. Narrower-comparison clause omitted. Applied census in p037 fails. Ranking withheld: pass."
+    },
+    {
+      "record_id": "GATE-T16-01..12",
+      "path": "derived/gap_gate_register.json",
+      "paragraphs": ["c03-p002", "c03-p040"],
+      "what_was_checked": "counts.withheld_conclusion_gates=12; each gate status withheld; no chapter sentence asserts a withheld_conclusion.",
+      "result": "pass"
+    }
+  ],
+  "build_checks": [
+    {
+      "command": "node scripts/derived/build.cjs --check",
+      "result": "current",
+      "cycle": "first_review",
+      "detail": "Derived layer is current: all files match the ledgers. derived/evidence/c03.md lists chapter status submitted."
+    },
+    {
+      "command": "node scripts/thesis/build.cjs --check",
+      "result": "pass",
+      "cycle": "first_review",
+      "detail": "version 0.1.0; c03 submitted; 41 explicit paragraph IDs; 41 crosswalk entries; 22 citations; validation passed, no output written."
+    },
+    {
+      "command": "node scripts/derived/build.cjs --check",
+      "result": "current",
+      "cycle": "revision_1",
+      "detail": "Derived layer is current: all files match the ledgers."
+    },
+    {
+      "command": "node scripts/thesis/build.cjs --check",
+      "result": "pass",
+      "cycle": "revision_1",
+      "detail": "version 0.1.0; c03 submitted; 41 explicit IDs; 41 crosswalk entries; 22 citations; validation passed."
+    }
+  ],
+  "hash_checks": {
+    "thesis/chapters/03-alternatives.md": "revision_1_match_author_declared_cb871c98af8d62aaf33011edfbda9465b90af7bffc0d3196d23c097547b39af3",
+    "thesis/crosswalk/c03.json": "revision_1_match_author_declared_e57f5b2f13a8b846e5aeeef4e6e9e50c2f76cb0541ee2b6318e7a9e109f6b4d3",
+    "first_review_chapter": "cdf0dc352b2305f0ffa5ed9adea3162533d11bad756a6fc6b3da4f5a1409cc9d",
+    "first_review_crosswalk": "ee6a3c741d11f0928971db95b1cfe29865f9d727cb761fbe96dc0e7e1ec4609f",
+    "work/T03/report.md": "match_author_result_json",
+    "work/T12/report.md": "match_author_result_json",
+    "work/P2T01/report.md": "match_author_result_json",
+    "work/P2T02/report.md": "match_author_result_json",
+    "work/P2T03/report.md": "match_author_result_json",
+    "work/P2T04/report.md": "match_author_result_json",
+    "work/P2T05/report.md": "match_author_result_json"
+  },
+  "revision_1_repository_inputs_verified": [
+    {
+      "path": "thesis/chapters/03-alternatives.md",
+      "sections": ["c03-p001", "c03-p003", "c03-p006", "c03-p007", "c03-p011", "c03-p012", "c03-p017", "c03-p024", "c03-p027", "c03-p035", "c03-p036", "c03-p037", "c03-p038", "c03-p040", "c03-p041"],
+      "paragraphs_compared": ["c03-p011", "c03-p036", "c03-p037", "c03-p040", "c03-p041"],
+      "finding": "All eight required corrections faithfully applied. 41 paragraphs; IDs not renumbered. No new material defect in the new sentences."
+    },
+    {
+      "path": "thesis/crosswalk/c03.json",
+      "sections": ["entries"],
+      "paragraphs_compared": ["c03-p011", "c03-p016", "c03-p030", "c03-p036", "c03-p037", "c03-p038", "c03-p040", "c03-p041"],
+      "finding": "41 entries. p036 has ledger IDs for Frankish/Lowe. p011 adds A-P2T02-001/003. p016/p030 extras removed. p038 lineage PREMISE only. p041 wrong refs replaced. Residual: p035 PREMISE still says chapter 5 and 9 (non-blocking)."
+    },
+    {
+      "record_id": "A-T12-003",
+      "paragraphs": ["c03-p011"],
+      "what_was_checked": "Revised packet-scope wording and P2T02 repair sentence.",
+      "result": "Supported. Remainder now scoped to the T12 packet; P2T02 chain named."
+    },
+    {
+      "record_id": "S-P2T02-001",
+      "paragraphs": ["c03-p011"],
+      "what_was_checked": "Title Non-Cartesian Substance Dualism as the contrast class for the Cartesian remainder.",
+      "result": "Title matches. Negative claim (no inspected Cartesian two-way defense in this set) supported. Label-contrast is slightly looser than Lowe's recorded embodiment contrast; not material."
+    },
+    {
+      "record_id": "S-P2T02-002",
+      "paragraphs": ["c03-p011", "c03-p024", "c03-p037"],
+      "what_was_checked": "Interactive inclusive title; first-use transcription limit; presence in inspected-chain bucket.",
+      "result": "Supported on all three."
+    },
+    {
+      "record_id": "CL-P2T03-001",
+      "paragraphs": ["c03-p037"],
+      "what_was_checked": "2006 Strawson journal text as uninspected variant.",
+      "result": "supported"
+    },
+    {
+      "record_id": "CL-P2T04-002",
+      "paragraphs": ["c03-p037", "c03-p040"],
+      "what_was_checked": "Idealism draft and final-layout inspected; 2021 reprint uninspected; not called draft-stage-only.",
+      "result": "supported"
+    },
+    {
+      "record_id": "A-P2T01-004",
+      "paragraphs": ["c03-p037"],
+      "what_was_checked": "Later Shoemaker/Shrader debate as the third uninspected item.",
+      "result": "supported with CL-P2T01-014"
+    },
+    {
+      "record_id": "G1-GAP-05",
+      "path": "derived/gap_gate_register.json",
+      "paragraphs": ["c03-p040"],
+      "what_was_checked": "Selected-chain consequence and task-completion-does-not-close special rule.",
+      "result": "Paraphrase matches consequence and phase2_special_rule. Does not repeat the G1-era missing_item list. Gap remains open / unassessed_in_phase2."
+    },
+    {
+      "path": "work/G0/protocol_v1.md",
+      "sections": ["header bootstrap exception"],
+      "paragraphs_compared": ["c03-p001", "c03-p040"],
+      "finding": "Six families not source-verified representative literature: matches p040. p001 forward-points to that limit."
+    }
+  ]
+}
