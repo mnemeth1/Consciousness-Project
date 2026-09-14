@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-14",
+  "adjudicator": "project owner (Michael Nemeth), recorded by overseer (Claude Fable 5 session)",
+  "decision": "Adopt D7 of work/P3RX_REMEDIATION_20260914/decisions.md as written",
+  "rulings": [
+    "Credit the P3RX Grok 4.6 reviews of chapters 11 and 12 (full adversarial protocol, 50 and 44 record inspections, initial verdict revise) as the first independent reviews P3R11 and P3R12; the P3RX remediation is revision cycle 1; the delta re-review (accept, 30 and 26 inspections) and cycle 2 (accept, zero findings) close the cycles. Recorded in state/acceptance_P3C11.json and state/acceptance_P3C12.json.",
+    "Credit the P3RX accepted-recheck reviews of chapters 1 to 10 as the re-review the Lennox voice rewrite required, at the contract level they ran (overclaims, citation mismatches, circular bridges, double counting). Recorded as re_review entries in state/acceptance_P3C01.json through state/acceptance_P3C10.json with current text hashes.",
+    "Do not credit the P3RX integration pass as P3R20. It ran without P3G1's frozen decisive-source inventory, as the reviewer itself recorded; P3R20 runs after P3G1 on the remediated text.",
+    "Accept appendices A to D on the P3RX review basis under scope amendment phase2/amendments/003-appendix-acceptance.md; recorded in state/acceptance_P3AP.json.",
+    "Accept thesis/chapters/00-front-matter.md by overseer decision. The Phase 3 plan makes the front matter overseer-maintained and build-validated, not separately reviewed; the P3RX delta re-review nonetheless reviewed it (verdict accept, 17 record inspections, zero findings)."
+  ],
+  "waiver_basis": "Owner decision D1 (work/P3RX_REMEDIATION_20260914/decisions.md): the distinct-author drafting requirement is waived for the P3RX cycle; independence is preserved at the verdict-issuing review, which Grok 4.6 (a distinct model family) performed throughout. No author approved their own output.",
+  "front_matter_accepted_hashes": {
+    "thesis/chapters/00-front-matter.md": "ddb32082d03fa7227b75b0b4d9380b04632c865eb82f5407b5f3dd2b8e053a5d",
+    "thesis/crosswalk/c00.json": "667451d5e79d82ec24496aa84f47367ae5d03db4abb9c5b6808d4b4bf0067417"
+  },
+  "reviewed_artifact_hashes": {
+    "work/P3RX_GROK_20260914/result.json": "b6838239096e491c92322bbd1a1d256ba7d42372439c932179a950268e579236",
+    "work/P3RX_GROK_20260914/report.md": "d6602577eebc7b775a71d365e18a27cd56951b4143cdc0a65a47592788c86c26",
+    "work/P3RX_REMEDIATION_20260914/result.json": "f3eaca09c35cfae0b8f8a8ea320eff3d789abe3252ed5850d1295b1966185008",
+    "work/P3RX_REMEDIATION_20260914/report.md": "2160d91326cab38aa1d95c815a224375cbfbdc70456dc258ccb048ccbcd5720d",
+    "work/P3RX_REMEDIATION_20260914/decisions.md": "50353cfe76cd0a081c9406d3b8ada464e6f122fa08c6a6ac9a49bce921c786aa",
+    "work/P3RX_REMEDIATION_20260914/delta_review/result.json": "bfc5df4f6a5d5be58dff8f632a4b754c67362bba16bd05005e8290b9981eba6c",
+    "work/P3RX_REMEDIATION_20260914/delta_review/report.md": "eb8fe259ebc10f5b751a0040c7d0075b392140fdbc9c9433c194505bae6c3fcd",
+    "work/P3RX_REMEDIATION_20260914/delta_review/adjudications.json": "a36e0d49cb298b680eab4e8a6b8a875572dd839ec052a19415a5545fa39e6a20"
+  },
+  "standing_follow_ups": [
+    "P3G1 coverage gate with the complete gap/gate disposition register and the frozen decisive-source inventory for P3R20",
+    "Ledger fixes flagged in work/P3RX_REMEDIATION_20260914/report.md: S-T10-002 source identity split; stale draft_pending_R18 on work/T17/*.json and submitted file-status on work/T16/*.json",
+    "Derived-layer generator gaps: derived/evidence/c11.md, c12.md, apD.md stubs; derived/by_task/ missing T16-T18; derived/gap_gate_register.json null p2a01_disposition fields",
+    "The 53 minor P3RX findings and 5 named leftovers, swept in a later low-priority pass"
+  ],
+  "next": "P3G1 per phase3/Thesis_Execution_Plan.md, then P3R20 on frozen inputs, then P3G2 which closes P2R20 and P2G2."
+}

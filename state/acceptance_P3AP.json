@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-14",
+  "adjudicator": "overseer (Claude Fable 5 session, project owner adjudication recorded in state/adjudication_P3RX.json)",
+  "verdict": "accepted",
+  "accepted_parts": [
+    "thesis/appendices/A-case-evidence-tables.md",
+    "thesis/appendices/B-alternatives-matrix.md",
+    "thesis/appendices/C-gap-gate-disposition-register.md",
+    "thesis/appendices/D-dependence-map.md"
+  ],
+  "basis": "phase2/amendments/003-appendix-acceptance.md: the Phase 3 plan named the appendices as deliverables without defining an acceptance path; the amendment adds appendix acceptance to P3G1's prerequisites and credits the P3RX reviews as their paired independent review.",
+  "author": "thesis-author context (Claude Fable 5), under owner waiver D1 for the P3RX revision cycle",
+  "independent_reviewer": "xAI Grok 4.6 (xhigh) via local grok CLI, headless read-only; distinct model family from author",
+  "review_history": [
+    "Initial P3RX reviews (work/P3RX_GROK_20260914): apA revise (6 findings, 40 record inspections), apB revise (4 findings, 64 inspections), apC revise (7 findings, 32 inspections, including the blocking GRX-apC-001 against the gap/gate disposition register), apD revise (4 findings, 40 inspections).",
+    "Revision cycle 1 of 2 (work/P3RX_REMEDIATION_20260914): blocking and major findings applied, including owner decision D5 (Appendix B frozen synthesis-stage cell labeling; every P2S01 use labeled submitted-not-accepted; the theistic-row C5 cell corrected to the accepted T18 wording).",
+    "Delta re-review at frozen commit d2821d51e61df74a614f78151398f779b2b26b20: all four appendices accept (apA 22, apB 22, apC 7, apD 27 record inspections); all prior findings resolved; 4 new minor findings verified (GRX2-apB-001, GRX2-apB-002, GRX2-apC-001, GRX2-apD-001).",
+    "Revision cycle 2 of 2: the four minors applied; re-review runs apB-2, apC-2, apD-2 all accept with zero new findings. No third cycle permitted or started."
+  ],
+  "open_editorial_notes_non_blocking": [
+    "Appendix C's register is re-examined in full at P3G1, where every gap and gate receives exactly one explicit disposition; this acceptance asserts the register's fidelity to the current records, not gate closure",
+    "A full Appendix B re-grade against chapter 3's strongest inspected formulations remains a synthesis task for the overseer per D5",
+    "Appendix hashes bind the current text; the only change after the cycle-2 accept is the front-matter status flip to accepted"
+  ],
+  "reviewed_artifact_hashes": {
+    "thesis/appendices/A-case-evidence-tables.md": "8424980aa1f27324088bdad2503e05bd67dd54089e06758e5843697063bd32be",
+    "thesis/appendices/B-alternatives-matrix.md": "64d30ee0ba8c71b0658794d9e351dadc0599532e6c769bdb03a2376efea2cda7",
+    "thesis/appendices/C-gap-gate-disposition-register.md": "35e74666c2f29d4b891f7cffe26233dac389887a7921816e620d19860bea1654",
+    "thesis/appendices/D-dependence-map.md": "17aca7a31a07fff058c1358ea538e8f72894ba166ae7b2075bc41d07fc2c4fba",
+    "thesis/crosswalk/apA.json": "4f63f1c1ec3ffde51719f06c9e21cb5100c83d01da22f714b1007b15647fa249",
+    "thesis/crosswalk/apB.json": "16493a2d14ef46de49670c2411b8fcfc8990920b551efee0652f956e9a9d9c9e",
+    "thesis/crosswalk/apC.json": "aad90ac4c3ab827336e14ef27a5cbfd4f694b34b757f789319fb0b1ba00342a0",
+    "thesis/crosswalk/apD.json": "455a43e05dd580004c50c76f71a2df2327863314806ff6d183d002cb15f01ca9",
+    "work/P3RX_GROK_20260914/result.json": "b6838239096e491c92322bbd1a1d256ba7d42372439c932179a950268e579236",
+    "work/P3RX_REMEDIATION_20260914/result.json": "f3eaca09c35cfae0b8f8a8ea320eff3d789abe3252ed5850d1295b1966185008",
+    "work/P3RX_REMEDIATION_20260914/delta_review/result.json": "bfc5df4f6a5d5be58dff8f632a4b754c67362bba16bd05005e8290b9981eba6c"
+  },
+  "scope": "Appendices accepted as faithful supporting apparatus: case evidence tables, the frozen synthesis-stage alternatives matrix under its D5 labels, the gap/gate disposition register as an accurate current inventory, and the dependence map. Acceptance asserts fidelity and honest limits; it closes no gap, opens no gate and accepts no metaphysical claim.",
+  "next": "P3G1, whose coverage decision must verify this record and examine Appendix C's register in full."
+}
