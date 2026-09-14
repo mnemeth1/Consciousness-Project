@@ -2,5 +2,212 @@
   "schema": 1,
   "thesis_version": "0.1.0",
   "part": "apC",
-  "entries": []
+  "entries": [
+    {
+      "paragraph_id": "apC-p001",
+      "refs": [
+        "PREMISE:plan:disposition-rule (phase2/amendments/002-thesis-rebase.md 'What does not change'; phase3/Thesis_Execution_Plan.md P3G1 acceptance criteria and 'Gap packets'; work/G2/synthesis_constraints.json SC-G2-10)",
+        "PREMISE:register:no-P3T-packet-dispatched (state/tasks.json contains no P3T entries at this writing)"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p002",
+      "refs": [
+        "PREMISE:register:layers (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved); phase2/gap_task_map.json)"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p003",
+      "refs": [
+        "PREMISE:register:G1-GAP-01-to-04 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G1-GAP-01, G1-GAP-02, G1-GAP-03, G1-GAP-04)",
+        "C-T04-001",
+        "C-T04-002",
+        "A-P2T14-001",
+        "A-P2T14-002",
+        "A-P2T14-003",
+        "S-P2T14-009",
+        "S-T04-009"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p004",
+      "refs": [
+        "PREMISE:register:G1-GAP-05-G2-GAP-24-25-35 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G1-GAP-05, G2-GAP-24, G2-GAP-25, G2-GAP-35)",
+        "PREMISE:constraint:SC-G2-02 (work/G2/synthesis_constraints.json)",
+        "A-P2T05-001",
+        "A-P2T05-002",
+        "A-P2T05-003",
+        "A-P2T03-003",
+        "A-P2T04-002",
+        "S-T12-002",
+        "S-T12-003",
+        "S-P2T03-004"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p005",
+      "refs": [
+        "PREMISE:register:G1-GAP-06-G2-GAP-10 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G1-GAP-06, G2-GAP-10)",
+        "C-T06-001",
+        "C-T06-002",
+        "A-P2T15-002",
+        "A-P2T15-003",
+        "S-T06-002",
+        "S-P2T15-004"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p006",
+      "refs": [
+        "PREMISE:register:G1-GAP-07 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) row G1-GAP-07: Moorjani screened and deferred)"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p007",
+      "refs": [
+        "PREMISE:register:G1-GAP-08-G2-GAP-14-15-16-17 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G1-GAP-08, G2-GAP-14, G2-GAP-15, G2-GAP-16, G2-GAP-17)",
+        "C-T08-004",
+        "C-T08-005",
+        "C-T08-006",
+        "C-T08-007",
+        "C-T08-008",
+        "C-T13-001",
+        "S-P2T18-001",
+        "S-P2T18-003",
+        "A-P2T18-001",
+        "A-P2T18-002",
+        "A-P2T18-003"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p008",
+      "refs": [
+        "PREMISE:register:G2-GAP-09 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) row G2-GAP-09 persistent-audit-loss)",
+        "PREMISE:method:search-losses-stated (thesis/chapters/02-methodology.md c02-p017 names the lost T03 work, mixed pilot ranks and uncaptured T05 OR query; c02-p039 states the reconstruction limit beside the citation-pass exception)"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p009",
+      "refs": [
+        "PREMISE:register:G2-GAP-11-12-13 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G2-GAP-11, G2-GAP-12, G2-GAP-13)",
+        "C-T07-001",
+        "C-T07-002",
+        "C-T07-003",
+        "C-T07-004",
+        "CL-T07-013",
+        "CL-T07-016",
+        "A-P2T09-001",
+        "A-P2T09-003",
+        "S-P2T09-002",
+        "S-P2T09-003",
+        "S-P2T09-005"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p010",
+      "refs": [
+        "PREMISE:register:G2-GAP-18-19 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G2-GAP-18, G2-GAP-19)",
+        "C-T09-001",
+        "C-T09-002",
+        "C-T09-003",
+        "A-P2T19-001",
+        "S-P2T19-001",
+        "S-P2T19-002",
+        "S-T09-006"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p011",
+      "refs": [
+        "PREMISE:register:G2-GAP-20-21 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G2-GAP-20, G2-GAP-21)",
+        "CL-T10-018",
+        "A-T10-005",
+        "A-P2T10-003",
+        "S-T10-004",
+        "S-P2T11-003",
+        "S-P2T11-005",
+        "S-T10-006"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p012",
+      "refs": [
+        "PREMISE:register:G2-GAP-22-23-26 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G2-GAP-22, G2-GAP-23, G2-GAP-26)",
+        "A-P2T12-003",
+        "A-P2T12-004",
+        "CL-T13-015",
+        "CL-T11-006",
+        "S-T11-004",
+        "S-T11-005",
+        "S-T11-002"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p013",
+      "refs": [
+        "PREMISE:register:G2-GAP-27-28 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G2-GAP-27 already-resolved, G2-GAP-28)",
+        "S-T14-007",
+        "S-P2T13-001",
+        "S-P2T13-002",
+        "S-T14-004",
+        "S-T14-003",
+        "A-T14-003",
+        "A-P2T13-001"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p014",
+      "refs": [
+        "PREMISE:register:G2-GAP-29 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) row G2-GAP-29)",
+        "A-T14-005",
+        "CL-T14-017",
+        "A-T15-004",
+        "A-P2T08-001"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p015",
+      "refs": [
+        "PREMISE:register:G2-GAP-30-31-32 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G2-GAP-30, G2-GAP-31 already-resolved, G2-GAP-32)",
+        "S-P2T06-001",
+        "S-P2T07-001",
+        "S-P2T07-002",
+        "S-T15-009",
+        "S-P2T08-001",
+        "S-T15-004",
+        "A-P2T07-001",
+        "A-P2T08-003"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p016",
+      "refs": [
+        "PREMISE:register:G2-GAP-33-34 (derived/gap_gate_register.json; canonical work/G2/gap_register.json; work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved) rows G2-GAP-33, G2-GAP-34; pending requests 028-030)",
+        "C-T19-001",
+        "C-T19-002",
+        "S-P2T16-001",
+        "S-P2T16-002",
+        "S-P2T16-003",
+        "S-P2T16-005",
+        "S-P2T17-003",
+        "S-P2T17-004",
+        "A-P2T16-003",
+        "A-P2T17-002"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p017",
+      "refs": [
+        "PREMISE:register:twelve-gates (derived/gap_gate_register.json gates; canonical wording work/T18/report.md gate table; gap_ids, repair_ids and closure_condition per work/T16/conclusion_gate_map.json)",
+        "PREMISE:thesis:chapter-closings (closing paragraphs c01-p027, c02-p040, c03-p041, c04-p028, c05-p028, c06-p045, c07-p038, c08-p027, c09-p027, c10-p029, c11-p036, c12-p026 each state all twelve gates remain withheld; c11-p032 lists the twelve)"
+      ]
+    },
+    {
+      "paragraph_id": "apC-p018",
+      "refs": [
+        "PREMISE:register:counts (work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved); this appendix rows above)",
+        "PREMISE:plan:P3G1-acceptance (phase3/Thesis_Execution_Plan.md P3G1 row; state/tasks.json P3G1 acceptance_criteria)"
+      ]
+    }
+  ]
 }

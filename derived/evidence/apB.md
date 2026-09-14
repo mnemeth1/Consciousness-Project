@@ -2,13 +2,15 @@
 
 # Evidence pack apB — Alternatives matrix
 
-Non-canonical derived view for drafting/reviewing `thesis/appendices/B-alternatives-matrix.md` (status: skeleton).
+Non-canonical derived view for drafting/reviewing `thesis/appendices/B-alternatives-matrix.md` (status: submitted).
 Cite only canonical ledger IDs (CL-*, A-*, C-*, S-*); this file is a reading convenience, not a source.
 Full per-task records: derived/by_task/<TASK>.json. Single-record lookup: node scripts/derived/lookup.cjs <ID>.
 
 ## Chapter inputs (front matter)
 
 - work/T03/report.md
+- work/T16/alternatives_matrix.json
+- work/T18/report.md
 - work/P2S01/ (submitted analysis, rebased input, labeled)
 
 Note: P2S01 is submitted, not accepted; label explicitly.
@@ -93,6 +95,10 @@ Chalmers argues for fundamental experience and supplementary psychophysical prin
 - Alternative explanations: This documents an argued position, not the truth of its premises; project PH variants contest the inference from explanatory gap to ontology.
 - Limitations: Author-proposed attribution assessment pending independent review. No metaphysical result follows from documented authorship. Detailed attribution appears once in report literature anchor. G0 acceptance verifies the narrow author attribution; contested inference refers to the philosophical proposal, not uncertainty that Chalmers made it. No hypothesis truth verdict.
 - Review: G0 (accept)
+
+## Task T18 (narrative: work/T18/report.md)
+
+No ledger records carry the T18 prefix; the task report is the only input.
 
 ## Sources cited in this pack (1)
 

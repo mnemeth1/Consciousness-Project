@@ -2,7 +2,7 @@
 
 # Evidence pack apC — Gap and withheld-gate disposition register
 
-Non-canonical derived view for drafting/reviewing `thesis/appendices/C-gap-gate-disposition-register.md` (status: skeleton).
+Non-canonical derived view for drafting/reviewing `thesis/appendices/C-gap-gate-disposition-register.md` (status: submitted).
 Cite only canonical ledger IDs (CL-*, A-*, C-*, S-*); this file is a reading convenience, not a source.
 Full per-task records: derived/by_task/<TASK>.json. Single-record lookup: node scripts/derived/lookup.cjs <ID>.
 
@@ -10,10 +10,18 @@ Full per-task records: derived/by_task/<TASK>.json. Single-record lookup: node s
 
 - work/G2/gap_register.json
 - work/G2/synthesis_constraints.json
+- work/T16/conclusion_gate_map.json
+- work/T18/report.md
 - phase2/gap_task_map.json
 - work/P2A01/report.md
+- work/P2A01/gap_dispositions.json
+- derived/gap_gate_register.json
 
 Note: Disposition register for the 35 gap groups and 12 withheld gates; the unified view is derived/gap_gate_register.json, rendered into this pack. P2A01 is the narrative audit-disposition report; no machine-readable P2A01 disposition file is present in this snapshot.
+
+## Task T18 (narrative: work/T18/report.md)
+
+No ledger records carry the T18 prefix; the task report is the only input.
 
 ## Task P2A01 (narrative: work/P2A01/report.md)
 

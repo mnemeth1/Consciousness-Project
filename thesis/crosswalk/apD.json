@@ -2,5 +2,364 @@
   "schema": 1,
   "thesis_version": "0.1.0",
   "part": "apD",
-  "entries": []
+  "entries": [
+    {
+      "paragraph_id": "apD-p001",
+      "refs": [
+        "PREMISE:synthesis:T16-map-semantics (work/T16/dependency_map.json semantics: edges, AND_OR, confidence, logical_dependence, unification; work/T16/report.md 'How to read the map')"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p002",
+      "refs": [
+        "PREMISE:synthesis:T16-bridge-premises (work/T16/dependency_map.json nodes of type project_bridge_premise BP-T16-PHEN through BP-T16-FINITE, 34 premises; premise_role 'truth not established by its listing'; BP-T16-NECESSITY and BP-T16-UNITYNORM overlays and BP-T16-AGENCY actual-purpose grounding condition per work/T17/report.md; required_inputs edges per work/T16/component_routes.json: AGENCY, NECESSITY and UNITYNORM on no route; RT-T16-I-ORDER requires CANDIDATE and EXPECT; AGENCY among cumulative_positive.added_commitments)",
+        "A-T14-004"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p003",
+      "refs": [
+        "PREMISE:synthesis:routes-H-F (work/T16/component_routes.json RT-T16-F-GAP, RT-T16-F-GROUND, RT-T16-F-IDENTITY; DEP-G2-11, DEP-G2-12)",
+        "CL-T05-001",
+        "CL-T05-002",
+        "CL-T12-005",
+        "CL-T12-006",
+        "A-T05-001",
+        "A-T05-002",
+        "A-T12-003",
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-007",
+        "CL-T10-017",
+        "A-T10-003",
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003",
+        "A-T05-003",
+        "A-T05-004",
+        "A-T12-001"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p004",
+      "refs": [
+        "PREMISE:synthesis:routes-H-U (work/T16/component_routes.json RT-T16-U-GROUND, RT-T16-U-INDIV; DEP-G2-11, DEP-G2-14)",
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-016",
+        "CL-T12-017",
+        "A-T12-004",
+        "A-T12-005",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-015",
+        "CL-T12-018",
+        "A-T12-002"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p005",
+      "refs": [
+        "PREMISE:synthesis:routes-H-B (work/T16/component_routes.json RT-T16-B-PROSPECT DEP-G2-03; RT-T16-B-REYNOLDS DEP-G2-10; RT-T16-B-DENTURES DEP-G2-04 and DEP-G2-10; RT-T16-B-ALEXANDER DEP-G2-02; RT-T16-B-TIMING DEP-G2-02, 03, 10; RT-T16-B-NEURAL DEP-G2-08; Neal DEP-G2-01 on no H-B route per work/T16/report.md)",
+        "CL-T07-003",
+        "CL-T07-004",
+        "CL-T07-013",
+        "CL-T07-014",
+        "CL-T07-016",
+        "CL-T07-019",
+        "A-T07-001",
+        "CL-T19-013",
+        "CL-T19-014",
+        "CL-T19-015",
+        "CL-T19-016",
+        "CL-T19-017",
+        "CL-T19-018",
+        "CL-T19-019",
+        "CL-T19-020",
+        "A-T19-002",
+        "CL-T19-004",
+        "CL-T19-005",
+        "CL-T19-007",
+        "CL-T19-009",
+        "CL-T19-010",
+        "CL-T19-011",
+        "CL-T19-012",
+        "A-T19-001",
+        "CL-T06-005",
+        "CL-T06-007",
+        "CL-T06-008",
+        "CL-T06-012",
+        "CL-T06-013",
+        "CL-T06-014",
+        "CL-T06-015",
+        "CL-T06-016",
+        "A-T06-001",
+        "A-T06-003",
+        "CL-T06-009",
+        "CL-T07-017",
+        "CL-T19-021",
+        "CL-T19-022",
+        "A-T06-002",
+        "A-T07-002",
+        "A-T19-003",
+        "CL-T09-001",
+        "CL-T09-002",
+        "CL-T09-005",
+        "CL-T09-006",
+        "CL-T09-008",
+        "CL-T09-009",
+        "CL-T09-019",
+        "A-T09-001",
+        "A-T09-002"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p006",
+      "refs": [
+        "PREMISE:synthesis:routes-H-S (work/T16/component_routes.json RT-T16-S-CONTINUE, RT-T16-S-BOUNDARY; DEP-G2-13)",
+        "CL-T13-001",
+        "CL-T13-003",
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T13-007",
+        "CL-T13-009",
+        "CL-T13-017",
+        "A-T13-001",
+        "A-T13-002",
+        "A-T13-003",
+        "A-T13-004",
+        "CL-T13-008",
+        "CL-T13-015",
+        "CL-T13-018",
+        "CL-T19-022",
+        "A-T13-005",
+        "A-T19-003"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p007",
+      "refs": [
+        "PREMISE:synthesis:routes-H-T (work/T16/component_routes.json RT-T16-T-M2, RT-T16-T-NOW, RT-T16-T-PHYSICS; DEP-G2-07, DEP-G2-12)",
+        "CL-T11-007",
+        "CL-T11-008",
+        "CL-T11-011",
+        "CL-T11-012",
+        "CL-T11-014",
+        "CL-T11-016",
+        "A-T11-002",
+        "A-T11-004",
+        "CL-T11-009",
+        "CL-T11-010",
+        "CL-T11-015",
+        "A-T11-003",
+        "CL-T11-001",
+        "CL-T11-002",
+        "CL-T11-004",
+        "CL-T11-005",
+        "CL-T11-006",
+        "CL-T13-010",
+        "CL-T13-013",
+        "CL-T13-014",
+        "CL-T13-020",
+        "A-T11-001",
+        "A-T13-005"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p008",
+      "refs": [
+        "PREMISE:synthesis:routes-H-P (work/T16/component_routes.json RT-T16-P-RECORD, RT-T16-P-SUBJECT, RT-T16-P-LOSS; DEP-G2-13)",
+        "CL-T11-017",
+        "CL-T13-018",
+        "CL-T14-013",
+        "A-T11-005",
+        "A-T01-001",
+        "CL-T13-016",
+        "CL-T13-017",
+        "A-T13-004",
+        "CL-T13-007",
+        "CL-T14-012",
+        "CL-T14-020",
+        "A-T14-003"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p009",
+      "refs": [
+        "PREMISE:synthesis:routes-H-I (work/T16/component_routes.json RT-T16-I-ORDER, RT-T16-I-SELECTION; DEP-G2-12, DEP-G2-14; DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES per c05-p027)",
+        "CL-T10-002",
+        "CL-T10-009",
+        "CL-T10-010",
+        "CL-T10-012",
+        "CL-T10-018",
+        "CL-T14-017",
+        "A-T10-002",
+        "A-T10-004",
+        "A-T14-005",
+        "CL-T10-008",
+        "CL-T10-013",
+        "CL-T10-014",
+        "CL-T10-015",
+        "CL-T14-015",
+        "CL-T14-016",
+        "A-T10-001",
+        "A-T10-005",
+        "A-T14-004"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p010",
+      "refs": [
+        "PREMISE:synthesis:routes-H-G (work/T16/component_routes.json RT-T16-G-RESTORE, RT-T16-G-EVIL, RT-T16-G-HIDDEN; DEP-G2-13)",
+        "CL-T15-009",
+        "CL-T15-010",
+        "CL-T15-011",
+        "CL-T15-018",
+        "CL-T15-022",
+        "A-T15-004",
+        "A-T15-006",
+        "CL-T15-006",
+        "CL-T15-007",
+        "CL-T15-008",
+        "CL-T15-012",
+        "CL-T15-020",
+        "A-T15-003",
+        "CL-T15-013",
+        "CL-T15-014",
+        "CL-T15-015",
+        "CL-T15-021",
+        "CL-T15-023",
+        "CL-T15-024",
+        "A-T15-005"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p011",
+      "refs": [
+        "PREMISE:synthesis:routes-H-A (work/T16/component_routes.json RT-T16-A-NATURE, RT-T16-A-UNITY, RT-T16-A-RIVAL; DEP-G2-13)",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-016",
+        "CL-T15-019",
+        "A-T15-001",
+        "CL-T15-017",
+        "CL-T15-018",
+        "A-T01-004",
+        "A-T15-006",
+        "CL-T15-003",
+        "CL-T15-004",
+        "CL-T15-005",
+        "A-T15-002"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p012",
+      "refs": [
+        "PREMISE:synthesis:cross-cutting-routes (work/T16/component_routes.json RT-T16-EX-CONSCIOUS, RT-T16-MEAN-ENHANCE, RT-T16-MEAN-FINITE, RT-T16-FULL; cumulative_positive.genuine_mutual_support)",
+        "CL-T10-017",
+        "CL-T12-013",
+        "CL-T12-018",
+        "A-T10-003",
+        "A-T12-004",
+        "CL-T14-001",
+        "CL-T14-002",
+        "CL-T14-005",
+        "CL-T14-007",
+        "CL-T14-010",
+        "CL-T14-019",
+        "CL-T14-020",
+        "A-T14-001",
+        "A-T14-003",
+        "CL-T14-003",
+        "CL-T14-004",
+        "CL-T14-009",
+        "CL-T14-011",
+        "A-T14-002",
+        "CL-T10-020",
+        "CL-T12-019",
+        "CL-T13-019",
+        "CL-T14-018",
+        "CL-T15-016",
+        "CL-T15-019",
+        "A-T10-002",
+        "A-T11-002",
+        "A-T13-004",
+        "A-T15-001",
+        "A-T15-004"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p013",
+      "refs": [
+        "PREMISE:synthesis:shared-evidence-and-premises (work/T16/component_routes.json evidence_inputs shared across component_id values; required_inputs shared across routes)",
+        "CL-T10-017",
+        "CL-T12-013",
+        "CL-T12-018",
+        "CL-T13-007",
+        "CL-T13-017",
+        "CL-T13-018",
+        "CL-T14-020",
+        "CL-T15-016",
+        "CL-T15-018",
+        "CL-T15-019",
+        "CL-T19-022"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p014",
+      "refs": [
+        "PREMISE:synthesis:G2-dependence-groups (work/G2/dependence_audit.json semantic_dependencies DEP-G2-01 through DEP-G2-14 with members and synthesis rules)",
+        "C-T04-001",
+        "C-T04-002",
+        "C-T06-001",
+        "C-T06-002",
+        "C-T07-001",
+        "C-T07-002",
+        "C-T07-003",
+        "C-T07-004",
+        "C-T19-001",
+        "C-T08-001",
+        "C-T08-002",
+        "C-T08-003",
+        "C-T08-004",
+        "C-T08-005",
+        "C-T08-006",
+        "C-T08-007",
+        "C-T08-008",
+        "C-T13-001",
+        "C-T09-002",
+        "C-T09-003",
+        "C-T09-004",
+        "C-T09-001",
+        "C-T19-002",
+        "S-T07-002",
+        "S-T07-007",
+        "S-T09-001",
+        "S-T09-006",
+        "S-T09-007",
+        "S-T09-008",
+        "S-T09-009"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p015",
+      "refs": [
+        "PREMISE:synthesis:T17-scenario-effects (work/T17/sensitivity_results.json scenarios T17-01A through T17-08, delta_kind explicit_change per component)"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p016",
+      "refs": [
+        "PREMISE:synthesis:unification-semantics (work/T16/dependency_map.json semantics.unification; work/T16/component_routes.json cumulative_positive.genuine_mutual_support, added_commitments, circularity_prohibitions)"
+      ]
+    },
+    {
+      "paragraph_id": "apD-p017",
+      "refs": [
+        "PREMISE:rebased-input:P2S01-map-update (reports/P2S01/report.md paragraphs 1-3; submitted, not accepted)"
+      ]
+    }
+  ]
 }

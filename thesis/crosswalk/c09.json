@@ -3,32 +3,249 @@
   "thesis_version": "0.1.0",
   "part": "c09",
   "entries": [
-    { "paragraph_id": "c09-p001", "refs": ["PREMISE:structure:chapter-scope (paper/paper.html section 7 p-039 to p-042; phase3/Thesis_Execution_Plan.md c09 row; work/G2/synthesis_constraints.json H-A boundary; evil and hiddenness deferred to c10 per thesis/chapters/10-goodness.md front matter)"] },
-    { "paragraph_id": "c09-p002", "refs": ["PREMISE:method:attribution-only-and-versions (work/G0/protocol_v1.md s5; version limits per S-P2T06-001, S-P2T06-002, S-P2T06-003, S-P2T07-001, S-P2T07-002, S-P2T07-003, S-T15-001 provenance; CL-P2T07-014 chapter-3 gap)"] },
-    { "paragraph_id": "c09-p003", "refs": ["PREMISE:article:p-039 (paper/paper.html p-039)", "CL-T15-016", "CL-T15-017"] },
-    { "paragraph_id": "c09-p004", "refs": ["A-T15-001", "CL-T15-016", "CL-T15-019"] },
-    { "paragraph_id": "c09-p005", "refs": ["CL-T15-001", "CL-T15-002", "S-T15-001"] },
-    { "paragraph_id": "c09-p006", "refs": ["CL-T15-019", "CL-T15-016", "CL-T15-017", "CL-T15-018"] },
-    { "paragraph_id": "c09-p007", "refs": ["PREMISE:article:p-039-korsgaard (paper/paper.html p-039)", "CL-P2T06-001", "CL-P2T06-002", "CL-P2T06-004", "CL-P2T06-005", "A-P2T06-001", "S-P2T06-001"] },
-    { "paragraph_id": "c09-p008", "refs": ["CL-P2T06-003", "CL-P2T06-004", "CL-P2T06-006", "CL-P2T06-007", "CL-P2T06-008", "S-P2T06-001"] },
-    { "paragraph_id": "c09-p009", "refs": ["CL-P2T06-009", "CL-P2T06-010", "A-P2T06-002", "S-P2T06-002", "PREMISE:article:p-040 (paper/paper.html p-040)"] },
-    { "paragraph_id": "c09-p010", "refs": ["CL-P2T06-011", "CL-P2T06-012", "CL-P2T06-013", "CL-P2T06-014", "A-P2T06-003", "S-P2T06-003"] },
-    { "paragraph_id": "c09-p011", "refs": ["CL-P2T06-014", "CL-P2T06-015"] },
-    { "paragraph_id": "c09-p012", "refs": ["PREMISE:article:p-041 (paper/paper.html p-041)", "CL-P2T07-001", "CL-P2T07-002", "CL-P2T07-003", "S-P2T07-001"] },
-    { "paragraph_id": "c09-p013", "refs": ["CL-P2T07-004", "CL-P2T07-014", "A-P2T07-001", "S-P2T07-001"] },
-    { "paragraph_id": "c09-p014", "refs": ["CL-P2T07-005", "CL-P2T07-006", "CL-P2T07-007", "A-P2T07-002", "S-P2T07-002"] },
-    { "paragraph_id": "c09-p015", "refs": ["CL-P2T07-008", "CL-P2T07-009", "CL-P2T07-010", "CL-P2T07-011", "A-P2T07-003", "S-P2T07-003"] },
-    { "paragraph_id": "c09-p016", "refs": ["CL-P2T07-003", "CL-P2T07-015", "CL-P2T07-016", "CL-P2T07-017", "A-P2T07-004", "S-P2T07-001"] },
-    { "paragraph_id": "c09-p017", "refs": ["CL-P2T07-018", "CL-P2T07-019", "CL-P2T07-020", "A-P2T07-005", "S-P2T07-001"] },
-    { "paragraph_id": "c09-p018", "refs": ["CL-T15-003", "CL-T15-004", "CL-T15-005", "CL-P2T07-012", "A-T15-002", "S-T15-002"] },
-    { "paragraph_id": "c09-p019", "refs": ["PREMISE:article:p-041-p-042 (paper/paper.html p-041 closing sentence and p-042)", "CL-P2T07-013", "CL-T15-016", "CL-T15-017"] },
-    { "paragraph_id": "c09-p020", "refs": ["CL-T15-019", "A-T15-001", "PREMISE:method:component-boundary-H-A (work/G2/synthesis_constraints.json H-A)"] },
-    { "paragraph_id": "c09-p021", "refs": ["CL-T15-017", "CL-T15-018", "A-T15-001"] },
-    { "paragraph_id": "c09-p022", "refs": ["A-T15-006"] },
-    { "paragraph_id": "c09-p023", "refs": ["PREMISE:article:p-042 (paper/paper.html p-042)", "CL-P2T06-003", "CL-P2T07-019", "CL-T15-019"] },
-    { "paragraph_id": "c09-p024", "refs": ["CL-P2T06-014", "CL-P2T06-010", "A-P2T07-003", "A-T15-002", "PREMISE:method:narrowed-reconstruction (A-T15-002 unresolved-issues note: constructivism and non-natural realism reconstructed in matrix, no decisive original defender inspected at T15; CL-P2T06-015 narrows the v1 source gap; derived/gap_gate_register.json G2-GAP-30 remains partial and open)", "CL-P2T06-015"] },
-    { "paragraph_id": "c09-p025", "refs": ["PREMISE:method:dependency-accounting (T15-source-1 Craig; T15-source-2 Railton; DG-P2T06-SOURCES-EXCHANGE one edited-volume container per S-P2T06-001/002/003 provenance; P2T07-Enoch-line; P2T07-Lenman-critique; T15-normative-bridges and P2T07-comparative-bridges; CL-P2T06-014/015 sit inside DG-P2T06-SOURCES-EXCHANGE)", "A-T15-006"] },
-    { "paragraph_id": "c09-p026", "refs": ["PREMISE:method:access-gaps (CL-P2T07-014 chapter-3 pp53-83 gap; S-P2T07-003 Manne/Sobel branch; CL-P2T07-011 Joyce; CL-P2T07-019 Schroeder/Moral-Twin-Earth/Smith/Fine/Parfit; CL-P2T06-013 Cohen; S-T15-001 quoted authors and audio alignment; S-P2T06-001 teaching-copy selected chapters; S-T15-002 third-party archive footer note)"] },
-    { "paragraph_id": "c09-p027", "refs": ["CL-P2T07-013", "CL-P2T06-015", "CL-T15-019", "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json nine components; H-A boundary)"] }
+    {
+      "paragraph_id": "c09-p001",
+      "refs": [
+        "PREMISE:structure:chapter-scope (paper/paper.html section 7 p-039 to p-042; phase3/Thesis_Execution_Plan.md c09 row; work/G2/synthesis_constraints.json H-A boundary; evil and hiddenness deferred to c10 per thesis/chapters/10-goodness.md front matter)",
+        "CL-P2T07-013",
+        "CL-T15-019"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p002",
+      "refs": [
+        "PREMISE:method:attribution-only-and-versions (work/G0/protocol_v1.md s5; version limits per S-P2T06-001, S-P2T06-002, S-P2T06-003, S-P2T07-001, S-P2T07-002, S-P2T07-003, S-T15-001 provenance; CL-P2T07-014 chapter-3 gap)"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p003",
+      "refs": [
+        "PREMISE:article:p-039 (paper/paper.html p-039)",
+        "CL-T15-016",
+        "CL-T15-017"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p004",
+      "refs": [
+        "A-T15-001",
+        "CL-T15-016",
+        "CL-T15-019"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p005",
+      "refs": [
+        "CL-T15-001",
+        "CL-T15-002",
+        "S-T15-001"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p006",
+      "refs": [
+        "CL-T15-019",
+        "CL-T15-016",
+        "CL-T15-017",
+        "CL-T15-018"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p007",
+      "refs": [
+        "PREMISE:article:p-039-korsgaard (paper/paper.html p-039)",
+        "CL-P2T06-001",
+        "CL-P2T06-002",
+        "CL-P2T06-004",
+        "CL-P2T06-005",
+        "A-P2T06-001",
+        "S-P2T06-001"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p008",
+      "refs": [
+        "CL-P2T06-003",
+        "CL-P2T06-004",
+        "CL-P2T06-006",
+        "CL-P2T06-007",
+        "CL-P2T06-008",
+        "S-P2T06-001"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p009",
+      "refs": [
+        "CL-P2T06-009",
+        "CL-P2T06-010",
+        "A-P2T06-002",
+        "S-P2T06-002",
+        "PREMISE:article:p-040 (paper/paper.html p-040)"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p010",
+      "refs": [
+        "CL-P2T06-011",
+        "CL-P2T06-012",
+        "CL-P2T06-013",
+        "CL-P2T06-014",
+        "A-P2T06-003",
+        "S-P2T06-003"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p011",
+      "refs": [
+        "CL-P2T06-014",
+        "CL-P2T06-015"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p012",
+      "refs": [
+        "PREMISE:article:p-041 (paper/paper.html p-041)",
+        "CL-P2T07-001",
+        "CL-P2T07-002",
+        "CL-P2T07-003",
+        "S-P2T07-001"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p013",
+      "refs": [
+        "CL-P2T07-004",
+        "CL-P2T07-014",
+        "A-P2T07-001",
+        "S-P2T07-001"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p014",
+      "refs": [
+        "CL-P2T07-005",
+        "CL-P2T07-006",
+        "CL-P2T07-007",
+        "A-P2T07-002",
+        "S-P2T07-002"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p015",
+      "refs": [
+        "CL-P2T07-008",
+        "CL-P2T07-009",
+        "CL-P2T07-010",
+        "CL-P2T07-011",
+        "A-P2T07-003",
+        "S-P2T07-003"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p016",
+      "refs": [
+        "CL-P2T07-003",
+        "CL-P2T07-015",
+        "CL-P2T07-016",
+        "CL-P2T07-017",
+        "A-P2T07-004",
+        "S-P2T07-001"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p017",
+      "refs": [
+        "CL-P2T07-018",
+        "CL-P2T07-019",
+        "CL-P2T07-020",
+        "A-P2T07-005",
+        "S-P2T07-001"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p018",
+      "refs": [
+        "CL-T15-003",
+        "CL-T15-004",
+        "CL-T15-005",
+        "CL-P2T07-012",
+        "A-T15-002",
+        "S-T15-002"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p019",
+      "refs": [
+        "PREMISE:article:p-041-p-042 (paper/paper.html p-041 closing sentence and p-042)",
+        "CL-P2T07-013",
+        "CL-T15-016",
+        "CL-T15-017"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p020",
+      "refs": [
+        "CL-T15-019",
+        "A-T15-001",
+        "PREMISE:method:component-boundary-H-A (work/G2/synthesis_constraints.json H-A)"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p021",
+      "refs": [
+        "CL-T15-017",
+        "CL-T15-018",
+        "A-T15-001"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p022",
+      "refs": [
+        "A-T15-006"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p023",
+      "refs": [
+        "PREMISE:article:p-042 (paper/paper.html p-042)",
+        "CL-P2T06-003",
+        "CL-P2T07-019",
+        "CL-T15-019"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p024",
+      "refs": [
+        "CL-P2T06-014",
+        "CL-P2T06-010",
+        "A-P2T07-003",
+        "A-T15-002",
+        "PREMISE:method:narrowed-reconstruction (A-T15-002 unresolved-issues note: constructivism and non-natural realism reconstructed in matrix, no decisive original defender inspected at T15; CL-P2T06-015 narrows the v1 source gap; derived/gap_gate_register.json G2-GAP-30 remains partial and open)",
+        "CL-P2T06-015"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p025",
+      "refs": [
+        "PREMISE:method:dependency-accounting (T15-source-1 Craig; T15-source-2 Railton; DG-P2T06-SOURCES-EXCHANGE one edited-volume container per S-P2T06-001/002/003 provenance; P2T07-Enoch-line; P2T07-Lenman-critique; T15-normative-bridges and P2T07-comparative-bridges; CL-P2T06-014/015 sit inside DG-P2T06-SOURCES-EXCHANGE)",
+        "A-T15-006"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p026",
+      "refs": [
+        "PREMISE:method:access-gaps (CL-P2T07-014 chapter-3 pp53-83 gap; S-P2T07-003 Manne/Sobel branch; CL-P2T07-011 Joyce; CL-P2T07-019 Schroeder/Moral-Twin-Earth/Smith/Fine/Parfit; CL-P2T06-013 Cohen; S-T15-001 quoted authors and audio alignment; S-P2T06-001 teaching-copy selected chapters; S-T15-002 third-party archive footer note)"
+      ]
+    },
+    {
+      "paragraph_id": "c09-p027",
+      "refs": [
+        "CL-P2T07-013",
+        "CL-P2T06-015",
+        "CL-T15-019",
+        "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json nine components; H-A boundary)",
+        "A-P2T06-001"
+      ]
+    }
   ]
 }

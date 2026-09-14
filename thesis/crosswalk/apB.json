@@ -2,5 +2,198 @@
   "schema": 1,
   "thesis_version": "0.1.0",
   "part": "apB",
-  "entries": []
+  "entries": [
+    {
+      "paragraph_id": "apB-p001",
+      "refs": [
+        "PREMISE:constraint:SC-G2-02 (work/G2/synthesis_constraints.json source and model asymmetry; GATE-T16-01 per work/T16/conclusion_gate_map.json)",
+        "PREMISE:synthesis:T16-matrix-criteria (work/T16/alternatives_matrix.json criteria C1-C6, common_rules; work/T18/report.md 'Comparing alternatives on the same questions')",
+        "A-T03-001",
+        "A-T03-002",
+        "A-T03-003",
+        "A-T03-004",
+        "A-T03-005",
+        "A-T03-006"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p002",
+      "refs": [
+        "PREMISE:thesis:coverage-marks (c03-p037 application of the recorded provenance schema)",
+        "PREMISE:synthesis:frozen-v1-cells (work/T16/alternatives_matrix.json cells carried as version 1 reconstructions; work/G2/synthesis_constraints.json SC-G2-02 no grading of a family below its strongest inspected formulation; comparison at that level in thesis/chapters/03-alternatives.md)",
+        "PREMISE:synthesis:CF0-CF1-correction (work/T18/report.md: accepted correction CF0 production, CF1 intentional production, CF2 development, CF3 preservation; reports/P2S01/report.md composites paragraph reads CF0 as descriptive occurrence with no purpose prediction, submitted, not accepted; T14 purpose hypotheses per CL-T14-015)",
+        "CL-T14-015",
+        "CL-T14-016",
+        "CL-T14-017"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p003",
+      "refs": [
+        "PREMISE:synthesis:matrix-row-PH (work/T16/alternatives_matrix.json M-T03-PH source_coverage and cells; c03-p003 to c03-p009 coverage)",
+        "A-T03-001",
+        "A-T12-001",
+        "A-P2T05-001",
+        "A-P2T05-002",
+        "A-P2T05-003",
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003",
+        "CL-T07-016",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T19-021",
+        "CL-T09-001",
+        "CL-T09-002"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p004",
+      "refs": [
+        "PREMISE:synthesis:matrix-row-PL (work/T16/alternatives_matrix.json M-T03-PL; c03-p010 to c03-p016 coverage)",
+        "A-T03-002",
+        "A-T12-003",
+        "A-P2T01-001",
+        "A-P2T01-003",
+        "A-P2T01-004",
+        "CL-T12-005",
+        "CL-T12-006",
+        "CL-T12-007",
+        "CL-T12-008",
+        "CL-T07-016",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T19-021"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p005",
+      "refs": [
+        "PREMISE:synthesis:matrix-row-PA (work/T16/alternatives_matrix.json M-T03-PA; c03-p017 to c03-p022 coverage)",
+        "A-T03-003",
+        "A-T12-002",
+        "A-P2T03-001",
+        "A-P2T03-002",
+        "A-P2T03-003",
+        "CL-T12-009",
+        "CL-T12-010",
+        "CL-T12-011",
+        "CL-T12-012",
+        "CL-T07-016",
+        "CL-T08-008",
+        "CL-T08-012",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T19-021"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p006",
+      "refs": [
+        "PREMISE:synthesis:matrix-row-DU (work/T16/alternatives_matrix.json M-T03-DU; c03-p023 to c03-p026 coverage)",
+        "A-T03-004",
+        "A-T13-003",
+        "A-P2T02-001",
+        "A-P2T02-002",
+        "A-P2T02-003",
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T12-008",
+        "CL-T07-016",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T19-021",
+        "CL-T09-001",
+        "CL-T09-002"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p007",
+      "refs": [
+        "PREMISE:synthesis:matrix-row-ID (work/T16/alternatives_matrix.json M-T03-ID; c03-p027 to c03-p033 coverage)",
+        "A-T03-005",
+        "A-T12-004",
+        "A-T12-005",
+        "A-P2T04-001",
+        "A-P2T04-002",
+        "A-P2T04-003",
+        "A-P2T04-004",
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018",
+        "CL-T07-016",
+        "CL-T08-008",
+        "CL-T08-012",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T19-021",
+        "CL-T09-001",
+        "CL-T09-002"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p008",
+      "refs": [
+        "PREMISE:synthesis:matrix-row-TH (work/T16/alternatives_matrix.json M-T03-TH; c03-p034 to c03-p035 coverage; developed content in c05, c07, c09, c10)",
+        "A-T03-006",
+        "A-T10-003",
+        "A-T10-002",
+        "A-T11-002",
+        "A-T15-001",
+        "A-T15-003",
+        "A-T15-005",
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "CL-T10-009",
+        "CL-T11-007",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-023",
+        "CL-T15-024",
+        "CL-T07-016",
+        "CL-T09-019",
+        "CL-T09-020",
+        "CL-T10-018",
+        "CL-T15-006",
+        "CL-T15-013",
+        "CL-T19-021",
+        "CL-T14-015",
+        "CL-T14-017"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p009",
+      "refs": [
+        "PREMISE:synthesis:moral-overlay (work/T16/alternatives_matrix.json moral_comparison_overlay: inspected positive originals S-T15-001, S-T15-002; challenges S-T15-003, S-T15-004, S-T15-005, S-T15-006, S-T15-009; blocked conclusion; GATE-T16-02)",
+        "S-T15-001",
+        "S-T15-002",
+        "S-T15-003",
+        "S-T15-004",
+        "S-T15-005",
+        "S-T15-006",
+        "S-T15-009",
+        "S-P2T06-001",
+        "S-P2T06-002",
+        "S-P2T06-003",
+        "S-P2T07-001",
+        "S-P2T07-002",
+        "S-P2T07-003",
+        "A-T15-002",
+        "A-P2T06-001",
+        "A-P2T07-001"
+      ]
+    },
+    {
+      "paragraph_id": "apB-p010",
+      "refs": [
+        "PREMISE:synthesis:matrix-common-rules (work/T16/alternatives_matrix.json common_rules)",
+        "PREMISE:rebased-input:P2S01-P2S02-matrix (reports/P2S01/report.md six-family paragraphs and 'No global six-family winner is selected'; reports/P2S02/report.md section 8; submitted, not accepted)"
+      ]
+    }
+  ]
 }

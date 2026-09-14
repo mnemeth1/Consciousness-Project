@@ -3,33 +3,268 @@
   "thesis_version": "0.1.0",
   "part": "c05",
   "entries": [
-    { "paragraph_id": "c05-p001", "refs": ["PREMISE:structure:chapter-scope (paper/paper.html section 4 p-016 to p-021; phase3/Thesis_Execution_Plan.md c05 row; derived/gap_gate_register.json gates withheld)"] },
-    { "paragraph_id": "c05-p002", "refs": ["PREMISE:method:attribution-only-and-dependence (work/G0/protocol_v1.md s5; dependency groups DG-P2T10-PSR-EXCHANGE, DG-P2T10-LENNOX-ORDER, DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES; version limits stated at first use)"] },
-    { "paragraph_id": "c05-p003", "refs": ["CL-T10-004", "CL-T10-005", "CL-T10-006", "S-T10-002", "PREMISE:article:p-016 (paper/paper.html p-016)"] },
-    { "paragraph_id": "c05-p004", "refs": ["CL-T10-007", "CL-T10-008", "S-T10-003"] },
-    { "paragraph_id": "c05-p005", "refs": ["CL-T10-017", "A-T10-003"] },
-    { "paragraph_id": "c05-p006", "refs": ["CL-P2T10-001", "CL-P2T10-002", "A-P2T10-001", "S-P2T10-001", "PREMISE:article:p-016-attraction (paper/paper.html p-016)"] },
-    { "paragraph_id": "c05-p007", "refs": ["CL-P2T10-012", "CL-P2T10-013", "CL-P2T10-014", "A-P2T10-003", "S-P2T10-002", "PREMISE:article:p-017-criticism (paper/paper.html p-017)"] },
-    { "paragraph_id": "c05-p008", "refs": ["CL-P2T10-015", "CL-P2T10-016"] },
-    { "paragraph_id": "c05-p009", "refs": ["CL-P2T10-023", "CL-P2T10-024", "CL-P2T10-026", "CL-P2T10-027", "S-P2T10-003", "PREMISE:article:p-017-reply (paper/paper.html p-017)"] },
-    { "paragraph_id": "c05-p010", "refs": ["PREMISE:article:p-018-structured-challenge (paper/paper.html p-018)", "CL-P2T10-014", "CL-P2T10-024"] },
-    { "paragraph_id": "c05-p011", "refs": ["CL-P2T10-004", "CL-P2T10-005", "CL-P2T10-006", "CL-P2T10-007", "A-P2T10-002"] },
-    { "paragraph_id": "c05-p012", "refs": ["CL-P2T10-008", "CL-P2T10-009", "A-P2T10-002"] },
-    { "paragraph_id": "c05-p013", "refs": ["CL-P2T10-010", "CL-P2T10-011", "CL-P2T10-025"] },
-    { "paragraph_id": "c05-p014", "refs": ["CL-T10-001", "CL-T10-002", "CL-T10-003", "CL-P2T10-017", "CL-P2T10-018", "A-T10-001", "S-T10-001"] },
-    { "paragraph_id": "c05-p015", "refs": ["CL-T10-016", "A-T10-002", "A-P2T10-004", "CL-P2T10-022"] },
-    { "paragraph_id": "c05-p016", "refs": ["CL-P2T10-021", "CL-T10-019", "PREMISE:article:p-018-personal-privilege (paper/paper.html p-018)"] },
-    { "paragraph_id": "c05-p017", "refs": ["CL-T10-009", "CL-P2T11-001", "CL-P2T11-003", "CL-P2T11-004", "CL-P2T11-023", "S-T10-004", "S-P2T11-003", "PREMISE:article:p-019 (paper/paper.html p-019)"] },
-    { "paragraph_id": "c05-p018", "refs": ["CL-T10-010", "CL-P2T11-002", "CL-P2T11-021", "PREMISE:article:p-019-circularity (paper/paper.html p-019)"] },
-    { "paragraph_id": "c05-p019", "refs": ["CL-P2T11-005", "CL-P2T11-006", "CL-P2T11-007", "S-P2T11-001", "PREMISE:article:p-020 (paper/paper.html p-020)"] },
-    { "paragraph_id": "c05-p020", "refs": ["CL-P2T11-008", "CL-P2T11-009", "CL-P2T11-010", "CL-T10-013", "CL-T10-014", "CL-T10-015", "S-T10-007"] },
-    { "paragraph_id": "c05-p021", "refs": ["CL-P2T11-011", "CL-P2T11-012", "CL-P2T11-013", "CL-P2T11-014", "CL-P2T11-015", "CL-P2T11-024", "S-P2T11-002"] },
-    { "paragraph_id": "c05-p022", "refs": ["CL-P2T11-025", "CL-P2T11-026", "CL-P2T11-027", "CL-P2T11-028", "CL-P2T11-029", "S-P2T11-005"] },
-    { "paragraph_id": "c05-p023", "refs": ["CL-P2T11-016", "CL-P2T11-017", "CL-P2T11-018", "CL-P2T11-019", "S-T10-006"] },
-    { "paragraph_id": "c05-p024", "refs": ["CL-T10-018", "CL-P2T11-020", "A-T10-005", "CL-P2T11-009", "PREMISE:article:p-021-invented-distribution (paper/paper.html p-021)"] },
-    { "paragraph_id": "c05-p025", "refs": ["PREMISE:article:p-021 (paper/paper.html p-021)", "CL-P2T11-019", "CL-P2T11-021", "PREMISE:article:p-019-circularity (paper/paper.html p-019)"] },
-    { "paragraph_id": "c05-p026", "refs": ["CL-T10-019", "CL-P2T10-021", "CL-P2T11-021", "CL-P2T11-022"] },
-    { "paragraph_id": "c05-p027", "refs": ["PREMISE:method:dependency-accounting (DG-P2T10-PSR-EXCHANGE; DG-P2T10-V1-INFERENCE; DG-P2T10-LENNOX-ORDER; DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES; T10 per-source groups)", "CL-P2T10-020", "CL-P2T10-022", "CL-T10-020"] },
-    { "paragraph_id": "c05-p028", "refs": ["CL-P2T11-022", "CL-T10-019", "CL-P2T10-021", "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json)"] }
+    {
+      "paragraph_id": "c05-p001",
+      "refs": [
+        "PREMISE:structure:chapter-scope (paper/paper.html section 4 p-016 to p-021; phase3/Thesis_Execution_Plan.md c05 row; derived/gap_gate_register.json gates withheld)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p002",
+      "refs": [
+        "PREMISE:method:attribution-only-and-dependence (work/G0/protocol_v1.md s5; dependency groups DG-P2T10-PSR-EXCHANGE, DG-P2T10-LENNOX-ORDER, DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES; version limits stated at first use)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p003",
+      "refs": [
+        "CL-T10-004",
+        "CL-T10-005",
+        "CL-T10-006",
+        "S-T10-002",
+        "PREMISE:article:p-016 (paper/paper.html p-016)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p004",
+      "refs": [
+        "CL-T10-007",
+        "CL-T10-008",
+        "S-T10-003"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p005",
+      "refs": [
+        "CL-T10-017",
+        "A-T10-003"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p006",
+      "refs": [
+        "CL-P2T10-001",
+        "CL-P2T10-002",
+        "A-P2T10-001",
+        "S-P2T10-001",
+        "PREMISE:article:p-016-attraction (paper/paper.html p-016)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p007",
+      "refs": [
+        "CL-P2T10-012",
+        "CL-P2T10-013",
+        "CL-P2T10-014",
+        "A-P2T10-003",
+        "S-P2T10-002",
+        "PREMISE:article:p-017-criticism (paper/paper.html p-017)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p008",
+      "refs": [
+        "CL-P2T10-015",
+        "CL-P2T10-016"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p009",
+      "refs": [
+        "CL-P2T10-023",
+        "CL-P2T10-024",
+        "CL-P2T10-026",
+        "CL-P2T10-027",
+        "S-P2T10-003",
+        "PREMISE:article:p-017-reply (paper/paper.html p-017)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p010",
+      "refs": [
+        "PREMISE:article:p-018-structured-challenge (paper/paper.html p-018)",
+        "CL-P2T10-014",
+        "CL-P2T10-024"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p011",
+      "refs": [
+        "CL-P2T10-004",
+        "CL-P2T10-005",
+        "CL-P2T10-006",
+        "CL-P2T10-007",
+        "A-P2T10-002"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p012",
+      "refs": [
+        "CL-P2T10-008",
+        "CL-P2T10-009",
+        "A-P2T10-002"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p013",
+      "refs": [
+        "CL-P2T10-010",
+        "CL-P2T10-011",
+        "CL-P2T10-025"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p014",
+      "refs": [
+        "CL-T10-001",
+        "CL-T10-002",
+        "CL-T10-003",
+        "CL-P2T10-017",
+        "CL-P2T10-018",
+        "A-T10-001",
+        "S-T10-001"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p015",
+      "refs": [
+        "CL-T10-016",
+        "A-T10-002",
+        "A-P2T10-004",
+        "CL-P2T10-022"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p016",
+      "refs": [
+        "CL-P2T10-021",
+        "CL-T10-019",
+        "PREMISE:article:p-018-personal-privilege (paper/paper.html p-018)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p017",
+      "refs": [
+        "CL-T10-009",
+        "CL-P2T11-001",
+        "CL-P2T11-003",
+        "CL-P2T11-004",
+        "CL-P2T11-023",
+        "S-T10-004",
+        "S-P2T11-003",
+        "PREMISE:article:p-019 (paper/paper.html p-019)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p018",
+      "refs": [
+        "CL-T10-010",
+        "CL-P2T11-002",
+        "CL-P2T11-021",
+        "PREMISE:article:p-019-circularity (paper/paper.html p-019)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p019",
+      "refs": [
+        "CL-P2T11-005",
+        "CL-P2T11-006",
+        "CL-P2T11-007",
+        "S-P2T11-001",
+        "PREMISE:article:p-020 (paper/paper.html p-020)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p020",
+      "refs": [
+        "CL-P2T11-008",
+        "CL-P2T11-009",
+        "CL-P2T11-010",
+        "CL-T10-013",
+        "CL-T10-014",
+        "CL-T10-015",
+        "S-T10-007"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p021",
+      "refs": [
+        "CL-P2T11-011",
+        "CL-P2T11-012",
+        "CL-P2T11-013",
+        "CL-P2T11-014",
+        "CL-P2T11-015",
+        "CL-P2T11-024",
+        "S-P2T11-002"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p022",
+      "refs": [
+        "CL-P2T11-025",
+        "CL-P2T11-026",
+        "CL-P2T11-027",
+        "CL-P2T11-028",
+        "CL-P2T11-029",
+        "S-P2T11-005"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p023",
+      "refs": [
+        "CL-P2T11-016",
+        "CL-P2T11-017",
+        "CL-P2T11-018",
+        "CL-P2T11-019",
+        "S-T10-006"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p024",
+      "refs": [
+        "CL-T10-018",
+        "CL-P2T11-020",
+        "A-T10-005",
+        "CL-P2T11-009",
+        "PREMISE:article:p-021-invented-distribution (paper/paper.html p-021)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p025",
+      "refs": [
+        "PREMISE:article:p-021 (paper/paper.html p-021)",
+        "CL-P2T11-021",
+        "PREMISE:article:p-019-circularity (paper/paper.html p-019)"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p026",
+      "refs": [
+        "CL-T10-019",
+        "CL-P2T10-021",
+        "CL-P2T11-021",
+        "CL-P2T11-022"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p027",
+      "refs": [
+        "PREMISE:method:dependency-accounting (DG-P2T10-PSR-EXCHANGE; DG-P2T10-V1-INFERENCE; DG-P2T10-LENNOX-ORDER; DEP-P2T11-FINETUNING-SHARED-LIFE-MEASURE-PREFERENCES; T10 per-source groups)",
+        "CL-P2T10-020",
+        "CL-P2T10-022",
+        "CL-T10-020"
+      ]
+    },
+    {
+      "paragraph_id": "c05-p028",
+      "refs": [
+        "CL-P2T11-022",
+        "CL-T10-019",
+        "CL-P2T10-021",
+        "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json)",
+        "A-T10-003",
+        "A-T10-002"
+      ]
+    }
   ]
 }

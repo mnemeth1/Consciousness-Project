@@ -49,17 +49,17 @@
       "note": "Also reads the component requirements in work/G2/synthesis_constraints.json."
     },
     "apA": {
-      "tasks": ["T04", "T06", "T19", "P2T14", "P2T15", "P2T16", "P2T17"],
+      "tasks": ["T04", "T06", "T19", "P2T09", "P2T14", "P2T15", "P2T16", "P2T17", "P2T18"],
       "include_all_cases": true,
       "note": "Case evidence tables cover all 23 case records, not only the listed tasks' cases."
     },
     "apB": {
-      "tasks": ["T03"],
+      "tasks": ["T03", "T18"],
       "submitted_inputs": ["reports/P2S01/report.md"],
       "note": "P2S01 is submitted, not accepted; label explicitly."
     },
     "apC": {
-      "tasks": ["P2A01"],
+      "tasks": ["P2A01", "T18"],
       "include_gap_gate_register": true,
       "note": "Disposition register for the 35 gap groups and 12 withheld gates; the unified view is derived/gap_gate_register.json, rendered into this pack. P2A01 is the narrative audit-disposition report; no machine-readable P2A01 disposition file is present in this snapshot."
     },

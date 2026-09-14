@@ -2,5 +2,478 @@
   "schema": 1,
   "thesis_version": "0.1.0",
   "part": "c11",
-  "entries": []
+  "entries": [
+    {
+      "paragraph_id": "c11-p001",
+      "refs": [
+        "PREMISE:structure:chapter-scope (phase3/Thesis_Execution_Plan.md P3C11 row; phase2/amendments/002-thesis-rebase.md item 2; work/G2/synthesis_constraints.json SC-G2-01, SC-G2-09)",
+        "PREMISE:rebased-input:P2S01-P2S02-labeled (reports/P2S01/report.md; reports/P2S02/report.md; submitted, not accepted; used only as labeled rebased inputs)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p002",
+      "refs": [
+        "PREMISE:constraint:SC-G2-03-04-05-07 (work/G2/synthesis_constraints.json: nine components, three judgments, no repeated premise counting, quantitative restraint)",
+        "PREMISE:method:three-judgments-and-no-pooling (work/G0/protocol_v1.md via c02-p034 and c02-p036)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p003",
+      "refs": [
+        "PREMISE:article:p-047 (paper/paper.html p-047 package-support objection)",
+        "PREMISE:article:p-048-standard (paper/paper.html p-048 'constraint, not evidential isolation')"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p004",
+      "refs": [
+        "PREMISE:article:p-048 (paper/paper.html p-048)",
+        "PREMISE:article:p-004-convergence (paper/paper.html p-004 closing sentence)",
+        "PREMISE:method:bridge-register (work/T01/report.md s6 B14 objection: manufactured convergence)",
+        "PREMISE:constraint:SC-G2-05-gate-effect (work/G2/synthesis_constraints.json: do not count shared premises repeatedly)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p005",
+      "refs": [
+        "PREMISE:synthesis:T16-map-reading-rules (work/T16/report.md 'How to read the map'; work/T16/component_routes.json 31 routes, input_logic AND, T17_use condition-map labels)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p006",
+      "refs": [
+        "PREMISE:thesis:dependence-accounting (accepted chapter paragraphs c04-p027, c05-p027, c06-p043, c07-p037, c08-p026, c09-p025, c10-p027)",
+        "CL-T05-001",
+        "CL-T12-001",
+        "CL-T10-017",
+        "CL-T10-018",
+        "CL-T19-021",
+        "CL-T07-016",
+        "A-P2T18-003"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p007",
+      "refs": [
+        "PREMISE:synthesis:G2-dependence-groups (work/G2/dependence_audit.json DEP-G2-01 through DEP-G2-14)",
+        "C-T04-001",
+        "C-T04-002",
+        "C-T06-001",
+        "C-T06-002",
+        "C-T07-001",
+        "C-T07-002",
+        "C-T07-003",
+        "C-T07-004",
+        "C-T19-001",
+        "C-T08-001",
+        "C-T08-002",
+        "C-T08-003",
+        "C-T08-004",
+        "C-T08-005",
+        "C-T08-006",
+        "C-T08-007",
+        "C-T08-008",
+        "C-T13-001",
+        "C-T09-001",
+        "C-T09-002",
+        "C-T09-003",
+        "C-T09-004",
+        "C-T19-002"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p008",
+      "refs": [
+        "PREMISE:synthesis:RT-T16-FULL-added-commitments (work/T16/component_routes.json cumulative_positive.added_commitments: BP-T16-GROUND, INDIV, NEURALMAP, DEATH, SAME, TIMELESS, AGENCY, EXPECT, VALUE, ENHANCE, GOOD, AUTH, PERMISSION)",
+        "A-T15-006"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p009",
+      "refs": [
+        "PREMISE:synthesis:circularity-prohibitions (work/T16/component_routes.json cumulative_positive.circularity_prohibitions)",
+        "CL-T14-018",
+        "CL-P2T13-025",
+        "A-T15-006",
+        "CL-T10-010"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p010",
+      "refs": [
+        "PREMISE:synthesis:condition-map-routes (work/T16/component_routes.json T17_use 'Condition/coherence or grounding map only' on RT-T16-U-GROUND, RT-T16-S-CONTINUE, RT-T16-T-M2, RT-T16-P-RECORD, RT-T16-G-RESTORE, RT-T16-A-NATURE, RT-T16-EX-CONSCIOUS, RT-T16-FULL; positive evidence routes RT-T16-F-GAP, RT-T16-B-PROSPECT, RT-T16-B-REYNOLDS, RT-T16-B-DENTURES, RT-T16-B-ALEXANDER, RT-T16-I-ORDER with evidence_inputs; constraint routes per cumulative_countercase.route_ids)",
+        "A-T09-001",
+        "A-T09-002",
+        "A-T12-001",
+        "A-T11-003",
+        "A-T15-003",
+        "A-T15-005",
+        "A-T15-002",
+        "CL-T19-021",
+        "CL-T09-001",
+        "CL-T09-008"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p011",
+      "refs": [
+        "PREMISE:rebased-input:P2S01-map-update (reports/P2S01/report.md paragraphs 1-3: 31 routes, 36 cells, nine components, four composites, 35 gap dispositions, 79 narrow requirements; 'principal change' sentence; submitted, not accepted)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p012",
+      "refs": [
+        "PREMISE:method:eight-sensitivity-tests (work/G2/synthesis_constraints.json required_sensitivity_tests; paper/paper.html p-007)",
+        "PREMISE:synthesis:T17-baseline-and-execution (work/T17/baseline_assessment.json T17-BASE-H-F through T17-BASE-H-A; work/T17/sensitivity_results.json 17 scenarios restated and re-read against chapters 3-10, not re-executed; record_reliability_change 'None')",
+        "PREMISE:rebased-input:P2S02-execution (reports/P2S02/report.md; submitted, not accepted)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p013",
+      "refs": [
+        "PREMISE:synthesis:T17-01A-01B-01C (work/T17/sensitivity_results.json scenarios T17-01A, T17-01B, T17-01C; work/T16/sensitivity_handoff.json SENS-G2-01 criteria)",
+        "C-T19-002",
+        "C-T19-001",
+        "C-T07-004",
+        "CL-T19-021",
+        "CL-T19-022",
+        "A-P2T16-003",
+        "A-P2T17-002"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p014",
+      "refs": [
+        "PREMISE:synthesis:T17-02 (work/T17/sensitivity_results.json scenario T17-02; work/T16/sensitivity_handoff.json SENS-G2-02 remove/retain lists and DMT rule)",
+        "C-T04-001",
+        "C-T04-002",
+        "C-T06-001",
+        "C-T06-002",
+        "C-T19-001",
+        "C-T19-002",
+        "C-T08-001",
+        "C-T08-002",
+        "C-T08-003",
+        "C-T08-004",
+        "C-T08-005",
+        "C-T08-006",
+        "C-T08-007",
+        "C-T08-008",
+        "C-T07-003",
+        "C-T07-001",
+        "C-T07-002",
+        "C-T07-004",
+        "C-T13-001",
+        "S-P2T18-003",
+        "CL-T13-013",
+        "A-P2T18-001",
+        "S-P2T18-001"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p015",
+      "refs": [
+        "PREMISE:synthesis:T17-03 (work/T17/sensitivity_results.json scenario T17-03; work/T16/sensitivity_handoff.json SENS-G2-03; work/G2/dependence_audit.json DEP-G2-05, DEP-G2-07)",
+        "C-T08-006",
+        "C-T08-007",
+        "C-T08-008",
+        "C-T13-001",
+        "A-P2T18-003",
+        "CL-T13-020"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p016",
+      "refs": [
+        "PREMISE:synthesis:T17-04 (work/T17/sensitivity_results.json scenario T17-04, identity_variants, history_models; work/T16/sensitivity_handoff.json SENS-G2-04)",
+        "CL-T13-001",
+        "CL-T13-003",
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T13-007",
+        "CL-T13-016",
+        "CL-T13-017",
+        "CL-T13-018",
+        "CL-T14-013",
+        "CL-T14-017",
+        "A-T13-004",
+        "A-P2T12-003",
+        "A-P2T12-004"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p017",
+      "refs": [
+        "PREMISE:synthesis:T17-05A-05B-05C (work/T17/sensitivity_results.json scenarios T17-05A, T17-05B, T17-05C; BP-T16-NECESSITY, BP-T16-UNITYNORM, BP-T16-AUTH)",
+        "CL-T14-011",
+        "CL-T15-017",
+        "CL-T15-019",
+        "CL-T15-001",
+        "CL-T15-003",
+        "A-T15-001",
+        "A-T15-002",
+        "A-P2T13-001"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p018",
+      "refs": [
+        "PREMISE:synthesis:T17-06A-06B-06C (work/T17/sensitivity_results.json scenarios T17-06A, T17-06B, T17-06C; BP-T16-PSR, BP-T16-MODAL, BP-T16-EXPECT)",
+        "CL-T10-017",
+        "A-T10-003",
+        "A-T05-002",
+        "A-T12-001",
+        "CL-T10-018",
+        "A-T10-002",
+        "CL-T10-010"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p019",
+      "refs": [
+        "PREMISE:synthesis:T17-07A-07B-07CH-07CA (work/T17/sensitivity_results.json scenarios T17-07A, T17-07B, T17-07CH, T17-07CA; BP-T16-PROXY)",
+        "C-T09-004",
+        "C-T09-002",
+        "CL-T09-001",
+        "CL-T09-008",
+        "CL-T09-019",
+        "CL-T09-006",
+        "A-T09-002"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p020",
+      "refs": [
+        "PREMISE:synthesis:T17-08 (work/T17/sensitivity_results.json scenario T17-08 and original_comparison_cells; work/T16/sensitivity_handoff.json SENS-G2-08 filter rule, exclusions, retained boundaries)",
+        "PREMISE:rebased-input:P2S02-08-and-08B (reports/P2S02/report.md section 8: inherited T17-08 and added SENS-P2G1-08B; submitted, not accepted)",
+        "PREMISE:register:missing-originals (derived/gap_gate_register.json; canonical work/G2/gap_register.json G2-GAP-24, G2-GAP-25, G2-GAP-28, G2-GAP-30, G2-GAP-32)",
+        "A-P2T05-001",
+        "A-P2T01-003",
+        "A-P2T03-003",
+        "A-P2T02-003",
+        "A-P2T04-004",
+        "A-P2T10-003",
+        "A-T10-005",
+        "A-P2T12-002",
+        "A-P2T12-004",
+        "A-P2T13-001",
+        "A-P2T06-003",
+        "A-P2T07-003",
+        "A-P2T08-001",
+        "A-P2T08-003"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p021",
+      "refs": [
+        "PREMISE:synthesis:T17-summary (work/T17/report.md 'Executed sensitivity tests', 17 scenario rows; work/T18/report.md 'Dependence and the tests that change the assessment': labels stable because thresholds unmet at baseline)",
+        "PREMISE:rebased-input:P2S02-result (reports/P2S02/report.md paragraph 2; submitted, not accepted)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p022",
+      "refs": [
+        "PREMISE:article:p-048-diagnosis (paper/paper.html p-048 four flexibilities)",
+        "A-P2T03-003",
+        "A-T10-003",
+        "A-T09-002",
+        "A-T15-004",
+        "A-P2T08-001",
+        "CL-P2T08-016"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p023",
+      "refs": [
+        "PREMISE:method:accommodation-vs-prediction (work/G0/protocol_v1.md s5)",
+        "PREMISE:article:p-046-expected-world (paper/paper.html p-046 closing sentence)",
+        "A-T14-005",
+        "CL-T14-017"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p024",
+      "refs": [
+        "PREMISE:article:p-049 (paper/paper.html p-049)",
+        "A-T05-002",
+        "A-T10-003",
+        "A-T10-002",
+        "A-T09-001",
+        "A-T14-001",
+        "A-T14-003"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p025",
+      "refs": [
+        "PREMISE:synthesis:X-T16-EX (work/T17/baseline_assessment.json cross_component_assessments X-T16-EX; work/T18/report.md 'Existence, meaning and the purpose of embodied lives'; scenario T17-06A)",
+        "CL-T10-017",
+        "CL-T12-013",
+        "CL-T12-018",
+        "A-T10-003"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p026",
+      "refs": [
+        "PREMISE:constraint:SC-G2-05 (work/G2/synthesis_constraints.json common-foundation positive case)",
+        "PREMISE:synthesis:cumulative-positive (work/T16/component_routes.json cumulative_positive; work/T17/report.md 'Strongest cumulative cases'; work/T18/report.md 'The best cumulative case')",
+        "CL-T05-001",
+        "A-T05-001",
+        "CL-T12-013",
+        "CL-T12-018",
+        "CL-T10-017",
+        "CL-T10-018",
+        "CL-T14-010",
+        "A-T14-001",
+        "A-T14-004",
+        "A-T15-001"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p027",
+      "refs": [
+        "PREMISE:synthesis:T17-strongest-cases (work/T17/report.md 'Strongest cumulative cases')",
+        "CL-T19-021",
+        "CL-T10-018",
+        "A-T14-001",
+        "CL-T14-011",
+        "A-T15-004",
+        "A-P2T08-001"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p028",
+      "refs": [
+        "PREMISE:synthesis:circularity-prohibitions (work/T16/component_routes.json cumulative_positive.circularity_prohibitions)",
+        "A-T15-006",
+        "CL-T10-010"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p029",
+      "refs": [
+        "PREMISE:constraint:SC-G2-06 (work/G2/synthesis_constraints.json strongest countercase)",
+        "PREMISE:synthesis:cumulative-countercase (work/T16/component_routes.json cumulative_countercase; work/T18/report.md 'The best cumulative countercase')",
+        "CL-T09-001",
+        "CL-T09-008",
+        "A-T09-001",
+        "CL-T12-001",
+        "A-T12-001",
+        "CL-T12-005",
+        "A-T12-003",
+        "A-T12-005",
+        "CL-T19-021",
+        "A-P2T18-001",
+        "A-T15-003",
+        "A-T15-005",
+        "A-T14-002",
+        "A-T14-003",
+        "A-T15-002",
+        "A-P2T06-001",
+        "A-P2T07-001"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p030",
+      "refs": [
+        "PREMISE:constraint:SC-G2-06-gate-effect (work/G2/synthesis_constraints.json: no mechanism-naming inference, no equal credibility)",
+        "PREMISE:constraint:SC-G2-02 (work/G2/synthesis_constraints.json source and model asymmetry)",
+        "A-P2T15-002",
+        "A-P2T17-002",
+        "A-P2T14-002",
+        "CL-T09-020",
+        "A-T09-002"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p031",
+      "refs": [
+        "PREMISE:article:p-050 (paper/paper.html p-050)",
+        "A-T09-001",
+        "A-T09-002",
+        "A-T12-001",
+        "CL-T14-003",
+        "CL-T14-009",
+        "A-T14-002",
+        "CL-T14-015",
+        "A-T14-005",
+        "A-P2T05-002",
+        "A-P2T05-003",
+        "CL-T19-022",
+        "CL-T13-015",
+        "A-T13-005"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p032",
+      "refs": [
+        "PREMISE:article:p-004 (paper/paper.html p-004; the restricted-unification wording restated here is the article's; what earns each half is the chapter records mapped below)",
+        "A-T05-001",
+        "CL-T05-001",
+        "CL-T05-003",
+        "CL-T05-004",
+        "A-T12-001",
+        "A-P2T03-003",
+        "A-T10-003",
+        "A-T09-001",
+        "A-T09-002",
+        "CL-T19-021",
+        "A-T13-005",
+        "CL-T13-015",
+        "A-T14-001",
+        "A-T14-002",
+        "CL-T14-009",
+        "A-T15-001",
+        "CL-T15-019",
+        "A-T15-004",
+        "A-P2T08-001",
+        "PREMISE:register:twelve-gates (derived/gap_gate_register.json gates GATE-T16-01 through GATE-T16-12; canonical wording work/T18/report.md gate table; closure conditions work/T16/conclusion_gate_map.json)",
+        "CL-P2T05-018"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p033",
+      "refs": [
+        "PREMISE:method:bounded-review-scope (work/G0/protocol_v1.md via c02-p021 and c02-p039)",
+        "PREMISE:constraint:SC-G2-08 (work/G2/synthesis_constraints.json citation and search limits)",
+        "PREMISE:method:crosswalk-traceability (thesis/README.md Crosswalk; phase3/Thesis_Execution_Plan.md honesty constraints)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p034",
+      "refs": [
+        "PREMISE:register:pending-requests-028-031 (reports/P2S02/report.md 'pending Sabom, Meijers, Woerlee 2010 and Noyes/Kletti requests (028-031)'; work/P2A01/report.md; work/P2A01/gap_dispositions.json G2-GAP-33-S2)",
+        "PREMISE:register:deferred-and-unselected-items (work/P2A01/gap_dispositions.json G1-GAP-07-S2 Moorjani screened and deferred; G2-GAP-10-S3 Sacks comparators; G2-GAP-22-S2 Leftow, Kvanvig, Wierenga; G2-GAP-16-S1 Indian-tunnel critique; G2-GAP-15-S1 Japanese underlying interviews and the additional non-Western strata (Asian historical, African, Melanesian, Indigenous, Muslim) explicitly not selected)",
+        "S-P2T16-001",
+        "S-P2T16-005",
+        "S-P2T18-002",
+        "S-T04-009",
+        "S-T06-001",
+        "S-P2T09-002",
+        "S-P2T09-005",
+        "C-T07-002",
+        "A-P2T09-003"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p035",
+      "refs": [
+        "PREMISE:plan:standing-limitations (STATUS.md; phase3/Thesis_Execution_Plan.md 'Honesty constraints' and 'Relation to Phase 2'; phase2/amendments/002-thesis-rebase.md items 3-4; c02-p041)",
+        "PREMISE:constraint:SC-G2-08-cutoff (work/G2/synthesis_constraints.json frozen cutoff 2026-09-11)"
+      ]
+    },
+    {
+      "paragraph_id": "c11-p036",
+      "refs": [
+        "PREMISE:register:twelve-gates (derived/gap_gate_register.json gates GATE-T16-01 through GATE-T16-12)",
+        "CL-T09-020",
+        "CL-T19-022",
+        "A-T15-006",
+        "A-T09-002",
+        "A-T14-002",
+        "CL-T14-003"
+      ]
+    }
+  ]
 }

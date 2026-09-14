@@ -2,13 +2,17 @@
 
 # Evidence pack apD — Dependence map
 
-Non-canonical derived view for drafting/reviewing `thesis/appendices/D-dependence-map.md` (status: skeleton).
+Non-canonical derived view for drafting/reviewing `thesis/appendices/D-dependence-map.md` (status: submitted).
 Cite only canonical ledger IDs (CL-*, A-*, C-*, S-*); this file is a reading convenience, not a source.
 Full per-task records: derived/by_task/<TASK>.json. Single-record lookup: node scripts/derived/lookup.cjs <ID>.
 
 ## Chapter inputs (front matter)
 
 - work/T16/report.md
+- work/T16/dependency_map.json
+- work/T16/component_routes.json
+- work/G2/dependence_audit.json
+- work/T17/sensitivity_results.json
 - work/P2S01/ (submitted analysis, rebased input, labeled)
 
 Note: P2S01 is submitted, not accepted; label explicitly.

@@ -39,8 +39,8 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "15059161cd48f8f7bac2217176c20588e015e3a8c1a56616db096be9f8233976",
-      "bytes": 4226,
+      "sha256": "3e1b272d027b20277be52acbcbde7887305cda250a67779ec08b0a4411012d90",
+      "bytes": 5223,
       "source": null,
       "transformations": []
     },
@@ -384,120 +384,120 @@
     },
     {
       "path": "derived/evidence/apA.md",
-      "sha256": "accb4806fa0eeee644241416a1d661b02396691784e7028622e473b8c52b25e3",
-      "bytes": 318149,
+      "sha256": "9e1c76a89ed4b582079c598b74d3a83f3f6ae9448e3bac835b2d50a67271cbc1",
+      "bytes": 385296,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/apB.md",
-      "sha256": "76d71d9b7a659547743f9e354ddb3a5c5b0807b78de9b9c067b34a93d37f3dd2",
-      "bytes": 7419,
+      "sha256": "3609866708ed6f5f997c10d188196e9b38e831ae40dd2cb4d48b76e48f2a4f54",
+      "bytes": 7598,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/apC.md",
-      "sha256": "d92c78ef4840305e1ac6ade784e6e118e9af8c316cd31bc1b7cfa6fff4963227",
-      "bytes": 27199,
+      "sha256": "cb5ad46a7e4b5f30b12d129dabeadd1e16dce7a7bde6f142416a224b9f0cf9f0",
+      "bytes": 27446,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/apD.md",
-      "sha256": "40289ad7bdd4c06851d1135840b87b297bc3a86e474b046c0cf47023333c4b28",
-      "bytes": 1170,
+      "sha256": "6c7293bedb3461295368f87ab15ec0f2bc146daddc0906b6503cc0743839fa14",
+      "bytes": 1303,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c00.md",
-      "sha256": "88c7740d676e24188a3dc23f8ae85432f4ce4f9ec2418580f0e1409749a849dc",
-      "bytes": 954,
+      "sha256": "252dc1e0ca5033114d3702916963cc90bdc7628d9b381db682930eb0f532528c",
+      "bytes": 1023,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c01.md",
-      "sha256": "cf2f1547a856ca8dd8ae1271c55826ab4e4d5aa7e5a93bc843d441f41ca27e8d",
-      "bytes": 5036,
+      "sha256": "7a4876d59b7e143d1c099b7d2bf6af1f5d0aea951f68cf83e7c650515daca379",
+      "bytes": 5037,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c02.md",
-      "sha256": "821d88a56e6bd93abd5d655a043af02014a28ebb208f9129a1a44c0a6d858176",
-      "bytes": 1239,
+      "sha256": "23bb2440adcf61214de005c82226b1a34a32699f887b594ff71f044e0c893a36",
+      "bytes": 1240,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c03.md",
-      "sha256": "629406189ee6a38cf8575d677185071b236175330ec0b9a446e70ed221c42fe2",
-      "bytes": 133387,
+      "sha256": "c6a002ee9b696df2edbe2fbbb0ac63aab703b13cf6c047cce9a4762a1a08c1cf",
+      "bytes": 133388,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c04.md",
-      "sha256": "fcbb74e02029ab14a48a9d7cdd8d4fc281a8cd2a7c0dd44d97fa26190aa8795b",
-      "bytes": 76269,
+      "sha256": "c36b9c16f7438e4ab2abf50c44f6b5ac5558929888d5c4dabc76ab8e2a678b40",
+      "bytes": 76270,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c05.md",
-      "sha256": "22f5165e91d418e25c539b3ae6c8452b1ceb6177188baa07c5d1ff497e950cc7",
-      "bytes": 88960,
+      "sha256": "e3db403d3207ce800b311fc09ab54cdaa19ed8590e0848223d246576ae9927d6",
+      "bytes": 88961,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c06.md",
-      "sha256": "70c7d517d4a6394033b0bbb4bfb083374ae0119ab682e693db5faf52cfaff7cb",
-      "bytes": 448531,
+      "sha256": "97697bfb36c60559ecddef94ca6054d9f73f5191c7aec7785c7d761b3951900f",
+      "bytes": 448532,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c07.md",
-      "sha256": "17e07325e818ef5bbdce062e28307320b782fcdfd40282d026d2fa4b5b186eb7",
-      "bytes": 88808,
+      "sha256": "1bc42116d954b94d39111d8c414adc07bd20c07cdf47a68383684892ead5724a",
+      "bytes": 88809,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c08.md",
-      "sha256": "c3828bae0bd8afb2d0d5eaededd270e407ca8b9de8a104f493c99dbb804566ad",
-      "bytes": 45142,
+      "sha256": "da55b148e96f4366781cdd03923477e08cd6721379632077876b6819338c6193",
+      "bytes": 45143,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c09.md",
-      "sha256": "9c3f688b2d895936a7f11d3408358bf31eb99e3200683e0335e16358b5b4cfdc",
-      "bytes": 70351,
+      "sha256": "7d634935af1cc0116c39eeb0525755657e4adc4af42cf893a334d3aff50afa89",
+      "bytes": 70352,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c10.md",
-      "sha256": "225d813933a650c1fa9030ed130a6ad591d78724fe4dc55212afa0f5ed4ba218",
-      "bytes": 54223,
+      "sha256": "2dd97f118e9ff4acf8a6d534d093e31eed20693ccad2990d82f7659093a110b5",
+      "bytes": 54224,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c11.md",
-      "sha256": "48cb8d36b8d4b32676c39f6468b09c40d56a0392a9055e52c3bff7a53d6f86ac",
-      "bytes": 1797,
+      "sha256": "916856d5ecb811e901dff151dfe3fdabc1ff50f7aed3d0d367fd50db636aaef7",
+      "bytes": 1798,
       "source": null,
       "transformations": []
     },
     {
       "path": "derived/evidence/c12.md",
-      "sha256": "8b36c54924fbf50b1fa2a1c6b72f467be636844cb8396a2b7d99bd4db6961471",
-      "bytes": 1142,
+      "sha256": "ddd9d02c97e2b10b6ee8043584096c792387da9d00809a01c54d3231a3244197",
+      "bytes": 1143,
       "source": null,
       "transformations": []
     },
@@ -545,7 +545,7 @@
     },
     {
       "path": "derived/manifest.json",
-      "sha256": "b9fec52609b37fe7011684c70ca3d99aecbffc5c142311c633e474d23b0a4593",
+      "sha256": "ce91e41eb381b20ec076e10ac960b3da6dbbf5cab9ec8fb161a9a5951c56400c",
       "bytes": 8932,
       "source": null,
       "transformations": []
@@ -615,7 +615,7 @@
     },
     {
       "path": "paper/draft-release.json",
-      "sha256": "13bb6b09ec7873c4ef4d27f60c6fecb280127e50fa24346bd1bb97ab4423dc16",
+      "sha256": "1fbfc5eca275edcbd690a5d30eb4039861587ba727fce8014746a23fdaab7c96",
       "bytes": 1141,
       "source": null,
       "transformations": [
@@ -953,8 +953,8 @@
     },
     {
       "path": "scripts/paper/build.cjs",
-      "sha256": "94493c7bc7931e395551ed7bf30e4324c41abd87ddd433a8ad602eeb6e7b0c55",
-      "bytes": 26554,
+      "sha256": "1dd4338a974a62b59d7b4a7214e79975bc79a9491205057cd9ca710f45246c16",
+      "bytes": 26835,
       "source": "work/PAPER_ARTICLE_PRESENTATION_20260913/implementation/scripts/paper/build.cjs",
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes."
@@ -993,8 +993,8 @@
     },
     {
       "path": "scripts/paper/toolchain.json",
-      "sha256": "1981b946724bde440aafd173f0a4a2484784651b4ae69e1ee2b7dfd6656aebb4",
-      "bytes": 525,
+      "sha256": "fac1a90b03e9ac007b02d4faa36cdd4db8d47afe7cf1f4521f77aa51a758e0f6",
+      "bytes": 555,
       "source": "work/PAPER_RELEASE_PIPELINE_20260913/implementation/scripts/paper/toolchain.json",
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes."
@@ -1215,8 +1215,8 @@
     },
     {
       "path": "thesis/appendices/A-case-evidence-tables.md",
-      "sha256": "04ec008a4a55445bc13eeaae7e5cff3dda6b6b6b05a348df1ccbfb6e02cd7977",
-      "bytes": 759,
+      "sha256": "4cd4b88ed90a2cb59c5544e80dcdc924532c4cbb292fac1b50d1d4d19a3763b8",
+      "bytes": 49254,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1224,8 +1224,8 @@
     },
     {
       "path": "thesis/appendices/B-alternatives-matrix.md",
-      "sha256": "f02e9044b6bf641781ce76bb48d51daf0a39d78caa892e71003de3319cac4935",
-      "bytes": 581,
+      "sha256": "41e74b70dd0a490b5b5dba2730c4d81fa522aa03427d7d3390fbb4c86ca5d5ba",
+      "bytes": 18163,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1233,8 +1233,8 @@
     },
     {
       "path": "thesis/appendices/C-gap-gate-disposition-register.md",
-      "sha256": "80ba2aca85684ba3906c67194f25297a15690bfd39ec19b60d5547625994610d",
-      "bytes": 756,
+      "sha256": "c30154d31f6776790ddd6c1837d502db2a75e5b466f48fb27e6d2f7fd93a079e",
+      "bytes": 32983,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1242,8 +1242,8 @@
     },
     {
       "path": "thesis/appendices/D-dependence-map.md",
-      "sha256": "2120b8c07bea98805c86e96a13235cd88267ebfd88146698dafb75206e9c01a5",
-      "bytes": 572,
+      "sha256": "0d59bf94f558c84e42eb3884c35845cd27bf7fc59eebd9487df821f8d7b82f67",
+      "bytes": 28844,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1251,8 +1251,8 @@
     },
     {
       "path": "thesis/chapters/00-front-matter.md",
-      "sha256": "b75f91cbe09e8849fe8d74f3b14437717ddeebd30d77b2fb46c12be199714b3b",
-      "bytes": 916,
+      "sha256": "c4a4e688851100ac7d151abf7f41ed27ac83ab80a5cc8e770432fe439bf28287",
+      "bytes": 4101,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1260,8 +1260,8 @@
     },
     {
       "path": "thesis/chapters/01-introduction.md",
-      "sha256": "614861ba6abe7db5bdb0cb5e294d031796a72e589f01ccb916963f06472ca4a1",
-      "bytes": 20717,
+      "sha256": "d798de3a69982f12119e3b08e4f1076fa7e01c026bbaa30700990869de751dc7",
+      "bytes": 22792,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1269,8 +1269,8 @@
     },
     {
       "path": "thesis/chapters/02-methodology.md",
-      "sha256": "410356158efef5d30003e130a6e3bdbd658aacafc5b1b60453dacea79f7696c4",
-      "bytes": 36822,
+      "sha256": "09274765756cbf07e076d6944ed6ce0c57cded4665d35ab8b15fb407fb7a428d",
+      "bytes": 39874,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1278,8 +1278,8 @@
     },
     {
       "path": "thesis/chapters/03-alternatives.md",
-      "sha256": "d331602180e04cdbdb83962222525f381bd731397094b7e472c5285dd8e63e30",
-      "bytes": 35265,
+      "sha256": "998b7534df64a1cded714a090ef202ed36ee36514b9b9b81529f4ce31c67ef78",
+      "bytes": 38274,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1287,8 +1287,8 @@
     },
     {
       "path": "thesis/chapters/04-phenomenal.md",
-      "sha256": "0eeec4626352e781436bdc2168414c1d316203ae66753704ffd9f37297113bdb",
-      "bytes": 21932,
+      "sha256": "c455747044e7d5948831cd7ce3fc7372f61e4e48a19e6ec069ddffdea44e12c2",
+      "bytes": 23367,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1296,8 +1296,8 @@
     },
     {
       "path": "thesis/chapters/05-existence.md",
-      "sha256": "a374cabdde5792615116fabac3e085ff279bb72a0c85b512cf925a1b35656908",
-      "bytes": 25502,
+      "sha256": "ce24fc83444caf602d0d9b1357f64a8b9027f6ba58488b145fcd1c109d6a0462",
+      "bytes": 26866,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1305,8 +1305,8 @@
     },
     {
       "path": "thesis/chapters/06-empirical.md",
-      "sha256": "1043d31590ff289eeadd581493ec3c1c97f8e6a0b26f6180b92d38f8c9884b36",
-      "bytes": 55201,
+      "sha256": "22cdaddcc6b240d3bea64cc056aa39c7e3ab64f29b4b55dfb7f0f4a3b045c2f2",
+      "bytes": 57287,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1314,8 +1314,8 @@
     },
     {
       "path": "thesis/chapters/07-continuity.md",
-      "sha256": "60ad483989884aa134b12fc996cdd88438248d6cf6593dddca8184f227671dcc",
-      "bytes": 35417,
+      "sha256": "79f69c88414a949a0b708133c0bb8269a7670e2859dae0d87c6f03d3b3391159",
+      "bytes": 37837,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1323,8 +1323,8 @@
     },
     {
       "path": "thesis/chapters/08-meaning.md",
-      "sha256": "9e52e4d2afc64ede543b3b38b129d9eefe9ce654b783374d1d1c2af5fad408a9",
-      "bytes": 24338,
+      "sha256": "c19771fc9cac61ebbaa73c4940f21de45f1045db90fac8b72886b98a24b0cc94",
+      "bytes": 25591,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1332,8 +1332,8 @@
     },
     {
       "path": "thesis/chapters/09-morality.md",
-      "sha256": "2f0c93d98cbcad05adfda9fefd01ffa75625dc0f85a2d7cba304aa8fd2132c08",
-      "bytes": 25973,
+      "sha256": "2c81ed300f84691d533bfc524f505e11b625cfd51bbca127cf357552180d1fcc",
+      "bytes": 27831,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1341,8 +1341,8 @@
     },
     {
       "path": "thesis/chapters/10-goodness.md",
-      "sha256": "78d76fcd3ff4e3b9ced68bd8c105095b39ef7371da707b8e203a0413dd70916d",
-      "bytes": 26081,
+      "sha256": "b1d279223b1f916056b93fde4eaf21d08182cde5276f2a070c4f3f72c7d24536",
+      "bytes": 27276,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1350,8 +1350,8 @@
     },
     {
       "path": "thesis/chapters/11-cumulative.md",
-      "sha256": "e4c88317381bb54c1e0d57c651e58d13a8052b5222efcee98ec41bf3a70e7f1b",
-      "bytes": 1437,
+      "sha256": "99d2030fd987b18f42f832cdee1c0400c2ecd2b8fb99c64f9caad08f56018226",
+      "bytes": 45978,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1359,8 +1359,8 @@
     },
     {
       "path": "thesis/chapters/12-conclusion.md",
-      "sha256": "715fa86100916a1627f1cfa2e2148390449eefa2d373c7feb1859585279fa290",
-      "bytes": 908,
+      "sha256": "23a9cf91e4489d09c0ae577391d865e3a7417e00c3b8438f8c995540289f5a17",
+      "bytes": 28567,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1368,71 +1368,71 @@
     },
     {
       "path": "thesis/crosswalk/apA.json",
-      "sha256": "9157f3f78f6d7e51058f4ff05a5c9e53fa56f200586bd8ca7683de080b74d164",
-      "bytes": 81,
+      "sha256": "4f63f1c1ec3ffde51719f06c9e21cb5100c83d01da22f714b1007b15647fa249",
+      "bytes": 14033,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/apB.json",
-      "sha256": "11523efc8c8622bf4ea376d2c7ec26b4b61ca904781e5a98696d6f7d73d0c334",
-      "bytes": 81,
+      "sha256": "916021488622fd4390a205f4ea3c100851edeedb4ed5ae3ddb2aad1027848e0d",
+      "bytes": 6001,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/apC.json",
-      "sha256": "1bbe2ee73b0badb807a78c2f8fdc4e787e9780ce833f03e6de7b803dbe1e6184",
-      "bytes": 81,
+      "sha256": "aad90ac4c3ab827336e14ef27a5cbfd4f694b34b757f789319fb0b1ba00342a0",
+      "bytes": 9877,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/apD.json",
-      "sha256": "ff3f4ac8e42dbd2caa16a9c2e982bb995c2d5fc64786fe9fc9e8052ea836ea37",
-      "bytes": 81,
+      "sha256": "ad78ed4c697066e7bd132cd1be4274caa6d226663d5f43a63b8370e9e22c9837",
+      "bytes": 10038,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c00.json",
-      "sha256": "fbd396a4031983f3b0c01459981fb3e7c4532702d9024a1228745fa809ae8319",
-      "bytes": 81,
+      "sha256": "667451d5e79d82ec24496aa84f47367ae5d03db4abb9c5b6808d4b4bf0067417",
+      "bytes": 1051,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c01.json",
-      "sha256": "b927bbf8fe9a8c931b27ca36fc5feaf2c93d8618d68e3837ea1578ea5da6dd61",
-      "bytes": 5029,
+      "sha256": "de048c741e94256feb274b53e22301c4ae1d4a1268f99d027b8e69cc6ba1b204",
+      "bytes": 6404,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c02.json",
-      "sha256": "23ae5b1511a0b91805bfb97e8351cf32f0117e0eab927e18d159dad874fff472",
-      "bytes": 6311,
+      "sha256": "3f92a57e6f21aee6b033b0382ca31baa2caf3273dcdc2db02f3431fea3b7e684",
+      "bytes": 8280,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c03.json",
-      "sha256": "e57f5b2f13a8b846e5aeeef4e6e9e50c2f76cb0541ee2b6318e7a9e109f6b4d3",
-      "bytes": 6513,
+      "sha256": "9ae73930cd35d3e5c72d99ee9c2842ee574755cd3816a303634dd1347f88e5ec",
+      "bytes": 9608,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c04.json",
-      "sha256": "3ccd303da3a9b7812106852bfdc8444ac571efbecfff57eec4ecc88a18a3d776",
-      "bytes": 4399,
+      "sha256": "0ddddb7fdf8aef60633c1796bd381fe2795ff3e35714326fd4a0c0718df5ce03",
+      "bytes": 6276,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c05.json",
-      "sha256": "201f5c565e388fae644709785c914d94d30679334873ed8b5d7d042f3d461891",
-      "bytes": 4411,
+      "sha256": "e2f3025ffec66628aed66fa9b60a73ce6c7ce70ac9b67bac0ad3e13b461138c3",
+      "bytes": 6076,
       "source": null,
       "transformations": []
     },
@@ -1445,8 +1445,8 @@
     },
     {
       "path": "thesis/crosswalk/c07.json",
-      "sha256": "0d0d06cfabeacf13c2ef7d089abd047782c77390dd92c5b103657f60a0bf9e3c",
-      "bytes": 5763,
+      "sha256": "953a6b0f9b8c43da7c2812d072e13d287ce6c2b3e31c5ef2e97ac14e8b6cb815",
+      "bytes": 7914,
       "source": null,
       "transformations": []
     },
@@ -1459,8 +1459,8 @@
     },
     {
       "path": "thesis/crosswalk/c09.json",
-      "sha256": "f3aa63d7c5bea5a7152223a0229bc9ca3e9ec78864ce02b01112aecf99e27c2f",
-      "bytes": 4736,
+      "sha256": "4b929144bda23a9323c3fa95bb339cf3543f5bf16561f2e54efe37ff17bbd484",
+      "bytes": 6300,
       "source": null,
       "transformations": []
     },
@@ -1473,22 +1473,22 @@
     },
     {
       "path": "thesis/crosswalk/c11.json",
-      "sha256": "8061525619f420de3e26b21ef2f16b9f48f649ef5ed27ddbc65ec82afd4a5c35",
-      "bytes": 81,
+      "sha256": "fb06bcf94f385b0f413a5c288dc60a4716be8d92cf47b06a2633498806245a97",
+      "bytes": 16421,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/crosswalk/c12.json",
-      "sha256": "63754359c7258a60435e056fd6980eb36ae4172059d6cc45846e38c17f29d91c",
-      "bytes": 81,
+      "sha256": "a89a8931310e958268c730e1f82d2e0e0c041e222aac09a6229c9915c6f0ada2",
+      "bytes": 12841,
       "source": null,
       "transformations": []
     },
     {
       "path": "thesis/evidence_map.json",
-      "sha256": "3f480dff663acb8f46e8e887360d3e7b65d2e11cf2a936bcc59bd6e1ab9a2855",
-      "bytes": 3270,
+      "sha256": "88742a42217d76d30977c88522b0c2b33b932da4ce7a3012f531222a86de27ad",
+      "bytes": 3302,
       "source": null,
       "transformations": []
     },

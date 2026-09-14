@@ -2,5 +2,32 @@
   "schema": 1,
   "thesis_version": "0.1.0",
   "part": "c00",
-  "entries": []
+  "entries": [
+    {
+      "paragraph_id": "c00-p001",
+      "refs": [
+        "PREMISE:article:p-001 (paper/paper.html abstract, expanded to thesis scope)",
+        "PREMISE:thesis:c11-c12-verdicts (thesis/chapters/11-cumulative.md c11-p031, c11-p032; thesis/chapters/12-conclusion.md c12-p002, c12-p003, c12-p026)",
+        "A-T05-001",
+        "CL-T05-003",
+        "CL-T05-004",
+        "A-T09-001",
+        "CL-T09-019",
+        "CL-T14-009",
+        "A-T14-002"
+      ]
+    },
+    {
+      "paragraph_id": "c00-p002",
+      "refs": [
+        "PREMISE:plan:declarations (thesis/thesis.json ai_disclosure and project_direction; phase3/Thesis_Execution_Plan.md 'Honesty constraints' and 'Gates and reviews'; STATUS.md; AI_Execution_Framework.md sections 5-6)"
+      ]
+    },
+    {
+      "paragraph_id": "c00-p003",
+      "refs": [
+        "PREMISE:method:scope-and-authorizations (work/G0/protocol_v1.md via c02-p021, c02-p022, c02-p039; thesis/README.md Crosswalk)"
+      ]
+    }
+  ]
 }

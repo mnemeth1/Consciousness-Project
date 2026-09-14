@@ -3,43 +3,348 @@
   "thesis_version": "0.1.0",
   "part": "c07",
   "entries": [
-    { "paragraph_id": "c07-p001", "refs": ["PREMISE:structure:chapter-scope (paper/paper.html section 6 p-030 to p-034; phase3/Thesis_Execution_Plan.md c07 row; derived/gap_gate_register.json gates withheld)"] },
-    { "paragraph_id": "c07-p002", "refs": ["PREMISE:method:attribution-only-and-versions (work/G0/protocol_v1.md s5; source version limits per S-T11-001, S-T11-002, S-T11-003, S-T11-004, S-T11-005, S-T13-001, S-T13-002, S-T13-003; exact journal copies S-P2T12-001..006 with CL-P2T12-026 anomalies)", "CL-T11-020"] },
-    { "paragraph_id": "c07-p003", "refs": ["PREMISE:article:p-030 (paper/paper.html p-030)", "CL-T11-017", "CL-T13-016", "A-T11-005", "PREMISE:method:component-definitions (work/G2/synthesis_constraints.json H-S: same person's subjectivity beyond irreversible bodily death)"] },
-    { "paragraph_id": "c07-p004", "refs": ["CL-T11-017", "CL-T13-016", "CL-T13-017", "CL-T13-018"] },
-    { "paragraph_id": "c07-p005", "refs": ["A-T11-005", "CL-T11-017", "CL-T13-018"] },
-    { "paragraph_id": "c07-p006", "refs": ["CL-T11-001", "CL-T11-002", "CL-T11-003", "S-T11-001"] },
-    { "paragraph_id": "c07-p007", "refs": ["CL-T11-004", "CL-T11-005", "S-T11-002"] },
-    { "paragraph_id": "c07-p008", "refs": ["CL-T11-006", "CL-T11-018", "CL-T11-019", "A-T11-001"] },
-    { "paragraph_id": "c07-p009", "refs": ["CL-T11-007", "CL-T11-008", "S-T11-003"] },
-    { "paragraph_id": "c07-p010", "refs": ["CL-P2T12-001", "CL-P2T12-002", "S-P2T12-001", "PREMISE:article:p-031 (paper/paper.html p-031)"] },
-    { "paragraph_id": "c07-p011", "refs": ["CL-P2T12-004", "CL-P2T12-005", "CL-P2T12-007", "S-P2T12-001"] },
-    { "paragraph_id": "c07-p012", "refs": ["CL-P2T12-003", "CL-P2T12-006", "S-P2T12-001", "PREMISE:article:p-033 (paper/paper.html p-033, 1981 p. 443 denial)"] },
-    { "paragraph_id": "c07-p013", "refs": ["CL-P2T12-008", "CL-P2T12-009", "CL-P2T12-010", "CL-P2T12-011", "CL-P2T12-026", "S-P2T12-002"] },
-    { "paragraph_id": "c07-p014", "refs": ["CL-P2T12-012", "CL-P2T12-013", "CL-P2T12-014", "S-P2T12-003", "PREMISE:article:p-032 (paper/paper.html p-032)"] },
-    { "paragraph_id": "c07-p015", "refs": ["CL-P2T12-015", "CL-P2T12-016", "CL-P2T12-017", "CL-P2T12-018", "CL-P2T12-019", "CL-P2T12-026", "S-P2T12-004"] },
-    { "paragraph_id": "c07-p016", "refs": ["CL-P2T12-020", "CL-P2T12-021", "A-P2T12-001", "A-P2T12-002", "S-P2T12-004", "PREMISE:article:p-033-verdict (paper/paper.html p-033)"] },
-    { "paragraph_id": "c07-p017", "refs": ["CL-T11-009", "CL-T11-010", "A-T11-003", "S-T11-004"] },
-    { "paragraph_id": "c07-p018", "refs": ["CL-T11-011", "CL-T11-012", "CL-T11-013", "A-T11-004", "S-T11-005"] },
-    { "paragraph_id": "c07-p019", "refs": ["CL-T11-014", "CL-T11-015", "CL-T11-016", "CL-T11-020", "A-T11-002"] },
-    { "paragraph_id": "c07-p020", "refs": ["CL-P2T12-022", "CL-P2T12-023", "A-P2T12-003", "S-P2T12-001", "S-P2T12-004", "PREMISE:article:p-033 (paper/paper.html p-033)"] },
-    { "paragraph_id": "c07-p021", "refs": ["PREMISE:article:p-033 (paper/paper.html p-033)", "PREMISE:article:p-034 (paper/paper.html p-034)", "CL-T13-018", "CL-P2T12-023"] },
-    { "paragraph_id": "c07-p022", "refs": ["A-T13-004", "CL-T13-017", "CL-T11-019", "CL-P2T12-024"] },
-    { "paragraph_id": "c07-p023", "refs": ["CL-P2T12-024", "CL-P2T12-025", "S-P2T12-001", "S-P2T12-004"] },
-    { "paragraph_id": "c07-p024", "refs": ["CL-T13-001", "CL-T13-002", "S-T13-001"] },
-    { "paragraph_id": "c07-p025", "refs": ["CL-T13-007", "CL-T13-008", "A-T13-001"] },
-    { "paragraph_id": "c07-p026", "refs": ["CL-T13-003", "CL-T13-004", "A-T13-002", "S-T13-002"] },
-    { "paragraph_id": "c07-p027", "refs": ["CL-T13-005", "CL-T13-006", "A-T13-003", "S-T13-003"] },
-    { "paragraph_id": "c07-p028", "refs": ["CL-T13-009", "CL-T13-019"] },
-    { "paragraph_id": "c07-p029", "refs": ["CL-P2T12-027", "CL-P2T12-028", "CL-P2T12-029", "CL-P2T12-030", "S-P2T12-005"] },
-    { "paragraph_id": "c07-p030", "refs": ["CL-P2T12-031", "CL-P2T12-032", "CL-P2T12-033", "CL-P2T12-034", "CL-P2T12-035", "CL-P2T12-036", "S-P2T12-006"] },
-    { "paragraph_id": "c07-p031", "refs": ["CL-P2T12-036", "CL-P2T12-037", "CL-P2T12-038", "A-P2T12-004"] },
-    { "paragraph_id": "c07-p032", "refs": ["CL-T13-010", "A-T13-005", "S-T08-006"] },
-    { "paragraph_id": "c07-p033", "refs": ["CL-T13-011", "CL-T13-012", "C-T13-001", "S-T13-004"] },
-    { "paragraph_id": "c07-p034", "refs": ["CL-T13-013", "A-T13-005"] },
-    { "paragraph_id": "c07-p035", "refs": ["CL-T13-014", "CL-T13-015", "S-T06-001", "S-T07-007"] },
-    { "paragraph_id": "c07-p036", "refs": ["CL-T13-020", "S-T08-006", "S-T13-004"] },
-    { "paragraph_id": "c07-p037", "refs": ["PREMISE:method:dependency-accounting (Einstein kinematic formalism; Rovelli relational formalism; Physics-to-metaphysics bridge; Boethian timeless knowledge; Craig tensed knowledge; Craig personhood defense; Timeless foundation construction; Shared philosophical premises per CL-T11-020; Eternity-personhood exchange; Lewis1986-Oaklander1987-88 identity and responsibility exchange; DG-T13-Locke; DG-T13-Olson; DG-T13-Swinburne; DG-T13-identity-bridges; DG-T13-DMT2018; DG-T08-IANDS-retrospective; DG-T06-ALEXANDER-2008-report-chain; DG-T13-inherited-NDE)", "CL-T11-020"] },
-    { "paragraph_id": "c07-p038", "refs": ["PREMISE:method:access-gaps (uninspected originals per S-T11-004/S-T11-005 provenance, CL-T11-010, CL-P2T12-015, CL-P2T12-032, CL-P2T12-035 limitations, CL-T13-004, CL-T13-008; bounded searches per CL-P2T12-017, CL-P2T12-036)", "CL-P2T12-025", "CL-T13-019", "CL-T11-019", "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json nine components)"] }
+    {
+      "paragraph_id": "c07-p001",
+      "refs": [
+        "PREMISE:structure:chapter-scope (paper/paper.html section 6 p-030 to p-034; phase3/Thesis_Execution_Plan.md c07 row; derived/gap_gate_register.json gates withheld)"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p002",
+      "refs": [
+        "PREMISE:method:attribution-only-and-versions (work/G0/protocol_v1.md s5; source version limits per S-T11-001, S-T11-002, S-T11-003, S-T11-004, S-T11-005, S-T13-001, S-T13-002, S-T13-003; exact journal copies S-P2T12-001..006 with CL-P2T12-026 anomalies)",
+        "CL-T11-020"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p003",
+      "refs": [
+        "PREMISE:article:p-030 (paper/paper.html p-030)",
+        "CL-T11-017",
+        "CL-T13-016",
+        "A-T11-005",
+        "PREMISE:method:component-definitions (work/G2/synthesis_constraints.json H-S: same person's subjectivity beyond irreversible bodily death)"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p004",
+      "refs": [
+        "CL-T11-017",
+        "CL-T13-016",
+        "CL-T13-017",
+        "CL-T13-018"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p005",
+      "refs": [
+        "A-T11-005",
+        "CL-T11-017",
+        "CL-T13-018"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p006",
+      "refs": [
+        "CL-T11-001",
+        "CL-T11-002",
+        "CL-T11-003",
+        "S-T11-001"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p007",
+      "refs": [
+        "CL-T11-004",
+        "CL-T11-005",
+        "S-T11-002"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p008",
+      "refs": [
+        "CL-T11-006",
+        "CL-T11-018",
+        "CL-T11-019",
+        "A-T11-001"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p009",
+      "refs": [
+        "CL-T11-007",
+        "CL-T11-008",
+        "S-T11-003"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p010",
+      "refs": [
+        "CL-P2T12-001",
+        "CL-P2T12-002",
+        "S-P2T12-001",
+        "PREMISE:article:p-031 (paper/paper.html p-031)"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p011",
+      "refs": [
+        "CL-P2T12-004",
+        "CL-P2T12-005",
+        "CL-P2T12-007",
+        "S-P2T12-001"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p012",
+      "refs": [
+        "CL-P2T12-003",
+        "CL-P2T12-006",
+        "S-P2T12-001",
+        "PREMISE:article:p-033 (paper/paper.html p-033, 1981 p. 443 denial)"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p013",
+      "refs": [
+        "CL-P2T12-008",
+        "CL-P2T12-009",
+        "CL-P2T12-010",
+        "CL-P2T12-011",
+        "CL-P2T12-026",
+        "S-P2T12-002"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p014",
+      "refs": [
+        "CL-P2T12-012",
+        "CL-P2T12-013",
+        "CL-P2T12-014",
+        "S-P2T12-003",
+        "PREMISE:article:p-032 (paper/paper.html p-032)"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p015",
+      "refs": [
+        "CL-P2T12-015",
+        "CL-P2T12-016",
+        "CL-P2T12-017",
+        "CL-P2T12-018",
+        "CL-P2T12-019",
+        "CL-P2T12-026",
+        "S-P2T12-004"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p016",
+      "refs": [
+        "CL-P2T12-020",
+        "CL-P2T12-021",
+        "A-P2T12-001",
+        "A-P2T12-002",
+        "S-P2T12-004",
+        "PREMISE:article:p-033-verdict (paper/paper.html p-033)"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p017",
+      "refs": [
+        "CL-T11-009",
+        "CL-T11-010",
+        "A-T11-003",
+        "S-T11-004"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p018",
+      "refs": [
+        "CL-T11-011",
+        "CL-T11-012",
+        "CL-T11-013",
+        "A-T11-004",
+        "S-T11-005"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p019",
+      "refs": [
+        "CL-T11-014",
+        "CL-T11-015",
+        "CL-T11-016",
+        "CL-T11-020",
+        "A-T11-002"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p020",
+      "refs": [
+        "CL-P2T12-022",
+        "CL-P2T12-023",
+        "A-P2T12-003",
+        "S-P2T12-001",
+        "S-P2T12-004",
+        "PREMISE:article:p-033 (paper/paper.html p-033)",
+        "CL-P2T12-003"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p021",
+      "refs": [
+        "PREMISE:article:p-033 (paper/paper.html p-033)",
+        "PREMISE:article:p-034 (paper/paper.html p-034)",
+        "CL-T13-018",
+        "CL-P2T12-023"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p022",
+      "refs": [
+        "A-T13-004",
+        "CL-T13-017",
+        "CL-T11-019",
+        "CL-P2T12-024"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p023",
+      "refs": [
+        "CL-P2T12-024",
+        "CL-P2T12-025",
+        "S-P2T12-001",
+        "S-P2T12-004"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p024",
+      "refs": [
+        "CL-T13-001",
+        "CL-T13-002",
+        "S-T13-001"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p025",
+      "refs": [
+        "CL-T13-007",
+        "CL-T13-008",
+        "A-T13-001"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p026",
+      "refs": [
+        "CL-T13-003",
+        "CL-T13-004",
+        "A-T13-002",
+        "S-T13-002"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p027",
+      "refs": [
+        "CL-T13-005",
+        "CL-T13-006",
+        "A-T13-003",
+        "S-T13-003"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p028",
+      "refs": [
+        "CL-T13-009",
+        "CL-T13-019"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p029",
+      "refs": [
+        "CL-P2T12-027",
+        "CL-P2T12-028",
+        "CL-P2T12-029",
+        "CL-P2T12-030",
+        "S-P2T12-005"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p030",
+      "refs": [
+        "CL-P2T12-031",
+        "CL-P2T12-032",
+        "CL-P2T12-033",
+        "CL-P2T12-034",
+        "CL-P2T12-035",
+        "CL-P2T12-036",
+        "S-P2T12-006"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p031",
+      "refs": [
+        "CL-P2T12-036",
+        "CL-P2T12-037",
+        "CL-P2T12-038",
+        "A-P2T12-004"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p032",
+      "refs": [
+        "CL-T13-010",
+        "A-T13-005",
+        "S-T08-006"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p033",
+      "refs": [
+        "CL-T13-011",
+        "CL-T13-012",
+        "C-T13-001",
+        "S-T13-004"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p034",
+      "refs": [
+        "CL-T13-013",
+        "A-T13-005"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p035",
+      "refs": [
+        "CL-T13-014",
+        "CL-T13-015",
+        "S-T06-001",
+        "S-T07-007"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p036",
+      "refs": [
+        "CL-T13-020",
+        "S-T08-006",
+        "S-T13-004"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p037",
+      "refs": [
+        "PREMISE:method:dependency-accounting (Einstein kinematic formalism; Rovelli relational formalism; Physics-to-metaphysics bridge; Boethian timeless knowledge; Craig tensed knowledge; Craig personhood defense; Timeless foundation construction; Shared philosophical premises per CL-T11-020; Eternity-personhood exchange; Lewis1986-Oaklander1987-88 identity and responsibility exchange; DG-T13-Locke; DG-T13-Olson; DG-T13-Swinburne; DG-T13-identity-bridges; DG-T13-DMT2018; DG-T08-IANDS-retrospective; DG-T06-ALEXANDER-2008-report-chain; DG-T13-inherited-NDE)",
+        "CL-T11-020"
+      ]
+    },
+    {
+      "paragraph_id": "c07-p038",
+      "refs": [
+        "PREMISE:method:access-gaps (uninspected originals per S-T11-004/S-T11-005 provenance, CL-T11-010, CL-P2T12-015, CL-P2T12-032, CL-P2T12-035 limitations, CL-T13-004, CL-T13-008; bounded searches per CL-P2T12-017, CL-P2T12-036)",
+        "CL-P2T12-025",
+        "CL-T13-019",
+        "CL-T11-019",
+        "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json nine components)"
+      ]
+    }
   ]
 }

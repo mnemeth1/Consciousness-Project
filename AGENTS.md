@@ -30,6 +30,17 @@ Derived files are regenerable conveniences, never evidence: cite only ledger IDs
 
 When canonical evidence changes (overseer only): run `node scripts/derived/build.cjs --sync-manifest` to regenerate the views and update their publication-manifest entries in one step. `scripts/validate_public_snapshot.cjs` and continuous integration fail on a stale derived layer, so ledger edits cannot publish without regenerated views.
 
+## Grok CLI headless usage
+
+The xAI Grok CLI (`grok`, installed at `~/.grok/bin/grok.exe`) can run non-interactively for one-shot prompts or scripted calls:
+
+- Single-turn prompt (prints the response to stdout and exits): `grok -p "your prompt"`. Read the prompt from a file with `--prompt-file <path>`.
+- Select model and reasoning effort: `grok -m grok-4.6 --reasoning-effort xhigh -p "..."` (`--effort` is an alias; `grok models` lists available models — currently `grok-4.6` (default) and `grok-4.5`).
+- Machine-readable output: add `--output-format json` (or `streaming-json` / `streaming-messages-json` NDJSON). Constrain output to a schema with `--json-schema '<schema>'`, which implies JSON output.
+- Multi-turn without the TUI: `grok agent` runs the agent headless; cap it with `--max-turns <N>` and control tool approval with `--permission-mode <mode>`.
+
+Verified working example: `grok -m grok-4.6 --reasoning-effort xhigh -p "Reply with exactly: grok-4.6 online, effort accepted"`.
+
 ## Public snapshot context
 
 Read STATUS.md and PUBLICATION_NOTES.md first. This is a curated public snapshot, not the complete private working archive. Do not infer source-reading credit or live agents from historical records. Omitted source files and raw audit materials remain unavailable in this clone. The maintainer owns canonical records; public proposals require distinct-author review. Public repository status does not authorize publication of third-party source documents.

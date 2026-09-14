@@ -2,5 +2,393 @@
   "schema": 1,
   "thesis_version": "0.1.0",
   "part": "c12",
-  "entries": []
+  "entries": [
+    {
+      "paragraph_id": "c12-p001",
+      "refs": [
+        "PREMISE:structure:chapter-scope (phase3/Thesis_Execution_Plan.md P3C12 row; work/G2/synthesis_constraints.json SC-G2-03, SC-G2-04, component_requirements)",
+        "PREMISE:synthesis:T17-baseline (work/T17/baseline_assessment.json component_assessments; labels_policy)",
+        "PREMISE:rebased-input:P2S02-component-assessment (reports/P2S02/report.md 'Component assessment and strongest cases'; submitted, not accepted)"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p002",
+      "refs": [
+        "PREMISE:article:p-051 (paper/paper.html p-051)",
+        "PREMISE:article:p-004 (paper/paper.html p-004; wording restated; earned content mapped to the chapter records below)",
+        "A-T05-001",
+        "CL-T05-001",
+        "CL-T05-003",
+        "CL-T05-004",
+        "A-T12-001",
+        "A-P2T03-003",
+        "A-T10-003",
+        "A-T09-001",
+        "CL-T19-021",
+        "CL-T13-015",
+        "A-T14-001",
+        "CL-T14-009",
+        "CL-T15-019",
+        "A-T15-004",
+        "CL-P2T05-018"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p003",
+      "refs": [
+        "PREMISE:article:p-051-asymmetric-guidance (paper/paper.html p-051)",
+        "A-T09-001",
+        "CL-T19-021",
+        "A-T14-002",
+        "CL-T14-011",
+        "A-T15-003",
+        "A-T15-005",
+        "A-T14-005"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p004",
+      "refs": [
+        "PREMISE:synthesis:T17-labels-policy (work/T17/baseline_assessment.json labels_policy; work/T16/report.md 'separate without being logically independent')",
+        "PREMISE:hypothesis:component-non-entailments (work/T01/report.md via c01-p019)",
+        "PREMISE:constraint:SC-G2-03 (work/G2/synthesis_constraints.json)"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p005",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-F (work/T17/baseline_assessment.json T17-BASE-H-F record_reliability and inference_strength)",
+        "CL-T05-001",
+        "CL-T05-002",
+        "CL-T05-003",
+        "CL-T05-004",
+        "CL-T12-001",
+        "CL-T12-003",
+        "A-T05-001",
+        "A-T05-002",
+        "A-T12-001",
+        "A-T10-003",
+        "CL-T10-017"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p006",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-F-assessment (work/T17/baseline_assessment.json T17-BASE-H-F component_confidence and reason)",
+        "PREMISE:constraint:H-F-required-boundary (work/G2/synthesis_constraints.json component_requirements H-F)",
+        "PREMISE:synthesis:T18-what-would-discriminate (work/T18/report.md 'What would discriminate, and what remains withheld')",
+        "A-P2T05-003",
+        "A-P2T01-001",
+        "CL-T12-005",
+        "CL-T12-006"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p007",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-U (work/T17/baseline_assessment.json T17-BASE-H-U)",
+        "PREMISE:constraint:H-U-required-boundary (work/G2/synthesis_constraints.json component_requirements H-U)",
+        "CL-T12-013",
+        "CL-T12-014",
+        "CL-T12-015",
+        "CL-T12-016",
+        "CL-T12-017",
+        "CL-T12-018",
+        "A-T12-004",
+        "A-T12-005",
+        "A-P2T04-002",
+        "A-P2T04-003"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p008",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-B-record (work/T17/baseline_assessment.json T17-BASE-H-B record_reliability)",
+        "CL-T07-003",
+        "CL-T07-004",
+        "CL-T07-013",
+        "CL-T07-014",
+        "CL-T07-016",
+        "CL-T07-017",
+        "CL-T09-001",
+        "CL-T09-008",
+        "CL-T09-019",
+        "A-T09-001",
+        "CL-T19-021",
+        "A-T19-001",
+        "A-T19-002",
+        "PREMISE:synthesis:RT-T16-B-routes (work/T16/component_routes.json RT-T16-B-PROSPECT, RT-T16-B-REYNOLDS, RT-T16-B-DENTURES, RT-T16-B-ALEXANDER required inputs REPORTTRUE, TIMELOCK, EXCLUSION, BMAP)",
+        "CL-T07-001"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p009",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-B-assessment (work/T17/baseline_assessment.json T17-BASE-H-B component_confidence and reason)",
+        "PREMISE:constraint:H-B-required-boundary (work/G2/synthesis_constraints.json component_requirements H-B)",
+        "PREMISE:synthesis:T18-what-would-discriminate (work/T18/report.md 'What would discriminate, and what remains withheld')",
+        "A-T09-002",
+        "A-P2T18-002",
+        "CL-T09-006",
+        "A-P2T09-003"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p010",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-S (work/T17/baseline_assessment.json T17-BASE-H-S; identity_variants in work/T17/sensitivity_results.json)",
+        "PREMISE:constraint:H-S-required-boundary (work/G2/synthesis_constraints.json component_requirements H-S)",
+        "CL-T13-001",
+        "CL-T13-003",
+        "CL-T13-005",
+        "CL-T13-006",
+        "CL-T13-007",
+        "CL-T13-015",
+        "CL-T13-017",
+        "CL-T19-022",
+        "A-T13-001",
+        "A-T13-002",
+        "A-T13-003",
+        "A-T13-004",
+        "A-T01-001"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p011",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-T (work/T17/baseline_assessment.json T17-BASE-H-T)",
+        "PREMISE:constraint:H-T-required-boundary (work/G2/synthesis_constraints.json component_requirements H-T)",
+        "CL-T11-001",
+        "CL-T11-006",
+        "CL-T11-007",
+        "CL-T11-009",
+        "CL-T11-014",
+        "CL-T11-015",
+        "CL-T11-016",
+        "CL-T13-014",
+        "CL-T13-020",
+        "A-T11-001",
+        "A-T11-002",
+        "A-T11-003",
+        "A-P2T12-001",
+        "A-P2T12-002"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p012",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-P (work/T17/baseline_assessment.json T17-BASE-H-P)",
+        "PREMISE:constraint:H-P-required-boundary (work/G2/synthesis_constraints.json component_requirements H-P)",
+        "CL-T11-017",
+        "CL-T13-016",
+        "CL-T13-017",
+        "CL-T13-018",
+        "CL-T14-013",
+        "A-T11-005",
+        "A-T13-004"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p013",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-I (work/T17/baseline_assessment.json T17-BASE-H-I)",
+        "PREMISE:constraint:H-I-required-boundary (work/G2/synthesis_constraints.json component_requirements H-I)",
+        "CL-T10-002",
+        "CL-T10-008",
+        "CL-T10-009",
+        "CL-T10-010",
+        "CL-T10-012",
+        "CL-T10-013",
+        "CL-T10-018",
+        "CL-T14-015",
+        "CL-T14-016",
+        "CL-T14-017",
+        "A-T10-002",
+        "A-T14-004",
+        "A-T14-005",
+        "A-T01-003"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p014",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-G (work/T17/baseline_assessment.json T17-BASE-H-G)",
+        "PREMISE:constraint:H-G-required-boundary (work/G2/synthesis_constraints.json component_requirements H-G)",
+        "CL-T15-006",
+        "CL-T15-007",
+        "CL-T15-008",
+        "CL-T15-009",
+        "CL-T15-010",
+        "CL-T15-011",
+        "CL-T15-012",
+        "CL-T15-013",
+        "CL-T15-015",
+        "CL-T15-020",
+        "CL-T15-022",
+        "CL-T15-023",
+        "CL-T15-024",
+        "A-T15-003",
+        "A-T15-004",
+        "A-T15-005",
+        "A-P2T08-001",
+        "A-P2T08-003",
+        "A-T14-005"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p015",
+      "refs": [
+        "PREMISE:synthesis:T17-BASE-H-A (work/T17/baseline_assessment.json T17-BASE-H-A)",
+        "PREMISE:constraint:H-A-required-boundary (work/G2/synthesis_constraints.json component_requirements H-A)",
+        "CL-T15-001",
+        "CL-T15-002",
+        "CL-T15-003",
+        "CL-T15-004",
+        "CL-T15-005",
+        "CL-T15-016",
+        "CL-T15-017",
+        "CL-T15-018",
+        "CL-T15-019",
+        "A-T15-001",
+        "A-T15-002",
+        "A-T15-006",
+        "A-P2T06-001",
+        "A-P2T06-002",
+        "A-P2T07-001",
+        "A-P2T07-005",
+        "A-T01-004"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p016",
+      "refs": [
+        "PREMISE:synthesis:T17-cross-component (work/T17/baseline_assessment.json cross_component_assessments X-T16-EX, X-T16-ENDURING, X-T16-FINITE; work/T16/component_routes.json RT-T16-FULL circularity_prohibitions)",
+        "CL-T10-017",
+        "CL-T12-013",
+        "CL-T12-018",
+        "CL-T14-005",
+        "CL-T14-010",
+        "CL-T14-011",
+        "CL-T14-019",
+        "CL-T14-020",
+        "CL-T14-003",
+        "CL-T14-004",
+        "CL-T14-009"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p017",
+      "refs": [
+        "PREMISE:synthesis:T18-what-would-discriminate (work/T18/report.md 'What would discriminate, and what remains withheld'; work/T17/report.md 'Priority discrimination needs')",
+        "CL-T19-021",
+        "A-P2T18-002",
+        "A-P2T15-002",
+        "A-P2T17-002",
+        "A-P2T14-002"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p018",
+      "refs": [
+        "PREMISE:synthesis:T18-what-would-discriminate (work/T18/report.md)",
+        "PREMISE:register:missing-originals (derived/gap_gate_register.json; canonical work/G2/gap_register.json G1-GAP-05, G2-GAP-24, G2-GAP-30)",
+        "PREMISE:plan:gap-packets (phase3/Thesis_Execution_Plan.md 'Gap packets')",
+        "A-T12-004",
+        "A-T05-002",
+        "A-T10-003",
+        "CL-T12-018"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p019",
+      "refs": [
+        "PREMISE:synthesis:T18-what-would-discriminate (work/T18/report.md)",
+        "CL-T13-015",
+        "CL-T13-017",
+        "CL-T13-018",
+        "CL-T14-013",
+        "CL-T11-006",
+        "CL-T11-014",
+        "A-T11-001",
+        "A-T11-003",
+        "A-P2T12-003"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p020",
+      "refs": [
+        "PREMISE:synthesis:T18-what-would-discriminate (work/T18/report.md)",
+        "CL-T10-018",
+        "CL-T10-010",
+        "A-T14-005",
+        "A-T15-004",
+        "CL-T15-019",
+        "CL-T15-016",
+        "A-P2T08-001"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p021",
+      "refs": [
+        "PREMISE:synthesis:symmetric-countercase-tests (work/G2/synthesis_constraints.json SENS-G2-07; work/T17/sensitivity_results.json T17-07A, T17-07B, T17-07CH, T17-07CA)",
+        "A-T09-002",
+        "CL-T09-019",
+        "A-P2T19-001",
+        "A-P2T05-003",
+        "A-T12-001"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p022",
+      "refs": [
+        "PREMISE:synthesis:T17-priority-needs (work/T17/report.md 'T18 handoff': priority discrimination needs)",
+        "CL-T19-021",
+        "CL-T13-015",
+        "CL-T12-018",
+        "CL-T10-018",
+        "CL-T15-019"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p023",
+      "refs": [
+        "PREMISE:constraint:SC-G2-10 (work/G2/synthesis_constraints.json repair triggers)",
+        "PREMISE:plan:gap-packets (phase3/Thesis_Execution_Plan.md 'Gap packets'; no P3T packet dispatched at this writing)",
+        "PREMISE:register:named-missing-originals (work/P2A01/gap_dispositions.json G1-GAP-05-S2, G2-GAP-24-S2, G2-GAP-24-S3, G2-GAP-30-S2, G2-GAP-28-S2, G2-GAP-32-S2, G1-GAP-01-S2, G2-GAP-10-S2, G2-GAP-33-S2)",
+        "PREMISE:register:public-documents-vs-private-records (work/G2/gap_register.json G2-GAP-33 consequence and closure condition for the Sabom and dentures documents; work/P2A01/gap_dispositions.json G1-GAP-01-S2 earliest Neal text and G1-GAP-06-S2 earliest Alexander account; public documents bear on chronology and attribution, private charts and timed exclusions remain unavailable)",
+        "CL-T19-021"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p024",
+      "refs": [
+        "PREMISE:hypothesis:central-proposal (work/T01/report.md via c01-p005 and c01-p006)",
+        "PREMISE:constraint:G2-positive-case-concern (work/G2/gate_decision.md 'The positive case must preserve the user's actual concern with enduring personal and cosmic significance; finite benefit alone does not answer that concern')",
+        "CL-T14-009",
+        "CL-T14-004",
+        "CL-T14-010",
+        "A-T14-001",
+        "A-T14-002",
+        "A-P2T13-002"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p025",
+      "refs": [
+        "PREMISE:plan:gates-and-reviews (phase3/Thesis_Execution_Plan.md 'Gates and reviews' P3G1, P3R20, P3G2; phase2/amendments/002-thesis-rebase.md items 3-4; STATUS.md)"
+      ]
+    },
+    {
+      "paragraph_id": "c12-p026",
+      "refs": [
+        "PREMISE:article:p-052 (paper/paper.html p-052)",
+        "PREMISE:register:twelve-gates (derived/gap_gate_register.json gates GATE-T16-01 through GATE-T16-12)",
+        "A-T09-001",
+        "CL-T14-009",
+        "A-T14-002",
+        "A-T09-002",
+        "CL-T09-019"
+      ]
+    }
+  ]
 }

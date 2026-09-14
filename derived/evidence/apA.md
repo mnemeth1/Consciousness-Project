@@ -2,7 +2,7 @@
 
 # Evidence pack apA — Case evidence tables
 
-Non-canonical derived view for drafting/reviewing `thesis/appendices/A-case-evidence-tables.md` (status: skeleton).
+Non-canonical derived view for drafting/reviewing `thesis/appendices/A-case-evidence-tables.md` (status: submitted).
 Cite only canonical ledger IDs (CL-*, A-*, C-*, S-*); this file is a reading convenience, not a source.
 Full per-task records: derived/by_task/<TASK>.json. Single-record lookup: node scripts/derived/lookup.cjs <ID>.
 
@@ -16,6 +16,8 @@ Full per-task records: derived/by_task/<TASK>.json. Single-record lookup: node s
 - work/P2T15/report.md
 - work/P2T16/report.md
 - work/P2T17/report.md
+- work/P2T09/report.md
+- work/P2T18/report.md
 
 Note: Case evidence tables cover all 23 case records, not only the listed tasks' cases.
 
@@ -889,6 +891,326 @@ Recovery after CPR or surgery, and an interview’s temporal association of insi
   - No complete before-feedback list of correct and incorrect perceptions
   - Subsequent2011 rejoinder/2012 letter not inspected
 - Phase 2 reinspection: P2T16 / P2R16; claims CL-P2T16-001, CL-P2T16-002, CL-P2T16-003, CL-P2T16-012, CL-P2T16-014, CL-P2T16-016, CL-P2T16-019, CL-P2T16-020, CL-P2T16-021, CL-P2T16-023, CL-P2T16-024, CL-P2T16-025, CL-P2T16-028; accepted annex; all historical case fields retained
+
+## Task P2T09 (narrative: work/P2T09/report.md)
+
+### Arguments (3)
+
+#### A-P2T09-001 — EEG–recollection intersection challenge and direct reply (position: Critic and author exchange, with symmetric inference limits)
+
+- Premises: CL-P2T09-002, CL-P2T09-003, CL-P2T09-004, CL-P2T09-014
+- Bridge principles: Positive EEG–experience association requires an appropriate participant/time intersection., Absence of explicit memory is not equivalent to absence of consciousness.
+- Conclusion: The main study does not establish the positive association, and the missing association does not establish that the EEG patterns cannot be consciousness markers.
+- Claims: CL-P2T09-001, CL-P2T09-002, CL-P2T09-003, CL-P2T09-004, CL-P2T09-014, CL-P2T09-015, CL-P2T09-016; sources: S-P2T09-001, S-P2T09-002, S-T07-007
+- Strongest objection: A plausible clinical EEG interpretation and implicit-memory analogy might support consciousness despite absent recall.; strongest reply: These possibilities rebut a negative inference but do not identify the content or timing of an experience in the monitored participants.
+- Unresolved issues: Missing participant/time intersection Raw data and independent artifact classification Clinical marker validation in this protocol
+- Review: R-P2R09 (accept)
+
+#### A-P2T09-002 — From unusual recollection to extracerebral acquisition (position: Conditional favorable case and strongest methodological countercase)
+
+- Premises: CL-P2T09-009, CL-P2T09-010, CL-P2T09-012, CL-P2T09-013, CL-P2T09-016, CL-P2T09-020
+- Bridge principles: Externally accurate details would discriminate models only if timing and ordinary access were sufficiently constrained., Descriptive similarity or vividness does not establish external accuracy or the source of information.
+- Conclusion: Investigative interest remains warranted, but the inspected versions and correspondence do not establish excluded-process perception or brain independence.
+- Claims: CL-P2T09-005, CL-P2T09-009, CL-P2T09-010, CL-P2T09-012, CL-P2T09-013, CL-P2T09-016, CL-P2T09-020; sources: S-T07-001, S-T07-007, S-T07-004, S-P2T09-001, S-P2T09-002
+- Strongest objection: Author-checked resuscitation details and preserved cognition despite severe physiological compromise are difficult for simple absence-of-consciousness assumptions.; strongest reply: Challenge to that simple assumption is not an exclusion of every brain-dependent account; subject-specific neural state, memory timing and ordinary information access remain unmeasured or unresolved.
+- Depends on arguments: A-P2T09-001
+- Unresolved issues: Participant-linked physiology and timing Independent contemporaneous record access Target opportunities and chance model No observation beyond irreversible death
+- Review: R-P2R09 (accept)
+
+#### A-P2T09-003 — Martial direct reply: explanatory limits and the fruit reference class (position: Strongest inspected110205defense with protocol comparison)
+
+- Premises: CL-P2T09-006, CL-P2T09-022, CL-P2T09-023, CL-P2T09-024, CL-P2T09-025
+- Bridge principles: Methodological constraints explain missing analysis but do not supply its result., A chance model must match the actual cue, response space, scoring and sampling dependence., Physiological change and subjective descriptions do not independently establish a proposed mechanism.
+- Conclusion: The direct reply repairs debate coverage and offers a positive account; it does not close opportunity, timing, classification or guessing-model gaps.
+- Claims: CL-P2T09-006, CL-P2T09-012, CL-P2T09-013, CL-P2T09-022, CL-P2T09-023, CL-P2T09-024, CL-P2T09-025; sources: S-T07-003, S-P2T09-005, S-T07-007
+- Strongest objection: Clinical constraints and the rapidly changing state may make a stable-state critique inappropriate; standardized patterns and unusual responses may remain informative.; strongest reply: Their information value must be assessed within the available measurements and protocol; neither lack of detailed analysis nor a noun-count denominator establishes the needed inference.
+- Depends on arguments: A-P2T09-001, A-P2T09-002
+- Unresolved issues: Fruit-choice distribution and scoring Participant/time linkage Independent standards/classification validation 2022original critic and broader2025/2026chain remain uninspected
+- Review: R-P2R09 (accept)
+
+### Claims (25)
+
+#### CL-P2T09-001 [document_attribution]
+
+Parnia110080 explicitly answers Greyson and van Lommel109924; it is not identified in its body as a reply to Martial109980.
+
+- Sources: S-P2T09-002 ([object Object]), S-P2T09-001 ([object Object]), S-T07-003 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: The distinct110205reply addresses Martial; retain separate chains.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-002 [argument_attribution]
+
+Greyson and van Lommel question an EEG consciousness interpretation because recorded EEG and explicit cognitive recollections do not overlap in the reported interview subset; they also question artifact exclusion.
+
+- Sources: S-P2T09-001 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: An unmeasured association is not a demonstrated negative association. The main study reports only two interviewed participants with EEG.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-003 [argument_attribution]
+
+Parnia replies that absent explicit recall does not prove absent consciousness and invokes implicit memory and clinical EEG interpretation.
+
+- Sources: S-P2T09-002 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: This answers the critic’s negative inference but supplies no positive participant-specific experience or timing data.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-004 [method_attribution]
+
+Parnia asserts pulse-check sampling, artifact removal and expert ACNS-based EEG interpretation as a response to the artifact concern.
+
+- Sources: S-P2T09-002 ([object Object]), S-T07-007 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: No independent artifact audit or raw-data reanalysis was supplied by the letter. Physiological alpha versus alpha coma remains unresolved in the main paper p. 9.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-005 [argument_attribution_and_inference]
+
+The reply distinguishes correlation from production and proposes disinhibition; those claims do not establish either a causal mechanism or extracerebral acquisition.
+
+- Sources: S-P2T09-002 ([object Object]), S-T07-007 ([object Object])
+- Cases: C-T07-002, C-T07-003
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Alternative explanations: Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements.
+- Limitations: The broad assertion that no causal account exists is author attribution, not an independently verified literature result. Distinctive subjective themes do not establish external accuracy.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-006 [argument_attribution]
+
+The published Martial letter challenges EEG classification, terminology, fruit-choice interpretation and timing.
+
+- Sources: S-T07-003 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: Do not equate suppressed traces with burst-suppression without the referenced technical source. Its cited clinical/neural claims are not independently verified here.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-007 [source_numerical_attribution]
+
+The final AWARE I publication retains 140 first-stage interviews alongside 52 plus 90 interviews and the Table 1 denominator 142.
+
+- Sources: S-T07-001 ([object Object])
+- Cases: C-T07-001
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: 52+90=142 is arithmetic, not a correction authorized by participant data.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-008 [source_flow_attribution]
+
+AWARE I Fig. 1 places 39 stage-two noncompleters on the 85-no-memory branch of the 140 first-stage group; the 101 remaining are 46 no-memory, 46 non-NDE, seven NDE without event recall and two NDE with event recall.
+
+- Sources: S-T07-001 ([object Object])
+- Cases: C-T07-001
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: Raw flow data not obtained. The top graph label in-hospital cardiac arrests does not match the full inclusion scope on p. 1800.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-009 [source_flow_attribution]
+
+The AWARE I graph labels stage-three n=2 and one verified/one unverified recollection, while prose states poor health prevented further follow-up of one; both event-recall cases lacked concealed-target shelves.
+
+- Sources: S-T07-001 ([object Object])
+- Cases: C-T07-001
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: One author chart check is not two independent corroborations. The approximately 22% shelf-area figure is not an exposed-interviewed denominator.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-010 [inference_boundary]
+
+AWARE I’s author chart check and AED timing inference do not provide a participant-specific EEG measurement; awareness up to three minutes and arrest at least three minutes refer to different quantities.
+
+- Sources: S-T07-001 ([object Object])
+- Cases: C-T07-001
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Alternative explanations: Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements.
+- Limitations: No absence-of-measurement inference to absent neural processing. Clinical records and ordinary information access were not independently reopened.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-011 [source_numerical_attribution]
+
+AWARE II retains 567 arrests, 213 sustained ROSC, 53 discharge survivors, 28 interviewed and 11 reporters; category counts 2+2+3+6 are overlapping memberships.
+
+- Sources: S-T07-007 ([object Object]), S-P2T09-002 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: The interviewed sample does not estimate all-arrest consciousness prevalence. Twenty-five discharge survivors were not interviewed. The110080opening approximate40%/20%/3%and its without-explicit-recall wording are compressed descriptions, not new results, a53-person denominator or revised category classification.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-012 [method_and_opportunity_attribution]
+
+Equipment deployment in 365 cases is distinct from valid stimulus delivery; the main protocol starts images at one minute and auditory fruit words at five minutes after activation.
+
+- Sources: S-T07-007 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Alternative explanations: Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements.
+- Limitations: Delivered-image × interview and delivered-audio × interview remain unknown. Do not substitute 365, 567 or 28 for a confirmed opportunity denominator.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-013 [source_result_attribution]
+
+No explicit target recall or correct implicit image choice is reported; one correct implicit fruit choice is reported among 28 interviewees. This is distinct from the separate one-person overt visual recollection of clinical surroundings.
+
+- Sources: S-T07-007 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Alternative explanations: Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements.
+- Limitations: The identity overlap between those one-person results is unknown. Any-three-fruits selection is not a uniform finite-choice chance model.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-014 [source_numerical_attribution]
+
+EEG data comprise 851 images from 85 people, with 466 interpretable images from 53 people and oximetry in 49; only two of the 28 interviewed people had EEG and neither had explicit cognitive recall.
+
+- Sources: S-T07-007 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Alternative explanations: Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements.
+- Limitations: Screenshots and people are different units. Missing EEG–report links do not establish absence of consciousness.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-015 [version_unit_comparison]
+
+The main paper reports suppression in 47% of EEG data, whereas the Greyson letter paraphrases this as about half the patients. The original unit must be retained.
+
+- Sources: S-T07-007 ([object Object]), S-P2T09-001 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: No person-level suppression proportion is calculated.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-016 [source_attribution_and_inference]
+
+Aggregate timing summaries of EEG rhythms and Fig. 1A do not identify when a particular memory formed; the main paper explicitly cannot distinguish physiological alpha from alpha coma.
+
+- Sources: S-T07-007 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Alternative explanations: Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements.
+- Limitations: Late plotted points in Fig. 1A and the >60-minute bin in Fig. 1B (both p. 4) do not authorize a corrected exact maximum without tabular versions.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-017 [dependence_attribution]
+
+The 126 community narratives have selected retrospective ascertainment; between-arm overlap and reuse by companion monitoring analyses remain unknown.
+
+- Sources: S-T07-007 ([object Object])
+- Cases: C-T07-002, C-T07-003
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: No pooled rate or independent-evidence count from letters, retellings or possible ancillary reuse.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-018 [source_numerical_attribution]
+
+The Dutch published layout confirms the original 344 people, 509 episodes, 62 broad and 41 core reports, and still prints 248 interviewed within five days with 74%; the inspected correction changes none of those figures.
+
+- Sources: S-T07-004 ([object Object]), S-P2T09-003 ([object Object])
+- Cases: C-T07-004
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: People, repeated episodes and core/broad definitions cannot be pooled indiscriminately. The printed 248(74%) still lacks a clear matching denominator.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-019 [source_numerical_attribution]
+
+Dutch follow-up reclassification changes 37/37 to 35/39 at two years; the eight-year groups are 23/15, and Table 5 compares the same retained 38 at both times.
+
+- Sources: S-T07-004 ([object Object])
+- Cases: C-T07-004
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: This does not retrospectively replace baseline 62/344 or create independent follow-up cohorts.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-020 [inference_boundary]
+
+Neither Dutch estimated durations nor AWARE I general physiology citations establish absent neural processing in the particular reported experience; the AWARE II intersection does not repair this absence.
+
+- Sources: S-T07-004 ([object Object]), S-T07-001 ([object Object]), S-T07-007 ([object Object])
+- Cases: C-T07-001, C-T07-002, C-T07-003, C-T07-004
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Alternative explanations: Residual or returning ordinary processing, recall formation/reconstruction and ordinary information access are not excluded by missing timing measurements.
+- Limitations: Cardiac arrest with CPR is not irreversible death. No H-B or H-S upgrade follows without participant-linked timing and ordinary-route controls.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-021 [correction_comparison]
+
+The Dutch correction changes psilocarpine to psilocybine in the third sentence of p. 2044 paragraph3, retaining reference28 after LSD and reference21 after mescaline; it changes no cohort counts or follow-up results.
+
+- Sources: S-P2T09-003 ([object Object]), S-T07-004 ([object Object])
+- Cases: C-T07-004
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: The corrected sentence concerns induced near-death-like experiences; the correction does not independently establish that physiological interpretation. Notice DOI remains unverified; a filename or another letter’s DOI cannot supply it.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-022 [document_attribution]
+
+Parnia et al.110205 explicitly answer Martial et al., citing the inspected109980letter as reference1 and the separate2022 Annals neuroscientific-expertise critique as reference2.
+
+- Sources: S-P2T09-005 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: The2022critique is a discovered adjacent original, not independently inspected in this packet.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-023 [argument_attribution]
+
+The110205reply defends adapted EEG standards and states that practical multichannel-EEG constraints limited detailed time–frequency analysis; it argues stable states cannot simply model evolving arrest physiology.
+
+- Sources: S-P2T09-005 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: Practical explanation does not supply the omitted analysis, establish generalizability or eliminate classification uncertainty. The original standards and broader physiological evidence are not independently validated here.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-024 [probability_model_critique]
+
+The110205reply argues fruit guessing is improbable by citing more than80,000 English nouns; this reference class does not match the main protocol’s request for any three fruits.
+
+- Sources: S-P2T09-005 ([object Object]), S-T07-007 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: No empirically justified distribution over fruit choices or predeclared scoring/chance model is supplied by the letter. Do not calculate a p-value from English noun counts or assume equiprobable independent choices.
+- Review: R-P2R09 (accept)
+
+#### CL-P2T09-025 [argument_attribution]
+
+The110205reply proposes a recoverable ischemia/reperfusion continuum and disinhibition account, defends RED terminology using survivor themes, and expressly leaves the functional/evolutionary benefit unknown while assuming adaptation.
+
+- Sources: S-P2T09-005 ([object Object])
+- Cases: C-T07-002
+- Dependency group: DG-P2T09-AWARE-DUTCH-REINSPECTION
+- Reliability: Inspected published passage; version/acquisition limitations retained.; inference strength: Bounded attribution or explicitly labelled inference; no new event authentication or hypothesis score.
+- Limitations: Correspondence claims about recoverability, millions of survivors, death declarations, exclusive themes and neural causation are not independently validated facts. Cellular recovery or gene-expression references do not by themselves demonstrate recovered subjective awareness. No new target opportunities, participant-linked EEG–report data or recovered supplemental assets are supplied.
+- Review: R-P2R09 (accept)
 
 ## Task P2T14 (narrative: work/P2T14/report.md)
 
@@ -2552,6 +2874,425 @@ Rivas’s Dutch and corrected parallel versions do not independently authenticat
 - Limitations: Source access repair is narrower than event verification. Earliest original and full 2010 criticism remain open in this submission state.
 - Review: P2R17 (accept)
 
+## Task P2T18 (narrative: work/P2T18/report.md)
+
+### Arguments (3)
+
+#### A-P2T18-001 — Historical recurrence and the prospective report: strongest bounded positive case (position: Conditional relevance to an experiential phenomenon and to better tests of H-B)
+
+- Premises: CL-P2T18-001, CL-P2T18-002, CL-P2T18-004, CL-P2T18-005, CL-P2T18-009, CL-P2T18-010, CL-P2T18-011, CL-P2T18-017, CL-P2T18-022
+- Bridge principles: A documented nineteenth-century narrative weakens the claim that every such motif was invented after modern NDE publicity, provided later translation and source transmission are not counted as new reports., Prospective recruitment strengthens the temporal definition of a study sample; it does not independently timestamp the origin of a later recalled experience., A stronger brain-independence inference requires content-specific timing, specified neural-exclusion criteria and independently controlled information access.
+- Conclusion: This selected corpus and pilot justify investigating recurring reported experiences, without establishing a unique cause, global recurrence rate or brain independence.
+- Claims: CL-P2T18-001, CL-P2T18-002, CL-P2T18-004, CL-P2T18-005, CL-P2T18-009, CL-P2T18-010, CL-P2T18-011, CL-P2T18-017, CL-P2T18-022, CL-P2T18-028, CL-P2T18-031; sources: S-P2T18-001, S-P2T18-003, S-T08-005
+- Strongest objection: European literary/reporting dependence, unmeasured historical danger states, selected survivors, unknown target opportunities and bodily-awareness coding can generate misleading convergence.; strongest reply: Those limitations do not erase the dated reports or show every account was fabricated or normally explained. A constrained hypothesis can still seek evidence that alternatives predict differently.
+- Unresolved issues: Exact published translation and Fraktur visual verification No non-Western expansion No content-linked neural exclusion, irreversible-death subjectivity or same-person survival
+- Review: P2R18 (accept)
+
+#### A-P2T18-002 — Controlled-target countercase and actual exchange (position: Challenges overinterpretation of veridicality evidence; does not establish a physicalist winner)
+
+- Premises: CL-P2T18-012, CL-P2T18-013, CL-P2T18-018, CL-P2T18-019, CL-P2T18-020, CL-P2T18-021, CL-P2T18-032, CL-P2T18-033, CL-P2T18-034, CL-P2T18-035
+- Bridge principles: A target test bears negatively on a specified ability only when enough genuine opportunities and an appropriate expectation of identification are established., Possible sensory or reporting errors block claims that such routes are excluded; possibility alone does not demonstrate their occurrence., Antecedent probabilities require independent justification and are not supplied by author agreement or a source-quality rating.
+- Conclusion: The selected Parnia reports provide no validated concealed-target success and no verified effective-trial denominator. Neither the target null nor the unresolved ordinary-route alternatives settle the metaphysical dispute.
+- Claims: CL-P2T18-012, CL-P2T18-013, CL-P2T18-018, CL-P2T18-019, CL-P2T18-020, CL-P2T18-021, CL-P2T18-032, CL-P2T18-033, CL-P2T18-034, CL-P2T18-035; sources: S-P2T18-003, S-P2T18-004, S-P2T18-005, S-P2T18-006, S-P2T18-007
+- Strongest objection: Greyson argues that untested error possibilities should not outweigh reports and cited stability evidence; he disputes Augustine’s treatment of paranormal-feature stability and default priors.; strongest reply: Augustine concedes possibility is not actuality and small target numbers are inconclusive, but demands evidence excluding ordinary information routes. The project accepts that evidential requirement without adopting his unmeasured causal verdict or twelve-case denominator.
+- Unresolved issues: Parnia no-OBE prose conflicts with Greyson four-case attribution and Augustine’s later repeated dozen Longitudinal original not independently inspected; no global memory-fidelity conclusion Target exposure/interview/viewpoint intersection unknown
+- Review: P2R18 (accept)
+
+#### A-P2T18-003 — Measurement and dependence countercase (position: Limits pooled cultural and prospective convergence)
+
+- Premises: CL-P2T18-003, CL-P2T18-007, CL-P2T18-014, CL-P2T18-015, CL-P2T18-023, CL-P2T18-024, CL-P2T18-025, CL-P2T18-026, CL-P2T18-027, CL-P2T18-028, CL-P2T18-029, CL-P2T18-030
+- Bridge principles: Analytic reuse of four reports is a repeated use of existing evidence, not four new observations., Item labels must preserve response wording and score thresholds; a body-awareness score does not imply a visual vantage or target opportunity., Unknown participant overlap cannot be replaced by either complete disjointness or total duplication., Nonsignificance, unasked items and absent reports do not respectively imply equivalence, absent experience and absent consciousness.
+- Conclusion: Use a nonadditive, source-qualified comparison; preserve all old numbers and unknowns while adding exact reuse and wording qualifications.
+- Claims: CL-P2T18-003, CL-P2T18-007, CL-P2T18-014, CL-P2T18-015, CL-P2T18-023, CL-P2T18-024, CL-P2T18-025, CL-P2T18-026, CL-P2T18-027, CL-P2T18-028, CL-P2T18-029, CL-P2T18-030; sources: S-P2T18-001, S-P2T18-003, S-T08-005
+- Strongest objection: Recurring motifs across times and conditions may reflect a common phenomenon even when instruments differ; documenting dependence is not a causal explanation of every case.; strongest reply: That possibility remains. Distinctive support requires comparable ascertainment and predictions that survive the stated coding/overlap uncertainties. Neither cultural nor neural mechanisms are established by bookkeeping.
+- Unresolved issues: Unknown invitation frame and participant identities Translation and omitted cultural corpus gaps No validated global denominator or numerical metaphysical likelihood
+- Review: P2R18 (accept)
+
+### Claims (35)
+
+#### CL-P2T18-001 [observed_event]
+
+The selected Heim separatum is catalogued as 1892 and identifies a 26 February 1892 Uto-section talk; it is a historical document rather than a prospectively registered clinical study.
+
+- Sources: S-P2T18-001 ([object Object])
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: German original read as PDF extraction; scan images not verified. No claim of earliest worldwide NDE documentation.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-002 [reported_experience]
+
+Heim draws on his own accidents, survivors' oral/written reports, literature and mediated accounts from several dangerous situations; he explicitly extrapolates survivors' sensations to those who died.
+
+- Sources: S-P2T18-001 ([object Object])
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: No enumerated sampling frame, uniform interview schedule, arrest definition, contemporaneous chart set or fatal subjects' experiences directly observed.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-003 [inference]
+
+Heim’s qualified approximate 95% generalization has no recoverable population denominator in this text; his approximately 30 examples concern potentially saving actions and cannot be substituted as its denominator.
+
+- Sources: S-P2T18-001 ([object Object])
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: This is a source-method assessment, not an estimated historical NDE prevalence or a demonstration the generalization is false.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-004 [reported_experience]
+
+Heim describes apparently intensified thought and lengthened subjective time, and estimates seconds for his own fall; these descriptions do not measure hundredfold processing or establish a bearer outside temporal succession.
+
+- Sources: S-P2T18-001 ([object Object])
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: OCR and translation qualification remains; estimate and retrospective narrative length are not clocks or neural measures.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-005 [reported_experience]
+
+Heim locates luminous life scenes and conciliatory feelings during conscious falling, and explicitly says that those images stopped with unconsciousness at impact and did not continue on recovery.
+
+- Sources: S-P2T18-001 ([object Object])
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Report attribution only; recalled chronology is not independently timed physiology or proof that all experience was absent in the gap.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-006 [reported_experience]
+
+Heim infers an interruption after companions reportedly told him roughly half an hour had passed without his response; the text supplies his report of their statement, not independently obtained witness testimony or a measured unconscious interval.
+
+- Sources: S-P2T18-001 ([object Object])
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: No contemporaneous timing record, EEG, oxygen or circulation evidence. No same-person postmortem observation.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-007 [observed_event]
+
+The German text acknowledges additional letters after newspapers described Heim's talk, and the editor notes that the opposing party did not admit the Brantschen incident in the reported form.
+
+- Sources: S-P2T18-001 ([object Object])
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: These are documented reporting/contestation features, not proof that all accounts were contaminated or fabricated. The editor's objection is local, not a full modern critique/reply chain.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-008 [inference]
+
+The selected published English translation is metadata-verified but its body remains unavailable. German close glosses cannot certify Noyes and Kletti’s exact rendering, omissions or introductory interpretation.
+
+- Sources: S-P2T18-001 ([object Object]), S-P2T18-002 ([object Object])
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: limited_by_explicit_access_or_derivative_scope; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: P2REQ-031 pending; no substitution of secondary quotations, later reprint, AI translation or search snippet.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-009 [documented_measurement]
+
+Parnia 2001 recruited eligible cardiac-arrest survivors from selected Southampton wards, using switchboard arrest notifications, age over 18, mental test 10/10, clinical agreement and consent; it reports 63 interviews but no complete arrest-to-eligibility-to-consent flow.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: Do not treat 63 as all arrest events or all survivors of an unrestricted population. Numbers are article reports, not a fresh audit of enrollment records.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-010 [documented_measurement]
+
+The 63 interviewed survivors comprise 56 with no recall and seven with some recall; four met the stated Greyson >=7 criterion and three did not. The four tabulated totals are 13, 10, 10 and 10 out of 32.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: Reported no recall is not independently established absence of experience. The below-threshold reports are not all content-free, and 4/63 is this selected sample’s report yield.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-011 [observed_event]
+
+The paper describes an open question about memories during unconsciousness, says no direct specific NDE/OBE questions were asked, and then assessed reported experiences with the Greyson scale.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: No interview recordings or complete questionnaire delivery record inspected; open elicitation and subsequent structured classification must both be retained.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-012 [documented_measurement]
+
+Two Parnia participants receive a score 1 for lost awareness of body, but the prose explicitly reports no out-of-body phenomenon and no claimed OBE; this distinction is visible in the original table and adjacent text.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: Scale bodily-awareness endorsement does not establish an elevated visual viewpoint, remote perception or concealed-target exposure.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-013 [inference]
+
+Parnia's absence of a target identification accompanies no reported OBE viewing opportunity. The paper supplies no confirmed target-present/arrest/interview/viewpoint intersection from which to compute effective target trials or a success probability.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: No target hit is reported; this does not make the experiment positive or establish either paranormal ability or null equivalence. Unknown physical exposure counts remain null, not zero.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-014 [documented_measurement]
+
+The physiological comparison’s control group is 59, combining 56 no-recall participants and three below-threshold recall participants, versus four NDE participants. Figure 1 compares grouped blood-measure means, not participant-level neural recordings.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: Analyte-specific usable sample counts and missingness are not fully enumerated. Do not read the five bars per group as five patients or infer EEG from them.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-015 [inference]
+
+The methods refer to blood measurements during arrest, while footnote 2 locates blood parameters in the initial ward stay; the source does not resolve this timing tension. Its higher mean PaO2 and small descriptive comparison do not establish cerebral oxygen conditions during any recalled content.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Preserve the printed 33.1±18.37 versus 16.8±11.73 kPa as descriptive article values only; no significance, causal protection or content-linked measurement inferred.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-016 [inference]
+
+Parnia and colleagues favor experiences occurring during unconsciousness but acknowledge the need for further timing data and a larger study; their appeal to general physiological literature is not a participant-linked recording in the four cases.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Neither brain independence nor a demonstrated ordinary causal mechanism follows. Clinical unresponsiveness, absent recall, circulation and neural activity are distinct variables.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-017 [reported_experience]
+
+Parnia reports the four NDE participants as non-practising Christians, one also identifying as Pagan, with no specifically Christian figure identified; fear of death was not asked about.
+
+- Sources: S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Four selected reports cannot establish religious or cultural invariance, an absence of expectations, or a causal role for belief.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-018 [inference]
+
+Augustine argues that controlled targets can discriminate paranormal-perception claims if opportunities are adequate. His Parnia summary correctly preserves two lost-body-awareness responses alongside no full OBE, and he calls for larger multicentre work.
+
+- Sources: S-P2T18-004 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Source attribution; adequate opportunity is a conditional requirement, not demonstrated for the selected Parnia reports. The other target-study originals were not re-opened here. Original body read on the disclosed text mirror; scan layout unverified.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-019 [inference]
+
+Augustine proposes ordinary sensory information, expectations and reconstruction as explanations and judges the existing veridicality evidence unpersuasive; the selected packet does not validate his stronger causal or whole-literature conclusions.
+
+- Sources: S-P2T18-004 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: He acknowledges intermittent small-scale target work. The source's occasional move from no report to no experience is not adopted; specific ordinary causes remain unmeasured.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-020 [inference]
+
+Greyson replies that possible errors are not demonstrated errors, emphasizes limited target-study resources and opportunities, and concedes that the survival evidence is not compelling and controlled failures require serious alternative explanations.
+
+- Sources: S-P2T18-005 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Actual third-party reply to Augustine, not a Parnia-authored reply; cited longitudinal/recruitment studies are not independently revalidated in this packet.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-021 [inference]
+
+Greyson's count of four Parnia NDEs with OBE components conflicts with Parnia's explicit report of none; the packet therefore withholds the twelve-as-effective-trials premise while preserving Greyson's broader opportunity objection.
+
+- Sources: S-P2T18-005 ([object Object]), S-P2T18-003 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Do not manufacture a corrected pooled denominator from the remaining studies without examining their originals and viewing opportunities.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-022 [documented_measurement]
+
+Charland-Verville 2014 analyzes 190 of 215 volunteered reports, divided into 50 non-life-threatening and 140 reported coma cases, with 45 anoxic, 30 traumatic and 65 other coma reports; the anoxic 45 are a subset of 190.
+
+- Sources: S-T08-005 ([object Object])
+- Cases: C-T08-007
+- Dependency group: DG-T08-IANDS-retrospective
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: Clinical status is medically uncontrolled self-report; coma is defined as unconsciousness over one hour. Mean delay 24±15 years; total invited or underlying population denominator unknown.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-023 [inference]
+
+The article’s abstract says >7 while methods/results exclude <7 and Table 2 includes a minimum of 7. This is an internal reporting inconsistency; the supplied aggregate data do not warrant changing its count of 190.
+
+- Sources: S-T08-005 ([object Object])
+- Cases: C-T08-007
+- Dependency group: DG-T08-IANDS-retrospective
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: No individual data or score 7 participant count obtained; preserve both original statements and nulls.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-024 [documented_measurement]
+
+Charland Table 3’s historical prospective total of 42 comprises 27 Greyson 2003, 11 Schwaninger 2002 and four Parnia 2001 reports, compared with the new study’s retrospective anoxic 45; the Parnia contribution reuses its published reports.
+
+- Sources: S-T08-005 ([object Object]), S-P2T18-003 ([object Object])
+- Cases: C-T08-007
+- Dependency group: DG-T08-IANDS-retrospective
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: This is documented analytic reuse, not new recruitment or an independent replication. Other contributing original cohorts and participant identities were not newly inspected.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-025 [inference]
+
+Charland labels the Parnia 2/4 bodily-awareness responses as OBE in Table 3; this broader scale-category use cannot be treated as two elevated visual experiences when Parnia explicitly says no OBE occurred.
+
+- Sources: S-T08-005 ([object Object]), S-P2T18-003 ([object Object])
+- Cases: C-T08-007
+- Dependency group: DG-T08-IANDS-retrospective
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Do not alter the published 2/4 or pooled 31/42 values; qualify the label and inferential use. A body-separation item is not a calibrated target opportunity.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-026 [documented_measurement]
+
+Charland Figure 1’s 429 retrospective and 47 prospective reports pool several published datasets including the current one; the legend names Greyson 1990 and Parnia 2001. Its current-study legend says 2013 although this article was published in 2014.
+
+- Sources: S-T08-005 ([object Object])
+- Cases: C-T08-007
+- Dependency group: DG-T08-IANDS-retrospective
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: source_report_only; event accuracy and generalization not established
+- Limitations: The legend-year mismatch does not establish a separate 2013 sample. Figure 1 is a reused aggregate comparison, not an additional independent cohort or a participant-overlap audit.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-027 [inference]
+
+The study's nonsignificant group differences do not establish equivalence of all features or mechanisms; its authors acknowledge selection, medically uncontrolled reports, long delays, small comparison samples, variability and problematic weighting.
+
+- Sources: S-T08-005 ([object Object])
+- Cases: C-T08-007
+- Dependency group: DG-T08-IANDS-retrospective
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Differences between recruited designs cannot be assigned uniquely to memory reconstruction. Similarity cannot establish a shared metaphysical origin.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-028 [inference]
+
+The selected historical corpus is European and heterogeneous in danger/clinical status; later citations and its translation are transmissions of that corpus, not new independent historical or non-Western samples.
+
+- Sources: S-P2T18-001 ([object Object]), S-P2T18-003 ([object Object]), S-T08-005 ([object Object])
+- Cases: C-T08-007
+- Dependency group: DG-P2T18-Heim-transmission
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Charland cites Heim 1891; the inspected German document supports the 1892 publication/talk identity. The own-fall 1871/1872 textual discrepancy remains a separate unresolved issue.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-029 [inference]
+
+Published aggregate reuse is established for the Parnia contribution; actual participant overlap or disjointness between separately recruited cohorts remains unknown. No additive independent sample count or pooled target-success rate is justified.
+
+- Sources: S-P2T18-003 ([object Object]), S-T08-005 ([object Object])
+- Cases: C-T08-007
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Publication, source version, cohort, event and participant counts remain separate. No new case identity is proposed.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-030 [inference]
+
+The selected European corpus and early prospective study do not repair the omitted Indian-tunnels criticism/reply or Japanese underlying-interview translation gap; unasked, unmentioned and absent experiences remain distinct.
+
+- Sources: S-P2T18-001 ([object Object]), S-T08-005 ([object Object])
+- Dependency group: DG-P2T18-selected-scope-and-gates
+- Reliability: limited_by_explicit_access_or_derivative_scope; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Those original cultural sources are frozen baseline context, not newly inspected evidence; no source-access failure is newly asserted for the omitted branches.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-031 [inference]
+
+Historical recurrence and prospective report collection motivate further tests but do not supply participant-linked exclusion of neural processing, irreversible-death subjectivity, enduring identity or literal timelessness. All twelve conclusion gates remain withheld.
+
+- Sources: S-P2T18-001 ([object Object]), S-P2T18-003 ([object Object]), S-T08-005 ([object Object])
+- Dependency group: DG-P2T18-selected-scope-and-gates
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: No six-family winner, quantitative metaphysical posterior, unique mechanism or normative/cosmic-purpose conclusion is established.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-032 [inference]
+
+Augustine explicitly concedes that possible embellishment, leading questions or witness errors are not thereby demonstrated; he nevertheless defends an antecedent-probability and burden-of-proof preference for ordinary explanations.
+
+- Sources: S-P2T18-006 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Faithful argumentative attribution does not establish his priors, a particular causal explanation or the full status of parapsychology. The underlying longitudinal study is not independently inspected.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-033 [inference]
+
+Augustine’s rejoinder agrees that a dozen purported out-of-body NDEs cannot settle paranormal perception and calls for many more controlled opportunities. It repeats the dozen without repairing the Parnia wording/count conflict.
+
+- Sources: S-P2T18-006 ([object Object]), S-P2T18-003 ([object Object]), S-P2T18-005 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Preserve the concession, but do not adopt twelve as verified effective target trials or infer a corrected pooled number.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-034 [inference]
+
+In his actual later reply, Greyson disputes Augustine’s claim that paranormal-feature stability remained untested: he says his cited longitudinal study separately examined paranormal/transcendental features and found no embellishment, with the OBE feature declining significantly.
+
+- Sources: S-P2T18-007 ([object Object]), S-P2T18-006 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: This is Greyson’s documented reply, not a fresh validation of the longitudinal data or proof of exact memory fidelity, event accuracy or absence of pre-first-report changes.
+- Review: P2R18 (accept)
+
+#### CL-P2T18-035 [inference]
+
+Greyson’s later reply expressly concedes that the NDE evidence does not definitively establish survival or mind separate from brain, locates part of the disagreement in antecedent probabilities, and endorses better data and equal replicability standards.
+
+- Sources: S-P2T18-007 ([object Object])
+- Dependency group: DG-P2T18-Parnia-comparison-exchange
+- Reliability: supported_as_documented_attribution_pending_review; inference strength: unresolved_for_clinical_or_metaphysical_truth; bounded source-method assessment only
+- Alternative explanations: Selection, elicitation, memory, coding and ordinary information routes remain possible; no specific mechanism is established.
+- Limitations: Neither author’s estimate becomes a project prior. Other cited evidence, population belief surveys and the following letter are not independently validated; this letter does not provide a repaired Parnia target denominator.
+- Review: P2R18 (accept)
+
 ## All case records (23)
 
 #### C-T04-001 — Mary Neal: reported1999 Chile kayaking episode (retrospective_case)
@@ -2951,7 +3692,7 @@ Rivas’s Dutch and corrected parallel versions do not independently authenticat
   - Subsequent2011 rejoinder/2012 letter not inspected
 - Phase 2 reinspection: P2T16 / P2R16; claims CL-P2T16-001, CL-P2T16-002, CL-P2T16-003, CL-P2T16-012, CL-P2T16-014, CL-P2T16-016, CL-P2T16-019, CL-P2T16-020, CL-P2T16-021, CL-P2T16-023, CL-P2T16-024, CL-P2T16-025, CL-P2T16-028; accepted annex; all historical case fields retained
 
-## Sources cited in this pack (76)
+## Sources cited in this pack (83)
 
 - **S-P2T09-001** — Bruce Greyson, Pim van Lommel (2024-01). *AWAreness during REsuscitation and EEG activity*. original methodological correspondence; inspected_original_full_text.
   Locators: p. 1, all body paragraphs and sole reference
@@ -3091,6 +3832,34 @@ Rivas’s Dutch and corrected parallel versions do not independently authenticat
   Identifier: https://netwerknde.nl/wp-content/uploads/trtgtable.pdf
   Provenance: Undated frontmatter in PDF carrying January 10, 2011 creation metadata; metadata is not verified release date. Container is I03, no new case or witness.
   Related cases: C-T19-001
+- **S-P2T18-001** — Albert Heim (1892). *Notizen über den Tod durch Absturz*. selected historical corpus original German; inspected_original_extracted_text_with_OCR_limits.
+  Locators: Heimpp328–337;Parniap155reference9;Charlandpp1,5,7Heimcitation; Heimpp334–337;Parniapp151–155;Charlandpp5–6;release/v1/conclusion_gate_map.json; SAGE1972 DOI/abstract access record; Germanpp328–329,335–337; e-rara wrapper PDF1; original p327/PDF2 title and speech footnote; p328/PDF3 approximate95% assertion; p330/PDF5 approximately30 rescue-action examples; p329/PDF4 thought/time paragraph; p334/PDF9 ownfall5–10seconds; p336/PDF11 post-publicity correspondence; p337/PDF12 editor's final note; pp327–328/PDF2–3, opening scope and collection description; pp334–336/PDF9–11, own fall, life scenes, impact and consciousness interruption; pp335–336/PDF10–11, companions' reported delay and subjective interruption; work/P2T18/baseline_v1.json exactCL-T08-005/008/009/010/012/013; selectedsourceextents
+  Identifier: http://www.e-rara.ch/download/pdf/6873309?name=Notizen%20%C3%BCber%20den%20Tod%20durch%20Absturz
+  Provenance: e-rara digitized separatum, 13 PDF pages; wrapper PDF 1, printed 327–337 at PDF 2–12, final leaf PDF 13 extraction uninterpretable. No local PDF or visually inspected Fraktur scan. Digitization DOI 10.3931/e-rara-22171 is not an article DOI.
+- **S-P2T18-002** — Russell Noyes, Jr., Roy Kletti (1972-04). *The Experience of Dying from Falls*. translation and original translator introduction; metadata_only_full_text_pending.
+  Locators: SAGE1972 DOI/abstract access record; Germanpp328–329,335–337
+  Identifier: https://doi.org/10.2190/96XL-RQE6-DDXR-DUD5
+  Provenance: Publisher identity/abstract and restricted PDF route only. Complete eight-page published translation and translator introduction not inspected; P2REQ-031 pending.
+- **S-P2T18-003** — Sam Parnia, D. G. Waller, R. Yeates, P. Fenwick (2001-02). *A qualitative and quantitative study of the incidence, features and aetiology of near death experiences in cardiac arrest survivors*. selected early prospective original; inspected_full_text_and_decisive_layout.
+  Locators: Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4; Charlandp2 itemscore1or2 rule,p3 bodilyseparation question,p4 Table3 OBErow; Parniap152 Table1/p153 Table2; Charlandp4 Table3, rotatedlandscape table; Parniapp151–153; Greysonp242/PDF6 total12/fourParnia paragraph; Parniap152/PDF4 noOBE; Heimpp328–337;Parniap155reference9;Charlandpp1,5,7Heimcitation; Heimpp334–337;Parniapp151–155;Charlandpp5–6;release/v1/conclusion_gate_map.json; Parniapp151–153;Charlandpp2–4,6; p150–151/PDF2–3, Methods; p151/PDF3 physiology method; p153/PDF5 footnote2 and PaO2 paragraph; p154/PDF6 qualifications; p151/PDF3 psychologicalvariables; p152/PDF4 Table1 and religion paragraph; p151/PDF3 upward-facing ceiling boards; p152/PDF4 no claimed OBE/no test opportunity; p151/PDF3, interview method; p152/PDF4 Table1 patients2/4 and closing paragraphs; p153/PDF5 Table2; p153/PDF5 section3.4 and Fig1; pp151–153/PDF3–5, Results and Tables1–3; pp154–155/PDF6–7 Discussion, onset/recovery and concluding qualifications
+  Identifier: https://doi.org/10.1016/S0300-9572(00)00328-2
+  Provenance: Exact repository journal PDF, 8 pages, pp.149–156; full text read, actual PDF pages 4–5 images inspected. Local SHA 13acc48a9902367d8282d8e301d46571f814a9ee0464530754f8336df780473f. No participant records or EEG recording inspected.
+- **S-P2T18-004** — Keith Augustine (2007). *Does Paranormal Perception Occur in Near-Death Experiences?*. serious direct prospective-target criticism; inspected_full_original_text_mirror_layout_unverified.
+  Locators: pp205–212 ordinary-information/reporting argument; pp233–234 final target conclusions; pp230–234, NDE Target Identification Experiments; preserved original-text mirror lines1247–1413
+  Identifier: https://doi.org/10.17514/JNDS-2007-25-4-p203-236
+  Provenance: UNT catalog metadata verified DOI 10.17514/JNDS-2007-25-4-p203-236 but says 203–235/33 pages. Actual publicly displayed original text on Scribd runs 203–236 with references; platform AI paraphrase excluded. No original PDF/layout verification; complete issue failed.
+- **S-P2T18-005** — Bruce Greyson (2007). *Comments on “Does Paranormal Perception Occur in Near-Death Experiences?”*. actual third-party reply to selected critic; inspected_full_PDF_extracted_text.
+  Locators: Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4; Greysonp242/PDF6 total12/fourParnia paragraph; Parniap152/PDF4 noOBE; pp240–243/PDF4–7, methodological response and controlledtargetconcessions
+  Identifier: https://doi.org/10.17514/JNDS-2007-25-4-p237-244
+  Provenance: UNT journal PDF extraction, 8 pages, pp.237–244. DOI 10.17514/JNDS-2007-25-4-p237-244 exposed by Q007 metadata; article title/author/extents independently read. No local validated PDF or image. Named local .pdf is an HTML challenge, explicitly excluded.
+- **S-P2T18-006** — Keith Augustine (2007). *“Does Paranormal Perception Occur in Near-Death Experiences?” Defended*. Actual continuation of selected criticism/reply exchange; inspected_full_PDF_extracted_text.
+  Locators: Augustine p.272/PDF12 lines473–481; Greyson p.242/PDF6; Parnia p.152/PDF4; Greyson later response p.67/PDF1 opening; Augustine pp.271–272/PDF11–12; p.269/PDF9, lines352–363; pp.270–272/PDF10–12
+  Identifier: https://doi.org/10.17514/JNDS-2007-25-4-p261-283
+  Provenance: UNT journal PDF, 23 pages, pp.261–283. Full extraction read including references pp.282–283. Only method/target and response qualifications extracted into claims; named-case context does not independently adjudicate those cases. No local PDF or image.
+- **S-P2T18-007** — Bruce Greyson (2007). *Response to Augustine’s “Does Paranormal Perception Occur in Near-Death Experiences?”*. Actual continuation of selected criticism/reply exchange; inspected_complete_selected_letter_PDF_text.
+  Locators: Greyson later response p.67/PDF1 opening; Augustine pp.271–272/PDF11–12; pp.68–69/PDF2–3, replicability, possibility argument and concluding concession; p.70/PDF4 signature boundary
+  Identifier: https://doi.org/10.17514/JNDS-2007-26-1-p67-70
+  Provenance: Author-institution journal eprint, 4 pages, pp.67–70. Greyson letter ends with signature on p.70; following letter opening exposed but not selected or attributed to Greyson. Header Fall 2007 overrides index January; production footer 25/10/07 is not first-publication evidence. No scan image/local bytes.
 - **S-T04-001** — Mary C. Neal, WaterBrook / Penguin Random House. *To Heaven and Back: publisher metadata and Author Interview*. publisher-hosted firsthand interview; relevant_sections_inspected.
   Locators: Author Interview Q1–7; L247–262; Edition metadata L157,174,238–244
   Identifier: https://www.penguinrandomhouse.com/books/223400/to-heaven-and-back-by-mary-c-neal-md/
