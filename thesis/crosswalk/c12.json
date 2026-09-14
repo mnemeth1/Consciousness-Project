@@ -118,7 +118,8 @@
         "A-T19-001",
         "A-T19-002",
         "PREMISE:synthesis:RT-T16-B-routes (work/T16/component_routes.json RT-T16-B-PROSPECT, RT-T16-B-REYNOLDS, RT-T16-B-DENTURES, RT-T16-B-ALEXANDER required inputs REPORTTRUE, TIMELOCK, EXCLUSION, BMAP)",
-        "CL-T07-001"
+        "CL-T07-001",
+        "C-T07-001"
       ]
     },
     {

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/thesis/build.cjs --check)",
+      "Bash(node scripts/derived/build.cjs --check)",
+      "Bash(node scripts/derived/lookup.cjs *)",
+      "mcp__Claude_Browser__preview_logs",
+      "mcp__Claude_Browser__read_network_requests",
+      "mcp__Claude_Browser__read_page",
+      "mcp__Claude_Browser__read_console_messages",
+      "mcp__Claude_Browser__get_page_text",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Get-ChildItem *)"
+    ]
+  }
+}
