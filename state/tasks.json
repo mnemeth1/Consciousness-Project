@@ -2914,7 +2914,7 @@
     "dependency_conditions": {
       "P2G1": "accepted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3C02/",
     "chapter_file": "thesis/chapters/02-methodology.md",
     "deliverables": [
@@ -2946,7 +2946,7 @@
     "dependency_conditions": {
       "P3C02": "submitted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3R02/",
     "deliverables": [
       "report.md",

@@ -1,0 +1,42 @@
+{
+  "task_id": "P3R02",
+  "status": "submitted",
+  "artifact_paths": [
+    "work/P3R02/report.md",
+    "work/P3R02/review.json",
+    "work/P3R02/source_checks.json",
+    "work/P3R02/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C02 submitted revision 1 (thesis/chapters/02-methodology.md, thesis/crosswalk/c02.json, work/P3C02/report.md)",
+    "work/G0/protocol_v1.md",
+    "work/T02/report.md",
+    "AI_Execution_Framework.md sections 5-6",
+    "work/G2/synthesis_constraints.json",
+    "work/G1/gate_decision.md (new-text check)",
+    "work/G2/gate_decision.md (new-text check)",
+    "derived/gap_gate_register.json",
+    "STATUS.md",
+    "paper/paper.html p-006 p-007"
+  ],
+  "uncertainties": [
+    "U1 (author): PREMISE:method:* with locators remains acceptable for methods chapters; overseer should freeze the convention.",
+    "p041 'synthesis audit' / 'most evidence gathering' is slightly looser than G2's coverage-audit title and the later Phase 2 packets; not a live decision-changing doubt.",
+    "P3G1 has not yet allocated transferred P2R20 decisive-source reopenings. This chapter has no external sources; none were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C02 (revision 1) and P3R02. No remaining material defects. Revision cycle 2 unused.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/02-methodology.md": "f3e08e392abf3c360f71b1a8602bba54ec93b21e05bc51a4b2d91bf0c51a744d",
+    "thesis/crosswalk/c02.json": "23ae5b1511a0b91805bfb97e8351cf32f0117e0eab927e18d159dad874fff472",
+    "work/G0/protocol_v1.md": "0be5706f79030a85ac7b2d761eae2012481b11b48a384c677045210b3b0e3904",
+    "work/G2/synthesis_constraints.json": "e6e23b4499ed261f67ace5ea6edfe1f7ee25580f9ca2c366a9340e8beaf4959e"
+  }
+}

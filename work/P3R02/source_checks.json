@@ -1,0 +1,200 @@
+{
+  "task_id": "P3R02",
+  "external_sources_reopened": [],
+  "search_queries": [],
+  "repository_inputs_verified": [
+    {
+      "path": "paper/paper.html",
+      "sections": ["h2.2 Comparative method", "p-006", "p-007", "p-005 read-only boundary"],
+      "paragraphs_compared": ["c02-p001", "c02-p003", "c02-p005", "c02-p009", "c02-p037"],
+      "finding": "p-006 supports five unnamed-definition criteria and the three primitive questions. p-007 supports the three empirical distinctions, retelling non-independence, non-exhaustive/non-quantitative character, and qualitative withdrawal. Chapter glosses of the five criteria and primitive examples are expansions, not article text. Article does not define eight G2 tests or a search-execution cutoff."
+    },
+    {
+      "path": "work/T02/report.md",
+      "sections": ["header", "ss1-7 (verbatim with protocol_v1 body)"],
+      "paragraphs_compared": ["c02-p002", "c02-p015", "c02-p016", "c02-p021"],
+      "finding": "T02 is a prespecified proposal, not an execution log. Hash 75d89bdb... matches protocol_v1 header. Cannot support past-tense claims that searches, citation passes, or freeze-before-all-evidence-tasks occurred."
+    },
+    {
+      "path": "work/G0/protocol_v1.md",
+      "sections": ["header/bootstrap exception", "incorporated annexes", "s1", "s2", "s3", "s4", "s5", "s6", "s7"],
+      "paragraphs_compared": ["c02-p002", "c02-p004", "c02-p006", "c02-p007", "c02-p008", "c02-p010", "c02-p012", "c02-p014", "c02-p016", "c02-p021", "c02-p024", "c02-p025", "c02-p026", "c02-p028", "c02-p037"],
+      "finding": "ss1-7 largely match the chapter's method description. Header exception (T01-T03 before freeze; T03 citation passes not executed; families not source-verified) is omitted from p002/p016. s1 cutoff is publication date through 2026-09-11, misstated in p021 as search execution. s2 citation passes are requirements, stated as performed in p016. s6 sensitivity list is shorter than G2's eight; chapter correctly prefers G2 but must not weaken SENS-G2-05. Four blockers, two revision cycles, twenty-result window, six families, inclusion/exclusion, inspection, authorisation boundaries, and accept-means-method match."
+    },
+    {
+      "path": "AI_Execution_Framework.md",
+      "sections": ["s5 Evidence and argument workflow", "s6 Shared records and confidence"],
+      "paragraphs_compared": ["c02-p008", "c02-p010", "c02-p012", "c02-p023", "c02-p024", "c02-p027", "c02-p033", "c02-p034", "c02-p036"],
+      "finding": "Workflow steps, hash identification, three assessments, no averaging, optional probabilities, single-claim-not-several-observations, and barred inferences match. s6 'every claim records epistemic type' is a rule, not a ledger census. Framework s6 sensitivity list is shorter than G2."
+    },
+    {
+      "path": "work/G2/synthesis_constraints.json",
+      "sections": ["constraints SC-G2-01..10", "component_requirements (9)", "required_sensitivity_tests (8)"],
+      "paragraphs_compared": ["c02-p002", "c02-p007", "c02-p021", "c02-p035", "c02-p036", "c02-p037", "c02-p038", "c02-p039", "c02-p040"],
+      "finding": "Ten constraints, nine components, eight tests confirmed. Quoted H-F/H-B/H-P/H-I/H-A boundaries in p007 match. SC-G2-08 supports frozen cutoff and no exhaustive/systematic-review claim, not a search-execution clock. SENS-G2-05 wording is endurance-required-for-value, not endurance-to-value. SC-G2-02/08 support p039 coverage limits. SC-G2-01 supports scoped-not-unconditional certification."
+    },
+    {
+      "path": "derived/gap_gate_register.json",
+      "sections": ["counts", "gaps[].gap_id/closure_condition", "gates[].gate_id/status/withheld_conclusion"],
+      "paragraphs_compared": ["c02-p038"],
+      "finding": "counts.gap_groups=35, counts.withheld_conclusion_gates=12; 35 enumerated gaps all with closure_condition; 12 gates GATE-T16-01..12 all status withheld; gate objects have no closure_condition field. No chapter paragraph asserts a withheld conclusion. U3 numbers confirmed. Note: T16 conclusion_gate_map.json absent in this snapshot; wording_source is work/T18/report.md."
+    },
+    {
+      "path": "work/G2/gap_register.json",
+      "sections": ["gap_id count"],
+      "paragraphs_compared": ["c02-p038"],
+      "finding": "35 gap_id entries, matching derived counts. Canonical corroboration of U3."
+    },
+    {
+      "path": "STATUS.md",
+      "sections": ["Phase 2 41 of 46", "P2R20 unperformed", "AI-assisted not journal peer review", "12 gates / 35 gap groups"],
+      "paragraphs_compared": ["c02-p014", "c02-p028", "c02-p038"],
+      "finding": "41 of 46 Phase 2 accepted is correct on 13 September 2026. Chapter omits Phase 2 / of 46. P2R20 still unperformed is a method-limit the chapter does not state. Journal-peer-review refusal in p028 is supported."
+    },
+    {
+      "path": "state/tasks.json",
+      "sections": ["P3R02 contract", "P3C02 contract", "P2* statuses"],
+      "paragraphs_compared": ["c02-p014"],
+      "finding": "P3C02 submitted; P3R02 planned; reviewer_must_differ_from_author true. 46 P2 tasks: 41 accepted, P2S01 submitted, P2S02 submitted, P2S03 blocked, P2R20 planned, P2G2 planned. Repo-wide accepted count is 78."
+    },
+    {
+      "path": "work/G0/gate_decision.md",
+      "sections": ["accept recommendation", "opening exception"],
+      "paragraphs_compared": ["c02-p002", "c02-p016"],
+      "finding": "Confirms opening exception: missing searches not retrospectively counted as completed; T03 before T02 freeze. Supports M2/M3."
+    },
+    {
+      "path": "work/G1/gate_decision.md",
+      "sections": ["pilot acceptance", "deviations preserved", "protocol v2 repairs"],
+      "paragraphs_compared": ["c02-p002", "c02-p014", "c02-p016"],
+      "finding": "Repository check beyond P3C02 frozen inputs. T04/T05 citation passes incomplete; gate does not award unconditional v1 coverage; seven procedural repairs recorded. Used only to test chapter claims that passes were performed and defects repaired. No protocol_v2.md file exists in the repo."
+    },
+    {
+      "path": "work/T03/report.md",
+      "sections": ["C1–C6 criteria table"],
+      "paragraphs_compared": ["c02-p003"],
+      "finding": "Incorporated annex named in protocol header. C1–C6 is not the article's five; C6 remaining problems is absent from the chapter. Input verification of an incorporated annex, not an external source inspection."
+    },
+    {
+      "path": "work/T18/report.md",
+      "sections": ["GATE-T16-01..12 table"],
+      "paragraphs_compared": ["c02-p038"],
+      "finding": "Twelve withheld conclusions match derived gates. GATE-T16-10 is endurance necessary for all meaning, confirming SENS-G2-05 'required-for' reading."
+    },
+    {
+      "path": "derived/lint_report.md",
+      "sections": ["Claim types 38 values", "Record reliability 35 values", "Inference strength 72 values"],
+      "paragraphs_compared": ["c02-p008", "c02-p009", "c02-p034"],
+      "finding": "Closed six-type / four-label scheme is not how ledgers are actually filled. normative_premise absent from claim-type inventory. Contradicts p008 census and p009 structural enforcement."
+    },
+    {
+      "path": "derived/evidence/c02.md",
+      "sections": ["header", "Task T02", "Standing constraints"],
+      "paragraphs_compared": [],
+      "finding": "Pack still says chapter status skeleton. Confirms T02 produced no ledger records. Stale relative to submitted chapter (see build_checks)."
+    },
+    {
+      "path": "work/P3C02/report.md",
+      "sections": ["full"],
+      "paragraphs_compared": [],
+      "finding": "Required narrative present. U1–U3 honestly flagged. Inputs list matches frozen set plus derived register. Author asked reviewer to check silent strengthening of method claims; this review finds such strengthening."
+    },
+    {
+      "path": "work/P3C02/result.json",
+      "sections": ["full"],
+      "paragraphs_compared": [],
+      "finding": "Template fields complete. SHA-256 of paper.html, T02 report, protocol_v1, AI_Execution_Framework, synthesis_constraints, chapter, and crosswalk all MATCH files on disk at review time."
+    },
+    {
+      "path": "thesis/crosswalk/c02.json",
+      "sections": ["entries"],
+      "paragraphs_compared": ["c02-p001", "c02-p040"],
+      "finding": "40 entries, 40 unique IDs, one ref each, all PREMISE:method:*. p014 omits STATUS.md. p006 over-locates T03 annex."
+    }
+  ],
+  "build_checks": [
+    {
+      "command": "node scripts/thesis/build.cjs --check",
+      "result": "pass",
+      "cycle": "first_review",
+      "detail": "version 0.1.0; c02 submitted; 40 explicit paragraph IDs; 40 crosswalk entries; 0 citations; other chapters skeleton; validation passed, no output written."
+    },
+    {
+      "command": "node scripts/derived/build.cjs --check",
+      "result": "stale",
+      "cycle": "first_review",
+      "detail": "stale: derived/evidence/c02.md; stale: derived/manifest.json. Process defect per chapter_reviewer.md; verification used canonical files."
+    },
+    {
+      "command": "node scripts/thesis/build.cjs --check",
+      "result": "pass",
+      "cycle": "revision_1",
+      "detail": "version 0.1.0; c02 submitted; 41 crosswalk entries; explicit paragraph IDs 59 across thesis; 0 citations; validation passed."
+    },
+    {
+      "command": "node scripts/derived/build.cjs --check",
+      "result": "current",
+      "cycle": "revision_1",
+      "detail": "Derived layer is current: all files match the ledgers. derived/evidence/c02.md lists chapter status submitted."
+    }
+  ],
+  "hash_checks": {
+    "paper/paper.html": "match_author_result_json",
+    "work/T02/report.md": "match_author_result_json",
+    "work/G0/protocol_v1.md": "match_author_result_json",
+    "AI_Execution_Framework.md": "match_author_result_json",
+    "work/G2/synthesis_constraints.json": "match_author_result_json",
+    "thesis/chapters/02-methodology.md": "revision_1_match_author_declared_f3e08e392abf3c360f71b1a8602bba54ec93b21e05bc51a4b2d91bf0c51a744d",
+    "thesis/crosswalk/c02.json": "revision_1_match_author_declared_23ae5b1511a0b91805bfb97e8351cf32f0117e0eab927e18d159dad874fff472"
+  },
+  "revision_1_repository_inputs_verified": [
+    {
+      "path": "thesis/chapters/02-methodology.md",
+      "sections": ["c02-p002", "c02-p003", "c02-p004", "c02-p006", "c02-p008", "c02-p009", "c02-p014", "c02-p016", "c02-p021", "c02-p037", "c02-p038", "c02-p039", "c02-p041", "c02-p040"],
+      "paragraphs_compared": ["c02-p002", "c02-p008", "c02-p009", "c02-p016", "c02-p021", "c02-p037", "c02-p041"],
+      "finding": "All five material corrections faithfully applied. New p041 added without smuggled conclusions. 41 paragraphs; IDs not renumbered."
+    },
+    {
+      "path": "thesis/crosswalk/c02.json",
+      "sections": ["entries"],
+      "paragraphs_compared": ["c02-p001", "c02-p041", "c02-p040"],
+      "finding": "41 entries, one ref each, IDs include p041 between p039 and p040. p002 still omits G1 for v2 sentence (non-blocking)."
+    },
+    {
+      "path": "work/G1/gate_decision.md",
+      "sections": ["Deviations preserved", "Method and data disposition", "Findings and acceptance boundary"],
+      "paragraphs_compared": ["c02-p002", "c02-p014", "c02-p016"],
+      "finding": "v2 inherits exact v1 plus seven procedural repairs: matches p002. Pilot evidence gaps remain: matches p014. Incomplete citation passes T04/T05: matches p016."
+    },
+    {
+      "path": "STATUS.md",
+      "sections": ["P2R20 transfer", "41 of 46", "AI-assisted not journal peer review", "downloaded originals excluded"],
+      "paragraphs_compared": ["c02-p014", "c02-p041", "c02-p028"],
+      "finding": "P2R20 unperformed; obligations transfer without weakening into chapter reviews plus P3R20: matches p041. 41 of 46 Phase 2 dated 13 September 2026: matches p014."
+    },
+    {
+      "path": "work/G2/synthesis_constraints.json",
+      "sections": ["required_sensitivity_tests SENS-G2-01..08", "SC-G2-08", "SC-G2-10"],
+      "paragraphs_compared": ["c02-p037", "c02-p021", "c02-p041"],
+      "finding": "SENS-G2-05 endurance-required-for-value exact in p037. All eight restored clauses match. Eight tests live in this G2 file attached at the coverage/synthesis-constraint gate; p041 provenance claim is correct in substance."
+    },
+    {
+      "path": "work/G2/gate_decision.md",
+      "sections": ["title Coverage and shared-evidence audit", "Binding downstream conditions", "attached synthesis_constraints.json"],
+      "paragraphs_compared": ["c02-p041"],
+      "finding": "G2 is a coverage audit that attaches the eight tests, not a completed synthesis. Supports p041 'prespecified relative to cumulative assessment'. 'Synthesis audit' is slightly loose naming. Phase 2 packets post-date G2, so 'most evidence gathering' is uncounted; not material."
+    },
+    {
+      "path": "derived/evidence/c02.md",
+      "sections": ["header"],
+      "paragraphs_compared": [],
+      "finding": "Now status submitted. Staleness from first review closed."
+    },
+    {
+      "path": "work/T03/report.md",
+      "sections": ["C1-C6 table"],
+      "paragraphs_compared": ["c02-p003"],
+      "finding": "C6 remaining problems absorbed into strongest-reply-and-remaining-cost as revised. Acceptable hedge ('essentially these criteria')."
+    }
+  ]
+}

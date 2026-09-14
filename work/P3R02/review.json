@@ -1,0 +1,126 @@
+{
+  "task_id": "P3R02",
+  "chapter": "c02",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph_id": "c02-p021",
+      "closed": true,
+      "how": "Publication-date cutoff through 2026-09-11 inclusive; search-execution stop-clock removed; retrieval and search-log dates kept distinct."
+    },
+    {
+      "id": "M2",
+      "paragraph_id": "c02-p016",
+      "closed": true,
+      "how": "Citation passes stated as requirement; opening non-execution and later incomplete passes named; SC-G2-08 added; or-all-if-fewer restored."
+    },
+    {
+      "id": "M3",
+      "paragraph_id": "c02-p002",
+      "closed": true,
+      "how": "Bootstrap exception stated; retrospective-rationalization claim removed; G2 items described as standing constraints not compliance certification; v2/seven-repairs added from G1."
+    },
+    {
+      "id": "M4",
+      "paragraph_id": ["c02-p008", "c02-p009"],
+      "closed": true,
+      "how": "Six types and three distinctions restated as rules/review criteria; free-text drift disclosed; survey-sociology sentence deleted."
+    },
+    {
+      "id": "M5",
+      "paragraph_id": "c02-p037",
+      "closed": true,
+      "how": "SENS-G2-05 restored to endurance-required-for-value; omitted G2 clauses restored and checked against required_sensitivity_tests."
+    }
+  ],
+  "minor_defects": [],
+  "residual_notes_not_blocking": [
+    "c02-p018 still asserts popular-stratum favorable-narrative dominance without a record (original m12).",
+    "c02-p030 still includes sermons, not in protocol s4 (original m8).",
+    "c02-p002 crosswalk still omits work/G1/gate_decision.md for the v2/seven-repairs sentence; content is supported by G1 and p014 already maps that file.",
+    "c02-p041 'synthesis audit' / 'after most evidence gathering' is slightly looser than G2's coverage-audit title and the Phase 2 packets that post-date G2; the binding claim (prespecified vs cumulative assessment, not vs evidence collection) is correct.",
+    "SENS-G2-05 'no moral nihilism assumed' remains implicit."
+  ],
+  "editorial_notes": [
+    "U1 stands: PREMISE:method:* with locators accepted for methods chapters; overseer should freeze the convention.",
+    "U2 addressed: 41 now dated and scoped to Phase 2 41 of 46 as of 13 September 2026.",
+    "U3 addressed: 35/12 wording now attributes closure conditions to gap groups only; gates withheld.",
+    "New c02-p041 IDs correctly; no renumbering.",
+    "Author packet Revision 1 section is honest about what changed."
+  ],
+  "paragraphs_checked": [
+    "c02-p002",
+    "c02-p003",
+    "c02-p004",
+    "c02-p006",
+    "c02-p008",
+    "c02-p009",
+    "c02-p014",
+    "c02-p016",
+    "c02-p021",
+    "c02-p037",
+    "c02-p038",
+    "c02-p039",
+    "c02-p041",
+    "c02-p040"
+  ],
+  "new_text_verified": [
+    {
+      "claim": "protocol v2 inherits exact v1 plus seven procedural repairs",
+      "paragraph_id": "c02-p002",
+      "against": "work/G1/gate_decision.md Method and data disposition",
+      "finding": "supported"
+    },
+    {
+      "claim": "pilot evidence gaps remain open in the register",
+      "paragraph_id": "c02-p014",
+      "against": "work/G1/gate_decision.md; work/G2/gate_decision.md eight G1 handoffs",
+      "finding": "supported"
+    },
+    {
+      "claim": "P2R20 unperformed; obligations transfer without weakening into chapter reviews and whole-thesis review",
+      "paragraph_id": "c02-p041",
+      "against": "STATUS.md P2R20 bullet",
+      "finding": "supported"
+    },
+    {
+      "claim": "eight sensitivity tests specified in full at G2, prespecified relative to cumulative assessment not evidence collection",
+      "paragraph_id": "c02-p041",
+      "against": "work/G2/synthesis_constraints.json required_sensitivity_tests; work/G2/gate_decision.md; protocol s6 shorter list",
+      "finding": "supported in substance; naming 'synthesis audit' and 'most evidence gathering' slightly loose, not material"
+    },
+    {
+      "claim": "public snapshot excludes downloaded sources; inspections not replayable",
+      "paragraph_id": "c02-p041",
+      "against": "AGENTS.md public snapshot; STATUS.md downloaded originals excluded",
+      "finding": "supported"
+    }
+  ],
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "number_checks": {
+    "five_criteria": "pass_with_C1C6_reconciliation",
+    "six_families": "pass",
+    "nine_components": "pass",
+    "eight_sensitivity_tests": "pass_SENS_G2_05_wording_restored",
+    "ten_constraints": "pass",
+    "forty_one_accepted_assignments": "pass_phase2_41_of_46_dated_2026-09-13",
+    "thirty_five_gap_groups": "pass",
+    "twelve_withheld_gates": "pass_all_currently_withheld",
+    "cutoff_2026_09_11": "pass_publication_date",
+    "twenty_result_window": "pass_or_all_if_fewer",
+    "two_revision_cycles": "pass",
+    "four_blocking_defects": "pass"
+  },
+  "build_checks": {
+    "thesis_build_check": "pass",
+    "derived_build_check": "current"
+  },
+  "corrections_required": [],
+  "recommended_next_action": "Overseer adjudication: accept P3C02 and P3R02. Revision cycle 2 unused."
+}
