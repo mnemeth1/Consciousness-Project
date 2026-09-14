@@ -20,9 +20,9 @@
     "plan": "phase3/Thesis_Execution_Plan.md",
     "amendment": "phase2/amendments/002-thesis-rebase.md",
     "total_tasks": 27,
-    "accepted_tasks": 4,
-    "chapters_drafted": 2,
-    "note": "Thesis programme in execution. Chapters 2 (methodology) and 3 (alternatives) drafted, independently reviewed (one revision cycle each) and accepted; see state/acceptance_P3C02.json and state/acceptance_P3C03.json. Other chapters remain skeletons. P2S03/P2R20/P2G2 remain pending and close only through P3 gates."
+    "accepted_tasks": 6,
+    "chapters_drafted": 3,
+    "note": "Thesis programme in execution. Chapters 2 (methodology), 3 (alternatives) and 4 (phenomenal) drafted, independently reviewed (one revision cycle each) and accepted; see state/acceptance_P3C02.json, state/acceptance_P3C03.json and state/acceptance_P3C04.json. Other chapters remain skeletons. P2S03/P2R20/P2G2 remain pending and close only through P3 gates."
   },
   "source_archive_included": false,
   "automatic_background_execution": false,

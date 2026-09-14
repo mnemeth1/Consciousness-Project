@@ -3044,7 +3044,7 @@
     "dependency_conditions": {
       "P2G1": "accepted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3C04/",
     "chapter_file": "thesis/chapters/04-phenomenal.md",
     "deliverables": [
@@ -3076,7 +3076,7 @@
     "dependency_conditions": {
       "P3C04": "submitted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3R04/",
     "deliverables": [
       "report.md",

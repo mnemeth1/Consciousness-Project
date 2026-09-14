@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-13",
+  "adjudicator": "overseer (Claude Fable 5 session, project owner authorized 2026-09-13)",
+  "verdict": "accepted",
+  "accepted_tasks": [
+    "P3C04",
+    "P3R04"
+  ],
+  "author": "thesis-author context (Claude Fable 5)",
+  "independent_reviewers": {
+    "P3R04": "chapter-reviewer context (Grok 4.6 xhigh), distinct from author"
+  },
+  "review_history": [
+    "Initial P3R04 verdict: revise (4 material, 12 minor defects). Worst: c04-p023 converting the article's universal-consciousness reversal into independent support from out-of-freeze idealism material; also a T12 dependency-group import against the four-group census, a flattened Strawson time-requirement, and an over-generalized neural-dependence obligation.",
+    "Revision cycle 1 of 2: all four material and all twelve minor corrections applied per the reviewer's exact wording; crosswalk changes at p006 (A-T05-002 added), p008 (CL-T12-003 replaced with A-T05-004/CL-T05-004) and p025 (CL-P2T03-018 added).",
+    "Re-review verdict: accept; all repairs verified against the records and article p-008 to p-015; no remaining or new material defects; cycle 2 unused."
+  ],
+  "open_editorial_notes_non_blocking": [
+    "Mild leftover portraiture in c04-p008 per the re-review",
+    "Note the chapter hash below supersedes the rev-1 hash in work/P3C04 packets: the only post-re-review change is the front-matter status flip to accepted"
+  ],
+  "disposition_of_editorial_notes": "Preserved here as reviewer notes; to be swept in the pre-P3G1 consistency pass rather than by post-acceptance edits to the reviewed text.",
+  "reviewed_artifact_hashes": {
+    "thesis/chapters/04-phenomenal.md": "0eeec4626352e781436bdc2168414c1d316203ae66753704ffd9f37297113bdb",
+    "thesis/crosswalk/c04.json": "3ccd303da3a9b7812106852bfdc8444ac571efbecfff57eec4ecc88a18a3d776",
+    "work/P3C04/report.md": "e3ac5de4096c6ec0e6a44e35388300d5f1f7cbf36a0b12ad1413e706c466c7c5",
+    "work/P3C04/result.json": "b666088712cc075e6c72f453f9a6ab7f6f6341043f3031127fb34044663d28ec",
+    "work/P3R04/report.md": "af9252e9e4d596a1322f0902e6b3b068b627a1c8faeb6e51abfb374329ec1704",
+    "work/P3R04/review.json": "0a003fe8a1031998a45c2c4a445ba7130c06c223cc7749320b0124ce5507ff70",
+    "work/P3R04/source_checks.json": "b534b7a3ec6684d8cf123780b883e007af7c5d6fb9b3dc33b7cf1fab8ec36cae",
+    "work/P3R04/result.json": "48ddc10639b2e4a4ac553adb3aaa0a30e22b98c70df33a6a0e52e99d5ce98884"
+  },
+  "scope": "Analysis chapter accepted as a faithful pricing of the four recorded exchanges (explanatory gap, illusionism/acquaintance, causal emergence, constitution) with the article's two listed advantages kept as a labeled chapter inventory, all obligations model-scoped, and the dependency census fixed at four groups. Acceptance asserts fidelity and honest limits; it asserts no metaphysical conclusion, no family ranking, and no external validation. All twelve withheld stronger-conclusion gates remain withheld.",
+  "budget_note": "P3C04 used 0 searches and 0 external inspections; 1 of 2 revision cycles. P3R04 used 0/4 queries and 0/8 inspections; fidelity was checked against accepted ledger records via the derived layer and article p-008 to p-015.",
+  "next": "P3C05 existence chapter (sufficient reason, necessary foundation, fine-tuning) per phase3/Thesis_Execution_Plan.md."
+}

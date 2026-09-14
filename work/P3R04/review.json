@@ -1,0 +1,133 @@
+{
+  "task_id": "P3R04",
+  "chapter": "c04",
+  "verdict": "accept",
+  "revision_cycle": 1,
+  "reviewer_authored_none_of_chapter": true,
+  "first_review_verdict": "revise",
+  "material_defects": [],
+  "material_defects_closed_in_revision_1": [
+    {
+      "id": "M1",
+      "paragraph_id": "c04-p023",
+      "closed": true,
+      "how": "Idealism-support clause and public regularity deleted. Reversal kept as article p-015 framing (private perspectives, individuation, physical structure). CL-P2T03-018 used only for non-entailment of a universal subject."
+    },
+    {
+      "id": "M2",
+      "paragraph_id": ["c04-p008", "c04-p027"],
+      "closed": true,
+      "how": "CL-T12-003 dropped; p008 maps A-T05-004/CL-T05-004; identity sentence reworded to warranted-identity discipline. p027 names the four DGs exactly and states one Chalmers-Papineau group, not two."
+    },
+    {
+      "id": "M3",
+      "paragraph_id": "c04-p026",
+      "closed": true,
+      "how": "CL-P2T03-019 restored: experience as requiring time; activity vs intentional agency; nothing supplied as established. Silence claim gone."
+    },
+    {
+      "id": "M4",
+      "paragraph_id": "c04-p025",
+      "closed": true,
+      "how": "Neural-dependence obligation scoped to the 2005 maintenance model (CL-P2T01-010). Constitution bound is Strawson's brain-state acceptance. CL-P2T03-018 added to p025 refs."
+    }
+  ],
+  "minor_defects": [],
+  "residual_notes_not_blocking": [
+    "derived/manifest.json is stale on the revised chapter hash; overseer should --sync-manifest at acceptance.",
+    "Author packet report.md still has first-draft U1-U3 wording and 'Revision cycles used: 0 of 2' below the Revision 1 heading; result.json is honest.",
+    "c04-p008 'Neither move comes free, and the record prices both' is leftover portraiture.",
+    "c04-p025 actuality bullet still names 'universal' as a conditionally available model; p028 correctly marks the reversal uninspected."
+  ],
+  "editorial": [
+    "U1 addressed: A-T05-002 mapped; C/E horns include truth and justification.",
+    "U2 addressed: idealism-support clause deleted.",
+    "U3 addressed: four DGs named; one Chalmers-Papineau group.",
+    "Packet citation count corrected to 14.",
+    "Author packet Revision 1 section is honest about M1-M4; the leftover first-draft Uncertainties block below it is not."
+  ],
+  "paragraphs_sampled": [
+    "c04-p003",
+    "c04-p005",
+    "c04-p006",
+    "c04-p007",
+    "c04-p008",
+    "c04-p009",
+    "c04-p011",
+    "c04-p013",
+    "c04-p015",
+    "c04-p019",
+    "c04-p022",
+    "c04-p023",
+    "c04-p024",
+    "c04-p025",
+    "c04-p026",
+    "c04-p027",
+    "c04-p028"
+  ],
+  "new_text_verified": [
+    {
+      "claim": "universal reversal is article framing; constitution exchange entails no universal subject",
+      "paragraph_id": "c04-p023",
+      "against": "paper/paper.html p-015; CL-P2T03-018",
+      "finding": "supported; no idealism reach; no-support clause is non-entailment, not refutation"
+    },
+    {
+      "claim": "identity earns explanatory relief only once warranted; mere possibility explains nothing",
+      "paragraph_id": "c04-p008",
+      "against": "A-T05-004; CL-T05-004; work/T05/report.md A-T05-004; article p-009",
+      "finding": "supported; T12 import gone"
+    },
+    {
+      "claim": "four DGs named; one Chalmers-Papineau group not two",
+      "paragraph_id": "c04-p027",
+      "against": "DG-T05-epistemic-ontological-gap; CL-T05-001 limitations; crosswalk has no CL-T12-003",
+      "finding": "supported"
+    },
+    {
+      "claim": "2005 maintenance model must reproduce neural-dependence patterns; constitution bound is brain-state acceptance",
+      "paragraph_id": "c04-p025",
+      "against": "CL-P2T01-010; CL-P2T03-018",
+      "finding": "supported; no longer generalized to any primitive model"
+    },
+    {
+      "claim": "inspected constitution chapter treats experience as requiring time; nothing supplied as established",
+      "paragraph_id": "c04-p026",
+      "against": "CL-P2T03-019; accepted c03-p022",
+      "finding": "supported"
+    },
+    {
+      "claim": "dilemma: conceptual features resist physical explanation or fail to explain E including truth and justification",
+      "paragraph_id": "c04-p006",
+      "against": "work/T05/report.md A-T05-002; crosswalk A-T05-002",
+      "finding": "supported"
+    }
+  ],
+  "smuggled_conclusions": [],
+  "gates_opened": [],
+  "number_checks": {
+    "twenty_eight_paragraphs": "pass",
+    "four_exchanges": "pass",
+    "four_dependency_groups": "pass_named_exactly_one_chalmers_papineau_group",
+    "two_purchases": "pass_as_labeled_chapter_inventory",
+    "twelve_withheld_gates": "pass_all_currently_withheld",
+    "three_analyzed_ontologies": "pass_universal_marked_uninspected_article_reversal",
+    "strawson_2006": "pass_uninspected_not_independent_corroboration",
+    "s_t05_003_year_variants": "pass",
+    "s_t05_004_year_unresolved": "pass",
+    "s_p2t05_002_manuscript": "pass_byte_level_and_visual_at_first_use",
+    "s_p2t01_002_reprint": "pass_at_first_use",
+    "fourteen_s_citations": "pass"
+  },
+  "build_checks": {
+    "thesis_build_check": "pass",
+    "derived_build_check": "stale_manifest_pre_revision_chapter_hash_overseer_sync"
+  },
+  "u_adjudications": {
+    "U1": "Closed. Prose tracks T05 report; A-T05-002 mapped.",
+    "U2": "Closed. Idealism-support clause deleted.",
+    "U3": "Closed. Four DGs named; one Chalmers-Papineau group; CL-T12-003 gone."
+  },
+  "corrections_required": [],
+  "recommended_next_action": "Overseer adjudication: accept P3C04 and P3R04. Revision cycle 2 unused. Sync derived manifest at acceptance."
+}

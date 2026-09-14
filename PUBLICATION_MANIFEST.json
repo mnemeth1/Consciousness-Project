@@ -136,8 +136,8 @@
     },
     {
       "path": "STATUS.md",
-      "sha256": "6f63baf877ebc86ae6061414824a3c5ccddf32549152491985161f31d8e37166",
-      "bytes": 2871,
+      "sha256": "ed13713d6c36f959fcce07565f286a7dcd9a62507a004d8ba217a47e0f12ded2",
+      "bytes": 2940,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -440,7 +440,7 @@
     },
     {
       "path": "derived/evidence/c04.md",
-      "sha256": "0e7ce0b9a00b3a81a9c4ceed54d90b1eba27ef836c7e65ef944d515efdfb9385",
+      "sha256": "fcbb74e02029ab14a48a9d7cdd8d4fc281a8cd2a7c0dd44d97fa26190aa8795b",
       "bytes": 76269,
       "source": null,
       "transformations": []
@@ -545,7 +545,7 @@
     },
     {
       "path": "derived/manifest.json",
-      "sha256": "9ce7087bbfbcacaba5a8508c0db6f1955334b61039a3c23ba73ee38375eff750",
+      "sha256": "912463383c158b976fe43ba2a7869879ac4c18d5e337605a1a2b2048cde32e10",
       "bytes": 8932,
       "source": null,
       "transformations": []
@@ -1042,9 +1042,16 @@
       "transformations": []
     },
     {
+      "path": "state/acceptance_P3C04.json",
+      "sha256": "404723109deb53d3e8cb7027c96cd97f5817e3fc215b2f2e3ac25765195cce85",
+      "bytes": 3333,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "state/public_status.json",
-      "sha256": "e1ecca26dcc29558f0d74168be0b18d2b6e54d2394bb1adc5171b83f849a6abe",
-      "bytes": 1675,
+      "sha256": "c8b0c74bd3c7bf8098e95a411c0d3a225555e3f7b027174ca6155d3537a5ace0",
+      "bytes": 1720,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -1053,8 +1060,8 @@
     },
     {
       "path": "state/tasks.json",
-      "sha256": "534d5a5d8e1f3e0b1b12dfab3bbfc6e3fe12f8c13f7dd99c1210dcf42d9b96b4",
-      "bytes": 132270,
+      "sha256": "2817292a2157e7d2daa2af84797b40ae46d72c0c6e5d84fd57af67a8d9aba12a",
+      "bytes": 132272,
       "source": null,
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes.",
@@ -1230,8 +1237,8 @@
     },
     {
       "path": "thesis/chapters/04-phenomenal.md",
-      "sha256": "1cd838c0159e43ee0d8c05eb70064fe21212dfb4f993e952e1763b36dcee9c82",
-      "bytes": 883,
+      "sha256": "0eeec4626352e781436bdc2168414c1d316203ae66753704ffd9f37297113bdb",
+      "bytes": 21932,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1367,8 +1374,8 @@
     },
     {
       "path": "thesis/crosswalk/c04.json",
-      "sha256": "81c56010333620fe2c2f5170a1b83f3949ee6c6b7d4eca81bb04b42b92334055",
-      "bytes": 81,
+      "sha256": "3ccd303da3a9b7812106852bfdc8444ac571efbecfff57eec4ecc88a18a3d776",
+      "bytes": 4399,
       "source": null,
       "transformations": []
     },
@@ -2012,6 +2019,20 @@
       "transformations": []
     },
     {
+      "path": "work/P3C04/report.md",
+      "sha256": "e3ac5de4096c6ec0e6a44e35388300d5f1f7cbf36a0b12ad1413e706c466c7c5",
+      "bytes": 6514,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "work/P3C04/result.json",
+      "sha256": "b666088712cc075e6c72f453f9a6ab7f6f6341043f3031127fb34044663d28ec",
+      "bytes": 1657,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "work/P3R02/report.md",
       "sha256": "f26181c18607bb9a574f055726ee7d05abbc1bcbdc6f1ee885b320c2388bcaa9",
       "bytes": 44377,
@@ -2064,6 +2085,34 @@
       "path": "work/P3R03/source_checks.json",
       "sha256": "8bc9420787f9d6e10c7fe9e33f81570906bb5d5e2357a13ae5558f3a30312050",
       "bytes": 13543,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "work/P3R04/report.md",
+      "sha256": "af9252e9e4d596a1322f0902e6b3b068b627a1c8faeb6e51abfb374329ec1704",
+      "bytes": 48059,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "work/P3R04/result.json",
+      "sha256": "48ddc10639b2e4a4ac553adb3aaa0a30e22b98c70df33a6a0e52e99d5ce98884",
+      "bytes": 2284,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "work/P3R04/review.json",
+      "sha256": "0a003fe8a1031998a45c2c4a445ba7130c06c223cc7749320b0124ce5507ff70",
+      "bytes": 5636,
+      "source": null,
+      "transformations": []
+    },
+    {
+      "path": "work/P3R04/source_checks.json",
+      "sha256": "b534b7a3ec6684d8cf123780b883e007af7c5d6fb9b3dc33b7cf1fab8ec36cae",
+      "bytes": 13912,
       "source": null,
       "transformations": []
     },

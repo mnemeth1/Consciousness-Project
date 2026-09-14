@@ -1,0 +1,217 @@
+{
+  "task_id": "P3R04",
+  "external_sources_reopened": [],
+  "search_queries": [],
+  "repository_inputs_verified": [
+    {
+      "path": "paper/paper.html",
+      "sections": ["p-008", "p-009", "p-010", "p-011", "p-012", "p-013", "p-014", "p-015"],
+      "paragraphs_compared": ["c04-p003", "c04-p004", "c04-p008", "c04-p009", "c04-p011", "c04-p013", "c04-p014", "c04-p018", "c04-p019", "c04-p022", "c04-p023", "c04-p024"],
+      "finding": "Article §3 supports definitional relief, two-way burden, illusionism programme, Nida/Frankish stalemate, dialectical preservation advantage, emergence/exclusion productive choice, constitution transfer, and universal reversal still owing private perspectives. p-008 does not include 'integration.' p-012 says 'genuine dialectical advantage for the realist,' not unscoped 'genuine advantage.' p-015 does not mention idealism material or public regularity. Two listed advantages are p-008 relief and p-012 dialectical preservation; 'exactly two / no third' is not article text."
+    },
+    {
+      "path": "work/T05/report.md",
+      "sections": ["A-T05-001", "A-T05-002 dilemma", "A-T05-003", "A-T05-004", "dependence paragraph", "component table"],
+      "paragraphs_compared": ["c04-p003", "c04-p005", "c04-p006", "c04-p007", "c04-p008", "c04-p027"],
+      "finding": "U1: dilemma is 'C either resist physical explanation or fail to explain epistemic situation E, including truth and justification.' Chapter 'roughly' gloss is fair against this report, not against CL-T05-002. Identity discipline (justified vs stipulated; target capture remains) is already in A-T05-004; CL-T12-003 is unnecessary. One interdependent exchange, two works by each of two authors, not four observations. No H-F/survival/theism entailment."
+    },
+    {
+      "path": "work/P2T05/report.md",
+      "sections": ["source versions", "Frankish programme", "Nida manuscript limits", "regress map"],
+      "paragraphs_compared": ["c04-p009", "c04-p010", "c04-p011", "c04-p012", "c04-p013"],
+      "finding": "S-P2T05-002: author manuscript, no local PDF bytes, visual verification unavailable. Chapter keeps print-unavailable and drops binary/visual. Regress is a real constraint not automatic contradiction; Nida sets aside the short illusion-presupposes-consciousness line. p010 tracks this. Unresolved whether functional account preserves the target."
+    },
+    {
+      "path": "work/P2T01/report.md",
+      "sections": ["1994/2005 versions", "Kim reprint", "CL-P2T01-006 costs", "CL-P2T01-009/010/011 boundaries"],
+      "paragraphs_compared": ["c04-p014", "c04-p015", "c04-p016", "c04-p018", "c04-p025", "c04-p026"],
+      "finding": "Kim is a 2008 reprint; original journal PDF uninspected. Neural-dependence reproduction binds the 2005 maintenance model (CL-P2T01-010), not any experiential-primitive model. H-F reading is conditional taxonomy. Cost inventory is not a ranking."
+    },
+    {
+      "path": "work/P2T03/report.md",
+      "sections": ["2006/2008 version family", "constitution concessions", "component non-entailments"],
+      "paragraphs_compared": ["c04-p019", "c04-p022", "c04-p023", "c04-p026"],
+      "finding": "No 'idealism,' 'universal consciousness,' or 'public regularity' in this report. CL-P2T03-018 is non-entailment of cosmic subject/survival/brain-independence plus brain-state acceptance. CL-P2T03-019: chapter treats experience as requiring time. 2006 journal uninspected; later chapter is one work-version family, not independent corroboration."
+    },
+    {
+      "path": "work/G2/synthesis_constraints.json",
+      "sections": ["SC-G2-02 ranking bar", "SC-G2-03 nine components", "component_requirements H-F/U/B/S/T/P/I/G/A"],
+      "paragraphs_compared": ["c04-p001", "c04-p024", "c04-p025", "c04-p026", "c04-p028"],
+      "finding": "No family ranking. H-F/H-B refusals in p026 match required boundaries when scoped. H-U common-world mapping is not a license for unmapped 'public regularity.' Twelve-gate withhold in p028 matches standing constraints. No pooled posterior."
+    },
+    {
+      "path": "derived/gap_gate_register.json",
+      "sections": ["counts.withheld_conclusion_gates", "GATE-T16-01..12 status"],
+      "paragraphs_compared": ["c04-p001", "c04-p028"],
+      "finding": "counts.withheld_conclusion_gates=12; all twelve gates status withheld. No chapter paragraph asserts a withheld conclusion or opens a gate. counts.gap_groups=35 not claimed in this chapter."
+    },
+    {
+      "path": "thesis/evidence_map.json",
+      "sections": ["parts.c04.tasks"],
+      "paragraphs_compared": ["c04-p008", "c04-p023", "c04-p027"],
+      "finding": "c04 tasks are T05, P2T01, P2T03, P2T05 only. T12 is a c03 task. CL-T12-003 is therefore outside the generated evidence pack. derived/evidence/c04.md confirms no T12 section."
+    },
+    {
+      "path": "thesis/chapters/03-alternatives.md",
+      "sections": ["c03-p006-p009 illusionism", "c03-p012-p016 emergence", "c03-p019-p022 constitution", "c03-p004 CL-T12-003"],
+      "paragraphs_compared": ["c04-p008", "c04-p009", "c04-p011", "c04-p014", "c04-p015", "c04-p019", "c04-p026"],
+      "finding": "Reuse is framed as analysis not new evidence (c04-p001). Compatible except c04-p026 silence on timelessness vs c03-p022 time-requirement. c04 weaker than accepted c03 on Kim reprint, Nida visual limit, and 2006/2008 independent-corroboration bar. CL-T12-003 already used in c03-p004."
+    },
+    {
+      "path": "derived/evidence/c04.md",
+      "sections": ["front matter", "T05", "P2T01", "P2T03", "P2T05", "sources cited"],
+      "paragraphs_compared": ["all sampled"],
+      "finding": "Pack current. Status submitted. Does not include T12 records. Version notes for S-T03-001, S-T05-003/004/005, S-P2T05-002, S-P2T01-002, S-P2T03-004 match lookup results."
+    },
+    {
+      "record_id": "CL-T05-002",
+      "paragraphs": ["c04-p005", "c04-p006"],
+      "what_was_checked": "Dilemma characterization vs lookup.cjs full record.",
+      "result": "Statement is only 'Chalmers argues against the phenomenal-concept strategy.' No horns. Fail as support for p006's parenthetical. Pass as thin support for 'argues against the strategy.'"
+    },
+    {
+      "record_id": "A-T05-002",
+      "paragraphs": ["c04-p005", "c04-p006"],
+      "what_was_checked": "Knowledge/conceivability map and strongest_reply 'dilemma in report' via lookup.cjs.",
+      "result": "Supports p005's conditional. Dilemma content is in work/T05/report.md, not the argument object's premises field. Unmapped on p006."
+    },
+    {
+      "record_id": "CL-T12-003",
+      "paragraphs": ["c04-p008"],
+      "what_was_checked": "Justified vs assumed identity; dependency group; task prefix. lookup.cjs.",
+      "result": "Prose matches the statement. DG is T12-Chalmers-conceptual-lineage. Task T12. Outside c04 freeze. Already in c03-p004. Fail as a permitted c04 mapping."
+    },
+    {
+      "record_id": "CL-T05-004",
+      "paragraphs": ["c04-p007", "c04-p008", "c04-p024"],
+      "what_was_checked": "Papineau identity-demand challenge vs p008 two-way burden.",
+      "result": "Supports p007 and p024's Papineau contest. Together with T05 report A-T05-004, supports p008 without T12."
+    },
+    {
+      "record_id": "A-P2T05-004",
+      "paragraphs": ["c04-p010"],
+      "what_was_checked": "Regress constraint wording via lookup.cjs.",
+      "result": "Conclusion matches p010 almost verbatim. Strongest objection supports the unfinished determinate-quality cost. Does not attribute a regress proof to Nida-Rümelin. Pass."
+    },
+    {
+      "record_id": "CL-P2T05-018",
+      "paragraphs": ["c04-p012", "c04-p013", "c04-p024", "c04-p025", "c04-p028"],
+      "what_was_checked": "Unresolved preserve-or-replace. lookup.cjs.",
+      "result": "Supports unresolved rest and the superiority hedge. Does not support a two-purchase census or an idealism reversal."
+    },
+    {
+      "record_id": "CL-P2T05-001",
+      "paragraphs": ["c04-p009"],
+      "what_was_checked": "Qualitative-property denial scope. lookup.cjs.",
+      "result": "Requires 'whether physical or nonphysical.' Chapter drops it."
+    },
+    {
+      "record_id": "S-P2T05-002",
+      "paragraphs": ["c04-p011"],
+      "what_was_checked": "Access status and binary/visual provenance. lookup.cjs.",
+      "result": "full_author_manuscript_text_inspected_binary_and_visual_unavailable. Chapter: final print unavailable only. Fail at first-use completeness."
+    },
+    {
+      "record_id": "S-T03-001",
+      "paragraphs": ["c04-p003"],
+      "what_was_checked": "Author-hosted 1995; relevant sections. lookup.cjs.",
+      "result": "Pass at first use."
+    },
+    {
+      "record_id": "S-T05-003",
+      "paragraphs": ["c04-p005"],
+      "what_was_checked": "2006/2007 variants; relevant_sections_inspected. lookup.cjs.",
+      "result": "Year variants disclosed. Access 'relevant sections' thinner than p003's wording."
+    },
+    {
+      "record_id": "S-T05-004",
+      "paragraphs": ["c04-p006"],
+      "what_was_checked": "Year unresolved. lookup.cjs.",
+      "result": "publication_date null; provenance year unresolved. Pass at first use."
+    },
+    {
+      "record_id": "S-P2T01-002",
+      "paragraphs": ["c04-p015"],
+      "what_was_checked": "Reprint vs journal original. lookup.cjs.",
+      "result": "inspected_full_text_reprint; original journal pagination not inspected. Chapter omits reprint. Fail at first use."
+    },
+    {
+      "record_id": "S-P2T03-004",
+      "paragraphs": ["c04-p019"],
+      "what_was_checked": "2008 chapter vs 2006 journal; one work-version family. lookup.cjs.",
+      "result": "2006 uninspected and one-family disclosed. Independent-corroboration bar in provenance not in the paragraph."
+    },
+    {
+      "record_id": "CL-P2T03-018",
+      "paragraphs": ["c04-p023", "c04-p026"],
+      "what_was_checked": "Whether this claim supports idealism reversal or only non-entailment. lookup.cjs.",
+      "result": "Supports p026 non-entailment and brain-state acceptance. Does not support p023's idealism-independent-support clause. Universal subject left open, not analyzed as an inspected idealism model."
+    },
+    {
+      "record_id": "CL-P2T03-019",
+      "paragraphs": ["c04-p026"],
+      "what_was_checked": "Time-requirement vs 'nothing bears on timelessness.' lookup.cjs.",
+      "result": "Chapter treats experience as requiring time. 'Nothing bears on timelessness' fails. Other components as not-supplied pass."
+    },
+    {
+      "record_id": "CL-P2T01-009",
+      "paragraphs": ["c04-p025", "c04-p026"],
+      "what_was_checked": "Conditional H-F taxonomy. lookup.cjs.",
+      "result": "p026's granted-ontology / limited property-level reading matches. Conditional taxonomy, not acceptance. Pass."
+    },
+    {
+      "record_id": "CL-P2T01-010",
+      "paragraphs": ["c04-p018", "c04-p025", "c04-p026"],
+      "what_was_checked": "Scope of neural-dependence obligation. lookup.cjs.",
+      "result": "Binds the selected 2005 maintenance model. p018 scoped correctly. First-review p025 generalization closed in revision 1."
+    },
+    {
+      "path": "work/P3C04/result.json",
+      "sections": ["input_artifact_versions", "revision_cycles_used", "uncertainties"],
+      "paragraphs_compared": [],
+      "finding": "Revision 1 hashes recomputed: chapter 671a46d641facdb3cc02955991d651b34832e795132388b391561d196e2a8263 and crosswalk 3ccd303da3a9b7812106852bfdc8444ac571efbecfff57eec4ecc88a18a3d776 match result.json and report.md. report.md still has first-draft U1-U3 and 'Revision cycles used: 0 of 2'; result.json has revision_cycles_used 1. Paper and task-report hashes unchanged and still match."
+    },
+    {
+      "record_id": "CL-P2T03-018",
+      "paragraphs": ["c04-p023", "c04-p025", "c04-p026"],
+      "what_was_checked": "Revision 1 re-lookup: non-entailment vs idealism-support; brain-state bound on p025.",
+      "result": "p023 close is non-entailment of a universal/cosmic subject, not idealism support. p025 brain-state sentence matches. p026 non-entailment retained. Pass."
+    },
+    {
+      "record_id": "CL-P2T03-019",
+      "paragraphs": ["c04-p026"],
+      "what_was_checked": "Revision 1 re-lookup: time-requirement restored.",
+      "result": "p026 now matches: experience as requiring time; activity vs intentional agency; nothing supplied as established. Pass."
+    },
+    {
+      "record_id": "CL-P2T01-010",
+      "paragraphs": ["c04-p025"],
+      "what_was_checked": "Revision 1 re-lookup: neural-dependence scope.",
+      "result": "p025 now names the 2005 maintenance model and discriminating dynamics. Pass."
+    },
+    {
+      "record_id": "A-T05-004",
+      "paragraphs": ["c04-p008"],
+      "what_was_checked": "Revision 1 re-lookup: replacement for CL-T12-003.",
+      "result": "Warranted-identity premise supports 'earns its explanatory relief only once warranted.' Pass. CL-T12-003 absent from crosswalk."
+    },
+    {
+      "record_id": "CL-T05-004",
+      "paragraphs": ["c04-p008"],
+      "what_was_checked": "Revision 1 re-lookup: Papineau demand challenge mapped on p008.",
+      "result": "Supports the two-way-burden pricing of the reductionist identification. Pass."
+    },
+    {
+      "record_id": "A-T05-002",
+      "paragraphs": ["c04-p006"],
+      "what_was_checked": "Revision 1 re-lookup: dilemma now mapped.",
+      "result": "In p006 refs. Prose tracks report C/E including truth and justification. Pass."
+    },
+    {
+      "path": "paper/paper.html",
+      "sections": ["p-008", "p-009", "p-012", "p-015"],
+      "paragraphs_compared": ["c04-p003", "c04-p008", "c04-p013", "c04-p023", "c04-p024"],
+      "finding": "Revision 1 article-framing check: p003 matches p-008 list (no integration). p013 has dialectical advantage for the realist. p023 tracks p-015 private perspectives / individuation / physical structure without idealism or public regularity. p024 labeled as chapter inventory of the two listed advantages."
+    }
+  ]
+}

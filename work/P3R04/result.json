@@ -1,0 +1,47 @@
+{
+  "task_id": "P3R04",
+  "status": "submitted",
+  "artifact_paths": [
+    "work/P3R04/report.md",
+    "work/P3R04/review.json",
+    "work/P3R04/source_checks.json",
+    "work/P3R04/result.json"
+  ],
+  "claims_added": [],
+  "sources_inspected": [],
+  "dependencies": [
+    "P3C04 submitted revision 1 (thesis/chapters/04-phenomenal.md, thesis/crosswalk/c04.json, work/P3C04/report.md)",
+    "Accepted records of T05, P2T01, P2T03, P2T05",
+    "paper/paper.html p-008 to p-015",
+    "work/T05/report.md",
+    "work/P2T01/report.md",
+    "work/P2T03/report.md",
+    "work/P2T05/report.md",
+    "work/G2/synthesis_constraints.json",
+    "derived/gap_gate_register.json",
+    "phase3/pilot_calibration.md"
+  ],
+  "uncertainties": [
+    "U1 (author): closed; A-T05-002 mapped; C/E horns include truth and justification.",
+    "U2 (author): closed; idealism-support clause deleted.",
+    "U3 (author): closed; four DGs named; one Chalmers-Papineau group; CL-T12-003 gone.",
+    "derived/manifest.json is stale on the revised chapter hash. Overseer should --sync-manifest at acceptance. Not a chapter-text defect.",
+    "P3G1 has not allocated transferred P2R20 decisive-source reopenings. None were skipped. No extension requested."
+  ],
+  "contradictions": [],
+  "budget_used": {
+    "search_queries": 0,
+    "source_inspections": 0
+  },
+  "recommended_next_action": "Overseer adjudication: accept P3C04 (revision 1) and P3R04. No remaining material defects. Revision cycle 2 unused. Sync derived manifest at acceptance.",
+  "protocol_version": "work/G0/protocol_v1.md",
+  "input_artifact_versions": {
+    "thesis/chapters/04-phenomenal.md": "671a46d641facdb3cc02955991d651b34832e795132388b391561d196e2a8263",
+    "thesis/crosswalk/c04.json": "3ccd303da3a9b7812106852bfdc8444ac571efbecfff57eec4ecc88a18a3d776",
+    "paper/paper.html": "d31eab14ead977930fe47b46e6fd253df0da0b7fdf6a49391943ab1e5952a277",
+    "work/T05/report.md": "126d942622383ea87071ed7dedc394dccaa2200976a31618cdc251101452437f",
+    "work/P2T01/report.md": "090b5d3d2828cc47b7a39de6f076217e9c2d3f146295c5c3a0289018b39eeef6",
+    "work/P2T03/report.md": "a32265ac69edac3c35d482c826df38cb1ed1ecb40151860924713142df658bb2",
+    "work/P2T05/report.md": "575ac90e41ed84682ddd82db3adeca6f532910fa3b03abd95b3465b0004a4444"
+  }
+}
