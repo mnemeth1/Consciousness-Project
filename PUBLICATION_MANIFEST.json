@@ -46,8 +46,8 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "3e1b272d027b20277be52acbcbde7887305cda250a67779ec08b0a4411012d90",
-      "bytes": 5223,
+      "sha256": "4678803828916f174f26363802c2716a994eae3d1283d12418d4b171759316c6",
+      "bytes": 5570,
       "source": null,
       "transformations": []
     },
@@ -587,7 +587,7 @@
     },
     {
       "path": "derived/manifest.json",
-      "sha256": "809bad271dca2eb0d173e09b12275f16eba564ef9b7bbc09bd85e854904221a7",
+      "sha256": "6023bfecbb818ccaeda3f3d3d6730869c4732b2879f7b973c7242a038d255043",
       "bytes": 8932,
       "source": null,
       "transformations": []
@@ -1176,6 +1176,13 @@
       "transformations": []
     },
     {
+      "path": "state/acceptance_P3G1.json",
+      "sha256": "52f754a6441bf13e9e26faecce90712e8dec3755561912ea9c13c65ecac770cc",
+      "bytes": 1943,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "state/adjudication_P3RX.json",
       "sha256": "d612f7cb4a9d32544770482bba63d3bf2e34147a1ed946eaab61a994e8d9c2e1",
       "bytes": 3942,
@@ -1184,8 +1191,8 @@
     },
     {
       "path": "state/public_status.json",
-      "sha256": "3821155b29980e1dbda8084047edee2d37a2bb410135333221f2284aef4eb295",
-      "bytes": 2092,
+      "sha256": "c20517bd8b1dd925d8ecd3db4511e1de1e49cb7b8feb266acd303e78a71568eb",
+      "bytes": 2215,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -1194,8 +1201,8 @@
     },
     {
       "path": "state/tasks.json",
-      "sha256": "3e74a5aab7b7417ce58a9f0d109423d8eb0a7e7423f6af64c65d428472e471b2",
-      "bytes": 132334,
+      "sha256": "89167a40441a283e148c4282e9dff6906fcf45da4c4c55b91dc8be3dc72e3684",
+      "bytes": 132335,
       "source": null,
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes.",

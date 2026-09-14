@@ -3671,7 +3671,7 @@
       "P3R11": "accepted",
       "P3R12": "accepted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3G1/",
     "deliverables": [
       "gate_decision.md",

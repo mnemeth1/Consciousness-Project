@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-14",
+  "adjudicator": "overseer (Claude Fable 5 session, project owner blanket stage authorization 2026-09-14)",
+  "verdict": "accepted",
+  "accepted_tasks": [
+    "P3G1"
+  ],
+  "decision": "Thesis coverage accepted: all 35 gap groups and 12 withheld stronger-conclusion gates carry exactly one explicit overseer-recorded disposition (3 gaps resolved by cited reviewed evidence at inspected scope: G2-GAP-27, G2-GAP-31, G2-GAP-35; 31 standing limitations; 1 permanent standing limitation: G2-GAP-09; all 12 gates withheld; 0 rows addressed by a Phase 3 gap packet, none having been triggered). The decisive-source inventory (152 unique ledger sources reachable from 2,927 crosswalk references) fits the transferred P2R20 budget (240 provisional / 320 maximum); P3R20 receives an 8-query / 80-inspection cross-chapter allocation; the assembled thesis inputs are hash-frozen for P3R20. No gap is closed and no gate is opened.",
+  "basis": "Overseer adoption of the accepted Appendix C register (thesis/appendices/C-gap-gate-disposition-register.md) after mechanical verification of all 150 named paragraph references, the twelve-gate withholding sentence in every chapter closing paragraph, and row-count equality with apC-p018; semantic spot-checks of the three resolved rows; distinct-model review credit per state/adjudication_P3RX.json.",
+  "artifacts": "work/P3G1/ (gate_decision.md, result.json, disposition_register.json, review_inventory.json)",
+  "reviewed_artifact_hashes": {
+    "work/P3G1/gate_decision.md": "60f4e942a4abedb9254c87fe3e444ac8792794ded66bcde6ee74b5a0fb57376a",
+    "work/P3G1/disposition_register.json": "94120afccadd5a54b8232b86a1f33f7a6672e0a5b396ebae4a81a7cdb0936ec4",
+    "work/P3G1/review_inventory.json": "a8601b9454d956b82becf46cdc75093d11f8ed75cd3cacd0f5633fb8c8832f9d"
+  },
+  "next": "P3R20 whole-thesis adversarial review on the frozen inputs; then P3G2, which closes P2R20 and P2G2."
+}

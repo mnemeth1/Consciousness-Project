@@ -13,6 +13,7 @@ Read `README.md`, `AI_Execution_Framework.md`, your role prompt and your task co
 - Stop at the task's completion criterion or budget; return partial results and the specific missing item when blocked. Do not weaken a criterion silently.
 - No external messages, payments, private-record requests or publication under the setup authorization. Continue public, reversible work and record access gaps.
 - Before returning, provide `templates/result.json` fields and saved artifact paths. Never imply background continuation after the active session.
+- All thesis prose (`thesis/chapters/`, `thesis/appendices/`) is written and revised in the Lennox voice: any agent drafting or editing thesis text must first load the `lennox-voice` skill (plain, persuasive prose, minimal em-dashes, paragraph IDs, crosswalks, citations and every hedge preserved). Records, gate artifacts and scripts are exempt.
 
 The project is prepared for execution. Read the launch instruction before starting research. These are project instructions, not a provider-specific executable orchestrator.
 
