@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "paper_version": "0.4.3",
+  "paper_version": "0.4.4",
   "description": "Maps every claim-bearing companion block (ids lay-NNN and lay-vN) to the research article paragraphs it summarizes. Validated at build time: the described version, every companion id and every paper paragraph id must exist, and every claim-bearing companion block must have an entry.",
   "entries": [
     {"companion_id": "lay-001", "paper_ids": ["p-005", "p-022"]},

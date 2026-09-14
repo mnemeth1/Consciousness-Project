@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "status": "authorized-draft",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "date": "2026-09-14",
-  "html_sha256": "e178b4fb493262026f74a937833663ae3f290ad78e907f5ff1a03a5a98befd7a",
+  "html_sha256": "5bb635d1ef4d49090452ebe8bd4591342fa14b5b792bd643f17bea1c88b5dbe9",
   "renderer_sha256": "2e6053db08eb1c7e064fac83794813e44112aa6039e4be252695e7179767a40e",
   "fixture": false,
   "scientific_acceptance": false,
@@ -15,8 +15,8 @@
   "publication_authorized_by": "Michael Nemeth",
   "authorization": "Publish what we have of the thesis: a landing-page link to an unfinished thesis page with a note about remaining work, to be completed when the long-form drafting model is available again.",
   "presentation": "research-article",
-  "landing_html_sha256": "6398c1dd0cbc0ac29c2aebd78a71e0e00d2f892ef2ee1308f2370f0819748765",
-  "companion_html_sha256": "4c6ce74df903b618a0109479e8ecfc7483ffc50780cb3bae562e0514f30c1906",
-  "thesis_html_sha256": "3ef1d665450f90eac58b12109d2b16a76f9a8078da5644c2b85b20b1639bf116",
-  "crosswalk_sha256": "25314a3c26c3daebf838c1cbb44d186d697c2675ef460d52fb5213d026833e4d"
+  "landing_html_sha256": "23447707339f230131a421f524fc546f1238183befd1a35d1d26231da4b62c1c",
+  "companion_html_sha256": "7316ded88fc9a6c1cf871a6b6977ef804e9023d33752aa6862d851d95d0d0433",
+  "thesis_html_sha256": "cce32a8653dec8fb1608ea000076377c78fe84a63fd652a70e936a9c6f67d6d3",
+  "crosswalk_sha256": "c46d254951767310dab6b29494f7b041c8030ba8bb62b6b70a3b9bb378576bca"
 }

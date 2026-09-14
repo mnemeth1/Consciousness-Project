@@ -201,20 +201,23 @@ function readPaperMeta() {
 }
 
 function remainingWorkBanner(front, numbered, appendices) {
-  const incomplete = [];
-  if (front.meta.status !== 'accepted') incomplete.push('front matter');
-  for (const c of numbered) {
-    if (c.meta.status !== 'accepted') incomplete.push(`chapter ${c.number} (${c.meta.title})`);
+  const parts = [{label: 'front matter', meta: front.meta},
+    ...numbered.map(c => ({label: `chapter ${c.number} (${c.meta.title})`, meta: c.meta})),
+    ...appendices.map(a => ({label: `Appendix ${a.meta.appendix}`, meta: a.meta}))];
+  // A part is unwritten only while it is a skeleton; drafted or submitted parts
+  // are written but await acceptance, and the banner must not conflate the two.
+  const unwritten = parts.filter(p => p.meta.status === 'skeleton').map(p => p.label);
+  const pending = parts.filter(p => p.meta.status === 'drafted' || p.meta.status === 'submitted').map(p => p.label);
+  const gates = 'Coverage gate P3G1, whole-thesis review P3R20, and release adjudication P3G2 (which would close P2G2) have not been run; P2R20 remains pending. Chapter acceptance is methodological and does not establish a metaphysical result.';
+  if (!unwritten.length && !pending.length) {
+    return `<p class="status" id="remaining-work">This is a complete thesis working draft: every part has been drafted, independently reviewed and accepted within project procedure. It is not yet a released manuscript, not a substitute for the <a href="paper.html">research article</a>, and not an externally peer-reviewed publication. ${gates}</p>`;
   }
-  for (const a of appendices) {
-    if (a.meta.status !== 'accepted') {
-      incomplete.push(`Appendix ${a.meta.appendix}`);
-    }
-  }
-  if (!incomplete.length) return '';
   const accepted = numbered.filter(c => c.meta.status === 'accepted').map(c => c.number);
   const acceptedSpan = accepted.length ? `chapters ${accepted[0]}–${accepted.at(-1)}` : 'no numbered chapters';
-  return `<p class="status" id="remaining-work">This is an incomplete thesis working draft. It is not a finished manuscript, not a substitute for the <a href="paper.html">research article</a>, and not an externally peer-reviewed publication. ${acceptedSpan.charAt(0).toUpperCase()}${acceptedSpan.slice(1)} have been drafted, independently reviewed and accepted within project procedure. Still unwritten: ${esc(incomplete.join('; '))}. Coverage gate P3G1, whole-thesis review P3R20, and release adjudication P3G2 (which would close P2G2) have not been run; P2R20 remains pending. Chapter acceptance is methodological and does not establish a metaphysical result.</p>`;
+  let text = `This is an incomplete thesis working draft. It is not a finished manuscript, not a substitute for the <a href="paper.html">research article</a>, and not an externally peer-reviewed publication. ${acceptedSpan.charAt(0).toUpperCase()}${acceptedSpan.slice(1)} have been drafted, independently reviewed and accepted within project procedure.`;
+  if (pending.length) text += ` Written and awaiting acceptance: ${esc(pending.join('; '))}.`;
+  if (unwritten.length) text += ` Still unwritten: ${esc(unwritten.join('; '))}.`;
+  return `<p class="status" id="remaining-work">${text} ${gates}</p>`;
 }
 
 function build({check = false, out = '.paper-build/thesis', publish = false} = {}) {

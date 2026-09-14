@@ -1,5 +1,9 @@
 # Paper versions
 
+## 0.4.4 - 2026-09-14
+
+Republishes the thesis working draft in full: the complete abstract (the published page previously carried the pre-draft "abstract pending" placeholder frozen at 0.4.2), chapters 1–12 and appendices A–D, all internally accepted after the owner-adjudicated P3RX cross-model review (state/adjudication_P3RX.json). The thesis page banner now reports acceptance state accurately. The article argument is unchanged apart from version metadata. Coverage gate P3G1, whole-thesis review P3R20 and release adjudication P3G2 remain open; pending-review status (P2R20/P2G2) remains recorded in release records.
+
 ## 0.4.3 - 2026-09-14
 
 Renderer determinism fix only; article, companion, landing and thesis content are unchanged apart from version metadata. The PDF renderer now strips the Chromium structure tree completely (outline /SE references removed and unreachable objects swept) so repeated renders of identical HTML produce identical PDF bytes. A new version is required because release assets are immutable and the renderer hash changed. Pending-review status (P2R20/P2G2) remains recorded in release records.
