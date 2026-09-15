@@ -185,8 +185,12 @@
         "after": "38ac9b4f57acb601cc2cb2dc883d4c466f3f5f5d9b626174705fc5461b1ed318"
       },
       "review": "Bounded register re-review by the distinct-model reviewer (xAI Grok 4.6): every one of the 47 rows against the full text of every paragraph it names and against work/P3G1/disposition_register.json: work/P3M02/delta_review/ (prompts/register-1.md, findings/register-1.json).",
-      "review_status": "pending: register-1 not yet run",
-      "finalized": null
+      "review_status": "accepted: register-1 verdict accept, 19 record inspections, 0 minor finding(s) noted for the later sweep, zero mechanical problems",
+      "finalized": "2026-09-15",
+      "review_artifact_hashes": {
+        "work/P3M02/delta_review/findings/register-1.json": "bb4c6473ab6583921f3af0079bcf54d93e3d8d23c361e3f9b6cb4c5b0fdfa5cd",
+        "work/P3M02/delta_review/findings/register-1.validation.json": "7cf616257f5af0718343fbff50cab7c0784db72c4e3700ab660a5d3613e3c310"
+      }
     }
   ]
 }

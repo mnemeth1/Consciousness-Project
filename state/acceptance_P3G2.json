@@ -55,10 +55,18 @@
       "what_changed": "Twenty paragraphs (c02-p037, c02-p041, c03-p038, c04-p027, c05-p009, c05-p014, c06-p022, c06-p035, c06-p037, c06-p038, c06-p044, c08-p022, c08-p025, c11-p016, c11-p034, apA-p008 row, apB-p010, apC-p001, apC-p009, apC-p018), eight Appendix C rows and fourteen crosswalk additions, exact before/after in work/P3M02/changes.json; state/acceptance_P3G1.json amendment P3G1-A1 records the register repairs; records/sources.json S-T10-002 (bibliography note corrected) and S-T10-006 (P2T11 complete-scan inspection added), records/decisions.json P3-LEDGER-002; scripts/thesis/build.cjs links DOI and http locators, omits empty author segments, avoids doubled punctuation and lints prose-named record paths against the crosswalk; scripts/validate_public_snapshot.cjs binds paper/lay_crosswalk.json paper_version and paper/draft-release.json version to the public draft version; site pages 0.4.7 (metadata and the released-thesis label only); status documents and work/P3M01/report.md brought up to date. Additionally, per the owner instruction of 2026-09-15, the published site (start page, article, overview, thesis) is visually redesigned: presentation-only markup and stylesheet (top navigation, contents rail, margin paragraph-id labels, hover citation previews) generated for the thesis page by scripts/thesis/build.cjs; paragraph and References text unchanged except that the one http:// locator now links through https so every in-article link satisfies the artifact contract.",
       "what_did_not_change": "No verdict, hedge, withheld gate, gap disposition, citation, paragraph id or record acceptance. No gap is closed and no gate is opened. The article remains an authorized working draft (site version 0.4.7, metadata only).",
       "review": "Two bounded reviews by the distinct-model reviewer (xAI Grok 4.6): delta-1 over the changed paragraphs, ledger records, crosswalk additions and the rendered References; register-1 over all 47 Appendix C rows against their named paragraphs (recorded in state/acceptance_P3G1.json P3G1-A1): work/P3M02/delta_review/ (prompts, run_m02.sh, findings/). Follows the P3M01 precedent: bounded corrections, delta re-review, chapter statuses unchanged, release record re-bound.",
-      "review_status": "pending: delta-1 and register-1 not yet run",
-      "review_artifact_hashes": {},
+      "review_status": "accepted: delta-1 verdict accept, 47 record inspections, 0 minor finding(s) noted for the later sweep, zero mechanical problems; accepted: register-1 verdict accept, 19 record inspections, 0 minor finding(s) noted for the later sweep, zero mechanical problems",
+      "review_artifact_hashes": {
+        "work/P3M02/delta_review/findings/delta-1.json": "e730b9ff357264f2f6a7fa63c727f95600b23b89a7002d3e7f754cbb2cf37db3",
+        "work/P3M02/delta_review/findings/delta-1.validation.json": "3d7da029b0ae061d96b5351388499d16d13e0c41c2ac21dc5fe42bd163df5de9",
+        "work/P3M02/delta_review/findings/register-1.json": "bb4c6473ab6583921f3af0079bcf54d93e3d8d23c361e3f9b6cb4c5b0fdfa5cd",
+        "work/P3M02/delta_review/findings/register-1.validation.json": "7cf616257f5af0718343fbff50cab7c0784db72c4e3700ab660a5d3613e3c310",
+        "work/P3M02/changes.json": "7456c3536469b1d027b33eda2c743b62397916ce85cd677452155de5a89e362c",
+        "work/P3M02/report.md": "b491ce068cebf197217dda065c597d1575f3076f69c61adb2ad8f2471d62dda7",
+        "state/acceptance_P3G1.json": "7b8f46432a4a77b94273baf22acf7b60e291e1f55977153b0bef17449f8e62ca"
+      },
       "thesis_html_sha256": "0fb9b50e7e3e2a6d93aa75f8209a2cc54ad00c66ee6e0cb9356990ddff424741",
-      "finalized": null
+      "finalized": "2026-09-15"
     }
   ]
 }

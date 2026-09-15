@@ -1191,15 +1191,15 @@
     },
     {
       "path": "state/acceptance_P3G1.json",
-      "sha256": "486e2f773f8f34725d4876759bf2c374bd19eff4c3883319866a40bb6b46755e",
-      "bytes": 18179,
+      "sha256": "7b8f46432a4a77b94273baf22acf7b60e291e1f55977153b0bef17449f8e62ca",
+      "bytes": 18595,
       "source": null,
       "transformations": []
     },
     {
       "path": "state/acceptance_P3G2.json",
-      "sha256": "ebafd62c8e0578a0e762b6a77dab0891b5bbfeedfaf0cf4b26cd0d7eea5caa3b",
-      "bytes": 8064,
+      "sha256": "db62744ef67647a7d7b8f274536d09c2ce87bec732776bb070b4aa4d6d8bd8ac",
+      "bytes": 9131,
       "source": null,
       "transformations": []
     },
@@ -1239,8 +1239,8 @@
     },
     {
       "path": "state/thesis_release.json",
-      "sha256": "3886a396dd1e46f4f7c2667490bfd996596cfc0ef992b157c855a57c83892cac",
-      "bytes": 1248,
+      "sha256": "af22cf3ed22ed5dad2590987f2872d4c3e3aa56b7ed7f608779080241694821a",
+      "bytes": 1205,
       "source": null,
       "transformations": []
     },
@@ -2338,8 +2338,8 @@
     },
     {
       "path": "work/P3M02/report.md",
-      "sha256": "40682415016bb5e031c85d329d25eb74b5d51388e002218dd7734bc97bc8ae74",
-      "bytes": 12923,
+      "sha256": "b491ce068cebf197217dda065c597d1575f3076f69c61adb2ad8f2471d62dda7",
+      "bytes": 13300,
       "source": null,
       "transformations": []
     },
