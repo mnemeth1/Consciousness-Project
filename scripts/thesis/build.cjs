@@ -545,13 +545,22 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="${esc(config.authors)}">
-<meta name="description" content="The released thesis of the Consciousness Project: twelve chapters and four appendices expanding the research article, with every paragraph traced through a crosswalk to a reviewed record or a labeled premise.">
+<meta name="description" content="The released thesis of the Consciousness Project: twelve chapters and four appendices expanding the research article, every paragraph traced to a reviewed record.">
 <meta property="og:site_name" content="Consciousness Project">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://mnemeth1.github.io/Consciousness-Project/thesis.html">
 <meta property="og:title" content="${esc(config.title)}">
-<meta property="og:description" content="Twelve chapters and four appendices expanding the research article, with every paragraph traced through a crosswalk to a reviewed record or a labeled premise.">
-<meta name="twitter:card" content="summary">
+<meta property="og:description" content="Twelve chapters and four appendices expanding the research article, every paragraph traced to a reviewed record.">
+<meta property="og:image" content="https://mnemeth1.github.io/Consciousness-Project/social-preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Consciousness Project: Does consciousness belong to the foundation of reality?">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://mnemeth1.github.io/Consciousness-Project/thesis.html">
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Thesis","headline":${JSON.stringify(config.title)},"author":{"@type":"Organization","name":"Consciousness Project"},"contributor":{"@type":"Person","name":"Michael Nemeth"},"version":${JSON.stringify(config.version)},"dateModified":${JSON.stringify(paperMeta.date)},"inLanguage":"en","url":"https://mnemeth1.github.io/Consciousness-Project/thesis.html","image":"https://mnemeth1.github.io/Consciousness-Project/social-preview.jpg","description":"The released thesis of the Consciousness Project: twelve chapters and four appendices expanding the research article, every paragraph traced to a reviewed record.","creativeWorkStatus":${JSON.stringify(released ? 'Released within project procedure; not externally peer reviewed' : 'Working draft; not externally peer reviewed')},"isPartOf":{"@type":"WebSite","name":"Consciousness Project","url":"https://mnemeth1.github.io/Consciousness-Project/"}}
+</script>
 <meta name="paper-version" content="${esc(paperMeta.version)}">
 <meta name="paper-date" content="${esc(paperMeta.date)}">
 <meta name="paper-stage" content="${released ? 'reviewed' : 'draft'}">

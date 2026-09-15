@@ -38,6 +38,10 @@ function validate() {
     '.png', '.jpg', '.jpeg', '.webp', '.zip', '.7z', '.sqlite', '.db', '.pem', '.key']);
   const forbiddenParts = new Set(['downloaded papers', 'tmp', 'cache', 'screenshots', 'source_text',
     'source_texts', 'extracted_text', 'downloads', 'input_snapshots', 'versions', '.env']);
+  // The two project-owned site identity images are the sole binary exemption;
+  // their exact bytes are pinned by the release record (favicon_sha256,
+  // social_image_sha256), and the hash/size checks above still apply.
+  const siteImageFiles = new Set(['paper/favicon.png', 'paper/social-preview.jpg']);
   const privatePath = /[A-Za-z]:[\\/]+Users[\\/]+|(?:file|sandbox):\/\//i;
   const secret = /(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----)/;
   for (const [rel, entry] of entries) {
@@ -46,6 +50,7 @@ function validate() {
     const body = fs.readFileSync(p);
     assert.equal(crypto.createHash('sha256').update(body).digest('hex'), entry.sha256, `Hash mismatch: ${rel}`);
     assert.equal(body.length, entry.bytes, `Size mismatch: ${rel}`);
+    if (siteImageFiles.has(rel)) continue;
     const suffix = path.extname(rel).toLowerCase();
     assert(!forbiddenExtensions.has(suffix), `Source binary or secret file: ${rel}`);
     assert(!rel.split('/').some(part => forbiddenParts.has(part)), `Private category: ${rel}`);

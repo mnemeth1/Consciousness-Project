@@ -42,7 +42,7 @@ test('active content, remote styles and file access are rejected', async () => {
     await assert.rejects(B.inspectHTML(page, fixture.replace('</head>', bad + '</head>')), /contract errors/);
   }
   await assert.rejects(B.inspectHTML(page, fixture.replace('</head>', '<meta http-equiv="refresh" content="120;url=https://example.org/"></head>')), /refresh/);
-  await assert.rejects(B.inspectHTML(page, fixture.replace('</main>', '<svg><use xlink:href="https://example.org/image.svg"/></svg></main>')), /anchor href/);
+  await assert.rejects(B.inspectHTML(page, fixture.replace('</main>', '<svg><use xlink:href="https://example.org/image.svg"/></svg></main>')), /anchor\/link href/);
 });
 function reviewRoot(name) {
   const root = path.join(run, name); fs.mkdirSync(path.join(root, 'paper/reviews'), {recursive: true});
@@ -331,6 +331,8 @@ function auxSources(version) {
     methodology: `<!doctype html><html lang="en"><head>${head}<title>Fixture method</title></head><body><main><h1>Fixture method</h1>${notice}<p>Synthetic method description.</p><p><a href="index.html">Start</a> <a href="paper.html">Article</a></p></main></body></html>`,
     crosswalk: {schema: 1, paper_version: version, entries: [{companion_id: 'lay-001', paper_ids: ['abstract']}]}};
 }
+const FIXTURE_PNG = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==', 'base64');
+const FIXTURE_JPG = Buffer.from('/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/wAALCAABAAEBAREA/8QAFAABAAAAAAAAAAAAAAAAAAAACf/EABQQAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQEAAD8AVN//2Q==', 'base64');
 function auxRoot(name) {
   const article = articleRoot(name), {root} = article;
   const sources = auxSources(article.meta.version);
@@ -338,23 +340,27 @@ function auxRoot(name) {
   fs.writeFileSync(path.join(root, 'paper/companion.html'), sources.companion);
   fs.writeFileSync(path.join(root, 'paper/thesis.html'), sources.thesis);
   fs.writeFileSync(path.join(root, 'paper/methodology.html'), sources.methodology);
+  fs.writeFileSync(path.join(root, 'paper/favicon.png'), FIXTURE_PNG);
+  fs.writeFileSync(path.join(root, 'paper/social-preview.jpg'), FIXTURE_JPG);
   C.writeJSON(path.join(root, 'paper/lay_crosswalk.json'), sources.crosswalk);
   const draft = {...article.draft,
     landing_html_sha256: C.sha(fs.readFileSync(path.join(root, 'paper/landing.html'))),
     companion_html_sha256: C.sha(fs.readFileSync(path.join(root, 'paper/companion.html'))),
     thesis_html_sha256: C.sha(fs.readFileSync(path.join(root, 'paper/thesis.html'))),
     methodology_html_sha256: C.sha(fs.readFileSync(path.join(root, 'paper/methodology.html'))),
+    favicon_sha256: C.sha(FIXTURE_PNG),
+    social_image_sha256: C.sha(FIXTURE_JPG),
     crosswalk_sha256: C.sha(fs.readFileSync(path.join(root, 'paper/lay_crosswalk.json')))};
   C.writeJSON(path.join(root, 'paper/draft-release.json'), draft);
   return {...article, draft};
 }
-test('landing, companion, thesis and methodology build one bound nine-file artifact and publish nine assets', async () => {
+test('landing, companion, thesis and methodology build one bound eleven-file artifact and publish eleven assets', async () => {
   const {root} = auxRoot('aux-pair');
   const manifest = await B.build({root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit});
   const directory = path.join(root, 'site');
   assert.deepEqual(fs.readdirSync(directory).sort(),
-    ['companion.html', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json',
-      'robots.txt', 'sitemap.xml', 'thesis.html']);
+    ['companion.html', 'favicon.png', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json',
+      'robots.txt', 'sitemap.xml', 'social-preview.jpg', 'thesis.html']);
   assert.equal(C.sha(fs.readFileSync(path.join(directory, 'index.html'))), manifest.landing_html_sha256);
   assert.equal(C.sha(fs.readFileSync(path.join(directory, 'paper.html'))), manifest.html_sha256);
   assert.equal(C.sha(fs.readFileSync(path.join(directory, 'companion.html'))), manifest.companion_html_sha256);
@@ -364,10 +370,10 @@ test('landing, companion, thesis and methodology build one bound nine-file artif
   C.writeJSON(path.join(directory, 'release.json'), {...manifest, mode: 'draft-release'});
   const mock = mockGitHub();
   await publishPair({directory, api: mock.api, commit});
-  assert.equal(mock.releases[0].assets.length, 9);
+  assert.equal(mock.releases[0].assets.length, 11);
   assert.deepEqual(new Set(mock.releases[0].assets.map(x => x.name)),
     new Set(['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html',
-      'robots.txt', 'sitemap.xml', 'paper.pdf', 'release.json']));
+      'favicon.png', 'social-preview.jpg', 'robots.txt', 'sitemap.xml', 'paper.pdf', 'release.json']));
   fs.appendFileSync(path.join(directory, 'companion.html'), '\nchanged');
   const changed = C.readJSON(path.join(directory, 'release.json'));
   changed.companion_html_sha256 = C.sha(fs.readFileSync(path.join(directory, 'companion.html')));
@@ -398,6 +404,7 @@ test('landing, companion, thesis and crosswalk ship together and bind to the dra
   const draft = C.readJSON(path.join(unbound.root, 'paper/draft-release.json'));
   delete draft.companion_html_sha256; delete draft.landing_html_sha256; delete draft.crosswalk_sha256;
   delete draft.thesis_html_sha256; delete draft.methodology_html_sha256;
+  delete draft.favicon_sha256; delete draft.social_image_sha256;
   C.writeJSON(path.join(unbound.root, 'paper/draft-release.json'), draft);
   await assert.rejects(B.build({root: unbound.root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit}),
     /landing_html_sha256 mismatch/);

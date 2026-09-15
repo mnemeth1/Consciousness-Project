@@ -32,10 +32,17 @@ async function inspectHTML(page, html, sourceBasename = 'paper.html') {
       error(!!document.getElementById(id), `Missing #${id}`);
     error(document.documentElement.lang === 'en', 'Set html lang=en');
     error(meta('viewport').includes('width=device-width'), 'Responsive viewport required');
-    error(!document.querySelector('script, iframe, object, embed, form, base, link, audio, video, svg, math'), 'No active, vector, or external document resources');
+    // The only restricted elements allowed are inert discovery metadata: a
+    // canonical link, an artifact-relative icon link, and parseable JSON-LD.
+    error([...document.querySelectorAll('script, iframe, object, embed, form, base, link, audio, video, svg, math')].every(el =>
+      (el.tagName === 'LINK' && el.getAttribute('rel') === 'canonical' && /^https:\/\//.test(el.getAttribute('href') || '')) ||
+      (el.tagName === 'LINK' && el.getAttribute('rel') === 'icon' && artifactFiles.includes(el.getAttribute('href'))) ||
+      (el.tagName === 'SCRIPT' && el.getAttribute('type') === 'application/ld+json' && !el.hasAttribute('src') &&
+        (() => { try { JSON.parse(el.textContent); return true; } catch { return false; } })())
+    ), 'Only canonical/icon links and inert JSON-LD among restricted elements');
     error(!document.querySelector('meta[http-equiv]'), 'No meta refresh, including delayed redirects');
     error(!all.some(el => [...el.attributes].some(a => /(^|:)href$/i.test(a.name) &&
-      !(el.tagName === 'A' && a.name === 'href'))), 'Only ordinary HTML anchor href attributes');
+      !((el.tagName === 'A' || el.tagName === 'LINK') && a.name === 'href'))), 'Only ordinary HTML anchor/link href attributes');
     error(!all.some(el => [...el.attributes].some(a => /^on/i.test(a.name))), 'No event handlers');
     error(!all.some(el => el.hasAttribute('srcset')), 'No external source sets');
     const css = [...document.querySelectorAll('style')].map(x => x.textContent).join('\n');
@@ -115,10 +122,15 @@ async function inspectAuxiliary(page, html, name, paperInfo) {
     error(new Set(ids).size === ids.length, 'Duplicate HTML IDs');
     error(document.documentElement.lang === 'en', 'Set html lang=en');
     error(meta('viewport').includes('width=device-width'), 'Responsive viewport required');
-    error(!document.querySelector('script, iframe, object, embed, form, base, link, audio, video, svg, math'), 'No active, vector, or external document resources');
+    error([...document.querySelectorAll('script, iframe, object, embed, form, base, link, audio, video, svg, math')].every(el =>
+      (el.tagName === 'LINK' && el.getAttribute('rel') === 'canonical' && /^https:\/\//.test(el.getAttribute('href') || '')) ||
+      (el.tagName === 'LINK' && el.getAttribute('rel') === 'icon' && artifactFiles.includes(el.getAttribute('href'))) ||
+      (el.tagName === 'SCRIPT' && el.getAttribute('type') === 'application/ld+json' && !el.hasAttribute('src') &&
+        (() => { try { JSON.parse(el.textContent); return true; } catch { return false; } })())
+    ), 'Only canonical/icon links and inert JSON-LD among restricted elements');
     error(!document.querySelector('meta[http-equiv]'), 'No meta refresh, including delayed redirects');
     error(!all.some(el => [...el.attributes].some(a => /(^|:)href$/i.test(a.name) &&
-      !(el.tagName === 'A' && a.name === 'href'))), 'Only ordinary HTML anchor href attributes');
+      !((el.tagName === 'A' || el.tagName === 'LINK') && a.name === 'href'))), 'Only ordinary HTML anchor/link href attributes');
     error(!all.some(el => [...el.attributes].some(a => /^on/i.test(a.name))), 'No event handlers');
     error(!all.some(el => el.hasAttribute('srcset')), 'No external source sets');
     const css = [...document.querySelectorAll('style')].map(x => x.textContent).join('\n');
@@ -259,6 +271,8 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     companion: C.regular(C.inside(root, 'paper/companion.html')),
     thesis: C.regular(C.inside(root, 'paper/thesis.html')),
     methodology: C.regular(C.inside(root, 'paper/methodology.html')),
+    favicon: C.regular(C.inside(root, 'paper/favicon.png')),
+    socialImage: C.regular(C.inside(root, 'paper/social-preview.jpg')),
     crosswalk: C.regular(C.inside(root, 'paper/lay_crosswalk.json'))} : null;
   const browser = await dep('playwright').chromium.launch({headless: true,
     executablePath: process.env.PAPER_BROWSER_EXECUTABLE || undefined,
@@ -355,6 +369,7 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     mode, fixture, source_commit: commit, html_sha256: htmlHash, pdf_sha256: C.sha(pdfBytes),
     ...(aux ? {landing_html_sha256: C.sha(aux.landing), companion_html_sha256: C.sha(aux.companion),
       thesis_html_sha256: C.sha(aux.thesis), methodology_html_sha256: C.sha(aux.methodology),
+      favicon_sha256: C.sha(aux.favicon), social_image_sha256: C.sha(aux.socialImage),
       crosswalk_sha256: C.sha(aux.crosswalk)} : {}),
     renderer_sha256: rendererHash, review_sha256: review ? C.sha(C.regular(path.join(root, 'paper/reviewed-release.json'))) : null,
     draft_authorization_sha256: draft ? C.sha(C.regular(path.join(root, 'paper/draft-release.json'))) : null,
@@ -372,6 +387,8 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     fs.writeFileSync(path.join(target, 'companion.html'), aux.companion);
     fs.writeFileSync(path.join(target, 'thesis.html'), aux.thesis);
     fs.writeFileSync(path.join(target, 'methodology.html'), aux.methodology);
+    fs.writeFileSync(path.join(target, 'favicon.png'), aux.favicon);
+    fs.writeFileSync(path.join(target, 'social-preview.jpg'), aux.socialImage);
     fs.writeFileSync(path.join(target, 'robots.txt'), robotsTxt());
     fs.writeFileSync(path.join(target, 'sitemap.xml'), sitemapXML(info.date));
   } else {
@@ -393,14 +410,15 @@ const sitemapXML = date => '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '</urlset>\n';
 function validatePair(directory, {allowPreview = false} = {}) {
   const manifest = C.readJSON(path.join(directory, 'release.json'));
-  const auxFields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256', 'methodology_html_sha256'];
+  const auxFields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256', 'methodology_html_sha256',
+    'favicon_sha256', 'social_image_sha256'];
   const bound = auxFields.filter(field => manifest[field] !== undefined);
-  assert(bound.length === 0 || bound.length === auxFields.length, 'Landing, companion, crosswalk, thesis and methodology hashes bind together');
+  assert(bound.length === 0 || bound.length === auxFields.length, 'Landing, companion, crosswalk, thesis, methodology and image hashes bind together');
   const extended = bound.length === auxFields.length;
   if (extended) for (const field of auxFields) assert(C.HASH.test(manifest[field]), `Manifest ${field} invalid`);
   assert.deepEqual(fs.readdirSync(directory).sort(),
-    extended ? ['companion.html', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json',
-      'robots.txt', 'sitemap.xml', 'thesis.html']
+    extended ? ['companion.html', 'favicon.png', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json',
+      'robots.txt', 'sitemap.xml', 'social-preview.jpg', 'thesis.html']
       : ['index.html', 'paper.pdf', 'release.json'],
     'Publish exactly the versioned paper set and manifest; no source library');
   assert.equal(manifest.schema, 1);
@@ -411,6 +429,8 @@ function validatePair(directory, {allowPreview = false} = {}) {
     assert.equal(C.sha(C.regular(path.join(directory, 'companion.html'))), manifest.companion_html_sha256, 'Companion/manifest hash mismatch');
     assert.equal(C.sha(C.regular(path.join(directory, 'thesis.html'))), manifest.thesis_html_sha256, 'Thesis/manifest hash mismatch');
     assert.equal(C.sha(C.regular(path.join(directory, 'methodology.html'))), manifest.methodology_html_sha256, 'Methodology/manifest hash mismatch');
+    assert.equal(C.sha(C.regular(path.join(directory, 'favicon.png'))), manifest.favicon_sha256, 'Favicon/manifest hash mismatch');
+    assert.equal(C.sha(C.regular(path.join(directory, 'social-preview.jpg'))), manifest.social_image_sha256, 'Social image/manifest hash mismatch');
     assert.equal(C.regular(path.join(directory, 'robots.txt')).toString('utf8'), robotsTxt(), 'robots.txt must match the generator');
     assert.equal(C.regular(path.join(directory, 'sitemap.xml')).toString('utf8'), sitemapXML(manifest.date), 'sitemap.xml must match the generator');
   } else {

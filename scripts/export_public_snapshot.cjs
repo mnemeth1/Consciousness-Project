@@ -24,6 +24,11 @@ const sha256 = buf => crypto.createHash('sha256').update(buf).digest('hex');
 
 const FORBIDDEN_EXTENSIONS = new Set(['.pdf', '.epub', '.djvu', '.mobi', '.mp3', '.mp4', '.wav',
   '.png', '.jpg', '.jpeg', '.webp', '.zip', '.7z', '.sqlite', '.db', '.pem', '.key']);
+// The forbidden-extension rule keeps third-party source material (papers,
+// screenshots, media) out of the snapshot. These two project-owned site
+// identity assets are the sole exemption; both are hash-bound in the release
+// record (favicon_sha256, social_image_sha256), so their exact bytes are pinned.
+const SITE_IMAGE_FILES = new Set(['paper/favicon.png', 'paper/social-preview.jpg']);
 const FORBIDDEN_PARTS = new Set(['downloaded papers', 'tmp', 'cache', 'screenshots', 'source_text',
   'source_texts', 'extracted_text', 'downloads', 'input_snapshots', 'versions', '.env']);
 
@@ -62,7 +67,7 @@ function exportSnapshot(target) {
     assert.equal(sha256(body), entry.sha256,
       `${entry.path}: working tree differs from the manifest; refresh PUBLICATION_MANIFEST.json first`);
     assert.equal(body.length, entry.bytes, `${entry.path}: size differs from the manifest`);
-    assert(!FORBIDDEN_EXTENSIONS.has(path.extname(entry.path).toLowerCase()),
+    assert(SITE_IMAGE_FILES.has(entry.path) || !FORBIDDEN_EXTENSIONS.has(path.extname(entry.path).toLowerCase()),
       `Forbidden file type in manifest: ${entry.path}`);
     assert(!entry.path.split('/').some(part => FORBIDDEN_PARTS.has(part)),
       `Private category in manifest: ${entry.path}`);

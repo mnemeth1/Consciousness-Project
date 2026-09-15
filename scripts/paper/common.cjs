@@ -47,8 +47,10 @@ function status(root = ROOT) {
 // Landing, companion, thesis, methodology and crosswalk publish only as one bound set; a release record must pin their exact bytes.
 const AUX_SOURCES = {landing_html_sha256: 'paper/landing.html',
   companion_html_sha256: 'paper/companion.html', crosswalk_sha256: 'paper/lay_crosswalk.json',
-  thesis_html_sha256: 'paper/thesis.html', methodology_html_sha256: 'paper/methodology.html'};
-const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html', 'paper.pdf', 'release.json'];
+  thesis_html_sha256: 'paper/thesis.html', methodology_html_sha256: 'paper/methodology.html',
+  favicon_sha256: 'paper/favicon.png', social_image_sha256: 'paper/social-preview.jpg'};
+const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html',
+  'favicon.png', 'social-preview.jpg', 'paper.pdf', 'release.json'];
 function auxPresent(root) {
   const present = Object.values(AUX_SOURCES).filter(file => fs.existsSync(path.join(root, file)));
   assert(present.length === 0 || present.length === Object.keys(AUX_SOURCES).length,
@@ -158,7 +160,8 @@ function validateReview(root, meta, htmlHash, rendererHash) {
 function assertSameRelease(previous, next) {
   for (const key of ['schema', 'version', 'date', 'title', 'fixture', 'mode', 'html_sha256',
     'pdf_sha256', 'renderer_sha256', 'review_sha256', 'draft_authorization_sha256', 'presentation',
-    'landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256', 'methodology_html_sha256']) {
+    'landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256', 'methodology_html_sha256',
+    'favicon_sha256', 'social_image_sha256']) {
     assert.deepEqual(previous[key], next[key], `Released version cannot be reused with different ${key}`);
   }
   assert(['release', 'draft-release'].includes(next.mode));

@@ -109,6 +109,20 @@
       "review_status": "not required (owner decision; no claim-bearing text changed)",
       "thesis_html_sha256": "7cc489056ed90c798cccdbe5c0b1dc08210dfe89cffb974242b22759977e3e4c",
       "finalized": "2026-09-15"
+    },
+    {
+      "amendment_id": "P3G2-A6",
+      "date": "2026-09-15",
+      "thesis_version": "1.0.6",
+      "tag": "thesis-v1.0.6",
+      "kind": "presentation-only republication: canonical links, structured data, social preview image and favicon (SEO pass, part 2)",
+      "authority": "Project owner instruction of 2026-09-15 continuing the SEO pass with owner-supplied images, under the standing decision that no distinct-model review is needed because no article or thesis content changes.",
+      "what_changed": "Every page gains a link rel=canonical to its own URL, a link rel=icon to a new favicon.png, og:image tags pointing at a new social-preview.jpg (1200x630, derived from the owner-supplied image) and a twitter summary_large_image card; meta descriptions are tightened to roughly 130-165 characters with the calibration language preserved. The landing page carries WebSite JSON-LD, the article ScholarlyArticle JSON-LD and the thesis Thesis JSON-LD (author Organization, contributor Michael Nemeth, version, status, canonical URL). The page security contract is relaxed exactly three ways, enforced in both inspectors: link rel=canonical with an https href, link rel=icon with an artifact-relative href, and inert script type=application/ld+json whose body must parse as JSON; everything else stays banned. favicon.png and social-preview.jpg join the bound artifact as hash-bound files (favicon_sha256, social_image_sha256 in the release records and assertSameRelease), growing the pinned deployed set from nine to eleven files across validatePair, the release uploader, the standalone artifact validator and the tests. The article site republishes as 0.4.11 and the thesis as thesis-v1.0.6 solely because published page hashes and release assets are immutable per version.",
+      "what_did_not_change": "No thesis paragraph, citation, crosswalk entry, References entry, verdict, hedge, withheld gate, gap disposition or record acceptance. Body text on all five pages is byte-identical apart from version literals; the changes are head metadata, two image assets and the contract relaxation that admits them. No page loads any external resource; the JSON-LD is inert data that restates the pages own title, status and URL. The print layer and the PDF text are unaffected. The article remains an authorized working draft with scientific_acceptance false.",
+      "review": "None required (owner decision of 2026-09-15, continuing the P3G2-A5 disposition): head metadata, images and validator changes only, no claim-bearing text changed. The JSON-LD status fields carry the calibration language (working draft / released within project procedure; not externally peer reviewed).",
+      "review_status": "not required (owner decision; no claim-bearing text changed)",
+      "thesis_html_sha256": "37390fde60528de301449d77f3034d040b603dc6631a907c7fc1647cee442416",
+      "finalized": "2026-09-15"
     }
   ]
 }

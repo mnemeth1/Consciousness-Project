@@ -6,7 +6,8 @@ const assert = require('node:assert/strict');
 const C = require('./common.cjs');
 const {validatePair} = require('./build.cjs');
 const artifactNames = manifest => manifest.landing_html_sha256
-  ? ['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html', 'robots.txt', 'sitemap.xml', 'paper.pdf', 'release.json']
+  ? ['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html', 'favicon.png', 'social-preview.jpg',
+    'robots.txt', 'sitemap.xml', 'paper.pdf', 'release.json']
   : ['index.html', 'paper.pdf', 'release.json'];
 function compareVersion(a, b) {
   const x = a.split('.').map(BigInt), y = b.split('.').map(BigInt);
