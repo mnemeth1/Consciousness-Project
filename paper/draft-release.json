@@ -1,19 +1,20 @@
 {
   "schema": 1,
   "status": "authorized-draft",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "date": "2026-09-15",
-  "html_sha256": "3f4d258b90a9ddf0bccf41554fb0aaaa84e9bd4b4e9d86673a3a426e1ae00f16",
-  "renderer_sha256": "e68a373aa0bb5f3980b89699c56320021acef4a1c4d076b2fad7573513eb05f5",
+  "html_sha256": "bebd4c2a61e369b37a99da50d49f549fd3a0abe1b4e25548650d4d32d87df2a5",
+  "renderer_sha256": "e6d57fc225b36faf82ca9e5a8b0038d864ac1ba523086eb2c4fe05d5ecc5c6c1",
   "fixture": false,
   "scientific_acceptance": false,
   "pending_reviews": [],
   "author": "Consciousness Project; AI-assisted draft authored by a separate synthesis context",
   "publication_authorized_by": "Michael Nemeth",
-  "authorization": "Owner instruction of 2026-09-15 to add a thesis PDF download option to the site menu alongside the existing article PDF, under the blanket stage authorization of 2026-09-14. Presentation-only: every page's top navigation now offers 'Article PDF' and 'Thesis PDF' buttons; the article argument is unchanged (version metadata only) and remains an authorized working draft.",
+  "authorization": "Owner approval of 2026-09-15 of the P3M04 plan and instruction to create the methodology page ('create it'), under the blanket stage authorization of 2026-09-14. Adds paper/methodology.html ('How this project works') as a fifth bound site page presenting the project's method as a named deliverable; the page describes the recorded procedure only, states no verdict and introduces no evidence; the owner recorded that no distinct-model review is required because no claim-bearing text changed, and an adversarial fact-check of the page against its named records preceded publication. The article argument is unchanged (version metadata and navigation only) and remains an authorized working draft.",
   "presentation": "research-article",
-  "landing_html_sha256": "dde38c0b4a79c06098626916878dd862ab7e4ebcd82ef68958e3fc7afaf50121",
-  "companion_html_sha256": "8f2c9950648d7c2314289f5fb47dfd61bc7ce898dca7db77b7d708e3faff98f8",
-  "thesis_html_sha256": "8fa2abf0be981ddf3f3ca29b479a37baab0507b14ca52f21a21905ebc4b05c3c",
-  "crosswalk_sha256": "29f547b7ecb2291deaa18c779185c459a2c344026e76b65f6bfba2b96d54b2a3"
+  "landing_html_sha256": "49f5f8223b54427deab200ecb6411b42283eaaebfc26f14176f1951da3d76572",
+  "companion_html_sha256": "870cae3adb45ae9f9507826099b8498605c7eb65ebade942f60d98170e0dddfd",
+  "thesis_html_sha256": "c2e381c9fb7840cfc6f0a15f0047bbbc7d7d37cb3ee262ff4f9147607db1bf4e",
+  "methodology_html_sha256": "93d609a92f75c0f02efb304fc6840ce995e8f41c45e904336ded5044370a4de7",
+  "crosswalk_sha256": "dde79b6568bd6b2aa3c2cb64b2ab017435fb15fe3ec4bdde709778fd248e8a68"
 }

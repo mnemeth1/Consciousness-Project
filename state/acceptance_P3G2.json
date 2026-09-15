@@ -81,6 +81,20 @@
       "review_status": "not applicable (no claim-bearing text changed)",
       "thesis_html_sha256": "8fa2abf0be981ddf3f3ca29b479a37baab0507b14ca52f21a21905ebc4b05c3c",
       "finalized": "2026-09-15"
+    },
+    {
+      "amendment_id": "P3G2-A4",
+      "date": "2026-09-15",
+      "thesis_version": "1.0.4",
+      "tag": "thesis-v1.0.4",
+      "kind": "presentation-only republication: methodology page added to the bound site set",
+      "authority": "Project owner approval of 2026-09-15 of the P3M04 plan and instruction to create the methodology page, under the blanket stage authorization of 2026-09-14.",
+      "what_changed": "A fifth public page, paper/methodology.html (How this project works), joins the bound release set as a named deliverable describing the recorded procedure: the nine-component decomposition and report/event distinction, the withheld gates and removal-scenario sensitivity tests, the independent-review rules, the crosswalk and ledger tracing, the hash-bound immutable releases and the AI-assistance disclosure, each statement linked to a public record. The build pipeline registers the page (AUX_SOURCES, ARTIFACT_FILES, inspection, manifest binding methodology_html_sha256, seven published artifact files) and the top navigation of every page, including the thesis page emitted by scripts/thesis/build.cjs (a template not covered by the pinned renderer recipe), gains a Method link; the start page gains a fourth reading-path card. The article site republishes as 0.4.9 and the thesis as thesis-v1.0.4 solely because published page hashes and release assets are immutable per version.",
+      "what_did_not_change": "No thesis paragraph, citation, crosswalk entry, References entry, verdict, hedge, withheld gate, gap disposition or record acceptance. The regenerated paper/thesis.html differs from the 1.0.3 page only in the version metadata (article 0.4.9, thesis 1.0.4) and the added navigation link; the print layer, and with it the PDF text, is unaffected (the navigation is screen-only). The methodology page states no verdict and introduces no evidence; the article remains an authorized working draft with scientific_acceptance false.",
+      "review": "None required (owner decision of 2026-09-15): no claim-bearing text of the thesis, article or overview changed, so no distinct-model delta review is needed. The thesis page change is navigation chrome only, following the presentation-only precedent of P3G2-A2/A3. The new methodology page is process description outside the reviewed corpus: it states no verdict and introduces no evidence, and an adversarial fact-check of every factual statement against its named public record preceded publication (one dropped limitation and five overstatements found and corrected before the hashes were bound). The prepared method-1 review prompt is retained in work/P3M04/ as an optional future check.",
+      "review_status": "not required (owner decision; no claim-bearing text changed)",
+      "thesis_html_sha256": "c2e381c9fb7840cfc6f0a15f0047bbbc7d7d37cb3ee262ff4f9147607db1bf4e",
+      "finalized": "2026-09-15"
     }
   ]
 }

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Consciousness Project">
+<meta name="paper-version" content="0.4.9">
+<meta name="paper-date" content="2026-09-15">
+<title>How This Project Works: The Method Behind the Research</title>
+<style>
+
+:root {
+  --color-bg: #f3f2f2;
+  --color-surface: #eae9e9;
+  --color-text: #201f1d;
+  --color-accent: #b68235;
+  --color-accent-2: #ac803e;
+  --color-divider: color-mix(in srgb, #201f1d 16%, transparent);
+
+  --color-neutral-100: #f8f4f4;
+  --color-neutral-800: #444141;
+  --color-accent-100: #fff3e4;
+  --color-accent-600: #a06f24;
+  --color-accent-700: #7d5411;
+  --color-accent-800: #5a3b0a;
+  --font-heading: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-heading-weight: 600;
+  --font-body: "Lora", Georgia, "Times New Roman", serif;
+  --space-1: 4.6px;
+  --space-2: 9.2px;
+  --space-3: 13.8px;
+  --space-4: 18.4px;
+  --radius-md: 4px;
+  --shadow-md: 0 3px 10px color-mix(in srgb, #2d2b2b 16%, transparent);
+}
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-size: 15px; line-height: 1.55; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 var(--space-2);
+}
+p { margin: 0 0 var(--space-3); }
+a { color: var(--color-accent); text-underline-offset: 3px; }
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+::selection { background: color-mix(in srgb, var(--color-accent) 30%, transparent); }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  cursor: pointer; text-decoration: none;
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 14px; line-height: 1.2; color: var(--color-text);
+  background: transparent; border: 1px solid transparent;
+  padding: var(--space-2) calc(var(--space-3) * 1.2);
+  border-radius: var(--radius-md);
+}
+.btn-primary { color: var(--color-accent); border-color: var(--color-accent); }
+.btn-primary:hover { background: color-mix(in srgb, var(--color-accent) 12%, transparent); }
+.btn-primary:active { background: color-mix(in srgb, var(--color-accent) 22%, transparent); }
+.btn-ghost { color: var(--color-accent); padding-inline: var(--space-1); }
+.btn-ghost:hover { background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
+.btn-ghost:active { background: color-mix(in srgb, var(--color-accent) 18%, transparent); }
+
+body{margin:0;text-wrap:pretty;font-size:17px;line-height:28px}
+a{color:var(--color-accent-700);text-underline-offset:3px}a:hover{color:var(--color-accent-600)}
+.toc a{color:inherit;text-decoration:none;display:block;padding:4px 0}.toc a:hover{color:var(--color-accent-700)}
+@media (max-width:1000px){.rail{display:none}.page{grid-template-columns:minmax(0,1fr) !important}}
+@media (max-width:640px){.navlinks{display:none}}
+@page{size:A4;margin:20mm 19mm 22mm}
+@media print{body{background:white;color:black;font-size:10.7pt;line-height:1.43}nav,.rail{display:none}.page{display:block !important;padding:0 !important}h1,h2,h3,h4{break-after:avoid}p{orphans:3;widows:3}}
+
+.shell{min-height:100vh}
+nav.site{display:flex;align-items:center;gap:18.4px;padding:13.8px max(clamp(20px,5vw,72px),calc((100% - 1200px)/2 + clamp(20px,5vw,72px)));border-bottom:1px solid var(--color-divider)}
+nav.site .brand{font-family:var(--font-heading);font-weight:600;font-size:18px;margin-right:auto;color:inherit;text-decoration:none}
+.navlinks{display:flex;gap:18.4px;font-size:14px}
+.navlinks a{color:inherit;text-decoration:none;white-space:nowrap}
+.page{max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:grid;grid-template-columns:200px minmax(0,1fr);gap:0 clamp(72px,8vw,120px);align-items:start}
+.rail{position:sticky;top:0;padding:56px 0;font-size:13px;line-height:20px;max-height:100vh;overflow:auto;color:color-mix(in srgb,var(--color-text) 70%,transparent)}
+.kicker{font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700);font-feature-settings:'tnum' 1;margin:0 0 28px}
+.rail .kicker{font-size:11px;line-height:14px;margin:0 0 14px}
+main{max-width:66ch;padding:56px 0 84px;position:relative}
+main h1{font-family:var(--font-heading);font-weight:400;font-size:clamp(40px,4.4vw,56px);line-height:1.08;letter-spacing:-.01em;margin:0 0 28px -.042em}
+main h2{font-family:var(--font-heading);font-weight:400;font-size:34px;line-height:40px;letter-spacing:-.008em;margin:84px 0 28px}
+main h3{font-family:var(--font-heading);font-weight:600;font-size:22px;line-height:28px;margin:42px 0 14px}
+main p{position:relative;margin:0 0 14px;text-align:justify;hyphens:auto}
+main p.kicker{text-align:left;hyphens:manual;margin:0 0 28px}
+main p.meta{margin:0;font-size:13px;line-height:20px;color:color-mix(in srgb,var(--color-text) 70%,transparent);text-align:left;hyphens:manual}
+main p.status-line{font-size:13px;line-height:20px;margin:28px 0 0;padding:14px 0;border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider);color:color-mix(in srgb,var(--color-text) 70%,transparent);text-align:left;hyphens:manual}
+.records{list-style:none;margin:28px 0;padding:0;border-top:1px solid var(--color-divider)}
+.records li{padding:13.8px 0;border-bottom:1px solid var(--color-divider);font-size:15px;line-height:24px}
+.records li b{font-family:var(--font-heading);font-weight:600;font-size:16px;display:block}
+#status{margin-top:84px;padding-top:28px;border-top:1px solid var(--color-divider)}
+#status p{margin:0 0 9px;font-size:14px;line-height:22px;color:color-mix(in srgb,var(--color-text) 70%,transparent)}
+</style>
+</head>
+<body>
+<div class="shell">
+<nav class="site" aria-label="Method navigation"><a class="brand" href="index.html">Consciousness Project</a><div class="navlinks"><a href="companion.html">Overview</a><a href="paper.html">Article</a><a href="thesis.html">Thesis</a><a href="methodology.html" aria-current="page">Method</a></div><a href="paper.pdf" class="btn btn-primary">Article PDF</a><a href="https://github.com/mnemeth1/Consciousness-Project/releases/download/thesis-v1.0.4/thesis.pdf" class="btn btn-ghost">Thesis PDF</a></nav>
+<div class="page">
+<aside class="rail toc" aria-label="Contents">
+<p class="kicker">Contents</p>
+<a href="#method-why">Why the method is published</a><a href="#method-claims">Claims come apart, and reports are not events</a><a href="#method-withheld">Withheld conclusions and removal tests</a><a href="#method-review">No one reviews their own work</a><a href="#method-trace">Every paragraph traces to a record</a><a href="#method-releases">Releases are bound by hash</a><a href="#method-ai">AI assistance, stated plainly</a><a href="#method-verify">Where to verify</a>
+</aside>
+<main id="methodology">
+<header>
+<p class="kicker">Method</p>
+<h1 id="method-title">How this project works</h1>
+<p class="meta">The working rules behind the <a href="paper.html">article</a>, the <a href="companion.html">overview</a> and the <a href="thesis.html">thesis</a>: what counts as evidence, who checks whom, and how every published page is bound to its records.</p>
+<p id="version-notice" class="meta">Describes version <span id="paper-version">0.4.9</span> · <span id="paper-date">2026-09-15</span> of the release. Prepared with AI assistance.</p>
+<p class="status-line">Nothing on this site is externally peer reviewed. The rules described on this page are checkable against the project's public records. <a href="#status">Read the full statement.</a></p>
+</header>
+
+<section id="method-why">
+<h2>Why the method is published</h2>
+<p>The other pages of this site present findings. The article argues, the overview summarizes, and the thesis expands. This page describes the machinery those texts had to pass through before publication, because the project treats that machinery as a contribution in its own right. On a subject where conviction is cheap and the evidence is contested, the durable offering may not be any single verdict. It may be a way of working that keeps verdicts honest.</p>
+<p>None of the rules below is a promise. Each is written down where a reader can check it, in a public register, an acceptance record or the project's tooling, and many are enforced mechanically by build tools that refuse to publish when a rule is broken. The sections that follow say where.</p>
+</section>
+
+<section id="method-claims">
+<h2>Claims come apart, and reports are not events</h2>
+<p>The hypothesis under investigation sounds like one claim: that an enduring consciousness lies at the foundation of reality. The project's first rule is that it is not one claim. It is assessed as nine separate components: that experience is fundamental, that individual minds depend on one mind, that consciousness can exist independently of a functioning brain, that persons survive death, that the foundation is timeless, that lives are preserved, that existence is intended, that the foundation is good, and that it grounds moral authority. None is treated as an automatic consequence of another, so a finding that supports one buys nothing further up the ladder. The <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/Research_Plan.md">research plan</a> fixes this discipline in advance, pairing each claim in its component table with what it does not establish by itself, and the <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/AI_Execution_Framework.md">execution framework</a> states the nine-way separation as a standing rule.</p>
+<p>The second rule does constant work in the evidence chapters: that an experience was reported is one fact, and that the reported event occurred as described is another. The records keep separate identifiers for sources, cases, claims and arguments, so that sincerity, credentials, accuracy and interpretation are never collapsed into a single judgment. For near-death cases the ledgers preserve medical timing and its uncertainty, the earliest report, information access and witness independence; for prospective studies they preserve the denominators, and an unknown denominator stays unknown. The discipline runs in both directions. A proposed ordinary mechanism is not treated as the established explanation of a specific case.</p>
+</section>
+
+<section id="method-withheld">
+<h2>Withheld conclusions and removal tests</h2>
+<p>Where the evidence stops, the project records a stop rather than a softer sentence. Twelve stronger conclusions are withheld behind recorded gates, and thirty-five groups of acknowledged gaps carry one recorded disposition each; the coverage gate's record holds the dispositions of record, and <a href="thesis.html">Appendix C of the thesis</a> publishes the register in prose. No release closes a gap or opens a gate.</p>
+<p>The confidence judgments were also tested by withdrawal. The sensitivity analysis runs seventeen removal scenarios built on eight test designs across all nine components, taking evidence and premises away to see what the remaining corpus still supports. Removing a case removes that case's criticism along with it. Summaries that mixed a withdrawn source are requalified, so removed evidence cannot return through an aggregate. Rejecting a bridge premise disables the argument routes built on it without pretending the component is disproved. The point of the exercise is not that the proposal is robust. Often what a removal shows is that a question stays unresolved, and the analysis says so. The executed scenarios are documented in the <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/work/T17/report.md">sensitivity report</a>.</p>
+</section>
+
+<section id="method-review">
+<h2>No one reviews their own work</h2>
+<p>Review is an independent reporting path rather than a layer under the author, and no one approves their own output. The synthesis review reopened the original passages behind the decisive uses (a scoped check, not a fresh verification of every linked claim) and independently reconstructed the premise dependencies of all 527 route and scenario entries; the <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/work/R18/report.md">reviewer's report</a> states at the outset that the reviewer authored none of the three drafts under review. Each body chapter of the thesis was independently reviewed, revised and accepted; the synthesis chapters and appendices were accepted on an owner-adjudicated cross-model review; and the whole thesis then passed an adversarial review on frozen inputs with one hundred record inspections. Post-release corrections are re-reviewed by a reviewer running on a different model before they publish.</p>
+<p>Part of this is enforced mechanically: the build tool that assembles a reviewed release refuses a record in which the author and the reviewer are the same name. And every status section on this site states what the discipline does and does not buy. Acceptance is methodological. It means the recorded procedure was followed, not that a metaphysical conclusion is established, and none of it is external peer review.</p>
+</section>
+
+<section id="method-trace">
+<h2>Every paragraph traces to a record</h2>
+<p>The claim-bearing texts are mapped, block by block. Every claim block of the plain-language overview is listed in a public <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/paper/lay_crosswalk.json">crosswalk</a> naming the article paragraphs it summarizes, and the build fails if a block lacks an entry or an entry names a paragraph that does not exist. Every thesis paragraph is traced through its own <a href="https://github.com/mnemeth1/Consciousness-Project/tree/main/thesis/crosswalk">crosswalk</a> to a reviewed record or an explicitly labeled premise. Sources and claims live in <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/records/sources.json">ledgers</a> under stable identifiers that record what was actually inspected, and paragraph identifiers are never renumbered or reused, so a citation into any past version stays valid.</p>
+</section>
+
+<section id="method-releases">
+<h2>Releases are bound by hash</h2>
+<p>Everything above depends on the published words staying the words the records reviewed. So the site publishes as immutable versioned releases. Each release record pins the exact bytes of every page by cryptographic hash, and the tooling refuses to reuse a released version number with different content. The deployed site carries its own <a href="release.json">manifest</a> listing those hashes, so a reader can verify that the page in front of them is the page the records bind. The current bindings are in the <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/paper/draft-release.json">article release record</a> and the <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/state/thesis_release.json">thesis release record</a>.</p>
+<p>Corrections never edit a release in place. A post-release fix becomes a new version with its own record: its changes documented in the <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/paper/CHANGELOG.md">changelog</a>, its amended acceptance records naming exactly what changed and why, and the changed text re-reviewed before publication. Two such corrections have been published to date, and both are described, error by error, on the <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/STATUS.md">status page</a>.</p>
+</section>
+
+<section id="method-ai">
+<h2>AI assistance, stated plainly</h2>
+<p>The research was organized, analyzed and drafted with AI assistance under a recorded <a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/AI_Execution_Framework.md">execution framework</a> that assigns persistent roles: researchers produce evidence packets, independent reviewers check them, and an unavailable review is never counted as passed. The article carries this <a href="paper.html#ai-disclosure">disclosure</a> on its title block. The limits are stated with the same bluntness as the findings. Coverage of the literature is bounded by what was actually inspected, and the ledgers record the access status of every source; four source requests remain open. Source access, version identity, case timing, sample dependence and philosophical bridge premises remain binding limitations. The internal review layers, however many, do not substitute for external peer review.</p>
+</section>
+
+<section id="method-verify">
+<h2>Where to verify</h2>
+<p>This page is a front door, not the record itself. The primary documents:</p>
+<ul class="records">
+<li><b><a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/Research_Plan.md">Research plan</a></b>The hypothesis decomposition, the comparison criteria and the evidence rules, fixed in advance.</li>
+<li><b><a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/AI_Execution_Framework.md">Execution framework</a></b>Roles, review paths and acceptance rules for the AI-assisted workflow.</li>
+<li><b><a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/STATUS.md">Status page</a></b>The current release state, what each review closed, and the standing limitations.</li>
+<li><b><a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/work/G2/gap_register.json">Gap register</a></b>The acknowledged gaps, with the disposition register published in prose as Appendix C of the <a href="thesis.html">thesis</a>.</li>
+<li><b><a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/records/sources.json">Source ledger</a></b>Every source under a stable identifier, with its access status and inspected locators.</li>
+<li><b><a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/work/T17/report.md">Sensitivity report</a></b>The removal scenarios and what each one changes.</li>
+<li><b><a href="https://github.com/mnemeth1/Consciousness-Project/blob/main/work/R18/report.md">Independent review report</a></b>The adversarial review of the dependency map, sensitivity analysis and synthesis.</li>
+<li><b><a href="https://github.com/mnemeth1/Consciousness-Project/releases">Versioned releases</a></b>Every published version, with its release records and hashes; the live manifest is <a href="release.json">release.json</a>.</li>
+</ul>
+</section>
+
+<section id="status">
+<p class="kicker">Status of this text</p>
+<p class="status">This site is a versioned research project prepared with AI assistance; nothing on it is externally peer reviewed. This page describes the project's recorded procedure and adds no findings, evidence or verdicts of its own. Every factual statement here about that procedure names, or is checkable against, a public record in the project repository. Acceptance within the procedure is a statement about method, not a metaphysical result, and all twelve stronger conclusions that the project withheld remain withheld.</p>
+</section>
+</main>
+</div>
+</div>
+</body>
+</html>

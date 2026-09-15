@@ -44,15 +44,15 @@ function status(root = ROOT) {
   if (draft) return {state: 'draft-candidate', reason: 'Explicit working-draft publication authorization requires validation.'};
   return {state: review ? 'candidate' : 'draft', reason: review ? 'Review record requires validation.' : 'Draft may be built, never published.'};
 }
-// Landing, companion, thesis and crosswalk publish only as one bound set; a release record must pin their exact bytes.
+// Landing, companion, thesis, methodology and crosswalk publish only as one bound set; a release record must pin their exact bytes.
 const AUX_SOURCES = {landing_html_sha256: 'paper/landing.html',
   companion_html_sha256: 'paper/companion.html', crosswalk_sha256: 'paper/lay_crosswalk.json',
-  thesis_html_sha256: 'paper/thesis.html'};
-const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'thesis.html', 'paper.pdf', 'release.json'];
+  thesis_html_sha256: 'paper/thesis.html', methodology_html_sha256: 'paper/methodology.html'};
+const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html', 'paper.pdf', 'release.json'];
 function auxPresent(root) {
   const present = Object.values(AUX_SOURCES).filter(file => fs.existsSync(path.join(root, file)));
   assert(present.length === 0 || present.length === Object.keys(AUX_SOURCES).length,
-    'Landing, companion, crosswalk and thesis must ship together or not at all');
+    'Landing, companion, crosswalk, thesis and methodology must ship together or not at all');
   return present.length === Object.keys(AUX_SOURCES).length;
 }
 function validateAuxBinding(root, record, recordName) {
@@ -158,7 +158,7 @@ function validateReview(root, meta, htmlHash, rendererHash) {
 function assertSameRelease(previous, next) {
   for (const key of ['schema', 'version', 'date', 'title', 'fixture', 'mode', 'html_sha256',
     'pdf_sha256', 'renderer_sha256', 'review_sha256', 'draft_authorization_sha256', 'presentation',
-    'landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256']) {
+    'landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256', 'methodology_html_sha256']) {
     assert.deepEqual(previous[key], next[key], `Released version cannot be reused with different ${key}`);
   }
   assert(['release', 'draft-release'].includes(next.mode));

@@ -188,7 +188,7 @@ function validate() {
   // published words and the gate records disagreed. These assertions bind
   // the reader-facing pages to state/public_status.json and thesis/thesis.json.
   const thesisConfig = read('thesis/thesis.json');
-  const pages = Object.fromEntries(['paper/landing.html', 'paper/companion.html', 'paper/paper.html']
+  const pages = Object.fromEntries(['paper/landing.html', 'paper/companion.html', 'paper/paper.html', 'paper/methodology.html']
     .map(rel => [rel, readText(rel)]));
   if (status.current_public_draft.pending_reviews.length === 0) {
     for (const [rel, text] of Object.entries(pages)) {
