@@ -410,7 +410,11 @@ function validatePair(directory, {allowPreview = false} = {}) {
       assert.equal(manifest.scientific_acceptance, false, 'Working draft is not scientifically accepted');
       assert.equal(manifest.stage, 'draft');
       assert.equal(manifest.review_sha256, null); assert.equal(manifest.review, null);
-      assert.deepEqual(manifest.draft.pending_reviews, ['P2R20', 'P2G2']);
+      // The draft record's pending list is validated against the P3G2 closure
+      // record in validateDraft; here only its shape is pinned: either the two
+      // named reviews are pending or, after the recorded closure, none are.
+      assert([['P2R20', 'P2G2'], []].some(x => JSON.stringify(manifest.draft.pending_reviews) === JSON.stringify(x)),
+        'Draft pending reviews must be P2R20/P2G2 or, after the recorded P3G2 closure, empty');
       C.validateDraftPresentation(manifest, manifest.draft.presentation);
     }
   }
