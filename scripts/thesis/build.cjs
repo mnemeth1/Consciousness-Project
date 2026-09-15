@@ -336,6 +336,8 @@ const STYLE = [
   'nav.site{display:flex;align-items:center;gap:18.4px;padding:13.8px max(clamp(20px,5vw,72px),calc((100% - 1200px)/2 + clamp(20px,5vw,72px)));border-bottom:1px solid var(--color-divider)}',
   'nav.site .brand{font-family:var(--font-heading);font-weight:600;font-size:18px;margin-right:auto;color:inherit;text-decoration:none}',
   '.navlinks{display:flex;gap:18.4px;font-size:14px}.navlinks a{color:inherit;text-decoration:none;white-space:nowrap}',
+  '.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;cursor:pointer;text-decoration:none;font-family:var(--font-heading);font-weight:600;font-size:14px;line-height:1.2;background:transparent;border:1px solid transparent;padding:9.2px 16.56px;border-radius:4px;white-space:nowrap}',
+  '.btn-primary{color:var(--color-accent);border-color:var(--color-accent)}.btn-primary:hover{background:color-mix(in srgb,var(--color-accent) 12%,transparent)}.btn-primary:active{background:color-mix(in srgb,var(--color-accent) 22%,transparent)}',
   '.page{max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:grid;grid-template-columns:200px minmax(0,1fr);gap:0 clamp(72px,8vw,120px);align-items:start}',
   '.rail{position:sticky;top:0;padding:56px 0;font-size:13px;line-height:20px;max-height:100vh;overflow:auto;color:color-mix(in srgb,var(--color-text) 70%,transparent)}',
   '.toc a{color:inherit;text-decoration:none;display:block;padding:4px 0}.toc a:hover{color:var(--color-accent-700)}',
@@ -552,7 +554,7 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
 </head>
 <body>
 <div class="shell">
-<nav class="site screen-only" aria-label="Thesis navigation"><a class="brand" href="index.html">Consciousness Project</a><div class="navlinks"><a href="companion.html">Overview</a><a href="paper.html">Article</a><a href="thesis.html" aria-current="page">Thesis</a></div></nav>
+<nav class="site screen-only" aria-label="Thesis navigation"><a class="brand" href="index.html">Consciousness Project</a><div class="navlinks"><a href="companion.html">Overview</a><a href="paper.html">Article</a><a href="thesis.html" aria-current="page">Thesis</a></div>${released ? `<a class="btn btn-primary" href="https://github.com/mnemeth1/Consciousness-Project/releases/download/thesis-v${esc(config.version)}/thesis.pdf">Thesis PDF</a>` : ''}</nav>
 <div class="page">
 ${rail}
 <main id="paper">

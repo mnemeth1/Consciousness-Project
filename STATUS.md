@@ -1,6 +1,6 @@
 # Research status — 15 September 2026
 
-The canonical public manuscript is the authorized working draft in `paper/paper.html` (version 0.4.7), published together with the released thesis `paper/thesis.html` (thesis-v1.0.2). The former Version 1 synthesis directory has been retired; it is not the working draft. This is AI-assisted project research, not journal peer review.
+The canonical public manuscript is the authorized working draft in `paper/paper.html` (version 0.4.8), published together with the released thesis `paper/thesis.html` (thesis-v1.0.3). The former Version 1 synthesis directory has been retired; it is not the working draft. This is AI-assisted project research, not journal peer review.
 
 Phase 2 has 46 of 46 assignments accepted within the project's stated scope. This is workflow progress, not a count of independent observations or evidence for a hypothesis.
 

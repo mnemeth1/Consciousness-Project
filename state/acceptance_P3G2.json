@@ -67,6 +67,20 @@
       },
       "thesis_html_sha256": "0fb9b50e7e3e2a6d93aa75f8209a2cc54ad00c66ee6e0cb9356990ddff424741",
       "finalized": "2026-09-15"
+    },
+    {
+      "amendment_id": "P3G2-A3",
+      "date": "2026-09-15",
+      "thesis_version": "1.0.3",
+      "tag": "thesis-v1.0.3",
+      "kind": "presentation-only republication: thesis PDF download in the site navigation",
+      "authority": "Project owner instruction of 2026-09-15 to add a thesis PDF download option to the site menu alongside the existing article PDF, under the blanket stage authorization of 2026-09-14.",
+      "what_changed": "The top navigation of all four site pages now offers both documents: the existing article PDF button is relabeled 'Article PDF' (paper/landing.html, paper/companion.html, paper/paper.html; the #download-pdf contract link is unchanged in target and attributes) and a new 'Thesis PDF' button links the immutable release asset https://github.com/mnemeth1/Consciousness-Project/releases/download/thesis-v1.0.3/thesis.pdf; the thesis page, which previously had no download button, gains the same 'Thesis PDF' button and its button styles, emitted by scripts/thesis/build.cjs (a template not covered by the pinned renderer recipe). The article site republishes as 0.4.8 and the thesis as thesis-v1.0.3 solely because published page hashes and release assets are immutable per version.",
+      "what_did_not_change": "No thesis paragraph, citation, crosswalk entry, References entry, verdict, hedge, withheld gate, gap disposition or record acceptance. The regenerated paper/thesis.html differs from the 1.0.2 page only in the version metadata (article 0.4.8, thesis 1.0.3), the added navigation button and its stylesheet rules; the print layer, and with it the PDF text, is unaffected (the navigation is screen-only). The article remains an authorized working draft with scientific_acceptance false.",
+      "review": "None required: presentation-only navigation chrome with no substantive text change, following the presentation-only precedent recorded in P3G2-A2; the paragraph-level diff of paper/thesis.html against the 1.0.2 page was inspected and is empty.",
+      "review_status": "not applicable (no claim-bearing text changed)",
+      "thesis_html_sha256": "8fa2abf0be981ddf3f3ca29b479a37baab0507b14ca52f21a21905ebc4b05c3c",
+      "finalized": "2026-09-15"
     }
   ]
 }

@@ -8,7 +8,7 @@
     "records/claims.json": "489c976389a493d960282af326dca516b899ab700421e827924ce8c1f8703f18",
     "records/review_summaries.json": "4e0567c5f7639a996ed785a7ca8e94010928975e6602cfc97ec7c686edd01ff6",
     "records/sources.json": "1daae3709a461b2ca74ff9af733b8586cb005b719b709e874c9cecada1e1bf1c",
-    "state/public_status.json": "909ada375ffc48ba0b335508cc4dc5bade973bc31065c89c304a80994d54cc36",
+    "state/public_status.json": "0803efd49feeff135a345f9bcb479e617ddbacf593bf90d5373ad1ba32b24fcf",
     "thesis/appendices/A-case-evidence-tables.md": "b843f00b1672858a05968acce271a34f512bae2c4b5c6c08464095c06b23db75",
     "thesis/appendices/B-alternatives-matrix.md": "993048433627219174ed31c6cf53e2a6eee0dae323d334003ccf116843cbdbe5",
     "thesis/appendices/C-gap-gate-disposition-register.md": "e03966fb8ef3db9cb32111f37c25de8d4511a78523e3e0bbe29e7afc237dce45",
@@ -27,7 +27,7 @@
     "thesis/chapters/11-cumulative.md": "4097bce3453441ea8ff7ff40027a3003c8426ba8d51f66fd2ebc6b7b1e9e04f6",
     "thesis/chapters/12-conclusion.md": "d539f74f3b1526c03fe41ed6ac76e1d026c172a414272f4c73152c34e6aabef1",
     "thesis/evidence_map.json": "88742a42217d76d30977c88522b0c2b33b932da4ce7a3012f531222a86de27ad",
-    "thesis/thesis.json": "58e93534655e72da93d423d473f757f041bae1b9813dc785dbaa2be570e7337e",
+    "thesis/thesis.json": "7a1d787a8e343380d84b6f3cc327350a1c43eae457c8cf5099422e265f869178",
     "work/G2/gap_register.json": "e0ec4771665d57b60a7253fcf5120aa4bdc56484a296be97ff02c23518365126",
     "work/T18/report.md": "e31204f7f1f4cd50629af32acc52f644fe5a142331c3f9be6fc429e8b6f6405f"
   },
