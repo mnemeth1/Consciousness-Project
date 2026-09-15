@@ -1,22 +1,19 @@
 {
   "schema": 1,
   "status": "authorized-draft",
-  "version": "0.4.4",
-  "date": "2026-09-14",
-  "html_sha256": "5bb635d1ef4d49090452ebe8bd4591342fa14b5b792bd643f17bea1c88b5dbe9",
-  "renderer_sha256": "2e6053db08eb1c7e064fac83794813e44112aa6039e4be252695e7179767a40e",
+  "version": "0.4.5",
+  "date": "2026-09-15",
+  "html_sha256": "b0b59bb56377b91375d5677a3001d60b086a1f59bfe833c4e9e230487cc68e19",
+  "renderer_sha256": "613cb3953eba04d5678d7d8a73a1fddf19cb4e962a547a0350e45a3b619f9772",
   "fixture": false,
   "scientific_acceptance": false,
-  "pending_reviews": [
-    "P2R20",
-    "P2G2"
-  ],
+  "pending_reviews": [],
   "author": "Consciousness Project; AI-assisted draft authored by a separate synthesis context",
   "publication_authorized_by": "Michael Nemeth",
   "authorization": "Publish what we have of the thesis: a landing-page link to an unfinished thesis page with a note about remaining work, to be completed when the long-form drafting model is available again.",
   "presentation": "research-article",
-  "landing_html_sha256": "23447707339f230131a421f524fc546f1238183befd1a35d1d26231da4b62c1c",
-  "companion_html_sha256": "7316ded88fc9a6c1cf871a6b6977ef804e9023d33752aa6862d851d95d0d0433",
-  "thesis_html_sha256": "cce32a8653dec8fb1608ea000076377c78fe84a63fd652a70e936a9c6f67d6d3",
-  "crosswalk_sha256": "c46d254951767310dab6b29494f7b041c8030ba8bb62b6b70a3b9bb378576bca"
+  "landing_html_sha256": "e4e186f5ec4519498dcbe336afdac6b64a01eab3ff8f4644a3e632a1bc2d2c27",
+  "companion_html_sha256": "376e8a907972857e30a2f26b75b7e9da77295a2e4cec7e71acb18bd97b1a4fcf",
+  "thesis_html_sha256": "dbbdf6e60232a317531785083c6573a70eedb98f20648f5975258c44d50e3631",
+  "crosswalk_sha256": "3aae1754cc53aa50589bca33b2ec40323788ec76a759176794123c3ca1b3c27c"
 }

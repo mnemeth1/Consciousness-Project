@@ -2686,7 +2686,7 @@
     "dependency_conditions": {
       "P2G1": "accepted"
     },
-    "status": "submitted",
+    "status": "accepted",
     "output_directory": "work/P2S01/",
     "deliverables": [
       "report.md",
@@ -2704,7 +2704,8 @@
       "source_inspections": 0,
       "revision_cycles": 2
     },
-    "reviewer_must_differ_from_author": true
+    "reviewer_must_differ_from_author": true,
+    "closure_note": "Accepted at rebased scope per P2-AMEND-002 section 2, adjudicated at P3G2 (work/P3G2/gate_decision.md section 3)."
   },
   {
     "id": "P2S02",
@@ -2718,7 +2719,7 @@
     "dependency_conditions": {
       "P2S01": "submitted"
     },
-    "status": "submitted",
+    "status": "accepted",
     "output_directory": "work/P2S02/",
     "deliverables": [
       "report.md",
@@ -2737,7 +2738,8 @@
       "revision_cycles": 2
     },
     "reviewer_must_differ_from_author": true,
-    "overseer_revision_reason": "PRE-P2R20-S02-001"
+    "overseer_revision_reason": "PRE-P2R20-S02-001",
+    "closure_note": "Accepted at rebased scope: outputs entered the thesis only as explicitly labeled rebased inputs; synthesis obligations superseded by the reviewed chapters. Adjudicated at P3G2."
   },
   {
     "id": "P2S03",
@@ -2751,7 +2753,7 @@
     "dependency_conditions": {
       "P2S02": "submitted"
     },
-    "status": "submitted",
+    "status": "accepted",
     "output_directory": "work/P2S03/",
     "deliverables": [
       "report.md",
@@ -2770,7 +2772,8 @@
       "revision_cycles": 2
     },
     "reviewer_must_differ_from_author": true,
-    "artifact_note": "Submitted with the assembled thesis (all 17 parts accepted) as its artifact per P2-AMEND-002 section 2 and P2-AMEND-003 section 4; adjudicated at P3G2."
+    "artifact_note": "Submitted with the assembled thesis (all 17 parts accepted) as its artifact per P2-AMEND-002 section 2 and P2-AMEND-003 section 4; adjudicated at P3G2.",
+    "closure_note": "Accepted at rebased scope per P2-AMEND-002 section 2, adjudicated at P3G2 (work/P3G2/gate_decision.md section 3)."
   },
   {
     "id": "P2R20",
@@ -2784,7 +2787,7 @@
     "dependency_conditions": {
       "P2S03": "submitted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P2R20/",
     "deliverables": [
       "report.md",
@@ -2803,7 +2806,8 @@
       "source_inspections": 280,
       "revision_cycles": 2
     },
-    "reviewer_must_differ_from_author": true
+    "reviewer_must_differ_from_author": true,
+    "closure_note": "Closed by explicit joint-satisfaction adjudication of the two review layers at P3G2 (work/P3G2/gate_decision.md section 1)."
   },
   {
     "id": "P2G2",
@@ -2817,7 +2821,7 @@
     "dependency_conditions": {
       "P2R20": "accepted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P2G2/",
     "deliverables": [
       "gate_decision.md",
@@ -2835,7 +2839,8 @@
       "source_inspections": 0,
       "revision_cycles": 2
     },
-    "reviewer_must_differ_from_author": true
+    "reviewer_must_differ_from_author": true,
+    "closure_note": "Executed by P3G2 at thesis scope (work/P3G2/gate_decision.md section 2)."
   },
   {
     "id": "P3C01",
@@ -3736,7 +3741,7 @@
     "dependency_conditions": {
       "P3R20": "accepted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3G2/",
     "deliverables": [
       "gate_decision.md",

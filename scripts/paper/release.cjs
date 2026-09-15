@@ -75,10 +75,14 @@ async function publishPair({directory, api, commit}) {
     else assert(release.draft, 'Published release tag missing');
   } else {
     assert(!target, 'Version tag already exists without release; refuse to reuse');
+    const gatesClosed = (next.draft?.pending_reviews ?? ['P2R20', 'P2G2']).length === 0;
+    const pendingNote = gatesClosed
+      ? 'P2R20 and P2G2 are closed through the recorded Phase 3 gates (P3G1, P3R20, P3G2); acceptance remains methodological.'
+      : 'P2R20 and P2G2 remain pending in release records.';
     const description = isDraft && isArticle
-      ? `Research article ${next.version} (${next.date}). This is a versioned manuscript. Publication is authorized; scientific acceptance is false. P2R20 and P2G2 remain pending in release records. No external peer review is claimed.`
+      ? `Research article ${next.version} (${next.date}). This is a versioned manuscript. Publication is authorized; scientific acceptance is false. ${pendingNote} No external peer review is claimed.`
       : isDraft
-      ? `Phase 2 working draft ${next.version} (${next.date}). Publication is authorized; scientific acceptance is false. P2R20 and P2G2 remain pending. This draft can be improved in later versions.`
+      ? `Phase 2 working draft ${next.version} (${next.date}). Publication is authorized; scientific acceptance is false. ${pendingNote} This draft can be improved in later versions.`
       : `Reviewed paper ${next.version} (${next.date}).`;
     release = await api('POST', '/releases', {tag_name: tag, target_commitish: commit,
       name: isDraft && isArticle ? `Research article ${next.version}` : isDraft ? `Phase 2 working draft ${next.version}` : `Research paper ${next.version}`,
@@ -146,4 +150,4 @@ async function main() {
   console.log(JSON.stringify(await publishPair({directory, api, commit: process.env.GITHUB_SHA})));
 }
 if (require.main === module) main().catch(error => {console.error(error.stack); process.exitCode = 1;});
-module.exports = {publishPair, compareVersion, assertCurrentMain};
+module.exports = {publishPair, compareVersion, assertCurrentMain, githubAPI, tagCommit};

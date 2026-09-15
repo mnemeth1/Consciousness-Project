@@ -71,6 +71,20 @@ jobs:
           if-no-files-found: error
           include-hidden-files: true
           retention-days: 14
+      - name: Render authorized thesis release pair
+        if: steps.paper.outputs.state != 'waiting'
+        env:
+          PAPER_COMMIT: ${{ github.sha }}
+        run: node scripts/thesis/release.cjs render --commit "$PAPER_COMMIT"
+      - name: Retain thesis release pair
+        if: steps.paper.outputs.state != 'waiting'
+        uses: actions/upload-artifact@v7
+        with:
+          name: thesis-pair
+          path: .paper-build/thesis-site/
+          if-no-files-found: ignore
+          include-hidden-files: true
+          retention-days: 14
 
   release:
     needs: build
@@ -94,6 +108,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/paper/release.cjs publish
+      - name: Download thesis release pair when authorized
+        uses: actions/download-artifact@v8
+        continue-on-error: true
+        with:
+          name: thesis-pair
+          path: .paper-build/thesis-site/
+      - name: Publish immutable thesis release when authorized
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/thesis/release.cjs publish
       - name: Upload only the verified release pair for Pages
         uses: actions/upload-pages-artifact@v5.0.0
         with:

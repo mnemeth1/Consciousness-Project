@@ -1,32 +1,83 @@
 {
   "schema": 1,
   "title": "Consciousness, Existence, and the Grounds of Significance: A Critical Comparative Thesis",
-  "version": "0.1.0",
-  "date": "2026-09-14",
-  "stage": "draft",
+  "version": "1.0.0",
+  "date": "2026-09-15",
+  "stage": "released",
   "authors": "Consciousness Project",
   "project_direction": "Michael Nemeth",
   "ai_disclosure": "Prepared with AI assistance in research organization, argument analysis and drafting.",
   "chapters": [
-    { "file": "chapters/00-front-matter.md", "role": "front-matter" },
-    { "file": "chapters/01-introduction.md", "role": "introduction" },
-    { "file": "chapters/02-methodology.md", "role": "methods" },
-    { "file": "chapters/03-alternatives.md", "role": "findings" },
-    { "file": "chapters/04-phenomenal.md", "role": "findings" },
-    { "file": "chapters/05-existence.md", "role": "findings" },
-    { "file": "chapters/06-empirical.md", "role": "findings" },
-    { "file": "chapters/07-continuity.md", "role": "findings" },
-    { "file": "chapters/08-meaning.md", "role": "findings" },
-    { "file": "chapters/09-morality.md", "role": "findings" },
-    { "file": "chapters/10-goodness.md", "role": "findings" },
-    { "file": "chapters/11-cumulative.md", "role": "discussion" },
-    { "file": "chapters/12-conclusion.md", "role": "conclusion" }
+    {
+      "file": "chapters/00-front-matter.md",
+      "role": "front-matter"
+    },
+    {
+      "file": "chapters/01-introduction.md",
+      "role": "introduction"
+    },
+    {
+      "file": "chapters/02-methodology.md",
+      "role": "methods"
+    },
+    {
+      "file": "chapters/03-alternatives.md",
+      "role": "findings"
+    },
+    {
+      "file": "chapters/04-phenomenal.md",
+      "role": "findings"
+    },
+    {
+      "file": "chapters/05-existence.md",
+      "role": "findings"
+    },
+    {
+      "file": "chapters/06-empirical.md",
+      "role": "findings"
+    },
+    {
+      "file": "chapters/07-continuity.md",
+      "role": "findings"
+    },
+    {
+      "file": "chapters/08-meaning.md",
+      "role": "findings"
+    },
+    {
+      "file": "chapters/09-morality.md",
+      "role": "findings"
+    },
+    {
+      "file": "chapters/10-goodness.md",
+      "role": "findings"
+    },
+    {
+      "file": "chapters/11-cumulative.md",
+      "role": "discussion"
+    },
+    {
+      "file": "chapters/12-conclusion.md",
+      "role": "conclusion"
+    }
   ],
   "appendices": [
-    { "file": "appendices/A-case-evidence-tables.md", "title": "Appendix A. Case evidence tables" },
-    { "file": "appendices/B-alternatives-matrix.md", "title": "Appendix B. Alternatives matrix" },
-    { "file": "appendices/C-gap-gate-disposition-register.md", "title": "Appendix C. Gap and withheld-gate disposition register" },
-    { "file": "appendices/D-dependence-map.md", "title": "Appendix D. Dependence map" }
+    {
+      "file": "appendices/A-case-evidence-tables.md",
+      "title": "Appendix A. Case evidence tables"
+    },
+    {
+      "file": "appendices/B-alternatives-matrix.md",
+      "title": "Appendix B. Alternatives matrix"
+    },
+    {
+      "file": "appendices/C-gap-gate-disposition-register.md",
+      "title": "Appendix C. Gap and withheld-gate disposition register"
+    },
+    {
+      "file": "appendices/D-dependence-map.md",
+      "title": "Appendix D. Dependence map"
+    }
   ],
   "records": {
     "sources": "records/sources.json"

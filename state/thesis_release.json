@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "status": "authorized-release",
+  "thesis_version": "1.0.0",
+  "date": "2026-09-15",
+  "thesis_html_sha256": "dbbdf6e60232a317531785083c6573a70eedb98f20648f5975258c44d50e3631",
+  "renderer_sha256": "613cb3953eba04d5678d7d8a73a1fddf19cb4e962a547a0350e45a3b619f9772",
+  "p3g2_record_sha256": "6903023b7c832c83c0e4c8d2a993c4b3b1980512bdc323fd3f14bd6ddaca7b48",
+  "publication_authorized_by": "Michael Nemeth",
+  "authorization": "Blanket stage authorization of 2026-09-14: complete the remaining stages of the thesis programme to release using best judgment; recorded owner rulings of the same date (adopt D7, appendix acceptance amendment, republish, full path to release executed stage by stage).",
+  "release_pipeline": "scripts/thesis/release.cjs render/publish in CI (pinned container); assets thesis.html, thesis.pdf, thesis-release.json under tag thesis-v1.0.0; PDF byte hash binds at first publish and is immutable thereafter."
+}

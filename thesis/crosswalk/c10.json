@@ -1,36 +1,243 @@
 {
   "schema": 1,
-  "thesis_version": "0.1.0",
+  "thesis_version": "1.0.0",
   "part": "c10",
   "entries": [
-    { "paragraph_id": "c10-p001", "refs": ["PREMISE:structure:chapter-scope (paper/paper.html section 8 p-043 to p-046; phase3/Thesis_Execution_Plan.md c10 row; work/G2/synthesis_constraints.json H-G and H-I boundaries; symmetry rule per A-T15-006 carried from c09-p022)"] },
-    { "paragraph_id": "c10-p002", "refs": ["PREMISE:method:attribution-only-and-versions (work/G0/protocol_v1.md s5; version limits per S-T15-003, S-T15-004, S-T15-005, S-T15-006, S-T15-009, S-P2T08-001 provenance; CL-P2T08-008 reproduction limit)"] },
-    { "paragraph_id": "c10-p003", "refs": ["PREMISE:article:p-043 (paper/paper.html p-043)", "A-T14-005"] },
-    { "paragraph_id": "c10-p004", "refs": ["CL-T15-006", "CL-T15-007", "CL-T15-008", "S-T15-003"] },
-    { "paragraph_id": "c10-p005", "refs": ["A-T15-003", "CL-T15-006"] },
-    { "paragraph_id": "c10-p006", "refs": ["CL-T15-020"] },
-    { "paragraph_id": "c10-p007", "refs": ["CL-T15-022", "A-T15-006"] },
-    { "paragraph_id": "c10-p008", "refs": ["PREMISE:article:p-044 (paper/paper.html p-044)", "CL-T15-009", "CL-T15-010", "CL-T15-011", "S-T15-004"] },
-    { "paragraph_id": "c10-p009", "refs": ["CL-P2T08-001", "CL-P2T08-002", "CL-P2T08-003", "CL-P2T08-004", "S-T15-004"] },
-    { "paragraph_id": "c10-p010", "refs": ["CL-P2T08-005", "CL-P2T08-006", "S-T15-004"] },
-    { "paragraph_id": "c10-p011", "refs": ["CL-T15-012", "CL-P2T08-007", "S-T15-005"] },
-    { "paragraph_id": "c10-p012", "refs": ["CL-P2T08-008", "CL-P2T08-009", "CL-P2T08-010", "S-T15-004"] },
-    { "paragraph_id": "c10-p013", "refs": ["CL-P2T08-011", "A-P2T08-001", "A-T15-004"] },
-    { "paragraph_id": "c10-p014", "refs": ["CL-T15-013", "CL-T15-014", "CL-T15-015", "A-T15-005", "S-T15-006"] },
-    { "paragraph_id": "c10-p015", "refs": ["A-T15-005", "CL-T15-021"] },
-    { "paragraph_id": "c10-p016", "refs": ["PREMISE:article:p-045 (paper/paper.html p-045)", "CL-P2T08-012", "CL-P2T08-013", "CL-P2T08-014", "CL-T15-023", "S-T15-009"] },
-    { "paragraph_id": "c10-p017", "refs": ["CL-P2T08-015", "CL-P2T08-016", "CL-T15-024", "S-T15-009"] },
-    { "paragraph_id": "c10-p018", "refs": ["CL-P2T08-017", "CL-T15-022"] },
-    { "paragraph_id": "c10-p019", "refs": ["CL-P2T08-018", "CL-P2T08-019", "A-P2T08-003", "S-P2T08-001"] },
-    { "paragraph_id": "c10-p020", "refs": ["CL-P2T08-020", "CL-P2T08-021", "CL-P2T08-022", "S-P2T08-001"] },
-    { "paragraph_id": "c10-p021", "refs": ["CL-P2T08-023", "A-P2T08-002", "CL-P2T08-012", "PREMISE:article:p-045-comparative (paper/paper.html p-045 closing sentences)"] },
-    { "paragraph_id": "c10-p022", "refs": ["PREMISE:article:p-046-survival (paper/paper.html p-046)", "CL-P2T08-016", "A-T15-006", "A-P2T08-001", "CL-P2T08-005"] },
-    { "paragraph_id": "c10-p023", "refs": ["PREMISE:article:p-046-inscrutability (paper/paper.html p-046)", "CL-T15-022", "CL-P2T08-017", "A-T15-006"] },
-    { "paragraph_id": "c10-p024", "refs": ["PREMISE:article:p-046-constraint (paper/paper.html p-046 closing sentence)", "A-T14-005", "CL-T14-017", "A-T15-003"] },
-    { "paragraph_id": "c10-p025", "refs": ["CL-T15-015", "A-T15-006", "PREMISE:article:p-043-scope (paper/paper.html p-043 closing sentence)"] },
-    { "paragraph_id": "c10-p026", "refs": ["A-T15-006"] },
-    { "paragraph_id": "c10-p027", "refs": ["PREMISE:method:dependency-accounting (T15-source-3 Rowe; T15-source-4 and T15-source-5 sharing one PDF container per S-T15-004/S-T15-005 provenance; T15-source-6 Schellenberg 2025; T15-source-9 Howard-Snyder with S-P2T08-001 Schellenberg 1996 as one exchange; P2T08-restoration, P2T08-hiddenness, P2T08-normative-bridges; T15-normative-bridges; DG-T14-bridge per A-T14-005 and CL-T14-017 used at c10-p003 and c10-p024)"] },
-    { "paragraph_id": "c10-p028", "refs": ["PREMISE:method:access-gaps (CL-P2T08-008 exact 1990 print; CL-P2T08-006 uninspected further work; CL-P2T08-007 printed-317 anomaly; CL-P2T08-013 printed-439 anomaly; CL-P2T08-010 visible incomplete first proposition; S-T15-004/S-T15-005 OCR and visual checks; CL-P2T08-018 uninspected 1993 positive case; S-T15-006 inaccessible 2004 chapter; CL-P2T08-023 no later Howard-Snyder rebuttal; A-T15-003 free-will and soul-making gaps; CL-P2T08-023 no seeker classification)"] },
-    { "paragraph_id": "c10-p029", "refs": ["CL-P2T08-024", "CL-P2T08-023", "CL-P2T08-011", "CL-T15-015", "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json nine components; H-G and H-I boundaries)"] }
+    {
+      "paragraph_id": "c10-p001",
+      "refs": [
+        "PREMISE:structure:chapter-scope (paper/paper.html section 8 p-043 to p-046; phase3/Thesis_Execution_Plan.md c10 row; work/G2/synthesis_constraints.json H-G and H-I boundaries; symmetry rule per A-T15-006 carried from c09-p022)"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p002",
+      "refs": [
+        "PREMISE:method:attribution-only-and-versions (work/G0/protocol_v1.md s5; version limits per S-T15-003, S-T15-004, S-T15-005, S-T15-006, S-T15-009, S-P2T08-001 provenance; CL-P2T08-008 reproduction limit)"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p003",
+      "refs": [
+        "PREMISE:article:p-043 (paper/paper.html p-043)",
+        "A-T14-005"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p004",
+      "refs": [
+        "CL-T15-006",
+        "CL-T15-007",
+        "CL-T15-008",
+        "S-T15-003"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p005",
+      "refs": [
+        "A-T15-003",
+        "CL-T15-006"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p006",
+      "refs": [
+        "CL-T15-020"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p007",
+      "refs": [
+        "CL-T15-022",
+        "A-T15-006"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p008",
+      "refs": [
+        "PREMISE:article:p-044 (paper/paper.html p-044)",
+        "CL-T15-009",
+        "CL-T15-010",
+        "CL-T15-011",
+        "S-T15-004"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p009",
+      "refs": [
+        "CL-P2T08-001",
+        "CL-P2T08-002",
+        "CL-P2T08-003",
+        "CL-P2T08-004",
+        "S-T15-004"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p010",
+      "refs": [
+        "CL-P2T08-005",
+        "CL-P2T08-006",
+        "S-T15-004"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p011",
+      "refs": [
+        "CL-T15-012",
+        "CL-P2T08-007",
+        "S-T15-005"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p012",
+      "refs": [
+        "CL-P2T08-008",
+        "CL-P2T08-009",
+        "CL-P2T08-010",
+        "S-T15-004"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p013",
+      "refs": [
+        "CL-P2T08-011",
+        "A-P2T08-001",
+        "A-T15-004"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p014",
+      "refs": [
+        "CL-T15-013",
+        "CL-T15-014",
+        "CL-T15-015",
+        "A-T15-005",
+        "S-T15-006"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p015",
+      "refs": [
+        "A-T15-005",
+        "CL-T15-021"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p016",
+      "refs": [
+        "PREMISE:article:p-045 (paper/paper.html p-045)",
+        "CL-P2T08-012",
+        "CL-P2T08-013",
+        "CL-P2T08-014",
+        "CL-T15-023",
+        "S-T15-009"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p017",
+      "refs": [
+        "CL-P2T08-015",
+        "CL-P2T08-016",
+        "CL-T15-024",
+        "S-T15-009"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p018",
+      "refs": [
+        "CL-P2T08-017",
+        "CL-T15-022"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p019",
+      "refs": [
+        "CL-P2T08-018",
+        "CL-P2T08-019",
+        "A-P2T08-003",
+        "S-P2T08-001"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p020",
+      "refs": [
+        "CL-P2T08-020",
+        "CL-P2T08-021",
+        "CL-P2T08-022",
+        "S-P2T08-001"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p021",
+      "refs": [
+        "CL-P2T08-023",
+        "A-P2T08-002",
+        "CL-P2T08-012",
+        "PREMISE:article:p-045-comparative (paper/paper.html p-045 closing sentences)"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p022",
+      "refs": [
+        "PREMISE:article:p-046-survival (paper/paper.html p-046)",
+        "CL-P2T08-016",
+        "A-T15-006",
+        "A-P2T08-001",
+        "CL-P2T08-005"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p023",
+      "refs": [
+        "PREMISE:article:p-046-inscrutability (paper/paper.html p-046)",
+        "CL-T15-022",
+        "CL-P2T08-017",
+        "A-T15-006"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p024",
+      "refs": [
+        "PREMISE:article:p-046-constraint (paper/paper.html p-046 closing sentence)",
+        "A-T14-005",
+        "CL-T14-017",
+        "A-T15-003"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p025",
+      "refs": [
+        "CL-T15-015",
+        "A-T15-006",
+        "PREMISE:article:p-043-scope (paper/paper.html p-043 closing sentence)"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p026",
+      "refs": [
+        "A-T15-006"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p027",
+      "refs": [
+        "PREMISE:method:dependency-accounting (T15-source-3 Rowe; T15-source-4 and T15-source-5 sharing one PDF container per S-T15-004/S-T15-005 provenance; T15-source-6 Schellenberg 2025; T15-source-9 Howard-Snyder with S-P2T08-001 Schellenberg 1996 as one exchange; P2T08-restoration, P2T08-hiddenness, P2T08-normative-bridges; T15-normative-bridges; DG-T14-bridge per A-T14-005 and CL-T14-017 used at c10-p003 and c10-p024)"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p028",
+      "refs": [
+        "PREMISE:method:access-gaps (CL-P2T08-008 exact 1990 print; CL-P2T08-006 uninspected further work; CL-P2T08-007 printed-317 anomaly; CL-P2T08-013 printed-439 anomaly; CL-P2T08-010 visible incomplete first proposition; S-T15-004/S-T15-005 OCR and visual checks; CL-P2T08-018 uninspected 1993 positive case; S-T15-006 inaccessible 2004 chapter; CL-P2T08-023 no later Howard-Snyder rebuttal; A-T15-003 free-will and soul-making gaps; CL-P2T08-023 no seeker classification)"
+      ]
+    },
+    {
+      "paragraph_id": "c10-p029",
+      "refs": [
+        "CL-P2T08-024",
+        "CL-P2T08-023",
+        "CL-P2T08-011",
+        "CL-T15-015",
+        "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json nine components; H-G and H-I boundaries)"
+      ]
+    }
   ]
 }

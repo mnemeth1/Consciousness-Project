@@ -1,5 +1,9 @@
 # Paper versions
 
+## 0.4.5 - 2026-09-15
+
+Ships the released thesis (thesis-v1.0.0) on the site: all Phase 3 gates are closed with recorded decisions (P3G1 coverage, P3R20 whole-thesis adversarial review, P3G2 final adjudication), and P2R20/P2G2 close through them, so release records stop listing those reviews as pending. Three bounded P3R20 corrections are included (apD-p015 PSR clause per T17-06A, c11-p016 per T17-04, c06-p028 AWARE II citation to S-T07-007). The article argument is unchanged; the article remains an authorized working draft with scientific acceptance false, and all twelve withheld stronger-conclusion gates remain withheld.
+
 ## 0.4.4 - 2026-09-14
 
 Republishes the thesis working draft in full: the complete abstract (the published page previously carried the pre-draft "abstract pending" placeholder frozen at 0.4.2), chapters 1–12 and appendices A–D, all internally accepted after the owner-adjudicated P3RX cross-model review (state/adjudication_P3RX.json). The thesis page banner now reports acceptance state accurately. The article argument is unchanged apart from version metadata. Coverage gate P3G1, whole-thesis review P3R20 and release adjudication P3G2 remain open; pending-review status (P2R20/P2G2) remains recorded in release records.

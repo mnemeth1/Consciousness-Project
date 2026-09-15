@@ -17,18 +17,19 @@ function validateMetadata(meta) {
     new Date(meta.date).toISOString().slice(0, 10) === meta.date, 'Valid ISO paper-date required');
   assert(meta.title && meta.author, 'Title and author metadata required');
 }
-async function inspectHTML(page, html) {
+async function inspectHTML(page, html, sourceBasename = 'paper.html') {
   assert(!/<meta\b[^>]*\bhttp-equiv\b/i.test(html), 'No meta http-equiv navigation or refresh');
   await page.setContent(html, {waitUntil: 'load'});
   await page.evaluate(() => document.fonts.ready);
-  const info = await page.evaluate(({requiredIDs, artifactFiles}) => {
+  const info = await page.evaluate(({requiredIDs, artifactFiles, requireDownload}) => {
     const errors = [];
     const error = (condition, message) => { if (!condition) errors.push(message); };
     const all = [...document.querySelectorAll('*')];
     const meta = name => document.querySelector(`meta[name="${name}"]`)?.content || '';
     const ids = all.map(x => x.id).filter(Boolean);
     error(new Set(ids).size === ids.length, 'Duplicate HTML IDs');
-    for (const id of requiredIDs) error(!!document.getElementById(id), `Missing #${id}`);
+    for (const id of requiredIDs.filter(x => requireDownload || x !== 'download-pdf'))
+      error(!!document.getElementById(id), `Missing #${id}`);
     error(document.documentElement.lang === 'en', 'Set html lang=en');
     error(meta('viewport').includes('width=device-width'), 'Responsive viewport required');
     error(!document.querySelector('script, iframe, object, embed, form, base, link, audio, video, svg, math'), 'No active, vector, or external document resources');
@@ -47,8 +48,14 @@ async function inspectHTML(page, html) {
       error(!!el.getAttribute('alt'), 'Images require meaningful alt text');
     }
     const download = document.getElementById('download-pdf');
-    error(download?.tagName === 'A' && download.getAttribute('href') === 'paper.pdf' &&
-      download.hasAttribute('download'), 'Download link must be #download-pdf href=paper.pdf download');
+    // A thesis page ships next to the ARTICLE's paper.pdf on the site, so it
+    // must not carry a paper.pdf download link; every other source requires one.
+    if (requireDownload) {
+      error(download?.tagName === 'A' && download.getAttribute('href') === 'paper.pdf' &&
+        download.hasAttribute('download'), 'Download link must be #download-pdf href=paper.pdf download');
+    } else {
+      error(!download, 'Thesis page must not carry a paper.pdf download link');
+    }
     const paper = document.querySelector('main#paper');
     error(!!paper, 'Main research article must be main#paper');
     error(!paper?.querySelector('.screen-only, [hidden]'), 'Do not hide substantive main text');
@@ -89,7 +96,8 @@ async function inspectHTML(page, html) {
     return {errors, title: document.title.trim(), author: meta('author'), version: meta('paper-version'),
       date: meta('paper-date'), stage: meta('paper-stage'), ...(presentation ? {presentation} : {}), fixture: meta('paper-fixture') === 'true', chunks,
       external: [...new Set(external)], internal, ids};
-  }, {requiredIDs: C.requiredIDs, artifactFiles: ARTIFACT_FILES});
+  }, {requiredIDs: C.requiredIDs, artifactFiles: ARTIFACT_FILES,
+    requireDownload: sourceBasename !== 'thesis.html'});
   assert.deepEqual(info.errors, [], 'HTML contract errors: ' + info.errors.join('; '));
   validateMetadata(info);
   return info;
@@ -262,7 +270,7 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     const network = [];
     await context.route('**/*', route => { network.push(route.request().url()); return route.abort(); });
     const page = await context.newPage();
-    info = await inspectHTML(page, html.toString('utf8'));
+    info = await inspectHTML(page, html.toString('utf8'), path.basename(source));
     assert.equal(info.fixture, fixture, 'Fixture flag mismatch');
     if (aux) {
       const auxPage = await context.newPage();

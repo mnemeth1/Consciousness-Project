@@ -200,7 +200,7 @@ function readPaperMeta() {
   return {version: version[1], date: date[1]};
 }
 
-function remainingWorkBanner(front, numbered, appendices) {
+function remainingWorkBanner(front, numbered, appendices, released = false) {
   const parts = [{label: 'front matter', meta: front.meta},
     ...numbered.map(c => ({label: `chapter ${c.number} (${c.meta.title})`, meta: c.meta})),
     ...appendices.map(a => ({label: `Appendix ${a.meta.appendix}`, meta: a.meta}))];
@@ -208,9 +208,13 @@ function remainingWorkBanner(front, numbered, appendices) {
   // are written but await acceptance, and the banner must not conflate the two.
   const unwritten = parts.filter(p => p.meta.status === 'skeleton').map(p => p.label);
   const pending = parts.filter(p => p.meta.status === 'drafted' || p.meta.status === 'submitted').map(p => p.label);
-  const gates = 'Coverage gate P3G1, whole-thesis review P3R20, and release adjudication P3G2 (which would close P2G2) have not been run; P2R20 remains pending. Chapter acceptance is methodological and does not establish a metaphysical result.';
+  const gates = released
+    ? 'Coverage gate P3G1, whole-thesis review P3R20 and release adjudication P3G2 are closed with recorded decisions, and P2R20 and P2G2 close through them (state/acceptance_P3G1.json, state/acceptance_P3R20.json, state/acceptance_P3G2.json). Acceptance is methodological and does not establish a metaphysical result; all twelve stronger-conclusion gates remain withheld.'
+    : 'Coverage gate P3G1, whole-thesis review P3R20, and release adjudication P3G2 (which would close P2G2) have not been run; P2R20 remains pending. Chapter acceptance is methodological and does not establish a metaphysical result.';
   if (!unwritten.length && !pending.length) {
-    return `<p class="status" id="remaining-work">This is a complete thesis working draft: every part has been drafted, independently reviewed and accepted within project procedure. It is not yet a released manuscript, not a substitute for the <a href="paper.html">research article</a>, and not an externally peer-reviewed publication. ${gates}</p>`;
+    return released
+      ? `<p class="status" id="remaining-work">This is the released thesis: every part has been drafted, independently reviewed and accepted within project procedure, and the release is adjudicated at P3G2. It is a companion to the <a href="paper.html">research article</a> and not an externally peer-reviewed publication. ${gates}</p>`
+      : `<p class="status" id="remaining-work">This is a complete thesis working draft: every part has been drafted, independently reviewed and accepted within project procedure. It is not yet a released manuscript, not a substitute for the <a href="paper.html">research article</a>, and not an externally peer-reviewed publication. ${gates}</p>`;
   }
   const accepted = numbered.filter(c => c.meta.status === 'accepted').map(c => c.number);
   const acceptedSpan = accepted.length ? `chapters ${accepted[0]}–${accepted.at(-1)}` : 'no numbered chapters';
@@ -225,7 +229,11 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
   assert.equal(config.schema, 1, 'thesis.json schema must be 1');
   assert(SEMVER.test(config.version), 'Stable semantic thesis version required');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(config.date), 'Valid ISO thesis date required');
-  assert.equal(config.stage, 'draft', 'Thesis stage must remain draft until P3G2/P2G2 actually close');
+  // The released stage is admitted only once the P3G2 gate record actually
+  // exists; until then the stage stays draft (P2-AMEND-002/003, Phase 3 plan).
+  const released = config.stage === 'released' && fs.existsSync(path.join(ROOT, 'state/acceptance_P3G2.json'));
+  assert(config.stage === 'draft' || released,
+    'Thesis stage must remain draft until P3G2/P2G2 actually close (state/acceptance_P3G2.json)');
   assert(config.title?.trim() && config.authors?.trim(), 'Thesis title and authors required');
 
   const records = loadRecords();
@@ -324,7 +332,7 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
     [...chapters.map(c => c.prefix), ...appendices.map(a => a.prefix)]);
 
   const paperMeta = readPaperMeta();
-  const remaining = remainingWorkBanner(front, numbered, appendices);
+  const remaining = remainingWorkBanner(front, numbered, appendices, released);
   const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -333,23 +341,23 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
 <meta name="author" content="${esc(config.authors)}">
 <meta name="paper-version" content="${esc(paperMeta.version)}">
 <meta name="paper-date" content="${esc(paperMeta.date)}">
-<meta name="paper-stage" content="draft">
+<meta name="paper-stage" content="${released ? 'reviewed' : 'draft'}">
 <meta name="paper-fixture" content="false">
 <title>${esc(config.title)}</title>
 <style>${STYLE}</style>
 </head>
 <body>
 <nav class="screen-only" aria-label="Thesis navigation"><a href="index.html">Start page</a> · <a href="companion.html">Plain-language overview</a> · <a href="paper.html">Research article</a></nav>
+${remaining}
 <main id="paper">
 <header>
 <h1 id="paper-title">${esc(config.title)}</h1>
 <p id="authors">${esc(config.authors)}</p>
 <p class="meta">Project direction: ${esc(config.project_direction)}</p>
 <p id="ai-disclosure" class="meta">${esc(config.ai_disclosure)}</p>
-<p id="version-notice" class="meta">Published with article version <span id="paper-version">${esc(paperMeta.version)}</span> · <span id="paper-date">${esc(paperMeta.date)}</span>. Thesis working draft ${esc(config.version)}.</p>
-<p id="publication-status" class="meta">Draft: P2R20 and P2G2 pending</p>
+<p id="version-notice" class="meta">Published with article version <span id="paper-version">${esc(paperMeta.version)}</span> · <span id="paper-date">${esc(paperMeta.date)}</span>. ${released ? `Thesis ${esc(config.version)}.` : `Thesis working draft ${esc(config.version)}.`}</p>
+<p id="publication-status" class="meta">${released ? 'Reviewed research synthesis' : 'Draft: P2R20 and P2G2 pending'}</p>
 </header>
-${remaining}
 
 ${bodySections}
 </main>

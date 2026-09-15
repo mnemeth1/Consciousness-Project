@@ -99,14 +99,16 @@ function validate() {
   assert.equal(p2.length, status.phase2_total_tasks);
   assert.equal(p2.filter(t => t.status === 'accepted').length, status.phase2_accepted_tasks);
   assert.equal(status.current_reviewed_release, 'retired');
-  assert.equal(status.phase2_completed, false);
-  assert.equal(byId.get('P2S02').status, 'submitted');
+  // P3G2 (work/P3G2/gate_decision.md; state/acceptance_P3G2.json) closed
+  // P2R20 and P2G2 and adjudicated P2S01-P2S03 at their rebased scope, so
+  // Phase 2 is complete and the draft lists no pending reviews. The article
+  // remains an authorized working draft with scientific_acceptance false.
+  assert.equal(status.phase2_completed, true);
+  assert.equal(byId.get('P2S02').status, 'accepted');
   assert.equal(status.current_public_draft.stage, 'draft');
   assert.equal(status.current_public_draft.scientific_acceptance, false);
-  assert.deepEqual(status.current_public_draft.pending_reviews, ['P2R20', 'P2G2']);
-  // P2-AMEND-003 section 4: the assembled thesis exists, so P2S03 is submitted
-  // with the thesis as its artifact; it is adjudicated at P3G2.
-  assert.equal(byId.get('P2S03').status, 'submitted');
+  assert.deepEqual(status.current_public_draft.pending_reviews, []);
+  assert.equal(byId.get('P2S03').status, 'accepted');
 
   // Phase 3 thesis programme: structure and crosswalk integrity (build-time
   // validation in scripts/thesis/build.cjs is stricter; this is the light check).

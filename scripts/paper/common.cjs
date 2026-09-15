@@ -79,7 +79,13 @@ function validateDraft(root, meta, htmlHash, rendererHash) {
   assert.equal(draft.status, 'authorized-draft', 'Explicit draft publication authorization required');
   assert.equal(draft.fixture, false, 'A fixture cannot be published');
   assert.equal(draft.scientific_acceptance, false, 'Working draft must not claim scientific acceptance');
-  assert.deepEqual(draft.pending_reviews, ['P2R20', 'P2G2'], 'Final review and release adjudication remain pending');
+  // P2R20 and P2G2 close only through the recorded P3G2 gate decision; until
+  // that record exists the draft must list them pending, and afterwards it
+  // must not claim they still are.
+  const gatesClosed = fs.existsSync(path.join(root, 'state/acceptance_P3G2.json'));
+  assert.deepEqual(draft.pending_reviews, gatesClosed ? [] : ['P2R20', 'P2G2'],
+    gatesClosed ? 'P2R20/P2G2 are closed by the recorded P3G2 decision; the draft may not list them pending'
+      : 'Final review and release adjudication remain pending');
   assert.equal(meta.stage, 'draft', 'Working draft must retain draft stage');
   validateDraftPresentation(meta, draft.presentation);
   assert.equal(draft.version, meta.version, 'Draft version mismatch');

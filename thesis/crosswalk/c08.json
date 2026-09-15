@@ -1,34 +1,246 @@
 {
   "schema": 1,
-  "thesis_version": "0.1.0",
+  "thesis_version": "1.0.0",
   "part": "c08",
   "entries": [
-    { "paragraph_id": "c08-p001", "refs": ["PREMISE:structure:chapter-scope (paper/paper.html section 7 p-035 to p-038; phase3/Thesis_Execution_Plan.md c08 row; derived/gap_gate_register.json gates withheld)"] },
-    { "paragraph_id": "c08-p002", "refs": ["PREMISE:method:attribution-only-and-versions (work/G0/protocol_v1.md s5; version limits per S-T14-001, S-T14-002, S-T14-003, S-T14-007, S-P2T13-001, S-P2T13-002, S-P2T13-003, S-T14-004 provenance; CL-P2T13-013 final-lecture inspection note; CL-P2T13-022 reprint note)"] },
-    { "paragraph_id": "c08-p003", "refs": ["PREMISE:article:p-035 (paper/paper.html p-035)", "CL-T14-011", "CL-P2T13-023"] },
-    { "paragraph_id": "c08-p004", "refs": ["CL-T14-001", "CL-T14-002", "S-T14-001"] },
-    { "paragraph_id": "c08-p005", "refs": ["CL-T14-010", "CL-T14-011", "A-T14-001"] },
-    { "paragraph_id": "c08-p006", "refs": ["CL-P2T13-001", "CL-P2T13-002", "CL-P2T13-006", "CL-P2T13-007", "S-P2T13-002", "S-P2T13-001"] },
-    { "paragraph_id": "c08-p007", "refs": ["CL-P2T13-003", "CL-P2T13-004", "CL-P2T13-005", "CL-P2T13-026", "S-P2T13-002"] },
-    { "paragraph_id": "c08-p008", "refs": ["CL-P2T13-008", "CL-P2T13-009", "CL-P2T13-010", "S-T14-004"] },
-    { "paragraph_id": "c08-p009", "refs": ["CL-P2T13-023", "A-P2T13-001", "S-P2T13-001"] },
-    { "paragraph_id": "c08-p010", "refs": ["CL-T14-003", "CL-P2T13-013", "CL-P2T13-014", "S-T14-002", "PREMISE:article:p-036 (paper/paper.html p-036)"] },
-    { "paragraph_id": "c08-p011", "refs": ["CL-T14-004", "CL-P2T13-013", "CL-P2T13-015", "CL-P2T13-016", "S-T14-002"] },
-    { "paragraph_id": "c08-p012", "refs": ["CL-T14-009", "A-T14-002"] },
-    { "paragraph_id": "c08-p013", "refs": ["CL-T14-019", "CL-T14-020", "S-T14-007", "PREMISE:article:p-037 (paper/paper.html p-037)"] },
-    { "paragraph_id": "c08-p014", "refs": ["CL-T14-012", "CL-T14-020", "A-T14-003", "S-T14-007"] },
-    { "paragraph_id": "c08-p015", "refs": ["CL-T14-005", "CL-T14-006", "CL-P2T13-017", "CL-P2T13-018", "CL-P2T13-019", "CL-P2T13-020", "CL-P2T13-021", "S-T14-003"] },
-    { "paragraph_id": "c08-p016", "refs": ["CL-P2T13-022", "A-T14-003", "A-P2T13-002", "S-T14-003"] },
-    { "paragraph_id": "c08-p017", "refs": ["CL-T14-010", "CL-T14-013", "CL-P2T13-024", "A-T14-001"] },
-    { "paragraph_id": "c08-p018", "refs": ["CL-T14-015", "A-T14-005", "PREMISE:plan:consciousness-factory (Research_Plan.md consciousness-factory proposal; work/T14/report.md discrimination design)"] },
-    { "paragraph_id": "c08-p019", "refs": ["CL-T14-016", "CL-T14-014", "A-T14-004"] },
-    { "paragraph_id": "c08-p020", "refs": ["CL-P2T13-027", "CL-P2T13-028", "CL-P2T13-029", "S-P2T13-003"] },
-    { "paragraph_id": "c08-p021", "refs": ["CL-P2T13-030", "CL-P2T13-031", "CL-P2T13-032", "CL-P2T13-012", "S-P2T13-003", "S-T14-004"] },
-    { "paragraph_id": "c08-p022", "refs": ["CL-T14-017", "A-T14-005"] },
-    { "paragraph_id": "c08-p023", "refs": ["CL-T14-018", "CL-P2T13-025"] },
-    { "paragraph_id": "c08-p024", "refs": ["PREMISE:article:p-038 (paper/paper.html p-038)", "CL-T14-009", "CL-T14-010", "A-P2T13-002", "A-P2T13-003"] },
-    { "paragraph_id": "c08-p025", "refs": ["PREMISE:article:p-038-compatibility (paper/paper.html p-038)", "CL-P2T13-004", "CL-P2T13-009", "A-P2T13-001", "CL-P2T13-023", "CL-P2T13-025", "A-P2T13-003"] },
-    { "paragraph_id": "c08-p026", "refs": ["PREMISE:method:dependency-accounting (DG-T14-author-1 Craig; DG-T14-author-2 Wolf with DG-P2T13-S-T14-002; DG-T14-author-3 Fischer with DG-P2T13-S-T14-003; DG-T14-author-4 Metz with DG-P2T13-S-T14-004, DG-P2T13-Metz-purpose and body-unavailable S-P2T13-001; DG-T14-Williams; DG-P2T13-S-P2T13-002 Yoshizawa; DG-T14-bridge and DG-P2T13-project-bridges)", "CL-T14-018"] },
-    { "paragraph_id": "c08-p027", "refs": ["PREMISE:method:access-gaps (S-P2T13-001 body unavailable; uninspected originals per CL-P2T13-007, CL-P2T13-011, CL-P2T13-012, CL-P2T13-032 limitations, CL-T14-007, CL-T14-008, CL-P2T13-016; CL-P2T13-022 unresolved reprint edition; S-T14-001 undisplayed date)", "CL-P2T13-023", "CL-P2T13-024", "CL-P2T13-025", "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json nine components)"] }
+    {
+      "paragraph_id": "c08-p001",
+      "refs": [
+        "PREMISE:structure:chapter-scope (paper/paper.html section 7 p-035 to p-038; phase3/Thesis_Execution_Plan.md c08 row; derived/gap_gate_register.json gates withheld)"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p002",
+      "refs": [
+        "PREMISE:method:attribution-only-and-versions (work/G0/protocol_v1.md s5; version limits per S-T14-001, S-T14-002, S-T14-003, S-T14-007, S-P2T13-001, S-P2T13-002, S-P2T13-003, S-T14-004 provenance; CL-P2T13-013 final-lecture inspection note; CL-P2T13-022 reprint note)"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p003",
+      "refs": [
+        "PREMISE:article:p-035 (paper/paper.html p-035)",
+        "CL-T14-011",
+        "CL-P2T13-023"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p004",
+      "refs": [
+        "CL-T14-001",
+        "CL-T14-002",
+        "S-T14-001"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p005",
+      "refs": [
+        "CL-T14-010",
+        "CL-T14-011",
+        "A-T14-001"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p006",
+      "refs": [
+        "CL-P2T13-001",
+        "CL-P2T13-002",
+        "CL-P2T13-006",
+        "CL-P2T13-007",
+        "S-P2T13-002",
+        "S-P2T13-001"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p007",
+      "refs": [
+        "CL-P2T13-003",
+        "CL-P2T13-004",
+        "CL-P2T13-005",
+        "CL-P2T13-026",
+        "S-P2T13-002"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p008",
+      "refs": [
+        "CL-P2T13-008",
+        "CL-P2T13-009",
+        "CL-P2T13-010",
+        "S-T14-004"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p009",
+      "refs": [
+        "CL-P2T13-023",
+        "A-P2T13-001",
+        "S-P2T13-001"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p010",
+      "refs": [
+        "CL-T14-003",
+        "CL-P2T13-013",
+        "CL-P2T13-014",
+        "S-T14-002",
+        "PREMISE:article:p-036 (paper/paper.html p-036)"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p011",
+      "refs": [
+        "CL-T14-004",
+        "CL-P2T13-013",
+        "CL-P2T13-015",
+        "CL-P2T13-016",
+        "S-T14-002"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p012",
+      "refs": [
+        "CL-T14-009",
+        "A-T14-002"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p013",
+      "refs": [
+        "CL-T14-019",
+        "CL-T14-020",
+        "S-T14-007",
+        "PREMISE:article:p-037 (paper/paper.html p-037)"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p014",
+      "refs": [
+        "CL-T14-012",
+        "CL-T14-020",
+        "A-T14-003",
+        "S-T14-007"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p015",
+      "refs": [
+        "CL-T14-005",
+        "CL-T14-006",
+        "CL-P2T13-017",
+        "CL-P2T13-018",
+        "CL-P2T13-019",
+        "CL-P2T13-020",
+        "CL-P2T13-021",
+        "S-T14-003"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p016",
+      "refs": [
+        "CL-P2T13-022",
+        "A-T14-003",
+        "A-P2T13-002",
+        "S-T14-003"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p017",
+      "refs": [
+        "CL-T14-010",
+        "CL-T14-013",
+        "CL-P2T13-024",
+        "A-T14-001"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p018",
+      "refs": [
+        "CL-T14-015",
+        "A-T14-005",
+        "PREMISE:plan:consciousness-factory (Research_Plan.md consciousness-factory proposal; work/T14/report.md discrimination design)"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p019",
+      "refs": [
+        "CL-T14-016",
+        "CL-T14-014",
+        "A-T14-004"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p020",
+      "refs": [
+        "CL-P2T13-027",
+        "CL-P2T13-028",
+        "CL-P2T13-029",
+        "S-P2T13-003"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p021",
+      "refs": [
+        "CL-P2T13-030",
+        "CL-P2T13-031",
+        "CL-P2T13-032",
+        "CL-P2T13-012",
+        "S-P2T13-003",
+        "S-T14-004"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p022",
+      "refs": [
+        "CL-T14-017",
+        "A-T14-005"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p023",
+      "refs": [
+        "CL-T14-018",
+        "CL-P2T13-025"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p024",
+      "refs": [
+        "PREMISE:article:p-038 (paper/paper.html p-038)",
+        "CL-T14-009",
+        "CL-T14-010",
+        "A-P2T13-002",
+        "A-P2T13-003"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p025",
+      "refs": [
+        "PREMISE:article:p-038-compatibility (paper/paper.html p-038)",
+        "CL-P2T13-004",
+        "CL-P2T13-009",
+        "A-P2T13-001",
+        "CL-P2T13-023",
+        "CL-P2T13-025",
+        "A-P2T13-003"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p026",
+      "refs": [
+        "PREMISE:method:dependency-accounting (DG-T14-author-1 Craig; DG-T14-author-2 Wolf with DG-P2T13-S-T14-002; DG-T14-author-3 Fischer with DG-P2T13-S-T14-003; DG-T14-author-4 Metz with DG-P2T13-S-T14-004, DG-P2T13-Metz-purpose and body-unavailable S-P2T13-001; DG-T14-Williams; DG-P2T13-S-P2T13-002 Yoshizawa; DG-T14-bridge and DG-P2T13-project-bridges)",
+        "CL-T14-018"
+      ]
+    },
+    {
+      "paragraph_id": "c08-p027",
+      "refs": [
+        "PREMISE:method:access-gaps (S-P2T13-001 body unavailable; uninspected originals per CL-P2T13-007, CL-P2T13-011, CL-P2T13-012, CL-P2T13-032 limitations, CL-T14-007, CL-T14-008, CL-P2T13-016; CL-P2T13-022 unresolved reprint edition; S-T14-001 undisplayed date)",
+        "CL-P2T13-023",
+        "CL-P2T13-024",
+        "CL-P2T13-025",
+        "PREMISE:structure:withheld-gates (derived/gap_gate_register.json twelve gates withheld; work/G2/synthesis_constraints.json nine components)"
+      ]
+    }
   ]
 }
