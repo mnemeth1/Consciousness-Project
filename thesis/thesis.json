@@ -1,9 +1,10 @@
 {
   "schema": 1,
   "title": "Consciousness, Existence, and the Grounds of Significance: A Critical Comparative Thesis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "date": "2026-09-15",
   "stage": "released",
+  "status_language_allowlist": [],
   "authors": "Consciousness Project",
   "project_direction": "Michael Nemeth",
   "ai_disclosure": "Prepared with AI assistance in research organization, argument analysis and drafting.",

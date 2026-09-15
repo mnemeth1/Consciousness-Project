@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.0",
+  "thesis_version": "1.0.1",
   "part": "c03",
   "entries": [
     {
@@ -334,7 +334,7 @@
         "A-T03-006",
         "CL-P2T04-013",
         "CL-P2T04-016",
-        "PREMISE:structure:theistic-coverage-asymmetry (work/G2/synthesis_constraints.json SC-G2-02 and H-A required_boundary; chapter 5 and 9 scope split per phase3/Thesis_Execution_Plan.md)"
+        "PREMISE:structure:theistic-coverage-asymmetry (work/G2/synthesis_constraints.json SC-G2-02 and H-A required_boundary; chapter 5, 9 and 10 scope split per phase3/Thesis_Execution_Plan.md, those chapters accepted per state/acceptance_P3C05.json, state/acceptance_P3C09.json and state/acceptance_P3C10.json)"
       ]
     },
     {

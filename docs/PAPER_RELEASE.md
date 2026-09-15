@@ -58,6 +58,17 @@ For a new revision, remove the old approval record from the working PR, set the 
 
 An unchanged later main commit may rerun the pipeline. If all release identity/content hashes match, it preserves the original release manifest and original tag commit. It does not replace assets or rewrite provenance. The current run must still match main. Older versions cannot displace a newer paper.
 
+## Stage-transition checklist (thesis and article status changes)
+
+thesis-v1.0.0 was released with the gates closed but the prose and the site entry pages still describing the draft state (see `work/P3M01/report.md`). Any change of stage, version or gate status now walks this list before the commit that publishes it, and the build lints catch what a reader would otherwise catch:
+
+1. Prose: `node scripts/thesis/build.cjs --check` must pass. In the released stage it rejects draft-time status language in any paragraph (patterns in `STATUS_LANGUAGE`; dated statements that must stay go in `thesis/thesis.json` `status_language_allowlist` with a reason), rejects any unrendered `[@` bracket, and requires every inline citation to appear in the paragraph's crosswalk entry. Read the Declarations, the methodology chapter's review-layer paragraphs, the cumulative chapter's Limitations and the conclusion's procedural paragraph by eye as well; the lint is narrow by design.
+2. Site entry pages: `paper/landing.html` (start page status paragraph, thesis section, footer), `paper/companion.html` (status paragraph, navigation label), `paper/paper.html` (navigation label). `node scripts/validate_public_snapshot.cjs` now fails if these still call the thesis incomplete or P2R20/P2G2 pending after the recorded closure.
+3. Status documents: `CURRENT_RELEASE.md`, `STATUS.md`, `README.md`, `records/README.md`, `thesis/README.md`, `state/public_status.json` (`remaining_tasks`, `known_issue`, `current_public_draft.version`, `thesis_release`). The validator binds the version strings; the prose is read by hand.
+4. Release records: `paper/draft-release.json` (version, date, HTML and auxiliary hashes, authorization text that describes this version), `state/thesis_release.json` (thesis version, page hash, P3G2 record hash, authorization), `paper/CHANGELOG.md` (one exact `## VERSION - DATE` heading), `thesis/thesis.json` and all `thesis/crosswalk/*.json` `thesis_version`.
+5. Ledgers and derived layer: if any `records/*.json` changed, `node scripts/derived/build.cjs --sync-manifest`; otherwise `node scripts/refresh_public_manifest.cjs` (with `--add` for each new public file). Then `node scripts/validate_public_snapshot.cjs` and `node scripts/derived/build.cjs --check`.
+6. After the deploy, open the live start page and the thesis page as a visitor and verify the release manifest hashes against the tagged release.
+
 ## Release and Pages workflow
 
 The read-only build job runs on all PRs and main pushes, including renderer changes. Unauthorised drafts generate preview artifacts only. Validated reviewed or explicitly authorized draft candidates on main proceed to a job with only `contents: write`. This first creates an unpublished GitHub Release named `paper-vVERSION`, uploads and downloads all three assets to verify hashes, then publishes the complete release. Working drafts use `prerelease: true` and do not claim final review. It never uses an overwrite/clobber operation. Interrupted upload drafts with a manifest can resume after verifying existing bytes; an empty/inconsistent draft or orphan tag stops for inspection instead of guessing.

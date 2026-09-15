@@ -22,6 +22,28 @@
     "version": "1.0.0",
     "tag": "thesis-v1.0.0"
   },
-  "post_release_maintenance": "The 53-minor P3RX sweep and the ledger housekeeping recorded in state/adjudication_P3RX.json standing_follow_ups.",
-  "next": "None. Phase 2 (46/46) and Phase 3 (27/27) are complete."
+  "post_release_maintenance": "The 53-minor P3RX sweep remains (state/adjudication_P3RX.json standing_follow_ups item 4). Closed by amendment P3G2-A1 (thesis 1.0.1): the S-T10-002 second-version identity, the T16-T18 submission-time status labels (state/T16_T18_status_note.json), bibliography provenance notes, the unrendered-citation defect, and the derived-layer regeneration for the annotated records; the derived generator's stub evidence packs for c11, c12 and apD remain a generator limitation.",
+  "next": "None. Phase 2 (46/46) and Phase 3 (27/27) are complete.",
+  "amendments": [
+    {
+      "amendment_id": "P3G2-A1",
+      "date": "2026-09-15",
+      "thesis_version": "1.0.1",
+      "tag": "thesis-v1.0.1",
+      "kind": "post-release correction (patch): status language, citation rendering, bibliography completeness, ledger provenance notes",
+      "authority": "Project owner instruction of 2026-09-15 to execute the post-release plan (work/P3M01/report.md) using best judgment, under the blanket stage authorization of 2026-09-14.",
+      "what_changed": "Thirteen paragraphs (c00-p002, c01-p008, c02-p014, c02-p041, c03-p035, c11-p001, c11-p035, c12-p025, apB-p002, apB-p010, apC-p001, apC-p011, apC-p018) and thirteen crosswalk changes, exact before/after in work/P3M01/changes.json; scripts/thesis/build.cjs renders multi-source and record-reference citations, rejects unrendered brackets, checks inline citations against the crosswalk, renders bibliography notes and lints released-stage status language; References grows from 128 to 135 entries (seven cited sources previously omitted by the renderer); records/sources.json S-T10-002, S-T14-003, S-T19-005 annotated (records/decisions.json P3-LEDGER-001); state/T16_T18_status_note.json added; site entry pages and status documents brought into line with the release.",
+      "what_did_not_change": "No verdict, hedge, withheld gate, gap disposition, citation, paragraph id or record acceptance. No gap is closed and no gate is opened. The article remains an authorized working draft (site version 0.4.6, metadata only plus the navigation label).",
+      "review": "Bounded delta re-review by the distinct-model reviewer (xAI Grok 4.6) over the changed paragraphs, rendering and ledger notes: work/P3M01/delta_review/ (prompts, run_m01.sh, findings/delta-1.json). Follows the P3R20 cycle-1 precedent: bounded corrections, delta re-review, chapter statuses unchanged, release record re-bound.",
+      "review_status": "accepted: delta-1 verdict accept, 29 record inspections, 0 minor finding(s) noted for the later sweep, zero mechanical problems",
+      "review_artifact_hashes": {
+        "work/P3M01/delta_review/findings/delta-1.json": "b6ef24305b7b523d90e5a9f3cf05b2298ee4241c8dd8a016d8d1cde7d827256d",
+        "work/P3M01/delta_review/findings/delta-1.validation.json": "097ca4b583b816ce5d3076991f70bdfa2fb2d6e12e55c33d8035db817fa8a735",
+        "work/P3M01/changes.json": "e9ccea57a5b4589b29b6cdad3033149eca3f9948d41be8fc31b0ab6bf3b21475",
+        "work/P3M01/report.md": "b60ce19599757f6fe36bbb3d024c9251c1523feb183fd72aae20e322396de7b0"
+      },
+      "thesis_html_sha256": "d5d89023ee1dd4de1dc18c14da5aba401ee678f3f518d5d7a588df0b9744a796",
+      "finalized": "2026-09-15"
+    }
+  ]
 }

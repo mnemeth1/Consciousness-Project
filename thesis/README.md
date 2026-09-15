@@ -1,6 +1,6 @@
 # Thesis working directory
 
-Phase 3 authoring space for the doctoral-thesis-style expansion of the research article, governed by [phase3/Thesis_Execution_Plan.md](../phase3/Thesis_Execution_Plan.md) and [P2-AMEND-002](../phase2/amendments/002-thesis-rebase.md). Everything here is working-draft material until the Phase 3 gates close; nothing in this directory asserts scientific acceptance or external peer review.
+Phase 3 authoring space for the doctoral-thesis-style expansion of the research article, governed by [phase3/Thesis_Execution_Plan.md](../phase3/Thesis_Execution_Plan.md) and [P2-AMEND-002](../phase2/amendments/002-thesis-rebase.md). The Phase 3 gates (P3G1, P3R20, P3G2) closed on 15 September 2026 and the thesis is released under the `thesis-v` tag namespace (`state/thesis_release.json`); the build admits the released stage only while `state/acceptance_P3G2.json` exists. Nothing in this directory asserts scientific acceptance or external peer review.
 
 ## Layout
 
@@ -45,7 +45,7 @@ node scripts/thesis/build.cjs --check    # validate only, no output
 node scripts/thesis/build.cjs --publish  # compile and write paper/thesis.html for the public site
 ```
 
-The build writes per-chapter HTML and a stitched, self-contained `thesis.html` conforming to the paper security contract. `--publish` copies that stitched file to `paper/thesis.html`, which ships with the article Pages artifact. Incomplete parts keep their skeleton status labels; the published page also carries a remaining-work banner. There is no thesis PDF until a later `thesis-v` release.
+The build writes per-chapter HTML and a stitched, self-contained `thesis.html` conforming to the paper security contract. `--publish` copies that stitched file to `paper/thesis.html`, which ships with the article Pages artifact. Incomplete parts keep their skeleton status labels and the page carries a remaining-work banner until release; once released, the banner states the gate closures and the `thesis-v` release (built by `scripts/thesis/release.cjs` in CI) carries the thesis PDF. In the released stage the build also lints paragraphs for draft-time status language and rejects any unrendered citation bracket; citations may take the forms `[@S-…]`, `[@S-a; @S-b]` and `[@A-…]`/`[@C-…]`/`[@CL-…]`, and every record cited inline must also appear in the paragraph's crosswalk entry.
 
 Build outputs under `.paper-build/` are never committed. `paper/thesis.html` is the frozen public snapshot and is committed with the paper version that publishes it.
 

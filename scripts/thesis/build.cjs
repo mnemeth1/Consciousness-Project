@@ -71,14 +71,35 @@ function parseBlocks(body, file) {
   return blocks;
 }
 
-function inline(text, sources, cited, file) {
+// Citation forms (Phase 3 plan, "Deliverable format"): [@S-…] cites one source
+// record and links to its generated bibliography entry; [@S-a; @S-b] cites
+// several at once, each linked; [@A-…], [@C-…] and [@CL-…] name an argument,
+// case or claim record as a validated plain identifier (those ledgers have no
+// bibliography entry). Any bracket that starts with @ and does not resolve is
+// an error, never silently passed through as text: thesis-v1.0.0 shipped with
+// twelve unrendered brackets and seven sources missing from References
+// because the earlier single-form regex ignored everything else.
+const CITE_ITEM = /^@((?:S|A|C|CL)-[A-Za-z0-9_-]+)$/;
+function inline(text, ctx, file, paragraphId = null) {
   let html = esc(text);
   html = html.replace(/`([^`]+)`/g, (_, code) => `<code>${code}</code>`);
-  html = html.replace(/\[@(S-[A-Za-z0-9_-]+)\]/g, (_, id) => {
-    assert(sources.has(id), `${file}: citation of unknown source record ${id}`);
-    cited.add(id);
-    return `<a href="#ref-${id}">[${id}]</a>`;
+  html = html.replace(/\[(@[^\]]*)\]/g, (whole, body) => {
+    const items = body.split(';').map(s => s.trim());
+    const rendered = items.map(item => {
+      const m = item.match(CITE_ITEM);
+      assert(m, `${file}: malformed citation ${whole}; use [@S-…], [@S-a; @S-b] or [@A-…]/[@C-…]/[@CL-…]`);
+      const id = m[1];
+      const kind = id.match(/^(CL|A|C|S)-/)[1];
+      assert(ctx.records[kind].has(id), `${file}: citation of unknown ${kind} record ${id}`);
+      if (paragraphId) ctx.paragraphCites.get(paragraphId).add(id);
+      if (kind === 'S') { ctx.cited.add(id); return `<a href="#ref-${id}">${id}</a>`; }
+      return id;
+    });
+    // Keep the single-source form byte-identical to earlier builds.
+    if (rendered.length === 1 && items[0].startsWith('@S-')) return `<a href="#ref-${items[0].slice(1)}">[${items[0].slice(1)}]</a>`;
+    return `[${rendered.join('; ')}]`;
   });
+  assert(!/\[@/.test(html), `${file}: unrendered citation syntax remains in: ${text.slice(0, 80)}`);
   html = html.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, label, href) => {
     assert(/^(https:\/\/|#)/.test(href), `${file}: only HTTPS or internal links: ${href}`);
     return `<a href="${esc(href)}">${label}</a>`;
@@ -109,7 +130,7 @@ function renderBlocks(blocks, prefix, meta, ctx) {
         continue;
       }
       const id = ctx.uniqueId(`${prefix}-${slugify(block.text)}`);
-      out.push(`<h${block.level + 1} id="${id}">${inline(block.text, ctx.sources, ctx.cited, prefix)}</h${block.level + 1}>`);
+      out.push(`<h${block.level + 1} id="${id}">${inline(block.text, ctx, prefix)}</h${block.level + 1}>`);
     } else if (block.type === 'para') {
       let id = block.id;
       if (id) {
@@ -122,13 +143,50 @@ function renderBlocks(blocks, prefix, meta, ctx) {
         id = ctx.uniqueId(`${prefix}-auto${++auto}`);
       }
       ctx.chapterParagraphs.push({id, explicit: !!block.id, status: meta.status, prefix});
-      out.push(`<p id="${id}">${inline(block.text, ctx.sources, ctx.cited, prefix)}</p>`);
+      ctx.paragraphCites.set(id, new Set());
+      if (block.id) lintStatusLanguage(block.text, id, ctx);
+      out.push(`<p id="${id}">${inline(block.text, ctx, prefix, id)}</p>`);
     } else if (block.type === 'list') {
-      out.push('<ul>' + block.items.map(x => `<li>${inline(x, ctx.sources, ctx.cited, prefix)}</li>`).join('') + '</ul>');
+      out.push('<ul>' + block.items.map(x => `<li>${inline(x, ctx, prefix)}</li>`).join('') + '</ul>');
     }
   }
   closeLimits();
   return out.join('\n');
+}
+
+// Released-stage status language. Once thesis.json says `released`, no
+// paragraph may still describe the review record as it stood while drafting
+// (gates unrun, article review unperformed, thesis a working draft). The
+// patterns are deliberately narrow; a dated statement that must stay (for
+// example a count "as of" a named day) is exempted in thesis.json
+// `status_language_allowlist` with a reason. thesis-v1.0.0 shipped with eight
+// such paragraphs because nothing checked prose against the stage.
+const STATUS_LANGUAGE = [
+  /\b(?:has|have) not (?:yet )?been run\b/i,
+  /\bremains? unperformed\b/i,
+  /\bat this writing\b/i,
+  /\b(?:this|the thesis|the manuscript) (?:is|remains) (?:a |an )?(?:complete |incomplete )?working draft\b/i,
+  /\bthesis working draft\b/i,
+  /\bworking draft until\b/i,
+  /\bnot (?:yet )?(?:drafted|written) at this\b/i,
+  /\b(?:is|are) not drafted\b/i,
+  /\bremain(?:s)? unaccepted\b/i,
+  /\b(?:P2R20|P2G2|P3G1|P3R20|P3G2)\b[^.]*\b(?:remains? pending|remains? open|not (?:yet )?(?:run|closed|recorded))\b/i,
+  /\b(?:pending|still open)\b[^.]*\b(?:P2R20|P2G2|P3G1|P3R20|P3G2)\b/i,
+  /\buntil (?:its|those|these|the) (?:own )?gates? close\b/i,
+  /\blabeled submitted, not accepted\b/i,
+  /\bcoverage gate must\b/i,
+  /\bbefore coverage is accepted\b/i,
+  /\bthis draft\b/i,
+];
+function lintStatusLanguage(text, id, ctx) {
+  if (!ctx.released) return;
+  for (const pattern of STATUS_LANGUAGE) {
+    const hit = text.match(pattern);
+    if (!hit) continue;
+    const allowed = ctx.statusAllowlist.get(id);
+    assert(allowed, `${id}: released-stage status language "${hit[0]}" (add to thesis.json status_language_allowlist with a reason, or update the text)`);
+  }
 }
 
 function loadRecords() {
@@ -173,6 +231,16 @@ function validateCrosswalk(config, ctx, records, prefixes) {
     if (para.status !== 'skeleton' && para.explicit)
       assert(mapped.has(para.id), `Paragraph ${para.id} in a ${para.status} chapter lacks a crosswalk entry`);
   }
+  // Every record cited inline in a paragraph must also be in that paragraph's
+  // crosswalk entry, so the crosswalk stays the complete trace and an inline
+  // citation can never reach a record the crosswalk does not name.
+  for (const prefix of prefixes) {
+    for (const entry of readJSON(`thesis/crosswalk/${prefix}.json`).entries) {
+      const refs = new Set(entry.refs);
+      for (const id of ctx.paragraphCites.get(entry.paragraph_id) || [])
+        assert(refs.has(id), `${entry.paragraph_id} cites ${id} inline but its crosswalk entry does not list it`);
+    }
+  }
   return mapped.size;
 }
 
@@ -184,7 +252,11 @@ function bibliography(cited, ctx) {
         const date = r.publication_date ? ` ${esc(String(r.publication_date))}.` : '';
         const locator = /^https:\/\//.test(r.url_or_identifier || '')
           ? ` <a href="${esc(r.url_or_identifier)}">Source</a>.` : r.url_or_identifier ? ` ${esc(r.url_or_identifier)}.` : '';
-        return `<p id="ref-${r.source_id}">[${r.source_id}] ${esc(authors)}.${date} ${esc(r.title)}.${locator}</p>`;
+        // An optional ledger note states what the linked copy is (a third-party
+        // rehost, a second inspected version) so the reader is not left to infer
+        // provenance from the URL alone.
+        const note = r.bibliography_note ? ` ${esc(r.bibliography_note)}` : '';
+        return `<p id="ref-${r.source_id}">[${r.source_id}] ${esc(authors)}.${date} ${esc(r.title)}.${locator}${note}</p>`;
       }).join('\n')
     : '<p id="references-pending">The bibliography is generated from chapter citations against the source ledger; skeleton chapters carry no citations yet.</p>';
   return `<section id="references">\n<h2>References</h2>\n${body}\n</section>`;
@@ -238,8 +310,15 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
 
   const records = loadRecords();
   const usedIds = new Set();
+  const statusAllowlist = new Map();
+  for (const row of config.status_language_allowlist || []) {
+    assert(PARA_ID.test(row.paragraph_id) && row.reason?.trim().length >= 20,
+      'status_language_allowlist rows need a paragraph_id and a stated reason');
+    statusAllowlist.set(row.paragraph_id, row.reason);
+  }
   const ctx = {
-    sources: records.S, cited: new Set(), paragraphIds: new Set(), chapterParagraphs: [],
+    sources: records.S, records, cited: new Set(), paragraphIds: new Set(), chapterParagraphs: [],
+    paragraphCites: new Map(), released, statusAllowlist,
     limitationsSeen: false,
     uniqueId(base) {
       let id = base, n = 1;

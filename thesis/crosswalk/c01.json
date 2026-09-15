@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.0",
+  "thesis_version": "1.0.1",
   "part": "c01",
   "entries": [
     {
@@ -165,7 +165,7 @@
     {
       "paragraph_id": "c01-p026",
       "refs": [
-        "PREMISE:structure:roadmap-c11-c12-appendices (thesis/chapters/11-cumulative.md and 12-conclusion.md, drafted 2026-09-14; thesis/appendices A to D; derived/gap_gate_register.json twelve withheld gates)",
+        "PREMISE:structure:roadmap-c11-c12-appendices (thesis/chapters/11-cumulative.md and 12-conclusion.md, accepted per state/acceptance_P3C11.json and state/acceptance_P3C12.json; thesis/appendices A to D, accepted per state/acceptance_P3AP.json; work/P3G1/disposition_register.json twelve withheld gates)",
         "PREMISE:thesis:chapter-closings (closing paragraphs c01-p027, c02-p040, c03-p041, c04-p028, c05-p028, c06-p045, c07-p038, c08-p027, c09-p027, c10-p029, c11-p036, c12-p026 each state all twelve gates remain withheld; c11-p032 lists the twelve)"
       ]
     },

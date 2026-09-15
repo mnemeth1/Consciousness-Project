@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.0",
+  "thesis_version": "1.0.1",
   "part": "c00",
   "entries": [
     {
@@ -20,7 +20,7 @@
     {
       "paragraph_id": "c00-p002",
       "refs": [
-        "PREMISE:plan:declarations (thesis/thesis.json ai_disclosure and project_direction; phase3/Thesis_Execution_Plan.md 'Honesty constraints' and 'Gates and reviews'; STATUS.md; AI_Execution_Framework.md sections 5-6)"
+        "PREMISE:plan:declarations (thesis/thesis.json ai_disclosure and project_direction; phase3/Thesis_Execution_Plan.md 'Honesty constraints' and 'Gates and reviews'; state/acceptance_P3G1.json, state/acceptance_P3R20.json, state/acceptance_P3G2.json and work/P3G2/gate_decision.md sections 1 and 4 for the closure and the article's separate working-draft status; AI_Execution_Framework.md sections 5-6)"
       ]
     },
     {

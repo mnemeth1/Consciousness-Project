@@ -874,11 +874,26 @@
         "§§31–39",
         "§§40–48",
         "§§53–55",
-        "Front matter editorial conventions"
+        "Front matter editorial conventions",
+        "V-P2T04-004 (1998 Francks and Woolhouse translation): §§1–19 pp268–270; §§47–62 pp274–277; §§78–90 pp279–281 (CL-P2T04-011 to CL-P2T04-013)"
       ],
-      "provenance_notes": "Jonathan Bennett English modernization, first launched 2004, copyright 2017; original French not compared. Marked editorial additions and omissions are not silently attributed to Leibniz. Grounded classic text endpoint.",
+      "provenance_notes": "Jonathan Bennett English modernization, first launched 2004, copyright 2017; original French not compared. Marked editorial additions and omissions are not silently attributed to Leibniz. Grounded classic text endpoint. Second inspected version added 2026-09-15 (P3M01 ledger housekeeping, records/decisions.json P3-LEDGER-001): the P2T04 packet reused this source identity for the 1998 Francks and Woolhouse translation (work/P2T04/source_identity_annex_03.json, version V-P2T04-004 in work/P2T04/source_versions.json), under which CL-P2T04-011 to CL-P2T04-013 were inspected; the Bennett modernization was not reinspected for those claims, as thesis chapter 3 (c03-p031) discloses. No claim, locator or acceptance changed.",
       "related_case_ids": [],
-      "decisive": true
+      "decisive": true,
+      "versions": [
+        {
+          "version_id": "V-P2T04-004",
+          "source_id": "S-T10-002",
+          "path": "state/input_snapshots/user_sources/Leibniz_Philosophical_Texts_1998_user_supplied.pdf",
+          "sha256": "9c4b95c3b0562753182a167e825bcfeec9b88d9515ff98eb896de58ab06f557e",
+          "description": "Francks/Woolhouse translation copyright1998; exact physical printing year unknown",
+          "work_span_printed": "267–281",
+          "inspection_extent": "Text19 header/provenance267–268; §§1–19 pp268–270; §§47–62 pp274–277; §§78–90 pp279–281. Adjacent actual context20–21,45–46,63–69,76–77; other sections not read as a whole.",
+          "independently_inspected": true,
+          "publisher_byte_equivalence": false
+        }
+      ],
+      "bibliography_note": "Two inspected versions under one identity: the Bennett English modernization at the linked address (sufficient reason, God and the best world, §§31–55) and the 1998 Francks and Woolhouse translation (Everyman, Philosophical Texts; Monadology at printed pp. 267–281) for the monad claims, which sit at pp. 268–270, 274–277 and 279; the original French was not compared."
     },
     {
       "source_id": "S-T10-003",

@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "note_id": "T16-T18-STATUS-NOTE-001",
+  "date": "2026-09-15",
+  "recorded_by": "overseer (Claude Fable 5 session, project owner blanket authorization of 2026-09-14 to execute the post-release plan)",
+  "subject": [
+    "work/T17/baseline_assessment.json",
+    "work/T17/report.md",
+    "work/T16/component_routes.json",
+    "work/T16/conclusion_gate_map.json"
+  ],
+  "observation": "File-internal status labels in the T16 and T17 submission artifacts still read draft_pending_R18 (nine per-component rows in work/T17/baseline_assessment.json) or submitted. Those labels were written at submission on 2026-09-12 and are bound by the tasks' submission hashes (work/T17/submission_hashes.json, work/T16 equivalents).",
+  "canonical_status": "T16, T17 and T18 were accepted methodologically at R18 on 2026-09-12 (state/acceptance_R18.json; records/decisions.json D-EXEC-087) and released at G3 (D-EXEC-089); state/tasks.json carries them as accepted. The thesis's references to 'the accepted T17 execution' (c11-p020 and Appendix D) rest on those records.",
+  "why_the_files_are_not_edited": "The submission artifacts are hashed historical inputs. The project's historical-input policy (state/submission_T17.json historical_input_policy) forbids silently editing them; a status change is recorded here instead, as a pointer, and the labels inside the files are to be read as submission-time labels superseded by the acceptance records named above.",
+  "tracked_in": "state/adjudication_P3RX.json standing_follow_ups (item 2); closed by this note under P3M01 (work/P3M01/report.md)."
+}

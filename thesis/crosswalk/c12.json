@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.0",
+  "thesis_version": "1.0.1",
   "part": "c12",
   "entries": [
     {
@@ -376,7 +376,7 @@
     {
       "paragraph_id": "c12-p025",
       "refs": [
-        "PREMISE:plan:gates-and-reviews (phase3/Thesis_Execution_Plan.md 'Gates and reviews' P3G1, P3R20, P3G2; phase2/amendments/002-thesis-rebase.md items 3-4; STATUS.md)"
+        "PREMISE:plan:gates-and-reviews (phase3/Thesis_Execution_Plan.md 'Gates and reviews' P3G1, P3R20, P3G2; phase2/amendments/002-thesis-rebase.md items 3-4; state/acceptance_P3G1.json, state/acceptance_P3R20.json, state/acceptance_P3G2.json and work/P3G2/gate_decision.md sections 1-5)"
       ]
     },
     {

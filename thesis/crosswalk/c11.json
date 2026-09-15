@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.0",
+  "thesis_version": "1.0.1",
   "part": "c11",
   "entries": [
     {
       "paragraph_id": "c11-p001",
       "refs": [
         "PREMISE:structure:chapter-scope (phase3/Thesis_Execution_Plan.md P3C11 row; phase2/amendments/002-thesis-rebase.md item 2; work/G2/synthesis_constraints.json SC-G2-01, SC-G2-09)",
-        "PREMISE:rebased-input:P2S01-P2S02-labeled (reports/P2S01/report.md; reports/P2S02/report.md; submitted, not accepted; used only as labeled rebased inputs)"
+        "PREMISE:rebased-input:P2S01-P2S02-labeled (reports/P2S01/report.md; reports/P2S02/report.md; submitted analyses closed at rebased scope at P3G2, state/acceptance_P3G2.json and work/P3G2/gate_decision.md section 3, artifacts retained as historical record and not promoted to accepted findings; used only as labeled rebased inputs)"
       ]
     },
     {
@@ -459,7 +459,7 @@
     {
       "paragraph_id": "c11-p035",
       "refs": [
-        "PREMISE:plan:standing-limitations (STATUS.md; phase3/Thesis_Execution_Plan.md 'Honesty constraints' and 'Relation to Phase 2'; phase2/amendments/002-thesis-rebase.md items 3-4; c02-p041)",
+        "PREMISE:plan:standing-limitations (phase3/Thesis_Execution_Plan.md 'Honesty constraints' and 'Relation to Phase 2'; phase2/amendments/002-thesis-rebase.md items 3-4; state/acceptance_P3G1.json, state/acceptance_P3R20.json, state/acceptance_P3G2.json and work/P3G2/gate_decision.md sections 1, 3 and 5; c02-p041)",
         "PREMISE:constraint:SC-G2-08-cutoff (work/G2/synthesis_constraints.json frozen cutoff 2026-09-11)"
       ]
     },

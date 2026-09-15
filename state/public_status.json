@@ -1,17 +1,11 @@
 {
-  "snapshot_date": "2026-09-14",
+  "snapshot_date": "2026-09-15",
   "current_reviewed_release": "retired",
   "phase2_total_tasks": 46,
   "phase2_accepted_tasks": 46,
   "phase2_completed": true,
-  "remaining_tasks": {
-    "P2S01": "submitted, not accepted",
-    "P2S02": "correction submitted; bounded root check passed, full final review pending",
-    "P2S03": "paused pending corrected inputs",
-    "P2R20": "planned independent final review",
-    "P2G2": "planned final release gate"
-  },
-  "known_issue": "S02 eligibility correction received; final synthesis input rebase, full independent review and adjudication remain pending.",
+  "remaining_tasks": {},
+  "known_issue": "Post-release maintenance only: the 53 minor P3RX findings (later low-priority sweep) and the derived-layer regeneration remain open; see STATUS.md.",
   "withheld_conclusion_gates": 12,
   "gap_groups": 35,
   "task_acceptance_meaning": "Methodological acceptance within scope, not metaphysical truth or journal peer review.",
@@ -22,12 +16,12 @@
     "total_tasks": 27,
     "accepted_tasks": 27,
     "chapters_drafted": 12,
-    "note": "Phase 3 complete: all 27 tasks accepted. P3G2 (state/acceptance_P3G2.json) adjudicated joint satisfaction of the transferred P2R20 contract, executed P2G2 at thesis scope, closed P2S01-P2S03 at rebased scope, and released the thesis as thesis-v1.0.0 with the 0.4.5 article site. Acceptance is methodological; all twelve withheld stronger-conclusion gates remain withheld; the 53-minor sweep and ledger housekeeping remain as post-release maintenance."
+    "note": "Phase 3 complete: all 27 tasks accepted. P3G2 (state/acceptance_P3G2.json) adjudicated joint satisfaction of the transferred P2R20 contract, executed P2G2 at thesis scope, closed P2S01-P2S03 at rebased scope, and released the thesis as thesis-v1.0.0 with the 0.4.5 article site. Thesis-v1.0.1 (with the 0.4.6 site) is a post-release correction of status language, citation rendering and bibliography completeness (work/P3M01). Acceptance is methodological; all twelve withheld stronger-conclusion gates remain withheld."
   },
   "source_archive_included": false,
   "automatic_background_execution": false,
   "current_public_draft": {
-    "version": "0.4.5",
+    "version": "0.4.6",
     "stage": "draft",
     "scientific_acceptance": false,
     "pending_reviews": [],
@@ -35,8 +29,8 @@
     "presentation": "research-article"
   },
   "thesis_release": {
-    "version": "1.0.0",
-    "tag": "thesis-v1.0.0",
+    "version": "1.0.1",
+    "tag": "thesis-v1.0.1",
     "stage": "released",
     "gates": [
       "P3G1",

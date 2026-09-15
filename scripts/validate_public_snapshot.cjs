@@ -175,6 +175,30 @@ function validate() {
   const paperMeta = readText('paper/paper.html').match(/<meta name="paper-version" content="([^"]+)"/);
   assert(paperMeta && paperMeta[1] === draftVersion, 'paper.html version differs from public status');
 
+  // Site entry pages must describe the same release state as the records.
+  // thesis-v1.0.0 shipped with a start page that still called the thesis
+  // incomplete and P2R20/P2G2 pending; nothing checked the prose, so the
+  // published words and the gate records disagreed. These assertions bind
+  // the reader-facing pages to state/public_status.json and thesis/thesis.json.
+  const thesisConfig = read('thesis/thesis.json');
+  const pages = Object.fromEntries(['paper/landing.html', 'paper/companion.html', 'paper/paper.html']
+    .map(rel => [rel, readText(rel)]));
+  if (status.current_public_draft.pending_reviews.length === 0) {
+    for (const [rel, text] of Object.entries(pages)) {
+      assert(!/P2R20[^.]*remain(?:s)? pending|remain(?:s)? pending[^.]*P2R20/i.test(text),
+        `${rel} still says P2R20/P2G2 remain pending after the recorded P3G2 closure`);
+    }
+  }
+  if (thesisConfig.stage === 'released') {
+    assert.equal(status.thesis_release?.stage, 'released', 'public_status thesis_release.stage must be released');
+    assert.equal(status.thesis_release?.version, thesisConfig.version, 'public_status thesis_release.version differs from thesis.json');
+    for (const [rel, text] of Object.entries(pages)) {
+      assert(!/incomplete thesis|thesis expansion \(incomplete\)|not yet written|remain(?:s)? placeholders|marked as skeletons/i.test(text),
+        `${rel} still describes the released thesis as incomplete`);
+    }
+    assert(/Thesis \(released/.test(pages['paper/landing.html']), 'landing.html must present the thesis as released');
+  }
+
   // Historical reports intentionally retain links to omitted audit/source files.
   // New public entry points must link to material present in this snapshot.
   for (const rel of ['README.md', 'CURRENT_RELEASE.md', 'START_HERE.md', 'REPORTS.md', 'records/README.md']) {

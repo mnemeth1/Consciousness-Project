@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.0",
+  "thesis_version": "1.0.1",
   "part": "c02",
   "entries": [
     {
@@ -84,7 +84,7 @@
     {
       "paragraph_id": "c02-p014",
       "refs": [
-        "PREMISE:method:staged-execution (work/G0/protocol_v1.md s1; STATUS.md 2026-09-13 Phase 2 counts; work/G1/gate_decision.md pilot repairs)"
+        "PREMISE:method:staged-execution (work/G0/protocol_v1.md s1; state/draft_release_authorization.json recorded 2026-09-13, 41/46 Phase 2 tasks accepted; state/acceptance_P3G2.json closing P2S01-P2S03, P2R20 and P2G2 on 2026-09-15; work/G1/gate_decision.md pilot repairs)"
       ]
     },
     {
@@ -229,7 +229,7 @@
     {
       "paragraph_id": "c02-p038",
       "refs": [
-        "PREMISE:method:gap-gate-register-and-repair-triggers (work/G2/synthesis_constraints.json SC-G2-10; derived/gap_gate_register.json)"
+        "PREMISE:method:gap-gate-register-and-repair-triggers (work/G2/synthesis_constraints.json SC-G2-10; canonical work/G2/gap_register.json; work/P3G1/disposition_register.json as accepted at P3G1)"
       ]
     },
     {
@@ -242,7 +242,7 @@
     {
       "paragraph_id": "c02-p041",
       "refs": [
-        "PREMISE:method:enforcement-and-review-layer-limits (AGENTS.md free-text vocabulary and public-snapshot notes; STATUS.md P2R20 outstanding; work/G0/protocol_v1.md s6-s7; work/G2/synthesis_constraints.json required_sensitivity_tests provenance)"
+        "PREMISE:method:enforcement-and-review-layer-limits (AGENTS.md free-text vocabulary and public-snapshot notes; state/acceptance_P3G2.json and work/P3G2/gate_decision.md section 1 for P2R20 closed through P3R01-P3R12 and P3R20, section 4 for the article's separate working-draft status; work/G0/protocol_v1.md s6-s7; work/G2/synthesis_constraints.json required_sensitivity_tests provenance)"
       ]
     },
     {
