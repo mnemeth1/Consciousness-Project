@@ -50,7 +50,7 @@ const AUX_SOURCES = {landing_html_sha256: 'paper/landing.html',
   thesis_html_sha256: 'paper/thesis.html', methodology_html_sha256: 'paper/methodology.html',
   favicon_sha256: 'paper/favicon.png', social_image_sha256: 'paper/social-preview.jpg'};
 const ARTIFACT_FILES = ['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html',
-  'favicon.png', 'social-preview.jpg', 'paper.pdf', 'release.json'];
+  'favicon.png', 'social-preview.jpg', 'paper.pdf', 'thesis.pdf', 'release.json'];
 function auxPresent(root) {
   const present = Object.values(AUX_SOURCES).filter(file => fs.existsSync(path.join(root, file)));
   assert(present.length === 0 || present.length === Object.keys(AUX_SOURCES).length,

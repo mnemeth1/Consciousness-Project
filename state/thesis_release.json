@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "status": "authorized-release",
-  "thesis_version": "1.0.6",
+  "thesis_version": "1.0.7",
   "date": "2026-09-15",
-  "thesis_html_sha256": "37390fde60528de301449d77f3034d040b603dc6631a907c7fc1647cee442416",
-  "renderer_sha256": "1cd2ff445774d0a23a1e0ea4fba90b9c81a78448bb10c7793736e9d11afeca89",
-  "p3g2_record_sha256": "548d834f1f28a7d259d68d44ce748a9148caa39547d7c93cf87136497edc8f19",
+  "thesis_html_sha256": "7912e41f0ef189ec3eab63d66adfc2f9a77f9610d89e238a69ebe19a6b361f2a",
+  "renderer_sha256": "78f3426fcbb6626721b987d0f6613767ef8a9bbb8451be50a9463ad3d171d38d",
+  "p3g2_record_sha256": "c74168a5e39baaf551a3b3bcbe84cfc4307c57692d9a070b33d9e01fc1b3818e",
   "publication_authorized_by": "Michael Nemeth",
-  "authorization": "Owner instruction of 2026-09-15 continuing the SEO pass with owner-supplied images, under the standing decision that no distinct-model review is needed because no article or thesis content changes. Thesis 1.0.6 is a presentation-only republication (state/acceptance_P3G2.json amendment P3G2-A6): canonical link, favicon, social preview image tags and Thesis JSON-LD in the page head; no paragraph, citation, References entry, verdict, hedge or gate changed.",
-  "release_pipeline": "scripts/thesis/release.cjs render/publish in CI (pinned container); assets thesis.html, thesis.pdf, thesis-release.json under the tag thesis-v<thesis_version>; PDF byte hash binds at first publish and is immutable thereafter."
+  "authorization": "Owner instruction of 2026-09-15 to make the site navigation identical on every page and to serve the thesis PDF so it opens in the browser like the article PDF, under the blanket stage authorization of 2026-09-14. Thesis 1.0.7 is a presentation-only republication (state/acceptance_P3G2.json amendment P3G2-A7): the thesis page gains the Article PDF navigation button, both PDF buttons now share the outlined style, and the Thesis PDF button targets the site-served thesis.pdf; no paragraph, citation, References entry, verdict, hedge or gate changed.",
+  "release_pipeline": "scripts/thesis/release.cjs render/publish in CI (pinned container); assets thesis.html, thesis.pdf, thesis-release.json under the tag thesis-v<thesis_version>; PDF byte hash binds at first publish and is immutable thereafter. The render also stages thesis.pdf and thesis-release.json into .paper-build/site so GitHub Pages serves the thesis PDF inline alongside paper.pdf."
 }

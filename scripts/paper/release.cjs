@@ -94,7 +94,10 @@ async function publishPair({directory, api, commit}) {
   const wanted = {...next, ...(previous ? {source_commit: previous.source_commit} : {})};
   const manifestBytes = previous ? Buffer.from(JSON.stringify(previous, null, 2) + '\n')
     : C.regular(path.join(directory, 'release.json'));
-  const assetNames = artifactNames(next);
+  // A staged thesis pair (validated by validatePair) publishes with the set so
+  // the release assets mirror the deployed Pages site exactly.
+  const assetNames = [...artifactNames(next),
+    ...['thesis.pdf', 'thesis-release.json'].filter(name => fs.existsSync(path.join(directory, name)))];
   const expected = Object.fromEntries(assetNames.map(name =>
     [name, name === 'release.json' ? manifestBytes : C.regular(path.join(directory, name))]));
   assert(release.assets.every(x => assetNames.includes(x.name)), 'Unexpected release assets; do not mutate');

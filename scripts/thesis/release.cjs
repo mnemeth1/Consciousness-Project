@@ -56,6 +56,15 @@ async function render(commit) {
   fs.renameSync(path.join(SITE, 'paper.pdf'), path.join(SITE, 'thesis.pdf'));
   fs.rmSync(path.join(SITE, 'release.json'), {force: true});
   fs.writeFileSync(path.join(SITE, 'thesis-release.json'), JSON.stringify(manifest, null, 2) + '\n');
+  // Stage the verified thesis PDF next to the built paper site (when one
+  // exists) so Pages serves it in-browser alongside paper.pdf; validatePair
+  // re-checks that the staged pair matches the deployed thesis page exactly.
+  const paperSite = path.join(C.ROOT, '.paper-build/site');
+  if (fs.existsSync(path.join(paperSite, 'release.json'))) {
+    fs.copyFileSync(path.join(SITE, 'thesis.pdf'), path.join(paperSite, 'thesis.pdf'));
+    fs.copyFileSync(path.join(SITE, 'thesis-release.json'), path.join(paperSite, 'thesis-release.json'));
+    require('../paper/build.cjs').validatePair(paperSite, {allowPreview: true});
+  }
   console.log(JSON.stringify({rendered: auth.thesis_version, pdf_sha256: built.pdf_sha256}));
 }
 

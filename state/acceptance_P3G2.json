@@ -123,6 +123,20 @@
       "review_status": "not required (owner decision; no claim-bearing text changed)",
       "thesis_html_sha256": "37390fde60528de301449d77f3034d040b603dc6631a907c7fc1647cee442416",
       "finalized": "2026-09-15"
+    },
+    {
+      "amendment_id": "P3G2-A7",
+      "date": "2026-09-15",
+      "thesis_version": "1.0.7",
+      "tag": "thesis-v1.0.7",
+      "kind": "presentation-only republication: uniform navigation PDF buttons, site-served thesis PDF, article print layout repair",
+      "authority": "Project owner instruction of 2026-09-15 to make the navigation menu identical on every page (both PDF buttons everywhere, both boxed), to serve the thesis PDF so it opens in the browser like the article PDF, and to fix the article PDF's layout, under the blanket stage authorization of 2026-09-14.",
+      "what_changed": "Navigation chrome and PDF delivery only. The thesis page gains the Article PDF button it was missing, emitted by scripts/thesis/build.cjs (a template not covered by the pinned renderer recipe), so all five pages carry the same two buttons; the Thesis PDF button is promoted from btn-ghost to btn-primary on every page so both buttons are outlined alike. The thesis render (scripts/thesis/release.cjs) now stages its verified thesis.pdf and thesis-release.json into the paper site, and the CI build renders the thesis before uploading the site artifact, so the deployed set grows from eleven to thirteen files; validatePair, ARTIFACT_FILES, scripts/paper/release.cjs and scripts/validate_paper_artifact.py accept the staged pair and bind it by hash to the deployed thesis page and article version. Every page's Thesis PDF button now targets the relative thesis.pdf, so the browser renders it inline as it does paper.pdf, rather than the GitHub release asset, which is delivered as an attachment; the immutable release asset is still published unchanged under the thesis-v tag. So that both documents behave alike on every page, the article page's #download-pdf contract link drops its download attribute and the page contract now requires its absence: the element must still be an anchor to paper.pdf, but may no longer force an attachment download. The article print stylesheet (paper/paper.html) is repaired to match the thesis PDF: the inline-styled navigation bar now prints display:none !important (the previous un-!important rule lost to the inline style, printing the menu into paper.pdf), main and .page drop their screen max-width so the text column fills the printable width, and h1-h4 print at the thesis PDF's point scale. The article site republishes as 0.4.12 and the thesis as thesis-v1.0.7 solely because published page hashes and release assets are immutable per version.",
+      "what_did_not_change": "No thesis paragraph, citation, crosswalk entry, References entry, verdict, hedge, withheld gate, gap disposition or record acceptance. The regenerated paper/thesis.html differs from the 1.0.6 page only in the version metadata (article 0.4.12, thesis 1.0.7), the added navigation button and the changed button class and href; the navigation is screen-only, so the thesis print layer and the thesis PDF text are unaffected. The article's changes are navigation markup and print CSS only: the article PDF's text content is unchanged (the build's block-by-block text correspondence check re-verifies this), and only its page layout changes. The article remains an authorized working draft with scientific_acceptance false.",
+      "review": "None required (owner decision of 2026-09-15, continuing the P3G2-A3/A4/A5/A6 disposition): navigation chrome, PDF delivery plumbing and print layout only, no claim-bearing text changed.",
+      "review_status": "not required (owner decision; no claim-bearing text changed)",
+      "thesis_html_sha256": "7912e41f0ef189ec3eab63d66adfc2f9a77f9610d89e238a69ebe19a6b361f2a",
+      "finalized": "2026-09-15"
     }
   ]
 }

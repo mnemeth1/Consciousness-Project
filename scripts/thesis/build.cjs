@@ -570,7 +570,7 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
 </head>
 <body>
 <div class="shell">
-<nav class="site screen-only" aria-label="Thesis navigation"><a class="brand" href="index.html">Consciousness Project</a><div class="navlinks"><a href="companion.html">Overview</a><a href="paper.html">Article</a><a href="thesis.html" aria-current="page">Thesis</a><a href="methodology.html">Method</a></div>${released ? `<a class="btn btn-primary" href="https://github.com/mnemeth1/Consciousness-Project/releases/download/thesis-v${esc(config.version)}/thesis.pdf">Thesis PDF</a>` : ''}</nav>
+<nav class="site screen-only" aria-label="Thesis navigation"><a class="brand" href="index.html">Consciousness Project</a><div class="navlinks"><a href="companion.html">Overview</a><a href="paper.html">Article</a><a href="thesis.html" aria-current="page">Thesis</a><a href="methodology.html">Method</a></div><a class="btn btn-primary" href="paper.pdf">Article PDF</a>${released ? `<a class="btn btn-primary" href="thesis.pdf">Thesis PDF</a>` : ''}</nav>
 <div class="page">
 ${rail}
 <main id="paper">

@@ -55,13 +55,15 @@ async function inspectHTML(page, html, sourceBasename = 'paper.html') {
       error(!!el.getAttribute('alt'), 'Images require meaningful alt text');
     }
     const download = document.getElementById('download-pdf');
-    // A thesis page ships next to the ARTICLE's paper.pdf on the site, so it
-    // must not carry a paper.pdf download link; every other source requires one.
+    // Only the article page carries the #download-pdf contract element; the
+    // thesis page may link paper.pdf as ordinary navigation but must not
+    // impersonate it. Every page serves both PDFs inline, so the contract link
+    // must not force an attachment download either.
     if (requireDownload) {
       error(download?.tagName === 'A' && download.getAttribute('href') === 'paper.pdf' &&
-        download.hasAttribute('download'), 'Download link must be #download-pdf href=paper.pdf download');
+        !download.hasAttribute('download'), 'Article PDF link must be #download-pdf href=paper.pdf, opening inline without a download attribute');
     } else {
-      error(!download, 'Thesis page must not carry a paper.pdf download link');
+      error(!download, 'Thesis page must not carry the article #download-pdf control');
     }
     const paper = document.querySelector('main#paper');
     error(!!paper, 'Main research article must be main#paper');
@@ -416,9 +418,16 @@ function validatePair(directory, {allowPreview = false} = {}) {
   assert(bound.length === 0 || bound.length === auxFields.length, 'Landing, companion, crosswalk, thesis, methodology and image hashes bind together');
   const extended = bound.length === auxFields.length;
   if (extended) for (const field of auxFields) assert(C.HASH.test(manifest[field]), `Manifest ${field} invalid`);
+  // The thesis render may stage its verified PDF next to the pages so the site
+  // serves it in-browser; the pair ships with its own provenance manifest or
+  // not at all, and only alongside the full extended page set.
+  const thesisStaged = fs.existsSync(path.join(directory, 'thesis.pdf')) ||
+    fs.existsSync(path.join(directory, 'thesis-release.json'));
+  assert(!thesisStaged || extended, 'A staged thesis PDF requires the extended page set');
   assert.deepEqual(fs.readdirSync(directory).sort(),
     extended ? ['companion.html', 'favicon.png', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json',
-      'robots.txt', 'sitemap.xml', 'social-preview.jpg', 'thesis.html']
+      'robots.txt', 'sitemap.xml', 'social-preview.jpg',
+      ...(thesisStaged ? ['thesis-release.json'] : []), 'thesis.html', ...(thesisStaged ? ['thesis.pdf'] : [])]
       : ['index.html', 'paper.pdf', 'release.json'],
     'Publish exactly the versioned paper set and manifest; no source library');
   assert.equal(manifest.schema, 1);
@@ -438,6 +447,16 @@ function validatePair(directory, {allowPreview = false} = {}) {
   }
   assert.equal(C.sha(C.regular(path.join(directory, 'paper.pdf'))), manifest.pdf_sha256, 'Stale or corrupted PDF');
   assert(C.regular(path.join(directory, 'paper.pdf')).subarray(0, 5).equals(Buffer.from('%PDF-')), 'Expected generated PDF');
+  if (thesisStaged) {
+    const thesisManifest = C.readJSON(path.join(directory, 'thesis-release.json'));
+    assert.equal(thesisManifest.schema, 1, 'Thesis manifest schema');
+    assert.equal(thesisManifest.artifact, 'thesis', 'Thesis manifest identity');
+    assert.equal(thesisManifest.article_version, manifest.version, 'Staged thesis renders a different article version');
+    assert.equal(thesisManifest.thesis_html_sha256, C.sha(C.regular(path.join(directory, 'thesis.html'))),
+      'Staged thesis PDF renders a different thesis page than the deployed one');
+    assert.equal(C.sha(C.regular(path.join(directory, 'thesis.pdf'))), thesisManifest.pdf_sha256, 'Stale or corrupted thesis PDF');
+    assert(C.regular(path.join(directory, 'thesis.pdf')).subarray(0, 5).equals(Buffer.from('%PDF-')), 'Expected generated thesis PDF');
+  }
   if (!allowPreview) {
     assert(['release', 'draft-release'].includes(manifest.mode), 'Preview cannot be published');
     assert.equal(manifest.fixture, false, 'Fixture cannot be published');

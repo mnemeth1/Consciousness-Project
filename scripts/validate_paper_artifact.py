@@ -17,6 +17,12 @@ def validate(directory):
     expected = {'index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html',
                 'favicon.png', 'social-preview.jpg', 'robots.txt', 'sitemap.xml', 'paper.pdf', 'release.json'} if extended \
         else {'index.html', 'paper.pdf', 'release.json'}
+    # An extended set may additionally stage the verified thesis PDF with its
+    # own provenance manifest, both files together or neither.
+    thesis_staged = (root/'thesis.pdf').exists() or (root/'thesis-release.json').exists()
+    assert not thesis_staged or extended, 'A staged thesis PDF requires the extended page set'
+    if thesis_staged:
+        expected |= {'thesis.pdf', 'thesis-release.json'}
     assert {p.name for p in root.iterdir()} == expected, 'Publish exactly the versioned paper set and manifest'
     for p in root.iterdir():
         assert p.is_file() and not p.is_symlink(), 'Only regular generated files'
@@ -49,6 +55,14 @@ def validate(directory):
         assert re.fullmatch(r'[a-f0-9]{64}', manifest[field]), 'Hash required: ' + field
         assert hashlib.sha256((root/file).read_bytes()).hexdigest() == manifest[field], 'Stale or changed pair: ' + file
     assert (root/'paper.pdf').read_bytes().startswith(b'%PDF-'), 'Generated paper PDF required'
+    if thesis_staged:
+        thesis_manifest = json.loads((root/'thesis-release.json').read_text(encoding='utf-8'))
+        assert thesis_manifest['schema'] == 1 and thesis_manifest['artifact'] == 'thesis'
+        assert thesis_manifest['article_version'] == manifest['version'], 'Staged thesis renders a different article version'
+        assert hashlib.sha256((root/'thesis.html').read_bytes()).hexdigest() == thesis_manifest['thesis_html_sha256'], \
+            'Staged thesis PDF renders a different thesis page than the deployed one'
+        assert hashlib.sha256((root/'thesis.pdf').read_bytes()).hexdigest() == thesis_manifest['pdf_sha256'], 'Stale or corrupted thesis PDF'
+        assert (root/'thesis.pdf').read_bytes().startswith(b'%PDF-'), 'Generated thesis PDF required'
     print('Validated the sole permitted generated publication PDF and exact HTML pair. Scientific review is a separate gate.')
     return manifest
 

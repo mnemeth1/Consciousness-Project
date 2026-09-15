@@ -27,9 +27,11 @@ test('absent paper is waiting and an orphan review is an error', () => {
   fs.mkdirSync(path.join(root, 'paper')); fs.writeFileSync(path.join(root, 'paper/reviewed-release.json'), '{}');
   assert.throws(() => C.status(root), /without paper/);
 });
-test('missing or stale PDF download link fails before rendering', async () => {
-  await assert.rejects(B.inspectHTML(page, fixture.replace('href="paper.pdf"', 'href="old.pdf"')), /Download link/);
+test('missing, stale or forced-download article PDF link fails before rendering', async () => {
+  await assert.rejects(B.inspectHTML(page, fixture.replace('href="paper.pdf"', 'href="old.pdf"')), /Article PDF link/);
   await assert.rejects(B.inspectHTML(page, fixture.replace('id="download-pdf"', 'id="wrong"')), /download-pdf/);
+  // Both PDFs open in the browser; an attachment download attribute is rejected.
+  await assert.rejects(B.inspectHTML(page, fixture.replace('href="paper.pdf"', 'href="paper.pdf" download')), /Article PDF link/);
 });
 test('missing version/date and broken internal references fail', async () => {
   await assert.rejects(B.inspectHTML(page, fixture.replace('name="paper-version"', 'name="wrong"')), /version/);
@@ -379,6 +381,43 @@ test('landing, companion, thesis and methodology build one bound eleven-file art
   changed.companion_html_sha256 = C.sha(fs.readFileSync(path.join(directory, 'companion.html')));
   C.writeJSON(path.join(directory, 'release.json'), changed);
   await assert.rejects(publishPair({directory, api: mock.api, commit}), /cannot be reused.*companion/);
+});
+test('a staged thesis PDF ships with the site, bound to the deployed thesis page', async () => {
+  const {root} = auxRoot('aux-thesis-pdf');
+  const manifest = await B.build({root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit});
+  const directory = path.join(root, 'site');
+  // The thesis render stages its verified PDF and provenance manifest next to
+  // the pages; the bytes stand in for a separately rendered thesis PDF here.
+  const thesisPDF = fs.readFileSync(path.join(directory, 'paper.pdf'));
+  const stage = extra => {
+    fs.writeFileSync(path.join(directory, 'thesis.pdf'), thesisPDF);
+    C.writeJSON(path.join(directory, 'thesis-release.json'), {schema: 1, artifact: 'thesis',
+      thesis_version: '1.0.0', article_version: manifest.version, date: manifest.date, source_commit: commit,
+      thesis_html_sha256: C.sha(fs.readFileSync(path.join(directory, 'thesis.html'))),
+      pdf_sha256: C.sha(thesisPDF), ...extra});
+  };
+  stage();
+  assert.deepEqual(fs.readdirSync(directory).sort(),
+    ['companion.html', 'favicon.png', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json',
+      'robots.txt', 'sitemap.xml', 'social-preview.jpg', 'thesis-release.json', 'thesis.html', 'thesis.pdf']);
+  assert.equal(B.validatePair(directory, {allowPreview: true}).version, manifest.version);
+  // A PDF rendered from a different thesis page, or from a different article
+  // version, must never deploy beside the page it does not match.
+  stage({thesis_html_sha256: hash});
+  assert.throws(() => B.validatePair(directory, {allowPreview: true}), /different thesis page/);
+  stage({article_version: '9.9.9'});
+  assert.throws(() => B.validatePair(directory, {allowPreview: true}), /different article version/);
+  stage({pdf_sha256: hash});
+  assert.throws(() => B.validatePair(directory, {allowPreview: true}), /Stale or corrupted thesis PDF/);
+  stage();
+  fs.rmSync(path.join(directory, 'thesis-release.json'));
+  assert.throws(() => B.validatePair(directory, {allowPreview: true}), /exactly the versioned paper set/);
+  stage();
+  C.writeJSON(path.join(directory, 'release.json'), {...manifest, mode: 'draft-release'});
+  const mock = mockGitHub();
+  await publishPair({directory, api: mock.api, commit});
+  assert.equal(mock.releases[0].assets.length, 13);
+  assert(new Set(mock.releases[0].assets.map(x => x.name)).has('thesis.pdf'));
 });
 test('companion claims must trace to existing paper paragraphs', async () => {
   const {root} = auxRoot('aux-broken-crosswalk');
