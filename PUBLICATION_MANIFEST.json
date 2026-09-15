@@ -587,7 +587,7 @@
     },
     {
       "path": "derived/manifest.json",
-      "sha256": "6023bfecbb818ccaeda3f3d3d6730869c4732b2879f7b973c7242a038d255043",
+      "sha256": "29530aea18e08dd3c24c7b18f2a8655d5f0fef50fa959e97ce981581b48a003e",
       "bytes": 8932,
       "source": null,
       "transformations": []
@@ -1183,6 +1183,13 @@
       "transformations": []
     },
     {
+      "path": "state/acceptance_P3R20.json",
+      "sha256": "88abc3735ef47b6d07ddfc95668ed1d9fabe5ec3db26dc5548f9542602c720dc",
+      "bytes": 2565,
+      "source": null,
+      "transformations": []
+    },
+    {
       "path": "state/adjudication_P3RX.json",
       "sha256": "d612f7cb4a9d32544770482bba63d3bf2e34147a1ed946eaab61a994e8d9c2e1",
       "bytes": 3942,
@@ -1191,8 +1198,8 @@
     },
     {
       "path": "state/public_status.json",
-      "sha256": "c20517bd8b1dd925d8ecd3db4511e1de1e49cb7b8feb266acd303e78a71568eb",
-      "bytes": 2215,
+      "sha256": "60ae6d71356310280ea82e0269e4ff080ab9ac655970096572868b1e1e7f90c7",
+      "bytes": 2371,
       "source": null,
       "transformations": [
         "Version 0.3.0 scholarly article and matching release presentation; UTF-8 LF bytes.",
@@ -1201,8 +1208,8 @@
     },
     {
       "path": "state/tasks.json",
-      "sha256": "89167a40441a283e148c4282e9dff6906fcf45da4c4c55b91dc8be3dc72e3684",
-      "bytes": 132335,
+      "sha256": "f335b44f44100738b4ec39b6fad8aa6155e90619a7afdc1c1f863da321f9e530",
+      "bytes": 132336,
       "source": null,
       "transformations": [
         "User-authorized Phase 2 working draft and paired-release tooling; current UTF-8 bytes.",
@@ -1333,8 +1340,8 @@
     },
     {
       "path": "thesis/appendices/D-dependence-map.md",
-      "sha256": "17aca7a31a07fff058c1358ea538e8f72894ba166ae7b2075bc41d07fc2c4fba",
-      "bytes": 28887,
+      "sha256": "5d9c67b47a1092daaa65a9c7a37c1609085631e0e27476c6e9a03f5b37dd9a87",
+      "bytes": 29161,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1396,8 +1403,8 @@
     },
     {
       "path": "thesis/chapters/06-empirical.md",
-      "sha256": "2180977a98a96ca9cbbc4cfe795dcb60f7b1f7ffd816e364cb40e89256e5cd5e",
-      "bytes": 57286,
+      "sha256": "b81c36ba91fe3a4c7dd39470668518108b3b8310fe7729cf616f6d5dd1fd1c30",
+      "bytes": 57353,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1441,8 +1448,8 @@
     },
     {
       "path": "thesis/chapters/11-cumulative.md",
-      "sha256": "ebe7329cf6d8089c581f22ae46909b188f5d4fccf7103876e38a7d6c6d7bf9b9",
-      "bytes": 46145,
+      "sha256": "31a68ba0ef36013062060cb2f1a6d796b88cadbf63acfcfd8046446a58dbe0d4",
+      "bytes": 46411,
       "source": null,
       "transformations": [
         "Authored in the public workspace for the Phase 3 thesis programme (2026-09-13)."
@@ -1529,8 +1536,8 @@
     },
     {
       "path": "thesis/crosswalk/c06.json",
-      "sha256": "8e22d7428fef56eaf66c985c712b8ac3348f4b8120103d90b524d798ba81b6a3",
-      "bytes": 9903,
+      "sha256": "e4e2d14615ed8adba79f566f61d3c1a92d57383454e448fb1a1280af81d2a26a",
+      "bytes": 14324,
       "source": null,
       "transformations": []
     },

@@ -3703,7 +3703,7 @@
     "dependency_conditions": {
       "P3G1": "accepted"
     },
-    "status": "planned",
+    "status": "accepted",
     "output_directory": "work/P3R20/",
     "deliverables": [
       "report.md",

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-15",
+  "adjudicator": "overseer (Claude Fable 5 session, project owner blanket stage authorization 2026-09-14)",
+  "verdict": "accepted",
+  "accepted_tasks": [
+    "P3R20"
+  ],
+  "reviewer": "xAI Grok 4.6 (xhigh), distinct model family from author, headless read-only",
+  "review_history": [
+    "Whole-thesis review on the P3G1-frozen inputs as four complementary runs under one contract: integration (revise, 1 major, 20 inspections), sensitivity-gates (accept, 1 minor, 20), decisive-source samples over chapters 3-7 (accept, 1 minor, 25) and over chapters 1-2, 8-12 and appendices A/B/D (accept, 0, 25).",
+    "Revision cycle 1 of 2: three bounded corrections (apD-p015 PSR clause per T17-06A; c11-p016 same-direction claim per T17-04; c06-p028 143-figure attribution to S-T07-007) applied in the Lennox voice with ids, hedges and citations preserved; exact before/after in work/P3R20/changes.json.",
+    "Delta re-review (run delta-1): accept; all three findings resolved against the ledger rows; zero new findings; 10 inspections; chapters still close with all twelve gates withheld. Cycle 2 unused."
+  ],
+  "totals": {
+    "record_inspections": 100,
+    "allocation": 80,
+    "search_queries_used": 0,
+    "search_query_budget": 8
+  },
+  "scoped_extensions": "Original page images not locally reopened are named per run in work/P3R20/source_checks.json uncertainties; each was inspected at ledger acceptance in Phase 2 with recorded locators, and nothing found contradicts a recorded locator. Adjudicated at P3G2.",
+  "reviewed_artifact_hashes": {
+    "work/P3R20/report.md": "0cf1153811cf0a00ce970ae53e9f67484b9b8870e0d25900cba8a311e6a743dd",
+    "work/P3R20/review.json": "77423181ae56b181b5816e480235d8aae95b46e8050cf1f3140ed62ba894ad6d",
+    "work/P3R20/source_checks.json": "00f3449e35d85ae595712baf3f6d29b0856b5d1e4f6288db16d18127c591bb62",
+    "work/P3R20/inference_checks.json": "4e848400825f24b4f3229725010515dc04f61345f0e5fcf0355f22f3a8068bc5",
+    "work/P3R20/changes.json": "8b9e6c733d247b744b20aaed94cc8f2e58fcfa7ef851b3c03cd008c3aafb16b9"
+  },
+  "scope": "Acceptance asserts that the whole-thesis review contract ran with adequate method on frozen inputs by a distinct-model reviewer, that its findings were remediated and re-accepted, and that integration, sensitivity execution, withheld gates, fairness and the decisive-source samples held. It closes no gap, opens no gate, and does not itself close P2R20; joint satisfaction is adjudicated at P3G2.",
+  "next": "P3G2 final adjudication and versioned thesis release."
+}
