@@ -545,6 +545,13 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="${esc(config.authors)}">
+<meta name="description" content="The released thesis of the Consciousness Project: twelve chapters and four appendices expanding the research article, with every paragraph traced through a crosswalk to a reviewed record or a labeled premise.">
+<meta property="og:site_name" content="Consciousness Project">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mnemeth1.github.io/Consciousness-Project/thesis.html">
+<meta property="og:title" content="${esc(config.title)}">
+<meta property="og:description" content="Twelve chapters and four appendices expanding the research article, with every paragraph traced through a crosswalk to a reviewed record or a labeled premise.">
+<meta name="twitter:card" content="summary">
 <meta name="paper-version" content="${esc(paperMeta.version)}">
 <meta name="paper-date" content="${esc(paperMeta.date)}">
 <meta name="paper-stage" content="${released ? 'reviewed' : 'draft'}">

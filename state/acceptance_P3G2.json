@@ -95,6 +95,20 @@
       "review_status": "not required (owner decision; no claim-bearing text changed)",
       "thesis_html_sha256": "c2e381c9fb7840cfc6f0a15f0047bbbc7d7d37cb3ee262ff4f9147607db1bf4e",
       "finalized": "2026-09-15"
+    },
+    {
+      "amendment_id": "P3G2-A5",
+      "date": "2026-09-15",
+      "thesis_version": "1.0.5",
+      "tag": "thesis-v1.0.5",
+      "kind": "presentation-only republication: search and discovery metadata (SEO pass)",
+      "authority": "Project owner instruction of 2026-09-15 to run an SEO optimization pass (robots.txt, sitemap, page metadata, repository description), with the recorded owner decision that no distinct-model review is needed because no article or thesis content changes.",
+      "what_changed": "Every site page gains head-level discovery metadata: a meta description, Open Graph tags (og:site_name, og:type, og:url as the canonical URL, og:title, og:description) and a twitter:card summary tag; the thesis page tags are emitted by scripts/thesis/build.cjs. The paper build now generates two deterministic discovery files into the published artifact, robots.txt and sitemap.xml (the five page URLs with the release date as lastmod), and validatePair verifies them byte-for-byte against the generator, growing the pinned deployed set from seven to nine files (mirrored in scripts/paper/release.cjs, scripts/validate_paper_artifact.py and tests/paper.test.cjs). The GitHub repository description, homepage and topics were set alongside. The article site republishes as 0.4.10 and the thesis as thesis-v1.0.5 solely because published page hashes and release assets are immutable per version.",
+      "what_did_not_change": "No thesis paragraph, citation, crosswalk entry, References entry, verdict, hedge, withheld gate, gap disposition or record acceptance. Body text on all five pages is byte-identical apart from version literals; the changes are head metadata only. The security contract is unchanged (no scripts, no link elements, no external resources; canonical signaling via og:url and the sitemap). The print layer and the PDF text are unaffected. The article remains an authorized working draft with scientific_acceptance false.",
+      "review": "None required (owner decision of 2026-09-15): head metadata and generated discovery files only, no claim-bearing text changed, following the presentation-only precedent of P3G2-A3/A4. The page descriptions were written to preserve the project calibration (working draft, no external peer review, no established metaphysical result).",
+      "review_status": "not required (owner decision; no claim-bearing text changed)",
+      "thesis_html_sha256": "7cc489056ed90c798cccdbe5c0b1dc08210dfe89cffb974242b22759977e3e4c",
+      "finalized": "2026-09-15"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "status": "authorized-release",
-  "thesis_version": "1.0.4",
+  "thesis_version": "1.0.5",
   "date": "2026-09-15",
-  "thesis_html_sha256": "c2e381c9fb7840cfc6f0a15f0047bbbc7d7d37cb3ee262ff4f9147607db1bf4e",
-  "renderer_sha256": "e6d57fc225b36faf82ca9e5a8b0038d864ac1ba523086eb2c4fe05d5ecc5c6c1",
-  "p3g2_record_sha256": "1d1f572ef1145cc89d1e327325b8be1f696f20982cdbec517c3b3eac9d0a739b",
+  "thesis_html_sha256": "7cc489056ed90c798cccdbe5c0b1dc08210dfe89cffb974242b22759977e3e4c",
+  "renderer_sha256": "e0a45b84a2c0e775728617c716b4d068848b15acbc672174739e07034d365ba9",
+  "p3g2_record_sha256": "e49adbc3f44870c30cec081a38a29a2309d7f25a4746f342eaf2b68ca720526b",
   "publication_authorized_by": "Michael Nemeth",
-  "authorization": "Owner approval of 2026-09-15 of the P3M04 plan and instruction to create the methodology page, under the blanket stage authorization of 2026-09-14. Thesis 1.0.4 is a presentation-only republication (state/acceptance_P3G2.json amendment P3G2-A4, review not required by owner decision: no claim-bearing text changed): the site gains a methodology page and every page's navigation a 'Method' link; the thesis page changes only in version metadata and that link, and no paragraph, citation, References entry, verdict, hedge or gate changed.",
+  "authorization": "Owner instruction of 2026-09-15 to run an SEO optimization pass, with the recorded decision that no distinct-model review is needed because no article or thesis content changes. Thesis 1.0.5 is a presentation-only republication (state/acceptance_P3G2.json amendment P3G2-A5): head-level discovery metadata on every page and generated robots.txt/sitemap.xml in the artifact; no paragraph, citation, References entry, verdict, hedge or gate changed.",
   "release_pipeline": "scripts/thesis/release.cjs render/publish in CI (pinned container); assets thesis.html, thesis.pdf, thesis-release.json under the tag thesis-v<thesis_version>; PDF byte hash binds at first publish and is immutable thereafter."
 }

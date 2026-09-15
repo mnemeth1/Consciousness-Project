@@ -372,6 +372,8 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
     fs.writeFileSync(path.join(target, 'companion.html'), aux.companion);
     fs.writeFileSync(path.join(target, 'thesis.html'), aux.thesis);
     fs.writeFileSync(path.join(target, 'methodology.html'), aux.methodology);
+    fs.writeFileSync(path.join(target, 'robots.txt'), robotsTxt());
+    fs.writeFileSync(path.join(target, 'sitemap.xml'), sitemapXML(info.date));
   } else {
     fs.writeFileSync(path.join(target, 'index.html'), html);
   }
@@ -380,6 +382,15 @@ async function build({root = C.ROOT, source = 'paper/paper.html', out = '.paper-
   validatePair(target, {allowPreview: mode === 'preview'});
   return manifest;
 }
+// Discovery chrome for the deployed site: deterministic, derived from the
+// artifact page set and the release date, so the published pair stays reproducible.
+const SITE_URL = 'https://mnemeth1.github.io/Consciousness-Project/';
+const SITE_PAGES = ['', 'companion.html', 'paper.html', 'thesis.html', 'methodology.html'];
+const robotsTxt = () => `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}sitemap.xml\n`;
+const sitemapXML = date => '<?xml version="1.0" encoding="UTF-8"?>\n' +
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+  SITE_PAGES.map(p => `  <url><loc>${SITE_URL}${p}</loc><lastmod>${date}</lastmod></url>\n`).join('') +
+  '</urlset>\n';
 function validatePair(directory, {allowPreview = false} = {}) {
   const manifest = C.readJSON(path.join(directory, 'release.json'));
   const auxFields = ['landing_html_sha256', 'companion_html_sha256', 'crosswalk_sha256', 'thesis_html_sha256', 'methodology_html_sha256'];
@@ -388,7 +399,8 @@ function validatePair(directory, {allowPreview = false} = {}) {
   const extended = bound.length === auxFields.length;
   if (extended) for (const field of auxFields) assert(C.HASH.test(manifest[field]), `Manifest ${field} invalid`);
   assert.deepEqual(fs.readdirSync(directory).sort(),
-    extended ? ['companion.html', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json', 'thesis.html']
+    extended ? ['companion.html', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json',
+      'robots.txt', 'sitemap.xml', 'thesis.html']
       : ['index.html', 'paper.pdf', 'release.json'],
     'Publish exactly the versioned paper set and manifest; no source library');
   assert.equal(manifest.schema, 1);
@@ -399,6 +411,8 @@ function validatePair(directory, {allowPreview = false} = {}) {
     assert.equal(C.sha(C.regular(path.join(directory, 'companion.html'))), manifest.companion_html_sha256, 'Companion/manifest hash mismatch');
     assert.equal(C.sha(C.regular(path.join(directory, 'thesis.html'))), manifest.thesis_html_sha256, 'Thesis/manifest hash mismatch');
     assert.equal(C.sha(C.regular(path.join(directory, 'methodology.html'))), manifest.methodology_html_sha256, 'Methodology/manifest hash mismatch');
+    assert.equal(C.regular(path.join(directory, 'robots.txt')).toString('utf8'), robotsTxt(), 'robots.txt must match the generator');
+    assert.equal(C.regular(path.join(directory, 'sitemap.xml')).toString('utf8'), sitemapXML(manifest.date), 'sitemap.xml must match the generator');
   } else {
     assert.equal(C.sha(C.regular(path.join(directory, 'index.html'))), manifest.html_sha256, 'HTML/manifest hash mismatch');
   }

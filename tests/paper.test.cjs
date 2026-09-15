@@ -348,12 +348,13 @@ function auxRoot(name) {
   C.writeJSON(path.join(root, 'paper/draft-release.json'), draft);
   return {...article, draft};
 }
-test('landing, companion, thesis and methodology build one bound seven-file artifact and publish seven assets', async () => {
+test('landing, companion, thesis and methodology build one bound nine-file artifact and publish nine assets', async () => {
   const {root} = auxRoot('aux-pair');
   const manifest = await B.build({root, source: 'paper/paper.html', out: 'site', mode: 'preview', commit});
   const directory = path.join(root, 'site');
   assert.deepEqual(fs.readdirSync(directory).sort(),
-    ['companion.html', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json', 'thesis.html']);
+    ['companion.html', 'index.html', 'methodology.html', 'paper.html', 'paper.pdf', 'release.json',
+      'robots.txt', 'sitemap.xml', 'thesis.html']);
   assert.equal(C.sha(fs.readFileSync(path.join(directory, 'index.html'))), manifest.landing_html_sha256);
   assert.equal(C.sha(fs.readFileSync(path.join(directory, 'paper.html'))), manifest.html_sha256);
   assert.equal(C.sha(fs.readFileSync(path.join(directory, 'companion.html'))), manifest.companion_html_sha256);
@@ -363,9 +364,10 @@ test('landing, companion, thesis and methodology build one bound seven-file arti
   C.writeJSON(path.join(directory, 'release.json'), {...manifest, mode: 'draft-release'});
   const mock = mockGitHub();
   await publishPair({directory, api: mock.api, commit});
-  assert.equal(mock.releases[0].assets.length, 7);
+  assert.equal(mock.releases[0].assets.length, 9);
   assert.deepEqual(new Set(mock.releases[0].assets.map(x => x.name)),
-    new Set(['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html', 'paper.pdf', 'release.json']));
+    new Set(['index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html',
+      'robots.txt', 'sitemap.xml', 'paper.pdf', 'release.json']));
   fs.appendFileSync(path.join(directory, 'companion.html'), '\nchanged');
   const changed = C.readJSON(path.join(directory, 'release.json'));
   changed.companion_html_sha256 = C.sha(fs.readFileSync(path.join(directory, 'companion.html')));

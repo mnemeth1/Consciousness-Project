@@ -16,12 +16,12 @@
     "total_tasks": 27,
     "accepted_tasks": 27,
     "chapters_drafted": 12,
-    "note": "Phase 3 complete: all 27 tasks accepted. P3G2 (state/acceptance_P3G2.json) adjudicated joint satisfaction of the transferred P2R20 contract, executed P2G2 at thesis scope, closed P2S01-P2S03 at rebased scope, and released the thesis as thesis-v1.0.0 with the 0.4.5 article site. Thesis-v1.0.1 (with the 0.4.6 site) is a post-release correction of status language, citation rendering and bibliography completeness (work/P3M01); thesis-v1.0.2 (with the 0.4.7 site) corrects record-fidelity errors, Appendix C paragraph pointers (P3G1-A1) and References rendering (work/P3M02); thesis-v1.0.3 (with the 0.4.8 site) is presentation-only, adding thesis PDF download buttons to the site navigation with no text change (P3G2-A3); thesis-v1.0.4 (with the 0.4.9 site) is presentation-only, adding the methodology page paper/methodology.html (How this project works) as a fifth bound site page and a Method navigation link, with no thesis text change (P3G2-A4). Acceptance is methodological; all twelve withheld stronger-conclusion gates remain withheld."
+    "note": "Phase 3 complete: all 27 tasks accepted. P3G2 (state/acceptance_P3G2.json) adjudicated joint satisfaction of the transferred P2R20 contract, executed P2G2 at thesis scope, closed P2S01-P2S03 at rebased scope, and released the thesis as thesis-v1.0.0 with the 0.4.5 article site. Thesis-v1.0.1 (with the 0.4.6 site) is a post-release correction of status language, citation rendering and bibliography completeness (work/P3M01); thesis-v1.0.2 (with the 0.4.7 site) corrects record-fidelity errors, Appendix C paragraph pointers (P3G1-A1) and References rendering (work/P3M02); thesis-v1.0.3 (with the 0.4.8 site) is presentation-only, adding thesis PDF download buttons to the site navigation with no text change (P3G2-A3); thesis-v1.0.4 (with the 0.4.9 site) is presentation-only, adding the methodology page paper/methodology.html (How this project works) as a fifth bound site page and a Method navigation link, with no thesis text change (P3G2-A4); thesis-v1.0.5 (with the 0.4.10 site) is presentation-only, adding search and discovery metadata, robots.txt and sitemap.xml with no text change (P3G2-A5). Acceptance is methodological; all twelve withheld stronger-conclusion gates remain withheld."
   },
   "source_archive_included": false,
   "automatic_background_execution": false,
   "current_public_draft": {
-    "version": "0.4.9",
+    "version": "0.4.10",
     "stage": "draft",
     "scientific_acceptance": false,
     "pending_reviews": [],
@@ -29,8 +29,8 @@
     "presentation": "research-article"
   },
   "thesis_release": {
-    "version": "1.0.4",
-    "tag": "thesis-v1.0.4",
+    "version": "1.0.5",
+    "tag": "thesis-v1.0.5",
     "stage": "released",
     "gates": [
       "P3G1",

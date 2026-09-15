@@ -13,7 +13,8 @@ def validate(directory):
     bound = [f for f in aux_fields if manifest.get(f) is not None]
     assert bound in ([], aux_fields), 'Landing, companion, crosswalk, thesis and methodology hashes bind together'
     extended = bound == aux_fields
-    expected = {'index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html', 'paper.pdf', 'release.json'} if extended \
+    expected = {'index.html', 'paper.html', 'companion.html', 'thesis.html', 'methodology.html',
+                'robots.txt', 'sitemap.xml', 'paper.pdf', 'release.json'} if extended \
         else {'index.html', 'paper.pdf', 'release.json'}
     assert {p.name for p in root.iterdir()} == expected, 'Publish exactly the versioned paper set and manifest'
     for p in root.iterdir():
