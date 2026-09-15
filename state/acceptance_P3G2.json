@@ -22,7 +22,7 @@
     "version": "1.0.0",
     "tag": "thesis-v1.0.0"
   },
-  "post_release_maintenance": "The 53-minor P3RX sweep remains (state/adjudication_P3RX.json standing_follow_ups item 4). Closed by amendment P3G2-A1 (thesis 1.0.1): the S-T10-002 second-version identity, the T16-T18 submission-time status labels (state/T16_T18_status_note.json), bibliography provenance notes, the unrendered-citation defect, and the derived-layer regeneration for the annotated records; the derived generator's stub evidence packs for c11, c12 and apD remain a generator limitation.",
+  "post_release_maintenance": "The 53-minor P3RX sweep remains (state/adjudication_P3RX.json standing_follow_ups item 4). Closed by amendment P3G2-A1 (thesis 1.0.1): the S-T10-002 second-version identity, the T16-T18 submission-time status labels (state/T16_T18_status_note.json), bibliography provenance notes, the unrendered-citation defect, and the derived-layer regeneration for the annotated records; the derived generator's stub evidence packs for c11, c12 and apD remain a generator limitation. Amendment P3G2-A2 (thesis 1.0.2) closes the S-T10-006 inspection record, the S-T10-002 note error, the Appendix C paragraph-pointer defects (P3G1-A1) and the References rendering defects; the ledger string normalization and abbreviation glossary remain for P3M03.",
   "next": "None. Phase 2 (46/46) and Phase 3 (27/27) are complete.",
   "amendments": [
     {
@@ -44,6 +44,21 @@
       },
       "thesis_html_sha256": "d5d89023ee1dd4de1dc18c14da5aba401ee678f3f518d5d7a588df0b9744a796",
       "finalized": "2026-09-15"
+    },
+    {
+      "amendment_id": "P3G2-A2",
+      "date": "2026-09-15",
+      "thesis_version": "1.0.2",
+      "tag": "thesis-v1.0.2",
+      "kind": "post-release correction (patch): record fidelity, Appendix C paragraph pointers, ledger provenance, References rendering",
+      "authority": "Project owner instruction of 2026-09-15 to implement the P3M02 plan (work/P3M02/report.md) using best judgment, under the blanket stage authorization of 2026-09-14.",
+      "what_changed": "Twenty paragraphs (c02-p037, c02-p041, c03-p038, c04-p027, c05-p009, c05-p014, c06-p022, c06-p035, c06-p037, c06-p038, c06-p044, c08-p022, c08-p025, c11-p016, c11-p034, apA-p008 row, apB-p010, apC-p001, apC-p009, apC-p018), eight Appendix C rows and fourteen crosswalk additions, exact before/after in work/P3M02/changes.json; state/acceptance_P3G1.json amendment P3G1-A1 records the register repairs; records/sources.json S-T10-002 (bibliography note corrected) and S-T10-006 (P2T11 complete-scan inspection added), records/decisions.json P3-LEDGER-002; scripts/thesis/build.cjs links DOI and http locators, omits empty author segments, avoids doubled punctuation and lints prose-named record paths against the crosswalk; scripts/validate_public_snapshot.cjs binds paper/lay_crosswalk.json paper_version and paper/draft-release.json version to the public draft version; site pages 0.4.7 (metadata and the released-thesis label only); status documents and work/P3M01/report.md brought up to date. Additionally, per the owner instruction of 2026-09-15, the published site (start page, article, overview, thesis) is visually redesigned: presentation-only markup and stylesheet (top navigation, contents rail, margin paragraph-id labels, hover citation previews) generated for the thesis page by scripts/thesis/build.cjs; paragraph and References text unchanged except that the one http:// locator now links through https so every in-article link satisfies the artifact contract.",
+      "what_did_not_change": "No verdict, hedge, withheld gate, gap disposition, citation, paragraph id or record acceptance. No gap is closed and no gate is opened. The article remains an authorized working draft (site version 0.4.7, metadata only).",
+      "review": "Two bounded reviews by the distinct-model reviewer (xAI Grok 4.6): delta-1 over the changed paragraphs, ledger records, crosswalk additions and the rendered References; register-1 over all 47 Appendix C rows against their named paragraphs (recorded in state/acceptance_P3G1.json P3G1-A1): work/P3M02/delta_review/ (prompts, run_m02.sh, findings/). Follows the P3M01 precedent: bounded corrections, delta re-review, chapter statuses unchanged, release record re-bound.",
+      "review_status": "pending: delta-1 and register-1 not yet run",
+      "review_artifact_hashes": {},
+      "thesis_html_sha256": "0fb9b50e7e3e2a6d93aa75f8209a2cc54ad00c66ee6e0cb9356990ddff424741",
+      "finalized": null
     }
   ]
 }

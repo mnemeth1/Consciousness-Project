@@ -1,13 +1,14 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.1",
+  "thesis_version": "1.0.2",
   "part": "apC",
   "entries": [
     {
       "paragraph_id": "apC-p001",
       "refs": [
         "PREMISE:plan:disposition-rule (phase2/amendments/002-thesis-rebase.md 'What does not change'; phase3/Thesis_Execution_Plan.md P3G1 acceptance criteria and 'Gap packets'; work/G2/synthesis_constraints.json SC-G2-10)",
-        "PREMISE:register:no-P3T-packet-dispatched (state/tasks.json contains no P3T entries at this writing)"
+        "PREMISE:register:no-P3T-packet-dispatched (state/tasks.json contains no P3T entries at this writing)",
+        "PREMISE:register:P3G1-adoption-and-amendment (state/acceptance_P3G1.json adoption of 2026-09-14 and amendment P3G1-A1; work/P3G1/disposition_register.json as amended)"
       ]
     },
     {
@@ -100,7 +101,8 @@
         "A-P2T09-003",
         "S-P2T09-002",
         "S-P2T09-003",
-        "S-P2T09-005"
+        "S-P2T09-005",
+        "PREMISE:register:T17-standing-request (work/T17/report.md 'Standing request' names one item, the Parnia reply DOI 10.1016/j.resuscitation.2023.110080, S-P2T09-002; the second reply inspected under Phase 2 is S-P2T09-005)"
       ]
     },
     {
@@ -206,7 +208,8 @@
       "paragraph_id": "apC-p018",
       "refs": [
         "PREMISE:register:counts (work/P2A01/gap_dispositions.json (accepted P2A01 audit; status_counts 22 partly addressed, 9 deferred-with-claim-withheld, 1 persistent-audit-loss, 2 already-resolved, 1 resolved); this appendix rows above)",
-        "PREMISE:plan:P3G1-acceptance (phase3/Thesis_Execution_Plan.md P3G1 row; state/tasks.json P3G1 acceptance_criteria)"
+        "PREMISE:plan:P3G1-acceptance (phase3/Thesis_Execution_Plan.md P3G1 row; state/tasks.json P3G1 acceptance_criteria)",
+        "PREMISE:register:gate-findings (state/acceptance_P3G1.json mechanical check and amendment P3G1-A1 row repairs; state/acceptance_P3R20.json no withheld conclusion asserted)"
       ]
     }
   ]

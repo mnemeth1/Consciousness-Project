@@ -4,49 +4,342 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Consciousness Project">
-<meta name="paper-version" content="0.4.6">
+<meta name="paper-version" content="0.4.7">
 <meta name="paper-date" content="2026-09-15">
+
 <title>Consciousness and Existence Project — Read the research</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#f1f2f1;color:#20262b;font:18px/1.6 Georgia,"Times New Roman",serif}main{max-width:840px;margin:auto;padding:52px 56px 64px;background:white;min-height:100vh}h1,h2{font-family:Arial,sans-serif;line-height:1.2;color:#203a49}h1{font-size:2rem;margin:0 0 10px}h2{font-size:1.05rem;margin:0 0 8px}p{margin:0 0 15px}a{color:#075c75;text-underline-offset:.15em}.meta{font:14px/1.5 Arial,sans-serif;color:#48565f}.status{font:14px/1.6 Arial,sans-serif;color:#5a4a22;background:#faf5e6;border:1px solid #e3d5a8;border-radius:6px;padding:10px 14px;margin:18px 0 30px}.choice{display:block;border:1px solid #bfcdd3;border-radius:8px;padding:20px 22px;margin:0 0 18px;text-decoration:none;color:inherit}.choice:hover{border-color:#075c75;background:#f6fafb}.choice h2 a{text-decoration:underline}.readtime{font:13px/1.4 Arial,sans-serif;color:#48565f}.choice p{margin:6px 0 4px}footer{margin-top:36px;font:13px/1.6 Arial,sans-serif;color:#48565f;border-top:1px solid #d6dee2;padding-top:14px}@media(max-width:640px){main{padding:30px 22px 44px}h1{font-size:1.6rem}}
+
+:root {
+  --color-bg: #f3f2f2;
+  --color-surface: #eae9e9;
+  --color-text: #201f1d;
+  --color-accent: #b68235;
+  --color-accent-2: #ac803e;
+  --color-divider: color-mix(in srgb, #201f1d 16%, transparent);
+  
+  --color-neutral-100: #f8f4f4;
+  --color-neutral-200: #eae7e7;
+  --color-neutral-300: #d7d3d3;
+  --color-neutral-400: #bab6b6;
+  --color-neutral-500: #9b9797;
+  --color-neutral-600: #7d7979;
+  --color-neutral-700: #605d5d;
+  --color-neutral-800: #444141;
+  --color-neutral-900: #2d2b2b;
+  --color-accent-100: #fff3e4;
+  --color-accent-200: #ffe3bf;
+  --color-accent-300: #facb8d;
+  --color-accent-400: #e1ad66;
+  --color-accent-500: #c28d41;
+  --color-accent-600: #a06f24;
+  --color-accent-700: #7d5411;
+  --color-accent-800: #5a3b0a;
+  --color-accent-900: #3a270d;
+  --color-accent-2-100: #fff3e4;
+  --color-accent-2-200: #ffe3be;
+  --color-accent-2-300: #f5cd96;
+  --color-accent-2-400: #dbaf70;
+  --color-accent-2-500: #bc8f4e;
+  --color-accent-2-600: #9b7232;
+  --color-accent-2-700: #79561f;
+  --color-accent-2-800: #573d14;
+  --color-accent-2-900: #382810;
+  --font-heading: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-heading-weight: 600; 
+  --font-body: "Lora", Georgia, "Times New Roman", serif;
+  --space-1: 4.6px;
+  --space-2: 9.2px;
+  --space-3: 13.8px;
+  --space-4: 18.4px;
+  --space-6: 27.6px;
+  --space-8: 36.8px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 7px;
+  
+  --shadow-sm: 0 1px 2px color-mix(in srgb, #2d2b2b 14%, transparent);
+  --shadow-md: 0 3px 10px color-mix(in srgb, #2d2b2b 16%, transparent);
+  --shadow-lg: 0 12px 32px color-mix(in srgb, #2d2b2b 22%, transparent);
+}
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: var(--font-heading-weight); }
+.plate{filter:sepia(0.22) saturate(0.82) contrast(1.05);box-sizing:border-box;
+  border:6px solid var(--color-surface);outline:1px solid var(--color-divider)}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-size: 15px; line-height: 1.55; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 var(--space-2);
+}
+h1 { font-size: 42px; }
+h2 { font-size: 32px; }
+h3 { font-size: 25px; }
+h4 { font-size: 20px; }
+h5 { font-size: 16px; }
+h6 { font-size: 13px; }
+h6 { letter-spacing: 0.08em; text-transform: uppercase; }
+p { margin: 0 0 var(--space-3); }
+a { color: var(--color-accent); text-underline-offset: 3px; }
+img { display: block; max-width: 100%; }
+figure { margin: 0; }
+figcaption {
+  font-size: 11px; margin-top: var(--space-1);
+  color: color-mix(in srgb, var(--color-text) 55%, transparent);
+}
+.text-muted { color: color-mix(in srgb, var(--color-text) 55%, transparent); }
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+::selection { background: color-mix(in srgb, var(--color-accent) 30%, transparent); }
+.hr {
+  height: 1px; border: 0; margin: var(--space-4) 0;
+  background: var(--color-divider);
+}
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  cursor: pointer; text-decoration: none;
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 14px; line-height: 1.2; color: var(--color-text); 
+  background: transparent; border: 1px solid transparent;
+  padding: var(--space-2) calc(var(--space-3) * 1.2);
+  border-radius: var(--radius-md);
+}
+.btn svg { display: block; }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn-primary { color: var(--color-accent); border-color: var(--color-accent); }
+.btn-primary:hover { background: color-mix(in srgb, var(--color-accent) 12%, transparent); }
+.btn-primary:active { background: color-mix(in srgb, var(--color-accent) 22%, transparent); }
+.btn-secondary { border-color: var(--color-divider); }
+.btn-secondary:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.btn-secondary:active { background: color-mix(in srgb, var(--color-text) 14%, transparent); }
+.btn-ghost { color: var(--color-accent); padding-inline: var(--space-1); }
+.btn-ghost:hover { background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
+.btn-ghost:active { background: color-mix(in srgb, var(--color-accent) 18%, transparent); }
+.btn-icon { width: 36px; height: 36px; padding: 0; }
+.btn-block { width: 100%; margin-top: var(--space-2); }
+.field > label {
+  display: block; font-size: 12px; margin-bottom: 5px;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+}
+.input {
+  width: 100%; min-height: 36px; padding: 6px 10px; font: inherit;
+  font-size: 14px; color: var(--color-text); caret-color: var(--color-accent);
+  background: transparent;
+  border: 1px solid var(--color-divider); border-radius: var(--radius-md);
+}
+.input:hover { border-color: color-mix(in srgb, var(--color-text) 45%, transparent); }
+.input:focus-visible { border-color: var(--color-accent); outline-offset: 0; }
+textarea.input { min-height: 90px; resize: vertical; }
+.radio { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 14px; }
+.radio input, .seg-opt input {
+  position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none;
+}
+.radio .dot {
+  width: 16px; height: 16px; flex: none; border-radius: 50%;
+  border: 1.5px solid var(--color-divider);
+}
+.radio:hover .dot { border-color: var(--color-accent); }
+.radio input:checked + .dot {
+  border-color: var(--color-accent); background: var(--color-accent);
+  box-shadow: inset 0 0 0 4px var(--color-bg);
+}
+.radio input:focus-visible + .dot { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.seg {
+  display: inline-flex; overflow: hidden;
+  border: 1px solid var(--color-divider); border-radius: var(--radius-md);
+}
+.seg-opt {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 12px; font-size: 13px; cursor: pointer;
+}
+.seg-opt + .seg-opt { border-left: 1px solid var(--color-divider); }
+.seg-opt:has(input:checked) { color: var(--color-accent); box-shadow: inset 0 0 0 1px var(--color-accent); }
+.seg-opt:not(:has(input:checked)):hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.seg-opt:has(input:focus-visible) { outline: 2px solid var(--color-accent); outline-offset: -2px; }
+.card {
+  display: flex; flex-direction: column; gap: var(--space-2);
+  padding: var(--space-3); border-radius: var(--radius-md); background: transparent; border: 1px solid var(--color-divider);
+}
+.card-kicker { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent); }
+.card-title {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 17px; line-height: 1.2;
+}
+.card-body { margin: 0; font-size: 13px; opacity: 0.8; flex: 1; }
+.card-meta {
+  display: flex; align-items: center; gap: 6px; font-size: 11px;
+  color: color-mix(in srgb, var(--color-text) 50%, transparent);
+}
+.elev-sm { box-shadow: var(--shadow-sm); }
+.elev-md { box-shadow: var(--shadow-md); }
+.elev-lg { box-shadow: var(--shadow-lg); }
+.tag {
+  display: inline-flex; align-items: center; font-size: 11px;
+  letter-spacing: 0.02em; padding: 3px 10px;
+  border-radius: calc(var(--radius-md) * 0.75);
+}
+.tag-accent { background: var(--color-accent-100); color: var(--color-accent-800); }
+.tag-accent-2 { background: var(--color-accent-2-100); color: var(--color-accent-2-800); }
+.tag-neutral { background: var(--color-neutral-100); color: var(--color-neutral-800); }
+.tag-outline { border: 1px solid var(--color-accent); color: var(--color-accent); }
+.nav {
+  display: flex; align-items: center; gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--color-divider);
+}
+.nav-brand {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 18px; margin-right: auto;
+}
+.nav a { color: inherit; text-decoration: none; font-size: 14px; }
+.nav a:hover, .nav a[aria-current='page'] { color: var(--color-accent); }
+.table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.table th {
+  text-align: left; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-text) 60%, transparent);
+  padding: var(--space-2); border-bottom: 1px solid var(--color-divider);
+}
+.table td {
+  padding: var(--space-2);
+  border-bottom: 1px solid var(--color-divider);
+}
+.table tbody tr:hover { background: color-mix(in srgb, var(--color-text) 4%, transparent); }
+.dialog-backdrop {
+  position: fixed; inset: 0; display: grid; place-items: center;
+  padding: var(--space-4);
+  background: color-mix(in srgb, var(--color-neutral-900) 50%, transparent);
+}
+.dialog {
+  width: min(440px, 100%); display: flex; flex-direction: column; gap: var(--space-3);
+  padding: var(--space-4); border-radius: var(--radius-lg);
+  background: var(--color-surface); box-shadow: var(--shadow-lg); border: 1px solid var(--color-divider);
+}
+.dialog-title {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 20px;
+}
+.dialog-body { font-size: 14px; opacity: 0.85; }
+.dialog-actions { display: flex; justify-content: flex-end; gap: var(--space-2); margin-top: var(--space-2); }
+
+
+body{margin:0;text-wrap:pretty;font-size:17px;line-height:28px}
+a{color:var(--color-accent-700);text-underline-offset:3px}a:hover{color:var(--color-accent-600)}
+.way:hover h2{color:var(--color-accent-700)}
+@media (max-width:1000px){.cols{grid-template-columns:1fr !important}.cols .colrule{display:none}.stats{grid-template-columns:1fr 1fr !important}}
+@media (max-width:640px){.navlinks{display:none !important}}
+
+@page{size:A4;margin:20mm 19mm 22mm}
+@media print{body{background:white;color:black;font-size:10.7pt;line-height:1.43}nav{display:none}h1,h2,h3{break-after:avoid}p{orphans:3;widows:3}}
 </style>
 </head>
 <body>
-<main>
-<header>
-<h1>Consciousness and Existence Project</h1>
-<p class="meta">A research project examining whether consciousness belongs to the foundation of reality — and what that would, and would not, mean for existence, survival and significance.</p>
-<p id="version-notice" class="meta">Version <span id="paper-version">0.4.6</span> · <span id="paper-date">2026-09-15</span> · Research article, AI-assisted, project direction Michael Nemeth</p>
-</header>
-<p class="status">This is a versioned research site, and nothing on it is externally peer reviewed. The research article is an authorized working draft (version 0.4.6). The thesis that expands it is released as version 1.0.1: every part was drafted, independently reviewed and accepted within the project's recorded procedure, and its coverage gate, whole-thesis review and release adjudication are closed with recorded decisions, which also close the project's final internal review steps (P2R20 and P2G2). Acceptance is methodological and establishes no metaphysical result; all twelve stronger conclusions that the project withheld remain withheld.</p>
+<div style="min-height:100vh">
+<nav style="display:flex;align-items:center;gap:18.4px;padding:13.8px max(clamp(20px,5vw,72px),calc((100% - 1200px)/2 + clamp(20px,5vw,72px)));border-bottom:1px solid var(--color-divider)">
+  <a href="index.html" style="font-family:var(--font-heading);font-weight:600;font-size:18px;margin-right:auto;color:inherit;text-decoration:none">Consciousness Project</a>
+  <div class="navlinks" style="display:flex;gap:18.4px;font-size:14px">
+    <a href="companion.html" style="color:inherit;text-decoration:none;white-space:nowrap">Overview</a>
+    <a href="paper.html" style="color:inherit;text-decoration:none;white-space:nowrap">Article</a>
+    <a href="thesis.html" style="color:inherit;text-decoration:none;white-space:nowrap">Thesis</a>
+  </div>
+  <a href="paper.pdf" class="btn btn-primary" style="text-decoration:none">Download the PDF</a>
+</nav>
 
-<section class="choice" id="choose-companion">
-<h2><a href="companion.html">Plain-language overview</a></h2>
-<p>The questions, the findings and their limits, in everyday language. Start here if you are new to the subject.</p>
-<p class="readtime">About 10 minutes · no background assumed</p>
-</section>
+<div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px)">
 
-<section class="choice" id="choose-paper">
-<h2><a href="paper.html">Research article: Consciousness, Existence, and the Grounds of Significance</a></h2>
-<p>The full scholarly article, with the complete arguments, evidence assessments and citations.</p>
-<p class="readtime">About 50 minutes · philosophical text with references</p>
-</section>
+  <section style="padding:112px 0 84px">
+    <p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700);font-feature-settings:'tnum' 1;margin:0 0 28px">A research project · version <span id="paper-version">0.4.7</span> · <span id="paper-date">2026-09-15</span></p>
+    <h1 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(46px,6.6vw,92px);line-height:1.08;letter-spacing:-.01em;margin:0 0 0 -.042em">
+      <span style="display:block">Does consciousness belong</span>
+      <span style="display:block">to the foundation of reality?</span>
+    </h1>
+    <p style="font-size:17px;line-height:28px;max-width:58ch;margin:40px 0 0">And if it did, what would follow, and what would not, for existence, survival and significance. The project sets six families of positions against the same criteria and records, paragraph by paragraph, what the evidence supports, what it leaves open and what it withholds.</p>
+    <div style="display:flex;gap:13.8px;flex-wrap:wrap;margin-top:28px">
+      <a href="companion.html" class="btn btn-primary" style="text-decoration:none">Start with the overview</a>
+      <a href="paper.html" class="btn btn-ghost" style="text-decoration:none">Read the research article</a>
+    </div>
+    <p id="version-notice" style="font-size:13px;line-height:20px;margin:56px 0 0;color:color-mix(in srgb,var(--color-text) 70%,transparent);max-width:58ch">A versioned research site. Nothing on it is externally peer reviewed; the article is an authorized working draft and the thesis an internally released synthesis. <a href="#status">Read the full statement.</a></p>
+  </section>
 
-<section class="choice" id="choose-pdf">
-<h2><a href="paper.pdf">Download the article PDF</a></h2>
-<p>The exact print-formatted PDF generated from this version of the research article.</p>
-<p class="readtime">Identical content to the article page</p>
-</section>
+  <hr style="height:1px;border:0;margin:0;background:var(--color-divider)">
 
-<section class="choice" id="choose-thesis">
-<h2><a href="thesis.html">Thesis (released version 1.0.1)</a></h2>
-<p>A chapter-length expansion of the article from the project's evidence ledgers: twelve chapters and four appendices, with every paragraph traced through a crosswalk to a reviewed record or a labeled premise. Released under recorded gates and internally accepted; not an externally peer-reviewed publication, and not a substitute for the article.</p>
-<p class="readtime">Long scholarly text · twelve chapters and four appendices · PDF on the release page</p>
-</section>
+  <section class="stats" aria-label="The release, by the numbers" style="display:grid;grid-template-columns:repeat(4,auto);justify-content:space-between;gap:42px 28px;padding:70px 0">
+    <div><p style="font-family:var(--font-heading);font-weight:400;font-size:clamp(36px,3.6vw,52px);line-height:56px;font-variant-numeric:lining-nums tabular-nums;color:var(--color-accent);margin:0 0 0 -.042em">0.4.7</p><p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 70%,transparent);margin:14px 0 0">Research article, working draft</p></div>
+    <div><p style="font-family:var(--font-heading);font-weight:400;font-size:clamp(36px,3.6vw,52px);line-height:56px;font-variant-numeric:lining-nums tabular-nums;margin:0 0 0 -.129em">1.0.2</p><p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 70%,transparent);margin:14px 0 0">Thesis, released</p></div>
+    <div><p style="font-family:var(--font-heading);font-weight:400;font-size:clamp(36px,3.6vw,52px);line-height:56px;font-variant-numeric:lining-nums tabular-nums;margin:0 0 0 -.129em">12 + 4</p><p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 70%,transparent);margin:14px 0 0">Chapters and appendices</p></div>
+    <div><p style="font-family:var(--font-heading);font-weight:400;font-size:clamp(36px,3.6vw,52px);line-height:56px;font-variant-numeric:lining-nums tabular-nums;margin:0 0 0 -.129em">12</p><p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 70%,transparent);margin:14px 0 0">Stronger conclusions withheld</p></div>
+  </section>
 
-<footer>
-<p>The article, overview and thesis ship together as one versioned release; the overview summarizes the article and links into it. Sources, review records and release provenance: <a href="https://github.com/mnemeth1/Consciousness-Project">project repository</a> · <a href="https://github.com/mnemeth1/Consciousness-Project/releases">versioned releases (article and thesis PDFs)</a> · <a href="release.json">release manifest</a>.</p>
-</footer>
-</main>
+  <hr style="height:1px;border:0;margin:0;background:var(--color-divider)">
+
+  <section id="read" style="padding:84px 0 70px">
+    <p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 14px">Three ways in</p>
+    <div class="cols" style="position:relative;display:grid;grid-template-columns:1fr 1fr 1fr;gap:42px 56px;margin-top:14px">
+      <span class="colrule" style="position:absolute;top:0;bottom:0;left:calc((100% - 112px)/3 + 28px - .5px);width:1px;background:var(--color-divider)"></span>
+      <span class="colrule" style="position:absolute;top:0;bottom:0;left:calc(2*(100% - 112px)/3 + 84px - .5px);width:1px;background:var(--color-divider)"></span>
+      <a class="way" href="companion.html" style="display:flex;flex-direction:column;color:inherit;text-decoration:none">
+        <p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--color-text) 70%,transparent);margin:0 0 14px">About 10 minutes · no background assumed</p>
+        <h2 style="font-family:var(--font-heading);font-weight:400;font-size:26px;line-height:28px;letter-spacing:-.005em;margin:0">Plain-language overview</h2>
+        <p style="font-size:15.5px;line-height:28px;margin:14px 0 0;color:color-mix(in srgb,var(--color-text) 78%,transparent);text-align:justify;hyphens:auto;flex:1">The questions people actually ask, the findings and their limits, in everyday language. Start here if you are new to the subject.</p>
+        <span style="margin-top:14px;font-size:14px;color:var(--color-accent-700);text-decoration:underline;text-underline-offset:3px">Read the overview</span>
+      </a>
+      <a class="way" href="paper.html" style="display:flex;flex-direction:column;color:inherit;text-decoration:none">
+        <p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--color-text) 70%,transparent);margin:0 0 14px">About 50 minutes · with references</p>
+        <h2 style="font-family:var(--font-heading);font-weight:400;font-size:26px;line-height:28px;letter-spacing:-.005em;margin:0">Research article</h2>
+        <p style="font-size:15.5px;line-height:28px;margin:14px 0 0;color:color-mix(in srgb,var(--color-text) 78%,transparent);text-align:justify;hyphens:auto;flex:1"><em>Consciousness, Existence, and the Grounds of Significance.</em> The full scholarly article: the complete arguments, evidence assessments and citations. A print-formatted PDF carries identical content.</p>
+        <span style="margin-top:14px;font-size:14px;color:var(--color-accent-700);text-decoration:underline;text-underline-offset:3px">Read the article</span>
+      </a>
+      <a class="way" href="thesis.html" style="display:flex;flex-direction:column;color:inherit;text-decoration:none">
+        <p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--color-text) 70%,transparent);margin:0 0 14px">Long text · twelve chapters, four appendices</p>
+        <h2 style="font-family:var(--font-heading);font-weight:400;font-size:26px;line-height:28px;letter-spacing:-.005em;margin:0">Thesis (released version 1.0.2)</h2>
+        <p style="font-size:15.5px;line-height:28px;margin:14px 0 0;color:color-mix(in srgb,var(--color-text) 78%,transparent);text-align:justify;hyphens:auto;flex:1">A chapter-length expansion of the article from the project's evidence ledgers, every paragraph traced through a crosswalk to a reviewed record or a labeled premise. Not a substitute for the article.</p>
+        <span style="margin-top:14px;font-size:14px;color:var(--color-accent-700);text-decoration:underline;text-underline-offset:3px">Read the thesis</span>
+      </a>
+    </div>
+  </section>
+
+  <hr style="height:1px;border:0;margin:0;background:var(--color-divider)">
+
+  <section id="ladder" style="display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:28px clamp(24px,5vw,96px);padding:84px 0 98px">
+    <div>
+      <p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 14px">Where the evidence stands</p>
+      <h2 style="font-family:var(--font-heading);font-weight:400;font-size:34px;line-height:42px;letter-spacing:-.008em;margin:0">The ladder of claims</h2>
+      <p style="font-size:15.5px;line-height:28px;color:color-mix(in srgb,var(--color-text) 78%,transparent);margin:14px 0 0;max-width:44ch;text-align:justify;hyphens:auto">Each rung up is a bigger claim, and each needs support the rung below cannot supply on its own. The verdict is asymmetric: strong grounds that embodied brains matter to experience, a genuinely open question about why experience exists, and a grand unifying picture that remains possible, attractive and unproven.</p>
+      <a href="companion.html#lay-ladder" style="display:inline-block;margin-top:28px;font-size:14px">How the overview explains it</a>
+    </div>
+    <ol style="list-style:none;margin:0;padding:0;border-top:1px solid var(--color-divider)">
+      <li style="display:grid;grid-template-columns:44px 150px 1fr;gap:18.4px;align-items:baseline;padding:18.4px 0;border-bottom:1px solid var(--color-divider)"><span style="font-family:var(--font-heading);font-size:26px;line-height:28px;font-variant-numeric:lining-nums tabular-nums;color:color-mix(in srgb,var(--color-text) 55%,transparent)">6</span><span style="justify-self:start;align-self:baseline" class="tag tag-neutral">Possible, unproven</span><span style="font-size:15.5px;line-height:24px">A good purpose governs it all and grounds obligation.</span></li>
+      <li style="display:grid;grid-template-columns:44px 150px 1fr;gap:18.4px;align-items:baseline;padding:18.4px 0;border-bottom:1px solid var(--color-divider)"><span style="font-family:var(--font-heading);font-size:26px;line-height:28px;font-variant-numeric:lining-nums tabular-nums;color:color-mix(in srgb,var(--color-text) 55%,transparent)">5</span><span style="justify-self:start;align-self:baseline" class="tag tag-neutral">Possible, unproven</span><span style="font-size:15.5px;line-height:24px">Persons survive death as themselves.</span></li>
+      <li style="display:grid;grid-template-columns:44px 150px 1fr;gap:18.4px;align-items:baseline;padding:18.4px 0;border-bottom:1px solid var(--color-divider)"><span style="font-family:var(--font-heading);font-size:26px;line-height:28px;font-variant-numeric:lining-nums tabular-nums;color:color-mix(in srgb,var(--color-text) 55%,transparent)">4</span><span style="justify-self:start;align-self:baseline" class="tag tag-neutral">Possible, unproven</span><span style="font-size:15.5px;line-height:24px">The foundation is a single mind that acts intentionally.</span></li>
+      <li style="display:grid;grid-template-columns:44px 150px 1fr;gap:18.4px;align-items:baseline;padding:18.4px 0;border-bottom:1px solid var(--color-divider)"><span style="font-family:var(--font-heading);font-size:26px;line-height:28px;font-variant-numeric:lining-nums tabular-nums;color:color-mix(in srgb,var(--color-text) 55%,transparent)">3</span><span style="justify-self:start;align-self:baseline" class="tag tag-outline">Serious, contested</span><span style="font-size:15.5px;line-height:24px">Experience belongs in reality's basic inventory.</span></li>
+      <li style="display:grid;grid-template-columns:44px 150px 1fr;gap:18.4px;align-items:baseline;padding:18.4px 0;border-bottom:1px solid var(--color-divider)"><span style="font-family:var(--font-heading);font-size:26px;line-height:28px;font-variant-numeric:lining-nums tabular-nums;color:color-mix(in srgb,var(--color-text) 55%,transparent)">2</span><span style="justify-self:start;align-self:baseline" class="tag tag-outline">Open puzzle</span><span style="font-size:15.5px;line-height:24px">Why physical processes are experienced at all.</span></li>
+      <li style="display:grid;grid-template-columns:44px 150px 1fr;gap:18.4px;align-items:baseline;padding:18.4px 0;border-bottom:1px solid var(--color-divider)"><span style="font-family:var(--font-heading);font-size:26px;line-height:28px;font-variant-numeric:lining-nums tabular-nums;color:var(--color-accent)">1</span><span style="justify-self:start;align-self:baseline" class="tag tag-accent">Well-supported</span><span style="font-size:15.5px;line-height:24px">Brain activity causally shapes what is experienced. Controlled intervention evidence supports this, within the scope of the single case studied.</span></li>
+    </ol>
+  </section>
+
+  <hr style="height:1px;border:0;margin:0;background:var(--color-divider)">
+
+  <section id="status" style="display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:28px clamp(24px,5vw,96px);padding:70px 0 56px">
+    <div>
+      <p style="font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 14px">Status of this release</p>
+      <h2 style="font-family:var(--font-heading);font-weight:400;font-size:26px;line-height:28px;margin:0">What has, and has not, been reviewed</h2>
+    </div>
+    <div style="font-size:15.5px;line-height:28px;color:color-mix(in srgb,var(--color-text) 78%,transparent);text-align:justify;hyphens:auto">
+      <p style="margin:0 0 14px">This is a versioned research site, and nothing on it is externally peer reviewed. The research article is an authorized working draft (version 0.4.7). The thesis that expands it is released as version 1.0.2: every part was drafted, independently reviewed and accepted within the project's recorded procedure, and its coverage gate, whole-thesis review and release adjudication are closed with recorded decisions, which also close the project's final internal review steps (P2R20 and P2G2).</p>
+      <p style="margin:0">Acceptance is methodological and establishes no metaphysical result; all twelve stronger conclusions that the project withheld remain withheld. Research article, AI-assisted; project direction Michael Nemeth.</p>
+    </div>
+  </section>
+
+  <footer style="padding:28px 0 56px;border-top:1px solid var(--color-divider);font-size:13px;line-height:28px;color:color-mix(in srgb,var(--color-text) 70%,transparent);display:flex;flex-wrap:wrap;gap:0 18.4px">
+    <span>The article, overview and thesis ship together as one versioned release.</span>
+    <a href="https://github.com/mnemeth1/Consciousness-Project">Project repository</a>
+    <a href="https://github.com/mnemeth1/Consciousness-Project/releases">Versioned releases</a>
+    <a href="release.json">Release manifest</a>
+  </footer>
+</div>
+</div>
 </body>
 </html>

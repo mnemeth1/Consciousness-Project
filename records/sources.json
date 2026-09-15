@@ -957,7 +957,7 @@
       "Front matter editorial conventions",
       "V-P2T04-004 (1998 Francks and Woolhouse translation): §§1–19 pp268–270; §§47–62 pp274–277; §§78–90 pp279–281 (CL-P2T04-011 to CL-P2T04-013)"
     ],
-    "provenance_notes": "Jonathan Bennett English modernization, first launched 2004, copyright 2017; original French not compared. Marked editorial additions and omissions are not silently attributed to Leibniz. Grounded classic text endpoint. Second inspected version added 2026-09-15 (P3M01 ledger housekeeping, records/decisions.json P3-LEDGER-001): the P2T04 packet reused this source identity for the 1998 Francks and Woolhouse translation (work/P2T04/source_identity_annex_03.json, version V-P2T04-004 in work/P2T04/source_versions.json), under which CL-P2T04-011 to CL-P2T04-013 were inspected; the Bennett modernization was not reinspected for those claims, as thesis chapter 3 (c03-p031) discloses. No claim, locator or acceptance changed.",
+    "provenance_notes": "Jonathan Bennett English modernization, first launched 2004, copyright 2017; original French not compared. Marked editorial additions and omissions are not silently attributed to Leibniz. Grounded classic text endpoint. Second inspected version added 2026-09-15 (P3M01 ledger housekeeping, records/decisions.json P3-LEDGER-001): the P2T04 packet reused this source identity for the 1998 Francks and Woolhouse translation (work/P2T04/source_identity_annex_03.json, version V-P2T04-004 in work/P2T04/source_versions.json), under which CL-P2T04-011 to CL-P2T04-013 were inspected; the Bennett modernization was not reinspected for those claims, as thesis chapter 3 (c03-p031) discloses. No claim, locator or acceptance changed. Bibliography note corrected 2026-09-15 (P3-LEDGER-002): the 1.0.1 note named a publisher the record does not carry; the volume is identified by its ISBN 9780198751533 as checked at P2T04.",
     "related_case_ids": [],
     "decisive": true,
     "versions": [
@@ -973,7 +973,7 @@
         "publisher_byte_equivalence": false
       }
     ],
-    "bibliography_note": "Two inspected versions under one identity: the Bennett English modernization at the linked address (sufficient reason, God and the best world, §§31–55) and the 1998 Francks and Woolhouse translation (Everyman, Philosophical Texts; Monadology at printed pp. 267–281) for the monad claims, which sit at pp. 268–270, 274–277 and 279; the original French was not compared."
+    "bibliography_note": "Two inspected versions under one identity: the Bennett English modernization at the linked address (sufficient reason, God and the best world, §§31–55) and the 1998 Francks and Woolhouse translation (Philosophical Texts, translation copyright 1998, ISBN 9780198751533; Monadology at printed pp. 267–281) for the monad claims, which sit at pp. 268–270, 274–277 and 279; the original French was not compared."
   },
   {
     "source_id": "S-T10-003",
@@ -1048,17 +1048,33 @@
     ],
     "publication_date": "2008-12-13",
     "url_or_identifier": "https://link.springer.com/article/10.1007/s11098-008-9315-0",
-    "source_type": "original article publisher preview",
-    "access_status": "inspected_abstract_notes_references_only",
+    "source_type": "original article (publisher preview at T10; complete published scan at P2T11)",
+    "access_status": "inspected_complete_full_text",
     "retrieved_at": "2026-09-12",
     "relevant_locators": [
       "Abstract",
       "Notes 11–19",
-      "References"
+      "References",
+      "I-P2T11-005 (complete published scan, printed pp. 63–90): pp. 65–66 §2; p. 78 n. 11; pp. 80–87 §§5–9; p. 90 (CL-P2T11-016 to CL-P2T11-019); printed page equals PDF page plus 62"
     ],
-    "provenance_notes": "Issue 2009 volume 143 pp.63–90. Main body paywalled; abstract/notes establish access record and leads only. DOI10.1007/s11098-008-9315-0. No Sober substantive conclusion promoted from this partial view.",
+    "provenance_notes": "Issue 2009 volume 143 pp.63–90. DOI10.1007/s11098-008-9315-0. The T10 task inspected only the abstract, notes and references of the publisher preview (main body paywalled); no Sober substantive conclusion was promoted from that partial view. The P2T11 task then read the complete published scan, printed pp. 63–90, from a public teaching host (https://pgrim.org/pa2010reading/soberabsence.pdf; work/P2T11/report.md; inspection unit I-P2T11-005), and CL-P2T11-016 to CL-P2T11-019 were inspected at published pagination. Record updated 2026-09-15 (P3-LEDGER-002) to carry that second inspection, which the packet had already recorded; no claim, locator or acceptance changed.",
     "related_case_ids": [],
-    "decisive": false
+    "decisive": false,
+    "versions": [
+      {
+        "unit_id": "I-P2T11-005",
+        "source_id": "S-T10-006",
+        "status": "inspected",
+        "kind": "complete original version",
+        "path": "work/P2T11/sources/sober2009.pdf",
+        "sha256": "59c31114377cd4344dcfdd3deb9ced77ac8f1675f4112fb57504826b1cfd6ae8",
+        "requested_url": "https://pgrim.org/pa2010reading/soberabsence.pdf",
+        "extent": "All 28 pages extracted text read; decisive PDF pages 1, 18, 21, 22, 24, 25 (printed 63, 80, 83, 84, 86, 87) independently viewed. Published layout 143:63–90; printed page equals PDF page plus 62.",
+        "inspection_date": "2026-09-13",
+        "recorded_in": "work/P2T11/source_versions_01.json; work/P2T11/inspection_history.json"
+      }
+    ],
+    "bibliography_note": "Two inspected extents under one identity: the publisher preview at the linked address (abstract, notes and references only, at T10) and the complete published scan, pp. 63–90, read at P2T11 from a public teaching host (https://pgrim.org/pa2010reading/soberabsence.pdf); the Sober claims in chapter 5 cite the scan at published pagination."
   },
   {
     "source_id": "S-T10-007",

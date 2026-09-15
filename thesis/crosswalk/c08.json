@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.1",
+  "thesis_version": "1.0.2",
   "part": "c08",
   "entries": [
     {
@@ -193,7 +193,8 @@
       "paragraph_id": "c08-p022",
       "refs": [
         "CL-T14-017",
-        "A-T14-005"
+        "A-T14-005",
+        "PREMISE:structure:suffering-in-chapter-10 (thesis/chapters/10-goodness.md; c09-p001 and c09-p022 send suffering and hiddenness to chapter 10)"
       ]
     },
     {
@@ -222,7 +223,8 @@
         "A-P2T13-001",
         "CL-P2T13-023",
         "CL-P2T13-025",
-        "A-P2T13-003"
+        "A-P2T13-003",
+        "PREMISE:structure:existence-questions-chapters (the existence questions c08-p025 lists are carried by chapter 5 for intention, c05-p017 to c05-p026; chapter 7 for the bearer and continuation, c07-p023 and c07-p038; chapter 10 for a worthy purpose and restoration, c10-p024 and c10-p029; chapter scopes per phase3/Thesis_Execution_Plan.md rows P3C05, P3C07, P3C10)"
       ]
     },
     {

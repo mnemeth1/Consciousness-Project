@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.1",
+  "thesis_version": "1.0.2",
   "part": "c11",
   "entries": [
     {
@@ -198,7 +198,8 @@
         "CL-T14-017",
         "A-T13-004",
         "A-P2T12-003",
-        "A-P2T12-004"
+        "A-P2T12-004",
+        "PREMISE:method:time-and-identity-models (work/T01/report.md section 4 'Operational time and identity models' M1 to M6; work/G2/synthesis_constraints.json SENS-G2-04 varies M1 to M4; work/T17/report.md 'Identity and preservation')"
       ]
     },
     {
@@ -453,7 +454,8 @@
         "S-P2T09-002",
         "S-P2T09-005",
         "C-T07-002",
-        "A-P2T09-003"
+        "A-P2T09-003",
+        "PREMISE:register:T17-standing-request (work/T17/report.md 'Standing request' names one item, the Parnia reply DOI 10.1016/j.resuscitation.2023.110080, S-P2T09-002; the second reply inspected under Phase 2 is S-P2T09-005)"
       ]
     },
     {

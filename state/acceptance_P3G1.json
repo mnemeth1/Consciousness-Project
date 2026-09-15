@@ -13,5 +13,180 @@
     "work/P3G1/disposition_register.json": "94120afccadd5a54b8232b86a1f33f7a6672e0a5b396ebae4a81a7cdb0936ec4",
     "work/P3G1/review_inventory.json": "a8601b9454d956b82becf46cdc75093d11f8ed75cd3cacd0f5633fb8c8832f9d"
   },
-  "next": "P3R20 whole-thesis adversarial review on the frozen inputs; then P3G2, which closes P2R20 and P2G2."
+  "next": "P3R20 whole-thesis adversarial review on the frozen inputs; then P3G2, which closes P2R20 and P2G2.",
+  "amendments": [
+    {
+      "amendment_id": "P3G1-A1",
+      "date": "2026-09-15",
+      "thesis_version": "1.0.2",
+      "kind": "register erratum (post-release maintenance P3M02): paragraph-list repairs after a semantic re-check of all 47 Appendix C rows",
+      "authority": "Project owner instruction of 2026-09-15 to implement the P3M02 plan using best judgment, under the blanket stage authorization of 2026-09-14.",
+      "basis": "The P3G1 adoption verified mechanically that every named paragraph exists and spot-checked the three resolved rows. A later published-page review found one row (G2-GAP-16) naming a paragraph that did not state the limitation, so every row was re-checked semantically against the full text of every paragraph it names (Claude Fable 5 session with an independent verification subagent, 2026-09-15). Before repair: 34 rows were stated at every paragraph they name; 13 rows named at least one paragraph that did not state the limitation (of these, G2-GAP-14 and G2-GAP-16 had it stated at none of their chapter 6 paragraphs, G2-GAP-16 being stated at c11-p034 only); no row overstated a disposition. Of the 13: eight rows are re-pointed or narrowed below (two of them, G2-GAP-14 and G2-GAP-20, also gain chapter statements), one (G2-GAP-16) keeps its list because c06-p037 now states the limitation, and four (G2-GAP-23, G2-GAP-29, GATE-T16-01, GATE-T16-12) are kept as defensible for the reason given under rows_reviewed_and_kept. Seven of the 34 stated rows carry sub-element imprecisions within their wording, left for the later sweep.",
+      "what_changed": "Four chapter paragraphs now state a limitation that a row attributed to them or to their chapter but that no paragraph carried (c06-p037 for G2-GAP-16; c06-p044 for G2-GAP-14; c05-p009 and c05-p014 for G2-GAP-20), each in the wording of the canonical register and with a crosswalk premise citing it. Eight rows had their paragraph lists narrowed or re-pointed to the paragraphs that actually state the limitation (G1-GAP-05, G2-GAP-10, G2-GAP-11, G2-GAP-14, G2-GAP-19, G2-GAP-20, G2-GAP-24, G2-GAP-25; exact before/after wording in work/P3M02/changes.json register_changes). apC-p001 and apC-p018 record the amendment. work/P3G1/disposition_register.json is amended to match Appendix C row for row.",
+      "what_did_not_change": "No disposition category changed: 3 gaps resolved at inspected scope, 31 standing limitations, 1 permanent standing limitation, 12 gates withheld. No gap is closed and no gate is opened. No row title, priority or Phase 2 status changed. The acceptance-time reviewed_artifact_hashes above are retained as recorded; the amended register hash is bound here.",
+      "rows_reviewed_and_kept": "G2-GAP-23 and G2-GAP-29 (rows whose disposition is deferred with the stronger claim withheld) keep c07-p008 and c10-p024, which state the withholding rather than an uninspected item; GATE-T16-01 and GATE-T16-12 keep c11-p032, whose list of the twelve undrawn conclusions includes each gate's conclusion. Sub-element imprecisions noted in G1-GAP-04, G2-GAP-18, G2-GAP-27, G2-GAP-28, G2-GAP-30, G2-GAP-32 and G2-GAP-35 were judged within the rows' wording and left for the later sweep.",
+      "register_changes": [
+        {
+          "row_id": "G1-GAP-05",
+          "before_stated_at": [
+            "c03-p037",
+            "c03-p040",
+            "c04-p028",
+            "c02-p017",
+            "c02-p039"
+          ],
+          "after_stated_at": [
+            "c03-p037",
+            "c03-p040",
+            "c04-p019",
+            "c02-p017",
+            "c02-p039"
+          ],
+          "before_wording": "G1-GAP-05, wider original coverage beyond the pilot exchange. Priority P1; Phase 2 partly addressed (selected originals now constrain the reconstructions; Strawson 2006, full historical translations and a Kastrup reply unresolved; the lost pilot query is a persistent loss). Thesis disposition: standing limitation. The original-coverage half is stated in chapter 3 at c03-p037 and c03-p040 and in chapter 4 at c04-p028; the lost pilot query, which is the permanent half, is stated in chapter 2 at c02-p017 and c02-p039. Closure would require targeted underrepresented originals; new searches do not reconstruct lost pilot ranks.",
+          "after_wording": "G1-GAP-05, wider original coverage beyond the pilot exchange. Priority P1; Phase 2 partly addressed (selected originals now constrain the reconstructions; Strawson 2006, full historical translations and a Kastrup reply unresolved; the lost pilot query is a persistent loss). Thesis disposition: standing limitation. The original-coverage half is stated in chapter 3 at c03-p037 and c03-p040 and in chapter 4 at c04-p019; the lost pilot query, which is the permanent half, is stated in chapter 2 at c02-p017 and c02-p039. Closure would require targeted underrepresented originals; new searches do not reconstruct lost pilot ranks.",
+          "reason": "c04-p028 names only the article's uninspected universal-consciousness reversal, not the original-coverage items this row concerns; c04-p019 states the Strawson item ('The exact 2006 journal text was never inspected'), so chapter 4 keeps a true location."
+        },
+        {
+          "row_id": "G2-GAP-10",
+          "before_stated_at": [
+            "c06-p017",
+            "c06-p019",
+            "c06-p044",
+            "c11-p034"
+          ],
+          "after_stated_at": [
+            "c06-p019",
+            "c06-p044",
+            "c11-p034"
+          ],
+          "before_wording": "G2-GAP-10, the 2012 first account, the full memoir appendix, the clinical comparator papers and later citation chains. Priority P2; Phase 2 partly addressed (selected complete memoir passages and the full physician appendix read; the 2012 original missing; clinical comparators uninspected, with source-reported chart review not primary chart access). Thesis disposition: standing limitation, stated at c06-p017, c06-p019 and c06-p044, and in chapter 11 at c11-p034 for the uninspected comparators.",
+          "after_wording": "G2-GAP-10, the 2012 first account, the full memoir appendix, the clinical comparator papers and later citation chains. Priority P2; Phase 2 partly addressed (selected complete memoir passages and the full physician appendix read; the 2012 original missing; clinical comparators uninspected, with source-reported chart review not primary chart access). Thesis disposition: standing limitation, stated at c06-p019 and c06-p044, and in chapter 11 at c11-p034 for the uninspected comparators.",
+          "reason": "c06-p017 lists the inspected layers of the Alexander dossier and states none of this row's uninspected items; c06-p044 states the 2012 text, c06-p019 the chart access, c11-p034 the comparators."
+        },
+        {
+          "row_id": "G2-GAP-11",
+          "before_stated_at": [
+            "c06-p032",
+            "c06-p033",
+            "c06-p044"
+          ],
+          "after_stated_at": [
+            "c06-p032",
+            "c06-p033",
+            "c11-p034"
+          ],
+          "before_wording": "G2-GAP-11, AWARE II direct author reply and a dedicated forward pass on the Martial critique. Priority P1; Phase 2 partly addressed (both replies and their exact critic targets independently read; cited background evidence not recursively inspected). Thesis disposition: standing limitation, stated at c06-p032 to c06-p033 and c06-p044.",
+          "after_wording": "G2-GAP-11, AWARE II direct author reply and a dedicated forward pass on the Martial critique. Priority P1; Phase 2 partly addressed (both replies and their exact critic targets independently read; cited background evidence not recursively inspected). Thesis disposition: standing limitation, stated at c06-p032 to c06-p033 and c11-p034.",
+          "reason": "c06-p044's AWARE II item is the supplement (G2-GAP-12), not the author replies; c11-p034 states that the replies were inspected under Phase 2 and what they did not supply."
+        },
+        {
+          "row_id": "G2-GAP-14",
+          "before_stated_at": [
+            "c06-p039",
+            "c06-p044"
+          ],
+          "after_stated_at": [
+            "c06-p044"
+          ],
+          "before_wording": "G2-GAP-14, other early prospective originals, feasibility and oximetry studies and comparator citations. Priority P2; Phase 2 partly addressed (Parnia 2001 read in full: 63 interviews, 7 with recall, 4 at threshold, no established target-opportunity denominator; other early and null originals outside the selected subset). Thesis disposition: standing limitation, stated at c06-p039 and c06-p044.",
+          "after_wording": "G2-GAP-14, other early prospective originals, feasibility and oximetry studies and comparator citations. Priority P2; Phase 2 partly addressed (Parnia 2001 read in full: 63 interviews, 7 with recall, 4 at threshold, no established target-opportunity denominator; other early and null originals outside the selected subset). Thesis disposition: standing limitation, stated at c06-p044.",
+          "reason": "Neither paragraph stated the limitation; c06-p044 now lists the other early prospective, feasibility and oximetry originals and their comparator citations among the uninspected originals. c06-p039 reports Parnia 2001 and states no coverage limitation."
+        },
+        {
+          "row_id": "G2-GAP-19",
+          "before_stated_at": [
+            "c06-p008",
+            "c06-p009",
+            "c06-p044"
+          ],
+          "after_stated_at": [
+            "c06-p008",
+            "c06-p044"
+          ],
+          "before_wording": "G2-GAP-19, later consortium and integrated-information replies and broader neural contexts. Priority P2; Phase 2 partly addressed (the contemporaneous challenge and reply independently checked; broader later literature not comprehensively inspected). Thesis disposition: standing limitation, stated at c06-p008, c06-p009 and c06-p044.",
+          "after_wording": "G2-GAP-19, later consortium and integrated-information replies and broader neural contexts. Priority P2; Phase 2 partly addressed (the contemporaneous challenge and reply independently checked; broader later literature not comprehensively inspected). Thesis disposition: standing limitation, stated at c06-p008 and c06-p044.",
+          "reason": "c06-p009 scopes the intervention conclusion to the tested contexts and states no coverage limitation; c06-p008 and c06-p044 state the bounded forward search."
+        },
+        {
+          "row_id": "G2-GAP-20",
+          "before_stated_at": [
+            "c05-p017",
+            "c05-p019",
+            "c05-p023",
+            "c05-p028"
+          ],
+          "after_stated_at": [
+            "c05-p009",
+            "c05-p014",
+            "c05-p017",
+            "c05-p019",
+            "c05-p023"
+          ],
+          "before_wording": "G2-GAP-20, the full Collins edition, the Sober body, later replies, modern sufficient-reason treatments and direct Lennox critics. Priority P1; Phase 2 partly addressed (the selected chain read; exact 1999 Collins edition equivalence unverified; Bradley, the 2010 Weisberg article and direct Lennox critics uninspected). Thesis disposition: standing limitation, stated at c05-p017, c05-p019 to c05-p023 and c05-p028.",
+          "after_wording": "G2-GAP-20, the full Collins edition, the Sober body, later replies, modern sufficient-reason treatments and direct Lennox critics. Priority P1; Phase 2 partly addressed (the selected chain read; exact 1999 Collins edition equivalence unverified; Bradley, the 2010 Weisberg article and direct Lennox critics uninspected). Thesis disposition: standing limitation, stated at c05-p009, c05-p014, c05-p017 and c05-p019 to c05-p023.",
+          "reason": "No chapter 5 paragraph stated the modern sufficient-reason treatments or the direct Lennox critics as uninspected; c05-p009 and c05-p014 now do. c05-p028 withholds the chapter's stronger conclusions and names no uninspected item, so it is removed from this row (it remains under GATE-T16-08)."
+        },
+        {
+          "row_id": "G2-GAP-24",
+          "before_stated_at": [
+            "c03-p037",
+            "c03-p040",
+            "c03-p041"
+          ],
+          "after_stated_at": [
+            "c03-p037",
+            "c03-p040"
+          ],
+          "before_wording": "G2-GAP-24, primary defender and reply chains for strong emergence, substance dualism, plural idealism and external panpsychist replies. Priority P1; Phase 2 partly addressed (developed selected arguments and direct challenges now inspected at exact scope; Strawson 2006 missing; Kastrup reply and full wider-family defenses uninspected). Thesis disposition: standing limitation, stated at c03-p037, c03-p040 and c03-p041. Closure would require bounded primary repair for the variants actually used.",
+          "after_wording": "G2-GAP-24, primary defender and reply chains for strong emergence, substance dualism, plural idealism and external panpsychist replies. Priority P1; Phase 2 partly addressed (developed selected arguments and direct challenges now inspected at exact scope; Strawson 2006 missing; Kastrup reply and full wider-family defenses uninspected). Thesis disposition: standing limitation, stated at c03-p037 and c03-p040. Closure would require bounded primary repair for the variants actually used.",
+          "reason": "c03-p041 states the consequence (a position present by stipulation gains no standing) but not the missing defender and reply chains; c03-p040 states the open original-defender coverage gap."
+        },
+        {
+          "row_id": "G2-GAP-25",
+          "before_stated_at": [
+            "c03-p027",
+            "c03-p029",
+            "c03-p037"
+          ],
+          "after_stated_at": [
+            "c03-p028",
+            "c03-p029",
+            "c03-p037"
+          ],
+          "before_wording": "G2-GAP-25, Chalmers manuscript versions and Kastrup figures and illustrations. Priority P2; Phase 2 partly addressed (draft and final layouts inspected; four figures visually read by the reviewer, one caption only; clinical and physical supports unverified). Thesis disposition: standing limitation, stated at c03-p027 to c03-p029 and c03-p037. Closure would require version and figure verification where decisive and independent empirical papers before illustrations count as evidence.",
+          "after_wording": "G2-GAP-25, Chalmers manuscript versions and Kastrup figures and illustrations. Priority P2; Phase 2 partly addressed (draft and final layouts inspected; four figures visually read by the reviewer, one caption only; clinical and physical supports unverified). Thesis disposition: standing limitation, stated at c03-p028, c03-p029 and c03-p037. Closure would require version and figure verification where decisive and independent empirical papers before illustrations count as evidence.",
+          "reason": "c03-p027 identifies the Kastrup version without stating a limitation; c03-p028 states the uninspected clinical and physical supports and illustrations, c03-p029 the unresolved Chalmers version history."
+        }
+      ],
+      "chapter_statements_added": [
+        {
+          "row_id": "G2-GAP-16",
+          "paragraph_id": "c06-p037"
+        },
+        {
+          "row_id": "G2-GAP-14",
+          "paragraph_id": "c06-p044"
+        },
+        {
+          "row_id": "G2-GAP-20",
+          "paragraph_id": "c05-p009"
+        },
+        {
+          "row_id": "G2-GAP-20",
+          "paragraph_id": "c05-p014"
+        }
+      ],
+      "paragraph_references_in_rows": {
+        "before": 150,
+        "after": 147
+      },
+      "register_sha256": {
+        "before": "94120afccadd5a54b8232b86a1f33f7a6672e0a5b396ebae4a81a7cdb0936ec4",
+        "after": "38ac9b4f57acb601cc2cb2dc883d4c466f3f5f5d9b626174705fc5461b1ed318"
+      },
+      "review": "Bounded register re-review by the distinct-model reviewer (xAI Grok 4.6): every one of the 47 rows against the full text of every paragraph it names and against work/P3G1/disposition_register.json: work/P3M02/delta_review/ (prompts/register-1.md, findings/register-1.json).",
+      "review_status": "pending: register-1 not yet run",
+      "finalized": null
+    }
+  ]
 }

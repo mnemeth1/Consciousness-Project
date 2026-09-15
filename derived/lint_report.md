@@ -222,7 +222,7 @@ if normalization is ever authorized. Nothing here modifies or judges any record.
 - 1 × `memoir_excerpt_and_publisher_metadata`
 - 1 × `navigation metadata`
 - 1 × `newspaper_original`
-- 1 × `original article publisher preview`
+- 1 × `original article (publisher preview at T10; complete published scan at P2T11)`
 - 1 × `original author manuscript`
 - 1 × `original authored essay`
 - 1 × `original chapter in abridged teaching reproduction`
@@ -278,7 +278,7 @@ if normalization is ever authorized. Nothing here modifies or judges any record.
 - 1 × `user_supplied_purported_firsthand_transcript`
 - 1 × `user_supplied_transcript`
 
-### Access status (`access_status` in records/sources.json): 71 distinct values
+### Access status (`access_status` in records/sources.json): 70 distinct values
 
 - 21 × `inspected_relevant_full_text`
 - 13 × `inspected_original`
@@ -300,6 +300,7 @@ if normalization is ever authorized. Nothing here modifies or judges any record.
 - 3 × `inspected_selected_original_chapters`
 - 3 × `inspected_selected_original_version`
 - 2 × `full_selected_text_inspected`
+- 2 × `inspected_complete_full_text`
 - 2 × `inspected_full_PDF_extracted_text`
 - 2 × `inspected_metadata`
 - 2 × `inspected_metadata_only`
@@ -320,8 +321,6 @@ if normalization is ever authorized. Nothing here modifies or judges any record.
 - 1 × `full_original_available_selected_sections_inspected`
 - 1 × `full_original_inspected`
 - 1 × `full_text_inspected_audio_unverified`
-- 1 × `inspected_abstract_notes_references_only`
-- 1 × `inspected_complete_full_text`
 - 1 × `inspected_complete_selected_letter_PDF_text`
 - 1 × `inspected_context_and_bibliography`
 - 1 × `inspected_distinct_later_authorial_version`

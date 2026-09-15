@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.1",
+  "thesis_version": "1.0.2",
   "part": "c06",
   "entries": [
     {
@@ -519,7 +519,8 @@
         "S-T08-002",
         "S-T08-003",
         "C-T08-004",
-        "C-T08-005"
+        "C-T08-005",
+        "PREMISE:register:G2-GAP-16 (work/G2/gap_register.json G2-GAP-16 tunnels critique and direct critic/reply chains incomplete, closure by inspecting the actual critique and strongest direct reply; work/P3G1/disposition_register.json G2-GAP-16 deferred with the stronger claim withheld, standing limitation; state/acceptance_P3G1.json amendment P3G1-A1)"
       ]
     },
     {
@@ -627,7 +628,8 @@
         "CL-P2T19-007",
         "CL-P2T19-012",
         "CL-T09-004",
-        "PREMISE:method:access-gaps (case access-gap fields under C-T04-001, C-T06-001, C-T07-001, C-T07-002, C-T19-001, C-T19-002, C-T09-001; no private-record requests per AGENTS.md authorization)"
+        "PREMISE:method:access-gaps (case access-gap fields under C-T04-001, C-T06-001, C-T07-001, C-T07-002, C-T19-001, C-T19-002, C-T09-001; no private-record requests per AGENTS.md authorization)",
+        "PREMISE:register:G2-GAP-14 (work/G2/gap_register.json G2-GAP-14 other early prospective originals, feasibility/oximetry and comparator citations deferred; work/P3G1/disposition_register.json G2-GAP-14 partly addressed, standing limitation; state/acceptance_P3G1.json amendment P3G1-A1)"
       ]
     },
     {

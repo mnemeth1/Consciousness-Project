@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.1",
+  "thesis_version": "1.0.2",
   "part": "c02",
   "entries": [
     {
@@ -223,7 +223,8 @@
     {
       "paragraph_id": "c02-p037",
       "refs": [
-        "PREMISE:method:eight-sensitivity-tests (work/G2/synthesis_constraints.json required_sensitivity_tests; paper/paper.html p-007; execution and cumulative-chapter re-read per work/T17/report.md and records/decisions.json D-EXEC-087, D-EXEC-089, the T16 to T18 and G3 methodological acceptance)"
+        "PREMISE:method:eight-sensitivity-tests (work/G2/synthesis_constraints.json required_sensitivity_tests; paper/paper.html p-007; execution and cumulative-chapter re-read per work/T17/report.md and records/decisions.json D-EXEC-087, D-EXEC-089, the T16 to T18 and G3 methodological acceptance)",
+        "PREMISE:method:time-and-identity-models (work/T01/report.md section 4 'Operational time and identity models' M1 to M6; work/G2/synthesis_constraints.json SENS-G2-04 varies M1 to M4; work/T17/report.md 'Identity and preservation')"
       ]
     },
     {

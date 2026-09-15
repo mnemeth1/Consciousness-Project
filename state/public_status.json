@@ -5,7 +5,7 @@
   "phase2_accepted_tasks": 46,
   "phase2_completed": true,
   "remaining_tasks": {},
-  "known_issue": "Post-release maintenance only: the 53 minor P3RX findings (later low-priority sweep) and the derived-layer regeneration remain open; see STATUS.md.",
+  "known_issue": "Post-release maintenance only: the 53 minor P3RX findings (later low-priority sweep, P3M03: ledger string normalization and an abbreviation glossary) and the derived generator's stub evidence packs remain open; see STATUS.md.",
   "withheld_conclusion_gates": 12,
   "gap_groups": 35,
   "task_acceptance_meaning": "Methodological acceptance within scope, not metaphysical truth or journal peer review.",
@@ -16,12 +16,12 @@
     "total_tasks": 27,
     "accepted_tasks": 27,
     "chapters_drafted": 12,
-    "note": "Phase 3 complete: all 27 tasks accepted. P3G2 (state/acceptance_P3G2.json) adjudicated joint satisfaction of the transferred P2R20 contract, executed P2G2 at thesis scope, closed P2S01-P2S03 at rebased scope, and released the thesis as thesis-v1.0.0 with the 0.4.5 article site. Thesis-v1.0.1 (with the 0.4.6 site) is a post-release correction of status language, citation rendering and bibliography completeness (work/P3M01). Acceptance is methodological; all twelve withheld stronger-conclusion gates remain withheld."
+    "note": "Phase 3 complete: all 27 tasks accepted. P3G2 (state/acceptance_P3G2.json) adjudicated joint satisfaction of the transferred P2R20 contract, executed P2G2 at thesis scope, closed P2S01-P2S03 at rebased scope, and released the thesis as thesis-v1.0.0 with the 0.4.5 article site. Thesis-v1.0.1 (with the 0.4.6 site) is a post-release correction of status language, citation rendering and bibliography completeness (work/P3M01); thesis-v1.0.2 (with the 0.4.7 site) corrects record-fidelity errors, Appendix C paragraph pointers (P3G1-A1) and References rendering (work/P3M02). Acceptance is methodological; all twelve withheld stronger-conclusion gates remain withheld."
   },
   "source_archive_included": false,
   "automatic_background_execution": false,
   "current_public_draft": {
-    "version": "0.4.6",
+    "version": "0.4.7",
     "stage": "draft",
     "scientific_acceptance": false,
     "pending_reviews": [],
@@ -29,8 +29,8 @@
     "presentation": "research-article"
   },
   "thesis_release": {
-    "version": "1.0.1",
-    "tag": "thesis-v1.0.1",
+    "version": "1.0.2",
+    "tag": "thesis-v1.0.2",
     "stage": "released",
     "gates": [
       "P3G1",

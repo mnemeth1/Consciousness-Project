@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "thesis_version": "1.0.1",
+  "thesis_version": "1.0.2",
   "part": "c03",
   "entries": [
     {
@@ -367,7 +367,8 @@
     {
       "paragraph_id": "c03-p038",
       "refs": [
-        "PREMISE:method:dependency-groups-across-families (work/T12/report.md Chalmers dependent conceptual lineage counted once; work/G0/protocol_v1.md s4; dependency groups DG-P2T05-Frankish-Nida-single-exchange, DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE, DG-P2T02-EXCLUSION-EXCHANGE, DG-P2T03-2006-symposium-and-2008-version, T12-Chalmers-conceptual-lineage)"
+        "PREMISE:method:dependency-groups-across-families (work/T12/report.md Chalmers dependent conceptual lineage counted once; work/G0/protocol_v1.md s4; dependency groups DG-P2T05-Frankish-Nida-single-exchange, DG-P2T01-CAUSAL-EMERGENCE-EXCHANGE, DG-P2T02-EXCLUSION-EXCHANGE, DG-P2T03-2006-symposium-and-2008-version, T12-Chalmers-conceptual-lineage)",
+        "PREMISE:synthesis:shared-bridge-premises (no radical emergence: A-P2T03-001 and S-P2T03-004 as stated at c04-p019; conceivability to possibility: A-T05-002 bridge principles B-T05-M/K/E and A-P2T04-002 bridge_principles 'Relevant conceivability entails metaphysical possibility'; grounding as necessitation: A-P2T04-002 bridge_principles 'Grounding entails relevant necessitation'; work/T16/dependency_map.json evidence_counts_policy 'No pooled sample, event, paper or premise vote')"
       ]
     },
     {

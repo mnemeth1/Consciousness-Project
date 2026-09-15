@@ -174,6 +174,13 @@ function validate() {
   assert(statusMd.includes(`(version ${draftVersion})`), 'STATUS.md names a different draft version');
   const paperMeta = readText('paper/paper.html').match(/<meta name="paper-version" content="([^"]+)"/);
   assert(paperMeta && paperMeta[1] === draftVersion, 'paper.html version differs from public status');
+  // paper/lay_crosswalk.json names the article version it maps; the paper
+  // pipeline rejects a mismatch, and site 0.4.6 was pushed with the field
+  // still at 0.4.5, so the check runs here before any push.
+  assert.equal(JSON.parse(readText('paper/lay_crosswalk.json')).paper_version, draftVersion,
+    'paper/lay_crosswalk.json paper_version differs from the public draft version');
+  assert.equal(JSON.parse(readText('paper/draft-release.json')).version, draftVersion,
+    'paper/draft-release.json version differs from the public draft version');
 
   // Site entry pages must describe the same release state as the records.
   // thesis-v1.0.0 shipped with a start page that still called the thesis

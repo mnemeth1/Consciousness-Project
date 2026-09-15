@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "status": "authorized-release",
-  "thesis_version": "1.0.1",
+  "thesis_version": "1.0.2",
   "date": "2026-09-15",
-  "thesis_html_sha256": "d5d89023ee1dd4de1dc18c14da5aba401ee678f3f518d5d7a588df0b9744a796",
+  "thesis_html_sha256": "0fb9b50e7e3e2a6d93aa75f8209a2cc54ad00c66ee6e0cb9356990ddff424741",
   "renderer_sha256": "e68a373aa0bb5f3980b89699c56320021acef4a1c4d076b2fad7573513eb05f5",
-  "p3g2_record_sha256": "ea67698acf9fb5960a3067f8c27df6e6c9bca761a14e2e6e25ec4b0f405bd339",
+  "p3g2_record_sha256": "PENDING-P3M02-REVIEWS: set by work/P3M02/finalize.cjs after findings/delta-1 and findings/register-1 accept",
   "publication_authorized_by": "Michael Nemeth",
-  "authorization": "Blanket stage authorization of 2026-09-14 (complete the remaining stages using best judgment) and the owner's instruction of 2026-09-15 to execute the post-release plan using best judgment: thesis 1.0.1 corrects status language, citation rendering and bibliography completeness after the published-page review (state/acceptance_P3G2.json amendment P3G2-A1; work/P3M01/report.md). No verdict, hedge or gate changed.",
-  "release_pipeline": "scripts/thesis/release.cjs render/publish in CI (pinned container); assets thesis.html, thesis.pdf, thesis-release.json under tag thesis-v1.0.0; PDF byte hash binds at first publish and is immutable thereafter."
+  "authorization": "Blanket stage authorization of 2026-09-14 (complete the remaining stages using best judgment) and the owner's instruction of 2026-09-15 to implement the P3M02 plan using best judgment: thesis 1.0.2 corrects record-fidelity errors, Appendix C paragraph pointers (state/acceptance_P3G1.json amendment P3G1-A1), a ledger inspection record and References rendering after the review of the released 1.0.1 (state/acceptance_P3G2.json amendment P3G2-A2; work/P3M02/report.md). No verdict, hedge or gate changed.",
+  "release_pipeline": "scripts/thesis/release.cjs render/publish in CI (pinned container); assets thesis.html, thesis.pdf, thesis-release.json under the tag thesis-v<thesis_version>; PDF byte hash binds at first publish and is immutable thereafter."
 }

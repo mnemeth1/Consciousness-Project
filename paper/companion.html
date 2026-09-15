@@ -8,42 +8,309 @@
 <meta name="paper-date" content="2026-09-15">
 <title>What Does Consciousness Tell Us About Reality? A Plain-Language Overview</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#f1f2f1;color:#20262b;font:18px/1.65 Georgia,"Times New Roman",serif}main,nav{max-width:840px;margin:auto}main{padding:48px 56px 64px;background:white}nav{padding:18px 24px;font:15px/1.5 Arial,sans-serif}h1,h2,h3{font-family:Arial,sans-serif;line-height:1.2;color:#203a49}h1{font-size:1.9rem;margin:0 0 18px}h2{font-size:1.3rem;margin:32px 0 14px}p{margin:0 0 16px}a{color:#075c75;text-underline-offset:.15em}.meta{font:14px/1.5 Arial,sans-serif;color:#48565f}.status{font:14px/1.6 Arial,sans-serif;color:#5a4a22;background:#faf5e6;border:1px solid #e3d5a8;border-radius:6px;padding:10px 14px;margin:16px 0 26px}.ladder{list-style:none;margin:18px 0;padding:0}.ladder li{border:1px solid #bfcdd3;border-left-width:6px;border-radius:6px;padding:12px 16px;margin:0 0 10px}.ladder .strong{border-left-color:#2e7d4f}.ladder .open{border-left-color:#c9a227}.ladder .unproven{border-left-color:#b3552e}.ladder b{font-family:Arial,sans-serif;font-size:.85em;display:block;color:#48565f}table{border-collapse:collapse;width:100%;margin:16px 0;font-size:.92em}th,td{border-bottom:1px solid #b5c7cb;padding:9px 10px;text-align:left;vertical-align:top}th{font-family:Arial,sans-serif;background:#eef3f4}@media(max-width:640px){body{font-size:17px}main{padding:28px 22px 40px}h1{font-size:1.5rem}}
+
+:root {
+  --color-bg: #f3f2f2;
+  --color-surface: #eae9e9;
+  --color-text: #201f1d;
+  --color-accent: #b68235;
+  --color-accent-2: #ac803e;
+  --color-divider: color-mix(in srgb, #201f1d 16%, transparent);
+  
+  --color-neutral-100: #f8f4f4;
+  --color-neutral-200: #eae7e7;
+  --color-neutral-300: #d7d3d3;
+  --color-neutral-400: #bab6b6;
+  --color-neutral-500: #9b9797;
+  --color-neutral-600: #7d7979;
+  --color-neutral-700: #605d5d;
+  --color-neutral-800: #444141;
+  --color-neutral-900: #2d2b2b;
+  --color-accent-100: #fff3e4;
+  --color-accent-200: #ffe3bf;
+  --color-accent-300: #facb8d;
+  --color-accent-400: #e1ad66;
+  --color-accent-500: #c28d41;
+  --color-accent-600: #a06f24;
+  --color-accent-700: #7d5411;
+  --color-accent-800: #5a3b0a;
+  --color-accent-900: #3a270d;
+  --color-accent-2-100: #fff3e4;
+  --color-accent-2-200: #ffe3be;
+  --color-accent-2-300: #f5cd96;
+  --color-accent-2-400: #dbaf70;
+  --color-accent-2-500: #bc8f4e;
+  --color-accent-2-600: #9b7232;
+  --color-accent-2-700: #79561f;
+  --color-accent-2-800: #573d14;
+  --color-accent-2-900: #382810;
+  --font-heading: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-heading-weight: 600; 
+  --font-body: "Lora", Georgia, "Times New Roman", serif;
+  --space-1: 4.6px;
+  --space-2: 9.2px;
+  --space-3: 13.8px;
+  --space-4: 18.4px;
+  --space-6: 27.6px;
+  --space-8: 36.8px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 7px;
+  
+  --shadow-sm: 0 1px 2px color-mix(in srgb, #2d2b2b 14%, transparent);
+  --shadow-md: 0 3px 10px color-mix(in srgb, #2d2b2b 16%, transparent);
+  --shadow-lg: 0 12px 32px color-mix(in srgb, #2d2b2b 22%, transparent);
+}
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: var(--font-heading-weight); }
+.plate{filter:sepia(0.22) saturate(0.82) contrast(1.05);box-sizing:border-box;
+  border:6px solid var(--color-surface);outline:1px solid var(--color-divider)}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; font-size: 15px; line-height: 1.55; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  line-height: 1.12; letter-spacing: -0.015em; margin: 0 0 var(--space-2);
+}
+h1 { font-size: 42px; }
+h2 { font-size: 32px; }
+h3 { font-size: 25px; }
+h4 { font-size: 20px; }
+h5 { font-size: 16px; }
+h6 { font-size: 13px; }
+h6 { letter-spacing: 0.08em; text-transform: uppercase; }
+p { margin: 0 0 var(--space-3); }
+a { color: var(--color-accent); text-underline-offset: 3px; }
+img { display: block; max-width: 100%; }
+figure { margin: 0; }
+figcaption {
+  font-size: 11px; margin-top: var(--space-1);
+  color: color-mix(in srgb, var(--color-text) 55%, transparent);
+}
+.text-muted { color: color-mix(in srgb, var(--color-text) 55%, transparent); }
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+::selection { background: color-mix(in srgb, var(--color-accent) 30%, transparent); }
+.hr {
+  height: 1px; border: 0; margin: var(--space-4) 0;
+  background: var(--color-divider);
+}
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  cursor: pointer; text-decoration: none;
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 14px; line-height: 1.2; color: var(--color-text); 
+  background: transparent; border: 1px solid transparent;
+  padding: var(--space-2) calc(var(--space-3) * 1.2);
+  border-radius: var(--radius-md);
+}
+.btn svg { display: block; }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn-primary { color: var(--color-accent); border-color: var(--color-accent); }
+.btn-primary:hover { background: color-mix(in srgb, var(--color-accent) 12%, transparent); }
+.btn-primary:active { background: color-mix(in srgb, var(--color-accent) 22%, transparent); }
+.btn-secondary { border-color: var(--color-divider); }
+.btn-secondary:hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.btn-secondary:active { background: color-mix(in srgb, var(--color-text) 14%, transparent); }
+.btn-ghost { color: var(--color-accent); padding-inline: var(--space-1); }
+.btn-ghost:hover { background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
+.btn-ghost:active { background: color-mix(in srgb, var(--color-accent) 18%, transparent); }
+.btn-icon { width: 36px; height: 36px; padding: 0; }
+.btn-block { width: 100%; margin-top: var(--space-2); }
+.field > label {
+  display: block; font-size: 12px; margin-bottom: 5px;
+  color: color-mix(in srgb, var(--color-text) 70%, transparent);
+}
+.input {
+  width: 100%; min-height: 36px; padding: 6px 10px; font: inherit;
+  font-size: 14px; color: var(--color-text); caret-color: var(--color-accent);
+  background: transparent;
+  border: 1px solid var(--color-divider); border-radius: var(--radius-md);
+}
+.input:hover { border-color: color-mix(in srgb, var(--color-text) 45%, transparent); }
+.input:focus-visible { border-color: var(--color-accent); outline-offset: 0; }
+textarea.input { min-height: 90px; resize: vertical; }
+.radio { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-size: 14px; }
+.radio input, .seg-opt input {
+  position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none;
+}
+.radio .dot {
+  width: 16px; height: 16px; flex: none; border-radius: 50%;
+  border: 1.5px solid var(--color-divider);
+}
+.radio:hover .dot { border-color: var(--color-accent); }
+.radio input:checked + .dot {
+  border-color: var(--color-accent); background: var(--color-accent);
+  box-shadow: inset 0 0 0 4px var(--color-bg);
+}
+.radio input:focus-visible + .dot { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.seg {
+  display: inline-flex; overflow: hidden;
+  border: 1px solid var(--color-divider); border-radius: var(--radius-md);
+}
+.seg-opt {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 12px; font-size: 13px; cursor: pointer;
+}
+.seg-opt + .seg-opt { border-left: 1px solid var(--color-divider); }
+.seg-opt:has(input:checked) { color: var(--color-accent); box-shadow: inset 0 0 0 1px var(--color-accent); }
+.seg-opt:not(:has(input:checked)):hover { background: color-mix(in srgb, var(--color-text) 7%, transparent); }
+.seg-opt:has(input:focus-visible) { outline: 2px solid var(--color-accent); outline-offset: -2px; }
+.card {
+  display: flex; flex-direction: column; gap: var(--space-2);
+  padding: var(--space-3); border-radius: var(--radius-md); background: transparent; border: 1px solid var(--color-divider);
+}
+.card-kicker { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-accent); }
+.card-title {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 17px; line-height: 1.2;
+}
+.card-body { margin: 0; font-size: 13px; opacity: 0.8; flex: 1; }
+.card-meta {
+  display: flex; align-items: center; gap: 6px; font-size: 11px;
+  color: color-mix(in srgb, var(--color-text) 50%, transparent);
+}
+.elev-sm { box-shadow: var(--shadow-sm); }
+.elev-md { box-shadow: var(--shadow-md); }
+.elev-lg { box-shadow: var(--shadow-lg); }
+.tag {
+  display: inline-flex; align-items: center; font-size: 11px;
+  letter-spacing: 0.02em; padding: 3px 10px;
+  border-radius: calc(var(--radius-md) * 0.75);
+}
+.tag-accent { background: var(--color-accent-100); color: var(--color-accent-800); }
+.tag-accent-2 { background: var(--color-accent-2-100); color: var(--color-accent-2-800); }
+.tag-neutral { background: var(--color-neutral-100); color: var(--color-neutral-800); }
+.tag-outline { border: 1px solid var(--color-accent); color: var(--color-accent); }
+.nav {
+  display: flex; align-items: center; gap: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--color-divider);
+}
+.nav-brand {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 18px; margin-right: auto;
+}
+.nav a { color: inherit; text-decoration: none; font-size: 14px; }
+.nav a:hover, .nav a[aria-current='page'] { color: var(--color-accent); }
+.table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.table th {
+  text-align: left; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-text) 60%, transparent);
+  padding: var(--space-2); border-bottom: 1px solid var(--color-divider);
+}
+.table td {
+  padding: var(--space-2);
+  border-bottom: 1px solid var(--color-divider);
+}
+.table tbody tr:hover { background: color-mix(in srgb, var(--color-text) 4%, transparent); }
+.dialog-backdrop {
+  position: fixed; inset: 0; display: grid; place-items: center;
+  padding: var(--space-4);
+  background: color-mix(in srgb, var(--color-neutral-900) 50%, transparent);
+}
+.dialog {
+  width: min(440px, 100%); display: flex; flex-direction: column; gap: var(--space-3);
+  padding: var(--space-4); border-radius: var(--radius-lg);
+  background: var(--color-surface); box-shadow: var(--shadow-lg); border: 1px solid var(--color-divider);
+}
+.dialog-title {
+  font-family: var(--font-heading); font-weight: var(--font-heading-weight);
+  font-size: 20px;
+}
+.dialog-body { font-size: 14px; opacity: 0.85; }
+.dialog-actions { display: flex; justify-content: flex-end; gap: var(--space-2); margin-top: var(--space-2); }
+
+
+body{margin:0;text-wrap:pretty;font-size:17px;line-height:28px}
+a{color:var(--color-accent-700);text-underline-offset:3px}a:hover{color:var(--color-accent-600)}
+.cite{position:relative;text-decoration:none;border-bottom:1px solid var(--color-accent);color:inherit}
+.cite:hover,.cite:focus-visible{color:var(--color-accent-700)}
+.cite::after{content:attr(data-cite);position:absolute;left:0;top:calc(100% + 6px);z-index:5;width:min(38ch,70vw);padding:9.2px 13.8px;font-size:13px;line-height:20px;text-align:left;hyphens:manual;font-style:normal;color:var(--color-text);background:var(--color-surface);border:1px solid var(--color-divider);border-radius:var(--radius-md);box-shadow:var(--shadow-md);display:none;text-indent:0}
+.cite:hover::after,.cite:focus-visible::after{display:block}
+.toc a{color:inherit;text-decoration:none;display:block;padding:4px 0}.toc a:hover{color:var(--color-accent-700)}
+p[data-pid]::before{content:attr(data-pid);position:absolute;right:calc(100% + 18px);top:0;width:80px;text-align:right;font-size:11px;line-height:28px;letter-spacing:.04em;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--color-text) 45%,transparent);white-space:nowrap}
+@media (max-width:1000px){.rail{display:none}.page{grid-template-columns:minmax(0,1fr) !important}p[data-pid]::before{display:none}}
+@media (max-width:640px){.navlinks{display:none}}
+@page{size:A4;margin:20mm 19mm 22mm}
+@media print{body{background:white;color:black;font-size:10.7pt;line-height:1.43}nav,.rail,p[data-pid]::before{display:none}.page{display:block !important;padding:0 !important}.cite{border:0;color:#163f52}.cite::after{display:none !important}h1,h2,h3,h4{break-after:avoid}p{orphans:3;widows:3}}
+
+
+
+.shell{min-height:100vh}
+nav.site{display:flex;align-items:center;gap:18.4px;padding:13.8px max(clamp(20px,5vw,72px),calc((100% - 1200px)/2 + clamp(20px,5vw,72px)));border-bottom:1px solid var(--color-divider)}
+nav.site .brand{font-family:var(--font-heading);font-weight:600;font-size:18px;margin-right:auto;color:inherit;text-decoration:none}
+.navlinks{display:flex;gap:18.4px;font-size:14px}
+.navlinks a{color:inherit;text-decoration:none;white-space:nowrap}
+.page{max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:grid;grid-template-columns:200px minmax(0,1fr);gap:0 clamp(72px,8vw,120px);align-items:start}
+.rail{position:sticky;top:0;padding:56px 0;font-size:13px;line-height:20px;max-height:100vh;overflow:auto;color:color-mix(in srgb,var(--color-text) 70%,transparent)}
+.kicker{font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700);font-feature-settings:'tnum' 1;margin:0 0 28px}
+.rail .kicker{font-size:11px;line-height:14px;margin:0 0 14px}
+main{max-width:66ch;padding:56px 0 84px;position:relative}
+main h1{font-family:var(--font-heading);font-weight:400;font-size:clamp(40px,4.4vw,56px);line-height:1.08;letter-spacing:-.01em;margin:0 0 28px -.042em}
+main h2{font-family:var(--font-heading);font-weight:400;font-size:34px;line-height:40px;letter-spacing:-.008em;margin:84px 0 28px}
+main h3{font-family:var(--font-heading);font-weight:600;font-size:22px;line-height:28px;margin:42px 0 14px}
+main p{position:relative;margin:0 0 14px;text-align:justify;hyphens:auto}
+main p.kicker{text-align:left;hyphens:manual;margin:0 0 28px}
+main p.meta{margin:0;font-size:13px;line-height:20px;color:color-mix(in srgb,var(--color-text) 70%,transparent);text-align:left;hyphens:manual}
+main p.status-line{font-size:13px;line-height:20px;margin:28px 0 0;padding:14px 0;border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider);color:color-mix(in srgb,var(--color-text) 70%,transparent);text-align:left;hyphens:manual}
+.ladder{list-style:none;margin:28px 0;padding:0;border-top:1px solid var(--color-divider)}
+.ladder li{display:grid;grid-template-columns:150px 1fr;gap:18.4px;align-items:baseline;padding:13.8px 0;border-bottom:1px solid var(--color-divider);font-size:15.5px;line-height:24px}
+.ladder b{display:inline-flex;align-items:center;font-size:11px;letter-spacing:.02em;padding:3px 10px;border-radius:3px;justify-self:start;align-self:baseline;font-weight:600}
+.ladder .strong b{background:var(--color-accent-100);color:var(--color-accent-800)}
+.ladder .open b{border:1px solid var(--color-accent);color:var(--color-accent-700);background:transparent}
+.ladder .unproven b{background:var(--color-neutral-100);color:var(--color-neutral-800)}
+#lay-verdicts table{width:100%;border-collapse:collapse;margin:28px 0}
+#lay-verdicts caption{caption-side:top;text-align:left;font-size:13px;line-height:20px;color:color-mix(in srgb,var(--color-text) 70%,transparent);padding:0 0 9px}
+#lay-verdicts th{text-align:left;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 60%,transparent);padding:9.2px;border-bottom:1px solid var(--color-divider)}
+#lay-verdicts td{padding:9.2px;border-bottom:1px solid var(--color-divider);vertical-align:top;font-size:14px;line-height:22px}
+#status{margin-top:84px;padding-top:28px;border-top:1px solid var(--color-divider)}
+#status p{margin:0 0 9px;font-size:14px;line-height:22px;color:color-mix(in srgb,var(--color-text) 70%,transparent)}
+@media (max-width:640px){.navlinks{display:none}}
 </style>
 </head>
 <body>
-<nav aria-label="Overview navigation"><a href="index.html">Start page</a> · <a href="paper.html">Read the full research article</a> · <a href="thesis.html">Thesis (released)</a> · <a href="paper.pdf">Download the article PDF</a></nav>
+<div class="shell">
+<nav class="site" aria-label="Overview navigation"><a class="brand" href="index.html">Consciousness Project</a><div class="navlinks"><a href="companion.html" aria-current="page">Overview</a><a href="paper.html">Article</a><a href="thesis.html">Thesis</a></div><a href="paper.pdf" class="btn btn-primary">Download the PDF</a></nav>
+<div class="page">
+<aside class="rail toc" aria-label="Contents">
+<p class="kicker">Contents</p>
+<a href="#lay-questions">The questions people actually ask</a><a href="#lay-ladder">The ladder of claims, and where the evidence stands</a><a href="#lay-verdicts">The verdicts, topic by topic</a><a href="#lay-change">What could change this picture</a><a href="#lay-reading">Reading the full article</a>
+</aside>
 <main id="overview">
 <header>
+<p class="kicker">Plain-language overview</p>
 <h1 id="overview-title">What Does Consciousness Tell Us About Reality?</h1>
 <p class="meta">A plain-language overview of the research article <a href="paper.html">Consciousness, Existence, and the Grounds of Significance</a>, which the released <a href="thesis.html">thesis</a> expands into twelve chapters and four appendices.</p>
 <p id="version-notice" class="meta">Describes version <span id="paper-version">0.4.7</span> · <span id="paper-date">2026-09-15</span> of the article. Prepared with AI assistance.</p>
+<p class="status-line">The article this page summarizes is a versioned research manuscript; it has not been through external peer review. <a href="#status">Read the full statement.</a></p>
 </header>
-<p class="status">The article this page summarizes is a versioned research manuscript. It has not been through external peer review. The project's final internal review steps (P2R20 and P2G2) closed through the recorded gates of the released thesis, and that acceptance is a statement about method, not a verdict from outside reviewers. This page adds no findings of its own. Every statement here summarizes the article, and every section links to the part of the article it summarizes.</p>
-
 <section id="lay-questions">
 <h2>The questions people actually ask</h2>
 
 <h3 id="lay-q1">Does your brain create your mind?</h3>
-<p id="lay-001">The article's plainest evidence points to a careful middle answer. Your brain shapes what you experience, and the evidence for that is direct. In one controlled study, researchers passed an electric current through face-processing regions of an epilepsy patient's brain, and the patient reported that faces looked distorted. When they only pretended to stimulate, or stimulated a neighboring site instead, no such distortions were reported. That is causal evidence that neural activity constrains what is experienced, at least in the one patient studied. But notice what it does not show. It shows that the brain shapes experience; it does not by itself settle what experience ultimately <em>is</em> (<a href="paper.html#empirical">article section 5</a>).</p>
-<p id="lay-002">Could the brain be a receiver rather than a producer, more like a radio than a composer? Damage a radio and the music distorts, and that alone would not show that the radio wrote the music. The article takes this reply seriously: the experiment cannot rule it out by logic alone. But being compatible with the evidence is a weak achievement. A receiver theory owes us an account of why <em>this</em> intervention changes <em>this</em> experience, and the bare image of reception supplies none. So the evidence favors real neural involvement over its denial, while leaving open whether brain activity is the experience, realizes it, or passes it along (<a href="paper.html#empirical">article section 5</a>).</p>
+<p id="lay-001" data-pid="lay-001">The article's plainest evidence points to a careful middle answer. Your brain shapes what you experience, and the evidence for that is direct. In one controlled study, researchers passed an electric current through face-processing regions of an epilepsy patient's brain, and the patient reported that faces looked distorted. When they only pretended to stimulate, or stimulated a neighboring site instead, no such distortions were reported. That is causal evidence that neural activity constrains what is experienced, at least in the one patient studied. But notice what it does not show. It shows that the brain shapes experience; it does not by itself settle what experience ultimately <em>is</em> (<a href="paper.html#empirical">article section 5</a>).</p>
+<p id="lay-002" data-pid="lay-002">Could the brain be a receiver rather than a producer, more like a radio than a composer? Damage a radio and the music distorts, and that alone would not show that the radio wrote the music. The article takes this reply seriously: the experiment cannot rule it out by logic alone. But being compatible with the evidence is a weak achievement. A receiver theory owes us an account of why <em>this</em> intervention changes <em>this</em> experience, and the bare image of reception supplies none. So the evidence favors real neural involvement over its denial, while leaving open whether brain activity is the experience, realizes it, or passes it along (<a href="paper.html#empirical">article section 5</a>).</p>
 
 <h3 id="lay-q2">Do near-death experiences prove the mind leaves the body?</h3>
-<p id="lay-003">Not on the current evidence. And the article is just as careful in the other direction: it does not claim that every striking report has been given an ordinary explanation. What would it take to show that a person acquired information while the brain could not have supplied it? Three things, and they must hold together in a single case. The reported details must be verifiably accurate. There must be a defensible account of when they were acquired. And enough must be known about the ordinary channels (hearing, later reconstruction, information picked up afterwards) to rule them out for that interval. A striking story with uncertain timing does not meet that standard. Neither, the article adds, does a possible ordinary mechanism count as the demonstrated explanation of a case until it has case-specific support of its own (<a href="paper.html#empirical">article section 5</a>).</p>
-<p id="lay-004">The famous cases do not yet clear that bar. In a celebrated surgical case the patient reported specific details of the operation, and experts still dispute what could have been heard, and when. The hospital studies of cardiac-arrest survivors set up tests of awareness in advance, and there the difficulty is different. In the most recent of them, two of the twenty-eight survivors interviewed had brain recordings, and neither of those two reported explicit recall. The recollection and the recording cannot be joined. The article accepts that not recalling an experience does not show that none occurred; the link between a particular memory and a recorded condition is simply still missing. The reports remain worth investigating, and the article says so. They have not yet told the two possibilities apart (<a href="paper.html#empirical">article section 5</a>).</p>
+<p id="lay-003" data-pid="lay-003">Not on the current evidence. And the article is just as careful in the other direction: it does not claim that every striking report has been given an ordinary explanation. What would it take to show that a person acquired information while the brain could not have supplied it? Three things, and they must hold together in a single case. The reported details must be verifiably accurate. There must be a defensible account of when they were acquired. And enough must be known about the ordinary channels (hearing, later reconstruction, information picked up afterwards) to rule them out for that interval. A striking story with uncertain timing does not meet that standard. Neither, the article adds, does a possible ordinary mechanism count as the demonstrated explanation of a case until it has case-specific support of its own (<a href="paper.html#empirical">article section 5</a>).</p>
+<p id="lay-004" data-pid="lay-004">The famous cases do not yet clear that bar. In a celebrated surgical case the patient reported specific details of the operation, and experts still dispute what could have been heard, and when. The hospital studies of cardiac-arrest survivors set up tests of awareness in advance, and there the difficulty is different. In the most recent of them, two of the twenty-eight survivors interviewed had brain recordings, and neither of those two reported explicit recall. The recollection and the recording cannot be joined. The article accepts that not recalling an experience does not show that none occurred; the link between a particular memory and a recorded condition is simply still missing. The reports remain worth investigating, and the article says so. They have not yet told the two possibilities apart (<a href="paper.html#empirical">article section 5</a>).</p>
 
 <h3 id="lay-q3">Could consciousness be the foundation of reality?</h3>
-<p id="lay-005">It is a serious idea, not a fringe one. Science can explain what the brain <em>does</em>: how it discriminates, how it reports, how it controls behavior. Explaining why any of that feels like something from the inside is a different task, and that task is unresolved. Now consider what the proposal offers. If experience belongs to reality's foundation, it no longer has to arise from ingredients defined as containing nothing experiential at all. That answers the demand in one precise sense, and it is the proposal's real attraction. One caution travels with it: the answer is an advantage only if the demand has been correctly identified, and that is what the critics dispute. The article adds that the burden runs both ways. A critic who identifies experience with a brain process must show that the identification keeps what it set out to explain (<a href="paper.html#phenomenal">article section 3</a>).</p>
-<p id="lay-006">The article's central warning is about what happens next. "Consciousness is fundamental" can slide quietly from one claim into another. First it means that experience is basic. Then it means that reality is one cosmic mind. Then that the mind acts on purpose. Then that it preserves us after death and grounds right and wrong. Each of those steps might be argued for. None of them is free, and the same word is doing new work at every step. The article calls this the proposal's danger: an illicit economy, in which several conclusions are bought for the price of one. Notice, though, what the article does not say. It does not demand a separate proof for every step. It asks that the connections between the steps be specified well enough to tell this proposal apart from its rivals (<a href="paper.html#introduction">article section 1</a>).</p>
+<p id="lay-005" data-pid="lay-005">It is a serious idea, not a fringe one. Science can explain what the brain <em>does</em>: how it discriminates, how it reports, how it controls behavior. Explaining why any of that feels like something from the inside is a different task, and that task is unresolved. Now consider what the proposal offers. If experience belongs to reality's foundation, it no longer has to arise from ingredients defined as containing nothing experiential at all. That answers the demand in one precise sense, and it is the proposal's real attraction. One caution travels with it: the answer is an advantage only if the demand has been correctly identified, and that is what the critics dispute. The article adds that the burden runs both ways. A critic who identifies experience with a brain process must show that the identification keeps what it set out to explain (<a href="paper.html#phenomenal">article section 3</a>).</p>
+<p id="lay-006" data-pid="lay-006">The article's central warning is about what happens next. "Consciousness is fundamental" can slide quietly from one claim into another. First it means that experience is basic. Then it means that reality is one cosmic mind. Then that the mind acts on purpose. Then that it preserves us after death and grounds right and wrong. Each of those steps might be argued for. None of them is free, and the same word is doing new work at every step. The article calls this the proposal's danger: an illicit economy, in which several conclusions are bought for the price of one. Notice, though, what the article does not say. It does not demand a separate proof for every step. It asks that the connections between the steps be specified well enough to tell this proposal apart from its rivals (<a href="paper.html#introduction">article section 1</a>).</p>
 
 <h3 id="lay-q4">Does anything matter if we don't live forever?</h3>
-<p id="lay-007">The article weighs two claims and finds the claim that death erases all meaning weaker than the claim that finite lives can matter. The best argument for endurance starts from loss, not vanity. Love, inquiry and creative work are worthwhile yet vulnerable; death removes the chance to sustain them and may frustrate projects that depend on continuing. That argument can fairly claim that lasting preservation would improve a life, and the article does not belittle the loss. But it is a further step to say that an ending cancels the value of what occurred, and that is the step the article resists. If a friendship's ending is bad because the friendship mattered, that explanation does not by itself erase its earlier significance. On a developed account of meaning, a life matters through active engagement with things worth caring about, and endless duration is no part of the recipe. That account does not promise to cure the distress of cosmic smallness. It identifies a kind of significance that needs no endless duration (<a href="paper.html#value">article section 7</a>).</p>
-<p id="lay-008">That conclusion cuts both ways, and the article is careful to say so. Valuable continuation could still make a life better. The boredom objection says that an endless life must eventually run dry. The article finds that a reply undermines the easy inference from endless repetition of one activity to the undesirability of every endless life: an endless life could contain varied activities, and repeatable pleasures, suitably spaced, might sustain the wish to go on. Equally, an attractive possible continuation does not make compulsory immortality desirable for everyone. So finite meaning and valuable endurance are compatible claims, and neither side gets a blanket verdict. That removes one reason for making cosmology a prerequisite of ordinary significance, without making light of the harms of death (<a href="paper.html#value">article section 7</a>).</p>
+<p id="lay-007" data-pid="lay-007">The article weighs two claims and finds the claim that death erases all meaning weaker than the claim that finite lives can matter. The best argument for endurance starts from loss, not vanity. Love, inquiry and creative work are worthwhile yet vulnerable; death removes the chance to sustain them and may frustrate projects that depend on continuing. That argument can fairly claim that lasting preservation would improve a life, and the article does not belittle the loss. But it is a further step to say that an ending cancels the value of what occurred, and that is the step the article resists. If a friendship's ending is bad because the friendship mattered, that explanation does not by itself erase its earlier significance. On a developed account of meaning, a life matters through active engagement with things worth caring about, and endless duration is no part of the recipe. That account does not promise to cure the distress of cosmic smallness. It identifies a kind of significance that needs no endless duration (<a href="paper.html#value">article section 7</a>).</p>
+<p id="lay-008" data-pid="lay-008">That conclusion cuts both ways, and the article is careful to say so. Valuable continuation could still make a life better. The boredom objection says that an endless life must eventually run dry. The article finds that a reply undermines the easy inference from endless repetition of one activity to the undesirability of every endless life: an endless life could contain varied activities, and repeatable pleasures, suitably spaced, might sustain the wish to go on. Equally, an attractive possible continuation does not make compulsory immortality desirable for everyone. So finite meaning and valuable endurance are compatible claims, and neither side gets a blanket verdict. That removes one reason for making cosmology a prerequisite of ordinary significance, without making light of the harms of death (<a href="paper.html#value">article section 7</a>).</p>
 </section>
 
 <section id="lay-ladder">
 <h2>The ladder of claims, and where the evidence stands</h2>
-<p id="lay-009">The simplest way to see the article's overall verdict is as a ladder. Each rung up is a bigger claim than the one below it, and each needs support that the rung below cannot supply on its own. The lowest rung carries the most direct support. Each higher rung adds a larger commitment and has less support behind it (<a href="paper.html#introduction">article section 1</a>, <a href="paper.html#conclusion">section 10</a>).</p>
+<p id="lay-009" data-pid="lay-009">The simplest way to see the article's overall verdict is as a ladder. Each rung up is a bigger claim than the one below it, and each needs support that the rung below cannot supply on its own. The lowest rung carries the most direct support. Each higher rung adds a larger commitment and has less support behind it (<a href="paper.html#introduction">article section 1</a>, <a href="paper.html#conclusion">section 10</a>).</p>
 <ul class="ladder">
 <li class="strong"><b>Well-supported</b>Brain activity causally shapes what is experienced. Controlled intervention evidence supports this, within the scope of the single case studied.</li>
 <li class="open"><b>Open puzzle</b>Why physical processes are experienced at all. Neither the reductive side nor the anti-reductive side has closed this dispute.</li>
@@ -76,14 +343,20 @@
 
 <section id="lay-change">
 <h2>What could change this picture</h2>
-<p id="lay-010">The article is explicit that its verdicts are provisional, and it says what would move them. On the empirical side, what would put pressure on the neural account is a case in which an independently recorded report connects verified content, a defensible account of its timing and known physiology all at once. On the theoretical side, the need is for a consciousness-first theory whose parts constrain one another and could fail. Such a theory would predict where minds begin and end. It would say why brain interventions change experience in the way they do. And it would make intelligible predictions about the kind of world its proposed values would govern. A vocabulary flexible enough to fit any outcome earns little of that credit (<a href="paper.html#empirical">article section 5</a>, <a href="paper.html#discussion">section 9</a>).</p>
-<p id="lay-011">Until then, the honest summary is lopsided, because the evidence is. There are stronger grounds that embodied brains matter to experience than that they do not. There is an open question about why experience exists at all. And there is a grand unifying picture that remains possible, attractive and unproven. The article's closing word is neither confirmation nor dismissal. It is that the ambition worth defending is a constrained one, in which the connections earn their support together, rather than a vocabulary in which the desired conclusions are already contained (<a href="paper.html#conclusion">article section 10</a>).</p>
+<p id="lay-010" data-pid="lay-010">The article is explicit that its verdicts are provisional, and it says what would move them. On the empirical side, what would put pressure on the neural account is a case in which an independently recorded report connects verified content, a defensible account of its timing and known physiology all at once. On the theoretical side, the need is for a consciousness-first theory whose parts constrain one another and could fail. Such a theory would predict where minds begin and end. It would say why brain interventions change experience in the way they do. And it would make intelligible predictions about the kind of world its proposed values would govern. A vocabulary flexible enough to fit any outcome earns little of that credit (<a href="paper.html#empirical">article section 5</a>, <a href="paper.html#discussion">section 9</a>).</p>
+<p id="lay-011" data-pid="lay-011">Until then, the honest summary is lopsided, because the evidence is. There are stronger grounds that embodied brains matter to experience than that they do not. There is an open question about why experience exists at all. And there is a grand unifying picture that remains possible, attractive and unproven. The article's closing word is neither confirmation nor dismissal. It is that the ambition worth defending is a constrained one, in which the connections earn their support together, rather than a vocabulary in which the desired conclusions are already contained (<a href="paper.html#conclusion">article section 10</a>).</p>
 </section>
 
 <section id="lay-reading">
 <h2>Reading the full article</h2>
-<p id="lay-012">The <a href="paper.html">research article</a> develops each of these assessments from the primary literature. Sections 3 to 8 take the questions above in turn: the hard problem and illusionism, existence and design, the stimulation and resuscitation studies, survival and eternity, meaning and moral authority, and the problem of evil and divine hiddenness. Sections 9 and 10 ask how the whole package holds together. The <a href="paper.pdf">PDF</a> is the identical print version. Release records and sources are in the <a href="https://github.com/mnemeth1/Consciousness-Project">project repository</a>.</p>
+<p id="lay-012" data-pid="lay-012">The <a href="paper.html">research article</a> develops each of these assessments from the primary literature. Sections 3 to 8 take the questions above in turn: the hard problem and illusionism, existence and design, the stimulation and resuscitation studies, survival and eternity, meaning and moral authority, and the problem of evil and divine hiddenness. Sections 9 and 10 ask how the whole package holds together. The <a href="paper.pdf">PDF</a> is the identical print version. Release records and sources are in the <a href="https://github.com/mnemeth1/Consciousness-Project">project repository</a>.</p>
+</section>
+<section id="status">
+<p class="kicker">Status of this text</p>
+<p class="status">The article this page summarizes is a versioned research manuscript. It has not been through external peer review. The project's final internal review steps (P2R20 and P2G2) closed through the recorded gates of the released thesis, and that acceptance is a statement about method, not a verdict from outside reviewers. This page adds no findings of its own. Every statement here summarizes the article, and every section links to the part of the article it summarizes.</p>
 </section>
 </main>
+</div>
+</div>
 </body>
 </html>

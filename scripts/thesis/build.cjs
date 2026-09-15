@@ -92,11 +92,16 @@ function inline(text, ctx, file, paragraphId = null) {
       const kind = id.match(/^(CL|A|C|S)-/)[1];
       assert(ctx.records[kind].has(id), `${file}: citation of unknown ${kind} record ${id}`);
       if (paragraphId) ctx.paragraphCites.get(paragraphId).add(id);
-      if (kind === 'S') { ctx.cited.add(id); return `<a href="#ref-${id}">${id}</a>`; }
+      if (kind === 'S') { ctx.cited.add(id); return `<a href="#ref-${id}" class="cite" data-cite="${citePreview(id, ctx)}">${id}</a>`; }
       return id;
     });
-    // Keep the single-source form byte-identical to earlier builds.
-    if (rendered.length === 1 && items[0].startsWith('@S-')) return `<a href="#ref-${items[0].slice(1)}">[${items[0].slice(1)}]</a>`;
+    // The single-source form keeps its bracketed [S-…] label; every source
+    // anchor carries a data-cite text preview for the stylesheet's hover
+    // popover (pure CSS content:attr(), no script).
+    if (rendered.length === 1 && items[0].startsWith('@S-')) {
+      const id = items[0].slice(1);
+      return `<a href="#ref-${id}" class="cite" data-cite="${citePreview(id, ctx)}">[${id}]</a>`;
+    }
     return `[${rendered.join('; ')}]`;
   });
   assert(!/\[@/.test(html), `${file}: unrendered citation syntax remains in: ${text.slice(0, 80)}`);
@@ -107,6 +112,20 @@ function inline(text, ctx, file, paragraphId = null) {
   html = html.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   html = html.replace(/(^|[\s(>])\*([^*]+)\*/g, '$1<em>$2</em>');
   return html;
+}
+
+// Plain-text reference preview for the popover: the bibliography entry's
+// leading fields without links, attribute-escaped exactly once.
+function citePreview(id, ctx) {
+  const row = ctx.sourceRows.get(id);
+  if (!row) return '';
+  const dot = t => /[.?!]$/.test(t) ? t : `${t}.`;
+  const parts = [`[${id}]`];
+  const authors = (row.authors || []).map(a => String(a).trim()).filter(Boolean).join(', ');
+  if (authors) parts.push(dot(authors));
+  if (row.publication_date) parts.push(dot(String(row.publication_date)));
+  parts.push(dot(row.title));
+  return esc(parts.join(' '));
 }
 
 function slugify(text) {
@@ -145,7 +164,10 @@ function renderBlocks(blocks, prefix, meta, ctx) {
       ctx.chapterParagraphs.push({id, explicit: !!block.id, status: meta.status, prefix});
       ctx.paragraphCites.set(id, new Set());
       if (block.id) lintStatusLanguage(block.text, id, ctx);
-      out.push(`<p id="${id}">${inline(block.text, ctx, prefix, id)}</p>`);
+      if (block.id) ctx.paragraphPaths.set(id, new Set(block.text.match(RECORD_PATH) || []));
+      // Explicit paragraph ids also render as a data-pid attribute so the
+      // stylesheet can label each traced paragraph in the margin.
+      out.push(`<p id="${id}"${block.id ? ` data-pid="${id}"` : ''}>${inline(block.text, ctx, prefix, id)}</p>`);
     } else if (block.type === 'list') {
       out.push('<ul>' + block.items.map(x => `<li>${inline(x, ctx, prefix)}</li>`).join('') + '</ul>');
     }
@@ -179,6 +201,13 @@ const STATUS_LANGUAGE = [
   /\bbefore coverage is accepted\b/i,
   /\bthis draft\b/i,
 ];
+// A repository path named in prose (state/acceptance_P3G1.json, work/G0/...)
+// is a citation of a record and must appear in the paragraph's crosswalk
+// entry, so the crosswalk stays the complete trace. thesis-v1.0.1 shipped
+// with two paragraphs (apC-p001, apC-p018) naming gate records their
+// crosswalk did not list; the distinct-model reviewer recorded the gap.
+const RECORD_PATH = /\b(?:state|work|records|phase2|phase3|derived|reports|docs|paper|thesis|scripts)\/[A-Za-z0-9_./-]*[A-Za-z0-9_]/g;
+
 function lintStatusLanguage(text, id, ctx) {
   if (!ctx.released) return;
   for (const pattern of STATUS_LANGUAGE) {
@@ -239,30 +268,112 @@ function validateCrosswalk(config, ctx, records, prefixes) {
       const refs = new Set(entry.refs);
       for (const id of ctx.paragraphCites.get(entry.paragraph_id) || [])
         assert(refs.has(id), `${entry.paragraph_id} cites ${id} inline but its crosswalk entry does not list it`);
+      const joined = entry.refs.join('\n');
+      for (const p of ctx.paragraphPaths.get(entry.paragraph_id) || [])
+        assert(joined.includes(p), `${entry.paragraph_id} names ${p} in prose but its crosswalk entry does not cite it`);
     }
   }
   return mapped.size;
+}
+
+// A ledger locator is linked when it is a URL (https or http) or a DOI, bare
+// or with a doi: prefix; DOIs resolve through https://doi.org/. Anything else
+// prints as text. Punctuation is added only where the field does not already
+// end with a terminal mark, so "Gap?" and "et al." do not double up, and an
+// empty author list (an unsigned erratum) is omitted rather than printed as
+// a stray full stop.
+const DOI = /^(?:doi:\s*|https?:\/\/(?:dx\.)?doi\.org\/)?(10\.\d{4,9}\/\S+?)\.?$/i;
+function locatorLink(value) {
+  if (!value) return '';
+  const doi = value.match(DOI);
+  if (doi) return `<a href="https://doi.org/${esc(doi[1])}">doi:${esc(doi[1])}</a>.`;
+  // The artifact contract admits only HTTPS links inside main#paper, so an
+  // http:// locator links through https (the printed label stays "Source").
+  if (/^https?:\/\//.test(value)) return `<a href="${esc(value.replace(/^http:\/\//, 'https://'))}">Source</a>.`;
+  return terminal(value);
+}
+function terminal(text) {
+  return /[.?!]$/.test(text) ? esc(text) : `${esc(text)}.`;
 }
 
 function bibliography(cited, ctx) {
   const rows = readJSON('records/sources.json').filter(r => cited.has(r.source_id));
   const body = rows.length
     ? rows.map(r => {
-        const authors = (r.authors || []).join(', ');
-        const date = r.publication_date ? ` ${esc(String(r.publication_date))}.` : '';
-        const locator = /^https:\/\//.test(r.url_or_identifier || '')
-          ? ` <a href="${esc(r.url_or_identifier)}">Source</a>.` : r.url_or_identifier ? ` ${esc(r.url_or_identifier)}.` : '';
+        const parts = [`[${r.source_id}]`];
+        const authors = (r.authors || []).map(a => String(a).trim()).filter(Boolean).join(', ');
+        if (authors) parts.push(terminal(authors));
+        if (r.publication_date) parts.push(terminal(String(r.publication_date)));
+        parts.push(terminal(r.title));
+        const locator = locatorLink(r.url_or_identifier);
+        if (locator) parts.push(locator);
         // An optional ledger note states what the linked copy is (a third-party
         // rehost, a second inspected version) so the reader is not left to infer
         // provenance from the URL alone.
-        const note = r.bibliography_note ? ` ${esc(r.bibliography_note)}` : '';
-        return `<p id="ref-${r.source_id}">[${r.source_id}] ${esc(authors)}.${date} ${esc(r.title)}.${locator}${note}</p>`;
+        if (r.bibliography_note) parts.push(esc(r.bibliography_note));
+        return `<p id="ref-${r.source_id}">${parts.join(' ')}</p>`;
       }).join('\n')
     : '<p id="references-pending">The bibliography is generated from chapter citations against the source ledger; skeleton chapters carry no citations yet.</p>';
   return `<section id="references">\n<h2>References</h2>\n${body}\n</section>`;
 }
 
-const STYLE = '*{box-sizing:border-box}body{margin:0;background:#f1f2f1;color:#20262b;font:18px/1.65 Georgia,"Times New Roman",serif}main,nav{max-width:900px;margin:auto}main{padding:48px 60px 64px;background:white}nav{padding:18px 24px;font:15px/1.5 Arial,sans-serif}h1,h2,h3,h4{font-family:Arial,sans-serif;line-height:1.2;color:#203a49}h1{font-size:2.3rem;margin:0 0 24px}h2{font-size:1.4rem;margin:34px 0 16px}h3{font-size:1.1rem;margin:24px 0 14px}h4{font-size:1rem;margin:20px 0 12px}p{margin:0 0 17px}a{color:#075c75;text-underline-offset:.15em}.meta{font:14px/1.5 Arial,sans-serif;color:#48565f}.status{font:14px/1.6 Arial,sans-serif;color:#5a4a22;background:#faf5e6;border:1px solid #e3d5a8;border-radius:6px;padding:10px 14px;margin:16px 0 26px}#abstract{border-block:1px solid #bfcdd3;padding-bottom:8px}#references{font-size:.85em;overflow-wrap:anywhere}#references p{padding-left:1.4em;text-indent:-1.4em}em{font-style:italic}@media(max-width:640px){body{font-size:17px}main{padding:28px 23px 40px}h1{font-size:1.85rem}}@page{size:A4;margin:20mm 19mm 22mm}@media print{body{background:white;color:black;font-size:10.7pt;line-height:1.43}main{margin:0;padding:0;max-width:none}.screen-only{display:none}h1{font-size:23pt}h2{font-size:14pt;margin-top:20pt}h3{font-size:11.5pt}h4{font-size:10.5pt}h1,h2,h3,h4{break-after:avoid}p{orphans:3;widows:3}.meta,.status{font-size:9pt}#references{font-size:9pt}#references p{break-inside:avoid}a{color:#163f52}}';
+// Site redesign (applied 2026-09-15 from the "Consciousness Project redesign"
+// Claude Design package): warm paper palette, serif stack with local fallbacks
+// only (the contract forbids external font loads), a sticky contents rail in a
+// two-column grid, margin paragraph-id labels driven by data-pid, and hover
+// citation popovers driven by data-cite. The inline styles the design package
+// emitted are expressed here as stylesheet rules so the generated markup stays
+// clean and the visual layer lives in one place.
+const STYLE = [
+  ':root{--color-bg:#f3f2f2;--color-surface:#eae9e9;--color-text:#201f1d;--color-accent:#b68235;--color-accent-600:#a06f24;--color-accent-700:#7d5411;--color-divider:color-mix(in srgb,#201f1d 16%,transparent);--font-heading:"Cormorant Garamond",Georgia,"Times New Roman",serif;--font-body:"Lora",Georgia,"Times New Roman",serif}',
+  '*,*::before,*::after{box-sizing:border-box}',
+  '.shell{min-height:100vh}',
+  'body{margin:0;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body);font-size:17px;line-height:28px;text-wrap:pretty}',
+  'a{color:var(--color-accent-700);text-underline-offset:3px}a:hover{color:var(--color-accent-600)}',
+  ':focus{outline:none}:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}',
+  '::selection{background:color-mix(in srgb,var(--color-accent) 30%,transparent)}',
+  'em{font-style:italic}code{font-family:ui-monospace,Menlo,monospace;font-size:14px}',
+  'nav.site{display:flex;align-items:center;gap:18.4px;padding:13.8px max(clamp(20px,5vw,72px),calc((100% - 1200px)/2 + clamp(20px,5vw,72px)));border-bottom:1px solid var(--color-divider)}',
+  'nav.site .brand{font-family:var(--font-heading);font-weight:600;font-size:18px;margin-right:auto;color:inherit;text-decoration:none}',
+  '.navlinks{display:flex;gap:18.4px;font-size:14px}.navlinks a{color:inherit;text-decoration:none;white-space:nowrap}',
+  '.page{max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);display:grid;grid-template-columns:200px minmax(0,1fr);gap:0 clamp(72px,8vw,120px);align-items:start}',
+  '.rail{position:sticky;top:0;padding:56px 0;font-size:13px;line-height:20px;max-height:100vh;overflow:auto;color:color-mix(in srgb,var(--color-text) 70%,transparent)}',
+  '.toc a{color:inherit;text-decoration:none;display:block;padding:4px 0}.toc a:hover{color:var(--color-accent-700)}',
+  ".toc .num{display:inline-block;width:2.4em;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--color-text) 45%,transparent)}",
+  'main{max-width:66ch;padding:56px 0;position:relative}',
+  'h1,h2,h3,h4{font-family:var(--font-heading)}',
+  'h1{font-weight:400;font-size:clamp(40px,4.4vw,56px);line-height:1.08;letter-spacing:-.01em;margin:0 0 28px -.042em}',
+  'h2{font-weight:400;font-size:34px;line-height:40px;letter-spacing:-.008em;margin:84px 0 28px}',
+  'h3{font-weight:400;font-size:25px;line-height:30px;margin:42px 0 14px}',
+  'h4{font-weight:600;font-size:19px;line-height:26px;margin:28px 0 9px}',
+  '.secno{display:block;font-weight:400;font-size:64px;line-height:64px;font-variant-numeric:lining-nums tabular-nums;letter-spacing:-.01em;color:color-mix(in srgb,var(--color-text) 40%,transparent);margin:0 0 9px}',
+  '.sectitle{display:block}',
+  'p{margin:0 0 14px}main p{position:relative;text-align:justify;hyphens:auto}',
+  'ul{margin:0 0 14px;padding-left:1.2em}li{margin:0 0 9px}',
+  "main p.kicker,p.kicker{font-size:13px;line-height:14px;letter-spacing:.08em;text-transform:uppercase;color:var(--color-accent-700);font-feature-settings:'tnum' 1;margin:0 0 28px;text-align:left;hyphens:manual}",
+  '.rail .kicker{font-size:11px;line-height:14px;margin:0 0 14px}',
+  'main p.meta{margin:0;font-size:13px;line-height:20px;color:color-mix(in srgb,var(--color-text) 70%,transparent);text-align:left;hyphens:manual}',
+  'main p.status-line{font-size:13px;line-height:20px;margin:28px 0 0;padding:14px 0;border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider);color:color-mix(in srgb,var(--color-text) 70%,transparent);text-align:left;hyphens:manual}',
+  '#abstract{border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider);padding:0 0 14px;margin-top:56px}#abstract h2{margin:42px 0 28px}',
+  '#contents ul{list-style:none;margin:0;padding:0;columns:2;column-gap:28px}#contents li{margin:0 0 6px;font-size:15px;line-height:24px;break-inside:avoid}#contents a{color:inherit}',
+  '#references p{margin:0 0 9px;padding-left:1.4em;text-indent:-1.4em;font-size:14px;line-height:22px;overflow-wrap:anywhere;text-align:left;hyphens:manual}',
+  '.cite{position:relative;text-decoration:none;border-bottom:1px solid var(--color-accent);color:inherit}.cite:hover,.cite:focus-visible{color:var(--color-accent-700)}',
+  '.cite::after{content:attr(data-cite);position:absolute;left:0;top:calc(100% + 6px);z-index:5;width:min(38ch,70vw);padding:9.2px 13.8px;font-size:13px;line-height:20px;text-align:left;hyphens:manual;font-style:normal;font-weight:400;color:var(--color-text);background:var(--color-surface);border:1px solid var(--color-divider);border-radius:4px;box-shadow:0 3px 10px color-mix(in srgb,#2d2b2b 16%,transparent);display:none;text-indent:0}',
+  '.cite:hover::after,.cite:focus-visible::after{display:block}',
+  "p[data-pid]::before{content:attr(data-pid);position:absolute;right:calc(100% + 18px);top:0;width:80px;text-align:right;font-size:11px;line-height:28px;letter-spacing:.04em;font-feature-settings:'tnum' 1;color:color-mix(in srgb,var(--color-text) 45%,transparent);white-space:nowrap}",
+  '#status{grid-column:2;max-width:66ch;padding:28px 0 84px;border-top:1px solid var(--color-divider)}',
+  '#status p,#status .status,.status{margin:0 0 9px;font-size:14px;line-height:22px;color:color-mix(in srgb,var(--color-text) 70%,transparent);text-align:justify;hyphens:auto}',
+  '.meta{font-size:13px;line-height:20px;color:color-mix(in srgb,var(--color-text) 70%,transparent)}',
+  '@media (max-width:1000px){.rail{display:none}.page{grid-template-columns:minmax(0,1fr)}#status{grid-column:auto}p[data-pid]::before{display:none}}',
+  '@media (max-width:640px){.navlinks{display:none}}',
+  '@page{size:A4;margin:20mm 19mm 22mm}',
+  // Print keeps the PDF text layer faithful to the HTML text: no auto
+  // hyphenation (real hyphen glyphs would break the PDF/HTML text
+  // correspondence check), no uppercase transform on kickers, and static
+  // positioning everywhere (positioned elements paint in a separate phase,
+  // which scrambles PDF text-extraction order mid-paragraph).
+  '@media print{body{background:white;color:black;font-size:10.7pt;line-height:1.43}nav.site,.rail,.screen-only{display:none}.page{display:block;padding:0}main{max-width:none;padding:0;position:static}main p,.cite{position:static}main p,p,li{hyphens:manual}main p.kicker,p.kicker{text-transform:none;letter-spacing:normal}p[data-pid]::before{display:none}.cite{border:0;color:#163f52}.cite::after{display:none!important}h1{font-size:23pt}h2{font-size:14pt;margin:20pt 0 8pt}h3{font-size:11.5pt}h4{font-size:10.5pt}.secno{font-size:14pt;line-height:1.2;display:inline;margin-right:6pt}.sectitle{display:inline}h1,h2,h3,h4{break-after:avoid}p{orphans:3;widows:3}main p.kicker,p.kicker{margin:0 0 8pt}#references p{break-inside:avoid}a{color:#163f52}}',
+].join('');
 
 function readPaperMeta() {
   const html = readText('paper/paper.html');
@@ -318,7 +429,8 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
   }
   const ctx = {
     sources: records.S, records, cited: new Set(), paragraphIds: new Set(), chapterParagraphs: [],
-    paragraphCites: new Map(), released, statusAllowlist,
+    sourceRows: new Map(readJSON('records/sources.json').map(r => [r.source_id, r])),
+    paragraphCites: new Map(), paragraphPaths: new Map(), released, statusAllowlist,
     limitationsSeen: false,
     uniqueId(base) {
       let id = base, n = 1;
@@ -357,9 +469,13 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
 
   const statusNote = meta => meta.status === 'accepted' ? ''
     : `<p class="meta">Chapter status: ${meta.status}; not an accepted research deliverable.</p>`;
+  // Section headings render the chapter number (or appendix letter) as a
+  // large block span above the title, per the site redesign.
+  const sectionHeading = (no, title) =>
+    `<h2><span class="secno">${esc(String(no))}</span><span class="sectitle">${esc(title)}</span></h2>`;
   const renderChapter = (c, sectionId) => {
     usedIds.add(sectionId);
-    c.html = `<section id="${sectionId}">\n<h2>${c.number}. ${esc(c.meta.title)}</h2>\n${statusNote(c.meta)}\n` +
+    c.html = `<section id="${sectionId}">\n${sectionHeading(c.number, c.meta.title)}\n${statusNote(c.meta)}\n` +
       renderBlocks(c.blocks, c.prefix, c.meta, ctx) + '\n</section>';
     return c.html;
   };
@@ -386,13 +502,22 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
     appendices.map(a => `<li><a href="#appendix-${a.meta.appendix.toLowerCase()}">${esc(a.title)}</a></li>`).join('') +
     '<li><a href="#references">References</a></li></ul>\n</section>';
 
+  // "Appendix A. Case evidence tables" renders as letter A over the bare title.
+  const appendixTitle = a => a.title.replace(new RegExp(`^Appendix ${a.meta.appendix}[.:]?\\s*`), '');
   const appendixSections = appendices.map(a => {
     const id = `appendix-${a.meta.appendix.toLowerCase()}`;
     usedIds.add(id);
-    a.html = `<section id="${id}">\n<h2>${esc(a.title)}</h2>\n${statusNote(a.meta)}\n` +
+    a.html = `<section id="${id}">\n${sectionHeading(a.meta.appendix, appendixTitle(a))}\n${statusNote(a.meta)}\n` +
       renderBlocks(a.blocks, a.prefix, a.meta, ctx) + '\n</section>';
     return a.html;
   }).join('\n');
+
+  // Sticky contents rail (screen only; the in-document Contents section stays
+  // for print and for narrow viewports where the rail is hidden).
+  const rail = '<aside class="rail toc" aria-label="Contents">\n<p class="kicker">Contents</p>\n' +
+    numbered.map(c => `<a href="#${c.sectionId}"><span class="num">${c.number}</span>${esc(c.meta.title)}</a>`).join('') +
+    appendices.map(a => `<a href="#appendix-${a.meta.appendix.toLowerCase()}"><span class="num">${esc(a.meta.appendix)}</span>${esc(appendixTitle(a))}</a>`).join('') +
+    '<a href="#references"><span class="num"></span>References</a>\n</aside>';
 
   const bodySections = [
     frontSections,
@@ -426,20 +551,29 @@ function build({check = false, out = '.paper-build/thesis', publish = false} = {
 <style>${STYLE}</style>
 </head>
 <body>
-<nav class="screen-only" aria-label="Thesis navigation"><a href="index.html">Start page</a> · <a href="companion.html">Plain-language overview</a> · <a href="paper.html">Research article</a></nav>
-${remaining}
+<div class="shell">
+<nav class="site screen-only" aria-label="Thesis navigation"><a class="brand" href="index.html">Consciousness Project</a><div class="navlinks"><a href="companion.html">Overview</a><a href="paper.html">Article</a><a href="thesis.html" aria-current="page">Thesis</a></div></nav>
+<div class="page">
+${rail}
 <main id="paper">
 <header>
+<p id="publication-status" class="kicker">${released ? 'Reviewed research synthesis' : 'Draft: P2R20 and P2G2 pending'}</p>
 <h1 id="paper-title">${esc(config.title)}</h1>
-<p id="authors">${esc(config.authors)}</p>
+<p id="authors" class="meta">${esc(config.authors)}</p>
 <p class="meta">Project direction: ${esc(config.project_direction)}</p>
 <p id="ai-disclosure" class="meta">${esc(config.ai_disclosure)}</p>
 <p id="version-notice" class="meta">Published with article version <span id="paper-version">${esc(paperMeta.version)}</span> · <span id="paper-date">${esc(paperMeta.date)}</span>. ${released ? `Thesis ${esc(config.version)}.` : `Thesis working draft ${esc(config.version)}.`}</p>
-<p id="publication-status" class="meta">${released ? 'Reviewed research synthesis' : 'Draft: P2R20 and P2G2 pending'}</p>
+<p class="status-line">${released ? `The released thesis, version ${esc(config.version)}: internally reviewed and accepted, not externally peer reviewed.` : `Thesis working draft ${esc(config.version)}: not a released manuscript and not externally peer reviewed.`} <a href="#status">Read the full statement.</a></p>
 </header>
 
 ${bodySections}
 </main>
+<section id="status">
+<p class="kicker">Status of this text</p>
+${remaining}
+</section>
+</div>
+</div>
 </body>
 </html>
 `;
